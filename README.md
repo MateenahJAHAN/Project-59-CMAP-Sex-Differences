@@ -93,4 +93,6 @@ Higher on the y-axis = stronger statistical evidence of a sex difference.
 
 ## Author
 
-Mateenah Jahan — Project 59, supervised by Marouen.
+**Mateenah Jahan** — Project 59
+
+Supervised by [**Marouen Ben Guebila, PhD**](https://labs.dana-farber.org/viswanathanlab/people/marouen-ben-guebila-phd) (Viswanathan Lab, Dana-Farber Cancer Institute).
