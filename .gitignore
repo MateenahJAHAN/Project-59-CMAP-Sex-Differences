@@ -1,0 +1,39 @@
+# Large data files (not tracked — download from sources)
+*.gctx
+*.tar.gz
+siginfo_beta.txt
+cellinfo_beta.txt
+geneinfo_beta.txt
+GTEx_Analysis_v8_sbgenes/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Colab/Drive temporary files
+drive/
+sample_data/

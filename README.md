@@ -1,101 +1,174 @@
-# Project 59 — CMAP Sex Differences
+# Project 59 — CMAP × GTEx Sex-Biased Drug Response
 
-This project looks at how the same drug can affect male and female cells differently, using public data from the CMAP / LINCS 2020 dataset. The drug studied here is vorinostat (a histone deacetylase inhibitor).
+> Three-phase computational pipeline that screens 50 drugs for tissue-specific
+> sex differences in gene expression. Uses public CMAP/LINCS 2020 and GTEx v8 data.
 
-The whole analysis runs inside one Google Colab notebook: `Project59_CMAP_SexDifferences.ipynb`.
-
----
-
-## Goal of the project
-
-When scientists test a drug, they usually report one average effect. But male and female cells can react differently. The goal here is simple: find which genes respond to vorinostat differently in male vs female cell lines.
-
-Because cell lines have no hormones, any difference found is genetic (sex chromosomes and baseline expression), not hormonal. These sex-different genes are candidates for follow-up biological interpretation.
+[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
+[![Colab](https://img.shields.io/badge/run%20on-Colab-orange.svg)](https://colab.research.google.com/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Fatima Fellowship](https://img.shields.io/badge/Fatima%20Fellowship-2026-purple.svg)](https://www.fatimafellowship.com/)
 
 ---
 
-## Data used
+## 🎯 The question
 
-- `cellinfo_beta.txt` — metadata about each cell line (donor sex, tissue, cell type)
-- `siginfo_beta.txt` — info about each drug experiment (drug, cell line, dose, time)
-- `geneinfo_beta.txt` — dictionary that maps gene IDs to readable gene symbols
-- `level5_beta_trt_cp_n720216x12328.gctx` — the big gene-expression matrix (~33 GB), z-scores for 12,328 genes across 720,216 drug-treatment signatures
+Drug studies usually report a single average effect. But male and female cells
+often respond differently. This project asks:
 
-All files come from the official clue.io LINCS 2020 public source.
+> **Does a drug's sex-specific effect on gene expression match the tissue's
+> natural sex biology?**
 
----
+We screen 50 most-tested drugs from CMAP against 44 GTEx tissues and classify
+each drug into one of three categories:
 
-## Steps in the notebook
-
-1. **Setup** — install cmapPy, import pandas and numpy.
-2. **Download metadata** — cellinfo, siginfo, and geneinfo files.
-3. **Clean the cell info** — drop cell lines with Unknown sex, keep only Male / Female.
-4. **Pick the drug** — find drugs tested in both sexes; choose vorinostat.
-5. **Download the big matrix** — the ~33 GB `.gctx` file.
-6. **Filter signatures** — keep only vorinostat experiments, split them into a Male matrix and a Female matrix.
-7. **Statistical test** — run a Mann–Whitney U test for every gene, comparing male vs female responses.
-8. **Multiple-testing correction** — apply Benjamini–Hochberg FDR to control false positives.
-9. **Effect-size filter** — keep genes where the mean difference between male and female is large (|difference| > 1.0 in z-score units), so the result is not just statistically significant but also meaningful.
-10. **Add gene names** — map gene IDs to readable symbols using `geneinfo_beta.txt`.
-11. **Save results** — export the per-gene results and the standout genes as CSV files.
-12. **Visualise** — a volcano plot and a bar chart of the standout genes.
+| Label | Meaning |
+|-------|---------|
+| **A** | Drug modulates sex-biased genes in its OWN tissue → real signal |
+| **B** | Drug modulates sex-biased genes in a DIFFERENT tissue → off-target |
+| **C** | No significant tissue-specific sex effect |
 
 ---
 
-## Key result
+## 📁 Three phases, three folders
 
-Out of 12,328 genes, **6,877 were statistically significant** (FDR < 0.05). After adding the effect-size filter (|difference| > 1.0), this narrows to **20 standout genes** — 7 respond more strongly in male cells and 13 more strongly in female cells.
+The project progressed in three stages. Each phase has its own folder with
+the notebook, the results, the figures, and a step-by-step README.
 
-**CDKN1A**, a known target of HDAC inhibitors, is among them — which supports that the pipeline is working correctly. None of the 20 genes are sex-chromosome genes, so the differences lie in downstream gene regulation.
+### 📂 [Phase1_Vorinostat/](Phase1_Vorinostat/)
 
-Output files saved by the notebook:
+**Single-drug pilot.** Built and tested the male-vs-female differential
+expression pipeline on one drug (vorinostat, an HDAC inhibitor).
 
-- `vorinostat_all_genes_results.csv` — full per-gene table with statistics for all 12,328 genes
-- `vorinostat_top20_sex_genes.csv` — the 20 significant, large-effect genes
-- `vorinostat_signatures.csv` — the list of vorinostat experiments used
-- `volcano_vorinostat.png` — volcano plot of the results
-- `top20_genes_vorinostat.png` — bar chart of the 20 standout genes
+- Found **20 sex-biased genes** (7 male-biased, 13 female-biased)
+- Validated the method by recovering **CDKN1A** (a known HDAC target)
 
----
+### 📂 [Phase2_Fishers_50Drugs/](Phase2_Fishers_50Drugs/)
 
-## A quick note on -log10(p)
+**Scaled to 50 drugs with Fisher's exact test.** Added the GTEx sex-biased
+gene library and the A/B/C classification.
 
-P-values can be very small numbers like 0.0000001. If you plot them as-is, all the important genes squish together near zero.
+- 49 of 50 drugs → Category C (no signal)
+- 1 of 50 → Category A: AS-605240 (but only 2 DE genes → **likely artifact**)
+- Honest finding: pooled-across-lineages analysis dilutes tissue-specific signal
 
-`log10` just counts how many zeros a number has. Taking `-log10(p)` flips small p-values into large positive numbers, so the most significant genes appear high up on the volcano plot.
+### 📂 [Phase3_PerLineage_GSEA/](Phase3_PerLineage_GSEA/)
 
-| p-value | -log10(p) |
-|---------|-----------|
-| 0.05    | 1.3       |
-| 0.001   | 3         |
-| 1e-6    | 6         |
+**Proper per-lineage analysis with GSEA.** Followed Marouen's actual
+recommendation — run DE separately per cell lineage and use GSEA
+(`gseapy.prerank`) instead of Fisher's exact test.
 
-Higher on the y-axis = stronger statistical evidence of a sex difference.
-
----
-
-## How to run
-
-1. Open `Project59_CMAP_SexDifferences.ipynb` in Google Colab.
-2. Run the cells from top to bottom.
-3. The ~33 GB `.gctx` download needs a stable connection and enough Colab disk space.
-4. Final CSVs and plots are saved in the Colab working directory and can be downloaded at the end.
+- **3 clean Category A drugs** found: tozasertib, lapatinib, vorinostat
+- **23 Category B drugs** as future follow-up candidates
+- Phase 2's "Cat A" hit (AS-605240) correctly falls to Cat C — confirming it was an artifact
+- This is the **definitive result** of the project
 
 ---
 
-## Tools used
+## 🏆 Headline result
 
-- Python 3
-- `cmapPy` — for reading `.gctx` files
-- `pandas`, `numpy` — data handling
-- `scipy.stats` — Mann–Whitney U test
-- `statsmodels` — FDR correction
-- `matplotlib` — plots
+![Phase 3 classification](Phase3_PerLineage_GSEA/phase3_classification_chart.png)
+
+| Method | Cat A | Cat B | Cat C |
+|--------|-------|-------|-------|
+| Phase 2 (Fisher's, pooled) | 1 (artifact) | 0 | 49 |
+| **Phase 3 (GSEA, per-lineage)** | **3 clean** | **23** | 24 |
+
+### The 3 Category A drugs (from Phase 3)
+
+| Drug | Lineage | GTEx tissue | NES | FDR |
+|------|---------|-------------|-----|-----|
+| **Tozasertib** | haematopoietic | Spleen | −1.475 | 0.001 |
+| **Tozasertib** | haematopoietic | Whole_Blood | −1.342 | 0.007 |
+| **Tozasertib** | haematopoietic | EBV lymphocytes | −1.193 | 0.016 |
+| **Lapatinib** | lung | Lung | +1.267 | 0.032 |
+| **Vorinostat** | large_intestine | Colon_Transverse | −1.189 | 0.029 |
 
 ---
 
-## Author
+## 🚀 Quick start
 
-**Mateenah Jahan** — Fatima Fellowship 2026, Project 59
+```bash
+# Clone the repo
+git clone https://github.com/MateenahJAHAN/Project-59-CMAP-Sex-Differences.git
+cd Project-59-CMAP-Sex-Differences
 
-Mentor: **Marouen Ben Guebila, PhD** — Dana-Farber Cancer Institute
+# Install dependencies
+pip install -r requirements.txt
+```
+
+Then open any phase folder and run the notebook in Google Colab:
+
+| Folder | Notebook | Runtime |
+|--------|----------|---------|
+| `Phase1_Vorinostat/` | `Project59_CMAP_SexDifferences.ipynb` | ~20 min |
+| `Phase2_Fishers_50Drugs/` | `Project59_GTEx_DrugClassification.ipynb` | ~30 min |
+| `Phase3_PerLineage_GSEA/` | `Phase3_PerLineage_GSEA.ipynb` | ~40 min |
+
+For step-by-step explanations and results of each phase, open the
+**README.md inside that phase's folder**.
+
+---
+
+## 📚 Data sources
+
+### CMAP / LINCS 2020 (clue.io)
+
+- `cellinfo_beta.txt` — cell line metadata (donor sex, lineage)
+- `siginfo_beta.txt` — drug experiment metadata
+- `geneinfo_beta.txt` — gene ID translator (Entrez ↔ Ensembl)
+- `level5_beta_trt_cp_n720216x12328.gctx` — z-score matrix, 720,216 signatures × 12,328 genes (33 GB)
+
+### GTEx v8 (gtexportal.org)
+
+- `GTEx_Analysis_v8_sbgenes.tar.gz` — sex-biased genes per tissue
+  (44 tissues × 13,294 genes, LFSR ≤ 0.05)
+
+All inputs are public and free.
+
+---
+
+## 🔬 Why Phase 3 outperformed Phase 2
+
+Two design changes drove the improvement:
+
+| | Phase 2 | Phase 3 |
+|---|---------|---------|
+| DE strategy | Pooled all lineages | Per-lineage separately |
+| Enrichment test | Fisher's exact (binary) | GSEA (full ranked list) |
+| Result | Tissue signal diluted; only 1 fake Cat A | 3 clean Cat A + 23 Cat B |
+
+For full method detail, open each phase's README.
+
+---
+
+## 🛣️ Next steps (Phase 4 ideas)
+
+1. Validate tozasertib's blood signal on isolated cell lines (K562, MOLM13)
+2. Investigate top Cat B drugs (AM-580, vemurafenib) for off-target sex effects
+3. Use GSEA leading-edge analysis to identify driver genes per Cat A hit
+4. Cross-reference findings with published sex-biased drug literature
+
+---
+
+## 📑 Citation
+
+```
+Jahan, M. (2026). Per-lineage GSEA classification of sex-biased drug response
+in CMAP/LINCS 2020 against GTEx v8 sex-biased genes. Fatima Fellowship 2026,
+Project 59. Mentor: Dr. Marouen Ben Guebila (Dana-Farber).
+GitHub: https://github.com/MateenahJAHAN/Project-59-CMAP-Sex-Differences
+```
+
+---
+
+## 👤 Author
+
+**Mateenah Jahan** — Fatima Fellowship 2026
+
+Mentor: [**Marouen Ben Guebila, PhD**](https://labs.dana-farber.org/viswanathanlab/people/marouen-ben-guebila-phd) (Viswanathan Lab, Dana-Farber Cancer Institute)
+
+---
+
+## 📜 License
+
+MIT License. See [LICENSE](LICENSE).

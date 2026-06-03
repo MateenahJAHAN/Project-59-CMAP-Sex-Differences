@@ -1,0 +1,23 @@
+# Project 59 — CMAP × GTEx Sex-Biased Drug Response
+# Python dependencies for all three phases
+
+# Core data handling
+pandas>=2.0
+numpy>=1.24
+
+# CMAP gctx file reader
+cmapPy>=4.0.1
+
+# Statistical tests
+scipy>=1.10
+statsmodels>=0.14
+
+# GSEA (Phase 3 only)
+gseapy>=1.2.0
+
+# Plotting
+matplotlib>=3.7
+
+# Notebook environment
+jupyter>=1.0
+ipykernel
