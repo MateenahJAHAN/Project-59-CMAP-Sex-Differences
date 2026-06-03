@@ -1,0 +1,51 @@
+drug,category,n_lineages_tested,cat_a_evidence_count,cat_b_evidence_count,cat_a_top,cat_b_top
+selumetinib,B,3,0,2,[],"[('haematopoietic_and_lymphoid_tissue', 'Breast_Mammary_Tissue', -1.2082395533306154, np.float64(0.03767660910518053)), ('haematopoietic_and_lymphoid_tissue', 'Heart_Atrial_Appendage', -1.1520446301523486, np.float64(0.04709576138147567))]"
+vorinostat,A,3,1,32,"[('large_intestine', 'Colon_Transverse', -1.1893003595094547, np.float64(0.028884908195253023))]","[('lung', 'Breast_Mammary_Tissue', -1.4313548036631174, np.float64(0.001)), ('lung', 'Liver', -1.3685513401667266, np.float64(0.0021126068586027314)), ('lung', 'Cells_Cultured_fibroblasts', -1.335964951887382, np.float64(0.002464708001703187))]"
+tozasertib,A,3,3,35,"[('haematopoietic_and_lymphoid_tissue', 'Spleen', -1.4745903571620438, np.float64(0.001)), ('haematopoietic_and_lymphoid_tissue', 'Whole_Blood', -1.3418165494335625, np.float64(0.006760651957444578)), ('haematopoietic_and_lymphoid_tissue', 'Cells_EBV.transformed_lymphocytes', -1.1933442436737725, np.float64(0.015537638709214732))]","[('lung', 'Adrenal_Gland', 1.5467642709181544, np.float64(0.0010034069165072105)), ('lung', 'Liver', 1.4284641550058208, np.float64(0.002006813833014421)), ('lung', 'Pituitary', 1.4051342784152152, np.float64(0.001672344860845351))]"
+NVP-BEZ235,B,3,0,3,[],"[('lung', 'Pancreas', 1.2791722037568638, np.float64(0.04773066268911144)), ('lung', 'Cells_EBV.transformed_lymphocytes', -1.2323902791493997, np.float64(0.04499634769905041)), ('large_intestine', 'Heart_Left_Ventricle', 1.148342549780625, np.float64(0.04758172861621138))]"
+fostamatinib,B,3,0,2,[],"[('lung', 'Adrenal_Gland', 1.3031971113351213, np.float64(0.014003500875218806)), ('lung', 'Pituitary', 1.2748324404977502, np.float64(0.013003250812703177))]"
+bortezomib,B,3,0,1,[],"[('lung', 'Breast_Mammary_Tissue', -1.360554057152507, np.float64(0.0038366336633663366))]"
+olaparib,C,2,0,0,[],[]
+BI-2536,C,2,0,0,[],[]
+ABT-737,B,2,0,2,[],"[('lung', 'Cells_EBV.transformed_lymphocytes', 1.2433147742580748, np.float64(0.04653133044413308)), ('lung', 'Cells_Cultured_fibroblasts', 1.2280297151443362, np.float64(0.04858418325784483))]"
+troglitazone,C,2,0,0,[],[]
+NVP-AUY922,C,2,0,0,[],[]
+calcitriol,B,2,0,7,[],"[('large_intestine', 'Cells_EBV.transformed_lymphocytes', 1.5883914699837356, np.float64(0.001)), ('large_intestine', 'Adrenal_Gland', -1.3975048487585802, np.float64(0.0035455754173437733)), ('large_intestine', 'Heart_Left_Ventricle', -1.2465555893986473, np.float64(0.04609248042546905))]"
+AS-605240,C,2,0,0,[],[]
+vemurafenib,B,2,0,20,[],"[('lung', 'Whole_Blood', -1.4173241849525182, np.float64(0.004428511176718684)), ('lung', 'Adrenal_Gland', -1.3257909028863317, np.float64(0.00996415014761704)), ('lung', 'Nerve_Tibial', -1.2661134377905146, np.float64(0.019190215099114297))]"
+PI-103,B,2,0,4,[],"[('large_intestine', 'Liver', 1.2515916377889802, np.float64(0.03438022672365731)), ('large_intestine', 'Nerve_Tibial', 1.2413688245287553, np.float64(0.029032191455532843)), ('large_intestine', 'Esophagus_Gastroesophageal_Junction', 1.216899794957344, np.float64(0.0366722418385678))]"
+afatinib,C,1,0,0,[],[]
+temozolomide,C,2,0,0,[],[]
+atorvastatin,C,2,0,0,[],[]
+rucaparib,C,1,0,0,[],[]
+thioridazine,B,2,0,2,[],"[('lung', 'Nerve_Tibial', -1.3086389312907358, np.float64(0.03418487550237908)), ('large_intestine', 'Brain_Cerebellar_Hemisphere', -1.3037087707890584, np.float64(0.039582086804436874))]"
+ixazomib,B,2,0,4,[],"[('lung', 'Cells_EBV.transformed_lymphocytes', -1.3317813911191945, np.float64(0.018736616702355463)), ('lung', 'Kidney_Cortex', -1.2728555044822947, np.float64(0.022751605995717347)), ('lung', 'Cells_Cultured_fibroblasts', -1.231959109244368, np.float64(0.039257673090649536))]"
+nutlin-3,B,2,0,7,[],"[('lung', 'Minor_Salivary_Gland', -1.2501735452660454, np.float64(0.015753669889008236)), ('lung', 'Small_Intestine_Terminal_Ileum', -1.2234330384720227, np.float64(0.02363050483351235)), ('lung', 'Esophagus_Mucosa', -1.2155185053182147, np.float64(0.015753669889008236))]"
+KU-0063794,B,2,0,2,[],"[('lung', 'Cells_EBV.transformed_lymphocytes', -1.0, np.float64(0.001)), ('large_intestine', 'Pituitary', -1.2652427001980746, np.float64(0.04598387578381606))]"
+simvastatin,C,2,0,0,[],[]
+lapatinib,A,1,1,4,"[('lung', 'Lung', 1.2667492821423116, np.float64(0.03203439190126196))]","[('lung', 'Heart_Atrial_Appendage', 1.2864779792992398, np.float64(0.04118707530162252)), ('lung', 'Breast_Mammary_Tissue', 1.2845800833006982, np.float64(0.02949197984560625)), ('lung', 'Spleen', 1.2450016527620438, np.float64(0.04149216474830121))]"
+AM-580,B,2,0,26,[],"[('lung', 'Adrenal_Gland', 1.5107982032824963, np.float64(0.001)), ('lung', 'Spleen', 1.466547727688054, np.float64(0.001)), ('lung', 'Whole_Blood', 1.3247248277978854, np.float64(0.008754924091532775))]"
+trifluoperazine,C,2,0,0,[],[]
+emetine,B,2,0,1,[],"[('large_intestine', 'Cells_EBV.transformed_lymphocytes', 1.3259625755718578, np.float64(0.001))]"
+YM-155,B,2,0,1,[],"[('lung', 'Pancreas', -1.2564584756848725, np.float64(0.02275769745649264))]"
+ABT-751,B,2,0,16,[],"[('lung', 'Heart_Left_Ventricle', -1.3190201564705957, np.float64(0.02245284250375302)), ('lung', 'Thyroid', -1.3128726627331142, np.float64(0.012629723908361073)), ('lung', 'Brain_Anterior_cingulate_cortex_BA24', -1.283747407475183, np.float64(0.0154363292213302))]"
+RITA,B,2,0,1,[],"[('large_intestine', 'Whole_Blood', -1.3123845461904393, np.float64(0.013671700473594853))]"
+AG-14361,B,2,0,4,[],"[('lung', 'Cells_EBV.transformed_lymphocytes', 1.2023379871775601, np.float64(0.03253502033438771)), ('large_intestine', 'Breast_Mammary_Tissue', 1.4268147246921397, np.float64(0.001)), ('large_intestine', 'Esophagus_Mucosa', 1.3352016042027324, np.float64(0.005889777029869583))]"
+DL-PDMP,C,2,0,0,[],[]
+parbendazole,B,2,0,1,[],"[('large_intestine', 'Cells_EBV.transformed_lymphocytes', 1.0532253153919202, np.float64(0.001))]"
+PJ-34,C,2,0,0,[],[]
+BRD-K61033289,B,2,0,2,[],"[('large_intestine', 'Breast_Mammary_Tissue', -1.434143126739466, np.float64(0.0062266500622665)), ('large_intestine', 'Minor_Salivary_Gland', -1.180122483800966, np.float64(0.03424657534246575))]"
+AZD-8055,C,1,0,0,[],[]
+idarubicin,B,2,0,11,[],"[('lung', 'Liver', 1.3723905431822585, np.float64(0.006330918838761192)), ('lung', 'Heart_Left_Ventricle', 1.2878748261218627, np.float64(0.023213369075457707)), ('lung', 'Brain_Cortex', 1.2852655098678927, np.float64(0.017234167949961025))]"
+mitoxantrone,C,2,0,0,[],[]
+TW-37,C,1,0,0,[],[]
+erlotinib,C,1,0,0,[],[]
+gefitinib,B,1,0,1,[],"[('lung', 'Adrenal_Gland', -1.3574928852753496, np.float64(0.008014754434299505))]"
+masitinib,C,1,0,0,[],[]
+dasatinib,C,0,0,0,[],[]
+barasertib-HQPA,B,1,0,12,[],"[('lung', 'Whole_Blood', 1.4030984952054162, np.float64(0.001)), ('lung', 'Spleen', 1.2567990829184732, np.float64(0.02516842506673446)), ('lung', 'Heart_Left_Ventricle', 1.2499738616743488, np.float64(0.018876318800050845))]"
+serdemetan,C,0,0,0,[],[]
+AZ-628,C,0,0,0,[],[]
+imatinib,C,0,0,0,[],[]
+thalidomide,C,1,0,0,[],[]
+crizotinib,C,0,0,0,[],[]
