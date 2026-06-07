@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 The question
+##  The question
 
 Drug studies usually report a single average effect. But male and female cells
 often respond differently. This project asks:
@@ -64,7 +64,7 @@ recommendation — run DE separately per cell lineage and use GSEA
 
 ---
 
-## 🏆 Headline result
+##  Headline result
 
 ![Phase 3 classification](Phase3_PerLineage_GSEA/phase3_classification_chart.png)
 
@@ -109,7 +109,7 @@ For step-by-step explanations and results of each phase, open the
 
 ---
 
-## 📚 Data sources
+##  Data sources
 
 ### CMAP / LINCS 2020 (clue.io)
 
@@ -141,7 +141,7 @@ For full method detail, open each phase's README.
 
 ---
 
-## 🛣️ Next steps (Phase 4 ideas)
+##  Next steps (Phase 4 ideas)
 
 1. Validate tozasertib's blood signal on isolated cell lines (K562, MOLM13)
 2. Investigate top Cat B drugs (AM-580, vemurafenib) for off-target sex effects
@@ -150,7 +150,7 @@ For full method detail, open each phase's README.
 
 ---
 
-## 📑 Citation
+##  Citation
 
 ```
 Jahan, M. (2026). Per-lineage GSEA classification of sex-biased drug response
@@ -161,7 +161,7 @@ GitHub: https://github.com/MateenahJAHAN/Project-59-CMAP-Sex-Differences
 
 ---
 
-## 👤 Author
+##  Author
 
 **Mateenah Jahan** — Fatima Fellowship 2026
 
