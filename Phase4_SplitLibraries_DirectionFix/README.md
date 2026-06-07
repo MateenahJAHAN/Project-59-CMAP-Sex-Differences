@@ -1,8 +1,8 @@
 # Phase 4 — Split Libraries + Direction Fix (Marouen's Feedback)
 
-After Phase 3, Marouen sent three feedback emails. Phase 4 implements all of his corrections.
+Phase 4 implements all of his corrections.
 
-## Marouen's feedback summary
+## Marouen's feedback summary (i have to fix these issues )
 
 1. Don't compute DE per drug — level 5 data is already z-scores of differential expression.
 2. Build male and female libraries separately per tissue (split by sign of effsize).
