@@ -17,4 +17,4 @@ LARGE FILES - DO NOT PUSH TO GITHUB (over 100 MB limit):
 SOURCE: CLUE / LINCS 2020 - https://clue.io
   s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/
 
-    NOTE: Add only the small data files into this folder.
+  
