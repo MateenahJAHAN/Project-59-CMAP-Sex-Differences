@@ -38,7 +38,7 @@ The project progressed in four stages. Each phase has its own folder with the no
 ### 📂 [Phase2_Fishers_50Drugs/](Phase2_Fishers_50Drugs/)
 **Scaled to 50 drugs with Fisher's exact test.** Added the GTEx sex-biased gene library and the A/B/C classification.
 - 49 of 50 drugs → Category C (no signal)
-- 1 of 50 → Category A: AS-605240 (but only 2 DE genes → **likely artifact**)
+- 1 of 50 → Category A: AS-605240 — but only 2 DE genes, a small-numbers **artifact**, correctly demoted to Category C once the proper GSEA test is applied in Phase 3 (not a real hit)
 - Honest finding: pooled-across-lineages analysis dilutes tissue-specific signal
 
 ### 📂 [Phase3_PerLineage_GSEA/](Phase3_PerLineage_GSEA/)
