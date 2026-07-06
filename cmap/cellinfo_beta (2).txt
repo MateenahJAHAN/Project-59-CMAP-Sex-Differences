@@ -1,0 +1,241 @@
+cell_iname	cellosaurus_id	donor_age	donor_age_death	donor_disease_age_onset	doubling_time	growth_medium	provider_catalog_id	feature_id	cell_type	donor_ethnicity	donor_sex	donor_tumor_phase	cell_lineage	primary_disease	subtype	provider_name	growth_pattern	ccle_name	cell_alias
+1HAE	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	normal fibroblast sample	""	unknown	""	""
+AALE	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	normal epithelium sample	""	unknown	""	""
+AG06263_2	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+AG06840_A	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+AG078N1_1	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+C42	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+CD34	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	normal stem cell sample	""	unknown	""	""
+HAP1	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	chronic myeloid leukemia (cml)	""	unknown	""	""
+HEK293T	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	293T
+HIMG001	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+HIMG002	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+HME	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	normal epithelium sample	""	unknown	""	HMLE
+HMELZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+HPTEC	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	normal epithelium sample	""	unknown	""	""
+HS27A	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+HUES3	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	normal stem cell sample	""	unknown	""	""
+HUH751	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	hepatoma	""	unknown	""	""
+HUVEC	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	normal umbilical vein sample	""	unknown	""	""
+IPS-15-2	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+IPS-3	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+IPS-ND34732	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+LHSAR	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	normal prostate sample	""	unknown	""	""
+MCH58	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF0067SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF015CN	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF022CN	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF027CN	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF033SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF035SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF037SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF040SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF051CN	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF054CN	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF056CN	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF076SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF100SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF117SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF123SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF126CN	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF130CN	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF135CN	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF137CN	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF141SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MCLF162SZ	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MICROGLIA-PSEN1	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+MNEU	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+NAMEC8	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	normal stem cell sample	""	unknown	""	N8
+ND34732_7	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+NKDBA	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+P1A82	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+P2X2B2	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	medullary cystic kidney disease (MCKD) type 1	""	unknown	""	""
+SKB	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+WA09	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	unknown	unknown	normal stem cell sample	""	unknown	""	""
+XC.500	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.L10	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.L100	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P026	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P031	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P033	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P091	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P092	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P901	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P904	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P905	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P906	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P907	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P908	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P909	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P910	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P911	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P912	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P914	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P915	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P922	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P930	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P931	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P932	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P933	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P934	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P935	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.P936	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+XC.R10	""	""			""	""	""	""	pool	Unknown	Unknown	Unknown	unknown	unknown	unknown	""	unknown	""	""
+HME1	CVCL_3383	""			25	(MEBM) along with all the additives can be obtained from Lonza/Clonetics Corporation as a kit: MEGM, Kit Catalog No. CC-3150. ATCC does not use the GA-1000 (gentamycin-amphotericin B mix) provided with kit. Note: Do not filter complete medium	CRL-4010	""	tumor	Unknown	Unknown	Unknown	breast	leukemia	acute myelogenous leukemia (aml)	""	adherent	""	""
+BJAB	CVCL_5711	""			40-69	80% RPMI 1640 + 20% h.i. FBS	""	""	tumor	Unknown	F	Unknown	haematopoietic_and_lymphoid_tissue	lymphoma	lymphoma	""	suspension	""	BJA-B
+HBL1	CVCL_4213	""			48	""	""	""	tumor	Unknown	Unknown	Unknown	haematopoietic_and_lymphoid_tissue	lymphoma	lymphoma	""	unknown	""	""
+OCILY10	CVCL_8795	""			""	""	""	""	tumor	Unknown	F	Unknown	placenta	lymphoma	b-cell lymphoma	""	unknown	OCILY10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Ly10|OCI-LY-10
+TMD8	CVCL_A442	62			30	""	""	""	tumor	Unknown	M	Unknown	haematopoietic_and_lymphoid_tissue	lymphoma	lymphoma	""	suspension	""	TMD-8
+TC32	CVCL_7151	""			24	""	""	""	tumor	Unknown	F	Unknown	bone	bone cancer	ewing's sarcoma	""	adherent	TC32_BONE	TC-32
+H1299	CVCL_0060	""			30	ATCC-formulated RPMI-1640 Medium, ATCC 30-2001. To make the complete growth medium, add the following components to the base medium: fetal bovine serum (ATCC 30-2020) to a final concentration of 10%.	""	""	tumor	Unknown	Unknown	Unknown	lung	lung cancer	non small cell carcinoma	""	adherent	""	""
+H1975	CVCL_1511	""			38.7	ATCC-formulated RPMI-1640 Medium, ATCC 30-2001	""	""	tumor	Unknown	Unknown	Unknown	lung	lung cancer	carcinoma	""	adherent	""	""
+HCC515	CVCL_5136	""			""	""	""	""	tumor	Unknown	F	Unknown	lung	lung cancer	carcinoma	""	adherent	HCC515_LUNG	HCC0515
+SALE	""	""			""	""	""	""	tumor	Unknown	Unknown	Unknown	lung	lung cancer	lung cancer	""	unknown	SALE_LUNG	""
+SHSY5Y	CVCL_0019	""			55	1:1 mixture of ATCC-formulated Eagle's Minimum Essential Medium, Catalog No. 30-2003, and F12 Medium. To make the complete growth medium, add the following components to the base medium: fetal bovine serum to a final concentration of 10%.	CRL-2266	""	tumor	Unknown	F	Metastatic	autonomic_ganglia	neuroblastoma	neuroblastoma	""	mix	SHSY5Y_AUTONOMIC_GANGLIA	SH-SY5Y
+22RV1	CVCL_1045	""			60	RPMI-164 ATCC catalog # 3-21	""	c-63	tumor	Unknown	M	Unknown	prostate	prostate cancer	carcinoma	""	adherent	22RV1_PROSTATE	22Rv-1|22Rv1
+HEC1A	CVCL_0293	71			48	McCoys5A (Hyclone Cat.# SH32.1)	""	c-10	tumor	Unknown	F	Unknown	endometrium	endometrial cancer	adenocarcinoma	""	adherent	HEC1A_ENDOMETRIUM	HEC-1-A
+NL20	CVCL_3756	""			24	Ham's F12 medium with 1.5 g/L sodium bicarbonate, 2.7 g/L glucose, 2.0 mM L-glutamine, 0.1 mM nonessential amino acids, 0.005 mg/ml insulin, 10 ng/ml epidermal growth factor, 0.001 mg/ml transferrin, 500 ng/ml hydrocortisone and 4% fetal bovine serum	""	""	normal	Caucasian	F	Unknown	lung	normal lung sample	normal lung sample	""	adherent	""	NL-20
+PHH	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	haematopoietic_and_lymphoid_tissue	normal blood sample	normal blood sample	""	unknown	""	HEPATOCYTES
+HA1E	""	""			60	MEM-ALPHA (Invitrogen A1049001) supplemented with 10% v/v fetal bovine serum (Sigma F4135) and 1% 100X penicillin-streptomycin-glutamine (Invitrogen 10378-016)	""	""	normal	Unknown	Unknown	Unknown	kidney	normal kidney sample	normal kidney sample	""	unknown	HA1E_KIDNEY	""
+HEK293	CVCL_0045	""			24	ATCC-formulated Eagle's Minimum Essential Medium, Catalog No. 30-2003. To make the complete growth medium, add the following components to the base medium: fetal bovine serum to a final concentration of 10%.	""	""	normal	Unknown	F	Unknown	kidney	normal kidney sample	normal embryonal kidney sample	""	adherent	""	293
+HEKTE	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	kidney	normal kidney sample	normal kidney sample	""	unknown	HEKTE_KIDNEY	HEK TE
+NEU	""	""			""	""	""	""	normal	Unknown	Unknown	Unknown	central_nervous_system	normal stem cell sample	normal stem cell sample	""	unknown	""	NPC-8330-8 NEURONS
+NPC	""	""			28	""	""	""	normal	Unknown	Unknown	Unknown	central_nervous_system	normal stem cell sample	normal stem cell sample	""	unknown	""	NPC-8330-8 NEURAL PROGENITORS
+ASC	CVCL_U602	""			""	""	""	""	normal	Unknown	Unknown	Unknown	soft_tissue	normal soft tissue sample	normal soft tissue sample	""	adherent	""	ADIPOCYTES
+U266B1	CVCL_0566	53			108-144	RPMI-164 (Hyclone Cat.# SH327.2)	TIB-196	""	tumor	Unknown	M	Unknown	haematopoietic_and_lymphoid_tissue	myeloma	plasmacytoma	ATCC	suspension	U266B1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	266 Bl
+HL60	CVCL_0002	36			25	IMDM ATCC catalog #3-25	CCL-240	""	tumor	Unknown	F	Unknown	haematopoietic_and_lymphoid_tissue	leukemia	acute myelogenous leukemia (aml)	ATCC	suspension	HL60_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	HL-60|HL 60
+K562	CVCL_0004	53			18-24	IMDM ATCC catalog #3-25	CCL-243	""	tumor	Unknown	F	Metastatic	haematopoietic_and_lymphoid_tissue	leukemia	chronic myelogenous leukemia (cml)	ATCC	suspension	K562_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	K-562|GM05372
+TF1	CVCL_0559	35			70	RPMI-164 ATCC catalog # 3-21	CRL-2003	""	tumor	Japanese	M	Unknown	haematopoietic_and_lymphoid_tissue	leukemia	acute myelogenous leukemia (aml)	ATCC	suspension	TF1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	TF-1
+THP1	CVCL_0006	1			19-50	RPMI-164 ATCC catalog # 3-21	TIB-202	""	tumor	Unknown	M	Unknown	haematopoietic_and_lymphoid_tissue	leukemia	acute myelogenous leukemia (aml)	ATCC	suspension	THP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	THP-1|THP 1
+MINO	CVCL_1872	""			72	RPMI-164	""	""	tumor	Caucasian	M	Unknown	haematopoietic_and_lymphoid_tissue	lymphoma	b-cell lymphoma	ATCC	suspension	MINO_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Mino
+U937	CVCL_0007	37			30-40	RPMI-164 ATCC catalog # 3-21	CRL-1593.2	""	tumor	Unknown	M	Unknown	haematopoietic_and_lymphoid_tissue	lymphoma	b-cell lymphoma	ATCC	suspension	U937_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	U 937|U-937
+A673	CVCL_0080	15			48	DMEM ATCC catalog # 3-22	CRL-1598	c-288	tumor	Unknown	F	Primary	bone	bone cancer	ewing's sarcoma	ATCC	adherent	A673_BONE	A-673
+SKES1	CVCL_0627	18			60	McCoy's 5A ATCC catalog # 3-27	HTB-86	c-353	tumor	Caucasian	M	Primary	bone	bone cancer	ewing's sarcoma	ATCC	adherent	SKES1_BONE	SK-ES|SK-ES-1
+U2OS	CVCL_0042	15			60	McCoy's 5A ATCC catalog # 3-27	HTB-96	c-62	tumor	Caucasian	F	Primary	bone	bone cancer	osteosarcoma	ATCC	adherent	U2OS_BONE	2T|U-2 OS
+A549	CVCL_0023	58			48	F-12K ATCC catalog # 3-24	CCL-185	c-4	tumor	Caucasian	M	Primary	lung	lung cancer	non small cell carcinoma	ATCC	adherent	A549_LUNG	A 549
+HCC827	CVCL_2063	39			48	RPMI Invitrogen # 224-71	CRL-2868	c-12	tumor	Caucasian	F	Primary	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	HCC827_LUNG	HCC-827
+NCIH1437	CVCL_1472	60			48	RPMI-164 ATCC catalog # 3-21	CRL-5872	c-14	tumor	Caucasian	M	Metastatic	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	NCIH1437_LUNG	H-1437|NCI-H1437
+NCIH1563	CVCL_1475	""			48	RPMI-164 ATCC catalog # 3-21	CRL-5875	c-186	tumor	Unknown	M	Primary	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	NCIH1563_LUNG	H1563|H-1563|NCI-H1563
+NCIH1573	CVCL_1478	35			48	RPMI-164 Invitrogen catalog # 11875-93	CRL-5877	c-179	tumor	Caucasian	F	Metastatic	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	NCIH1573_LUNG	NCI-H1573|H-1573
+NCIH1694	CVCL_1489	61			""	RPMI-164 ATCC catalog # 3-21	CRL-5888	""	tumor	Caucasian	M	Metastatic	lung	lung cancer	small cell lung carcinoma	ATCC	suspension	NCIH1694_LUNG	H-1694|NCI-H1694
+NCIH1781	CVCL_1494	66			""	RPMI-164 ATCC catalog # 3-21	CRL-5894	""	tumor	Caucasian	F	Metastatic	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	NCIH1781_LUNG	H-1781|NCI-H1781
+NCIH1836	CVCL_1498	52			""	DMEM:HAM's F12 1:1 ATCC catalog # 3-26	CRL-5898	""	tumor	Caucasian	M	Primary	lung	lung cancer	small cell lung carcinoma	ATCC	suspension	NCIH1836_LUNG	H-1836|NCI-H1836
+NCIH1975	CVCL_1511	""			48	RPMI-164 (Hyclone Cat.# SH327.2)	CRL-5908	c-25	tumor	Unknown	F	Unknown	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	NCIH1975_LUNG	NCI-H1975|H-1975
+NCIH2073	CVCL_1521	47			96	RPMI-164 (instead of ACL-4 with additives)	CRL-5918	""	tumor	Caucasian	F	Primary	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	NCIH2073_LUNG	H-2073|NCI-H2073
+NCIH2110	CVCL_1530	""			84	RPMI-164 (Hyclone Cat.# SH327.2)	CRL-5924	c-399	tumor	Unknown	Unknown	Metastatic	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	NCIH2110_LUNG	NCI-H2110|H2110|H-2110
+NCIH2172	CVCL_1537	""			48	RPMI-164 (Hyclone Cat.# SH327.2)	CRL-5930	c-107	tumor	Unknown	F	Primary	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	NCIH2172_LUNG	H-2172|NCI-H2172
+NCIH596	CVCL_1571	73			48	RPMI-164 (Hyclone Cat.# SH327.2)	HTB-178	c-123	tumor	Caucasian	M	Primary	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	NCIH596_LUNG	NCI-H596|H-596
+NCIH838	CVCL_1594	59			48	RPMI-164 (Hyclone Cat.# SH327.2)	CRL-5844	c-295	tumor	Caucasian	M	Metastatic	lung	lung cancer	non small cell lung carcinoma	ATCC	adherent	NCIH838_LUNG	H-838|NCI-H838
+NCIH841	CVCL_1595	51			96	DMEM/F12 (Hyclone Cat.# SH323.1)	CRL-5845	c-477	tumor	Caucasian	M	Metastatic	lung	lung cancer	small cell lung carcinoma	ATCC	mix	NCIH841_LUNG	NCI-H841|H-841
+SKLU1	CVCL_0629	60			48	MEM (Invitrogen catalogue #12571-63)	HTB-57	c-195	tumor	Caucasian	F	Unknown	lung	lung cancer	adenocarcinoma	ATCC	adherent	SKLU1_LUNG	SK-LU-1|SK LU 1
+A375	CVCL_0132	54			36	DMEM Invitrogen catalog # 11995-65	CRL-1619	c-127	tumor	Unknown	F	Metastatic	skin	skin cancer	melanoma	ATCC	adherent	A375_SKIN	A 375|A-375
+SH4	CVCL_1692	60			60	DMEM	CRL-7724	c-65	tumor	Caucasian	F	Metastatic	skin	skin cancer	melanoma	ATCC	adherent	SH4_SKIN	SH-4
+SKMEL1	CVCL_0068	29			35.1	EMEM ATCC catalog # 3-23	HTB-67	""	tumor	Caucasian	M	Metastatic	skin	skin cancer	melanoma	ATCC	suspension	SKMEL1_SKIN	SK-MEL-1|SK 1
+SKMEL28	CVCL_0526	51			>120	EMEM ATCC catalog # 3-23	HTB-72	""	tumor	Unknown	M	Unknown	skin	skin cancer	melanoma	ATCC	adherent	SKMEL28_SKIN	SK-MEL-28|AU-Mel
+SKMEL3	CVCL_0550	42			108	McCoy's 5A Invitrogen catalog # 166-82	HTB-69	c-534	tumor	Caucasian	F	Metastatic	skin	skin cancer	melanoma	ATCC	adherent	SKMEL3_SKIN	Sk-mel-3
+SKMEL5	CVCL_0527	24			108	RPMI-164 Invitrogen catalog # 11875-93	HTB-70	c-473	tumor	Caucasian	F	Primary	skin	skin cancer	melanoma	ATCC	adherent	SKMEL5_SKIN	SK-MEL-5|AA-Mel
+LN229	CVCL_0393	60			48	DMEM ATCC catalog # 3-22	CRL-2611	c-287	tumor	Caucasian	F	Primary	central_nervous_system	brain cancer	astrocytoma	ATCC	adherent	LN229_CENTRAL_NERVOUS_SYSTEM	LN-229|LN 229
+DLD1	CVCL_0248	""			33	ATCC-formulated RPMI-1640 Medium, ATCC 30-2001. To make the complete growth medium, add the following components to the base medium: fetal bovine serum (ATCC 30-2020) to a final concentration of 10%.	CCL-221	""	tumor	Unknown	M	Unknown	large_intestine	colon cancer	adenocarcinoma	ATCC	adherent	DLD1_LARGE_INTESTINE	DLD 1|DLD-1
+HCT116	CVCL_0291	""			24	McCoy's 5A Invitrogen catalog # 166-82	CCL-247	c-269	tumor	Unknown	M	Primary	large_intestine	colon cancer	carcinoma	ATCC	adherent	HCT116_LARGE_INTESTINE	HCT-116
+HT29	CVCL_0320	44			36	McCoy's 5A Invitrogen catalog # 166-82	HTB-38	c-272	tumor	Caucasian	F	Primary	large_intestine	colon cancer	adenocarcinoma	ATCC	adherent	HT29_LARGE_INTESTINE	HT 29
+LOVO	CVCL_0399	56			36	ATCC-formulated F-12K Medium, Catalog No. 30-2004	CCL-229	c-254	tumor	Caucasian	M	Metastatic	large_intestine	colon cancer	adenocarcinoma	ATCC	adherent	LOVO_LARGE_INTESTINE	LoVo
+NCIH508	CVCL_1564	55			32	RPMI-164 ATCC catalog # 3-21	CCL-253	""	tumor	Caucasian	M	Metastatic	large_intestine	colon cancer	adenocarcinoma	ATCC	mix	NCIH508_LARGE_INTESTINE	H-508|NCI-H508
+NCIH716	CVCL_1581	33			50	RPMI-164 ATCC catalog # 3-21	CCL-251	""	tumor	Caucasian	M	Primary	large_intestine	colon cancer	adenocarcinoma	ATCC	suspension	NCIH716_LARGE_INTESTINE	H-716|NCI-H716
+RKO	CVCL_0504	""			24	MEM (Invitrogen catalogue #12571-63)	""	c-77	tumor	Unknown	Unknown	Unknown	large_intestine	colon cancer	adenocarcinoma	ATCC	adherent	RKO_LARGE_INTESTINE	""
+SW480	CVCL_0546	50			48	RPMI-164 ATCC catalog # 3-21	CCL-228	c-103	tumor	Caucasian	M	Primary	large_intestine	colon cancer	adenocarcinoma	ATCC	adherent	SW480_LARGE_INTESTINE	SW-480|SW 480
+SW620	CVCL_0547	51			48	DMEM Invitrogen catalog # 11995-65	CCL-227	c-101	tumor	Caucasian	M	Metastatic	large_intestine	colon cancer	adenocarcinoma	ATCC	adherent	SW620_LARGE_INTESTINE	SW 620
+SW948	CVCL_0632	81			48	RPMI-164 ATCC catalog # 3-21	CCL-237	c-8	tumor	Caucasian	F	Primary	large_intestine	colon cancer	adenocarcinoma	ATCC	adherent	SW948_LARGE_INTESTINE	SW 948|SW-948
+HEPG2	CVCL_0027	15			84	EMEM ATCC catalog # 3-23	HB-8065	""	tumor	Caucasian	M	Primary	liver	liver cancer	carcinoma	ATCC	adherent	HEPG2_LIVER	Hep G2|HEP-G2
+BT20	CVCL_0178	74			70	EMEM ATCC catalog # 3-23	HTB-19	""	tumor	Caucasian	F	Primary	breast	breast cancer	carcinoma	ATCC	adherent	BT20_BREAST	BT 20|BT-20
+BT474	CVCL_0179	60			120	Hybricare medium ATCC catalog # 46-X	HTB-20	c-550	tumor	Caucasian	F	Primary	breast	breast cancer	carcinoma	ATCC	adherent	BT474_BREAST	BT-474
+HS578T	CVCL_0332	74			>120	DMEM ATCC catalog # 3-22	HTB-126	""	tumor	Caucasian	F	Primary	breast	breast cancer	carcinoma	ATCC	adherent	HS578T_BREAST	578T
+MCF10A	CVCL_0598	""			20	(MEBM) along with the additives can be obtained from Lonza/Clonetics Corporation as a kit: MEGM, Kit Catalog No. CC-3150	""	""	tumor	Caucasian	F	Unknown	breast	breast cancer	carcinoma	ATCC	adherent	""	MCF 10A|MCF-10A
+MCF7	CVCL_0031	40			72	EMEM ATCC catalog # 3-23	HTB-22	c-438	tumor	Caucasian	F	Metastatic	breast	breast cancer	adenocarcinoma	ATCC	adherent	MCF7_BREAST	IBMF-7
+MDAMB231	CVCL_0062	51			60	RPMI-164 Invitrogen catalog # 11875-93	HTB-26	c-344	tumor	Caucasian	F	Metastatic	breast	breast cancer	adenocarcinoma	ATCC	adherent	MDAMB231_BREAST	MB231|MDA-MB-231
+MDAMB468	CVCL_0419	51			60	DMEM ATCC catalog # 3-22	HTB-132	c-330	tumor	Black	F	Metastatic	breast	breast cancer	adenocarcinoma	ATCC	adherent	MDAMB468_BREAST	MB468|MDA-MB-468
+SKBR3	CVCL_0033	43			>120	McCoy's 5A ATCC catalog # 3-27	HTB-30	""	tumor	Caucasian	F	Metastatic	breast	breast cancer	adenocarcinoma	ATCC	adherent	SKBR3_BREAST	Sk-Br-3
+T47D	CVCL_0553	54			72	RPMI-164 ATCC catalog # 3-21	HTB-133	c-213	tumor	Unknown	F	Metastatic	breast	breast cancer	carcinoma	ATCC	adherent	T47D_BREAST	T-47D|T-47-D
+ZR751	CVCL_0588	63			72	RPMI-164 ATCC catalog # 3-21	CRL-1500	c-244	tumor	Caucasian	F	Metastatic	breast	breast cancer	carcinoma	ATCC	adherent	ZR751_BREAST	ZR-75-1|ZR75_1
+G401	CVCL_0270	3 months			48	McCoys5A	CRL-1441	c-108	tumor	Caucasian	M	Primary	soft_tissue	kidney cancer	carcinoma	ATCC	adherent	G401_SOFT_TISSUE	G 401|G-401
+SKNSH	CVCL_0531	4			48	EMEM ATCC catalog # 3-23	HTB-11	""	tumor	Unknown	F	Metastatic	central_nervous_system	neuroblastoma	neuroblastoma	ATCC	adherent	SKNSH_AUTONOMIC_GANGLIA	SK-N-SH|NSH
+5637	CVCL_0126	68			48	ATCC-formulated RPMI-1640 Medium, ATCC 30-2001. To make the complete growth medium, add the following components to the base medium: fetal bovine serum (ATCC 30-2020) to a final concentration of 10%.	HTB-9	c-7	tumor	Caucasian	M	Primary	urinary_tract	bladder cancer	carcinoma	ATCC	adherent	5637_URINARY_TRACT	""
+J82	CVCL_0359	58			48	MEM (Invitrogen catalogue #12571-63)	HTB-1	c-105	tumor	Caucasian	M	Primary	urinary_tract	bladder cancer	carcinoma	ATCC	adherent	J82_URINARY_TRACT	J 82
+AGS	CVCL_0139	54			24	F-12K ATCC catalog # 3-24	CRL-1739	c-86	tumor	Caucasian	F	Primary	stomach	gastric cancer	adenocarcinoma	ATCC	adherent	AGS_STOMACH	""
+ES2	CVCL_3509	47			24	RPMI-164 (Invitrogen)	CRL-1978	c-81	tumor	Black	F	Unknown	ovary	ovarian cancer	carcinoma	ATCC	adherent	ES2_OVARY	ES-2
+HELA	CVCL_0030	31			24.67	EMEM (EBSS) + 2mM Glutamine + 1% Non Essential Amino Acids (NEAA) + 10% Foetal Bovine Serum (FBS).	CCL-2	""	tumor	Black	F	Unknown	cervix	cervical cancer	adenocarcinoma	ATCC	adherent	""	He La
+DU145	CVCL_0105	69			48	EMEM ATCC catalog # 3-23	HTB-81	c-289	tumor	Caucasian	M	Metastatic	prostate	prostate cancer	carcinoma	ATCC	adherent	DU145_PROSTATE	DU 145
+PC3	CVCL_0035	62			72	F-12K ATCC catalog # 3-24	CRL-1435	c-214	tumor	Caucasian	M	Metastatic	prostate	prostate cancer	adenocarcinoma	ATCC	mix	PC3_PROSTATE	PC.3|PC-3
+RWPE1	CVCL_3791	54			22	Invitrogen (GIBCO) as part of a kit: Keratinocyte Serum Free Medium (K-SFM), Kit Catalog Number 17005-042	CRL-11609	""	tumor	Caucasian	M	Unknown	prostate	prostate cancer	carcinoma	ATCC	adherent	""	RWPE-1
+VCAP	CVCL_2235	""			220	DMEM ATCC catalog # 3-22	""	""	tumor	Caucasian	M	Metastatic	prostate	prostate cancer	adenocarcinoma	ATCC	adherent	VCAP_PROSTATE	Vcap
+A204	CVCL_1058	1			72	ATCC-formulated McCoy's 5a Medium Modified, Catalog No. 30-2007	HTB-82	c-374	tumor	Unknown	F	Primary	soft_tissue	embryonal cancer	rhabdomyosarcoma	ATCC	adherent	A204_SOFT_TISSUE	A-204
+AN3CA	CVCL_0028	55			48	MEM (Invitrogen catalogue #12571-63)	HTB-111	c-110	tumor	Caucasian	F	Metastatic	endometrium	endometrial cancer	adenocarcinoma	ATCC	adherent	AN3CA_ENDOMETRIUM	AN-3|AN3-CA
+TOV112D	CVCL_3612	42			36	1:1 mixture of MCDB 15 and medium 199	CRL-11731	c-150	tumor	Unknown	F	Primary	ovary	endometrial cancer	adenocarcinoma	ATCC	adherent	TOV112D_OVARY	TOV-112D|TOV-112
+WI38	CVCL_0579	3 months			24	ATCC-formulated Eagle's Minimum Essential Medium, Catalog No. 30-2003	CCL-75	""	normal	Caucasian	F	Unknown	lung	normal lung sample	normal lung sample	ATCC	adherent	""	WI-38|AG06814-J
+JURKAT	CVCL_0065	""			25-35	RPMI-164 ATCC catalog # 3-21	""	""	tumor	Unknown	M	Unknown	haematopoietic_and_lymphoid_tissue	leukemia	acute lymphoblastic leukemia (all)	DSMZ	suspension	JURKAT_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	FCCH1024
+NALM6	CVCL_0092	19			36	RPMI-164 ATCC catalog # 3-21	ACC 128	""	tumor	Unknown	M	Unknown	haematopoietic_and_lymphoid_tissue	leukemia	acute lymphoblastic leukemia (all)	DSMZ	suspension	NALM6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	NALM-6|Nalm 6
+PL21	CVCL_2161	24			50	RPMI-164 ATCC catalog # 3-21	""	""	tumor	Unknown	M	Unknown	haematopoietic_and_lymphoid_tissue	leukemia	acute myelogenous leukemia (aml)	DSMZ	suspension	PL21_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	PL-21
+OCILY19	CVCL_1878	27			40	MEM Alpha medium Invitrogen Catalog # A149-1	""	""	tumor	Unknown	F	Primary	haematopoietic_and_lymphoid_tissue	lymphoma	b-cell lymphoma	DSMZ	suspension	OCILY19_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	Ly19|OCI-LY-19
+SUDHL4	CVCL_0539	38			40	RPMI-164 ATCC catalog # 3-21	""	""	tumor	Unknown	M	Primary	haematopoietic_and_lymphoid_tissue	lymphoma	b-cell lymphoma	DSMZ	suspension	SUDHL4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	SU-DHL-4|DHL-4
+WSUDLCL2	CVCL_1902	41			50-70	RPMI-164 ATCC catalog # 3-21	""	""	tumor	Caucasian	M	Primary	haematopoietic_and_lymphoid_tissue	lymphoma	b-cell lymphoma	DSMZ	suspension	WSUDLCL2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	WSU-DLCL(2)|WSU-DLCL2
+BEN	CVCL_1082	71			40-50	DMEM ATCC catalog # 3-22	""	c-176	tumor	Unknown	M	Unknown	lung	lung cancer	non small cell lung cancer	DSMZ	adherent	BEN_LUNG	""
+DV90	CVCL_1184	50			48	RPMI-164 ATCC catalog # 3-21	""	c-511	tumor	Unknown	M	Unknown	lung	lung cancer	adenocarcinoma	DSMZ	adherent	DV90_LUNG	DV-90
+HCC15	CVCL_2057	48			48	RPMI-164 (Hyclone Cat.# SH327.2)	""	c-318	tumor	Unknown	M	Primary	lung	lung cancer	non small cell lung carcinoma	DSMZ	adherent	HCC15_LUNG	HCC-15
+HCC44	CVCL_2060	54			48	RPMI-164 (Hyclone Cat.# SH327.2)	""	c-293	tumor	Unknown	F	Primary	lung	lung cancer	non small cell lung carcinoma	DSMZ	adherent	HCC44_LUNG	HCC-44
+IGR37	CVCL_2075	26			36	DMEM ATCC catalog # 3-22	""	c-135	tumor	Unknown	M	Metastatic	skin	skin cancer	melanoma	DSMZ	adherent	IGR37_SKIN	IGR 37|IGR-37
+MELHO	CVCL_1402	""			60	RPMI-164 ATCC catalog # 3-21	""	c-53	tumor	Unknown	F	Primary	skin	skin cancer	melanoma	DSMZ	adherent	MELHO_SKIN	MEL-HO|Ho
+CL34	CVCL_1980	""			48	DMEM ATCC catalog # 3-22	""	c-248	tumor	Unknown	F	Primary	large_intestine	colon cancer	adenocarcinoma	DSMZ	adherent	CL34_LARGE_INTESTINE	CL-34
+BC3C	CVCL_1958	""			25-30	McCoy's 5A Invitrogen catalog #166-82	""	c-34	tumor	Caucasian	F	Primary	urinary_tract	bladder cancer	transitional cell carcinoma	DSMZ	adherent	BC3C_URINARY_TRACT	BC-3C|BC3c
+CAL29	CVCL_1808	""			50-60	DMEM ATCC catalog # 3-22	""	c-6	tumor	Unknown	F	Primary	urinary_tract	bladder cancer	transitional cell carcinoma	DSMZ	adherent	CAL29_URINARY_TRACT	CAL 29|CAL-29
+VMCUB1	CVCL_1786	""			30-45	DMEM ATCC catalog # 3-22	""	c-141	tumor	Unknown	M	Primary	urinary_tract	bladder cancer	transitional cell carcinoma	DSMZ	adherent	VMCUB1_URINARY_TRACT	VM-CUB-1|VM Cub 1
+EFO27	CVCL_1192	36			36	RPMI-164 ATCC catalog # 3-21	""	c-145	tumor	Unknown	F	Primary	ovary	ovarian cancer	carcinoma	DSMZ	adherent	EFO27_OVARY	EFO 27|EFO-27
+LNCAP	CVCL_0395	50			48-60	ATCC-formulated RPMI-1640 Medium, ATCC 30-2001	""	""	tumor	Caucasian	M	Metastatic	prostate	prostate cancer	carcinoma	DSMZ	adherent	""	LNCap
+YAPC	CVCL_1794	43			48	RPMI-164 (Hyclone Cat.# SH327.2)	""	c-112	tumor	Japanese	M	Unknown	pancreas	pancreatic cancer	carcinoma	DSMZ	adherent	YAPC_PANCREAS	""
+MFE319	CVCL_2112	""			96	RPMI:MEM(1:1) (RPMI-164 (Hyclone Cat.# SH327.2):MEM (Invitrogen catalogue #12571-63))	""	c-448	tumor	Unknown	F	Unknown	endometrium	endometrial cancer	adenocarcinoma	DSMZ	adherent	MFE319_ENDOMETRIUM	MFE-319
+OC314	CVCL_1616	""			48	RPMI-164 (Hyclone Cat.# SH327.2)	""	c-299	tumor	Unknown	F	Primary	ovary	ovarian cancer	carcinoma	ICLC	adherent	OC314_OVARY	OC-314|OC 314
+OC316	CVCL_1618	""			36	""	""	c-30	tumor	Unknown	F	Unknown	ovary	ovarian cancer	adenocarcinoma	ICLC	adherent	OC316_OVARY	OC 316|OC-316
+HFL1	CVCL_0298	""			""	ATCC-formulated F-12K Medium, Catalog No. 30-2004. To make the complete growth medium, add the following components to the base medium: fetal bovine serum to a final concentration of 10%.	IFO50074	""	normal	Caucasian	M	Unknown	lung	normal lung sample	normal lung sample	JCRB	adherent	""	""
+IMR90	CVCL_0347	16 weeks			< 24	ATCC-formulated Eagle's Minimum Essential Medium, Catalog No. 30-2003	JCRB0516	""	normal	Caucasian	F	Unknown	lung	normal lung sample	normal lung sample	JCRB	adherent	""	IMR-90|I90
+HCC1588	CVCL_A351	""			60	RPMI-164 Invitrogen catalog # 11875	""	c-345	tumor	Unknown	F	Unknown	lung	lung cancer	non small cell lung carcinoma	KCLB	mix	HCC1588_LUNG	HCC-1588
+HCC95	CVCL_5137	""			60	RPMI-164 Invitrogen catalog # 11875	""	c-329	tumor	Unknown	M	Unknown	lung	lung cancer	non small cell lung carcinoma	KCLB	adherent	HCC95_LUNG	HCC-95
+SNU1040	CVCL_5003	""			63	RPMI-164 Invitrogen catalog # 11875	""	""	tumor	Unknown	M	Unknown	large_intestine	colon cancer	carcinoma	KCLB	mix	SNU1040_LARGE_INTESTINE	NCI-SNU-1040|SNU-1040
+SNU407	CVCL_5058	""			42	RPMI-164 Invitrogen catalog # 11875	""	c-109	tumor	Unknown	M	Unknown	large_intestine	colon cancer	carcinoma	KCLB	adherent	SNU407_LARGE_INTESTINE	NCI-SNU-407|SNU-407
+SNUC4	CVCL_5111	""			27	RPMI-164 Invitrogen catalog # 11875	""	c-225	tumor	Unknown	M	Unknown	large_intestine	colon cancer	adenocarcinoma	KCLB	adherent	SNUC4_LARGE_INTESTINE	C4|SNU-C4
+SNUC5	CVCL_5112	""			67	RPMI-164 Invitrogen catalog # 11875	""	c-278	tumor	Asian	F	Unknown	large_intestine	colon cancer	adenocarcinoma	KCLB	adherent	SNUC5_LARGE_INTESTINE	SNU-C5|NCI-SNU-C5
+CORL23	CVCL_1139	""			48	RPMI-164 (Hyclone Cat.# SH327.2)	92031919	c-18	tumor	Unknown	M	Unknown	lung	lung cancer	non small cell lung cancer	ECACC	adherent	CORL23_LUNG	COR-L23
+GP2D	CVCL_2450	""			84	DMEM:F12(1:1)+ 1% FBS	""	c-412	tumor	Unknown	F	Recurrent	large_intestine	colon cancer	adenocarcinoma	ECACC	adherent	GP2D_LARGE_INTESTINE	Gp2d
+HT115	CVCL_2520	""			36	DMEM ATCC catalog # 3-22	""	""	tumor	Unknown	Unknown	Unknown	large_intestine	colon cancer	carcinoma	ECACC	adherent	HT115_LARGE_INTESTINE	HT-115|HT 115
+MDST8	CVCL_2588	""			""	DMEM ATCC catalog # 3-22	""	""	tumor	Unknown	Unknown	Unknown	large_intestine	colon cancer	carcinoma	ECACC	adherent	MDST8_LARGE_INTESTINE	T8
+COV434	CVCL_2010	""			120	DMEM ATCC catalog # 3-22	""	c-538	tumor	Unknown	F	Primary	ovary	ovarian cancer	granulosa	ECACC	adherent	COV434_OVARY	COV-434
+COV644	CVCL_2425	""			84	DMEM ATCC catalog # 3-22	""	""	tumor	Unknown	F	Primary	ovary	ovarian cancer	carcinoma	ECACC	adherent	COV644_OVARY	COV-644
+OAW28	CVCL_1614	""			96	DMEM ATCC catalog # 3-22	""	""	tumor	Unknown	F	Unknown	ovary	ovarian cancer	cystadenocarcinoma	ECACC	adherent	OAW28_OVARY	OAW 28
+OV7	CVCL_2675	78			36	DMEM:HAMS F12 (1:1) +5%FBS	""	c-175	tumor	Unknown	F	Primary	ovary	ovarian cancer	carcinoma	ECACC	adherent	OV7_OVARY	OV-7
+BICR6	CVCL_2314	""			96	DMEM ATCC catalog # 3-22	""	c-544	tumor	Caucasian	M	Primary	upper_aerodigestive_tract	head and neck cancer	carcinoma	ECACC	adherent	BICR6_UPPER_AERODIGESTIVE_TRACT	BICR-6|BICR 6
+KMS34	CVCL_2996	60			100	RPMI-164 ATCC catalog # 3-21	""	""	tumor	Unknown	F	Primary	haematopoietic_and_lymphoid_tissue	myeloma	myeloma	HSRRB	suspension	KMS34_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	KMS-34
+NOMO1	CVCL_1609	""			38	RPMI-164 ATCC catalog # 3-21	""	""	tumor	Unknown	F	Recurrent	haematopoietic_and_lymphoid_tissue	leukemia	acute myeloid leukemia (aml)	HSRRB	suspension	NOMO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	NOMO-1
+SKM1	CVCL_0098	""			48	RPMI-164 ATCC catalog # 3-21	""	""	tumor	Japanese	M	Unknown	haematopoietic_and_lymphoid_tissue	leukemia	acute myeloid leukemia (aml)	HSRRB	suspension	SKM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	SKM-1
+U251MG	CVCL_0021	""			60	MEM (Invitrogen catalogue #12571-63)	""	c-54	tumor	Unknown	M	Primary	central_nervous_system	brain cancer	astrocytoma	HSRRB	adherent	U251MG_CENTRAL_NERVOUS_SYSTEM	251 MG|U-251MG
+YH13	CVCL_1795	""			48	MEM (Invitrogen catalogue #12571-63)	""	c-119	tumor	Unknown	M	Primary	central_nervous_system	brain cancer	astrocytoma	HSRRB	adherent	YH13_CENTRAL_NERVOUS_SYSTEM	YH-13|YH
+HUH7	CVCL_0336	57			36	IS-RPMI(Gann.75,151-158,1984), RPMI1640 + 0.2 % lactoalubumin + 1 % FBS	""	c-259	tumor	Japanese	M	Primary	liver	liver cancer	carcinoma	HSRRB	adherent	HUH7_LIVER	HUH-7
+JHH5	CVCL_0364	50			48	William's E Medium Invitrogen catalog # 12551	""	c-294	tumor	Japanese	M	Primary	liver	liver cancer	carcinoma	HSRRB	adherent	JHH5_LIVER	JHH-5
+JHH7	CVCL_2805	""			96	Williams E Invitrogen catalog # 12551	""	c-446	tumor	Unknown	M	Primary	liver	liver cancer	carcinoma	HSRRB	adherent	JHH7_LIVER	JHH-7|FLC-7
+IM95	CVCL_2961	""			96	DMEM ATCC catalog # 3-22	""	c-461	tumor	Unknown	M	Primary	stomach	gastric cancer	adenocarcinoma	HSRRB	adherent	IM95_STOMACH	IM-95
+MKN45	CVCL_0434	62			20	RPMI-164 ATCC catalog # 3-21	""	c-355	tumor	Unknown	F	Primary	stomach	gastric cancer	adenocarcinoma	HSRRB	adherent	MKN45_STOMACH	MKN-45|MKN 45
+OVTOKO	CVCL_3117	78			72	RPMI-164 ATCC catalog # 3-21	""	c-208	tumor	Asian	F	Metastatic	ovary	ovarian cancer	adenocarcinoma	HSRRB	adherent	OVTOKO_OVARY	""
+RMGI	CVCL_1662	""			36	HAMS F12 Invitrogen catalog # 11765-54	""	c-172	tumor	Japanese	F	Primary	ovary	ovarian cancer	carcinoma	HSRRB	adherent	RMGI_OVARY	RMG-I|RMG-1
+RMUGS	CVCL_3158	62			48	HAMS F12 Invitrogen catalog # 11765-54	""	c-502	tumor	Unknown	F	Unknown	ovary	ovarian cancer	carcinoma	HSRRB	adherent	RMUGS_OVARY	RMUG-S
+TYKNU	CVCL_1776	""			48	EMEM ATCC catalog # 3-23	""	""	tumor	Unknown	F	Primary	ovary	ovarian cancer	carcinoma	HSRRB	adherent	TYKNU_OVARY	TYK-nu
+HEC108	CVCL_2923	""			72	EMEM ATCC catalog # 3-23	""	c-437	tumor	Unknown	F	Primary	endometrium	endometrial cancer	adenocarcinoma	HSRRB	adherent	HEC108_ENDOMETRIUM	HEC-108
+HEC151	CVCL_2925	""			60	EMEM ATCC catalog # 3-23	""	c-351	tumor	Unknown	F	Primary	endometrium	endometrial cancer	adenocarcinoma	HSRRB	adherent	HEC151_ENDOMETRIUM	HEC-151
+HEC251	CVCL_2927	""			72	EMEM ATCC catalog # 3-23	""	c-431	tumor	Unknown	F	Primary	endometrium	endometrial cancer	adenocarcinoma	HSRRB	adherent	HEC251_ENDOMETRIUM	HEC-251
+HEC265	CVCL_2928	""			48	EMEM ATCC catalog # 3-23	""	c-297	tumor	Unknown	F	Primary	endometrium	endometrial cancer	adenocarcinoma	HSRRB	adherent	HEC265_ENDOMETRIUM	HEC-265
+SNGM	CVCL_1707	""			30	HAMS F12 Invitrogen catalog # 11765-54	""	c-309	tumor	Japanese	F	Primary	endometrium	endometrial cancer	adenocarcinoma	HSRRB	adherent	SNGM_ENDOMETRIUM	SNG-M
+SKL	""	""			""	""	CC-2561	""	normal	Unknown	Unknown	Unknown	soft_tissue	normal soft tissue sample	normal soft tissue sample	LONZA	unknown	""	""
+T3M10	CVCL_8067	""			60	Hams F-12 (Hyclone Cat.# SH326.1)	""	c-327	tumor	Unknown	M	Metastatic	lung	lung cancer	non small cell lung carcinoma	RIKEN	adherent	T3M10_LUNG	T3M-10
+CJM	CVCL_U797	""			48	HAMF1 +1%FBS	""	c-276	tumor	Unknown	Unknown	Metastatic	skin	skin cancer	melanoma	RIKEN	adherent	CJM_SKIN	""
+GI1	CVCL_1231	""			48	DMEM (Hyclone Cat.# SH322.2)	""	c-3	tumor	Unknown	M	Primary	central_nervous_system	brain cancer	glioblastoma	RIKEN	adherent	GI1_CENTRAL_NERVOUS_SYSTEM	GI-1
+CW2	CVCL_1151	45			48	RPMI-164+ 1% FBS	""	""	tumor	Unknown	F	Unknown	large_intestine	colon cancer	carcinoma	RIKEN	adherent	CW2_LARGE_INTESTINE	CW-2
+RCC10RGB	CVCL_1647	""			108	DMEM+ 1%FBS	""	c-526	tumor	Unknown	M	Unknown	kidney	kidney cancer	carcinoma	RIKEN	adherent	RCC10RGB_KIDNEY	10RGB
+OVK18	CVCL_3770	""			36	MEM + 1% FBS	""	c-148	tumor	Unknown	F	Unknown	ovary	ovarian cancer	carcinoma	RIKEN	adherent	OVK18_OVARY	OVK-18
+JHUEM2	CVCL_4656	""			48	DMEM/F12 (Hyclone Cat.# SH323.1)	""	c-187	tumor	Unknown	F	Primary	endometrium	endometrial cancer	carcinoma	RIKEN	adherent	JHUEM2_ENDOMETRIUM	JHUEM-2
+OVCAR8	CVCL_1629	""			60	RPMI-164 ATCC catalog # 3-21	""	c-349	tumor	Unknown	F	Primary	ovary	ovarian cancer	carcinoma	NCI/DCTD	adherent	OVCAR8_OVARY	OVCAR-8|NIH:OVCAR-8
+OCILY3	CVCL_8800	""			24	""	""	""	tumor	Unknown	M	Unknown	haematopoietic_and_lymphoid_tissue	lymphoma	b-cell lymphoma	ACADEMIC LAB	suspension	OCILY3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE	OCI-LY-3|Ly3
