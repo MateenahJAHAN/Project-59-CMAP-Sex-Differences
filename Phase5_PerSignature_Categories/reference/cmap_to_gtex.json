@@ -1,0 +1,79 @@
+{
+  "lung": [
+    "Lung"
+  ],
+  "breast": [
+    "Breast_Mammary_Tissue"
+  ],
+  "skin": [
+    "Skin_Sun_Exposed_Lower_leg",
+    "Skin_Not_Sun_Exposed_Suprapubic"
+  ],
+  "liver": [
+    "Liver"
+  ],
+  "kidney": [
+    "Kidney_Cortex",
+    "Kidney_Medulla"
+  ],
+  "stomach": [
+    "Stomach"
+  ],
+  "pancreas": [
+    "Pancreas"
+  ],
+  "large_intestine": [
+    "Colon_Sigmoid",
+    "Colon_Transverse"
+  ],
+  "haematopoietic_and_lymphoid_tissue": [
+    "Whole_Blood",
+    "Spleen",
+    "Cells_EBV.transformed_lymphocytes"
+  ],
+  "central_nervous_system": [
+    "Brain_Amygdala",
+    "Brain_Anterior_cingulate_cortex_BA24",
+    "Brain_Caudate_basal_ganglia",
+    "Brain_Cerebellar_Hemisphere",
+    "Brain_Cerebellum",
+    "Brain_Cortex",
+    "Brain_Frontal_Cortex_BA9",
+    "Brain_Hippocampus",
+    "Brain_Hypothalamus",
+    "Brain_Nucleus_accumbens_basal_ganglia",
+    "Brain_Putamen_basal_ganglia",
+    "Brain_Spinal_cord_cervical_c.1",
+    "Brain_Substantia_nigra"
+  ],
+  "upper_aerodigestive_tract": [
+    "Esophagus_Mucosa",
+    "Minor_Salivary_Gland"
+  ],
+  "urinary_tract": [
+    "Bladder"
+  ],
+  "soft_tissue": [
+    "Muscle_Skeletal",
+    "Adipose_Subcutaneous",
+    "Adipose_Visceral_Omentum"
+  ],
+  "autonomic_ganglia": [
+    "Nerve_Tibial"
+  ],
+  "ovary": [
+    "Ovary"
+  ],
+  "endometrium": [
+    "Uterus"
+  ],
+  "prostate": [
+    "Prostate"
+  ],
+  "cervix": [
+    "Cervix_Ectocervix",
+    "Cervix_Endocervix"
+  ],
+  "bone": [],
+  "placenta": []
+}
