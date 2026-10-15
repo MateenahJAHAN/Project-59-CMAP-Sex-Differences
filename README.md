@@ -158,9 +158,17 @@ tests has the most hits. That is arithmetic before it is biology.
 20 have zero female lines and 1 has zero male. Requiring more than one cell line
 per sex leaves exactly **one** pair standing.
 
-**3. The sex-balance rule was applied at the wrong level.** The ≥5 M / ≥5 F rule
-was applied per **drug**, not per **drug × lineage**. A drug can pass overall and
-still have an all-male lineage.
+**3. The only sex-balance guarantee left is at drug level.** In Phase 5 the
+≥5 M / ≥5 F rule ran in two places — once when picking the 50 drugs (grouped by
+**drug**) and once inside the pipeline (grouped by **drug × lineage**). Phase 6
+removed the second one, on Marouen's instruction, because it was turning 36,124
+rows into D. The first is still in force: `top50_names.json` is unchanged.
+
+That leaves a gap. A drug qualifies on its lineages pooled together, but results
+are produced per lineage, and a qualifying drug can still have an all-male
+lineage — bortezomib × CNS has 2 M and 0 F. This is not a coding bug; the code
+does what it was told. It is a reporting gap, and it is why 20 of the 29
+Category A hits sit in lineages with no female cell lines.
 
 **4. Brain subregions are counted as independent.** 19 of the 29 A hits come
 from two CNS pairs spread across 13 correlated brain subregions.

@@ -210,9 +210,24 @@ hits, 20 have zero female cell lines and 1 has zero male. Only 8 have both
 sexes present. Requiring more than one cell line per sex leaves **one** pair
 standing: bortezomib × blood → Cells_EBV (10 M / 5 F, 255 signatures).
 
-**3. The sex-balance rule was applied at the wrong level.** The ≥5 M / ≥5 F
-rule in earlier phases was applied per **drug**, not per **drug × lineage**.
-A drug can pass at drug level and still have a lineage with only male lines.
+**3. The only sex-balance guarantee left is at drug level.** The ≥5 M / ≥5 F
+rule ran in two separate places in Phase 5:
+
+| where | grouped by | Phase 5 | Phase 6 |
+|---|---|---|---|
+| picking the 50 drugs (`project59_pipeline.ipynb`, cell 12) | **drug** | applied | **still applied** — `top50_names.json` unchanged |
+| inside `per_lineage_DE_v2` (cell 44) | **drug × lineage** | applied | **removed** — Marouen's instruction |
+
+Removing the second one was right: it was sending 36,124 rows to D. But what
+survives is a guarantee at drug level only, while every result is produced per
+lineage. Bortezomib qualifies on all 19 of its lineages pooled, yet
+bortezomib × CNS has 2 male and 0 female cell lines.
+
+This is not a bug — the code does exactly what it was told. It is a reporting
+gap, and it is why 20 of the 29 Category A hits sit in lineages with no female
+cell lines. The fix is not to re-add a filter but to carry an explicit
+`sex_balanced` flag alongside each row, so the two groups can be reported
+separately and Marouen can decide which to use.
 
 **4. Brain subregions are counted as independent.** 19 of the 29 A hits come
 from two CNS pairs spread across 13 correlated brain subregions. Treating those
