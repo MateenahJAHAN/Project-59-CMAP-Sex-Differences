@@ -1,0 +1,13 @@
+level,category,count,pct,denominator
+pair_x_tissue,A,29,0.07,39996
+pair_x_tissue,B,717,1.79,39996
+pair_x_tissue,C,5376,13.44,39996
+pair_x_tissue,D,33874,84.69,39996
+signature_best_of_44,A,2656,7.27,36523
+signature_best_of_44,B,5163,14.14,36523
+signature_best_of_44,C,4684,12.82,36523
+signature_best_of_44,D,24020,65.77,36523
+signature_x_tissue,A,2828,0.18,1607012
+signature_x_tissue,B,93247,5.8,1607012
+signature_x_tissue,C,396645,24.68,1607012
+signature_x_tissue,D,1114292,69.34,1607012

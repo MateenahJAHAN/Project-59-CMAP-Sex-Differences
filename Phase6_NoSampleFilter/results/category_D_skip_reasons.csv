@@ -1,0 +1,5 @@
+skip_reason,rows,pct_of_D,meaning
+gsea_empty,19624,57.9,GSEA returned no result for that drug x lineage at all
+too_few_signatures_or_DE_genes,9064,26.8,"fewer than 3 usable signatures, or no gene survived |z| > 2"
+no_GTEx_home_tissue,2948,8.7,"that cell lineage has no matching GTEx tissue, so A is impossible"
+gene_set_too_small,2238,6.6,"after matching with the GTEx library, fewer than 15 genes were left"

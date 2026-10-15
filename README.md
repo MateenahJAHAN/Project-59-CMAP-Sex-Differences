@@ -1,4 +1,4 @@
-# Project 59 - Sex Differences in Drug Response
+# Project 59 — Sex Differences in Drug Response
 
 **Fatima Fellowship 2026**
 Mentor: Dr. Marouen Ben Guebila, Viswanathan Lab, Dana-Farber Cancer Institute / Harvard
@@ -10,170 +10,218 @@ Fellow: Mateenah Jahan
 
 Do cells from men and cells from women respond differently to the same drug?
 
-Cell lines grow in a dish. They make no hormones. So if we see a difference,
-it comes from the genes, not from hormones.
+Cell lines grow in a dish. They make no hormones. So if we see a difference, it
+comes from the genes, not from hormones.
 
 ---
 
-## Where the data comes from
+## The idea in one picture
 
-### CMap LINCS 2020 - Broad Institute
+We have two lists and we ask whether they overlap more than chance allows.
 
-The Broad Institute took human cancer cell lines, added drugs, waited 6, 12 or
-24 hours, then measured how about 12,328 genes reacted. They did this for
-thousands of drugs across thousands of cell lines.
+```
+LIST 1  —  the drug          LIST 2  —  the tissue
+(CMap)                       (GTEx)
 
-Each single experiment is called a **signature**.
+every gene, ranked from       the genes that differ between
+most activated to most        men and women in that tissue,
+suppressed by the drug        split into a female half and
+                              a male half
 
-| File | What it holds |
-|------|---------------|
-| level5_beta_trt_cp_n720216x12328.gctx | The big one. 33 GB. 12,328 genes by 720,216 experiments. Every number says how much a gene moved. |
-| siginfo_beta.txt | One row per experiment: which drug, which cell line, what dose, how long |
-| cellinfo_beta.txt | One row per cell line: donor sex, and which tissue it came from |
-| geneinfo_beta.txt | Gene IDs and gene names |
+            \                /
+             \              /
+              GSEA asks: do the female-biased genes
+              sit bunched at one end of the drug's
+              ranked list, or scattered at random?
+```
 
-### GTEx v8 - NIH
+If they are bunched, the drug is acting on sex-biased biology. If scattered,
+it is not.
 
-GTEx studied real human tissues and listed, for each tissue, the genes that
-behave differently in men and women. This is our reference list.
-
-| File | What it holds |
-|------|---------------|
-| signif.sbgenes.txt | Sex-biased genes for each tissue |
-
-We keep only tissues with at least 15 such genes. That leaves 44 tissues.
+Direction matters and is easy to get backwards. The **drug's ranked list is the
+source** (`rnk=`), the **tissue's gene list is the target** (`gene_sets=`). We
+enrich the drug against the tissue, never the reverse.
 
 ---
 
 ## Three words to keep straight
 
-**Cell line** - cells from one person. THP1 came from one male patient with
-leukemia. One person means one sex.
+**Cell line** — cells from one person. THP1 came from one male leukemia patient.
+One person means one sex.
 
-**Lineage** - the organ that cell line came from. THP1 came from blood, so its
+**Lineage** — the organ that cell line came from. THP1 came from blood, so its
 lineage is blood. Many cell lines share a lineage.
 
-**Signature** - one experiment. One cell line, one drug, one dose, one time.
-A single cell line can give many signatures because the dose and the time keep
-changing.
+**Signature** — one experiment: one cell line, one drug, one dose, one time.
+One cell line gives many signatures because dose and time keep changing.
+
+```
+signature  =  drug  ×  cell line  ×  dose  ×  time
+```
+
+GTEx tissue is **not** in that formula. Tissue only enters when we compare. So a
+drug's signature count does not change from tissue to tissue — bortezomib has
+7,300 signatures whether we test it against brain or against fat.
 
 Example: bortezomib in the blood lineage covers 15 cell lines and 255 signatures.
 
 ---
 
-## What we do
-
-1. Pick 50 drugs that have at least 5 male and 5 female cell lines
-2. For each drug and lineage, average all its signatures into one profile, and
-   keep only the genes that moved a lot
-3. Run GSEA to check that gene list against all 44 GTEx tissues
-4. Give every combination a category
-
-### The four categories
+## The four categories
 
 | Category | What it means |
 |----------|---------------|
-| **A** | Significant, and the tissue is the cell line's own tissue |
-| **B** | Significant, but a different tissue |
+| **A** | Significant, and the tissue is the cell line's own tissue (home) |
+| **B** | Significant, but a different tissue (cross) |
 | **C** | We tested it, nothing came out |
 | **D** | We could not test it at all |
 
-If NES is positive, the signal leans female. If negative, it leans male.
+D is not "skipped". Every drug was attempted. D means the test could not run —
+too few signatures, nothing past `|z| > 2`, no matching GTEx tissue, or fewer
+than 15 genes left after matching.
 
 ---
 
-## What we found
+## Where the data comes from
 
-We have 39,996 rows in total.
+| Source | What we take from it |
+|--------|---------------------|
+| **CMap LINCS 2020** (Broad) | 720,216 drug signatures × 12,328 genes, plus each cell line's donor sex |
+| **GTEx v8** (NIH) | the genes that differ between men and women, per tissue, 44 tissues |
 
-| Category | Count |
-|----------|-------|
-| A | 1 |
-| B | 79 |
-| C | 540 |
-| D | 39,376 |
+Full detail, download paths and papers:
+[`Phase6_NoSampleFilter/sources/README.md`](Phase6_NoSampleFilter/sources/README.md)
 
-Only 19 of 909 drug-lineage pairs could be tested. That is 2 percent.
-
-Only 5 drugs out of 50 gave any hit: bortezomib, emetine, YM-155, mitoxantrone,
-and NVP-BEZ235. All five change a large number of genes.
-
-The one Cat A hit is **bortezomib in blood cell lines**, matching the sex-biased
-genes of EBV-transformed lymphocytes. NES -1.78, FDR 0.013.
-
-### Why so many D
-
-| Reason | Rows |
-|--------|------|
-| That lineage had fewer than 5 male or 5 female cell lines | 36,124 |
-| GSEA found too few genes to work with | 3,036 |
-| That tissue's gene list was smaller than 15 | 216 |
+The 33 GB `.gctx` is not in this repo. GitHub caps files at 100 MB.
 
 ---
 
-## Things that still need checking
+## The phases
 
-**1. The male signal might not be real.**
-76 of the 80 hits lean male. But the data itself leans male. Bortezomib in
-blood has 190 male signatures and only 65 female. Two male cell lines, THP1 and
-JURKAT, make up 47 percent on their own. We take a plain average, so the result
-is male partly because the input is male. We cannot yet tell a real drug effect
-apart from this.
+| Folder | What it did |
+|--------|-------------|
+| `Phase1_Vorinostat` | first single-drug test, one drug end to end |
+| `Phase2_Fishers_50Drugs` | Fisher's exact test across 50 drugs |
+| `Phase3_PerLineage_GSEA` | moved to GSEA, run per lineage |
+| `Phase4_SplitLibraries_DirectionFix` | split each tissue's gene list into female and male halves; fixed the direction |
+| `Phase5_PerSignature_Categories` | A/B/C/D per signature, **with** a ≥5 M / ≥5 F sample-size filter |
+| **`Phase6_NoSampleFilter`** | **current.** Same pipeline with the sample-size filter removed, on Marouen's instruction |
+| `cmap`, `gtex` | metadata and source notes |
 
-**2. There is no negative control.**
-DMSO is the liquid the drug is dissolved in. It should show nothing. It was
-dropped from the 50, so we cannot prove the hits are drug-specific.
+---
 
-**3. The Cat A hit is weaker than the Cat B hits.**
-The home tissue gives NES -1.78. Brain tissues give -2.3 to -2.9. If the effect
-were really about the tissue, the home tissue should be the strongest one.
+## Where things stand now — Phase 6
 
-**4. Brain tissues may win just because they are big.**
-10 of the 30 Cat B hits are brain. GTEx brain gene lists are the longest ones.
-Longer lists are easier to hit by chance.
+The sample-size filter is gone. **The only filter on the data is `|z| > 2`.**
 
-**5. Some comparisons can never work.**
-7 of 20 lineages have no matching GTEx tissue, so they can never get Cat A.
-Seven tissue names in our mapping do not exist in GTEx at all - Ovary, Prostate,
-Uterus, Cervix, Bladder, Kidney_Medulla. These organs exist in only one sex, so
-there is no male-female comparison to make. On the CMap side it is the same
-problem: breast cell lines are all female, prostate cell lines are all male.
+| | |
+|---|---|
+| signatures across the 50 drugs | **36,523** |
+| cell lines · lineages · drug × lineage pairs | 135 · 20 · 909 |
+| GTEx tissues | 44 |
+| from female donors / male donors | 22,813 (62.5%) / 13,710 (37.5%) |
+
+Categories, counted per signature (best of its 44 tissues):
+
+| A | B | C | D |
+|---|---|---|---|
+| 2,656 (7.3%) | 5,163 (14.1%) | 4,684 (12.8%) | 24,020 (65.8%) |
+
+17 of the 50 drugs got any hit at all.
+
+![A/B/C/D per drug](Phase6_NoSampleFilter/figures/04_signature_ABCD_2panel.png)
+
+The clearest single result so far — **bortezomib × blood → EBV-transformed
+lymphocytes**, the one Category A pair that survives requiring more than one
+cell line of each sex (10 M / 5 F, 255 signatures):
+
+| | NES | FDR | |
+|---|---|---|---|
+| female-biased genes | −1.606 | 0.0000 | **significant** |
+| male-biased genes | +0.999 | 0.4874 | not significant |
+
+Numbers, figures and the full write-up:
+[`Phase6_NoSampleFilter/README.md`](Phase6_NoSampleFilter/README.md)
+
+---
+
+## What is **not** settled
+
+Read this before quoting any number above as a finding.
+
+**1. Category A is essentially one drug.** Bortezomib supplies 2,593 of the
+2,656 Category A signatures — **97.6%**. Only 6 of 50 drugs have any A; 44 have
+none. Bortezomib also holds 20% of all signatures, so the drug with the most
+tests has the most hits. That is arithmetic before it is biology.
+
+**2. Most A hits have no female cell lines.** Of the 29 pair-level A hits,
+20 have zero female lines and 1 has zero male. Requiring more than one cell line
+per sex leaves exactly **one** pair standing.
+
+**3. The sex-balance rule was applied at the wrong level.** The ≥5 M / ≥5 F rule
+was applied per **drug**, not per **drug × lineage**. A drug can pass overall and
+still have an all-male lineage.
+
+**4. Brain subregions are counted as independent.** 19 of the 29 A hits come
+from two CNS pairs spread across 13 correlated brain subregions.
+
+**5. No project-wide multiple-testing correction.** FDR is computed inside each
+GSEA run. Across all 39,996 tests there is no Benjamini–Hochberg pass yet.
+
+**6. No negative control.** DMSO, the solvent, should show nothing. It is not in
+the 50, so we cannot prove the hits are drug-specific.
+
+**7. Two gene-set definitions are in use.** The batch A/B/C/D run uses one set
+per tissue (44 sets, all sex-biased genes together). The case-study figures split
+each tissue into female and male halves (88 sets). These are **different tests**
+and their NES and FDR must not be quoted side by side.
+
+**8. Cell lines are not tissue.** The GTEx paper says so itself. Category A
+compares a cell line against the sex-biased genes of the organ it came from, and
+the two are not the same thing.
+
+---
+
+## Open questions for Marouen
+
+- Does "how many signatures" mean 36,523 unique signatures or 1,607,012
+  signature × tissue combinations?
+- Keep or drop `|z| > 2`?
+- Apply the sex-balance rule at drug × lineage level?
+- A minimum number of signatures per pair?
+- Count the 13 CNS subregions as 13 hits or as 1?
+- Which gene-set definition goes in the paper — mixed or split?
 
 ---
 
 ## A bug worth writing down
 
-We re-ran the same code in a fresh session and everything came out Cat C.
+We re-ran the same code in a fresh session and everything came out Category C.
 
-The reason: sb_library_sets was rebuilt using Python lists instead of sets.
-Inside run_gsea there is a line that does an intersection with a set, which
-fails on a list. The error was caught by a try/except, so nothing was printed.
-Every pair quietly failed and became C or D.
+The cause: `sb_library_sets` was rebuilt from JSON as Python **lists** instead of
+**sets**. Inside `run_gsea` there is a set intersection, which fails on a list.
+The failure was caught by a `try/except`, so nothing printed. Every pair quietly
+became C or D.
 
-Fixed by turning the lists back into sets. Checked: bortezomib in blood now
-gives 29 significant tissues again, same as before.
+Fixed by converting back to sets. Verified: bortezomib × blood gives 29
+significant tissues again.
 
-The lesson is to check the inputs before running the pipeline, not after.
+**Check the inputs before the run, not after:**
 
----
-
-## Folders
-
-- Phase1_Vorinostat - first single-drug test
-- Phase2_Fishers_50Drugs - Fisher test across 50 drugs
-- Phase3_PerLineage_GSEA - GSEA per lineage
-- Phase4_SplitLibraries - split gene libraries by direction
-- Phase5_PerSignature_Categories - current work
-- cmap - CMap metadata
-- gtex - GTEx files
-
-The 33 GB gctx file is not stored here. Download it from the CMap S3 bucket.
+```python
+len(sb_library_sets) == 44
+type(list(sb_library_sets.values())[0]) is set     # a list fails silently
+len(cmap_to_gtex)    == 20
+```
 
 ---
 
-## Before you run anything
+## Running it
 
-Check two things:
+```bash
+pip install -r requirements.txt
+```
 
-- sb_library_sets should have 44 tissues, and each one should be a **set**, not a list
-- cmap_to_gtex should have 20 lineages
+Python **3.12 or newer** (the plotting code uses PEP 701 f-strings; Colab is on
+3.13). Download the 33 GB `.gctx` first — see `sources/`. The batch A/B/C/D run
+takes about 24 minutes on Colab.
