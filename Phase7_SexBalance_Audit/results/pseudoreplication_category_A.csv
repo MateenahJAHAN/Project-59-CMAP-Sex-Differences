@@ -1,0 +1,12 @@
+drug,cell_lineage,cell_lines,total_sigs,biggest_line,smallest_line,effective_lines,pct_from_biggest,inflation
+bortezomib,breast,7,1875,813,6,2.89,43.4,2.42
+bortezomib,kidney,2,455,450,5,1.02,98.9,1.96
+bortezomib,haematopoietic_and_lymphoid_tissue,15,255,61,1,6.6,23.9,2.27
+YM-155,skin,6,28,21,1,1.73,75.0,3.47
+emetine,central_nervous_system,3,9,3,3,3.0,33.3,1.0
+bortezomib,central_nervous_system,2,8,6,2,1.6,75.0,1.25
+fostamatinib,soft_tissue,2,8,5,3,1.88,62.5,1.06
+emetine,haematopoietic_and_lymphoid_tissue,6,6,1,1,6.0,16.7,1.0
+mitoxantrone,kidney,2,6,3,3,2.0,50.0,1.0
+emetine,kidney,1,3,3,3,1.0,100.0,1.0
+idarubicin,soft_tissue,2,3,2,1,1.8,66.7,1.11

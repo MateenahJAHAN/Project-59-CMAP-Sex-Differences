@@ -1,0 +1,6 @@
+category,meaning,signatures_female,signatures_male,total,pct_female,pct_male
+A,"home tissue, significant",2426,230,2656,91.3,8.7
+B,"cross tissue, significant",2958,2205,5163,57.3,42.7
+C,"tested, not significant",1710,2974,4684,36.5,63.5
+D,could not be tested,15719,8301,24020,65.4,34.6
+ALL,whole dataset (baseline),22813,13710,36523,62.5,37.5

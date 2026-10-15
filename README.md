@@ -105,7 +105,8 @@ The 33 GB `.gctx` is not in this repo. GitHub caps files at 100 MB.
 | `Phase3_PerLineage_GSEA` | moved to GSEA, run per lineage |
 | `Phase4_SplitLibraries_DirectionFix` | split each tissue's gene list into female and male halves; fixed the direction |
 | `Phase5_PerSignature_Categories` | A/B/C/D per signature, **with** a ≥5 M / ≥5 F sample-size filter |
-| **`Phase6_NoSampleFilter`** | **current.** Same pipeline with the sample-size filter removed, on Marouen's instruction |
+| `Phase6_NoSampleFilter` | Same pipeline with the sample-size filter removed, on Marouen's instruction |
+| **`Phase7_SexBalance_Audit`** | **current.** Not a pipeline step — an audit of Phase 6's hits, asking how many male and female donors are actually behind them |
 | `cmap`, `gtex` | metadata and source notes |
 
 ---
@@ -157,6 +158,15 @@ tests has the most hits. That is arithmetic before it is biology.
 **2. Most A hits have no female cell lines.** Of the 29 pair-level A hits,
 20 have zero female lines and 1 has zero male. Requiring more than one cell line
 per sex leaves exactly **one** pair standing.
+
+**2b. Category A looks 91.3% female, and that is pseudoreplication.** Against a
+62.5% baseline it looks like a sex effect. But Category A draws on 17 female and
+18 male cell lines — balanced — and the female lines contributed 143 signatures
+each against 13 for the male lines. `bortezomib × breast` alone is 1,875 of the
+2,656 Category A signatures with no male cell lines at all. Of the 11 Category A
+drug × lineage pairs, one survives a requirement of two cell lines per sex and an
+average not dominated by a single line: **bortezomib × blood**, the headline
+result. Full numbers in [`Phase7_SexBalance_Audit`](Phase7_SexBalance_Audit/README.md).
 
 **3. The only sex-balance guarantee left is at drug level.** In Phase 5 the
 ≥5 M / ≥5 F rule ran in two places — once when picking the 50 drugs (grouped by
