@@ -1,0 +1,24 @@
+item,value,note
+CMap gctx signatures,"720,216","level5_beta_trt_cp_n720216x12328.gctx, 33 GB"
+CMap genes measured,"12,328",landmark + inferred
+CMap genes with Ensembl ID,"12,277",gid_to_ensg mapping
+sig_known rows,"596,117",signature metadata joined with cell-line donor sex
+drugs studied,50,top50_names.json
+signatures across the 50 drugs,"36,523",unique sig_id
+signatures from female donors,"22,813",62.5%
+signatures from male donors,"13,710",37.5%
+cell lines,135,
+cell lineages,20,cmap_to_gtex.json
+drug x lineage pairs,909,
+GTEx tissues,44,tissues with >= 15 sex-biased genes
+signature x tissue combinations,"1,607,012","36,523 x 44"
+pair x tissue rows tested,"39,996",per_signature_v4_ABCD.csv
+biggest drug,"bortezomib (7,300 signatures)",20.0% of all signatures
+smallest drug,BRD-K61033289 (241 signatures),0.7%
+median signatures per drug,529,
+drugs for 50% of signatures,11,
+drugs for 80% of signatures,28,
+batch runtime,23.8 min,"Colab, 50 drugs x all lineages x 44 tissues"
+gseapy version,1.3.1,
+GSEA permutations,"1,000",seed 42
+GSEA min_size,15,"gseapy / Broad default, not a filter we chose"
