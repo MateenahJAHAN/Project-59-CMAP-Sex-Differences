@@ -243,3 +243,14 @@ pip install -r requirements.txt
 Python **3.12 or newer** (the plotting code uses PEP 701 f-strings; Colab is on
 3.13). Download the 33 GB `.gctx` first — see `sources/`. The batch A/B/C/D run
 takes about 24 minutes on Colab.
+
+<!-- portfolio-navigation -->
+## Repository guide
+
+- **Code and notebooks** · [Project59_CMAP_SexDifferences.ipynb](Phase1_Vorinostat/Project59_CMAP_SexDifferences.ipynb), [Project59_GTEx_DrugClassification.ipynb](Phase2_Fishers_50Drugs/Project59_GTEx_DrugClassification.ipynb), [Phase3_PerLineage_GSEA.ipynb](Phase3_PerLineage_GSEA/Phase3_PerLineage_GSEA.ipynb), [Phase4_SplitLibraries_DirectionFix](Phase4_SplitLibraries_DirectionFix), [project59_pipeline.ipynb](Phase5_PerSignature_Categories/project59_pipeline.ipynb)
+- **Data** · [phase3_category_A_drugs.csv](phase3_category_A_drugs.csv), [phase3_category_B_drugs.csv](phase3_category_B_drugs.csv), [cmap](cmap), [README.txt](gtex/README.txt), [Phase1_Vorinostat](Phase1_Vorinostat)
+- **Results** · [phase3_classification_final.csv](phase3_classification_final.csv), [vorinostat_all_genes_results.csv](Phase1_Vorinostat/vorinostat_all_genes_results.csv), [top50_drug_classification.csv](Phase2_Fishers_50Drugs/top50_drug_classification.csv), [phase3_classification_final.csv](Phase3_PerLineage_GSEA/phase3_classification_final.csv), [Phase4_SplitLibraries_DirectionFix](Phase4_SplitLibraries_DirectionFix)
+- **Figures and images** · [phase3_classification_chart.png](phase3_classification_chart.png), [Phase1_Vorinostat](Phase1_Vorinostat), [Phase2_Fishers_50Drugs](Phase2_Fishers_50Drugs), [phase3_classification_chart.png](Phase3_PerLineage_GSEA/phase3_classification_chart.png), [Phase4_SplitLibraries_DirectionFix](Phase4_SplitLibraries_DirectionFix)
+
+<!-- /portfolio-navigation -->
+
