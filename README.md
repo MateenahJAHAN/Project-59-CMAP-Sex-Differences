@@ -1,12 +1,24 @@
-# Project 59 · Historical CMap and GTEx analyses
+# Project 59 · Sex-chromosome expression and drug response
 
 **Fatima Fellowship, 2026 · Mateenah Jahan**
 
 Mentor: Dr. Marouen Ben Guebila, Viswanathan Lab at Dana-Farber Cancer Institute and Harvard Medical School
 
-## Current status
+## Manuscript and figures
 
-This is the public archive of the fellowship’s exploratory CMap and GTEx work. The Phase 6 enrichments and Phase 7 sampling audit are historical. The earlier single-candidate conclusion has been superseded. The current manuscript and supplement are in coauthor review. [Fellowship project and status](https://mateenahjahan.github.io/#project-59)
+[**Manuscript (PDF)**](manuscript/manuscript.pdf) · [**Supplement (PDF)**](manuscript/supplement.pdf) · [**All figure PDFs**](manuscript/figures/)
+
+Mateenah Jahan and Marouen Ben Guebila. Both authors approved the November 16, 2026 version 2 manuscript and supplement for release as public drafts. The figure PDFs are from the same version.
+
+[![Figure 1. Study design for the expression-state measurement and drug-response test.](manuscript/figures/fig1_design.png)](manuscript/figures/fig1_design.pdf)
+
+[![Figure 4. Prespecified drug-response test, including the TP53 benchmark and response-size estimates.](manuscript/figures/fig4_partB.png)](manuscript/figures/fig4_partB.pdf)
+
+[Figure 2](manuscript/figures/fig2_label_vs_pattern.pdf) · [Figure 3](manuscript/figures/fig3_agreement.pdf) · [Supplementary figure S1](manuscript/figures/figS1_ambient.pdf) · [S2](manuscript/figures/figS2_a549.pdf) · [S3](manuscript/figures/figS3_power.pdf)
+
+## Earlier CMap and GTEx analyses
+
+The notebooks and results below document the exploratory fellowship phases that preceded the manuscript. The manuscript supersedes the earlier single-candidate interpretation. [Fellowship overview](https://mateenahjahan.github.io/#project-59)
 
 ## How the analysis developed
 
@@ -34,9 +46,13 @@ The screen used one combined sex-biased gene set per tissue and lacked a negativ
 
 ## Code and data
 
-| Material | Link |
+| Phase | Notebooks, notes and outputs |
 | --- | --- |
-| Phase 6 notebook and code | [Notebook](Phase6_NoSampleFilter/notebook/phase6_no_sample_filter.ipynb) · [Code](Phase6_NoSampleFilter/code/) |
-| Phase 6 outputs | [Results tables](Phase6_NoSampleFilter/results/) · [Figure archive](Phase6_NoSampleFilter/figures/) |
-| Phase 7 audit | [Notebook](Phase7_SexBalance_Audit/notebook/phase7_sex_balance_audit.ipynb) · [Audit tables](Phase7_SexBalance_Audit/results/) |
-| Data sources and setup | [CMap and GTEx source notes](Phase6_NoSampleFilter/sources/README.md) |
+| 1 · Vorinostat | [Notes](Phase1_Vorinostat/README.md) · [Notebook](Phase1_Vorinostat/Project59_CMAP_SexDifferences.ipynb) · [Gene-level results](Phase1_Vorinostat/vorinostat_all_genes_results.csv) |
+| 2 · Fifty compounds | [Notes](Phase2_Fishers_50Drugs/README.md) · [Notebook](Phase2_Fishers_50Drugs/Project59_GTEx_DrugClassification.ipynb) · [Compound classifications](Phase2_Fishers_50Drugs/top50_drug_classification.csv) |
+| 3 · Lineages | [Notes](Phase3_PerLineage_GSEA/README.md) · [Notebook](Phase3_PerLineage_GSEA/Phase3_PerLineage_GSEA.ipynb) · [Classifications](Phase3_PerLineage_GSEA/phase3_classification_final.csv) |
+| 4 · Gene sets | [Notes](Phase4_SplitLibraries_DirectionFix/README.md) · [Archived notebooks and figures](Phase4_SplitLibraries_DirectionFix/) · [Classifications](Phase4_SplitLibraries_DirectionFix/phase4_classifications_final.csv) |
+| 5 · Signatures | [Notebook](Phase5_PerSignature_Categories/project59_pipeline.ipynb) · [Results tables](Phase5_PerSignature_Categories/results/) |
+| 6 · Full screen | [Notes](Phase6_NoSampleFilter/README.md) · [Notebook](Phase6_NoSampleFilter/notebook/phase6_no_sample_filter.ipynb) · [Code](Phase6_NoSampleFilter/code/) · [Results tables](Phase6_NoSampleFilter/results/) · [Figures](Phase6_NoSampleFilter/figures/) |
+| 7 · Sampling audit | [Notes](Phase7_SexBalance_Audit/README.md) · [Notebook](Phase7_SexBalance_Audit/notebook/phase7_sex_balance_audit.ipynb) · [Results tables](Phase7_SexBalance_Audit/results/) |
+| Data and setup | [CMap](cmap/README.txt) · [GTEx](gtex/README.txt) · [Phase 6 source notes](Phase6_NoSampleFilter/sources/README.md) · [Dependencies](requirements.txt) |
