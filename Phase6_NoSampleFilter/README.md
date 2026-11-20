@@ -1,6 +1,6 @@
 # Phase 6 — No sample-size filter
 
-> **Historical analysis.** Phase 6 predates the current manuscript revision. Read the [current project status](../README.md) before interpreting the case studies or the archived significance labels.
+> **Historical analysis.** Phase 6 predates the current manuscript revision. Read the [current status](../README.md#current-status) and [historical journey](../README.md#how-the-analysis-developed) before interpreting the case studies or the archived significance labels.
 
 **What changed from Phase 5:** Marouen asked us to drop the sample-size filter.
 In Phase 5 a drug × lineage pair was only tested if it had at least 5 male and

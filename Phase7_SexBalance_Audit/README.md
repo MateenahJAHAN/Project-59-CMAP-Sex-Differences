@@ -1,6 +1,6 @@
 # Phase 7 — Sex-balance audit
 
-> **Historical sampling audit.** The earlier claim that one robust drug signal survived has been superseded. The audit counted how many cell lines supported the historical results. See the [current project status](../README.md).
+> **Historical sampling audit.** The earlier claim that one robust drug signal survived has been superseded. The audit counted how many cell lines supported the historical results. See the [current status](../README.md#current-status) and [historical journey](../README.md#how-the-analysis-developed).
 
 This is not a new step in the pipeline. It is an **audit of Phase 6's output**,
 asking one question nobody had asked yet:
