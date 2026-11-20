@@ -1,5 +1,7 @@
 # Phase 7 — Sex-balance audit
 
+> **Historical sampling audit.** The earlier claim that one robust drug signal survived has been superseded. The audit counted how many cell lines supported the historical results. See the [current project status](../README.md).
+
 This is not a new step in the pipeline. It is an **audit of Phase 6's output**,
 asking one question nobody had asked yet:
 
@@ -65,7 +67,7 @@ donors, so that comparison can never carry a sex contrast.
 Of all 2,656 Category A signatures, **1,895 (71.3%) come from single-sex
 lineages**.
 
-### 4. Effective sample size: 11 pairs, 1 survives
+### 4. Cell-line representation across 11 pairs
 
 Kish effective sample size, (Σn)² ⁄ Σn², over signatures per cell line:
 
@@ -79,9 +81,9 @@ Kish effective sample size, (Σn)² ⁄ Σn², over signatures per cell line:
 Requiring **≥ 2 cell lines of each sex** *and* **an average not dominated by one
 line**, ten of the eleven pairs fail.
 
-The one that survives — `bortezomib × haematopoietic_and_lymphoid_tissue →
-Cells_EBV.transformed_lymphocytes` — is the same pair Phase 6 already reported as
-the headline result (female NES −1.606, FDR 0.0000; male not significant).
+The bortezomib pair in blood met this accounting rule and appears in the
+historical Phase 6 case study. The rule checks sampling balance and concentration.
+Its result does not establish a sex-specific effect.
 
 Across all 11 pairs: **48 real cell lines, 29.5 effective.**
 
@@ -93,8 +95,8 @@ Three things follow, and none of them require changing the method.
 
 1. **The 91.3% female figure must not be reported as a sex effect.** It is a
    sampling pattern. Writing it up as biology would not survive review.
-2. **The headline result got stronger, not weaker.** It was put through the
-   hardest test available and came out the other side alone.
+2. **The audit quantifies replication across cell lines.** Treat the bortezomib
+   case study as an exploratory candidate for independent validation.
 3. **The ten failures are a finding too.** They say CMap's sampling cannot
    support a broad claim about sex differences across many drugs.
 
@@ -141,7 +143,7 @@ Both come from Phase 6 and live in Google Drive, not in this repository:
 
 | File | Rows | What it is |
 |------|------|-----------|
-| `per_signature_v4_ABCD.csv` | 39,996 | one row per drug × lineage × tissue test |
+| `per_signature_v4_ABCD.csv` | 39,996 | one row per candidate drug × lineage × tissue comparison |
 | `signature_level_ABCD.csv` | 36,523 | one row per signature, with donor sex and its category |
 
 No `.gctx` is needed. The whole audit runs in seconds.

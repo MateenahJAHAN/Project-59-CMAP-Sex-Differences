@@ -1,5 +1,7 @@
 # Phase 6 — No sample-size filter
 
+> **Historical analysis.** Phase 6 predates the current manuscript revision. Read the [current project status](../README.md) before interpreting the case studies or the archived significance labels.
+
 **What changed from Phase 5:** Marouen asked us to drop the sample-size filter.
 In Phase 5 a drug × lineage pair was only tested if it had at least 5 male and
 5 female cell lines. That rule threw away almost everything. Here it is gone.
@@ -88,7 +90,7 @@ C beats D).
 | **signature (best of 44 tissues)** | **2,656** | **5,163** | **4,684** | **24,020** | **36,523** |
 | signature × tissue | 2,828 | 93,247 | 396,645 | 1,114,292 | 1,607,012 |
 
-The middle row is what the bar chart shows. 17 of the 50 drugs got any hit at all.
+Of the 39,996 candidate drug × lineage × tissue comparisons, 6,122 have a test outcome in A, B or C. The remaining 33,874 are Category D. See the [category totals](results/category_totals.csv). The middle row is what the bar chart shows. Seventeen of the 50 compounds had a hit under the historical screen criteria.
 
 ![A/B/C/D two panel](figures/04_signature_ABCD_2panel.png)
 
@@ -234,7 +236,7 @@ from two CNS pairs spread across 13 correlated brain subregions. Treating those
 as 13 hits overstates the evidence.
 
 **5. No project-wide multiple-testing correction.** FDR is computed inside each
-GSEA run. Across all 39,996 tests there is no Benjamini–Hochberg pass yet.
+GSEA run. The historical screen lacked a study-wide Benjamini–Hochberg correction across the recorded test outcomes.
 
 **6. No negative control.** DMSO, the solvent, should show nothing. It is not in
 the 50, so we cannot yet prove the hits are drug-specific.
