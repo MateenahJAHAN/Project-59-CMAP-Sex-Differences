@@ -1,132 +1,28 @@
-# Where every input file comes from
+# Phase 6 data and parameters
 
-Nothing in this phase is simulated. Every number traces back to one of the two
-public datasets below.
+## CMap LINCS2020
 
----
+The level-5 compound treatment file contains 720,216 signatures and 12,328 L1000 features, including measured and inferred genes. Use the metadata to select signature IDs before reading the expression matrix. A CMap signature represents a perturbation profile, often derived from multiple profiles in the earlier processing levels. [CMap data portal](https://clue.io/data/CMap2020#LINCS2020) · [L1000 paper](https://doi.org/10.1016/j.cell.2017.10.049)
 
-## 1. CMap LINCS 2020 — the drug side
+| File | Contents |
+| --- | --- |
+| `level5_beta_trt_cp_n720216x12328.gctx` | External level-5 expression matrix. |
+| `siginfo_beta.txt` | External signature metadata, including cell line, dose, time and quality flags. |
+| [Cell metadata](../../cmap/cellinfo_beta%20%282%29.txt) | Archived donor-sex annotation and lineage. |
+| [Gene metadata](../../cmap/geneinfo_beta%20%281%29.txt) | CMap feature IDs, Ensembl IDs and symbols. |
+| [Compound metadata](../../cmap/compoundinfo_beta%20%281%29.txt) | Compound identifiers and annotations. |
 
-The Broad Institute added drugs to human cancer cell lines, waited 6, 12 or
-24 hours, and measured how 12,328 genes reacted. Each experiment is one
-**signature**. The value for a gene is a z-score: how far that gene moved
-compared with untreated cells on the same plate. CMap caps it at ±10.
+Official file links are in the [CMap setup notes](../../cmap/README.txt). The case-study notebook also records a mirror used in Colab. Select columns by signature ID with [cmapPy](https://github.com/cmap/cmapPy).
 
-Portal: <https://clue.io/data/CMap2020#LINCS2020>
-Build path: `s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/`
+## GTEx v8
 
-| File | Size | What it holds | In this repo? |
-|------|------|---------------|---------------|
-| `level5_beta_trt_cp_n720216x12328.gctx` | 33 GB | the z-score matrix: 12,328 genes × 720,216 signatures | **no** |
-| `siginfo_beta.txt` | ~444 MB | one row per signature: drug, cell line, dose, time, QC flags | **no** |
-| `cellinfo_beta.txt` | ~38 KB | one row per cell line: donor sex, lineage | yes → `/cmap/` |
-| `geneinfo_beta.txt` | ~1.1 MB | Entrez ↔ Ensembl ↔ gene symbol | yes → `/cmap/` |
-| `compoundinfo_beta.txt` | small | drug mechanism reference | yes → `/cmap/` |
+Use `signif.sbgenes.txt` from the GTEx v8 sex-biased expression archive. It contains 104,864 gene–tissue rows across 44 tissues. Positive `effsize` means higher expression in females. Negative `effsize` means higher expression in males. The GTEx table uses a local false sign rate threshold of 0.05. These tissue gene sets are references for comparison with cancer cell lines. [GTEx input](../../gtex/README.txt) · [GTEx study](https://doi.org/10.1126/science.aba3066)
 
-The two large files stay in Google Drive. GitHub caps single files at 100 MB.
+## Reference inputs and settings
 
-The .gctx used in this project was fetched from:
+- [Lineage map](../../Phase5_PerSignature_Categories/reference/cmap_to_gtex.json) links CMap lineages to GTEx tissues.
+- [GTEx gene-set JSON](../../Phase5_PerSignature_Categories/reference/sb_library_sets.json) has one combined set per tissue. Convert its lists to Python sets before intersections.
+- [Compound list](../../Phase5_PerSignature_Categories/reference/top50_names.json) defines the Phase 6 panel.
+- The notebook builds `sig_known.csv` from LINCS signature metadata and cell-line metadata. It builds `gid_to_ensg.json` by dropping unmapped rows from the gene table and mapping CMap feature IDs to Ensembl IDs. The gene table has 12,277 mapped feature records and 12,276 distinct Ensembl IDs.
 
-```
-https://cmapreg.s3.amazonaws.com/galenAI/level5_beta_trt_cp_n720216x12328.gctx
-```
-
-Read it with [cmapPy](https://github.com/cmap/cmapPy) — never load all 33 GB.
-Pass the signature IDs you want:
-
-```python
-from cmapPy.pandasGEXpress.parse import parse
-expr = parse(gctx_file, cid=valid_ids).data_df
-```
-
-**Paper:** Subramanian A, Narayan R, Corsello SM, et al. *A Next Generation
-Connectivity Map: L1000 Platform and the First 1,000,000 Profiles.* Cell. 2017;
-171(6):1437–1452.e17. doi:[10.1016/j.cell.2017.10.049](https://doi.org/10.1016/j.cell.2017.10.049)
-
----
-
-## 2. GTEx v8 — the sex-biased gene side
-
-GTEx measured gene expression in real human tissue from real donors and listed,
-per tissue, the genes expressed differently in men and women. This is our
-reference list — the thing we test the drug's gene list against.
-
-Portal: <https://gtexportal.org/home/downloads/adult-gtex>
-Archive: `GTEx_Analysis_v8_sbgenes.tar.gz`
-
-| File | What it holds | In this repo? |
-|------|---------------|---------------|
-| `signif.sbgenes.txt` | the sex-biased genes of every tissue, with `effsize` | **no** (see `/gtex/`) |
-| per-tissue `*.sbgenes.txt` | the same, split by tissue | no |
-
-Two columns matter:
-
-- **`effsize`** — the sign decides the label. Positive → female-biased.
-  Negative → male-biased. This is what `split_sets()` uses to cut each tissue
-  into a FEMALE half and a MALE half.
-- **`lfsr`** — local false sign rate. GTEx calls a gene sex-biased at
-  `lfsr ≤ 0.05`.
-
-We keep only tissues with at least 15 sex-biased genes, which leaves **44
-tissues**. Library sizes vary a lot — 473 genes for
-`Cells_EBV.transformed_lymphocytes`, 2,739 for `Brain_Hypothalamus` — and that
-variation is one reason a pair can end up as Category D.
-
-**Paper:** Oliva M, Muñoz-Aguirre M, Kim-Hellmuth S, et al. *The impact of sex
-on gene expression across human tissues.* Science. 2020 Sep 11;369(6509).
-doi:[10.1126/science.aba3066](https://doi.org/10.1126/science.aba3066)
-
-How they got the list: a linear model per tissue with surrogate variables (to
-absorb differences in cell-type composition), then MASH — multivariate adaptive
-shrinkage, which borrows strength across the 44 tissues — then `lfsr ≤ 0.05`.
-They report 13,294 sex-biased genes, 473 to 4,558 per tissue, with a median
-autosomal fold change of about 1.04.
-
-**Worth quoting in any discussion:** the paper itself warns that cell lines are
-not representative of real tissue. Our Category A is exactly that comparison, so
-the caveat is ours too.
-
----
-
-## 3. Derived reference files
-
-Built once from the two sources above and stored as JSON in
-`/Phase5_PerSignature_Categories/reference/`.
-
-| File | What it is | Expected |
-|------|-----------|----------|
-| `cmap_to_gtex.json` | CMap cell lineage → GTEx tissue(s). Defines "home tissue" | **20** lineages |
-| `sb_library_sets.json` | GTEx tissue → its sex-biased Ensembl IDs | **44** tissues |
-| `gid_to_ensg.json` | CMap gene_id → Ensembl ID. The translator between the two datasets | 12,277 genes |
-| `top50_names.json` | the 50 drugs | 50 |
-
-`sb_library_sets` **must be loaded as Python sets**, not lists:
-
-```python
-sb_library_sets = {k: set(v) for k, v in json.load(open(path)).items()}
-```
-
-JSON has no set type, so a plain `json.load` gives lists. The intersection
-inside `run_gsea` then fails, the failure is swallowed by a `try/except`, and
-every pair quietly becomes C or D with no error printed. This is the Phase 5
-bug. Check the type before every run.
-
----
-
-## 4. Tools
-
-| | Version | Used for |
-|---|---|---|
-| gseapy | 1.3.1 | `gseapy.prerank`, 1,000 permutations, `min_size=15`, seed 42 |
-| cmapPy | ≥ 4.0.1 | reading the .gctx |
-| pandas / numpy | ≥ 2.0 / ≥ 1.24 | everything else |
-| matplotlib | ≥ 3.7 | the figures |
-| Python | ≥ 3.12 | the plot code uses PEP 701 f-strings |
-
-**GSEA method:** Subramanian A, Tamayo P, Mootha VK, et al. *Gene set enrichment
-analysis: a knowledge-based approach for interpreting genome-wide expression
-profiles.* PNAS. 2005;102(43):15545–15550.
-doi:[10.1073/pnas.0506580102](https://doi.org/10.1073/pnas.0506580102)
-
-`min_size=15` is the gseapy and Broad default. It is a property of GSEA, not a
-filter chosen for this project.
+The batch and case-study exports use 1,000 GSEA permutations, minimum set size 15 and seed 42. The batch and the individual case studies use different rankings and reference sets, as described in the [Phase 6 report](../README.md). The original notes record GSEApy 1.3.1. The subsequent replay used 1.3.2. [Dependencies](../../requirements.txt) · [GSEA method](https://doi.org/10.1073/pnas.0506580102)

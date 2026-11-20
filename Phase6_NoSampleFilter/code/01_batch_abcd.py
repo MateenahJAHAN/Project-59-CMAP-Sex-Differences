@@ -1,13 +1,11 @@
-"""
-Phase 6 - step 1: build the A / B / C / D table.
+"""Build the archived Phase 6 drug–lineage–tissue category table.
 
-Marouen's instruction for this phase: run the pipeline with NO sample-size
-filter. The only filter on the data is |z| > 2.
+The screen removes the per-pair donor-sex minimum. Drug–lineage pairs still
+need at least three usable signatures. The ranking uses genes above the
+absolute mean z-score cutoff of 2 and gene sets with at least 15 matching genes.
 
-Output: results/per_signature_v4_ABCD.csv  (39,996 rows = drug x lineage x tissue)
-
-Verbatim from Phase6_NoSampleFilter/notebook/phase6_no_sample_filter.ipynb
-(cells 2, 5 and 7). Paths assume Google Colab with Drive mounted.
+The notebook export expects the original Colab paths and derived inputs.
+See ../sources/README.md for the data setup.
 """
 
 # ---------------------------------------------------------------
@@ -19,7 +17,7 @@ import json, pandas as pd
 BASE = '/content/drive/MyDrive/Project59'
 REF  = f'{BASE}/data/reference'
 
-# ---- reference objects (sets, lists nahi — yeh bug tha pehle) ----
+# Convert JSON lists to sets for the gene intersections.
 cmap_to_gtex    = {k: set(v) for k,v in json.load(open(f'{REF}/cmap_to_gtex.json')).items()}
 sb_library_sets = {k: set(v) for k,v in json.load(open(f'{REF}/sb_library_sets.json')).items()}
 gid_to_ensg     = json.load(open(f'{REF}/gid_to_ensg.json'))
@@ -47,15 +45,13 @@ import pandas as pd, numpy as np, gseapy
 
 gctx_file = '/content/cmap/level5_beta_trt_cp_n720216x12328.gctx'
 
-# gctx ke andar kaunse signatures hain
+# Restrict each comparison to signatures present in the matrix.
 col_meta  = parse(gctx_file, col_meta_only=True)
 gctx_sigs = set(col_meta.index)
 print(f"gctx signatures: {len(gctx_sigs):,}")
 
 
 def per_lineage_DE_v3(drug_name, lineage, min_sigs=3):
-
-    # check: gctx have minimum signatures .
 
     sigs = sig_known[(sig_known['cmap_name']   == drug_name) &
                      (sig_known['cell_lineage'] == lineage)]
@@ -65,18 +61,18 @@ def per_lineage_DE_v3(drug_name, lineage, min_sigs=3):
         return None
 
     expr   = parse(gctx_file, cid=valid_ids).data_df
-    mean_z = expr.mean(axis=1)# avg of every gene
-    strong = mean_z[mean_z.abs() > 2] # this is a filter
+    mean_z = expr.mean(axis=1)
+    strong = mean_z[mean_z.abs() > 2]
 
-    if len(strong) == 0:# if in a signature there is no any gene with z+_ 2 return none
+    if len(strong) == 0:
         return None
 
-    de = pd.DataFrame({'gene_id': strong.index.astype(str), # create a table and make datatype same so that we can use after
-                       'z_score': strong.values, # we have a dataframe with gene_id index , another col is z_score and score  both z score and score are same
+    de = pd.DataFrame({'gene_id': strong.index.astype(str),
+                       'z_score': strong.values,
                        'score'  : strong.values})
-    de['ensembl_id'] = de['gene_id'].map(gid_to_ensg)# create another col ensemble id to match cmap and gtex gene kind of translator
+    de['ensembl_id'] = de['gene_id'].map(gid_to_ensg)
     de = de.merge(genes_info[['gene_id','gene_symbol']].astype({'gene_id':str}),
-                  on='gene_id', how='left')# primary value merge
+                  on='gene_id', how='left')
     return de.sort_values('score', ascending=False)
 
 
@@ -100,14 +96,14 @@ def run_gsea(de_results, gene_sets_dict, min_genes=15):
 print(" per_lineage_DE_v3 + run_gsea ready")
 
 # ---------------------------------------------------------------
-# the batch loop  (~24 min on Colab)
+# Run the batch comparisons.
 # ---------------------------------------------------------------
 import pandas as pd, time
 
 all_tissues = sorted(sb_library_sets.keys())
 
 print(f"Drugs: {len(top50_names)} | Tissues: {len(all_tissues)}")
-print("Sample-size filter REMOVED (Marouen's instruction)")
+print("Five-lines-per-sex minimum removed within drug–lineage pairs")
 print("Categories:  A = home significant | B = cross significant")
 print("             C = tested, NOT significant | D = could NOT be tested")
 print("Time: ~30-50 min\n")

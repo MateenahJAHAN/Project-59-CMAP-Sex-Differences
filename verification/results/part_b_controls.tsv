@@ -1,0 +1,3 @@
+control	response_scale	compound	n_lines	p	rank	n_ranked	passes
+PC1	level5	AMG-232	32.0	0.0007999200079992001	1.0	114.0	True
+K4	level3	AMG-232	32.0	9.999000099990002e-05	1.0	114.0	True

@@ -1,0 +1,384 @@
+{
+  "_about": "Original analysis settings. Numerical values, selected options and input-file layout are preserved.",
+  "decide": {
+    "7a": "C",
+    "7b": "B",
+    "7c": "B",
+    "7d": "A",
+    "7e": "A",
+    "7f": "A",
+    "7g": "B",
+    "7h": "B",
+    "7i": "A",
+    "7j": {
+      "unit": "A",
+      "interval": "A"
+    },
+    "7k": "A",
+    "7l": "A",
+    "7m": "B",
+    "7n": "B",
+    "8a": "A",
+    "8b": "A"
+  },
+  "decide_options": {
+    "7a": {
+      "A": "a P2 p below 0.05 makes a P1 result 'replicated' (panel and compound level)",
+      "B": "P2 is description only; nothing is called replicated",
+      "C": "panel level only: an H1 result is labelled 'also seen in P2', never 'replicated'; compound-level agreement is reported, not called replication"
+    },
+    "7b": {
+      "A": "DMSO results are reported, no rule",
+      "B": "reading rule: DMSO p < 0.05 for a term means an H1 result for that term is described as a shift in average response that also shows in vehicle z-scores, and only the H2 specificity rule can support a compound claim",
+      "C": "DMSO is a gate: the P1 DMSO p under the PC1 model must be >= 0.05, else stop"
+    },
+    "7c": {
+      "A": "strict XY vs XX-like term kept; its failed calibration stops Part B",
+      "B": "strict term dropped in every panel; calibration gate covers factorial Y, X and annotated in every panel",
+      "C": "strict term reported as estimates with 90% CIs (E1 to E3), no p-value"
+    },
+    "7d": {
+      "A": "E3 on level 3 at the P1 condition (R3_P1_d111); level-5 E3 is S12",
+      "B": "E3 on level 3 with both P1 dose labels pooled (R3_P1)",
+      "C": "E3 on level 5 (P1_resp); level 3 (R3_P1_d111) is S12"
+    },
+    "7e": {
+      "A": "focused one-sided test on the 42 Lopes-Ramos TFs with PANDA-LCL top-30 regulons; MYBL1 not testable",
+      "B": "focused test on the Lopes-Ramos TFs with CollecTRI landmark targets (31 TFs)",
+      "C": "no focused test"
+    },
+    "7f": {
+      "A": "exclude discordant and source-conflict lines (P1: 41 lines); D's 44-line set is S1",
+      "B": "keep D's 44 lines; REC's exclusion is a sensitivity analysis",
+      "C": "exclude MCF7 only"
+    },
+    "7g": {
+      "A": "TP53 from CMP with three levels (mutant, wild type, unknown)",
+      "B": "D's TP53_cov (CMP, else CCLE); lines with neither leave the model; S10 = CCLE MAF alone"
+    },
+    "7h": {
+      "A": "H1 over compounds complete over the analysis set; all tested compounds as sensitivity",
+      "B": "H1 over all tested compounds with induced permutations; complete compounds as sensitivity"
+    },
+    "7i": {
+      "A": "a compound (and a contrast) is tested only if each group keeps at least 3 lines and there are at least 20 distinct within-lineage relabellings",
+      "B": "D's rule: at least 2 lines per group, non-singular design, no leverage-1 line"
+    },
+    "7j": {
+      "unit": {
+        "A": "E2 and E3 in percent of the mean S (E2: the compound's mean s over the model lines; E3: the mean S of the model lines)",
+        "B": "100 x coefficient"
+      },
+      "interval": {
+        "A": "HC3",
+        "B": "classical OLS"
+      }
+    },
+    "7k": {
+      "A": "E4 (H2 rule 3) is met if more than 10 compounds have p < 0.05 for the term in P1 (D's pseudo-label 95th percentile); q < 0.1 counts are descriptive",
+      "B": "joint null computed at G from the shared permutations: the 95th percentile of the per-permutation count of compounds with permutation p < 0.05"
+    },
+    "7l": {
+      "A": "leads: E2 on level 5, one-sided where a direction is given, Freedman-Lane p; L4 two-sided",
+      "B": "leads: E2 on the E3 scale of 7d",
+      "C": "leads: T_c (shape) for L4, E2 on level 5 for L1 to L3"
+    },
+    "7m": {
+      "A": "all G code written, tested and hashed before the freeze",
+      "B": "code finished after the freeze, committed, tested and hashed before unblinding as a dated amendment"
+    },
+    "7n": {
+      "A": "CollecTRI complexes enter the TF layer (219 regulators)",
+      "B": "single TFs only (194); the 25 complexes are reported descriptively",
+      "C": "complexes as a separate readout with its own BH family"
+    },
+    "8a": {
+      "A": "historical launch option A",
+      "B": "historical launch option B",
+      "C": "historical launch option C"
+    },
+    "8b": {
+      "A": "internal dated Git tag",
+      "B": "internal dated Git tag plus OSF identifier"
+    }
+  },
+  "plan_constants": {
+    "H1_alpha_per_term": 0.025,
+    "H2_bh_q": 0.1,
+    "H2_top_fraction": 0.05,
+    "H2_rule4_min_retained": 0.5,
+    "E4_count_p": 0.05,
+    "E4_threshold_7kA": 10,
+    "E1_sesoi_sd": 1.0,
+    "E2_sesoi_pct": 50.0,
+    "E3_margin_pct": 20.0,
+    "E3_equivalence_min_probability": 0.8,
+    "ci_levels": [
+      0.9,
+      0.95
+    ],
+    "calibration_gate": [
+      0.03,
+      0.07
+    ],
+    "pc1_p": 0.05,
+    "pc1_top_fraction": 0.05,
+    "replication_p": 0.05,
+    "lead_alpha": 0.05,
+    "secondary_bh_q": 0.1,
+    "collectri_min_landmark_targets": 10,
+    "qc_low_threshold": 0.2,
+    "min_group_7iA": 3,
+    "min_relabellings_7iA": 20,
+    "min_group_7iB": 2,
+    "leads": [
+      {
+        "id": "L1",
+        "compound": "trametinib",
+        "term": "factX",
+        "alternative": "greater",
+        "panels": [
+          "P1"
+        ]
+      },
+      {
+        "id": "L2",
+        "compound": "panobinostat",
+        "term": "factY",
+        "alternative": "greater",
+        "panels": [
+          "P1"
+        ]
+      },
+      {
+        "id": "L3",
+        "compound": "vorinostat",
+        "term": "factX",
+        "alternative": "greater",
+        "panels": [
+          "P1",
+          "P2"
+        ]
+      },
+      {
+        "id": "L4",
+        "compound": "idarubicin",
+        "term": "factY",
+        "alternative": "two-sided",
+        "panels": [
+          "P1"
+        ]
+      }
+    ],
+    "pc1": {
+      "compound": "AMG-232",
+      "genotype_column": "TP53_cmp",
+      "gene": "CDKN1A",
+      "panel": "P1"
+    },
+    "panels": [
+      "P1",
+      "P1b",
+      "P2"
+    ],
+    "primary_panel": "P1",
+    "panel_numbers": {
+      "P1": 1,
+      "P1b": 2,
+      "P2": 3
+    },
+    "level3_tensors": {
+      "P1": {
+        "7dA": "R3_P1_d111",
+        "7dB": "R3_P1"
+      },
+      "P1b": "R3_P1_d012",
+      "P2": "R3_P2"
+    },
+    "level3_axes": {
+      "R3_P1_d111": "P1_d111",
+      "R3_P1": "P1",
+      "R3_P1_d012": "P1_d012",
+      "R3_P2": "P2"
+    }
+  },
+  "run": {
+    "B_full": 10000,
+    "key_seed_base": 20261115,
+    "tie_tolerance": 1e-05,
+    "calibration_B": 2000,
+    "calibration_n_pseudo": {
+      "P1": 200,
+      "P1b": 100,
+      "P2": 100
+    },
+    "calibration_fresh_seed": 20261122,
+    "precision_draws": 200,
+    "precision_seed": 20261115,
+    "k4_seed": 20261115,
+    "random_set_n": 10000,
+    "random_set_seed": 20261123,
+    "relabel_n_viability": 1000,
+    "test_permutation_seed": 20261124,
+    "test_min_share_label_rows_changed": 0.25,
+    "workers": 6
+  },
+  "pseudo_sources": {
+    "list": [
+      {
+        "name": "D2_R1_F41",
+        "file": "taskD2/pseudolabels/D2_pseudo_R1_F41.tsv.gz",
+        "family": "factorial",
+        "panels": [
+          "P1",
+          "P1b"
+        ],
+        "prior": {
+          "P1": {
+            "factY": "taskD2/R1/D2_calib_R1_F41_factY.tsv",
+            "factX": "taskD2/R1/D2_calib_R1_F41_factX.tsv"
+          }
+        }
+      },
+      {
+        "name": "D2_R1_F44",
+        "file": "taskD2/pseudolabels/D2_pseudo_R1_F44.tsv.gz",
+        "family": "factorial",
+        "panels": [
+          "P1",
+          "P1b"
+        ],
+        "prior": {
+          "P1": {
+            "factY": "taskD2/R1/D2_calib_R1_F44_factY.tsv",
+            "factX": "taskD2/R1/D2_calib_R1_F44_factX.tsv"
+          }
+        }
+      },
+      {
+        "name": "D_P1_factorial",
+        "file": "taskD/pseudolabels/D_pseudo_P1_factorial.tsv.gz",
+        "family": "factorial",
+        "panels": [
+          "P1"
+        ],
+        "prior": {
+          "P1": {
+            "factY": "taskD/calib/D_calib_P1_factY.tsv",
+            "factX": "taskD/calib/D_calib_P1_factX.tsv"
+          }
+        }
+      },
+      {
+        "name": "D_P1b_factorial",
+        "file": "taskD/pseudolabels/D_pseudo_P1b_factorial.tsv.gz",
+        "family": "factorial",
+        "panels": [
+          "P1b"
+        ],
+        "prior": {
+          "P1b": {
+            "factY": "taskD/calib/D_calib_P1b_factY.tsv",
+            "factX": "taskD/calib/D_calib_P1b_factX.tsv"
+          }
+        }
+      },
+      {
+        "name": "D_P2_factorial",
+        "file": "taskD/pseudolabels/D_pseudo_P2_factorial.tsv.gz",
+        "family": "factorial",
+        "panels": [
+          "P2"
+        ],
+        "prior": {
+          "P2": {
+            "factY": "taskD/calib/D_calib_P2_factY.tsv",
+            "factX": "taskD/calib/D_calib_P2_factX.tsv"
+          }
+        }
+      },
+      {
+        "name": "D_P1_annotated",
+        "file": "taskD/pseudolabels/D_pseudo_P1_annotated.tsv.gz",
+        "family": "annotated",
+        "panels": [
+          "P1"
+        ],
+        "prior": {
+          "P1": {
+            "annotated": "taskD/calib/D_calib_P1_annotated.tsv"
+          }
+        }
+      },
+      {
+        "name": "D2_R2_P1b_annotated",
+        "file": "taskD2/pseudolabels/D2_pseudo_R2_P1b_annotated.tsv.gz",
+        "family": "annotated",
+        "panels": [
+          "P1b"
+        ],
+        "prior": {
+          "P1b": {
+            "annotated": "taskD2/R2/D2_calib_R2_P1b_annotated.tsv"
+          }
+        }
+      },
+      {
+        "name": "D2_R2_P2_annotated",
+        "file": "taskD2/pseudolabels/D2_pseudo_R2_P2_annotated.tsv.gz",
+        "family": "annotated",
+        "panels": [
+          "P2"
+        ],
+        "prior": {
+          "P2": {
+            "annotated": "taskD2/R2/D2_calib_R2_P2_annotated.tsv"
+          }
+        }
+      },
+      {
+        "name": "D_P1_strict",
+        "file": "taskD/pseudolabels/D_pseudo_P1_strict.tsv.gz",
+        "family": "strict",
+        "panels": [
+          "P1"
+        ],
+        "prior": {
+          "P1": {
+            "strict": "taskD/calib/D_calib_P1_strict.tsv"
+          }
+        }
+      },
+      {
+        "name": "D_P1b_strict",
+        "file": "taskD/pseudolabels/D_pseudo_P1b_strict.tsv.gz",
+        "family": "strict",
+        "panels": [
+          "P1b"
+        ],
+        "prior": {}
+      },
+      {
+        "name": "D_P2_strict",
+        "file": "taskD/pseudolabels/D_pseudo_P2_strict.tsv.gz",
+        "family": "strict",
+        "panels": [
+          "P2"
+        ],
+        "prior": {}
+      }
+    ],
+    "prior_B": 2000
+  },
+  "paths": {
+    "inputs": "data/G/inputs",
+    "tensors_D": "data/G/tensors/D",
+    "tensors_E": "data/G/tensors/E",
+    "persig_E": "data/G/tensors/E",
+    "siginfo": "data/G/meta/siginfo_beta.txt",
+    "prism": "data/G/prism/secondary-screen-dose-response-curve-parameters.csv",
+    "pins": "config/G_inputs_pinned.tsv",
+    "code_sums": "src/G/SHA256SUMS.txt",
+    "repo_inputs": "inputs"
+  }
+}
