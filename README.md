@@ -18,7 +18,7 @@ The LINCS2020 analysis tested 114 compounds across 41 lines. The panel-level p-v
 
 [![LINCS2020 drug-response results and the TP53 comparison](manuscript/figures/fig4_partB.png)](manuscript/figures/fig4_partB.pdf)
 
-The notebooks below document the earlier CMap and GTEx screen. [November 16 draft and figures](https://github.com/MateenahJAHAN/Project-59-CMAP-Sex-Differences/tree/72861297725a9e303eb0a35066a5cbb4b547323c/manuscript)
+The notebooks below document the earlier CMap and GTEx screen.
 
 ## How the analysis developed
 
