@@ -1,0 +1,17 @@
+{
+  "source": "https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/level5/level5_beta_trt_cp_n720216x12328.gctx",
+  "source_etag": "\"d342ab7f3fa6ece699099bc2d8fc94b8-2118\"",
+  "source_file_bytes": 35518405386,
+  "provider_shape": [
+    720216,
+    12328
+  ],
+  "matrix_offset": 6144,
+  "all_gene_ids_and_order_match": true,
+  "signatures_compared": 36523,
+  "genes_per_signature": 12328,
+  "float32_values_compared": 450255544,
+  "mismatched_signatures": 0,
+  "bytes_received": 2388821216,
+  "http_ranges": 6539
+}

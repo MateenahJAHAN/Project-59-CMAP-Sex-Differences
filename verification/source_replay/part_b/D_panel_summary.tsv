@@ -1,0 +1,4 @@
+panel	project_code	pert_itime	gate_labels	tensor_label	n_lines	n_compounds	n_signatures_gate	fill_gate	n_signatures_label	fill_label
+P1	ASG	24 h	1.11 uM;0.12 uM	1.11 uM	85	115	18892	0.9931	9724	0.9716
+P1b	ASG	24 h	1.11 uM;0.12 uM	0.12 uM	85	115	18892	0.9931	9168	0.9162
+P2	CPC	6 h	10 uM	10 uM	51	186	11164	0.9936	11164	0.9936

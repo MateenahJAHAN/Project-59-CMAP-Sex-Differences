@@ -1,0 +1,44 @@
+[
+  {
+    "file": "GDSC2_fitted_dose_response_27Oct23.xlsx",
+    "sha256": "f950a7027be265f8a7a74220a27fd18cbd368485349bd8c2048e88bb1cd07560",
+    "url": "https://cog.sanger.ac.uk/cancerrxgene/GDSC_release8.5/GDSC2_fitted_dose_response_27Oct23.xlsx",
+    "bytes": 21330376,
+    "source": "downloaded for replay"
+  },
+  {
+    "file": "model_list_20240110.csv",
+    "sha256": "9e4d3cd2a59901f8446760c647cfbe85762bed266b825c48ce748a35d4300fcd",
+    "url": "https://cog.sanger.ac.uk/cmp/download/model_list_20240110.csv",
+    "bytes": 902914,
+    "source": "verified local download"
+  },
+  {
+    "file": "prism_secondary_dose_response_curve_parameters.csv",
+    "sha256": "88d1013506e0cd6f191a51c5f3fdd3fb2be54f8afb4e19a5d1f8538e81fbfec8",
+    "url": "https://ndownloader.figshare.com/files/20237739",
+    "bytes": 264340589,
+    "source": "downloaded for replay"
+  },
+  {
+    "file": "cellosaurus.txt",
+    "sha256": "3b5a9fc56b49854230ae90fb7cee57a3bf9f961df98be215a634203526f476ef",
+    "url": "https://ftp.expasy.org/databases/cellosaurus/cellosaurus.txt",
+    "bytes": 122355499,
+    "source": "downloaded for replay"
+  },
+  {
+    "file": "CCLE_RNAseq_genes_rpkm_20180929.gct.gz",
+    "sha256": "954c94233cac97a695567497dcd103bd01d342b507385dc7949777267cf2440a",
+    "url": "https://data.broadinstitute.org/ccle/CCLE_RNAseq_genes_rpkm_20180929.gct.gz",
+    "bytes": 143495640,
+    "source": "verified local download"
+  },
+  {
+    "file": "rnaseq_latest.csv.gz",
+    "sha256": "b160cc09fa6b46ebcdf81daedba60ee7283612851848539a70050704f7c9a48d",
+    "url": "https://cog.sanger.ac.uk/cmp/download/rnaseq_latest.csv.gz",
+    "bytes": 1168024092,
+    "source": "downloaded for replay"
+  }
+]

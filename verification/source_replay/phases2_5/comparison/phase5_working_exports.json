@@ -1,0 +1,36 @@
+[
+  {
+    "file_or_sheet": "50_drugs_44_tissues_FULL.xlsx",
+    "archived_rows": 2200,
+    "replayed_rows": 2200,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "NES": 0,
+      "FDR": 0,
+      "category": 0
+    }
+  },
+  {
+    "file_or_sheet": "4_category_breakdown.xlsx",
+    "archived_rows": 50,
+    "replayed_rows": 50,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "Cat_A_home": 0,
+      "Cat_B_cross": 0,
+      "Cat_C_tested_no_hit": 0,
+      "Cat_D_not_tested": 0,
+      "total": 0,
+      "activity": 0
+    }
+  },
+  {
+    "file_or_sheet": "50_drugs_complete_table.xlsx",
+    "archived_rows": 125,
+    "replayed_rows": 125,
+    "archive_only": [],
+    "replay_only": []
+  }
+]

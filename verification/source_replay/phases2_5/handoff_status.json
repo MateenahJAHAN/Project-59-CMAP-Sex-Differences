@@ -1,0 +1,22 @@
+{
+  "2": {
+    "completed_compounds": 50,
+    "planned": 50,
+    "full_keyed_comparison_available": true
+  },
+  "3": {
+    "completed_compounds": 32,
+    "planned": 50,
+    "full_keyed_comparison_available": false
+  },
+  "4": {
+    "completed_compounds": 37,
+    "planned": 50,
+    "full_keyed_comparison_available": false
+  },
+  "5": {
+    "completed_compounds": 50,
+    "planned": 50,
+    "full_keyed_comparison_available": true
+  }
+}

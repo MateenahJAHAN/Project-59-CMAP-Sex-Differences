@@ -1,0 +1,2 @@
+label	compound	dose_label	time	term	alternative	n_set_lines_with_data	n_lines_after_lineage_rule	n_Y1	n_Y0	testable	reason	reading_fixed_in_plan
+EXPLORATORY X2	idarubicin	12 uM	24 h	factY	two-sided	23	20	2	18	False	group with < 3 lines	not testable

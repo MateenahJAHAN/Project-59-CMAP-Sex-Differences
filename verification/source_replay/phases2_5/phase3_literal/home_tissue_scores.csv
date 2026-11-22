@@ -1,0 +1,16 @@
+scheme,lineage,home_tissue,NES,FDR,FDR_below_.05
+original_notebook,lung,Lung,0.914838566916434,1.0,False
+original_notebook,large_intestine,Colon_Transverse,-1.1409573652046345,0.20778714964994863,False
+original_notebook,large_intestine,Colon_Sigmoid,-1.1156747878911875,0.23107054391372567,False
+original_notebook,haematopoietic_and_lymphoid_tissue,Cells_EBV.transformed_lymphocytes,1.185343351335943,0.040997706422018346,True
+original_notebook,haematopoietic_and_lymphoid_tissue,Whole_Blood,-0.8460887574901713,1.0,False
+original_notebook,haematopoietic_and_lymphoid_tissue,Spleen,-0.8072742096702058,1.0,False
+tied_order_11,haematopoietic_and_lymphoid_tissue,Cells_EBV.transformed_lymphocytes,1.1938393445056288,0.033626487325400925,True
+tied_order_11,haematopoietic_and_lymphoid_tissue,Whole_Blood,-0.8446293125780555,1.0,False
+tied_order_11,haematopoietic_and_lymphoid_tissue,Spleen,-0.8068081371855699,1.0,False
+tied_order_29,haematopoietic_and_lymphoid_tissue,Cells_EBV.transformed_lymphocytes,1.1924975483494222,0.075713453698311,False
+tied_order_29,haematopoietic_and_lymphoid_tissue,Whole_Blood,-0.8416721632616838,1.0,False
+tied_order_29,haematopoietic_and_lymphoid_tissue,Spleen,-0.8067160590187609,1.0,False
+tied_order_47,haematopoietic_and_lymphoid_tissue,Cells_EBV.transformed_lymphocytes,1.183633863440481,0.07454942654287275,False
+tied_order_47,haematopoietic_and_lymphoid_tissue,Whole_Blood,-0.8433845837190798,1.0,False
+tied_order_47,haematopoietic_and_lymphoid_tissue,Spleen,-0.8127067021013964,1.0,False

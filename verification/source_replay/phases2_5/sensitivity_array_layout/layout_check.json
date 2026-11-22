@@ -1,0 +1,21 @@
+{
+  "reason_for_selection": "first completed compound from the first layout run, and its largest observed false-discovery-rate discrepancy",
+  "signatures": 232,
+  "unique_gene_ids": 12276,
+  "genes_with_different_float32_means": 10484,
+  "max_mean_difference": 4.76837158203125e-07,
+  "different_rank_positions": 6,
+  "mean_z_tied_genes": 0,
+  "original_cmapPy": {
+    "lost_vs_archive": [],
+    "gained_vs_archive": [],
+    "max_shared_NES_error": 0.0
+  },
+  "simple_transpose": {
+    "lost_vs_archive": [
+      "Female_Brain_Putamen_basal_ganglia"
+    ],
+    "gained_vs_archive": [],
+    "max_shared_NES_error": 0.3359806266713543
+  }
+}

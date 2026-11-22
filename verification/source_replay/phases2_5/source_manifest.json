@@ -1,0 +1,43 @@
+{
+  "LINCS selected float32 signature matrix": {
+    "filename": "sig50.npy",
+    "bytes": 1801022304,
+    "sha256": "84261da588004fece25103151b77f3cfaaf700242ca205bfa37552a129062021"
+  },
+  "Signature order": {
+    "filename": "sig50.sigs.txt",
+    "bytes": 929321,
+    "sha256": "d9404ecf1244e0d008665bf4e351eb70e152653a997f2dff0533cdff5716e889"
+  },
+  "GCTX row identifiers": {
+    "filename": "row_ids.txt",
+    "bytes": 67510,
+    "sha256": "ec1b890e671a01d5183470e3ab5b874cd8e47edda07545af23119c39793a5c8c"
+  },
+  "GTEx tissue genes": {
+    "filename": "signif.sbgenes.txt",
+    "bytes": 10155544,
+    "sha256": "c27e92bd75faee02bcfcaad5a2efe2c2f187300d30d7de84170e0ce408e98dfa"
+  },
+  "GTEx source archive": {
+    "filename": "GTEx_Analysis_v8_sbgenes.tar.gz",
+    "bytes": 31486618,
+    "sha256": "485e7364e32abf294e8556d4ef8ff67132ea5b7d56774b106887ba7bf75a0bc6"
+  },
+  "cellinfo_beta.txt": {
+    "filename": "cellinfo_beta.txt",
+    "bytes": 37979,
+    "sha256": "d26a08f7f290f6a94bff593cdea4dcfc3fe17177e05593cd381cb65aebc63fc2"
+  },
+  "geneinfo_beta.txt": {
+    "filename": "geneinfo_beta.txt",
+    "bytes": 1141389,
+    "sha256": "e739d06bad42ff9285c00b778e65d8999425062a3375cc7e7cdab0e7154490b5"
+  },
+  "siginfo_beta.txt": {
+    "filename": "siginfo_beta.txt",
+    "bytes": 465242319,
+    "sha256": "1a38d7ea2a804be79804af4a27aff9f2537af8f13d3c8af1fdc1fef780f40201"
+  },
+  "reference_git_sha": "a26f5c84dc937f11fbf60d128353fa40f5881654"
+}

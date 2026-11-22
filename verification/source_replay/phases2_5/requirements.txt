@@ -1,0 +1,11 @@
+# The original Phase 3 and 4 notebooks printed the first three versions.
+numpy==2.0.2
+pandas==2.2.2
+gseapy==1.2.1
+scipy==1.15.3
+statsmodels==0.14.5
+pyarrow==26.0.1
+matplotlib==3.11.2
+h5py==3.16.0
+cmapPy==4.0.1
+openpyxl==3.1.5

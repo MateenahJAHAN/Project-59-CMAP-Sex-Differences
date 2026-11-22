@@ -1,0 +1,31 @@
+panel	term	variant	n_lines	mask_lineage_equal	matrix_equal
+P1	factY	primary	41	True	True
+P1	factY	S1 line set D44	44	True	True
+P1	factY	S1 line set taskC_conflict	43	True	True
+P1	factY	S2 drop lines with qc_pass fraction < 0.2	41	True	True
+P1	factY	S3 Y-only coding	25	True	True
+P1	factY	S5 log2 doubling time covariate	35	True	True
+P1	factY	S6 ploidy covariate	35	True	True
+P1	factY	S7 no TP53 term	41	True	True
+P1	factY	S8 no lineage term	41	True	True
+P1	factY	S9 CMP cancer type as block	34	True	True
+P1	factY	S10 TP53 from the CCLE 2018 MAF	41	True	True
+P1	factX	primary	41	True	True
+P1	factX	S1 line set D44	44	True	True
+P1	factX	S1 line set taskC_conflict	43	True	True
+P1	factX	S2 drop lines with qc_pass fraction < 0.2	41	True	True
+P1	factX	S5 log2 doubling time covariate	35	True	True
+P1	factX	S6 ploidy covariate	35	True	True
+P1	factX	S7 no TP53 term	41	True	True
+P1	factX	S8 no lineage term	41	True	True
+P1	factX	S9 CMP cancer type as block	34	True	True
+P1	factX	S10 TP53 from the CCLE 2018 MAF	41	True	True
+P1	annotated	primary	25	True	True
+P1b	factY	primary	41	True	True
+P1b	factX	primary	41	True	True
+P1b	annotated	primary	25	True	True
+P2	factY	primary	39	True	True
+P2	factY	S2 drop lines with qc_pass fraction < 0.2	31	True	True
+P2	factX	primary	39	True	True
+P2	factX	S2 drop lines with qc_pass fraction < 0.2	31	True	True
+P2	annotated	primary	31	True	True

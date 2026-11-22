@@ -1,0 +1,61 @@
+{
+  "C_annotation_discordance.tsv": {
+    "rows": 4,
+    "decompressed_content_identical": true,
+    "original_sha256": "e1a7fa57e78949debed65b017656091b9fdaecae9e1989788fc071854ed047ad",
+    "rerun_sha256": "e1a7fa57e78949debed65b017656091b9fdaecae9e1989788fc071854ed047ad"
+  },
+  "C_cellline_sex_labels.tsv": {
+    "rows": 1103,
+    "decompressed_content_identical": false,
+    "original_sha256": "75b7333d11d0f455ac736dc996f1dfbcab8f81f7bd30512d15f9368b73713836",
+    "rerun_sha256": "11df4598dcda28597a96e408995365f0f23679f2efb9bbac0e64ae6579414a95",
+    "differing_rows": 2,
+    "differing_columns": [
+      "ccle_yscore"
+    ],
+    "max_abs_difference": {
+      "ccle_yscore": 6.938893903907228e-18
+    },
+    "changed_models": [
+      {
+        "model_name": "LOUCY",
+        "RRID": "CVCL_1380"
+      },
+      {
+        "model_name": "MEL-JUSO",
+        "RRID": "CVCL_1403"
+      }
+    ]
+  },
+  "C_expr_ccle_legacy_long.tsv.gz": {
+    "rows": 9171,
+    "decompressed_content_identical": true,
+    "original_sha256": "baa2d6c515d63f7b4369c092131a71f427b25ccb39474df375e4ea12dc91e5c3",
+    "rerun_sha256": "baa2d6c515d63f7b4369c092131a71f427b25ccb39474df375e4ea12dc91e5c3"
+  },
+  "C_expr_sanger_cmp_long.tsv.gz": {
+    "rows": 18585,
+    "decompressed_content_identical": true,
+    "original_sha256": "8fc2b7c92cd90e9cbd3afbeb24029ba98ff7de77a8c9c0605093318b2b9c1f80",
+    "rerun_sha256": "8fc2b7c92cd90e9cbd3afbeb24029ba98ff7de77a8c9c0605093318b2b9c1f80"
+  },
+  "C_expression_cutoffs.tsv": {
+    "rows": 4,
+    "decompressed_content_identical": true,
+    "original_sha256": "c63fc816140cf7142962d29fc910366088f9f6452495f7bfd1ead3b778e0d145",
+    "rerun_sha256": "c63fc816140cf7142962d29fc910366088f9f6452495f7bfd1ead3b778e0d145"
+  },
+  "C_label_summary.tsv": {
+    "rows": 172,
+    "decompressed_content_identical": true,
+    "original_sha256": "c05f8165509499d00750bf5ee443823fb27fdc3134b9b76783d3ca7147ab5b66",
+    "rerun_sha256": "c05f8165509499d00750bf5ee443823fb27fdc3134b9b76783d3ca7147ab5b66"
+  },
+  "C_sex_specific_lineages.tsv": {
+    "rows": 14,
+    "decompressed_content_identical": true,
+    "original_sha256": "3d297d29bb303aed4d16da51504208a2f04d9d941bf15f1dd63977260338aeb1",
+    "rerun_sha256": "3d297d29bb303aed4d16da51504208a2f04d9d941bf15f1dd63977260338aeb1"
+  }
+}

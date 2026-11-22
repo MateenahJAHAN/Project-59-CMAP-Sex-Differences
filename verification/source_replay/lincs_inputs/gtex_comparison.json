@@ -1,0 +1,9 @@
+{
+  "url": "https://storage.googleapis.com/adult-gtex/bulk-qtl/v8/sb-eqtl/GTEx_Analysis_v8_sbgenes.tar.gz",
+  "archive_sha256": "485e7364e32abf294e8556d4ef8ff67132ea5b7d56774b106887ba7bf75a0bc6",
+  "archive_bytes": 31486618,
+  "member": "GTEx_Analysis_v8_sbgenes/signif.sbgenes.txt",
+  "member_sha256": "c27e92bd75faee02bcfcaad5a2efe2c2f187300d30d7de84170e0ce408e98dfa",
+  "member_bytes": 10155544,
+  "table_identical": true
+}

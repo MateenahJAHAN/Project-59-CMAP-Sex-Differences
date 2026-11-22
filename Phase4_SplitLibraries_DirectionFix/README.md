@@ -1,6 +1,6 @@
 # Phase 4: Split GTEx gene sets
 
-This exploratory phase averaged the CMap level-5 z-scores within each drug–lineage pair, retained genes with absolute mean z-score above 2, and tested separate female- and male-biased GTEx sets. The identity of the enriched reference set and the sign of the normalized enrichment score describe different parts of the result. These pooled responses cannot estimate a difference between donor-sex groups.
+This exploratory phase averaged the CMap level-5 z-scores within each drug–lineage pair, ranked all mapped genes, and tested separate female- and male-biased GTEx sets. The identity of the enriched reference set and the sign of the normalized enrichment score describe different parts of the result. These pooled responses cannot estimate a difference between donor-sex groups.
 
 In GTEx v8, positive `effsize` denotes higher expression in females. XIST (ENSG00000229807) has positive values in all 44 reported tissues, including +10.07 in lung. The corrected code places XIST in the female-biased lung set. One working notebook shows an initial reversed split and the subsequent rebuild before enrichment.
 

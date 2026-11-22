@@ -1,0 +1,68 @@
+[
+  {
+    "panel": "P1",
+    "median_split_equal": true,
+    "observation": {
+      "panel": "P1",
+      "exposure": "ploidy within-lineage median split",
+      "n_lines": 34,
+      "n_g1": 15,
+      "n_g0": 19,
+      "n_lineages": 10,
+      "B": 10000,
+      "n_tested": 114,
+      "panel_stat": 0.6936880254997903,
+      "panel_p": 0.5044495550444955,
+      "null_median": 0.6941120854595251,
+      "E5_excess": -0.0004240599597348238,
+      "n_p_lt_005": 1,
+      "n_q_lt_01": 0,
+      "note": ""
+    },
+    "differences": {}
+  },
+  {
+    "panel": "P1b",
+    "median_split_equal": true,
+    "observation": {
+      "panel": "P1b",
+      "exposure": "ploidy within-lineage median split",
+      "n_lines": 34,
+      "n_g1": 15,
+      "n_g0": 19,
+      "n_lineages": 10,
+      "B": 10000,
+      "n_tested": 107,
+      "panel_stat": 0.6807142970822501,
+      "panel_p": 0.672932706729327,
+      "null_median": 0.6958483080162066,
+      "E5_excess": -0.015134010933956499,
+      "n_p_lt_005": 4,
+      "n_q_lt_01": 0,
+      "note": ""
+    },
+    "differences": {}
+  },
+  {
+    "panel": "P2",
+    "median_split_equal": true,
+    "observation": {
+      "panel": "P2",
+      "exposure": "ploidy within-lineage median split",
+      "n_lines": 36,
+      "n_g1": 17,
+      "n_g0": 19,
+      "n_lineages": 6,
+      "B": 10000,
+      "n_tested": 186,
+      "panel_stat": 0.8816295713535863,
+      "panel_p": 0.07929207079292071,
+      "null_median": 0.8229780280461876,
+      "E5_excess": 0.058651543307398746,
+      "n_p_lt_005": 18,
+      "n_q_lt_01": 0,
+      "note": ""
+    },
+    "differences": {}
+  }
+]

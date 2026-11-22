@@ -1,0 +1,25 @@
+{
+  "eligible_compounds": 117,
+  "primary_overlap": 41,
+  "additional_compounds": [
+    "BIBR-1532",
+    "BRD-A19037878",
+    "LFM-A13",
+    "MK-2206",
+    "ZM-336372",
+    "gossypol",
+    "sirolimus",
+    "tanespimycin",
+    "wortmannin"
+  ],
+  "eligible_signatures_requiring_source_lookup": 1717,
+  "fresh_selection_same_set": false,
+  "fresh_selection_same_order": false,
+  "archived_only": [
+    "ZM-336372"
+  ],
+  "fresh_only": [
+    "erastin"
+  ],
+  "raw_score_at_rank_50": 15
+}

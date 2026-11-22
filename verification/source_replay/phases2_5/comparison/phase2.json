@@ -1,0 +1,28 @@
+{
+  "compounds": 50,
+  "gene_tests": 616400,
+  "tissue_tests": 2200,
+  "category_changes": 0,
+  "signature_count_changes": 0,
+  "DE_gene_count_changes": 0,
+  "original_calls": {
+    "C": 49,
+    "A": 1
+  },
+  "all_44_calls": {
+    "C": 50
+  },
+  "best_q_comparison": {
+    "compared": 1,
+    "missingness_changed": 0,
+    "above_1e-8": 0,
+    "max_abs": 0.0
+  },
+  "best_fold_comparison": {
+    "compared": 1,
+    "missingness_changed": 0,
+    "above_1e-8": 0,
+    "max_abs": 0.0
+  },
+  "best_tissue_mismatches": 0
+}

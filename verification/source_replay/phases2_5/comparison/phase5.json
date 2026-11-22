@@ -1,0 +1,32 @@
+{
+  "rows": 39996,
+  "pairs": 909,
+  "archived": {
+    "D": 39376,
+    "C": 540,
+    "B": 79,
+    "A": 1
+  },
+  "replay": {
+    "D": 39376,
+    "C": 540,
+    "B": 79,
+    "A": 1
+  },
+  "changed_categories": 0,
+  "changed_skip_reasons": 0,
+  "home_mapping_changes": 0,
+  "cell_line_count_changes": 0,
+  "NES": {
+    "compared": 620,
+    "missingness_changed": 0,
+    "above_1e-8": 0,
+    "max_abs": 0.0
+  },
+  "FDR": {
+    "compared": 620,
+    "missingness_changed": 0,
+    "above_1e-8": 14,
+    "max_abs": 0.001
+  }
+}

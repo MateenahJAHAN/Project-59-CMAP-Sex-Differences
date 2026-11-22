@@ -1,0 +1,32 @@
+{
+  "drug": "fostamatinib",
+  "raw_signatures": 735,
+  "passing_lineages": 3,
+  "literal_category": "A",
+  "archived_category": "B",
+  "archive_recorded_A_B_counts": [
+    0,
+    2
+  ],
+  "archived_individual_numeric_pairs": 2,
+  "n_literal_tissue_results": 132,
+  "max_abs_NES_literal_vs_fast": 2.220446049250313e-16,
+  "max_abs_FDR_literal_vs_fast": 1.1102230246251565e-16,
+  "tie_diagnostics": [
+    {
+      "lineage": "haematopoietic_and_lymphoid_tissue",
+      "gene_count": 12276,
+      "count_in_tied_scores": 12002,
+      "distinct_scores": 966,
+      "n_eligible_sets": 44
+    }
+  ],
+  "home_calls_by_scheme": {
+    "original_notebook": 1,
+    "tied_order_11": 1,
+    "tied_order_29": 0,
+    "tied_order_47": 0
+  },
+  "permutation_num": 1000,
+  "gsea_seed": 42
+}

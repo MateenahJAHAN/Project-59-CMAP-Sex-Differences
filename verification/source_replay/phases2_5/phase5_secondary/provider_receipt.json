@@ -1,0 +1,8 @@
+{
+  "url": "https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/level5/level5_beta_trt_cp_n720216x12328.gctx",
+  "etag": "\"d342ab7f3fa6ece699099bc2d8fc94b8-2118\"",
+  "signatures": 1717,
+  "gene_count": 12328,
+  "source_ranges": 473,
+  "float32_values": 21167176
+}

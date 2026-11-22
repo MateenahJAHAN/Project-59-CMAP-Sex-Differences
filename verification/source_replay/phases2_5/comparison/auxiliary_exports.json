@@ -1,0 +1,231 @@
+[
+  {
+    "file_or_sheet": "Phase2/as605240_tissue_tests.csv",
+    "archived_rows": 44,
+    "replayed_rows": 44,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "bh_all_44": 0,
+      "bh_nonzero_20": 0,
+      "fisher_p": 0,
+      "overlap_with_two_genes": 0,
+      "tissue_genes_in_universe": 0,
+      "universe_genes": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase2/vorinostat_tissue_enrichment.csv",
+    "archived_rows": 44,
+    "replayed_rows": 44,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "expected": 0,
+      "fold": 0,
+      "overlap": 0,
+      "p_adj": 0,
+      "p_value": 0,
+      "tissue_size": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase2/top50_drug_classification.csv drug_lineages",
+    "compounds": 50,
+    "lineage_membership_changes": []
+  },
+  {
+    "file_or_sheet": "Phase5/per_drug_4category_counts.csv",
+    "archived_rows": 50,
+    "replayed_rows": 50,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "Cat_A_home": 0,
+      "Cat_B_cross": 0,
+      "Cat_C_tested_no_hit": 0,
+      "Cat_D_not_tested": 0,
+      "n_lineages": 0,
+      "n_hits": 0,
+      "total": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/per_drug_lineage.csv",
+    "archived_rows": 909,
+    "replayed_rows": 909,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "n_M": 0,
+      "n_F": 0,
+      "skip_reason": 0,
+      "n_A": 0,
+      "n_B": 0,
+      "n_C": 0,
+      "n_D": 0,
+      "passes_5M5F": 0,
+      "analysed": 0,
+      "n_hits": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/significant_hits.csv",
+    "archived_rows": 80,
+    "replayed_rows": 80,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "is_home_tissue": 0,
+      "n_M": 0,
+      "n_F": 0,
+      "NES": 0,
+      "FDR": 0,
+      "sex_lean": 0,
+      "category": 0,
+      "skip_reason": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/all50_drug_counts.xlsx",
+    "archived_rows": 50,
+    "replayed_rows": 50,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "Cat_A_home": 0,
+      "Cat_B_cross": 0,
+      "Cat_C_tested_no_hit": 0,
+      "Cat_D_not_tested": 0,
+      "n_lineages": 0,
+      "n_hits": 0,
+      "total": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/4_category_breakdown_FIXED.xlsx",
+    "archived_rows": 50,
+    "replayed_rows": 50,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "Cat_A_home": 0,
+      "Cat_B_cross": 0,
+      "Cat_C_tested_no_hit": 0,
+      "Cat_D_not_tested": 0,
+      "total": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/FULL_50drugs_table.xlsx:Full_table",
+    "archived_rows": 39996,
+    "replayed_rows": 39996,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "n_cell_lines": 0,
+      "n_M": 0,
+      "n_F": 0,
+      "cell_lines_M": 0,
+      "cell_lines_F": 0,
+      "n_signatures": 0,
+      "is_home_tissue": 0,
+      "NES": 0,
+      "FDR": 0,
+      "sex_lean": 0,
+      "category": 0,
+      "skip_reason": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/FULL_50drugs_table.xlsx:Significant_hits",
+    "archived_rows": 80,
+    "replayed_rows": 80,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "n_cell_lines": 0,
+      "n_M": 0,
+      "n_F": 0,
+      "cell_lines_M": 0,
+      "cell_lines_F": 0,
+      "n_signatures": 0,
+      "is_home_tissue": 0,
+      "NES": 0,
+      "FDR": 0,
+      "sex_lean": 0,
+      "category": 0,
+      "skip_reason": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/FULL_50drugs_table.xlsx:Lineage_summary",
+    "archived_rows": 909,
+    "replayed_rows": 909,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "n_cell_lines": 0,
+      "n_M": 0,
+      "n_F": 0,
+      "cell_lines_M": 0,
+      "cell_lines_F": 0,
+      "n_signatures": 0,
+      "n_A": 0,
+      "n_B": 0,
+      "n_C": 0,
+      "n_D": 0,
+      "skip_reason": 0,
+      "passes_5M5F": 0,
+      "n_hits": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/FULL_50drugs_table.xlsx:Per_drug_counts",
+    "archived_rows": 50,
+    "replayed_rows": 50,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "Cat_A_home": 0,
+      "Cat_B_cross": 0,
+      "Cat_C_tested_no_hit": 0,
+      "Cat_D_not_tested": 0,
+      "n_lineages": 0,
+      "n_hits": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/FULL_50drugs_table.xlsx:Cell_line_detail",
+    "archived_rows": 4808,
+    "replayed_rows": 4808,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "n_signatures": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/cat_a_enrichment_scores.xlsx shared numeric results",
+    "archived_rows": 1,
+    "replayed_rows": 1,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "NES": 0,
+      "FDR": 0
+    }
+  },
+  {
+    "file_or_sheet": "Phase5/gtex_sbgenes_first5.xlsx",
+    "archived_rows": 5,
+    "replayed_rows": 5,
+    "archive_only_keys": 0,
+    "replay_only_keys": 0,
+    "mismatches_by_field": {
+      "effsize": 0,
+      "effsize_se": 0,
+      "lfsr": 0
+    }
+  }
+]

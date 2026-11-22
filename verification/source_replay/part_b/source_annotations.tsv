@@ -1,0 +1,17 @@
+stage	file	bytes	sha256	provider_url
+E	instinfo_beta.txt	674838120	2676189e8ea4a4cfdafc6c7e1b9f1776f4459ebfe4f79f6a736c3f3a732d3249	https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/instinfo_beta.txt
+E	siginfo_beta.txt	465242319	1a38d7ea2a804be79804af4a27aff9f2537af8f13d3c8af1fdc1fef780f40201	https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/siginfo_beta.txt
+E	geneinfo_beta.txt	1141389	e739d06bad42ff9285c00b778e65d8999425062a3375cc7e7cdab0e7154490b5	https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/geneinfo_beta.txt
+E	cellinfo_beta.txt	37979	d26a08f7f290f6a94bff593cdea4dcfc3fe17177e05593cd381cb65aebc63fc2	https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/cellinfo_beta.txt
+E	mutations_summary_latest.csv.gz	635791	6533fe8275d363962732f859b1b63487d376c4fc6327a4290add4efa0445b1b0	https://cog.sanger.ac.uk/cmp/download/mutations_summary_latest.csv.gz
+E	model_list_20240110.csv	902914	9e4d3cd2a59901f8446760c647cfbe85762bed266b825c48ce748a35d4300fcd	https://cog.sanger.ac.uk/cmp/download/model_list_20240110.csv
+D_labels	cellinfo_beta.txt	37979	d26a08f7f290f6a94bff593cdea4dcfc3fe17177e05593cd381cb65aebc63fc2	https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/cellinfo_beta.txt
+D	geneinfo_beta.txt	1141389	e739d06bad42ff9285c00b778e65d8999425062a3375cc7e7cdab0e7154490b5	https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/geneinfo_beta.txt
+D_labels	geneinfo_beta.txt	1141389	e739d06bad42ff9285c00b778e65d8999425062a3375cc7e7cdab0e7154490b5	https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/geneinfo_beta.txt
+D	siginfo_beta.txt	465242319	1a38d7ea2a804be79804af4a27aff9f2537af8f13d3c8af1fdc1fef780f40201	https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/siginfo_beta.txt
+D_labels	siginfo_beta.txt	465242319	1a38d7ea2a804be79804af4a27aff9f2537af8f13d3c8af1fdc1fef780f40201	https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/siginfo_beta.txt
+D_labels	model_list_20240110.csv	902914	9e4d3cd2a59901f8446760c647cfbe85762bed266b825c48ce748a35d4300fcd	https://cog.sanger.ac.uk/cmp/download/model_list_20240110.csv
+D_labels	mutations_summary_latest.csv.gz	635791	6533fe8275d363962732f859b1b63487d376c4fc6327a4290add4efa0445b1b0	https://cog.sanger.ac.uk/cmp/download/mutations_summary_latest.csv.gz
+D_labels	CCLE_DepMap_18q3_maf_20180718.txt	273412682	9014634cb3f7a61d944bb8cc67a58eaf7c5bd0c14f3bc0e873dab8d2132b40ca	https://data.broadinstitute.org/ccle/CCLE_DepMap_18q3_maf_20180718.txt
+D_labels	cellosaurus.txt	122355499	3b5a9fc56b49854230ae90fb7cee57a3bf9f961df98be215a634203526f476ef	https://ftp.expasy.org/databases/cellosaurus/cellosaurus.txt
+D_labels	CCLE_RNAseq_genes_rpkm_20180929.gct.gz	143495640	954c94233cac97a695567497dcd103bd01d342b507385dc7949777267cf2440a	https://data.broadinstitute.org/ccle/CCLE_RNAseq_genes_rpkm_20180929.gct.gz
