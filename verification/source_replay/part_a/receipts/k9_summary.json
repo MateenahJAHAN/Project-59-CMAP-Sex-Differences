@@ -1,0 +1,27 @@
+{
+  "k9_primary_same_state": 50,
+  "k9_primary_pass": true,
+  "k9_strict_same_state_and_confidence": 50,
+  "k9_strict_pass": true,
+  "same_arm_state": 50,
+  "same_state_linelevel": 48,
+  "state_counts_final": {
+    "XY": 18,
+    "Y-lost": 14,
+    "XIST-lost": 12,
+    "XX-like": 5,
+    "discordant": 1
+  },
+  "confidence_counts_final": {
+    "high": 47,
+    "medium": 2,
+    "low": 1
+  },
+  "mosaic_same_verdict": 20,
+  "mosaic_tests": 22,
+  "inputs_sha256": {
+    "partA_local_states.tsv": "dc98d7895f698271cbe27d4371a81e8d8ab48fa81d87b450b87651d07c04bc22",
+    "F2_states.tsv": "831ff50fb03ff3927e72089b82ff807529e7f006f29cc65ebcc6529992eeebb4"
+  },
+  "consensus_sha256": "c095fe691973c3724062de738e85f6242eba3b5cfa382271ca9610486638f5d1"
+}

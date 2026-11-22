@@ -1,0 +1,18 @@
+{
+  "F2_shard_summary.tsv": {
+    "fresh": "8bd293b8fb365db2910ee56c226b57996e05d80be1d1ab13c15e99bc5ee665d1",
+    "reference": "8bd293b8fb365db2910ee56c226b57996e05d80be1d1ab13c15e99bc5ee665d1"
+  },
+  "F2_dmso_index.tsv": {
+    "fresh": "e511e1eb97c148153d85e93dbe64764a127fc48e93a58e520870f5efcebdc556",
+    "reference": "e511e1eb97c148153d85e93dbe64764a127fc48e93a58e520870f5efcebdc556"
+  },
+  "F2_filelist.tsv": {
+    "fresh": "0a396539dfc687b36aaadcf5feb512973ba0d1339dc41ef834aca453a5088e6f",
+    "reference": "0a396539dfc687b36aaadcf5feb512973ba0d1339dc41ef834aca453a5088e6f"
+  },
+  "F2_index_vs_obs.tsv": {
+    "fresh": "8d4bc29a52a4d6c53440064a0dae7ff6e5ffcb0dab717b9130727b22e6bb47eb",
+    "reference": "8d4bc29a52a4d6c53440064a0dae7ff6e5ffcb0dab717b9130727b22e6bb47eb"
+  }
+}

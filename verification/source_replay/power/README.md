@@ -4,6 +4,8 @@ The checked-in recount uses the archived 26,000 scenario rows, 120,000 planted-c
 
 A separate comparison of 205 completed assignments found exact agreement across 5,330 scenario records, 24,600 planted-compound records and 1,178,750 entries in the interval arrays. The full simulation contains 1,000 assignments. [Assignment-level comparison](checks/checkpoint_comparison.json)
 
+The source rebuild reproduced all 9,288,066 measured expression values at each scale, the 1,000 within-lineage assignments, and the 2,000 marker-specific model designs. [Input comparison](../power_input_check/)
+
 [Recount comparisons](recount_comparison.json) · [Figure S3 values](recount/figS3_power_values.tsv) · [48 harness checks](checks/harness_checks.tsv)
 
 To repeat the simulation, set `P59_G_REPO` to the task-G analysis checkout and `P59_G_RUN` to the production input directory containing `inputs/data/G` and `capture`. The scripts use the production model, design and original random seeds. From this directory run the following in the study Python environment.

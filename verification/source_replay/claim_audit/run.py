@@ -117,7 +117,7 @@ def check_kappa(a,name,rows,measure,expected):
     agreement=sum(r[first]==r[second] for r in rows)/n
     chance=sum(left[k]*right[k] for k in left)/(n*n)
     kappa=(agreement-chance)/(1-chance)
-    a.check(name,expected,f'{kappa:.2f}',measure+' confusion table')
+    a.check(name,expected,f'{kappa:.2f}',f'{measure} confusion table, n={n}')
 
 
 def dna(a, rows, refs, label, expected):
@@ -387,7 +387,27 @@ def main():
     s1=RUN/'manuscript_review/supplementary_table_S1.tsv'
     if s1.is_file() and (s1.parent/'table_s1_comparison.json').is_file():
         do_s1(audit,s1)
-        assert roster=={(r['cellosaurus_id'],r['source']) for r in load(s1)}
+        new_rows={(r['cellosaurus_id'],r['source']):r for r in load(s1)}
+        assert roster==set(new_rows)
+        if args.reference_s1:
+            old_rows={(r['cellosaurus_id'],r['source']):r for r in load(args.reference_s1)}
+            assert old_rows.keys()==new_rows.keys()
+            changes=[]
+            for key,prior in sorted(old_rows.items()):
+                current=new_rows[key]
+                assert prior.keys()==current.keys()
+                for col in prior:
+                    if prior[col]!=current[col]:
+                        changes.append(dict(accession=key[0],screen=key[1],line=current['cell_name'],column=col,
+                                            archive=prior[col],replay=current[col]))
+            state_columns=('state','confidence','arm_state','mosaic_verdict')
+            row_count=len(new_rows)
+            n_values=sum(len(r) for r in new_rows.values())
+            result=dict(rows=row_count,columns=len(next(iter(new_rows.values()))),cells=n_values,unchanged_cells=n_values-len(changes),
+                        changed_cells=changes,changed_states_or_verdicts=sum(r['column'] in state_columns for r in changes),
+                        original_sha256=hashlib.sha256(args.reference_s1.read_bytes()).hexdigest(),
+                        replay_sha256=hashlib.sha256(s1.read_bytes()).hexdigest())
+            (args.output/'s1_cell_comparison.json').write_text(json.dumps(result,indent=2)+'\n')
         dossier['Reassembled Table S1']='complete'
     else:
         dossier['Reassembled Table S1']='awaiting assembly'

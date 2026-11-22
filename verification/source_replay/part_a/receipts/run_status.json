@@ -11,11 +11,15 @@
     "all_five_RNA_to_STR_source_comparisons",
     "Tahoe_bulk_and_external_cross_atlas_pattern_checks",
     "all_primary_Tahoe_diagnostics_and_all_genes",
-    "all_EmeraldBay_expression_shards_and_identity_controls"
+    "all_EmeraldBay_expression_shards_and_identity_controls",
+    "entire_Tahoe_second_caller_and_diagnostics",
+    "two_caller_consensus",
+    "depth_matched_cross_culture_followups",
+    "all_22_fits_with_manifest_pinned_numpy_pandas_and_scipy"
   ],
   "tahoe_expression_shards_total": 1910,
   "tahoe_expression_shards_extracted": 1910,
-  "tahoe_second_caller_shards_reduced": 850,
+  "tahoe_second_caller_shards_reduced": 1910,
   "emerald_all_condition_shards_processed": 116,
   "emerald_all_condition_shards_total": 116,
   "tahoe_vehicle_primary_cells": 2205786,
@@ -24,5 +28,6 @@
     "EmeraldBay": "Fresh expression calls against re-parsed STR.",
     "sci-Plex": "Fresh expression calls collapsed within line across experiments against re-parsed STR.",
     "CCLE and CMP": "Fresh Task A and Task C Y scores and thresholds against re-parsed STR."
-  }
+  },
+  "tahoe_second_caller_cells_reduced": 2205786
 }

@@ -1,0 +1,3 @@
+comparison	subset	n_compared	n_agree	pct_agree	rule	result	disagreements
+EmeraldBay vs Tahoe full-data frozen table	lines with high or medium confidence in both	41	40	0.975609756097561	>= 90% agreement (pre-registered, A2)	pass	A-427: EmeraldBay Y-lost vs Tahoe XY
+EmeraldBay vs Tahoe full-data frozen table	all shared lines	47	42	0.8936170212765957	descriptive	descriptive	COLO 205: EmeraldBay XY vs Tahoe Y-lost;A-427: EmeraldBay Y-lost vs Tahoe XY;A498: EmeraldBay Y-lost vs Tahoe discordant;NCI-H596: EmeraldBay Y-lost vs Tahoe XY;NCI-H661: EmeraldBay Y-lost vs Tahoe XY

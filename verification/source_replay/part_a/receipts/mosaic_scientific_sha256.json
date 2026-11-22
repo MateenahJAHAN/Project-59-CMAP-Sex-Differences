@@ -1,0 +1,76 @@
+{
+  "scientific_output_sha256": {
+    "F2_mosaic.tsv": {
+      "archived": "45864aa3c31867904dd2c2106eace1e58f757895ef6c495c074ba6dcab9d4a14",
+      "main": "228ef834981d8687bad886c40fba8a28ebb5446581ea17c8629a3f33372c3bfe",
+      "pinned": "1c72ea09b7ecbe6d8eef7e87bfd5850f0ebeba4359a73aa359161000dd175e4c"
+    },
+    "F2_depth_curve.tsv": {
+      "archived": "2fb7e70725a6b9b6b6a17b97baf4357af9bd6f4f0981f869d34b81e7bca4495a",
+      "main": "4e1aac4a2b9d57241d9fbd973f0552575ec2f9b053503d42c5d686a67c2e4c10",
+      "pinned": "af7c20366f8d8f5aa4f50d96feb9974a3745d1673091d536dd3933f195c2fca9"
+    },
+    "tahoe_partA_states_consensus.tsv": {
+      "archived": "c095fe691973c3724062de738e85f6242eba3b5cfa382271ca9610486638f5d1",
+      "main": "c095fe691973c3724062de738e85f6242eba3b5cfa382271ca9610486638f5d1",
+      "pinned": "c095fe691973c3724062de738e85f6242eba3b5cfa382271ca9610486638f5d1"
+    },
+    "mosaic_resolution.tsv": {
+      "archived": "0e7bf39e63c6abac7e7e53646c054658d333e9f355ce0e8506d35a51d017eaaa",
+      "main": "2cd889fafa4b3441542f72f165d22d4769174b9b22cec02dc5a3ce6ddbc488a4",
+      "pinned": "155c5f38dd70c4d2390d85f893e18af8ebae9fcb36a681393d0b8147410fc916"
+    },
+    "supplementary_table_S1.tsv": {
+      "archive": "be6dad0e35cf940446885a686ca451cbedbcfadbff5148a7ee2c64f54400105c",
+      "main": "b1b3615b75ea5d47eee7b3a998869d60f2841d8e9253c39514a2c132c7b75a6b",
+      "pinned": "be1cf731c39d92d921574567243745b0f855d823020843b0ce986d9451c76f72"
+    }
+  },
+  "fit_input_sha256": {
+    "F2_states.tsv": {
+      "archived": "831ff50fb03ff3927e72089b82ff807529e7f006f29cc65ebcc6529992eeebb4",
+      "used_by_both_local_fits": "831ff50fb03ff3927e72089b82ff807529e7f006f29cc65ebcc6529992eeebb4"
+    },
+    "F2_cutoffs.tsv": {
+      "archived": "85f3318c1ec870d3cf4952393326cc4eb0a8fb3d7f82c23f5de21aa80ba932bb",
+      "used_by_both_local_fits": "9a78c3b5a1f6fa26a31a4b970b315e2e3c86c59c95ff002032ea4729d51e94e8"
+    },
+    "F2_ambient.tsv": {
+      "archived": "96f018058380cf5516c419a228d2b4ef043c2e0f4298b85191b2737ff5cdb9c0",
+      "used_by_both_local_fits": "96f018058380cf5516c419a228d2b4ef043c2e0f4298b85191b2737ff5cdb9c0"
+    },
+    "F2_cell_markers_part01.tsv.gz": {
+      "archived": "c4f91ce178ab558242779af3d11850fb8a8d09b06756f72f2f18e0a6122b0420",
+      "used_by_both_local_fits": "b78c6eacd1bbef45040a0b096dbeccf7b371d1693b29ebd84248a6a0901334a7"
+    },
+    "F2_cell_markers_part02.tsv.gz": {
+      "archived": "0fd5b2d48ebbbfea748f8df8c5280b44ffeadbfee655784ca6fa8629844cfb52",
+      "used_by_both_local_fits": "c49b0dd0a34d3f2d145265b2632fb744f23d0e06f47d0a241ba63ba7889c2109"
+    },
+    "F2_cell_markers_part03.tsv.gz": {
+      "archived": "4414f5f7c11d12da130960bcaa529b062091bec845158498d642c04915498669",
+      "used_by_both_local_fits": "7bf7e09d2ca5b6af9cfb069112a8be336471bf290e6a38a1adb00a3cbe4813a7"
+    },
+    "F2_cell_markers_part04.tsv.gz": {
+      "archived": "54f2d54b5af689ce413e5bf1cf6cbc8b5ec40a0006b725e2e40fa1f6d55a2abf",
+      "used_by_both_local_fits": "bf9996e660387f2088f568ffa37837868a5aeaaca7d9ab09b77bee128e86b74c"
+    },
+    "F2_cell_markers_part05.tsv.gz": {
+      "archived": "88dcda0e2ccd4507d8681b8d7b1758bd376c49daae0f80728d1037df0cd0d31f",
+      "used_by_both_local_fits": "a5648aee5bec0f93ef762d3d05de8065cf0d346474bb7dc39d6aa6cfb94cd6a7"
+    }
+  },
+  "source_code_sha256": {
+    "s07_mosaic.py": {
+      "archived": "a45f2a2ca585bdfafa96fb5542a95bcac93cfb5058583372cc53e16e2c7edac7",
+      "main_and_pinned": "8fb2e163e59f96613b038c458197b0bc3b82819a60073d46f18dc45c059ef8f3"
+    },
+    "sparse_io.py": {
+      "archived": "55ac08b226571d5da7719f2737ef48e6b0f91f1db356db39c201cfe7037609a0",
+      "main_and_pinned": "236342db70881660c120d060e72dca7ab8aedd7441e1f78e09176a5c2ca4b373"
+    }
+  },
+  "requirements_sha256": "caee375b4bc1233d99c995a4547738fa8b22da1b19e8c7dd646189f3e20b5546",
+  "shared_data": "Both local sensitivity runs consumed the same five newly generated cell-marker tables and sparse arrays. Every measured field of all 2,205,786 rows agrees with the archive. Compressed-file byte hashes can differ because of the gzip header.",
+  "fit_implementation": "The local two environments used the same original multistart L-BFGS-B fitting code; local adaptations were sequential execution of the original seeded jobs and lossless compressed sparse-array input."
+}

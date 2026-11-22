@@ -1,0 +1,133 @@
+{
+  "table_s1_rows": 1694,
+  "S1_fields_with_changes_in_either_run": [
+    {
+      "accession": "CVCL_0399",
+      "source": "Tahoe-100M",
+      "field": "negative_share_lo",
+      "archived": "0.008423",
+      "main": "0.008421",
+      "pinned": "0.008420"
+    },
+    {
+      "accession": "CVCL_1724",
+      "source": "Tahoe-100M",
+      "field": "negative_share_lo",
+      "archived": "0.259381",
+      "main": "0.259388",
+      "pinned": "0.259378"
+    }
+  ],
+  "source_vs_main_different_fields": 2,
+  "source_vs_pinned_different_fields": 2,
+  "fit_difference_by_parameter": {
+    "b_alpha": {
+      "main": {
+        "max_abs": 0.031212247358986644,
+        "line": "CHP-212",
+        "marker": "Y",
+        "rows_different": 22
+      },
+      "pinned": {
+        "max_abs": 0.3348536942041065,
+        "line": "NCI-H460",
+        "marker": "Y",
+        "rows_different": 22
+      }
+    },
+    "b_beta": {
+      "main": {
+        "max_abs": 0.03247144976620575,
+        "line": "CHP-212",
+        "marker": "Y",
+        "rows_different": 22
+      },
+      "pinned": {
+        "max_abs": 0.1304693148358851,
+        "line": "NCI-H460",
+        "marker": "Y",
+        "rows_different": 22
+      }
+    },
+    "b_share_2000": {
+      "main": {
+        "max_abs": 1.5688583356942426e-05,
+        "line": "NCI-H2347",
+        "marker": "XIST",
+        "rows_different": 22
+      },
+      "pinned": {
+        "max_abs": 7.441091060987268e-05,
+        "line": "NCI-H2347",
+        "marker": "XIST",
+        "rows_different": 22
+      }
+    },
+    "d_abs_diff_b2000": {
+      "main": {
+        "max_abs": 0.0007316441861680949,
+        "line": "CHP-212",
+        "marker": "Y",
+        "rows_different": 22
+      },
+      "pinned": {
+        "max_abs": 0.0002191027878975005,
+        "line": "NCI-H460",
+        "marker": "Y",
+        "rows_different": 22
+      }
+    },
+    "share_range_min": {
+      "main": {
+        "max_abs": 1.1166400964067458e-05,
+        "line": "NCI-H2347",
+        "marker": "XIST",
+        "rows_different": 15
+      },
+      "pinned": {
+        "max_abs": 6.793958637242494e-05,
+        "line": "NCI-H2347",
+        "marker": "XIST",
+        "rows_different": 15
+      }
+    },
+    "share_range_max": {
+      "main": {
+        "max_abs": 7.523229777484097e-06,
+        "line": "A498",
+        "marker": "XIST",
+        "rows_different": 7
+      },
+      "pinned": {
+        "max_abs": 6.9662744368592655e-06,
+        "line": "A498",
+        "marker": "XIST",
+        "rows_different": 4
+      }
+    }
+  },
+  "same_mosaic_verdicts": {
+    "main": 22,
+    "pinned": 22,
+    "tests": 22
+  },
+  "main_environment": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "pyarrow": "26.0.1",
+    "architecture": "Darwin arm64"
+  },
+  "pinned_environment": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "pyarrow": "26.0.1",
+    "architecture": "Darwin arm64"
+  },
+  "S1_sha256": {
+    "archive": "be6dad0e35cf940446885a686ca451cbedbcfadbff5148a7ee2c64f54400105c",
+    "main": "b1b3615b75ea5d47eee7b3a998869d60f2841d8e9253c39514a2c132c7b75a6b",
+    "pinned": "be1cf731c39d92d921574567243745b0f855d823020843b0ce986d9451c76f72"
+  }
+}

@@ -1,0 +1,2 @@
+status	reason
+skipped	gene_metadata holds only gene_symbol, ensembl_id and token_id; no permitted source gives gene chromosome positions or arm boundaries (plan Part 3)

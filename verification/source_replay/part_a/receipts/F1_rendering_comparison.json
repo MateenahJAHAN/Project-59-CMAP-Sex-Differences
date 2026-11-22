@@ -1,0 +1,102 @@
+{
+  "F1_fig1_xist_vs_y.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.10.7, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        2080,
+        896
+      ],
+      "original_tables_current_renderer": [
+        2080,
+        896
+      ],
+      "original_png": [
+        2080,
+        896
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 192781
+    }
+  },
+  "F1_fig2_arm_scores.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.10.7, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        2080,
+        896
+      ],
+      "original_tables_current_renderer": [
+        2080,
+        896
+      ],
+      "original_png": [
+        2080,
+        896
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 178850
+    }
+  },
+  "F1_fig3_a549_y_umis.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.10.7, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        2400,
+        736
+      ],
+      "original_tables_current_renderer": [
+        2400,
+        736
+      ],
+      "original_png": [
+        2400,
+        736
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 179161
+    }
+  },
+  "F1_fig4_agreement.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.10.7, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        2240,
+        1129
+      ],
+      "original_tables_current_renderer": [
+        2240,
+        1129
+      ],
+      "original_png": [
+        2240,
+        1129
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 321081
+    }
+  }
+}

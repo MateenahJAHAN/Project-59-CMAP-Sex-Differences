@@ -1,0 +1,51 @@
+cell_name	cellosaurus_id	cellosaurus_sex	state_loc	state_f2	confidence_loc	confidence_f2	arm_state_loc	arm_state_f2	n_vehicle_cells_called	xist	y_score	yp_score	yq_score	state_final	confidence_final	arm_state_final	callers_agree
+A-172	CVCL_0131	Male	XY	XY	high	high	Y intact	Y intact	56441	1.537487	6.386042	5.873188	6.556994	XY	high	Y intact	True
+A-427	CVCL_1055	Male	XY	XY	high	high	Y intact	Y intact	35413	1.226325	5.120603	5.081984	5.133476	XY	high	Y intact	True
+A498	CVCL_1056	Male	discordant	discordant	high	high	Y lost	Y lost	64286	8.343778	1.315264	1.393442	1.289205	discordant	high	Y lost	True
+A549	CVCL_0023	Male	XY	XY	high	high	Y intact	Y intact	60135	1.281323	5.607092	5.306622	5.707249	XY	high	Y intact	True
+AN3 CA	CVCL_0028	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	13735	2.022336	2.106129	2.123190	2.100442	XIST-lost	high	Y lost	True
+AsPC-1	CVCL_0152	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	51337	1.683695	1.490932	1.525728	1.479333	XIST-lost	high	Y lost	True
+BT-474	CVCL_0179	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	30956	1.374286	1.419894	1.553112	1.375487	XIST-lost	high	Y lost	True
+C-33 A	CVCL_1094	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	34635	1.612397	1.574201	1.563601	1.577734	XIST-lost	high	Y lost	True
+C32	CVCL_1097	Male	XY	XY	high	high	Y intact	Y intact	49118	1.611397	5.475330	5.635644	5.421893	XY	high	Y intact	True
+CFPAC-1	CVCL_1119	Male	Y-lost	Y-lost	high	high	Yq lost	Yq lost	48809	1.533911	2.933277	5.365799	2.122436	Y-lost	high	Yq lost	True
+CHP-212	CVCL_1125	Male	XY	XY	high	high	Y intact	Y intact	11219	1.631949	6.548010	6.045586	6.715485	XY	high	Y intact	True
+COLO 205	CVCL_0218	Male	Y-lost	Y-lost	medium	medium	Yp lost	Yp lost	29301	1.668093	3.666197	1.457308	4.402493	Y-lost	medium	Yp lost	True
+H4	CVCL_1239	Male	XY	XY	high	high	Y intact	Y intact	24304	1.537608	6.412446	5.976777	6.557669	XY	high	Y intact	True
+HCT15	CVCL_0292	Male	XY	XY	high	high	Yp lost	Yp lost	34051	1.730463	5.119506	3.570306	5.635906	XY	high	Yp lost	True
+HEC-1-A	CVCL_0293	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	54187	1.629534	1.483267	1.592452	1.446873	XIST-lost	high	Y lost	True
+HOP62	CVCL_1285	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	75285	1.694149	1.504877	1.565193	1.484772	XIST-lost	high	Y lost	True
+HS-578T	CVCL_0332	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	39779	1.410886	1.465635	1.562236	1.433434	XIST-lost	high	Y lost	True
+HT-29	CVCL_0320	Female	XX-like	XX-like	high	high	Y lost	Y lost	50391	8.531946	1.663628	1.711592	1.647640	XX-like	high	Y lost	True
+HepG2/C3A	CVCL_1098	Male	XY	XY	high	high	Y intact	Y intact	29046	1.621402	5.279560	6.007007	5.037077	XY	high	Y intact	True
+Hs 766T	CVCL_0334	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	55172	1.398898	1.381192	1.462739	1.354010	Y-lost	high	Y lost	True
+J82	CVCL_0359	Male	XY	XY	high	high	Y intact	Y intact	56436	1.433101	5.886203	6.006823	5.845997	XY	high	Y intact	True
+KATO III	CVCL_0371	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	51889	1.520839	1.444419	1.466232	1.437147	Y-lost	high	Y lost	True
+LOX-IMVI	CVCL_1381	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	52251	1.836521	1.702117	1.694449	1.704673	Y-lost	high	Y lost	True
+LS 180	CVCL_0397	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	41515	1.615622	1.415520	1.474641	1.395814	XIST-lost	high	Y lost	True
+LoVo	CVCL_0399	Male	XY	XY	high	high	Y intact	Y intact	67829	1.548192	5.231469	5.857600	5.022759	XY	high	Y intact	True
+MIA PaCa-2	CVCL_0428	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	56332	1.335722	1.347990	1.339065	1.350964	Y-lost	high	Y lost	True
+NCI-H1573	CVCL_1478	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	46779	1.558567	1.462042	1.611954	1.412071	XIST-lost	high	Y lost	True
+NCI-H1792	CVCL_1495	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	42814	1.264082	1.321174	1.398631	1.295356	Y-lost	high	Y lost	True
+NCI-H2030	CVCL_1517	Male	Y-lost	Y-lost	high	high	Yq lost	Yq lost	24286	1.473789	2.599264	7.284801	1.037418	Y-lost	high	Yq lost	True
+NCI-H2122	CVCL_1531	Female	XX-like	XX-like	medium	medium	Yp lost	Yp lost	601	8.029811	3.743339	3.603917	3.789813	XX-like	medium	Yp lost	True
+NCI-H23	CVCL_1547	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	43502	1.513607	1.396230	1.527389	1.352510	Y-lost	high	Y lost	True
+NCI-H2347	CVCL_1550	Female	XX-like	XX-like	high	high	Y lost	Y lost	48784	7.976887	1.327209	1.445653	1.287727	XX-like	high	Y lost	True
+NCI-H460	CVCL_0459	Male	XY	XY	high	high	Y intact	Y intact	126343	1.436764	6.636614	6.518507	6.675983	XY	high	Y intact	True
+NCI-H596	CVCL_1571	Male	XY	XY	low	low	Y intact	Y intact	345	4.014718	4.493788	4.179867	4.598429	XY	low	Y intact	True
+NCI-H661	CVCL_1577	Male	XY	XY	high	high	Y intact	Y intact	3205	1.211138	5.856924	6.194340	5.744452	XY	high	Y intact	True
+PANC-1	CVCL_0480	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	95104	1.277619	1.300870	1.395982	1.269166	Y-lost	high	Y lost	True
+Panc 03.27	CVCL_1635	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	37440	1.427784	1.321785	1.435409	1.283911	XIST-lost	high	Y lost	True
+RKO	CVCL_0504	Unknown	XX-like	XX-like	high	high	Y lost	Y lost	54335	9.341198	1.556024	1.648171	1.525308	XX-like	high	Y lost	True
+RPMI-7951	CVCL_1666	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	36583	2.693627	1.402756	1.521927	1.363033	XIST-lost	high	Y lost	True
+SHP-77	CVCL_1693	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	50317	1.389619	1.370490	1.404005	1.359319	Y-lost	high	Y lost	True
+SK-MEL-2	CVCL_0069	Male	XY	XY	high	high	Y intact	Y intact	35837	1.769266	5.082241	5.891668	4.812432	XY	high	Y intact	True
+SNU-1	CVCL_0099	Male	XY	XY	high	high	Y intact	Y intact	29410	1.628257	6.740493	6.893709	6.689421	XY	high	Y intact	True
+SNU-423	CVCL_0366	Male	XY	XY	high	high	Y intact	Y intact	36798	1.696416	5.355260	5.586166	5.278291	XY	high	Y intact	True
+SW 1088	CVCL_1715	Male	XY	XY	high	high	Y intact	Y intact	3253	2.160295	6.319407	6.074283	6.401114	XY	high	Y intact	True
+SW 1271	CVCL_1716	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	4934	1.662515	1.688287	1.753771	1.666459	Y-lost	high	Y lost	True
+SW 900	CVCL_1731	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	38035	1.609225	1.739010	1.746783	1.736420	Y-lost	high	Y lost	True
+SW1417	CVCL_1717	Female	XIST-lost	XIST-lost	high	high	Y lost	Y lost	43434	1.461456	1.374716	1.457334	1.347176	XIST-lost	high	Y lost	True
+SW48	CVCL_1724	Female	XX-like	XX-like	high	high	Y lost	Y lost	22404	7.516586	1.710455	1.774695	1.689041	XX-like	high	Y lost	True
+SW480	CVCL_0546	Male	Y-lost	Y-lost	high	high	Y lost	Y lost	139102	1.512766	1.379402	1.455778	1.353943	Y-lost	high	Y lost	True
+hTERT-HPNE	CVCL_C466	Male	XY	XY	high	high	Y intact	Y intact	38419	1.825148	6.000400	5.548453	6.151049	XY	high	Y intact	True

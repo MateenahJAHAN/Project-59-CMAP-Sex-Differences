@@ -1,0 +1,27 @@
+{
+  "rows": 1694,
+  "columns": 24,
+  "cells": 40656,
+  "unchanged_cells": 40654,
+  "changed_cells": [
+    {
+      "accession": "CVCL_0399",
+      "screen": "Tahoe-100M",
+      "line": "LoVo",
+      "column": "negative_share_lo",
+      "archive": "0.008423",
+      "replay": "0.008421"
+    },
+    {
+      "accession": "CVCL_1724",
+      "screen": "Tahoe-100M",
+      "line": "SW48",
+      "column": "negative_share_lo",
+      "archive": "0.259381",
+      "replay": "0.259388"
+    }
+  ],
+  "changed_states_or_verdicts": 0,
+  "original_sha256": "be6dad0e35cf940446885a686ca451cbedbcfadbff5148a7ee2c64f54400105c",
+  "replay_sha256": "b1b3615b75ea5d47eee7b3a998869d60f2841d8e9253c39514a2c132c7b75a6b"
+}

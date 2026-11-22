@@ -1,0 +1,170 @@
+{
+  "local": {
+    "compared_tables": 35,
+    "byte_identical": [
+      "gene_chrom.tsv",
+      "partA_local_agreement.tsv",
+      "partA_local_agreement_summary.tsv",
+      "partA_local_ambient.tsv",
+      "partA_local_ambient_summary.tsv",
+      "partA_local_annotation.tsv",
+      "partA_local_consort.tsv",
+      "partA_local_cutoffs.tsv",
+      "partA_local_cutoffs_linelevel.tsv",
+      "partA_local_depth_curve.tsv",
+      "partA_local_filter_iterations.tsv",
+      "partA_local_filter_iterations_linelevel.tsv",
+      "partA_local_foreign_cells.tsv",
+      "partA_local_foreign_correlation.tsv",
+      "partA_local_gene_level_scores.tsv",
+      "partA_local_identity.tsv",
+      "partA_local_identity_replicates.tsv",
+      "partA_local_input_checks.tsv",
+      "partA_local_kde_grid_check.tsv",
+      "partA_local_label_audit.tsv",
+      "partA_local_label_audit_summary.tsv",
+      "partA_local_lineplate_scores.tsv",
+      "partA_local_mosaic.tsv",
+      "partA_local_mosaic_abcde.tsv",
+      "partA_local_mosaic_not_tested.tsv",
+      "partA_local_nearest_centroid.tsv",
+      "partA_local_pending.tsv",
+      "partA_local_pie_mapping.tsv",
+      "partA_local_plate_background.tsv",
+      "partA_local_sensitivity_compare.tsv",
+      "partA_local_six_lines_parse_qc.tsv",
+      "partA_local_states.tsv",
+      "partA_local_states_linelevel.tsv",
+      "provenance_downloads.tsv"
+    ],
+    "same_within_standard_tolerance": [],
+    "numeric_or_metadata_discrepancies": [
+      "partA_local_hashes.tsv"
+    ],
+    "tables_with_exact_numeric_differences": []
+  },
+  "cloud": {
+    "compared_tables": 32,
+    "byte_identical": [
+      "F2_agreement.tsv",
+      "F2_agreement_by_line.tsv",
+      "F2_ambient.tsv",
+      "F2_dmso_index.tsv",
+      "F2_filelist.tsv",
+      "F2_index_vs_obs.tsv",
+      "F2_label_audit.tsv",
+      "F2_label_audit_summary.tsv",
+      "F2_plate_agreement.tsv",
+      "F2_plate_agreement_summary.tsv",
+      "F2_shard_summary.tsv",
+      "F2_states.tsv",
+      "F2_taskA_duplicate_accessions.tsv",
+      "F2_umi_mismatch_by_shard.tsv",
+      "F2_zero_entries_by_shard.tsv",
+      "F2_arm_ratios.tsv",
+      "F2_subpop_baseline.tsv",
+      "F2_y_dose.tsv",
+      "F2_consort.tsv"
+    ],
+    "same_within_standard_tolerance": [
+      "F2_cell_markers_part01.tsv.gz",
+      "F2_cell_markers_part02.tsv.gz",
+      "F2_cell_markers_part03.tsv.gz",
+      "F2_cell_markers_part04.tsv.gz",
+      "F2_cell_markers_part05.tsv.gz",
+      "F2_cutoffs.tsv",
+      "F2_foreign_cells.tsv",
+      "F2_foreign_summary.tsv",
+      "F2_line_plate_values.tsv"
+    ],
+    "numeric_or_metadata_discrepancies": [
+      "F2_depth_curve.tsv",
+      "F2_mosaic.tsv",
+      "F2_known_answer.tsv",
+      "F2_hashes.tsv"
+    ],
+    "tables_with_exact_numeric_differences": [
+      "F2_cutoffs.tsv",
+      "F2_foreign_cells.tsv",
+      "F2_foreign_summary.tsv",
+      "F2_line_plate_values.tsv",
+      "F2_depth_curve.tsv",
+      "F2_mosaic.tsv"
+    ]
+  },
+  "external_allcells": {
+    "compared_tables": 19,
+    "byte_identical": [
+      "F1_ambient.tsv",
+      "F1_ambient_sensitivity_background.tsv",
+      "F1_consort.tsv",
+      "F1_emerald_units.tsv",
+      "F1_exploratory_T0.tsv"
+    ],
+    "same_within_standard_tolerance": [
+      "F1_agreement.tsv",
+      "F1_cutoffs.tsv",
+      "F1_emerald_mosaic.tsv",
+      "F1_emerald_mosaic_sensitivity_background.tsv",
+      "F1_emerald_states.tsv",
+      "F1_emerald_vehicle_cells.tsv.gz",
+      "F1_exploratory_line_similarity.tsv",
+      "F1_exploratory_line_similarity_summary.tsv",
+      "F1_sciplex_mosaic.tsv",
+      "F1_sciplex_mosaic_sensitivity_background.tsv",
+      "F1_sciplex_states.tsv",
+      "F1_sciplex_units.tsv"
+    ],
+    "numeric_or_metadata_discrepancies": [
+      "F1_report_numbers.tsv",
+      "F1_rerun_comparison.tsv"
+    ],
+    "tables_with_exact_numeric_differences": [
+      "F1_agreement.tsv",
+      "F1_cutoffs.tsv",
+      "F1_emerald_mosaic.tsv",
+      "F1_emerald_mosaic_sensitivity_background.tsv",
+      "F1_emerald_states.tsv",
+      "F1_exploratory_line_similarity.tsv",
+      "F1_exploratory_line_similarity_summary.tsv",
+      "F1_rerun_comparison.tsv",
+      "F1_sciplex_mosaic.tsv",
+      "F1_sciplex_mosaic_sensitivity_background.tsv",
+      "F1_sciplex_states.tsv",
+      "F1_sciplex_units.tsv"
+    ]
+  },
+  "consensus": {
+    "compared_tables": 5,
+    "byte_identical": [
+      "k9_line_comparison.tsv",
+      "linelevel_sensitivity_differences.tsv",
+      "tahoe_partA_states_consensus.tsv"
+    ],
+    "same_within_standard_tolerance": [],
+    "numeric_or_metadata_discrepancies": [
+      "k9_mosaic_comparison.tsv",
+      "mosaic_resolution.tsv"
+    ],
+    "tables_with_exact_numeric_differences": [
+      "k9_mosaic_comparison.tsv",
+      "mosaic_resolution.tsv"
+    ]
+  },
+  "depth_matching": {
+    "compared_tables": 5,
+    "byte_identical": [
+      "A3_pairs.tsv",
+      "A3_replicates.tsv",
+      "A3_unmatched.tsv",
+      "A2_emerald_vs_full_agreement.tsv"
+    ],
+    "same_within_standard_tolerance": [
+      "A2_emerald_vs_full_lines.tsv"
+    ],
+    "numeric_or_metadata_discrepancies": [],
+    "tables_with_exact_numeric_differences": [
+      "A2_emerald_vs_full_lines.tsv"
+    ]
+  }
+}

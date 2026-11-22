@@ -1,0 +1,102 @@
+{
+  "A3_pairs.tsv": {
+    "new_sha256": "c481788aa72aceb14e70bdae41cb903f06f85b1854a40596b55fa4382d901e86",
+    "old_sha256": "c481788aa72aceb14e70bdae41cb903f06f85b1854a40596b55fa4382d901e86",
+    "rows": 28,
+    "reference_rows": 28,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "marker",
+      "pair",
+      "estimator"
+    ],
+    "common_columns": 22,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "A3_replicates.tsv": {
+    "new_sha256": "791496248bfcbde46ee1a1f89e0ce3b21f1404223b39e1cb88b06531983b6aaf",
+    "old_sha256": "791496248bfcbde46ee1a1f89e0ce3b21f1404223b39e1cb88b06531983b6aaf",
+    "rows": 70,
+    "reference_rows": 70,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "marker",
+      "pair",
+      "replicate"
+    ],
+    "common_columns": 18,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "A3_unmatched.tsv": {
+    "new_sha256": "6b4710bf8253f930a7c50a16093ad7bac42a6e5f5d40d473674af8ed0f206197",
+    "old_sha256": "6b4710bf8253f930a7c50a16093ad7bac42a6e5f5d40d473674af8ed0f206197",
+    "rows": 11,
+    "reference_rows": 11,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "marker"
+    ],
+    "common_columns": 15,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "A2_emerald_vs_full_agreement.tsv": {
+    "new_sha256": "70f8c8c5cae3e8047c55d7db6b350c7c05266e264d17717064486a0243f1ac62",
+    "old_sha256": "70f8c8c5cae3e8047c55d7db6b350c7c05266e264d17717064486a0243f1ac62",
+    "rows": 2,
+    "reference_rows": 2,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "subset",
+      "rule"
+    ],
+    "common_columns": 8,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "A2_emerald_vs_full_lines.tsv": {
+    "new_sha256": "fe4034e36e2bb4523e4ec01eca5cd57589b5e4fb91b64d8ed6ab1c60dce41c9e",
+    "old_sha256": "ca5a1a4edd378ed42f7867db4a7571227842125aa6224548d6df261ec80aec0c",
+    "rows": 47,
+    "reference_rows": 47,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cellosaurus_id"
+    ],
+    "common_columns": 47,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "foreign_share_y_expected_ambient": {
+        "rows": 6,
+        "max_absolute": 3.469446951953614e-18
+      },
+      "foreign_share_xist_expected_ambient": {
+        "rows": 13,
+        "max_absolute": 6.776263578034403e-21
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 3.469446951953614e-18
+  }
+}

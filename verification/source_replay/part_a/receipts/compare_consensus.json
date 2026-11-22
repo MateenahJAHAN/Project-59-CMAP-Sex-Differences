@@ -1,0 +1,174 @@
+{
+  "k9_line_comparison.tsv": {
+    "new_sha256": "89247519c4e10e109e1e6b5465f681350a597d937120d439a1c21d4fbfa5aa7c",
+    "old_sha256": "89247519c4e10e109e1e6b5465f681350a597d937120d439a1c21d4fbfa5aa7c",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 41,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "k9_mosaic_comparison.tsv": {
+    "new_sha256": "ed53f80e99ce72cd8d5b39398cb6aaca66fc261b38b8c8180bb99c57d3b8c77d",
+    "old_sha256": "f5f045874bb36135e1e7a0d10bf237726302697282701b8cc4cd85f73628906e",
+    "rows": 22,
+    "reference_rows": 22,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "marker"
+    ],
+    "common_columns": 40,
+    "changed_numeric": {
+      "b_share_2000": {
+        "rows": 22,
+        "max_absolute": 1.5688583356942426e-05
+      },
+      "d_abs_diff_b2000": {
+        "rows": 22,
+        "max_absolute": 0.0007316441861680949
+      },
+      "share_range_min": {
+        "rows": 14,
+        "max_absolute": 1.1166400964067458e-05
+      },
+      "share_range_max": {
+        "rows": 3,
+        "max_absolute": 7.523229777484097e-06
+      }
+    },
+    "exact_numeric_differences": {
+      "b_share_2000": {
+        "rows": 22,
+        "max_absolute": 1.5688583356942426e-05
+      },
+      "c_share": {
+        "rows": 20,
+        "max_absolute": 3.3306690738754696e-16
+      },
+      "d_abs_diff_b2000": {
+        "rows": 22,
+        "max_absolute": 0.0007316441861680949
+      },
+      "f_r_neg_vs_pos": {
+        "rows": 21,
+        "max_absolute": 4.3298697960381105e-15
+      },
+      "f_r_split_half_pos": {
+        "rows": 21,
+        "max_absolute": 2.9976021664879227e-15
+      },
+      "f_r_neg_vs_best_other": {
+        "rows": 17,
+        "max_absolute": 1.6653345369377348e-15
+      },
+      "share_range_min": {
+        "rows": 15,
+        "max_absolute": 1.1166400964067458e-05
+      },
+      "share_range_max": {
+        "rows": 7,
+        "max_absolute": 7.523229777484097e-06
+      },
+      "f_margin_f2": {
+        "rows": 22,
+        "max_absolute": 3.6637359812630166e-15
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0007316441861680949
+  },
+  "linelevel_sensitivity_differences.tsv": {
+    "new_sha256": "ce9bcccb006dca00a7132d584c17d1d63c7f34b01bb7cd7238165414c8b5670d",
+    "old_sha256": "ce9bcccb006dca00a7132d584c17d1d63c7f34b01bb7cd7238165414c8b5670d",
+    "rows": 2,
+    "reference_rows": 2,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name"
+    ],
+    "common_columns": 4,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "mosaic_resolution.tsv": {
+    "new_sha256": "2cd889fafa4b3441542f72f165d22d4769174b9b22cec02dc5a3ce6ddbc488a4",
+    "old_sha256": "0e7bf39e63c6abac7e7e53646c054658d333e9f355ce0e8506d35a51d017eaaa",
+    "rows": 22,
+    "reference_rows": 22,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "marker"
+    ],
+    "common_columns": 25,
+    "changed_numeric": {
+      "share_lo_f2": {
+        "rows": 7,
+        "max_absolute": 1.0999999999999725e-05
+      },
+      "share_hi_f2": {
+        "rows": 2,
+        "max_absolute": 7.000000000034756e-06
+      },
+      "share_lo_both": {
+        "rows": 7,
+        "max_absolute": 1.0999999999999725e-05
+      },
+      "share_hi_both": {
+        "rows": 2,
+        "max_absolute": 7.000000000034756e-06
+      }
+    },
+    "exact_numeric_differences": {
+      "share_lo_f2": {
+        "rows": 7,
+        "max_absolute": 1.0999999999999725e-05
+      },
+      "share_hi_f2": {
+        "rows": 2,
+        "max_absolute": 7.000000000034756e-06
+      },
+      "share_lo_both": {
+        "rows": 7,
+        "max_absolute": 1.0999999999999725e-05
+      },
+      "share_hi_both": {
+        "rows": 2,
+        "max_absolute": 7.000000000034756e-06
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 1.0999999999999725e-05
+  },
+  "tahoe_partA_states_consensus.tsv": {
+    "new_sha256": "c095fe691973c3724062de738e85f6242eba3b5cfa382271ca9610486638f5d1",
+    "old_sha256": "c095fe691973c3724062de738e85f6242eba3b5cfa382271ca9610486638f5d1",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 18,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  }
+}

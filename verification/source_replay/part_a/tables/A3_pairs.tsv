@@ -1,0 +1,29 @@
+pair	line	marker	dataset	role	estimator	status	thinned_side	share_tahoe	share_other	abs_diff	thinned_rep_min	thinned_rep_max	used	not_used_reason	agree	n_cells_tahoe	n_cells_other	mean_depth_tahoe_before	mean_depth_other_before	mean_depth_thinned_after	c_converged_all
+0	A549	Y	EmeraldBay	test	a3000	computed	EmeraldBay	0.347937	0.327001	0.020936	0.285714	0.392593	True		True	60135	1202	1906.307974	3302.193012	1905.619800	True
+0	A549	Y	EmeraldBay	test	a8000	computed	EmeraldBay	0.193103	0.666667		0.333333	0.666667	False	fewer than 100 cells above 8000 UMIs (thinned min 3, other 145)		60135	1202	1906.307974	3302.193012	1905.619800	True
+0	A549	Y	EmeraldBay	test	b2000	computed	EmeraldBay	0.355075	0.288695	0.066380	0.263150	0.326759	True		True	60135	1202	1906.307974	3302.193012	1905.619800	True
+0	A549	Y	EmeraldBay	test	c	computed	EmeraldBay	0.399869	0.354889	0.044979	0.328771	0.376769	True		True	60135	1202	1906.307974	3302.193012	1905.619800	True
+1	A549	Y	sciPlex2	test	a3000	computed	sciPlex2	0.347937	0.443493	0.095556	0.420690	0.469799	True		True	60135	2630	1906.307974	4953.200000	1906.099049	True
+1	A549	Y	sciPlex2	test	a8000	computed	sciPlex2	0.193103	0.333333		0.285714	0.333333	False	fewer than 100 cells above 8000 UMIs (thinned min 6, other 145)		60135	2630	1906.307974	4953.200000	1906.099049	True
+1	A549	Y	sciPlex2	test	b2000	computed	sciPlex2	0.355075	0.270970		0.192614	0.319424	False	fit not converged or at a bound (9 of 10 thinned replicates ok; other side ok=True)		60135	2630	1906.307974	4953.200000	1906.099049	True
+1	A549	Y	sciPlex2	test	c	computed	sciPlex2	0.399869	0.403087	0.003219	0.377551	0.423078	True		True	60135	2630	1906.307974	4953.200000	1906.099049	True
+2	A549	Y	sciPlex3	test	a3000	computed	Tahoe	0.344366	0.494932	0.150566	0.343092	0.344941	True		False	60135	5857	1906.307974	1597.569916	1546.579139	True
+2	A549	Y	sciPlex3	test	a8000	computed	Tahoe	0.193103	0.235294		0.193103	0.193103	False	fewer than 100 cells above 8000 UMIs (thinned min 145, other 34)		60135	5857	1906.307974	1597.569916	1546.579139	True
+2	A549	Y	sciPlex3	test	b2000	computed	Tahoe	0.346466	0.000000		0.343486	0.350233	False	fit not converged or at a bound (10 of 10 thinned replicates ok; other side ok=False)		60135	5857	1906.307974	1597.569916	1546.579139	True
+2	A549	Y	sciPlex3	test	c	computed	Tahoe	0.397103	0.449975	0.052872	0.393438	0.399358	True		True	60135	5857	1906.307974	1597.569916	1546.579139	True
+3	A549	Y	sciPlex4	test	a3000	computed	Tahoe	0.330879	0.727273		0.323390	0.338954	False	fewer than 100 cells above 3000 UMIs (thinned min 2305, other 55)		60135	1408	1906.307974	1460.272017	1458.410618	True
+3	A549	Y	sciPlex4	test	a8000	computed	Tahoe						False	fewer than 100 cells above 8000 UMIs (thinned min 0, other 0)		60135	1408	1906.307974	1460.272017	1458.410618	True
+3	A549	Y	sciPlex4	test	b2000	computed	Tahoe	0.348978	0.314586	0.034392	0.345423	0.350055	True		True	60135	1408	1906.307974	1460.272017	1458.410618	True
+3	A549	Y	sciPlex4	test	c	computed	Tahoe	0.402865	0.504896	0.102031	0.401343	0.405019	True		True	60135	1408	1906.307974	1460.272017	1458.410618	True
+4	SW48	XIST	EmeraldBay	test	a3000	computed	EmeraldBay	0.569317	0.586065	0.016748	0.549669	0.646667	True		True	22404	863	2058.309989	3764.774044	2057.921205	True
+4	SW48	XIST	EmeraldBay	test	a8000	computed	EmeraldBay	0.326733	0.250000		0.000000	0.500000	False	fewer than 100 cells above 8000 UMIs (thinned min 4, other 101)		22404	863	2058.309989	3764.774044	2057.921205	True
+4	SW48	XIST	EmeraldBay	test	b2000	computed	EmeraldBay	0.287963	0.037390		0.002231	0.542496	False	fit not converged or at a bound (8 of 10 thinned replicates ok; other side ok=True)		22404	863	2058.309989	3764.774044	2057.921205	True
+4	SW48	XIST	EmeraldBay	test	c	computed	EmeraldBay	0.413325	0.456188	0.042863	0.392517	0.516159	True		True	22404	863	2058.309989	3764.774044	2057.921205	True
+5	NCI-H460	Y	EmeraldBay	context	a3000	computed	EmeraldBay	0.036337	0.082458	0.046121	0.074554	0.092105	True		True	126343	6693	1831.383211	3355.093381	1830.692888	True
+5	NCI-H460	Y	EmeraldBay	context	a8000	computed	EmeraldBay	0.000000	0.000000		0.000000	0.000000	False	fewer than 100 cells above 8000 UMIs (thinned min 14, other 280)		126343	6693	1831.383211	3355.093381	1830.692888	True
+5	NCI-H460	Y	EmeraldBay	context	b2000	computed	EmeraldBay	0.000014	0.011910	0.011896	0.009030	0.015539	True		True	126343	6693	1831.383211	3355.093381	1830.692888	True
+5	NCI-H460	Y	EmeraldBay	context	c	computed	EmeraldBay	0.032827	0.049873	0.017047	0.045106	0.057800	True		True	126343	6693	1831.383211	3355.093381	1830.692888	True
+6	LoVo	Y	EmeraldBay	context	a3000	computed	EmeraldBay	0.146157	0.239489	0.093332	0.220000	0.257426	True		True	67829	747	2566.318006	3783.398929	2566.173360	True
+6	LoVo	Y	EmeraldBay	context	a8000	computed	EmeraldBay	0.022357	0.086957		0.000000	0.130435	False	fewer than 100 cells above 8000 UMIs (thinned min 23, other 2147)		67829	747	2566.318006	3783.398929	2566.173360	True
+6	LoVo	Y	EmeraldBay	context	b2000	computed	EmeraldBay	0.030703	0.135039	0.104336	0.002439	0.155954	True		True	67829	747	2566.318006	3783.398929	2566.173360	True
+6	LoVo	Y	EmeraldBay	context	c	computed	EmeraldBay	0.049895	0.203712	0.153818	0.177750	0.249298	True		False	67829	747	2566.318006	3783.398929	2566.173360	True

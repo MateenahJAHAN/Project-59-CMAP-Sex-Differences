@@ -1,6 +1,7 @@
 {
   "bulk_RNA/results/C/C_cellline_sex_labels.tsv": "11df4598dcda28597a96e408995365f0f23679f2efb9bbac0e64ae6579414a95",
   "bulk_RNA/results/C/C_expression_cutoffs.tsv": "c63fc816140cf7142962d29fc910366088f9f6452495f7bfd1ead3b778e0d145",
+  "manuscript_review/supplementary_table_S1.tsv": "b1b3615b75ea5d47eee7b3a998869d60f2841d8e9253c39514a2c132c7b75a6b",
   "part_a/external_checks/A3_pairs.tsv": "c481788aa72aceb14e70bdae41cb903f06f85b1854a40596b55fa4382d901e86",
   "part_a/results/partA_local_ambient.tsv": "6762c6653bef4485b3abe2df331e31db0f65f52d0a30603eb9916c240891d16e",
   "part_a/results/partA_local_cutoffs.tsv": "1abc92440ec79543ac1d7d942981be0f7700943f471aa71b6bb74465d0bb6e10",

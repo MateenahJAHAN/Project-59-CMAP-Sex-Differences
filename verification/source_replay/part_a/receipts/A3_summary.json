@@ -1,0 +1,112 @@
+{
+  "rule_file": "PartA_A3_depth_matched_rule.md",
+  "rule_sha256": "689e3d5e7718f1fb3e52928817d894382c337c66c760d65ba018452dcc8f69cb",
+  "seed_base": 20261115,
+  "n_replicates": 10,
+  "tolerance": 0.15,
+  "min_deep_cells": 100,
+  "inputs_sha256": {
+    "cells_markers.parquet": "60ec6da0f9ffc34d5088358aa61f5c3067ee73090cc98ed435fa15cf71e31483",
+    "partA_local_states.tsv": "dc98d7895f698271cbe27d4371a81e8d8ab48fa81d87b450b87651d07c04bc22",
+    "partA_local_plate_background.tsv": "80239bdc53ed903014bd2a95a61a55da5790b00db88815d46fab75865dac6da8",
+    "F1_emerald_vehicle_cells.tsv.gz": "da66d4094bfe7a786764091348db3f3b2e9c9b6cc655ebcbdb00916d2264052d",
+    "F1_emerald_states.tsv": "7c6f3ace32a62ef53b7de3aedf5da3b589d75fb291612f3ab6800ef8dbde6779",
+    "sciplex_vehicle_cells.tsv.gz": "20c01aad70ae52e9431598915d9c8bbda63c875411f3a0f04341d081d6f25760",
+    "F1_sciplex_states.tsv": "a2e7c15df5d061fd0ecd4ff483a071965aff5349783fe356fce67e12e27c1197"
+  },
+  "background": {
+    "EmeraldBay": {
+      "y_lines": 34,
+      "xist_lines": 46,
+      "y_bg_per_1000": {
+        "smp_857": 0.01503,
+        "smp_888": 0.02003,
+        "smp_889": 0.0217,
+        "smp_890": 0.02151
+      },
+      "xist_bg_per_1000": {
+        "smp_857": 0.00251,
+        "smp_888": 0.00407,
+        "smp_889": 0.0041,
+        "smp_890": 0.00441
+      }
+    },
+    "sciPlex3": {
+      "y_lines": [
+        "CVCL_0031"
+      ],
+      "y_bg_per_1000": {
+        "rt1": 0.00318,
+        "rt2": 0.004,
+        "rt3": 0.00269,
+        "rt4": 0.00283
+      }
+    },
+    "sciPlex4": {
+      "y_lines": [
+        "CVCL_0031"
+      ],
+      "y_bg_per_1000": {
+        "all": 0.0047
+      }
+    },
+    "sciPlex2": {
+      "y_bg_per_1000_pooled_sciPlex3": 0.00321
+    }
+  },
+  "pairs": {
+    "0:A549:EmeraldBay": {
+      "role": "test",
+      "n_estimators_used": 3,
+      "agree": true,
+      "max_abs_diff": 0.0663795121811594
+    },
+    "1:A549:sciPlex2": {
+      "role": "test",
+      "n_estimators_used": 2,
+      "agree": true,
+      "max_abs_diff": 0.09555616643887
+    },
+    "2:A549:sciPlex3": {
+      "role": "test",
+      "n_estimators_used": 2,
+      "agree": false,
+      "max_abs_diff": 0.15056645641382238
+    },
+    "3:A549:sciPlex4": {
+      "role": "test",
+      "n_estimators_used": 2,
+      "agree": true,
+      "max_abs_diff": 0.10203096657451627
+    },
+    "4:SW48:EmeraldBay": {
+      "role": "test",
+      "n_estimators_used": 2,
+      "agree": true,
+      "max_abs_diff": 0.04286296149826291
+    },
+    "5:NCI-H460:EmeraldBay": {
+      "role": "context",
+      "n_estimators_used": 3,
+      "agree": true,
+      "max_abs_diff": 0.04612052805453398
+    },
+    "6:LoVo:EmeraldBay": {
+      "role": "context",
+      "n_estimators_used": 3,
+      "agree": false,
+      "max_abs_diff": 0.1538175901982316
+    }
+  },
+  "a549_emerald_agrees": true,
+  "a549_sciplex_experiments_agree": [
+    true,
+    false,
+    true
+  ],
+  "a549_sciplex_culture_agrees": true,
+  "a549_A3_pass": true,
+  "a549_k_of_3": 3,
+  "sw48_A3_pass": true,
+  "runtime_s": 129.8
+}

@@ -1,0 +1,23 @@
+cell_name	marker	mosaic_loc	mosaic_f2	verdict_final	f_margin_local	f_margin_f2	best_other_line_local	best_other_line_f2	pass_b	rule_b	pass_d	rule_d	pass_e	rule_e	pass_f	rule_f	share_lo_local	share_hi_local	share_lo_f2	share_hi_f2	share_lo_both	share_hi_both	single_neg_nearest_own_f2	single_neg_nearest_own_local
+A-172	Y	False	False	not mosaic		0.093160		SW 1088	False	False	True	True	0.000000	False		False	0.001350	0.045373	0.000002	0.045362	0.000002	0.045373	0.992356	
+A-427	Y	False	False	not mosaic		0.102918		NCI-H23	False	False	True	True	0.000000	False		True	0.008364	0.187734	0.004664	0.187713	0.004664	0.187734	0.999363	
+A498	XIST	False	False	not mosaic		0.105196		A549	False	False	True	True				True	0.074232	0.277103	0.006398	0.285621	0.006398	0.285621	0.995648	
+A549	Y	True	False	not established (callers differ)	0.180453	0.099925	NCI-H2030	NCI-H2030	True	True	True	True	1.000000	True	True	False	0.193103	0.399869	0.193103	0.426140	0.193103	0.426140	0.998882	0.997988
+C32	Y	False	False	not mosaic		0.132689		SK-MEL-2	False	False	True	True	0.000000	False		True	0.000003	0.106024	0.000000	0.106179	0.000000	0.106179	0.998510	
+CHP-212	Y	False	False	not mosaic		0.025216		SW 900	False	False	True	True	0.000000	False		False	0.000005	0.040434	0.000000	0.043325	0.000000	0.043325	0.974359	
+H4	Y	False	False	not mosaic		0.059455		SW 1088	False	False	True	True	0.000000	False		False	0.000000	0.046512	0.000000	0.046492	0.000000	0.046512	0.992933	
+HCT15	Y	False	False	not mosaic		0.067427		SW48	False	True	True	True	0.000000	False		False	0.075269	0.210469	0.075269	0.226486	0.075269	0.226486	0.975089	
+HT-29	XIST	False	False	not mosaic	0.156036	0.086803	LS 180	LS 180	False	False	True	True			True	False	0.003859	0.259875	0.000005	0.260929	0.000005	0.260929	0.968803	0.970438
+HepG2/C3A	Y	False	False	not mosaic		0.146369		SW480	False	False	True	True	0.000000	False		True	0.005203	0.129896	0.000267	0.129896	0.000267	0.129896	0.999107	
+J82	Y	False	False	not mosaic		0.093400		HOP62	False	False	True	True	0.000000	False		False	0.051182	0.201479	0.040525	0.201451	0.040525	0.201479	0.996672	
+LoVo	Y	False	False	not mosaic	0.133999	0.079753	LS 180	LS 180	False	False	True	True	0.000000	False	True	False	0.022357	0.146157	0.008420	0.146188	0.008420	0.146188	0.993364	0.995422
+NCI-H2347	XIST	False	False	not mosaic		0.076160		Panc 03.27	False	False	True	True				False	0.011024	0.375066	0.006222	0.374868	0.006222	0.375066	0.996773	
+NCI-H460	Y	False	False	not mosaic	0.204589	0.101915	A549	A549	False	False	True	True	0.000000	False	True	True	0.000000	0.036337	0.000000	0.036349	0.000000	0.036349	0.991243	0.980736
+NCI-H661	Y	False	False	not mosaic		0.093213		C-33 A	False	False	True	True	0.000000	False		False	0.004348	0.054752	0.000488	0.352482	0.000488	0.352482	0.987730	
+RKO	XIST	False	False	not mosaic	0.182704	0.094453	HCT15	HCT15	False	False	True	True			True	False	0.047659	0.147558	0.008835	0.148161	0.008835	0.148161	0.969990	0.960039
+SK-MEL-2	Y	False	False	not mosaic		0.137267		C32	False	False	True	True	0.000000	False		True	0.058537	0.208361	0.044734	0.208195	0.044734	0.208361	0.994202	
+SNU-1	Y	False	False	not mosaic		0.087196		AN3 CA	False	False	True	True	0.000000	False		False	0.000000	0.041143	0.000000	0.041522	0.000000	0.041522	0.963563	
+SNU-423	Y	False	False	not mosaic		0.093249		RPMI-7951	False	False	True	True	0.000000	False		False	0.029857	0.187145	0.027523	0.188676	0.027523	0.188676	0.994837	
+SW 1088	Y	False	False	not mosaic		-0.011132		HS-578T	False	False	True	True	0.000000	False		False	0.000000	0.074074	0.000000	0.126153	0.000000	0.126153	0.982456	
+SW48	XIST	True	False	not established (callers differ)	0.137716	0.076550	HCT15	HCT15	True	True	True	True			True	False	0.287963	0.569317	0.259378	0.568682	0.259378	0.569317	0.985196	0.986010
+hTERT-HPNE	Y	False	False	not mosaic		0.056632		SW 1088	False	False	True	True	0.000000	False		False	0.000000	0.087056	0.000000	0.087056	0.000000	0.087056	0.937947	

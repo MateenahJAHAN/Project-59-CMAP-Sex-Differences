@@ -1,0 +1,202 @@
+{
+  "F2_fig1_xist_vs_y.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.11.2, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        2200,
+        1000
+      ],
+      "original_tables_current_renderer": [
+        2200,
+        1000
+      ],
+      "original_png": [
+        2200,
+        1000
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 268562
+    }
+  },
+  "F2_fig2_yp_vs_yq.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.11.2, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        1300,
+        1100
+      ],
+      "original_tables_current_renderer": [
+        1300,
+        1100
+      ],
+      "original_png": [
+        1300,
+        1100
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 118326
+    }
+  },
+  "F2_fig3_zero_y_by_depth.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.11.2, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        1400,
+        960
+      ],
+      "original_tables_current_renderer": [
+        1400,
+        960
+      ],
+      "original_png": [
+        1400,
+        960
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 116629
+    }
+  },
+  "F2_fig4_mosaic_shares.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.11.2, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        1400,
+        960
+      ],
+      "original_tables_current_renderer": [
+        1400,
+        960
+      ],
+      "original_png": [
+        1400,
+        960
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 72624
+    }
+  },
+  "F2_fig5_cooccurrence_or.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.11.2, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        1200,
+        1100
+      ],
+      "original_tables_current_renderer": [
+        1200,
+        1100
+      ],
+      "original_png": [
+        1200,
+        1100
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 72175
+    }
+  },
+  "F2_fig6_ambient_per_plate.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.11.2, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        2200,
+        800
+      ],
+      "original_tables_current_renderer": [
+        2200,
+        800
+      ],
+      "original_png": [
+        2200,
+        800
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 185958
+    }
+  },
+  "F2_fig7_foreign_vs_abundance.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.11.2, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        2200,
+        900
+      ],
+      "original_tables_current_renderer": [
+        2200,
+        900
+      ],
+      "original_png": [
+        2200,
+        900
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 163277
+    }
+  },
+  "F2_fig8_agreement.png": {
+    "renderer": {
+      "fresh": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_tables_current_renderer": "Matplotlib version3.11.2, https://matplotlib.org/",
+      "original_png": "Matplotlib version3.11.2, https://matplotlib.org/"
+    },
+    "dimensions": {
+      "fresh": [
+        1300,
+        2300
+      ],
+      "original_tables_current_renderer": [
+        1300,
+        2300
+      ],
+      "original_png": [
+        1300,
+        2300
+      ]
+    },
+    "pixel_differences_vs_fresh": {
+      "original_tables_current_renderer": 0,
+      "original_png": 133288
+    }
+  }
+}

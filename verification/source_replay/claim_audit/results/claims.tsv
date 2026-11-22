@@ -46,10 +46,10 @@ Table 2 plate agrees with pooled call	685/700	685/700	original manuscript claim	
 All plates agree in line	48/50	48/50	original manuscript claim	matches	line table
 Figure 3 Tahoe vs EmeraldBay patterns, all	42/47	42/47	original manuscript claim	matches	pattern_agrees
 Figure 3 Tahoe vs EmeraldBay patterns, medium/high in both	40/41	40/41	original manuscript claim	matches	pattern_agrees
-S9 Tahoe-bulk kappa for marker patterns	0.93	0.93	original manuscript claim	matches	pattern confusion table
-S9 Tahoe-bulk kappa for state names	0.92	0.92	original manuscript claim	matches	state confusion table
-S10 Tahoe-EmeraldBay kappa for state names	0.97	0.97	original manuscript claim	matches	state confusion table
-S10 Tahoe-EmeraldBay kappa for marker patterns	0.96	0.96	independent fresh cohort check	matches	pattern confusion table
+S9 Tahoe-bulk kappa for marker patterns	0.93	0.93	original manuscript claim	matches	pattern confusion table, n=49
+S9 Tahoe-bulk kappa for state names	0.92	0.92	original manuscript claim	matches	state confusion table, n=49
+S10 Tahoe-EmeraldBay kappa for state names	0.97	0.97	original manuscript claim	matches	state confusion table, n=41
+S10 Tahoe-EmeraldBay kappa for marker patterns	0.96	0.96	independent fresh cohort check	matches	pattern confusion table, n=41
 tahoe marker vs DNA (unique accessions)	48/50	48/50	original manuscript claim	matches	raw Cellosaurus Amelogenin class vs expression cutoff
 Male-labelled Tahoe lines with neither marker lacking AMELY	13/14	13/14	original manuscript claim	matches	DNA profiles vs rethresholded scores
 Figure S1 Y plate bounds per 1000 UMI	0.012-0.033	0.012-0.033	original manuscript claim	matches	per-plate ambient table with foreign cells excluded
@@ -66,6 +66,17 @@ Figure S2 Y cells, NCI-H460	126343	126343	original manuscript claim	matches	loca
 Table S1 source roster rows from source-specific eligibility	1694	1694	original manuscript claim	matches	independent source roster
 Table S1 distinct accessions from source-specific eligibility	1123	1123	original manuscript claim	matches	independent source roster
 Table S1 source-specific rows without RNA	21	21	original manuscript claim	matches	independent source roster
+Table S1 number of distinct rows	1694	1694	original manuscript claim	matches	S1
+Table S1 number of distinct accessions	1123	1123	original manuscript claim	matches	S1
+Table S1 rows without RNA	21	21	original manuscript claim	matches	S1
+Table S1 Tahoe-100M	50	50	original manuscript claim	matches	S1
+Table S1 EmeraldBay	52	52	original manuscript claim	matches	S1
+Table S1 sciPlex2	1	1	original manuscript claim	matches	S1
+Table S1 sciPlex3	3	3	original manuscript claim	matches	S1
+Table S1 sciPlex4	2	2	original manuscript claim	matches	S1
+Table S1 LINCS2020	139	139	original manuscript claim	matches	S1
+Table S1 GDSC2	969	969	original manuscript claim	matches	S1
+Table S1 PRISM	478	478	original manuscript claim	matches	S1
 Figure S2 A549 pairs exceeding tolerance	A549/sciPlex3/a3000	A549/sciPlex3/a3000	original manuscript claim	matches	A3 pairs with usable estimates
 Table S8 A549/EmeraldBay/a3000	EmeraldBay|0.348|0.327|0.021|yes	EmeraldBay|0.348|0.327|0.021|yes	original manuscript claim	matches	A3 measured pair
 Table S8 A549/EmeraldBay/b2000	EmeraldBay|0.355|0.289|0.066|yes	EmeraldBay|0.355|0.289|0.066|yes	original manuscript claim	matches	A3 measured pair

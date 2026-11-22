@@ -1,0 +1,31 @@
+{
+  "inputs_sha256": {
+    "F1_emerald_states.tsv": "7c6f3ace32a62ef53b7de3aedf5da3b589d75fb291612f3ab6800ef8dbde6779",
+    "tahoe_partA_states_consensus.tsv": "c095fe691973c3724062de738e85f6242eba3b5cfa382271ca9610486638f5d1"
+  },
+  "n_emerald_lines": 52,
+  "n_tahoe_lines": 50,
+  "n_shared": 47,
+  "n_hm_both": 41,
+  "a2_k": 40,
+  "a2_n": 41,
+  "a2_pct": 0.975609756097561,
+  "a2_pass": true,
+  "all_shared_k": 42,
+  "all_shared_n": 47,
+  "pilot_comparison": [
+    {
+      "subset": "lines with high or medium confidence in both",
+      "n_compared": 39,
+      "n_agree": 37.0,
+      "result": "pass"
+    },
+    {
+      "subset": "all shared lines",
+      "n_compared": 47,
+      "n_agree": 42.0,
+      "result": "descriptive"
+    }
+  ],
+  "name_spelling_differences": []
+}

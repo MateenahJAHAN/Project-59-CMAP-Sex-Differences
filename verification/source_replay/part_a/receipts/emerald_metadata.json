@@ -1,0 +1,17 @@
+{
+  "revision": "752eb8f0d68765fe554194b6c003dfb782ad661d",
+  "metadata": {
+    "gene_metadata.parquet": {
+      "sha256": "d58b5c64e96e13eead756ceeaa0495cad3740e2ab8935bf164ad109641b1c6e5",
+      "size": 1349574
+    },
+    "cell_line_metadata.parquet": {
+      "sha256": "8cd0e9198b2ea94c2e11cc6a5fbe1e6fb9681905bf489566c18ee29373f40cd2",
+      "size": 13211
+    },
+    "extended_vocab.json": {
+      "sha256": "6ff4560a6c71afa218e1a30bc0102be301c56e5e1b23e2d5c675b5c00ba23cfa",
+      "size": 1761078
+    }
+  }
+}

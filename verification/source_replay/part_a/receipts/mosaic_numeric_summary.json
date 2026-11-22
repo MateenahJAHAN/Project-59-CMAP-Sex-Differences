@@ -1,0 +1,253 @@
+{
+  "tests": 22,
+  "same_f2_mosaic_decisions": 22,
+  "consensus_verdicts_unchanged": 22,
+  "both_caller_disagreements": [
+    {
+      "line": "A549",
+      "marker": "Y",
+      "fresh": "not established (callers differ)",
+      "original": "not established (callers differ)"
+    },
+    {
+      "line": "SW48",
+      "marker": "XIST",
+      "fresh": "not established (callers differ)",
+      "original": "not established (callers differ)"
+    }
+  ],
+  "largest_secondary_change_by_column": {
+    "b_alpha": {
+      "key": [
+        "CHP-212",
+        "Y"
+      ],
+      "field": "b_alpha",
+      "fresh": "-12.250800395451078",
+      "archived": "-12.219588148092091",
+      "abs_diff": 0.031212247358986644
+    },
+    "b_beta": {
+      "key": [
+        "CHP-212",
+        "Y"
+      ],
+      "field": "b_beta",
+      "fresh": "-10.0",
+      "archived": "-9.967528550233794",
+      "abs_diff": 0.03247144976620575
+    },
+    "b_k": {
+      "key": [
+        "CHP-212",
+        "Y"
+      ],
+      "field": "b_k",
+      "fresh": "11.879038530943756",
+      "archived": "11.87026313829218",
+      "abs_diff": 0.008775392651575231
+    },
+    "b_mu": {
+      "key": [
+        "CHP-212",
+        "Y"
+      ],
+      "field": "b_mu",
+      "fresh": "0.0011232636680589443",
+      "archived": "0.0011231628600964",
+      "abs_diff": 1.0080796254436503e-07
+    },
+    "b_nll": {
+      "key": [
+        "NCI-H460",
+        "Y"
+      ],
+      "field": "b_nll",
+      "fresh": "214091.20075712784",
+      "archived": "214091.201360145",
+      "abs_diff": 0.0006030171643942595
+    },
+    "b_share_1000": {
+      "key": [
+        "CHP-212",
+        "Y"
+      ],
+      "field": "b_share_1000",
+      "fresh": "0.004872185458524472",
+      "archived": "0.00491457241554642",
+      "abs_diff": 4.238695702194796e-05
+    },
+    "b_share_2000": {
+      "key": [
+        "NCI-H2347",
+        "XIST"
+      ],
+      "field": "b_share_2000",
+      "fresh": "0.009271263788357353",
+      "archived": "0.009286952371714296",
+      "abs_diff": 1.5688583356942426e-05
+    },
+    "b_share_4000": {
+      "key": [
+        "NCI-H2347",
+        "XIST"
+      ],
+      "field": "b_share_4000",
+      "fresh": "0.013669967553139671",
+      "archived": "0.013691896470233394",
+      "abs_diff": 2.1928917093723063e-05
+    },
+    "b_share_8000": {
+      "key": [
+        "NCI-H2347",
+        "XIST"
+      ],
+      "field": "b_share_8000",
+      "fresh": "0.02011324586580945",
+      "archived": "0.020143691791652263",
+      "abs_diff": 3.044592584281261e-05
+    },
+    "c_lambda": {
+      "key": [
+        "A549",
+        "Y"
+      ],
+      "field": "c_lambda",
+      "fresh": "0.0009840367421750534",
+      "archived": "0.0009840367421750532",
+      "abs_diff": 2.168404344971009e-19
+    },
+    "c_share": {
+      "key": [
+        "SW48",
+        "XIST"
+      ],
+      "field": "c_share",
+      "fresh": "0.4114550673432703",
+      "archived": "0.41145506734327",
+      "abs_diff": 3.3306690738754696e-16
+    },
+    "d_abs_diff_b2000": {
+      "key": [
+        "CHP-212",
+        "Y"
+      ],
+      "field": "d_abs_diff_b2000",
+      "fresh": "0.0014481328487985067",
+      "archived": "0.0021797770349666016",
+      "abs_diff": 0.0007316441861680949
+    },
+    "d_b_share2000_even": {
+      "key": [
+        "CHP-212",
+        "Y"
+      ],
+      "field": "d_b_share2000_even",
+      "fresh": "0.0014551644261490565",
+      "archived": "0.002186808789715465",
+      "abs_diff": 0.0007316443635664086
+    },
+    "d_b_share2000_odd": {
+      "key": [
+        "HT-29",
+        "XIST"
+      ],
+      "field": "d_b_share2000_odd",
+      "fresh": "0.0009066962779062848",
+      "archived": "0.0009223523075117664",
+      "abs_diff": 1.5656029605481546e-05
+    },
+    "d_c_share_even": {
+      "key": [
+        "NCI-H2347",
+        "XIST"
+      ],
+      "field": "d_c_share_even",
+      "fresh": "0.18512963755531994",
+      "archived": "0.18512963755531978",
+      "abs_diff": 1.6653345369377348e-16
+    },
+    "d_c_share_odd": {
+      "key": [
+        "NCI-H2347",
+        "XIST"
+      ],
+      "field": "d_c_share_odd",
+      "fresh": "0.19413094830237995",
+      "archived": "0.19413094830237973",
+      "abs_diff": 2.220446049250313e-16
+    },
+    "f_r_neg_vs_best_other": {
+      "key": [
+        "SNU-1",
+        "Y"
+      ],
+      "field": "f_r_neg_vs_best_other",
+      "fresh": "0.8587995318020435",
+      "archived": "0.8587995318020418",
+      "abs_diff": 1.6653345369377348e-15
+    },
+    "f_r_neg_vs_own_line_pseudobulk": {
+      "key": [
+        "CHP-212",
+        "Y"
+      ],
+      "field": "f_r_neg_vs_own_line_pseudobulk",
+      "fresh": "0.8806117063050853",
+      "archived": "0.8806117063050876",
+      "abs_diff": 2.220446049250313e-15
+    },
+    "f_r_neg_vs_pos": {
+      "key": [
+        "SW 1088",
+        "Y"
+      ],
+      "field": "f_r_neg_vs_pos",
+      "fresh": "0.8284134936373038",
+      "archived": "0.8284134936373081",
+      "abs_diff": 4.3298697960381105e-15
+    },
+    "f_r_split_half_pos": {
+      "key": [
+        "SW 1088",
+        "Y"
+      ],
+      "field": "f_r_split_half_pos",
+      "fresh": "0.8322602545976657",
+      "archived": "0.8322602545976687",
+      "abs_diff": 2.9976021664879227e-15
+    },
+    "share_range_max": {
+      "key": [
+        "A498",
+        "XIST"
+      ],
+      "field": "share_range_max",
+      "fresh": "0.28562138649196583",
+      "archived": "0.28561386326218835",
+      "abs_diff": 7.523229777484097e-06
+    },
+    "share_range_min": {
+      "key": [
+        "NCI-H2347",
+        "XIST"
+      ],
+      "field": "share_range_min",
+      "fresh": "0.006278958534981313",
+      "archived": "0.0062901249359453805",
+      "abs_diff": 1.1166400964067458e-05
+    }
+  },
+  "largest_change_in_combined_share_endpoints": {
+    "key": [
+      "NCI-H2347",
+      "XIST"
+    ],
+    "field": "share_lo_both",
+    "fresh": "0.006279",
+    "archived": "0.006290",
+    "abs_diff": 1.0999999999999725e-05
+  },
+  "all_individual_cells_match": true,
+  "source_formula": "Secondary shares use the original multistart L-BFGS-B model. The numerical replay and archival outputs have identical measured per-cell marker inputs."
+}

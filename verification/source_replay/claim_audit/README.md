@@ -10,12 +10,16 @@ For LINCS2020, 129 donor-labelled names had RNA measurements. HCT116 had opposin
 
 The [claim table](results/claims.tsv) preserves the earlier 128-line wording for the LINCS RNA denominator alongside its corrected value. It also gives the two GDSC2/PRISM contrasts separately. [Completed source checks](results/coverage.json) · [Input SHA-256 hashes](results/source_sha256.json)
 
+## Supplementary Table S1
+
+All 1,694 accession–source pairs and 1,123 distinct lines were recovered. Of 40,656 table cells, two lower bounds of estimated marker-negative share changed. Using the current libraries, LoVo moved from 0.008423 to 0.008421 and SW48 from 0.259381 to 0.259388. Rerunning the same 22 fits with the study’s pinned libraries gave 0.008420 and 0.259378. [Dependency comparison](../part_a/receipts/mosaic_version_comparison.json) The state, confidence, arm call and subpopulation verdict were identical for every record. [Cell-level comparison](results/s1_cell_comparison.json) · [Independent source roster](results/s1_roster.json)
+
 ## Reproduce
 
 From a full raw reproduction workspace, run:
 
 ```sh
-python run.py --run-root /path/to/raw-reproduction-workspace --output rerun
+python run.py --run-root /path/to/raw-reproduction-workspace --reference-s1 /path/to/published/supplementary_table_S1.tsv --output rerun
 ```
 
 The script reads the two bulk reference tables, LINCS calls, vehicle-cell statistics, STR calls and available downstream outputs from the reproduction tree. Use `--supplement /path/to/supplement.tex` if the manuscript source for Table S8 lives elsewhere. The [Level 3 L1000 analysis](../l1000/README.md) independently checks the inferred-score correlation and AUROC.
