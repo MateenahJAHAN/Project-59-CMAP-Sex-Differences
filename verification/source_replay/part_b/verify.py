@@ -27,3 +27,13 @@ if primary.is_file():
     with (root/'direct_H1.tsv').open() as f: h1=list(csv.DictReader(f, delimiter='\t'))
     assert {(r['term'], int(r['B']), int(r['n_lines']), int(r['n_tested'])) for r in h1} == {('factY',10000,41,114),('factX',10000,41,114)}
     print('Primary panel statistics, the pooled estimates and all 232 compound/control rows match.')
+
+conditions = root/'idarubicin_conditions_check.json'
+if conditions.is_file():
+    values=json.loads(conditions.read_text())
+    with (root/'X2all_idarubicin_conditions.tsv').open() as f:
+        tested=list(csv.DictReader(f, delimiter='\t'))
+    assert len(tested)==values['conditions']==3
+    assert hashlib.sha256((root/'X2all_idarubicin_conditions.tsv').read_bytes()).hexdigest()==values['replayed_sha256']==values['archived_sha256']
+    assert [row['testable'] for row in tested]==['True','True','False']
+    print('All three exploratory idarubicin conditions match the archived table.')

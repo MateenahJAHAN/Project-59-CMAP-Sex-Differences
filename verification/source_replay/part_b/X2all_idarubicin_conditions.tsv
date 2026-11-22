@@ -1,0 +1,4 @@
+condition	new_data	label	panel_design	n_lines_with_data	n_set_lines_with_data	n_lines_after_lineage_rule	n_Y1	n_Y0	testable	reason	lead_statistic	lead_t_obs	lead_p	lead_E2_est	lead_E2_lo90	lead_E2_hi90	lead_n_lines	lead_note	shape_tested	shape_T_obs	shape_p	n_eligible_with_data
+0.08 uM, 6 h (CPC)	True	EXPLORATORY X2	P2	51	39	39	11	28	True		E2 HC3 t, Freedman-Lane	1.4117961076450296	0.10768923107689231	38.21151083466695	-7.7263568263536975	84.1493784956876	39.0		True	1.069677998635596	0.060193980601939805	
+0.12 uM, 24 h (ASG; earlier look)	False	EXPLORATORY X2	P1b	84	41	41	10	31	True		E2 HC3 t, Freedman-Lane	2.6044445570791313	0.008099190080991902	49.653281907114014	17.18038432336975	82.12617949085828	41.0		True	1.0478543738504527	0.041995800419958006	
+12 uM, 24 h (ASG); analysis set rebuilt for the lines with data	True	EXPLORATORY X2	P1 eligibility, set rebuilt	49	20	20	2	18	False	group with < 3 lines												30.0

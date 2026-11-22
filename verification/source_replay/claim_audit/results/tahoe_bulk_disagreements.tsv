@@ -1,0 +1,4 @@
+accession	name	sample	first_pattern	second_pattern	pattern_agrees	first_state	second_state	state_agrees	second_source	first_donor	second_donor	first_confidence	second_confidence	both_at_least_medium
+CVCL_1056	A498		XIST only	XIST only	True	discordant	XX-like	False	CMP	Male	conflict	high		
+CVCL_0218	COLO 205		neither	Y only	False	Y-lost	XY	False	CMP	Male	Male	medium		
+CVCL_1571	NCI-H596		Y only	neither	False	XY	Y-lost	False	CMP	Male	Male	low		

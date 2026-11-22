@@ -1,0 +1,47 @@
+{
+  "P1b": {
+    "compound_rows": 115,
+    "different_activity_assignments": 0,
+    "different_line_counts": 0,
+    "activity_mean_pairwise_r": {
+      "compared": 110,
+      "max_abs_change": 5.551115123125783e-17,
+      "nonempty_status_changes": 0
+    },
+    "panel_median": {
+      "compared": 115,
+      "max_abs_change": 6.938893903907228e-18,
+      "nonempty_status_changes": 0
+    }
+  },
+  "P2": {
+    "compound_rows": 186,
+    "different_activity_assignments": 0,
+    "different_line_counts": 0,
+    "activity_mean_pairwise_r": {
+      "compared": 186,
+      "max_abs_change": 5.551115123125783e-17,
+      "nonempty_status_changes": 0
+    },
+    "panel_median": {
+      "compared": 186,
+      "max_abs_change": 0.0,
+      "nonempty_status_changes": 0
+    }
+  },
+  "P1": {
+    "compound_rows": 115,
+    "different_activity_assignments": 0,
+    "different_line_counts": 0,
+    "activity_mean_pairwise_r": {
+      "compared": 115,
+      "max_abs_change": 2.220446049250313e-16,
+      "nonempty_status_changes": 0
+    },
+    "panel_median": {
+      "compared": 115,
+      "max_abs_change": 0.0,
+      "nonempty_status_changes": 0
+    }
+  }
+}

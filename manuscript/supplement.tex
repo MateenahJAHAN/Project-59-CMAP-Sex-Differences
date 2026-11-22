@@ -408,9 +408,8 @@ External RNA-seq was available for 140 of 240 LINCS2020 lines, including
 135 in CCLE. Calls agreed across both sources for 17 of 18 with both
 measurements. HCT116 differed and was coded ambiguous. The two RNA-seq
 sources agreed for 729 of 755 lines covered by both GDSC2/PRISM
-reference datasets. Inferred L1000 Y scores had a Spearman correlation
-of 0.21 with CCLE scores over 124 lines and yielded AUC 0.53 for
-separating Y-high and Y-low lines.
+reference datasets. Across 124 lines, inferred L1000 and CCLE Y scores correlated weakly
+(Spearman $r_s=0.21$). The AUC for 36 XY versus 19 Y-lost lines was 0.53.
 
 \subsection{Note S2. Vehicle cells}\label{note-s2.-vehicle-cells}
 
@@ -892,19 +891,17 @@ Agreement with external RNA-seq (A1). Label-dependent classifications
 agreed for 46 of 49 lines (94\%; 95\% Clopper-Pearson interval 83\% to
 99\%; Cohen's kappa 0.92). The comparison exceeded the planned 90\%
 threshold. The count was the same under line-level cut-offs in both
-pipelines. hTERT-HPNE has no the GDSC2/PRISM external RNA-seq analysis
-row. The disagreements were: - A498, discordant here (Male label; XIST
-8.34, Y score 1.32) and XX-like in the GDSC2/PRISM external RNA-seq
-analysis. the GDSC2/PRISM external RNA-seq analysis labels A498 a
-``conflict'', because Cell Model Passports gives Female and Cellosaurus
-gives Male, and its rule table has no discordant state. The expressed
-pattern, XIST without Y, is the same in both. Its STR profile has no Y
-allele, which fits a female origin or a male line that lost Y and
-expresses XIST; this check cannot tell which. - COLO 205, Y-low here
-(medium confidence) and Y-high in the GDSC2/PRISM reference. Its Y score
-lies 0.36 below the cut-off, and it is XY under the local
-implementation's line-level cut-offs. - NCI-H596, low-confidence Y-high
-in Tahoe-100M (345 cells) and Y-low in both external RNA-seq analyses.
+pipelines. The external RNA-seq table had no entry for hTERT-HPNE.
+Three lines received different state names. A498 expressed XIST alone in
+both cultures (Tahoe XIST 8.34, Y score 1.32). The Tahoe rule calls this
+pattern discordant in a male-labelled line. The bulk rule calls it XX-like
+regardless of donor label. Cellosaurus lists A498 as male and Cell Model
+Passports lists it as female. Its X-only STR profile is compatible with
+either a female origin or loss of Y in a male-derived line.
+COLO 205 was Y-low in Tahoe (medium confidence) and Y-high in bulk
+RNA-seq. Its Tahoe Y score was 0.36 below the cut-off and crossed the
+alternative line-level cut-off. NCI-H596 was Y-high in Tahoe (345 cells,
+low confidence) and Y-low in both external RNA-seq analyses.
 
 Comparing expression patterns without donor labels gave agreement in 47
 of 49 lines (Cohen's kappa 0.93). Agreement with the LINCS2020 external
@@ -1046,13 +1043,13 @@ EmeraldBay, 28 of 50 labelled lines lacked their label's usual pattern
 (24 of 44 among lines called with high or medium confidence). CMap and
 Cellosaurus donor labels agreed for all 141 labelled LINCS2020 lines.
 Of these, 129 had external RNA-seq. CCLE and Sanger disagreed for
-HCT116. Among the 128 lines with a resolved state, 61 lacked the usual
-pattern: 20 of 58 male-labelled lines were Y-lost, 38 of 70
-female-labelled lines were XIST-lost, and three lines were discordant.
-The LINCS2020 rule table calls a male-labelled
-line with both markers high XY whatever its XIST; 1 LINCS2020 line,
-\path{U266B1} (male label), had both above the CCLE cut-offs, but not in
-Cell Model Passports. Of the 596 male-labelled and 302 female-labelled lines eligible in
+HCT116. Of the 128 resolved state calls, 61 were atypical. Twenty of 58
+male-labelled lines were Y-lost, 38 of 70 female-labelled lines were
+XIST-lost, and three lines were discordant. The LINCS2020 rule assigns
+a male-labelled line with high Y expression to the XY state regardless of
+XIST. One such line, \path{U266B1}, had high XIST in CCLE and low XIST in
+Cell Model Passports, leaving 127 lines with a resolved call for each marker.
+Of the 596 male-labelled and 302 female-labelled lines eligible in
 GDSC2/PRISM, 17 and 2, respectively, lacked RNA measurements.
 Both markers were low in 256 male-labelled and 122 female-labelled
 lines. Another 16 male-labelled lines expressed XIST alone, and three
@@ -2323,8 +2320,7 @@ overlapping comparisons cannot serve as independent confirmations.
 \looseness=-1\relax Before the full Tahoe-100M analysis, a pilot using
 42 shards and 26,979 vehicle cells identified donor-label mismatches and
 marker-negative cells in A549 and SW48. Those cells appear in the full
-dataset. A separate analysis had already found that 61 of 128 labelled
-LINCS2020 lines with external RNA-seq evidence lacked the usual
-expression pattern for their donor-sex annotation (Note S10).
+dataset. An earlier analysis classified 61 of 128 donor-labelled LINCS2020 lines with
+resolved RNA-seq states as Y-lost, XIST-lost or discordant (Note S10).
 
 \end{document}

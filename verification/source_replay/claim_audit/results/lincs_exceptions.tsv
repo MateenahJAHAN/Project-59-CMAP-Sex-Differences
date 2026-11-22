@@ -1,0 +1,3 @@
+cell_iname	cellosaurus_ac	state	state_ccle	state_sanger	Yhi	Xhi	Yhi_ccle	Xhi_ccle	Yhi_sanger	Xhi_sanger
+U266B1	CVCL_0566	XY	XY	XY	True		True	True	True	False
+HCT116	CVCL_0291	ambiguous	XY	Y-lost		False	True	False	False	False

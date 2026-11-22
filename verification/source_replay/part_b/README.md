@@ -27,3 +27,7 @@ For the full frozen-plan run, the engine uses `src/G/run_g.py` in real-data mode
 ## Primary estimates from the fresh join
 
 The 10,000-permutation P1 analysis against the fresh expression, marker and covariate tables is complete. Compare the measured panel and vehicle p values in `direct_H1.tsv` and pooled effects in `direct_H3.tsv`. The independent comparisons found zero differences in the H1, H3 and 232 per-compound rows.
+
+## Idarubicin across doses
+
+The [three dosing conditions](X2all_idarubicin_conditions.tsv) reproduced cell for cell. For the Y term, the exploratory response-size test gave p = 0.108 at 0.08 µM for 6 h (39 lines) and p = 0.0081 at 0.12 µM for 24 h (41 lines). The latter condition had already been examined in the original study. At 12 µM for 24 h, only two eligible lines expressed the Y marker, below the minimum of three. Dose, time and panel differ across conditions, so these estimates do not establish a dose–response relationship.

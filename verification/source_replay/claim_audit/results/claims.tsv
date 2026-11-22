@@ -1,0 +1,57 @@
+claim	reference	calculated	basis	verdict	source
+EmeraldBay endpoint vehicle cells	100253	100253	original manuscript claim	matches	F1
+EmeraldBay line states XY, Y-lost, XIST-lost, XX-like, ambiguous	17,16,12,6,1	17,16,12,6,1	original manuscript claim	matches	F1
+EmeraldBay confidence high, medium, low	42,4,6	42,4,6	original manuscript claim	matches	F1
+EmeraldBay atypical donor pattern all	28/50	28/50	original manuscript claim	matches	F1 scores and cutoffs
+EmeraldBay atypical donor pattern medium and high	24/44	24/44	original manuscript claim	matches	F1 scores and cutoffs
+sci-Plex vehicle cells by experiment	2631,17578,3361	2631,17578,3361	original manuscript claim	matches	F1
+sci-Plex against bulk, patterns	5/6	5/6	original manuscript claim	matches	pattern_agrees
+sci-Plex against bulk, state names	6/6	6/6	original manuscript claim	matches	state_agrees
+emerald marker vs DNA (unique accessions)	47/52	47/52	original manuscript claim	matches	raw Cellosaurus Amelogenin class vs expression cutoff
+sciplex marker vs DNA (unique accessions)	3/3	3/3	original manuscript claim	matches	raw Cellosaurus Amelogenin class vs expression cutoff
+Figure 3 CCLE marker vs DNA	714/734	714/734	original manuscript claim	matches	raw-derived bulk RNA and parsed DNA
+Figure 3 CMP marker vs DNA	1007/1031	1007/1031	original manuscript claim	matches	raw-derived bulk RNA and parsed DNA
+S1 GDSC2/PRISM state-name agreement across the two bulk sources	729/755	729/755	original manuscript claim	matches	C source states
+S1 LINCS state-name agreement across the two sources	17/18	17/18	original manuscript claim	matches	A source states
+S1 LINCS named lines with CCLE measurements	135	135	original manuscript claim	matches	A source states
+LINCS named donor labels identical	141/141	141/141	original manuscript claim	matches	A
+S10 donor-labelled names with external RNA regardless of call	128	129	original manuscript claim	differs	A
+LINCS donor-labelled resolved atypical states	61/128	61/128	original manuscript claim	matches	A
+LINCS measured names, distinct accessions after alias merger	140/139	140/139	original manuscript claim	matches	A
+LINCS donor-labelled lines with both consensus flags and atypical pattern	61/127	61/127	independent fresh cohort check	matches	A
+All resolved state names lacking one or both consensus flags	U266B1	U266B1	independent fresh cohort check	matches	A
+Table 2 Tahoe vs bulk marker patterns	47/49	47/49	original manuscript claim	matches	pattern_agrees
+Note S9 Tahoe vs bulk state names	46/49	46/49	original manuscript claim	matches	state_agrees
+GDSC2/PRISM Male joint low / all eligible	256/596	256/596	original manuscript claim	matches	C selected source, raw cutoffs
+GDSC2/PRISM Male single-marker low / measured	272/579	272/579	independent fresh cohort check	matches	C selected source, raw cutoffs
+GDSC2/PRISM Female joint low / all eligible	122/302	122/302	original manuscript claim	matches	C selected source, raw cutoffs
+GDSC2/PRISM Female single-marker low / measured	125/300	125/300	independent fresh cohort check	matches	C selected source, raw cutoffs
+Figure 2 cutoffs Y, XIST, Yp, Yq	4.02,4.68,3.96,3.58	4.02,4.68,3.96,3.58	original manuscript claim	matches	local cutoff table
+Vehicle cells before filter	2205786	2205786	original manuscript claim	matches	local line counts
+Table 1 counts Male	18,1,14,0	18,1,14,0	original manuscript claim	matches	line scores rethresholded
+Table 1 counts Female	0,4,12,0	0,4,12,0	original manuscript claim	matches	line scores rethresholded
+Table 1 counts Unlabelled	0,1,0,0	0,1,0,0	original manuscript claim	matches	line scores rethresholded
+Table 1 counts All	18,6,26,0	18,6,26,0	original manuscript claim	matches	line scores rethresholded
+Abstract donor atypical	27/49	27/49	original manuscript claim	matches	line scores rethresholded
+Alternative line-level cutoffs, atypical labels	27/49	27/49	original manuscript claim	matches	full line calls, line-level threshold refit
+PIE recorded label, atypical expression	27/49	27/49	original manuscript claim	matches	PIE label joined to score-derived pattern
+S9 external bulk state names under line-level cutoffs	46/49	46/49	original manuscript claim	matches	state_agrees
+Figure 2 males both, neither, one arm high	17,12,4	17,12,4	original manuscript claim	matches	line arm scores
+Table S6 Yp, Yq, composite for CFPAC-1	5.37,2.12,2.93	5.37,2.12,2.93	original manuscript claim	matches	per-line arm scores
+Table S6 Yp, Yq, composite for NCI-H2030	7.28,1.04,2.60	7.28,1.04,2.60	original manuscript claim	matches	per-line arm scores
+Table S6 Yp, Yq, composite for COLO 205	1.46,4.40,3.67	1.46,4.40,3.67	original manuscript claim	matches	per-line arm scores
+Table S6 Yp, Yq, composite for HCT15	3.57,5.64,5.12	3.57,5.64,5.12	original manuscript claim	matches	per-line arm scores
+NCI-H2030 marker-rich filter removed	22186/46472	22186/46472	original manuscript claim	matches	line counts pre/post filter
+Table 2 plate agrees with pooled call	685/700	685/700	original manuscript claim	matches	line by plate state joined to pooled state
+All plates agree in line	48/50	48/50	original manuscript claim	matches	line table
+Figure 3 Tahoe vs EmeraldBay patterns, all	42/47	42/47	original manuscript claim	matches	pattern_agrees
+Figure 3 Tahoe vs EmeraldBay patterns, medium/high in both	40/41	40/41	original manuscript claim	matches	pattern_agrees
+tahoe marker vs DNA (unique accessions)	48/50	48/50	original manuscript claim	matches	raw Cellosaurus Amelogenin class vs expression cutoff
+Male-labelled Tahoe lines with neither marker lacking AMELY	13/14	13/14	original manuscript claim	matches	DNA profiles vs rethresholded scores
+Figure S1 Y plate bounds per 1000 UMI	0.012-0.033	0.012-0.033	original manuscript claim	matches	per-plate ambient table with foreign cells excluded
+Figure S1 Y plate count	14	14	original manuscript claim	matches	ambient
+Figure S1 XIST plate bounds per 1000 UMI	0.0013-0.0040	0.0013-0.0040	original manuscript claim	matches	per-plate ambient table with foreign cells excluded
+Figure S1 XIST plate count	14	14	original manuscript claim	matches	ambient
+Figure S1 fully arm-low lines	28	28	original manuscript claim	matches	foreign cells
+Figure S1 range in percentage of marker-rich cells	0.05-0.33	0.05-0.33	original manuscript claim	matches	foreign cells
+Figure S1 median observed / expected, fully arm-low	56	56	original manuscript claim	matches	foreign cells
