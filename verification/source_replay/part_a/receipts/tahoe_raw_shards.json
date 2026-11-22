@@ -8,8 +8,8 @@
   "eligible_cells": 2205786,
   "scientific_manifest_differences": [],
   "diagnostic_fields_changed": {
-    "reduce_s": 1905,
+    "zero_entries": 1882,
     "cells_with_zero_entries": 1882,
-    "zero_entries": 1882
+    "reduce_s": 1905
   }
 }

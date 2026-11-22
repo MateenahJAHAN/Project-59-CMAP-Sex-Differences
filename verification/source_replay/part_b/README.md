@@ -15,7 +15,7 @@ The control results, membership checks and SHA-256 comparisons are provided as t
 
 ## Reproduction and restart
 
-Run `python3 verify.py` to check the integrity of this package. To rerun the fits, provide the original Part B analysis engine at commit `87640df15a73ac1f2ad65191baee1943cc938d7e`, the source data specified in its configuration, and the fresh response and label directories. The scripts accept paths on the command line.
+Run `python3 verify.py` to check the integrity of this package. The [LINCS analysis code and configuration](../../../analysis/lincs/) are included in this repository. To rerun the fits, provide the original Part B analysis engine at commit `87640df15a73ac1f2ad65191baee1943cc938d7e`, the source data specified in its configuration, and the fresh response and label directories. The scripts accept paths on the command line.
 
 ```sh
 python join_impact.py --engine ENGINE --rebuild REBUILD --output CHECKS
@@ -31,3 +31,7 @@ The 10,000-permutation P1 analysis against the fresh expression, marker and cova
 ## Idarubicin across doses
 
 The [three dosing conditions](X2all_idarubicin_conditions.tsv) reproduced cell for cell. For the Y term, the exploratory response-size test gave p = 0.108 at 0.08 µM for 6 h (39 lines) and p = 0.0081 at 0.12 µM for 24 h (41 lines). The latter condition had already been examined in the original study. At 12 µM for 24 h, only two eligible lines expressed the Y marker, below the minimum of three. Dose, time and panel differ across conditions, so these estimates do not establish a dose–response relationship.
+
+## Figure 4
+
+The rebuilt line table and expression tensors reproduced [all 30,000 permutation draws](figure4_nulls.tsv.gz) in panels A–C and [all 12 effect estimates and confidence intervals](figure4_intervals.tsv) in panel D. The figure compares Y and XIST with TP53 mutation status on the same primary drug panel.

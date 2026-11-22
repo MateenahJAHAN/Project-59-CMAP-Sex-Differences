@@ -1,0 +1,25 @@
+{
+  "eligible": 49,
+  "agree": 47,
+  "no_selected_bulk": [
+    "CVCL_C466"
+  ],
+  "disagreements": [
+    {
+      "accession": "CVCL_0218",
+      "cell_name": "COLO 205",
+      "bulk_source": "CMP",
+      "bulk_pattern": "Y only",
+      "tahoe_pattern": "neither",
+      "agree": false
+    },
+    {
+      "accession": "CVCL_1571",
+      "cell_name": "NCI-H596",
+      "bulk_source": "CMP",
+      "bulk_pattern": "neither",
+      "tahoe_pattern": "Y only",
+      "agree": false
+    }
+  ]
+}

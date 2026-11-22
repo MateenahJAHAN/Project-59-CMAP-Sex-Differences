@@ -1,0 +1,35 @@
+{
+  "factY": {
+    "lines": 41,
+    "tested": 114,
+    "draws": 10000,
+    "at_or_above": 7231,
+    "observed": 0.6632296194441127,
+    "panel_p": 0.7231276872312768,
+    "unequal_draws": 0,
+    "observed_matches_archive": true,
+    "p_matches_archive": true
+  },
+  "factX": {
+    "lines": 41,
+    "tested": 114,
+    "draws": 10000,
+    "at_or_above": 1126,
+    "observed": 0.7469062400830802,
+    "panel_p": 0.1126887311268873,
+    "unequal_draws": 0,
+    "observed_matches_archive": true,
+    "p_matches_archive": true
+  },
+  "TP53": {
+    "lines": 32,
+    "tested": 114,
+    "draws": 10000,
+    "at_or_above": 1423,
+    "observed": 0.8112693853968452,
+    "panel_p": 0.14238576142385762,
+    "unequal_draws": 0,
+    "observed_matches_archive": true,
+    "p_matches_archive": true
+  }
+}

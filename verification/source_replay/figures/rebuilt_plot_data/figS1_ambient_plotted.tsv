@@ -1,0 +1,181 @@
+panel	element	key	x	y	y_drawn_at	label	text	source_file	source_line	source_column
+A	bar	plate1	1	0.0209473				partA_local_ambient.tsv	100.0	per_1000
+A	bar	plate2	2	0.0133657				partA_local_ambient.tsv	106.0	per_1000
+A	bar	plate3	3	0.0332754				partA_local_ambient.tsv	107.0	per_1000
+A	bar	plate4	4	0.017422				partA_local_ambient.tsv	108.0	per_1000
+A	bar	plate5	5	0.0172264				partA_local_ambient.tsv	109.0	per_1000
+A	bar	plate6	6	0.013116				partA_local_ambient.tsv	110.0	per_1000
+A	bar	plate7	7	0.023252				partA_local_ambient.tsv	111.0	per_1000
+A	bar	plate8	8	0.0142088				partA_local_ambient.tsv	112.0	per_1000
+A	bar	plate9	9	0.0237096				partA_local_ambient.tsv	113.0	per_1000
+A	bar	plate10	10	0.0134692				partA_local_ambient.tsv	101.0	per_1000
+A	bar	plate11	11	0.0176849				partA_local_ambient.tsv	102.0	per_1000
+A	bar	plate12	12	0.0117782				partA_local_ambient.tsv	103.0	per_1000
+A	bar	plate13	13	0.0166045				partA_local_ambient.tsv	104.0	per_1000
+A	bar	plate14	14	0.0163333				partA_local_ambient.tsv	105.0	per_1000
+B	bar	plate1	1	0.00274114				partA_local_ambient.tsv	184.0	per_1000
+B	bar	plate2	2	0.00167163				partA_local_ambient.tsv	190.0	per_1000
+B	bar	plate3	3	0.00400294				partA_local_ambient.tsv	191.0	per_1000
+B	bar	plate4	4	0.00227743				partA_local_ambient.tsv	192.0	per_1000
+B	bar	plate5	5	0.00216261				partA_local_ambient.tsv	193.0	per_1000
+B	bar	plate6	6	0.00157454				partA_local_ambient.tsv	194.0	per_1000
+B	bar	plate7	7	0.00243768				partA_local_ambient.tsv	195.0	per_1000
+B	bar	plate8	8	0.00174098				partA_local_ambient.tsv	196.0	per_1000
+B	bar	plate9	9	0.00256022				partA_local_ambient.tsv	197.0	per_1000
+B	bar	plate10	10	0.00131683				partA_local_ambient.tsv	185.0	per_1000
+B	bar	plate11	11	0.00191543				partA_local_ambient.tsv	186.0	per_1000
+B	bar	plate12	12	0.0013413				partA_local_ambient.tsv	187.0	per_1000
+B	bar	plate13	13	0.00182737				partA_local_ambient.tsv	188.0	per_1000
+B	bar	plate14	14	0.00203211				partA_local_ambient.tsv	189.0	per_1000
+C	observed	SW 1271	4940.0	0.00121457	0.00121457			partA_local_foreign_cells.tsv	6.0	share_foreign_Y
+C	observed	AN3 CA	13778.0	0.0028306	0.0028306			partA_local_foreign_cells.tsv	8.0	share_foreign_Y
+C	observed	SW48	22444.0	0.00178221	0.00178221			partA_local_foreign_cells.tsv	9.0	share_foreign_Y
+C	observed	BT-474	31009.0	0.00164468	0.00164468			partA_local_foreign_cells.tsv	13.0	share_foreign_Y
+C	observed	C-33 A	34685.0	0.00135505	0.00135505			partA_local_foreign_cells.tsv	16.0	share_foreign_Y
+C	observed	RPMI-7951	36612.0	0.000737463	0.000737463			partA_local_foreign_cells.tsv	19.0	share_foreign_Y
+C	observed	Panc 03.27	37487.0	0.00120042	0.00120042			partA_local_foreign_cells.tsv	21.0	share_foreign_Y
+C	observed	SW 900	38161.0	0.00324939	0.00324939			partA_local_foreign_cells.tsv	22.0	share_foreign_Y
+C	observed	HS-578T	39854.0	0.00185678	0.00185678			partA_local_foreign_cells.tsv	24.0	share_foreign_Y
+C	observed	LS 180	41614.0	0.00225886	0.00225886			partA_local_foreign_cells.tsv	25.0	share_foreign_Y
+C	observed	NCI-H1792	42864.0	0.00114315	0.00114315			partA_local_foreign_cells.tsv	26.0	share_foreign_Y
+C	observed	SW1417	43500.0	0.00147126	0.00147126			partA_local_foreign_cells.tsv	27.0	share_foreign_Y
+C	observed	NCI-H23	43557.0	0.0012168	0.0012168			partA_local_foreign_cells.tsv	28.0	share_foreign_Y
+C	observed	NCI-H1573	46867.0	0.00183498	0.00183498			partA_local_foreign_cells.tsv	30.0	share_foreign_Y
+C	observed	NCI-H2347	48845.0	0.00124885	0.00124885			partA_local_foreign_cells.tsv	31.0	share_foreign_Y
+C	observed	SHP-77	50344.0	0.00047672	0.00047672			partA_local_foreign_cells.tsv	33.0	share_foreign_Y
+C	observed	HT-29	50552.0	0.00318484	0.00318484			partA_local_foreign_cells.tsv	34.0	share_foreign_Y
+C	observed	AsPC-1	51407.0	0.00130332	0.00130332			partA_local_foreign_cells.tsv	36.0	share_foreign_Y
+C	observed	KATO III	51949.0	0.00111648	0.00111648			partA_local_foreign_cells.tsv	37.0	share_foreign_Y
+C	observed	LOX-IMVI	52427.0	0.00328075	0.00328075			partA_local_foreign_cells.tsv	38.0	share_foreign_Y
+C	observed	HEC-1-A	54333.0	0.0025767	0.0025767			partA_local_foreign_cells.tsv	39.0	share_foreign_Y
+C	observed	RKO	54386.0	0.000937741	0.000937741			partA_local_foreign_cells.tsv	40.0	share_foreign_Y
+C	observed	Hs 766T	55202.0	0.000543459	0.000543459			partA_local_foreign_cells.tsv	41.0	share_foreign_Y
+C	observed	MIA PaCa-2	56383.0	0.000869056	0.000869056			partA_local_foreign_cells.tsv	42.0	share_foreign_Y
+C	observed	A498	64417.0	0.00203362	0.00203362			partA_local_foreign_cells.tsv	46.0	share_foreign_Y
+C	observed	HOP62	75431.0	0.00181623	0.00181623			partA_local_foreign_cells.tsv	48.0	share_foreign_Y
+C	observed	PANC-1	95259.0	0.00159565	0.00159565			partA_local_foreign_cells.tsv	49.0	share_foreign_Y
+C	observed	SW480	139224.0	0.000840372	0.000840372			partA_local_foreign_cells.tsv	51.0	share_foreign_Y
+C	expected	SW 1271	4940.0	8.29761e-06	8.29761e-06			partA_local_foreign_cells.tsv	6.0	expected_share_Y
+C	expected	AN3 CA	13778.0	5.07769e-06	5.07769e-06			partA_local_foreign_cells.tsv	8.0	expected_share_Y
+C	expected	SW48	22444.0	1.52852e-05	1.52852e-05			partA_local_foreign_cells.tsv	9.0	expected_share_Y
+C	expected	BT-474	31009.0	2.94866e-05	2.94866e-05			partA_local_foreign_cells.tsv	13.0	expected_share_Y
+C	expected	C-33 A	34685.0	7.44488e-06	7.44488e-06			partA_local_foreign_cells.tsv	16.0	expected_share_Y
+C	expected	RPMI-7951	36612.0	8.14904e-06	8.14904e-06			partA_local_foreign_cells.tsv	19.0	expected_share_Y
+C	expected	Panc 03.27	37487.0	2.5302e-05	2.5302e-05			partA_local_foreign_cells.tsv	21.0	expected_share_Y
+C	expected	SW 900	38161.0	1.6313e-05	1.6313e-05			partA_local_foreign_cells.tsv	22.0	expected_share_Y
+C	expected	HS-578T	39854.0	3.0189e-05	3.0189e-05			partA_local_foreign_cells.tsv	24.0	expected_share_Y
+C	expected	LS 180	41614.0	5.50978e-05	5.50978e-05			partA_local_foreign_cells.tsv	25.0	expected_share_Y
+C	expected	NCI-H1792	42864.0	1.85385e-05	1.85385e-05			partA_local_foreign_cells.tsv	26.0	expected_share_Y
+C	expected	SW1417	43500.0	4.58863e-05	4.58863e-05			partA_local_foreign_cells.tsv	27.0	expected_share_Y
+C	expected	NCI-H23	43557.0	2.26014e-05	2.26014e-05			partA_local_foreign_cells.tsv	28.0	expected_share_Y
+C	expected	NCI-H1573	46867.0	6.94986e-05	6.94986e-05			partA_local_foreign_cells.tsv	30.0	expected_share_Y
+C	expected	NCI-H2347	48845.0	8.32688e-05	8.32688e-05			partA_local_foreign_cells.tsv	31.0	expected_share_Y
+C	expected	SHP-77	50344.0	5.84716e-06	5.84716e-06			partA_local_foreign_cells.tsv	33.0	expected_share_Y
+C	expected	HT-29	50552.0	2.66469e-05	2.66469e-05			partA_local_foreign_cells.tsv	34.0	expected_share_Y
+C	expected	AsPC-1	51407.0	2.73107e-05	2.73107e-05			partA_local_foreign_cells.tsv	36.0	expected_share_Y
+C	expected	KATO III	51949.0	2.57748e-05	2.57748e-05			partA_local_foreign_cells.tsv	37.0	expected_share_Y
+C	expected	LOX-IMVI	52427.0	1.8257e-05	1.8257e-05			partA_local_foreign_cells.tsv	38.0	expected_share_Y
+C	expected	HEC-1-A	54333.0	7.45432e-05	7.45432e-05			partA_local_foreign_cells.tsv	39.0	expected_share_Y
+C	expected	RKO	54386.0	5.25435e-06	5.25435e-06			partA_local_foreign_cells.tsv	40.0	expected_share_Y
+C	expected	Hs 766T	55202.0	1.63314e-05	1.63314e-05			partA_local_foreign_cells.tsv	41.0	expected_share_Y
+C	expected	MIA PaCa-2	56383.0	1.55644e-05	1.55644e-05			partA_local_foreign_cells.tsv	42.0	expected_share_Y
+C	expected	A498	64417.0	4.72536e-05	4.72536e-05			partA_local_foreign_cells.tsv	46.0	expected_share_Y
+C	expected	HOP62	75431.0	1.43514e-05	1.43514e-05			partA_local_foreign_cells.tsv	48.0	expected_share_Y
+C	expected	PANC-1	95259.0	4.05476e-05	4.05476e-05			partA_local_foreign_cells.tsv	49.0	expected_share_Y
+C	expected	SW480	139224.0	1.48206e-05	1.48206e-05			partA_local_foreign_cells.tsv	51.0	expected_share_Y
+C	separate	NCI-H2122	610.0	0.0147541	0.0147541	NCI-H2122		partA_local_foreign_cells.tsv	3.0	share_foreign_Y
+C	separate	COLO 205	32353.0	0.0943344	0.0943344	COLO 205		partA_local_foreign_cells.tsv	14.0	share_foreign_Y
+C	separate	NCI-H2030	46472.0	0.477384	0.477384	NCI-H2030		partA_local_foreign_cells.tsv	29.0	share_foreign_Y
+C	separate	CFPAC-1	51178.0	0.0462113	0.0462113	CFPAC-1		partA_local_foreign_cells.tsv	35.0	share_foreign_Y
+D	observed	NCI-H661	3206.0	0.000311915	0.000311915	NCI-H661 / SW 1088		partA_local_foreign_cells.tsv	4.0	share_foreign_XIST
+D	observed	SW 1088	3254.0	0.000307314	0.000307314	NCI-H661 / SW 1088		partA_local_foreign_cells.tsv	5.0	share_foreign_XIST
+D	observed	AN3 CA	13778.0	0.000290318	0.000290318	AN3 CA		partA_local_foreign_cells.tsv	8.0	share_foreign_XIST
+D	observed	H4	24306.0	8.22842e-05	8.22842e-05			partA_local_foreign_cells.tsv	10.0	share_foreign_XIST
+D	observed	SNU-1	29414.0	0.00013599	0.00013599			partA_local_foreign_cells.tsv	12.0	share_foreign_XIST
+D	observed	BT-474	31009.0	6.44974e-05	6.44974e-05			partA_local_foreign_cells.tsv	13.0	share_foreign_XIST
+D	observed	HCT15	34053.0	5.8732e-05	5.8732e-05			partA_local_foreign_cells.tsv	15.0	share_foreign_XIST
+D	observed	C-33 A	34685.0	8.64927e-05	8.64927e-05			partA_local_foreign_cells.tsv	16.0	share_foreign_XIST
+D	observed	A-427	35415.0	5.64732e-05	5.64732e-05			partA_local_foreign_cells.tsv	17.0	share_foreign_XIST
+D	observed	SK-MEL-2	35843.0	0.000167397	0.000167397			partA_local_foreign_cells.tsv	18.0	share_foreign_XIST
+D	observed	RPMI-7951	36612.0	5.46269e-05	5.46269e-05			partA_local_foreign_cells.tsv	19.0	share_foreign_XIST
+D	observed	SNU-423	36803.0	0.000135858	0.000135858			partA_local_foreign_cells.tsv	20.0	share_foreign_XIST
+D	observed	Panc 03.27	37487.0	5.33518e-05	5.33518e-05			partA_local_foreign_cells.tsv	21.0	share_foreign_XIST
+D	observed	SW 900	38161.0	5.24095e-05	5.24095e-05			partA_local_foreign_cells.tsv	22.0	share_foreign_XIST
+D	observed	hTERT-HPNE	38420.0	2.60281e-05	2.60281e-05			partA_local_foreign_cells.tsv	23.0	share_foreign_XIST
+D	observed	HS-578T	39854.0	2.50916e-05	2.50916e-05			partA_local_foreign_cells.tsv	24.0	share_foreign_XIST
+D	observed	LS 180	41614.0	0.000120152	0.000120152			partA_local_foreign_cells.tsv	25.0	share_foreign_XIST
+D	observed	NCI-H1792	42864.0	2.33296e-05	2.33296e-05			partA_local_foreign_cells.tsv	26.0	share_foreign_XIST
+D	observed	SW1417	43500.0	4.5977e-05	4.5977e-05			partA_local_foreign_cells.tsv	27.0	share_foreign_XIST
+D	observed	NCI-H23	43557.0	4.59168e-05	4.59168e-05			partA_local_foreign_cells.tsv	28.0	share_foreign_XIST
+D	observed	NCI-H2030	46472.0	8.60733e-05	8.60733e-05			partA_local_foreign_cells.tsv	29.0	share_foreign_XIST
+D	observed	NCI-H1573	46867.0	4.26739e-05	4.26739e-05			partA_local_foreign_cells.tsv	30.0	share_foreign_XIST
+D	observed	C32	49119.0	2.03587e-05	2.03587e-05			partA_local_foreign_cells.tsv	32.0	share_foreign_XIST
+D	observed	SHP-77	50344.0	5.959e-05	5.959e-05			partA_local_foreign_cells.tsv	33.0	share_foreign_XIST
+D	observed	CFPAC-1	51178.0	7.81586e-05	7.81586e-05			partA_local_foreign_cells.tsv	35.0	share_foreign_XIST
+D	observed	AsPC-1	51407.0	5.83578e-05	5.83578e-05			partA_local_foreign_cells.tsv	36.0	share_foreign_XIST
+D	observed	KATO III	51949.0	3.84993e-05	3.84993e-05			partA_local_foreign_cells.tsv	37.0	share_foreign_XIST
+D	observed	LOX-IMVI	52427.0	7.62966e-05	7.62966e-05			partA_local_foreign_cells.tsv	38.0	share_foreign_XIST
+D	observed	HEC-1-A	54333.0	0.00011043	0.00011043			partA_local_foreign_cells.tsv	39.0	share_foreign_XIST
+D	observed	MIA PaCa-2	56383.0	3.54717e-05	3.54717e-05			partA_local_foreign_cells.tsv	42.0	share_foreign_XIST
+D	observed	J82	56439.0	5.31547e-05	5.31547e-05			partA_local_foreign_cells.tsv	43.0	share_foreign_XIST
+D	observed	A-172	56447.0	0.000106294	0.000106294			partA_local_foreign_cells.tsv	44.0	share_foreign_XIST
+D	observed	LoVo	67833.0	5.89683e-05	5.89683e-05			partA_local_foreign_cells.tsv	47.0	share_foreign_XIST
+D	observed	HOP62	75431.0	0.000119314	0.000119314			partA_local_foreign_cells.tsv	48.0	share_foreign_XIST
+D	observed	PANC-1	95259.0	3.14931e-05	3.14931e-05			partA_local_foreign_cells.tsv	49.0	share_foreign_XIST
+D	observed	NCI-H460	126345.0	1.58297e-05	1.58297e-05			partA_local_foreign_cells.tsv	50.0	share_foreign_XIST
+D	observed	SW480	139224.0	3.59133e-05	3.59133e-05			partA_local_foreign_cells.tsv	51.0	share_foreign_XIST
+D	observed	NCI-H596	345.0	0.0	1e-10			partA_local_foreign_cells.tsv	2.0	share_foreign_XIST
+D	observed	SW 1271	4940.0	0.0	1e-10			partA_local_foreign_cells.tsv	6.0	share_foreign_XIST
+D	observed	CHP-212	11219.0	0.0	1e-10			partA_local_foreign_cells.tsv	7.0	share_foreign_XIST
+D	observed	HepG2/C3A	29046.0	0.0	1e-10			partA_local_foreign_cells.tsv	11.0	share_foreign_XIST
+D	observed	COLO 205	32353.0	0.0	1e-10			partA_local_foreign_cells.tsv	14.0	share_foreign_XIST
+D	observed	Hs 766T	55202.0	0.0	1e-10			partA_local_foreign_cells.tsv	41.0	share_foreign_XIST
+D	observed	A549	60135.0	0.0	1e-10			partA_local_foreign_cells.tsv	45.0	share_foreign_XIST
+D	expected	NCI-H596	345.0	1.98157e-09	1.98157e-09			partA_local_foreign_cells.tsv	2.0	expected_share_XIST
+D	expected	NCI-H661	3206.0	1.85875e-07	1.85875e-07			partA_local_foreign_cells.tsv	4.0	expected_share_XIST
+D	expected	SW 1088	3254.0	2.02394e-08	2.02394e-08			partA_local_foreign_cells.tsv	5.0	expected_share_XIST
+D	expected	SW 1271	4940.0	1.48601e-08	1.48601e-08			partA_local_foreign_cells.tsv	6.0	expected_share_XIST
+D	expected	CHP-212	11219.0	5.08417e-09	5.08417e-09			partA_local_foreign_cells.tsv	7.0	expected_share_XIST
+D	expected	AN3 CA	13778.0	9.64448e-09	9.64448e-09			partA_local_foreign_cells.tsv	8.0	expected_share_XIST
+D	expected	H4	24306.0	1.33172e-08	1.33172e-08			partA_local_foreign_cells.tsv	10.0	expected_share_XIST
+D	expected	HepG2/C3A	29046.0	4.07115e-08	4.07115e-08			partA_local_foreign_cells.tsv	11.0	expected_share_XIST
+D	expected	SNU-1	29414.0	1.10012e-08	1.10012e-08			partA_local_foreign_cells.tsv	12.0	expected_share_XIST
+D	expected	BT-474	31009.0	5.75223e-08	5.75223e-08			partA_local_foreign_cells.tsv	13.0	expected_share_XIST
+D	expected	COLO 205	32353.0	1.79308e-08	1.79308e-08			partA_local_foreign_cells.tsv	14.0	expected_share_XIST
+D	expected	HCT15	34053.0	1.25339e-08	1.25339e-08			partA_local_foreign_cells.tsv	15.0	expected_share_XIST
+D	expected	C-33 A	34685.0	1.41777e-08	1.41777e-08			partA_local_foreign_cells.tsv	16.0	expected_share_XIST
+D	expected	A-427	35415.0	1.29863e-07	1.29863e-07			partA_local_foreign_cells.tsv	17.0	expected_share_XIST
+D	expected	SK-MEL-2	35843.0	3.90807e-08	3.90807e-08			partA_local_foreign_cells.tsv	18.0	expected_share_XIST
+D	expected	RPMI-7951	36612.0	1.39662e-08	1.39662e-08			partA_local_foreign_cells.tsv	19.0	expected_share_XIST
+D	expected	SNU-423	36803.0	7.20137e-08	7.20137e-08			partA_local_foreign_cells.tsv	20.0	expected_share_XIST
+D	expected	Panc 03.27	37487.0	4.66129e-08	4.66129e-08			partA_local_foreign_cells.tsv	21.0	expected_share_XIST
+D	expected	SW 900	38161.0	2.96532e-08	2.96532e-08			partA_local_foreign_cells.tsv	22.0	expected_share_XIST
+D	expected	hTERT-HPNE	38420.0	9.3163e-09	9.3163e-09			partA_local_foreign_cells.tsv	23.0	expected_share_XIST
+D	expected	HS-578T	39854.0	5.50358e-08	5.50358e-08			partA_local_foreign_cells.tsv	24.0	expected_share_XIST
+D	expected	LS 180	41614.0	1.04975e-07	1.04975e-07			partA_local_foreign_cells.tsv	25.0	expected_share_XIST
+D	expected	NCI-H1792	42864.0	3.13623e-08	3.13623e-08			partA_local_foreign_cells.tsv	26.0	expected_share_XIST
+D	expected	SW1417	43500.0	8.98335e-08	8.98335e-08			partA_local_foreign_cells.tsv	27.0	expected_share_XIST
+D	expected	NCI-H23	43557.0	4.23672e-08	4.23672e-08			partA_local_foreign_cells.tsv	28.0	expected_share_XIST
+D	expected	NCI-H2030	46472.0	1.16014e-07	1.16014e-07			partA_local_foreign_cells.tsv	29.0	expected_share_XIST
+D	expected	NCI-H1573	46867.0	1.32822e-07	1.32822e-07			partA_local_foreign_cells.tsv	30.0	expected_share_XIST
+D	expected	C32	49119.0	1.74967e-08	1.74967e-08			partA_local_foreign_cells.tsv	32.0	expected_share_XIST
+D	expected	SHP-77	50344.0	9.46113e-09	9.46113e-09			partA_local_foreign_cells.tsv	33.0	expected_share_XIST
+D	expected	CFPAC-1	51178.0	4.85151e-08	4.85151e-08			partA_local_foreign_cells.tsv	35.0	expected_share_XIST
+D	expected	AsPC-1	51407.0	5.09885e-08	5.09885e-08			partA_local_foreign_cells.tsv	36.0	expected_share_XIST
+D	expected	KATO III	51949.0	4.89606e-08	4.89606e-08			partA_local_foreign_cells.tsv	37.0	expected_share_XIST
+D	expected	LOX-IMVI	52427.0	3.24929e-08	3.24929e-08			partA_local_foreign_cells.tsv	38.0	expected_share_XIST
+D	expected	HEC-1-A	54333.0	1.47386e-07	1.47386e-07			partA_local_foreign_cells.tsv	39.0	expected_share_XIST
+D	expected	Hs 766T	55202.0	2.67088e-08	2.67088e-08			partA_local_foreign_cells.tsv	41.0	expected_share_XIST
+D	expected	MIA PaCa-2	56383.0	2.57774e-08	2.57774e-08			partA_local_foreign_cells.tsv	42.0	expected_share_XIST
+D	expected	J82	56439.0	3.8456e-08	3.8456e-08			partA_local_foreign_cells.tsv	43.0	expected_share_XIST
+D	expected	A-172	56447.0	4.19133e-08	4.19133e-08			partA_local_foreign_cells.tsv	44.0	expected_share_XIST
+D	expected	A549	60135.0	1.90756e-08	1.90756e-08			partA_local_foreign_cells.tsv	45.0	expected_share_XIST
+D	expected	LoVo	67833.0	9.40575e-08	9.40575e-08			partA_local_foreign_cells.tsv	47.0	expected_share_XIST
+D	expected	HOP62	75431.0	2.55269e-08	2.55269e-08			partA_local_foreign_cells.tsv	48.0	expected_share_XIST
+D	expected	PANC-1	95259.0	7.42211e-08	7.42211e-08			partA_local_foreign_cells.tsv	49.0	expected_share_XIST
+D	expected	NCI-H460	126345.0	1.59073e-08	1.59073e-08			partA_local_foreign_cells.tsv	50.0	expected_share_XIST
+D	expected	SW480	139224.0	2.77122e-08	2.77122e-08			partA_local_foreign_cells.tsv	51.0	expected_share_XIST
+A	subtitle						28 lines with both Y-arm scores low; plates 0.012 to 0.033			
+B	subtitle						44 lines with XIST low; plates 0.0013 to 0.0040			
+C	subtitle						28 lines with both Y-arm scores low			
+D	subtitle						44 lines with XIST low			

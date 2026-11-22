@@ -1,0 +1,80 @@
+{
+  "source_sha256": {
+    "str/amelogenin_by_record.tsv": "bf081a6f4997fd3eaa369b19ec1b6f3fac66e379b3b34439d377de7c507b3b2c",
+    "str_fresh_Tahoe-100M.tsv": "861260dea45634f24d9de2e57a6839f2b4fa7dc1026ad3f332287ccf1e549e6e",
+    "str_fresh_EmeraldBay.tsv": "b6f6eb4e67fd58cc040083ed474831cc2174ecc6bd9557fd4af7df03d596ba98",
+    "str_fresh_sci-Plex.tsv": "107075659cb9ed514ec795ce531ba5b7e4cb2e6690eaf5e17ad902d93c350bc0",
+    "str_fresh_bulk.tsv": "7fc17b95e942ce058b8ad58be8229706f91b90479b15644a04d56cc07107beba"
+  },
+  "tables": {
+    "supp_table_amelogenin_by_line.tsv": {
+      "rows": 1102,
+      "columns": [
+        "accession",
+        "amelogenin_class",
+        "in_tahoe",
+        "Tahoe-100M_Y",
+        "Tahoe-100M_vs_STR",
+        "EmeraldBay_Y",
+        "EmeraldBay_vs_STR",
+        "sci-Plex_Y",
+        "sci-Plex_vs_STR",
+        "CCLE_Y",
+        "CCLE_vs_STR",
+        "CMP_Y",
+        "CMP_vs_STR"
+      ],
+      "fields_compared": 14326,
+      "changed_fields": []
+    },
+    "agreement_by_source.tsv": {
+      "rows": 5,
+      "columns": [
+        "source",
+        "n_compared",
+        "n_agree",
+        "n_type_A",
+        "n_type_B"
+      ],
+      "fields_compared": 25,
+      "changed_fields": []
+    }
+  },
+  "counts": [
+    {
+      "source": "Tahoe-100M",
+      "n_compared": 50,
+      "n_agree": 48,
+      "n_type_A": 1,
+      "n_type_B": 1
+    },
+    {
+      "source": "EmeraldBay",
+      "n_compared": 52,
+      "n_agree": 47,
+      "n_type_A": 4,
+      "n_type_B": 1
+    },
+    {
+      "source": "sci-Plex",
+      "n_compared": 3,
+      "n_agree": 3,
+      "n_type_A": 0,
+      "n_type_B": 0
+    },
+    {
+      "source": "CCLE",
+      "n_compared": 734,
+      "n_agree": 714,
+      "n_type_A": 11,
+      "n_type_B": 9
+    },
+    {
+      "source": "CMP",
+      "n_compared": 1031,
+      "n_agree": 1007,
+      "n_type_A": 17,
+      "n_type_B": 7
+    }
+  ]
+}

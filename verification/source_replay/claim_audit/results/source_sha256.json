@@ -1,11 +1,14 @@
 {
   "bulk_RNA/results/C/C_cellline_sex_labels.tsv": "11df4598dcda28597a96e408995365f0f23679f2efb9bbac0e64ae6579414a95",
   "bulk_RNA/results/C/C_expression_cutoffs.tsv": "c63fc816140cf7142962d29fc910366088f9f6452495f7bfd1ead3b778e0d145",
+  "part_a/external_checks/A3_pairs.tsv": "c481788aa72aceb14e70bdae41cb903f06f85b1854a40596b55fa4382d901e86",
   "part_a/results/partA_local_ambient.tsv": "6762c6653bef4485b3abe2df331e31db0f65f52d0a30603eb9916c240891d16e",
   "part_a/results/partA_local_cutoffs.tsv": "1abc92440ec79543ac1d7d942981be0f7700943f471aa71b6bb74465d0bb6e10",
   "part_a/results/partA_local_cutoffs_linelevel.tsv": "3ed408be0628ec900273ac4e543f1d04dbf1929b05c7989ef86ed98b800975bd",
+  "part_a/results/partA_local_depth_curve.tsv": "859e4e16e0aeadc2997ba958f52f74541d79d500d95d819ebab24df2c1f1d15c",
   "part_a/results/partA_local_foreign_cells.tsv": "b924f1ff94a51e7f1021bb370602a5ac6b58c05e8601dc837cd6b2aa85c4092e",
   "part_a/results/partA_local_lineplate_scores.tsv": "455204fd67264bfa91849d8dd77020424c8d75156a8b4ed4459763d2a214344f",
+  "part_a/results/partA_local_mosaic_abcde.tsv": "2188f47df2c371217a9da67eb2dc688486d94cb1d859c9cee91a3947eb81bc1e",
   "part_a/results/partA_local_pie_mapping.tsv": "bc488b62f73cc831d00e38c4c2431b10db1382216cef9d4c0b1f98ec5e0a8621",
   "part_a/results/partA_local_states.tsv": "dc98d7895f698271cbe27d4371a81e8d8ab48fa81d87b450b87651d07c04bc22",
   "part_a/results/partA_local_states_linelevel.tsv": "aa472246ba1beaeadf9a5dfd7fb0ab3d2aa93eb84c01211f402ea7c656c0c1bd",
@@ -14,5 +17,6 @@
   "part_a/vehicle_tables/F1_cutoffs.tsv": "d47e0fe3ca06d17a1043121b638cd0074f3af08e514b276936300f96f9820f7f",
   "part_a/vehicle_tables/F1_emerald_states.tsv": "7c6f3ace32a62ef53b7de3aedf5da3b589d75fb291612f3ab6800ef8dbde6779",
   "part_a/vehicle_tables/F1_sciplex_states.tsv": "a2e7c15df5d061fd0ecd4ff483a071965aff5349783fe356fce67e12e27c1197",
-  "part_b/run/A/results/A/A_cellline_sex_states.tsv": "d07cbbd08aef6e4bd88c4f8b967da242434263ac698ef4b1c818c8ec0ad0ffb6"
+  "part_b/run/A/results/A/A_cellline_sex_states.tsv": "d07cbbd08aef6e4bd88c4f8b967da242434263ac698ef4b1c818c8ec0ad0ffb6",
+  "source_text/Table_S8.tex": "c735a9505e3800fe1ddd1173992575fac4a3679407409d6642a2839561ffd3ab"
 }

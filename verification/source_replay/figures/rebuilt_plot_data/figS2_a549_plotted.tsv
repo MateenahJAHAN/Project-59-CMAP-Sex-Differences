@@ -1,0 +1,37 @@
+panel	element	dataset	estimator	x	observed	expected	n_cells	tahoe	other	diff	range_lo	range_hi	thinned	within	used	note	source
+A	depth_bin	A549		725.0	0.694592	0.537203	943										partA_local_depth_curve.tsv:2
+A	depth_bin	A549		888.0	0.65239	0.473021	6631										partA_local_depth_curve.tsv:3
+A	depth_bin	A549		1254.0	0.588788	0.355494	17339										partA_local_depth_curve.tsv:4
+A	depth_bin	A549		1727.0	0.51171	0.247354	14389										partA_local_depth_curve.tsv:5
+A	depth_bin	A549		2369.0	0.4417	0.155947	14168										partA_local_depth_curve.tsv:6
+A	depth_bin	A549		3356.0	0.372937	0.0813942	4242										partA_local_depth_curve.tsv:7
+A	depth_bin	A549		4579.0	0.316321	0.0390951	1881										partA_local_depth_curve.tsv:8
+A	depth_bin	A549		6665.0	0.287154	0.0132913	397										partA_local_depth_curve.tsv:9
+A	depth_bin	A549		8904.0	0.195489	0.00486698	133										partA_local_depth_curve.tsv:10
+A	depth_bin	A549		13046.0	0.166667	0.00109546	12										partA_local_depth_curve.tsv:11
+A	depth_bin	NCI-H460		725.0	0.483528	0.468921	1882										partA_local_depth_curve.tsv:102
+A	depth_bin	NCI-H460		891.0	0.406996	0.400629	14322										partA_local_depth_curve.tsv:103
+A	depth_bin	NCI-H460		1252.0	0.28141	0.282585	39693										partA_local_depth_curve.tsv:104
+A	depth_bin	NCI-H460		1723.0	0.177904	0.180445	31236										partA_local_depth_curve.tsv:105
+A	depth_bin	NCI-H460		2348.0	0.10091	0.102243	27569										partA_local_depth_curve.tsv:106
+A	depth_bin	NCI-H460		3359.0	0.0476696	0.044325	7531										partA_local_depth_curve.tsv:107
+A	depth_bin	NCI-H460		4580.0	0.0192487	0.0173727	3221										partA_local_depth_curve.tsv:108
+A	depth_bin	NCI-H460		6690.0	0.00328407	0.0042392	609										partA_local_depth_curve.tsv:109
+A	depth_bin	NCI-H460		8943.5	0.0	0.00108589	268										partA_local_depth_curve.tsv:110
+A	depth_bin	NCI-H460		12638.5	0.0	0.000159204	12										partA_local_depth_curve.tsv:111
+B	estimate	EmeraldBay	a3000					0.347937	0.327001	0.020936	0.285714	0.392593	EmeraldBay	True	True		results/PartA/A3/A3_pairs.tsv:2
+B	estimate	sciPlex2	a3000					0.347937	0.443493	0.095556	0.42069	0.469799	sciPlex2	True	True		results/PartA/A3/A3_pairs.tsv:6
+B	estimate	sciPlex3	a3000					0.344366	0.494932	0.150566	0.343092	0.344941	Tahoe	False	True		results/PartA/A3/A3_pairs.tsv:10
+B	estimate	sciPlex4	a3000												False	fewer than 100 cells above 3000 UMIs (thinned min 2305, other 55)	results/PartA/A3/A3_pairs.tsv:14
+B	estimate	EmeraldBay	b2000					0.355075	0.288695	0.06638	0.26315	0.326759	EmeraldBay	True	True		results/PartA/A3/A3_pairs.tsv:4
+B	estimate	sciPlex2	b2000												False	fit not converged or at a bound (9 of 10 thinned replicates ok; other side ok=True)	results/PartA/A3/A3_pairs.tsv:8
+B	estimate	sciPlex3	b2000												False	fit not converged or at a bound (10 of 10 thinned replicates ok; other side ok=False)	results/PartA/A3/A3_pairs.tsv:12
+B	estimate	sciPlex4	b2000					0.348978	0.314586	0.034392	0.345423	0.350055	Tahoe	True	True		results/PartA/A3/A3_pairs.tsv:16
+B	estimate	EmeraldBay	c					0.399869	0.354889	0.044979	0.328771	0.376769	EmeraldBay	True	True		results/PartA/A3/A3_pairs.tsv:5
+B	estimate	sciPlex2	c					0.399869	0.403087	0.003219	0.377551	0.423078	sciPlex2	True	True		results/PartA/A3/A3_pairs.tsv:9
+B	estimate	sciPlex3	c					0.397103	0.449975	0.052872	0.393438	0.399358	Tahoe	True	True		results/PartA/A3/A3_pairs.tsv:13
+B	estimate	sciPlex4	c					0.402865	0.504896	0.102031	0.401343	0.405019	Tahoe	True	True		results/PartA/A3/A3_pairs.tsv:17
+B	largest_difference	EmeraldBay	max							0.0663795121811594				True			results/PartA/A3/A3_summary.json
+B	largest_difference	sciPlex2	max							0.09555616643887				True			results/PartA/A3/A3_summary.json
+B	largest_difference	sciPlex3	max							0.15056645641382238				False			results/PartA/A3/A3_summary.json
+B	largest_difference	sciPlex4	max							0.10203096657451627				True			results/PartA/A3/A3_summary.json

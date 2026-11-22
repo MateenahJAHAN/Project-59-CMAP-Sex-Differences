@@ -55,3 +55,25 @@ Figure S1 XIST plate count	14	14	original manuscript claim	matches	ambient
 Figure S1 fully arm-low lines	28	28	original manuscript claim	matches	foreign cells
 Figure S1 range in percentage of marker-rich cells	0.05-0.33	0.05-0.33	original manuscript claim	matches	foreign cells
 Figure S1 median observed / expected, fully arm-low	56	56	original manuscript claim	matches	foreign cells
+Figure S2 A549 observed Y-zero rate above homogeneous Poisson in each depth bin	10/10	10/10	original manuscript claim	matches	depth-binned observed and modeled zero fractions
+In-scope line-marker pairs	22	22	original manuscript claim	matches	mosaic fit rows
+Figure S2 Y cells, A549	60135	60135	original manuscript claim	matches	local mosaic model counts
+Figure S2 Y cells, NCI-H460	126343	126343	original manuscript claim	matches	local mosaic model counts
+Figure S2 A549 pairs exceeding tolerance	A549/sciPlex3/a3000	A549/sciPlex3/a3000	original manuscript claim	matches	A3 pairs with usable estimates
+Table S8 A549/EmeraldBay/a3000	EmeraldBay|0.348|0.327|0.021|yes	EmeraldBay|0.348|0.327|0.021|yes	original manuscript claim	matches	A3 measured pair
+Table S8 A549/EmeraldBay/b2000	EmeraldBay|0.355|0.289|0.066|yes	EmeraldBay|0.355|0.289|0.066|yes	original manuscript claim	matches	A3 measured pair
+Table S8 A549/EmeraldBay/c	EmeraldBay|0.400|0.355|0.045|yes	EmeraldBay|0.400|0.355|0.045|yes	original manuscript claim	matches	A3 measured pair
+Table S8 A549/sciPlex2/a3000	sciPlex2|0.348|0.443|0.096|yes	sciPlex2|0.348|0.443|0.096|yes	original manuscript claim	matches	A3 measured pair
+Table S8 A549/sciPlex2/c	sciPlex2|0.400|0.403|0.003|yes	sciPlex2|0.400|0.403|0.003|yes	original manuscript claim	matches	A3 measured pair
+Table S8 A549/sciPlex3/a3000	Tahoe|0.344|0.495|0.151|no	Tahoe|0.344|0.495|0.151|no	original manuscript claim	matches	A3 measured pair
+Table S8 A549/sciPlex3/c	Tahoe|0.397|0.450|0.053|yes	Tahoe|0.397|0.450|0.053|yes	original manuscript claim	matches	A3 measured pair
+Table S8 A549/sciPlex4/b2000	Tahoe|0.349|0.315|0.034|yes	Tahoe|0.349|0.315|0.034|yes	original manuscript claim	matches	A3 measured pair
+Table S8 A549/sciPlex4/c	Tahoe|0.403|0.505|0.102|yes	Tahoe|0.403|0.505|0.102|yes	original manuscript claim	matches	A3 measured pair
+Table S8 SW48/EmeraldBay/a3000	EmeraldBay|0.569|0.586|0.017|yes	EmeraldBay|0.569|0.586|0.017|yes	original manuscript claim	matches	A3 measured pair
+Table S8 SW48/EmeraldBay/c	EmeraldBay|0.413|0.456|0.043|yes	EmeraldBay|0.413|0.456|0.043|yes	original manuscript claim	matches	A3 measured pair
+Table S8 NCI-H460/EmeraldBay/a3000	EmeraldBay|0.036|0.082|0.046|yes	EmeraldBay|0.036|0.082|0.046|yes	original manuscript claim	matches	A3 measured pair
+Table S8 NCI-H460/EmeraldBay/b2000	EmeraldBay|0.000|0.012|0.012|yes	EmeraldBay|0.000|0.012|0.012|yes	original manuscript claim	matches	A3 measured pair
+Table S8 NCI-H460/EmeraldBay/c	EmeraldBay|0.033|0.050|0.017|yes	EmeraldBay|0.033|0.050|0.017|yes	original manuscript claim	matches	A3 measured pair
+Table S8 LoVo/EmeraldBay/a3000	EmeraldBay|0.146|0.239|0.093|yes	EmeraldBay|0.146|0.239|0.093|yes	original manuscript claim	matches	A3 measured pair
+Table S8 LoVo/EmeraldBay/b2000	EmeraldBay|0.031|0.135|0.104|yes	EmeraldBay|0.031|0.135|0.104|yes	original manuscript claim	matches	A3 measured pair
+Table S8 LoVo/EmeraldBay/c	EmeraldBay|0.050|0.204|0.154|no	EmeraldBay|0.050|0.204|0.154|no	original manuscript claim	matches	A3 measured pair

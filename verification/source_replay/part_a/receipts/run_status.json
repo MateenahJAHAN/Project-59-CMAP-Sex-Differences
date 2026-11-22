@@ -5,16 +5,20 @@
     "all_EmeraldBay_vehicle_source_shards",
     "Cellosaurus_STR_records",
     "external_bulk_reference_comparison",
-    "all_Tahoe_vehicle_expression_shards"
+    "all_Tahoe_vehicle_expression_shards",
+    "Tahoe_primary_expression_aggregation",
+    "Tahoe_primary_state_caller",
+    "all_five_RNA_to_STR_source_comparisons",
+    "Tahoe_bulk_and_external_cross_atlas_pattern_checks"
   ],
   "tahoe_expression_shards_total": 1910,
   "tahoe_expression_shards_extracted": 1910,
-  "tahoe_second_caller_shards_reduced": 800,
-  "emerald_all_condition_shards_processed": 78,
+  "tahoe_second_caller_shards_reduced": 850,
+  "emerald_all_condition_shards_processed": 84,
   "emerald_all_condition_shards_total": 116,
   "tahoe_vehicle_primary_cells": 2205786,
   "str_comparison_basis": {
-    "Tahoe-100M": "Historical RNA calls against re-parsed STR at this checkpoint.",
+    "Tahoe-100M": "New primary RNA measurements joined to the re-parsed STR records.",
     "EmeraldBay": "Fresh expression calls against re-parsed STR.",
     "sci-Plex": "Fresh expression calls collapsed within line across experiments against re-parsed STR.",
     "CCLE and CMP": "Fresh Task A and Task C Y scores and thresholds against re-parsed STR."

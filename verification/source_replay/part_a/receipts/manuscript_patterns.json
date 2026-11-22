@@ -1,0 +1,66 @@
+{
+  "plate_calls_total": 700,
+  "plate_calls_matching_line": 685,
+  "raw_total_lines": 50,
+  "marker_patterns_by_donor": {
+    "XIST only": {
+      "Female": 4,
+      "Male": 1,
+      "Unknown": 1
+    },
+    "Y only": {
+      "Female": 0,
+      "Male": 18,
+      "Unknown": 0
+    },
+    "neither": {
+      "Female": 12,
+      "Male": 14,
+      "Unknown": 0
+    }
+  },
+  "labelled_lines": 49,
+  "donor_atypical": 27,
+  "tahoe_thresholds": {
+    "XIST": 4.684976810079098,
+    "y_score": 4.021677875446696,
+    "yp_score": 3.9626132967059426,
+    "yq_score": 3.578548680450906
+  },
+  "all_shared_lines": 47,
+  "all_shared_matches": 42,
+  "confident_shared_lines": 41,
+  "confident_matches": 40,
+  "differences": [
+    {
+      "cell_name": "A-427",
+      "rna_pattern_tahoe": "Y only",
+      "rna_pattern_emerald": "neither",
+      "eligible": true
+    },
+    {
+      "cell_name": "A498",
+      "rna_pattern_tahoe": "XIST only",
+      "rna_pattern_emerald": "neither",
+      "eligible": false
+    },
+    {
+      "cell_name": "COLO 205",
+      "rna_pattern_tahoe": "neither",
+      "rna_pattern_emerald": "Y only",
+      "eligible": false
+    },
+    {
+      "cell_name": "NCI-H596",
+      "rna_pattern_tahoe": "Y only",
+      "rna_pattern_emerald": "neither",
+      "eligible": false
+    },
+    {
+      "cell_name": "NCI-H661",
+      "rna_pattern_tahoe": "Y only",
+      "rna_pattern_emerald": "neither",
+      "eligible": false
+    }
+  ]
+}

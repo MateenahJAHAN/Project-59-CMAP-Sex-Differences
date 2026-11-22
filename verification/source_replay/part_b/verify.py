@@ -37,3 +37,20 @@ if conditions.is_file():
     assert hashlib.sha256((root/'X2all_idarubicin_conditions.tsv').read_bytes()).hexdigest()==values['replayed_sha256']==values['archived_sha256']
     assert [row['testable'] for row in tested]==['True','True','False']
     print('All three exploratory idarubicin conditions match the archived table.')
+
+distributions=root/'figure4_nulls_check.json'
+if distributions.is_file():
+    import gzip
+    with gzip.open(root/'figure4_nulls.tsv.gz','rt') as fp:
+        data=list(csv.DictReader(fp,delimiter='\t'))
+    reference=json.loads(distributions.read_text())
+    assert list(map(int,(row['draw'] for row in data)))==list(range(10000))
+    for term,r in reference.items():
+        assert r['draws']==10000 and r['unequal_draws']==0 and r['p_matches_archive'] and r['observed_matches_archive']
+        observed = r['observed']
+        # The frozen panel test counts numerical ties at the engine's relative tolerance.
+        exceedances=sum(float(row[term])>=observed*(1-1e-5) for row in data)
+        assert exceedances==r['at_or_above'] and r['panel_p']==(exceedances+1)/10001
+    intervals=json.loads((root/'figure4_intervals_check.json').read_text())
+    assert intervals['rows']==12 and not intervals['different_cells']
+    print('Figure 4 reproduces 30,000 draws and 12 estimates with both confidence intervals.')

@@ -1,0 +1,6 @@
+source	n_compared	n_agree	n_type_A	n_type_B
+Tahoe-100M	50	48	1	1
+EmeraldBay	52	47	4	1
+sci-Plex	3	3	0	0
+CCLE	734	714	11	9
+CMP	1031	1007	17	7

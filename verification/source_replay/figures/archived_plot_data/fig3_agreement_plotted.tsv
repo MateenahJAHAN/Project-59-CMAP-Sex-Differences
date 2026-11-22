@@ -1,0 +1,233 @@
+panel	element	name	accession	row_call	col_call	n	same	note	text	row_source	col_source
+A	line	A-172	CVCL_0131	Y only	Y only		True			partA_local_states.tsv:2	C_cellline_sex_labels.tsv:12 (CMP)
+A	line	A-427	CVCL_1055	Y only	Y only		True			partA_local_states.tsv:3	C_cellline_sex_labels.tsv:537 (CMP)
+A	line	A498	CVCL_1056	XIST only	XIST only		True			partA_local_states.tsv:4	C_cellline_sex_labels.tsv:1066 (CMP)
+A	line	A549	CVCL_0023	Y only	Y only		True			partA_local_states.tsv:5	C_cellline_sex_labels.tsv:583 (CMP)
+A	line	AN3 CA	CVCL_0028	neither	neither		True			partA_local_states.tsv:6	C_cellline_sex_labels.tsv:946 (CMP)
+A	line	AsPC-1	CVCL_0152	neither	neither		True			partA_local_states.tsv:7	C_cellline_sex_labels.tsv:587 (CMP)
+A	line	BT-474	CVCL_0179	neither	neither		True			partA_local_states.tsv:8	C_cellline_sex_labels.tsv:590 (CMP)
+A	line	C-33 A	CVCL_1094	neither	neither		True			partA_local_states.tsv:9	C_cellline_sex_labels.tsv:947 (CMP)
+A	line	C32	CVCL_1097	Y only	Y only		True			partA_local_states.tsv:10	C_cellline_sex_labels.tsv:593 (CMP)
+A	line	CFPAC-1	CVCL_1119	neither	neither		True			partA_local_states.tsv:11	C_cellline_sex_labels.tsv:124 (CMP)
+A	line	CHP-212	CVCL_1125	Y only	Y only		True			partA_local_states.tsv:12	C_cellline_sex_labels.tsv:602 (CMP)
+A	line	COLO 205	CVCL_0218	neither	Y only		False			partA_local_states.tsv:13	C_cellline_sex_labels.tsv:37 (CMP)
+A	line	H4	CVCL_1239	Y only	Y only		True			partA_local_states.tsv:14	C_cellline_sex_labels.tsv:616 (CMP)
+A	line	HCT15	CVCL_0292	Y only	Y only		True			partA_local_states.tsv:15	C_cellline_sex_labels.tsv:909 (CMP)
+A	line	HEC-1-A	CVCL_0293	neither	neither		True			partA_local_states.tsv:16	C_cellline_sex_labels.tsv:264 (CMP)
+A	line	HepG2/C3A	CVCL_1098	Y only	Y only		True			partA_local_states.tsv:17	C_cellline_sex_labels.tsv:968 (CMP)
+A	line	HOP62	CVCL_1285	neither	neither		True			partA_local_states.tsv:18	C_cellline_sex_labels.tsv:48 (CMP)
+A	line	Hs 766T	CVCL_0334	neither	neither		True			partA_local_states.tsv:19	C_cellline_sex_labels.tsv:1001 (CMP)
+A	line	HS-578T	CVCL_0332	neither	neither		True			partA_local_states.tsv:20	C_cellline_sex_labels.tsv:83 (CMP)
+A	line	HT-29	CVCL_0320	XIST only	XIST only		True			partA_local_states.tsv:21	C_cellline_sex_labels.tsv:152 (CMP)
+A	line	J82	CVCL_0359	Y only	Y only		True			partA_local_states.tsv:23	C_cellline_sex_labels.tsv:501 (CMP)
+A	line	KATO III	CVCL_0371	neither	neither		True			partA_local_states.tsv:24	C_cellline_sex_labels.tsv:1036 (CMP)
+A	line	LoVo	CVCL_0399	Y only	Y only		True			partA_local_states.tsv:25	C_cellline_sex_labels.tsv:942 (CMP)
+A	line	LOX-IMVI	CVCL_1381	neither	neither		True			partA_local_states.tsv:26	C_cellline_sex_labels.tsv:196 (CMP)
+A	line	LS 180	CVCL_0397	neither	neither		True			partA_local_states.tsv:27	C_cellline_sex_labels.tsv:903 (CMP)
+A	line	MIA PaCa-2	CVCL_0428	neither	neither		True			partA_local_states.tsv:28	C_cellline_sex_labels.tsv:398 (CMP)
+A	line	NCI-H1573	CVCL_1478	neither	neither		True			partA_local_states.tsv:29	C_cellline_sex_labels.tsv:506 (CMP)
+A	line	NCI-H1792	CVCL_1495	neither	neither		True			partA_local_states.tsv:30	C_cellline_sex_labels.tsv:560 (CMP)
+A	line	NCI-H2030	CVCL_1517	neither	neither		True			partA_local_states.tsv:31	C_cellline_sex_labels.tsv:517 (CMP)
+A	line	NCI-H2122	CVCL_1531	XIST only	XIST only		True			partA_local_states.tsv:32	C_cellline_sex_labels.tsv:1048 (CMP)
+A	line	NCI-H23	CVCL_1547	neither	neither		True			partA_local_states.tsv:33	C_cellline_sex_labels.tsv:205 (CMP)
+A	line	NCI-H2347	CVCL_1550	XIST only	XIST only		True			partA_local_states.tsv:34	C_cellline_sex_labels.tsv:526 (CMP)
+A	line	NCI-H460	CVCL_0459	Y only	Y only		True			partA_local_states.tsv:35	C_cellline_sex_labels.tsv:1050 (CMP)
+A	line	NCI-H596	CVCL_1571	Y only	neither		False			partA_local_states.tsv:36	C_cellline_sex_labels.tsv:713 (CMP)
+A	line	NCI-H661	CVCL_1577	Y only	Y only		True			partA_local_states.tsv:37	C_cellline_sex_labels.tsv:717 (CMP)
+A	line	Panc 03.27	CVCL_1635	neither	neither		True			partA_local_states.tsv:38	C_cellline_sex_labels.tsv:731 (CMP)
+A	line	PANC-1	CVCL_0480	neither	neither		True			partA_local_states.tsv:39	C_cellline_sex_labels.tsv:312 (CMP)
+A	line	RKO	CVCL_0504	XIST only	XIST only		True			partA_local_states.tsv:40	C_cellline_sex_labels.tsv:961 (CMP)
+A	line	RPMI-7951	CVCL_1666	neither	neither		True			partA_local_states.tsv:41	C_cellline_sex_labels.tsv:1087 (CMP)
+A	line	SHP-77	CVCL_1693	neither	neither		True			partA_local_states.tsv:42	C_cellline_sex_labels.tsv:700 (CMP)
+A	line	SK-MEL-2	CVCL_0069	Y only	Y only		True			partA_local_states.tsv:43	C_cellline_sex_labels.tsv:823 (CMP)
+A	line	SNU-1	CVCL_0099	Y only	Y only		True			partA_local_states.tsv:44	C_cellline_sex_labels.tsv:958 (CMP)
+A	line	SNU-423	CVCL_0366	Y only	Y only		True			partA_local_states.tsv:45	C_cellline_sex_labels.tsv:1060 (CMP)
+A	line	SW 1088	CVCL_1715	Y only	Y only		True			partA_local_states.tsv:46	C_cellline_sex_labels.tsv:774 (CMP)
+A	line	SW 1271	CVCL_1716	neither	neither		True			partA_local_states.tsv:47	C_cellline_sex_labels.tsv:1043 (CMP)
+A	line	SW 900	CVCL_1731	neither	neither		True			partA_local_states.tsv:48	C_cellline_sex_labels.tsv:780 (CMP)
+A	line	SW1417	CVCL_1717	neither	neither		True			partA_local_states.tsv:49	C_cellline_sex_labels.tsv:573 (CMP)
+A	line	SW48	CVCL_1724	XIST only	XIST only		True			partA_local_states.tsv:50	C_cellline_sex_labels.tsv:944 (CMP)
+A	line	SW480	CVCL_0546	neither	neither		True			partA_local_states.tsv:51	C_cellline_sex_labels.tsv:659 (CMP)
+B	line	AN3 CA	CVCL_0028	neither	neither		True	confident in both		F1_emerald_states.tsv:2	partA_local_states.tsv:6
+B	line	AsPC-1	CVCL_0152	neither	neither		True	confident in both		F1_emerald_states.tsv:3	partA_local_states.tsv:7
+B	line	BT-474	CVCL_0179	neither	neither		True	confident in both		F1_emerald_states.tsv:4	partA_local_states.tsv:8
+B	line	C-33 A	CVCL_1094	neither	neither		True	confident in both		F1_emerald_states.tsv:6	partA_local_states.tsv:9
+B	line	HEC-1-A	CVCL_0293	neither	neither		True	confident in both		F1_emerald_states.tsv:7	partA_local_states.tsv:16
+B	line	HOP62	CVCL_1285	neither	neither		True	confident in both		F1_emerald_states.tsv:8	partA_local_states.tsv:18
+B	line	HS-578T	CVCL_0332	neither	neither		True	confident in both		F1_emerald_states.tsv:9	partA_local_states.tsv:20
+B	line	NCI-H1573	CVCL_1478	neither	neither		True	confident in both		F1_emerald_states.tsv:10	partA_local_states.tsv:29
+B	line	Panc 03.27	CVCL_1635	neither	neither		True	confident in both		F1_emerald_states.tsv:11	partA_local_states.tsv:38
+B	line	RPMI-7951	CVCL_1666	neither	neither		True	confident in both		F1_emerald_states.tsv:12	partA_local_states.tsv:41
+B	line	SW1417	CVCL_1717	neither	neither		True	confident in both		F1_emerald_states.tsv:13	partA_local_states.tsv:49
+B	line	HT-29	CVCL_0320	XIST only	XIST only		True	confident in both		F1_emerald_states.tsv:15	partA_local_states.tsv:21
+B	line	NCI-H2122	CVCL_1531	XIST only	XIST only		True	confident in both		F1_emerald_states.tsv:16	partA_local_states.tsv:32
+B	line	NCI-H2347	CVCL_1550	XIST only	XIST only		True	confident in both		F1_emerald_states.tsv:17	partA_local_states.tsv:34
+B	line	RKO	CVCL_0504	XIST only	XIST only		True	confident in both		F1_emerald_states.tsv:18	partA_local_states.tsv:40
+B	line	SW48	CVCL_1724	XIST only	XIST only		True	confident in both		F1_emerald_states.tsv:19	partA_local_states.tsv:50
+B	line	A-172	CVCL_0131	Y only	Y only		True	confident in both		F1_emerald_states.tsv:20	partA_local_states.tsv:2
+B	line	A549	CVCL_0023	Y only	Y only		True	confident in both		F1_emerald_states.tsv:21	partA_local_states.tsv:5
+B	line	C32	CVCL_1097	Y only	Y only		True	confident in both		F1_emerald_states.tsv:22	partA_local_states.tsv:10
+B	line	CHP-212	CVCL_1125	Y only	Y only		True	confident in both		F1_emerald_states.tsv:23	partA_local_states.tsv:12
+B	line	COLO 205	CVCL_0218	Y only	neither		False	low confidence in one atlas		F1_emerald_states.tsv:24	partA_local_states.tsv:13
+B	line	H4	CVCL_1239	Y only	Y only		True	confident in both		F1_emerald_states.tsv:25	partA_local_states.tsv:14
+B	line	HCT15	CVCL_0292	Y only	Y only		True	low confidence in one atlas		F1_emerald_states.tsv:26	partA_local_states.tsv:15
+B	line	HepG2/C3A	CVCL_1098	Y only	Y only		True	confident in both		F1_emerald_states.tsv:27	partA_local_states.tsv:17
+B	line	J82	CVCL_0359	Y only	Y only		True	confident in both		F1_emerald_states.tsv:29	partA_local_states.tsv:23
+B	line	LoVo	CVCL_0399	Y only	Y only		True	confident in both		F1_emerald_states.tsv:30	partA_local_states.tsv:25
+B	line	NCI-H460	CVCL_0459	Y only	Y only		True	confident in both		F1_emerald_states.tsv:31	partA_local_states.tsv:35
+B	line	SK-MEL-2	CVCL_0069	Y only	Y only		True	confident in both		F1_emerald_states.tsv:32	partA_local_states.tsv:43
+B	line	SNU-1	CVCL_0099	Y only	Y only		True	confident in both		F1_emerald_states.tsv:33	partA_local_states.tsv:44
+B	line	SNU-423	CVCL_0366	Y only	Y only		True	confident in both		F1_emerald_states.tsv:34	partA_local_states.tsv:45
+B	line	SW 1088	CVCL_1715	Y only	Y only		True	confident in both		F1_emerald_states.tsv:35	partA_local_states.tsv:46
+B	line	hTERT-HPNE	CVCL_C466	Y only	Y only		True	confident in both		F1_emerald_states.tsv:36	partA_local_states.tsv:22
+B	line	A-427	CVCL_1055	neither	Y only		False	confident in both		F1_emerald_states.tsv:37	partA_local_states.tsv:3
+B	line	A498	CVCL_1056	neither	XIST only		False	low confidence in one atlas		F1_emerald_states.tsv:38	partA_local_states.tsv:4
+B	line	CFPAC-1	CVCL_1119	neither	neither		True	low confidence in one atlas		F1_emerald_states.tsv:39	partA_local_states.tsv:11
+B	line	Hs 766T	CVCL_0334	neither	neither		True	confident in both		F1_emerald_states.tsv:40	partA_local_states.tsv:19
+B	line	LOX-IMVI	CVCL_1381	neither	neither		True	confident in both		F1_emerald_states.tsv:41	partA_local_states.tsv:26
+B	line	MIA PaCa-2	CVCL_0428	neither	neither		True	confident in both		F1_emerald_states.tsv:42	partA_local_states.tsv:28
+B	line	NCI-H1792	CVCL_1495	neither	neither		True	confident in both		F1_emerald_states.tsv:43	partA_local_states.tsv:30
+B	line	NCI-H2030	CVCL_1517	neither	neither		True	confident in both		F1_emerald_states.tsv:44	partA_local_states.tsv:31
+B	line	NCI-H23	CVCL_1547	neither	neither		True	confident in both		F1_emerald_states.tsv:45	partA_local_states.tsv:33
+B	line	NCI-H596	CVCL_1571	neither	Y only		False	low confidence in one atlas		F1_emerald_states.tsv:46	partA_local_states.tsv:36
+B	line	NCI-H661	CVCL_1577	neither	Y only		False	low confidence in one atlas		F1_emerald_states.tsv:47	partA_local_states.tsv:37
+B	line	PANC-1	CVCL_0480	neither	neither		True	confident in both		F1_emerald_states.tsv:49	partA_local_states.tsv:39
+B	line	SHP-77	CVCL_1693	neither	neither		True	confident in both		F1_emerald_states.tsv:50	partA_local_states.tsv:42
+B	line	SW 1271	CVCL_1716	neither	neither		True	confident in both		F1_emerald_states.tsv:51	partA_local_states.tsv:47
+B	line	SW480	CVCL_0546	neither	neither		True	confident in both		F1_emerald_states.tsv:52	partA_local_states.tsv:51
+C	line	A549 in sciPlex4	CVCL_0023	Y only	Y only		True			F1_sciplex_states.tsv:2	C_cellline_sex_labels.tsv:583 (CMP)
+C	line	MCF7 in sciPlex4	CVCL_0031	XIST only	XIST only		True			F1_sciplex_states.tsv:3	C_cellline_sex_labels.tsv:1007 (CMP)
+C	line	A549 in sciPlex3	CVCL_0023	both	Y only		False			F1_sciplex_states.tsv:4	C_cellline_sex_labels.tsv:583 (CMP)
+C	line	K562 in sciPlex3	CVCL_0004	XIST only	XIST only		True			F1_sciplex_states.tsv:5	C_cellline_sex_labels.tsv:72 (CMP)
+C	line	MCF7 in sciPlex3	CVCL_0031	XIST only	XIST only		True			F1_sciplex_states.tsv:6	C_cellline_sex_labels.tsv:1007 (CMP)
+C	line	A549 in sciPlex2	CVCL_0023	Y only	Y only		True			F1_sciplex_states.tsv:7	C_cellline_sex_labels.tsv:583 (CMP)
+D	line	A-172	CVCL_0131	Y score high	X,Y		True			partA_local_states.tsv:2	supp_table_amelogenin_by_line.tsv:53
+D	line	A-427	CVCL_1055	Y score high	X,Y		True			partA_local_states.tsv:3	supp_table_amelogenin_by_line.tsv:192
+D	line	A498	CVCL_1056	Y score low	X only		True			partA_local_states.tsv:4	supp_table_amelogenin_by_line.tsv:193
+D	line	A549	CVCL_0023	Y score high	X,Y		True			partA_local_states.tsv:5	supp_table_amelogenin_by_line.tsv:17
+D	line	AN3 CA	CVCL_0028	Y score low	X only		True			partA_local_states.tsv:6	supp_table_amelogenin_by_line.tsv:20
+D	line	AsPC-1	CVCL_0152	Y score low	X only		True			partA_local_states.tsv:7	supp_table_amelogenin_by_line.tsv:57
+D	line	BT-474	CVCL_0179	Y score low	X only		True			partA_local_states.tsv:8	supp_table_amelogenin_by_line.tsv:61
+D	line	C-33 A	CVCL_1094	Y score low	X only		True			partA_local_states.tsv:9	supp_table_amelogenin_by_line.tsv:226
+D	line	C32	CVCL_1097	Y score high	X,Y		True			partA_local_states.tsv:10	supp_table_amelogenin_by_line.tsv:228
+D	line	CFPAC-1	CVCL_1119	Y score low	X,Y		False			partA_local_states.tsv:11	supp_table_amelogenin_by_line.tsv:249
+D	line	CHP-212	CVCL_1125	Y score high	X,Y		True			partA_local_states.tsv:12	supp_table_amelogenin_by_line.tsv:255
+D	line	COLO 205	CVCL_0218	Y score low	X only		True			partA_local_states.tsv:13	supp_table_amelogenin_by_line.tsv:68
+D	line	H4	CVCL_1239	Y score high	X,Y		True			partA_local_states.tsv:14	supp_table_amelogenin_by_line.tsv:350
+D	line	HCT15	CVCL_0292	Y score high	X,Y		True			partA_local_states.tsv:15	supp_table_amelogenin_by_line.tsv:82
+D	line	HEC-1-A	CVCL_0293	Y score low	X only		True			partA_local_states.tsv:16	supp_table_amelogenin_by_line.tsv:83
+D	line	HepG2/C3A	CVCL_1098	Y score high	X,Y		True			partA_local_states.tsv:17	supp_table_amelogenin_by_line.tsv:229
+D	line	HOP62	CVCL_1285	Y score low	X only		True			partA_local_states.tsv:18	supp_table_amelogenin_by_line.tsv:378
+D	line	Hs 766T	CVCL_0334	Y score low	X only		True			partA_local_states.tsv:19	supp_table_amelogenin_by_line.tsv:96
+D	line	HS-578T	CVCL_0332	Y score low	X only		True			partA_local_states.tsv:20	supp_table_amelogenin_by_line.tsv:94
+D	line	HT-29	CVCL_0320	Y score low	X only		True			partA_local_states.tsv:21	supp_table_amelogenin_by_line.tsv:90
+D	line	hTERT-HPNE	CVCL_C466	Y score high	X,Y		True			partA_local_states.tsv:22	supp_table_amelogenin_by_line.tsv:1077
+D	line	J82	CVCL_0359	Y score high	X,Y		True			partA_local_states.tsv:23	supp_table_amelogenin_by_line.tsv:98
+D	line	KATO III	CVCL_0371	Y score low	X only		True			partA_local_states.tsv:24	supp_table_amelogenin_by_line.tsv:103
+D	line	LoVo	CVCL_0399	Y score high	X,Y		True			partA_local_states.tsv:25	supp_table_amelogenin_by_line.tsv:112
+D	line	LOX-IMVI	CVCL_1381	Y score low	X only		True			partA_local_states.tsv:26	supp_table_amelogenin_by_line.tsv:463
+D	line	LS 180	CVCL_0397	Y score low	X only		True			partA_local_states.tsv:27	supp_table_amelogenin_by_line.tsv:111
+D	line	MIA PaCa-2	CVCL_0428	Y score low	X only		True			partA_local_states.tsv:28	supp_table_amelogenin_by_line.tsv:118
+D	line	NCI-H1573	CVCL_1478	Y score low	X only		True			partA_local_states.tsv:29	supp_table_amelogenin_by_line.tsv:532
+D	line	NCI-H1792	CVCL_1495	Y score low	X only		True			partA_local_states.tsv:30	supp_table_amelogenin_by_line.tsv:547
+D	line	NCI-H2030	CVCL_1517	Y score low	X only		True			partA_local_states.tsv:31	supp_table_amelogenin_by_line.tsv:562
+D	line	NCI-H2122	CVCL_1531	Y score low	X only		True			partA_local_states.tsv:32	supp_table_amelogenin_by_line.tsv:572
+D	line	NCI-H23	CVCL_1547	Y score low	X only		True			partA_local_states.tsv:33	supp_table_amelogenin_by_line.tsv:584
+D	line	NCI-H2347	CVCL_1550	Y score low	X only		True			partA_local_states.tsv:34	supp_table_amelogenin_by_line.tsv:586
+D	line	NCI-H460	CVCL_0459	Y score high	X,Y		True			partA_local_states.tsv:35	supp_table_amelogenin_by_line.tsv:123
+D	line	NCI-H596	CVCL_1571	Y score high	X only		False			partA_local_states.tsv:36	supp_table_amelogenin_by_line.tsv:603
+D	line	NCI-H661	CVCL_1577	Y score high	X,Y		True			partA_local_states.tsv:37	supp_table_amelogenin_by_line.tsv:608
+D	line	Panc 03.27	CVCL_1635	Y score low	X only		True			partA_local_states.tsv:38	supp_table_amelogenin_by_line.tsv:651
+D	line	PANC-1	CVCL_0480	Y score low	X only		True			partA_local_states.tsv:39	supp_table_amelogenin_by_line.tsv:128
+D	line	RKO	CVCL_0504	Y score low	X only		True			partA_local_states.tsv:40	supp_table_amelogenin_by_line.tsv:130
+D	line	RPMI-7951	CVCL_1666	Y score low	X only		True			partA_local_states.tsv:41	supp_table_amelogenin_by_line.tsv:677
+D	line	SHP-77	CVCL_1693	Y score low	X only		True			partA_local_states.tsv:42	supp_table_amelogenin_by_line.tsv:699
+D	line	SK-MEL-2	CVCL_0069	Y score high	X,Y		True			partA_local_states.tsv:43	supp_table_amelogenin_by_line.tsv:39
+D	line	SNU-1	CVCL_0099	Y score high	X,Y		True			partA_local_states.tsv:44	supp_table_amelogenin_by_line.tsv:48
+D	line	SNU-423	CVCL_0366	Y score high	X,Y		True			partA_local_states.tsv:45	supp_table_amelogenin_by_line.tsv:102
+D	line	SW 1088	CVCL_1715	Y score high	X,Y		True			partA_local_states.tsv:46	supp_table_amelogenin_by_line.tsv:720
+D	line	SW 1271	CVCL_1716	Y score low	X only		True			partA_local_states.tsv:47	supp_table_amelogenin_by_line.tsv:721
+D	line	SW 900	CVCL_1731	Y score low	X only		True			partA_local_states.tsv:48	supp_table_amelogenin_by_line.tsv:736
+D	line	SW1417	CVCL_1717	Y score low	X only		True			partA_local_states.tsv:49	supp_table_amelogenin_by_line.tsv:722
+D	line	SW48	CVCL_1724	Y score low	X only		True			partA_local_states.tsv:50	supp_table_amelogenin_by_line.tsv:729
+D	line	SW480	CVCL_0546	Y score low	X only		True			partA_local_states.tsv:51	supp_table_amelogenin_by_line.tsv:145
+A	tile			Y only	Y only	16	True				
+A	tile			Y only	XIST only	0	False				
+A	tile			Y only	both	0	False				
+A	tile			Y only	neither	1	False				
+A	tile			XIST only	Y only	0	False				
+A	tile			XIST only	XIST only	6	True				
+A	tile			XIST only	both	0	False				
+A	tile			XIST only	neither	0	False				
+A	tile			both	Y only	0	False				
+A	tile			both	XIST only	0	False				
+A	tile			both	both	0	True				
+A	tile			both	neither	0	False				
+A	tile			neither	Y only	1	False				
+A	tile			neither	XIST only	0	False				
+A	tile			neither	both	0	False				
+A	tile			neither	neither	25	True				
+A	subtitle								47 of 49 lines show the same pattern		
+A	note								Different: COLO 205 and NCI-H596		
+B	tile			Y only	Y only	15	True				
+B	tile			Y only	XIST only	0	False				
+B	tile			Y only	both	0	False				
+B	tile			Y only	neither	1	False				
+B	tile			XIST only	Y only	0	False				
+B	tile			XIST only	XIST only	5	True				
+B	tile			XIST only	both	0	False				
+B	tile			XIST only	neither	0	False				
+B	tile			both	Y only	0	False				
+B	tile			both	XIST only	0	False				
+B	tile			both	both	0	True				
+B	tile			both	neither	0	False				
+B	tile			neither	Y only	3	False				
+B	tile			neither	XIST only	1	False				
+B	tile			neither	both	0	False				
+B	tile			neither	neither	22	True				
+B	subtitle								42 of 47 shared lines; 40 of 41 with confident calls in both		
+B	note										
+C	tile			Y only	Y only	2	True				
+C	tile			Y only	XIST only	0	False				
+C	tile			Y only	both	0	False				
+C	tile			Y only	neither	0	False				
+C	tile			XIST only	Y only	0	False				
+C	tile			XIST only	XIST only	3	True				
+C	tile			XIST only	both	0	False				
+C	tile			XIST only	neither	0	False				
+C	tile			both	Y only	1	False				
+C	tile			both	XIST only	0	False				
+C	tile			both	both	0	True				
+C	tile			both	neither	0	False				
+C	tile			neither	Y only	0	False				
+C	tile			neither	XIST only	0	False				
+C	tile			neither	both	0	False				
+C	tile			neither	neither	0	True				
+C	subtitle								5 of 6 calls show the same pattern (3 lines, 3 experiments)		
+C	note								Different: A549 in sciPlex3		
+D	subtitle								AMELY (on Yp) in public STR profiles, against each source's Y call		
+D	note								Tahoe-100M lines that differ: CFPAC-1 (AMELY, Y score low) and NCI-H596 (no AMELY, Y expressed)		
+D	table_cell	Tahoe-100M			n_compared	50			50		agreement_by_source.tsv:2
+D	table_cell	Tahoe-100M			n_agree	48			48		agreement_by_source.tsv:2
+D	table_cell	Tahoe-100M			n_type_A	1			1		agreement_by_source.tsv:2
+D	table_cell	Tahoe-100M			n_type_B	1			1		agreement_by_source.tsv:2
+D	table_cell	EmeraldBay			n_compared	52			52		agreement_by_source.tsv:3
+D	table_cell	EmeraldBay			n_agree	47			47		agreement_by_source.tsv:3
+D	table_cell	EmeraldBay			n_type_A	4			4		agreement_by_source.tsv:3
+D	table_cell	EmeraldBay			n_type_B	1			1		agreement_by_source.tsv:3
+D	table_cell	sci-Plex			n_compared	3			3		agreement_by_source.tsv:4
+D	table_cell	sci-Plex			n_agree	3			3		agreement_by_source.tsv:4
+D	table_cell	sci-Plex			n_type_A	0			0		agreement_by_source.tsv:4
+D	table_cell	sci-Plex			n_type_B	0			0		agreement_by_source.tsv:4
+D	table_cell	CCLE			n_compared	734			734		agreement_by_source.tsv:5
+D	table_cell	CCLE			n_agree	714			714		agreement_by_source.tsv:5
+D	table_cell	CCLE			n_type_A	11			11		agreement_by_source.tsv:5
+D	table_cell	CCLE			n_type_B	9			9		agreement_by_source.tsv:5
+D	table_cell	CMP			n_compared	1031			1,031		agreement_by_source.tsv:6
+D	table_cell	CMP			n_agree	1007			1,007		agreement_by_source.tsv:6
+D	table_cell	CMP			n_type_A	17			17		agreement_by_source.tsv:6
+D	table_cell	CMP			n_type_B	7			7		agreement_by_source.tsv:6
+	cutoffs	tahoe							(4.021677875446696, 4.684976810079098)		
+	cutoffs	emerald							(4.034282251060013, 5.90355674116529)		
+	cutoffs	sciplex							(1.306546, 1.983388)		
+	cutoffs	ext							{('CMP', 'xist'): 1.5818101813791798, ('CMP', 'yscore'): 1.0058597899929866, ('CCLE', 'xist'): 1.979861289542241, ('CCLE', 'yscore'): 1.3079849441956883}		

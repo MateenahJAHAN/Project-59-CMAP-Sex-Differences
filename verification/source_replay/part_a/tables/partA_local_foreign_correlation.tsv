@@ -1,0 +1,7 @@
+comparison	n_lines	pearson_r	pearson_p	spearman_rho	spearman_p
+share y8>=3 vs log10 cells, all Y-negative lines	32	0.0179682	0.922244	-0.237537	0.190508
+share y8>=3 vs log10 cells, Y-negative lines with both arms low	28	-0.112621	0.568282	-0.149425	0.447906
+share XIST>=3 vs log10 cells, XIST-negative lines	44	-0.306082	0.0433154	-0.140517	0.36294
+share removed by the filter vs log10 cells, all 50 lines	50	0.0418299	0.77302	0.0585014	0.686543
+share removed by the filter vs log10 cells, partial-Y lines removed	46	0.177393	0.238235	0.135842	0.368039
+log10 share y8>=3 vs log10 cells, Y-negative lines with both arms low	28	-0.140427	0.47601	-0.149425	0.447906

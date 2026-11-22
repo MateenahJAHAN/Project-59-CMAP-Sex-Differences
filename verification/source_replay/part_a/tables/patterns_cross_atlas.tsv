@@ -1,0 +1,48 @@
+cellosaurus_id	cell_name	rna_pattern_tahoe	confidence_tahoe	rna_pattern_emerald	confidence_emerald	match	eligible
+CVCL_0131	A-172	Y only	high	Y only	high	True	True
+CVCL_1055	A-427	Y only	high	neither	high	False	True
+CVCL_1056	A498	XIST only	high	neither	low	False	False
+CVCL_0023	A549	Y only	high	Y only	high	True	True
+CVCL_0028	AN3 CA	neither	high	neither	high	True	True
+CVCL_0152	AsPC-1	neither	high	neither	high	True	True
+CVCL_0179	BT-474	neither	high	neither	high	True	True
+CVCL_1094	C-33 A	neither	high	neither	high	True	True
+CVCL_1097	C32	Y only	high	Y only	high	True	True
+CVCL_1119	CFPAC-1	neither	high	neither	low	True	False
+CVCL_1125	CHP-212	Y only	high	Y only	high	True	True
+CVCL_0218	COLO 205	neither	medium	Y only	low	False	False
+CVCL_1239	H4	Y only	high	Y only	high	True	True
+CVCL_0292	HCT15	Y only	high	Y only	low	True	False
+CVCL_0293	HEC-1-A	neither	high	neither	high	True	True
+CVCL_1098	HepG2/C3A	Y only	high	Y only	high	True	True
+CVCL_1285	HOP62	neither	high	neither	high	True	True
+CVCL_0334	Hs 766T	neither	high	neither	high	True	True
+CVCL_0332	HS-578T	neither	high	neither	high	True	True
+CVCL_0320	HT-29	XIST only	high	XIST only	high	True	True
+CVCL_C466	hTERT-HPNE	Y only	high	Y only	high	True	True
+CVCL_0359	J82	Y only	high	Y only	high	True	True
+CVCL_0399	LoVo	Y only	high	Y only	medium	True	True
+CVCL_1381	LOX-IMVI	neither	high	neither	high	True	True
+CVCL_0428	MIA PaCa-2	neither	high	neither	high	True	True
+CVCL_1478	NCI-H1573	neither	high	neither	high	True	True
+CVCL_1495	NCI-H1792	neither	high	neither	high	True	True
+CVCL_1517	NCI-H2030	neither	high	neither	medium	True	True
+CVCL_1531	NCI-H2122	XIST only	medium	XIST only	high	True	True
+CVCL_1547	NCI-H23	neither	high	neither	high	True	True
+CVCL_1550	NCI-H2347	XIST only	high	XIST only	medium	True	True
+CVCL_0459	NCI-H460	Y only	high	Y only	high	True	True
+CVCL_1571	NCI-H596	Y only	low	neither	high	False	False
+CVCL_1577	NCI-H661	Y only	high	neither	low	False	False
+CVCL_1635	Panc 03.27	neither	high	neither	high	True	True
+CVCL_0480	PANC-1	neither	high	neither	high	True	True
+CVCL_0504	RKO	XIST only	high	XIST only	high	True	True
+CVCL_1666	RPMI-7951	neither	high	neither	high	True	True
+CVCL_1693	SHP-77	neither	high	neither	high	True	True
+CVCL_0069	SK-MEL-2	Y only	high	Y only	high	True	True
+CVCL_0099	SNU-1	Y only	high	Y only	high	True	True
+CVCL_0366	SNU-423	Y only	high	Y only	medium	True	True
+CVCL_1715	SW 1088	Y only	high	Y only	high	True	True
+CVCL_1716	SW 1271	neither	high	neither	high	True	True
+CVCL_1717	SW1417	neither	high	neither	high	True	True
+CVCL_1724	SW48	XIST only	high	XIST only	high	True	True
+CVCL_0546	SW480	neither	high	neither	high	True	True

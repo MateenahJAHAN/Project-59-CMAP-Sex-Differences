@@ -1,0 +1,7 @@
+marker	line_set	cells	min	median	max
+XIST	XIST-negative lines	all vehicle cells	0.00137917	0.00205538	0.00415916
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	0.00131683	0.00197377	0.00400294
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	0.0528455	0.0767837	0.100796
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	0.0272181	0.0371451	0.0663253
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	0.0136216	0.0190104	0.0367824
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	0.0117782	0.0169154	0.0332754

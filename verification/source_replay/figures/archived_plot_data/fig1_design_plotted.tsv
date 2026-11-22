@@ -1,0 +1,7 @@
+panel	step	heading	description
+A	1	Vehicle cells	Tahoe-100M, EmeraldBay and sci-Plex
+A	2	Score Y genes and XIST	Summarize by cell line and classify as Y only, XIST only, both or neither
+A	3	Compare the patterns	Recorded donor sex, external bulk RNA-seq and STR AMELY status for the Y call
+B	1	Two inputs	Bulk RNA-seq for marker calls LINCS2020 L1000 for response
+B	2	Compare within lineage	Y only and XIST only each compared with neither marker with adjustment for TP53
+B	3	Estimate differences	Panel and per-compound tests Pooled vehicle-referenced response-size estimates

@@ -1,0 +1,50 @@
+accession	cell_name	bulk_source	bulk_pattern	tahoe_pattern	agree
+CVCL_0131	A-172	CMP	Y only	Y only	True
+CVCL_1055	A-427	CMP	Y only	Y only	True
+CVCL_1056	A498	CMP	XIST only	XIST only	True
+CVCL_0023	A549	CMP	Y only	Y only	True
+CVCL_0028	AN3 CA	CMP	neither	neither	True
+CVCL_0152	AsPC-1	CMP	neither	neither	True
+CVCL_0179	BT-474	CMP	neither	neither	True
+CVCL_1094	C-33 A	CMP	neither	neither	True
+CVCL_1097	C32	CMP	Y only	Y only	True
+CVCL_1119	CFPAC-1	CMP	neither	neither	True
+CVCL_1125	CHP-212	CMP	Y only	Y only	True
+CVCL_0218	COLO 205	CMP	Y only	neither	False
+CVCL_1239	H4	CMP	Y only	Y only	True
+CVCL_0292	HCT15	CMP	Y only	Y only	True
+CVCL_0293	HEC-1-A	CMP	neither	neither	True
+CVCL_1098	HepG2/C3A	CMP	Y only	Y only	True
+CVCL_1285	HOP62	CMP	neither	neither	True
+CVCL_0334	Hs 766T	CMP	neither	neither	True
+CVCL_0332	HS-578T	CMP	neither	neither	True
+CVCL_0320	HT-29	CMP	XIST only	XIST only	True
+CVCL_0359	J82	CMP	Y only	Y only	True
+CVCL_0371	KATO III	CMP	neither	neither	True
+CVCL_0399	LoVo	CMP	Y only	Y only	True
+CVCL_1381	LOX-IMVI	CMP	neither	neither	True
+CVCL_0397	LS 180	CMP	neither	neither	True
+CVCL_0428	MIA PaCa-2	CMP	neither	neither	True
+CVCL_1478	NCI-H1573	CMP	neither	neither	True
+CVCL_1495	NCI-H1792	CMP	neither	neither	True
+CVCL_1517	NCI-H2030	CMP	neither	neither	True
+CVCL_1531	NCI-H2122	CMP	XIST only	XIST only	True
+CVCL_1547	NCI-H23	CMP	neither	neither	True
+CVCL_1550	NCI-H2347	CMP	XIST only	XIST only	True
+CVCL_0459	NCI-H460	CMP	Y only	Y only	True
+CVCL_1571	NCI-H596	CMP	neither	Y only	False
+CVCL_1577	NCI-H661	CMP	Y only	Y only	True
+CVCL_1635	Panc 03.27	CMP	neither	neither	True
+CVCL_0480	PANC-1	CMP	neither	neither	True
+CVCL_0504	RKO	CMP	XIST only	XIST only	True
+CVCL_1666	RPMI-7951	CMP	neither	neither	True
+CVCL_1693	SHP-77	CMP	neither	neither	True
+CVCL_0069	SK-MEL-2	CMP	Y only	Y only	True
+CVCL_0099	SNU-1	CMP	Y only	Y only	True
+CVCL_0366	SNU-423	CMP	Y only	Y only	True
+CVCL_1715	SW 1088	CMP	Y only	Y only	True
+CVCL_1716	SW 1271	CMP	neither	neither	True
+CVCL_1731	SW 900	CMP	neither	neither	True
+CVCL_1717	SW1417	CMP	neither	neither	True
+CVCL_1724	SW48	CMP	XIST only	XIST only	True
+CVCL_0546	SW480	CMP	neither	neither	True

@@ -1,0 +1,1103 @@
+accession	amelogenin_class	in_tahoe	Tahoe-100M_Y	Tahoe-100M_vs_STR	EmeraldBay_Y	EmeraldBay_vs_STR	sci-Plex_Y	sci-Plex_vs_STR	CCLE_Y	CCLE_vs_STR	CMP_Y	CMP_vs_STR
+CVCL_0001	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_0002	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0004	X only	False		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0005	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0006	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0007	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_0008	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0009	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0012	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0013	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_0014	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_0017	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_0019	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0021	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_0022	mixed across sources	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_0023	X,Y	True	Y expressed	agree	Y expressed	agree	Y expressed	agree	Y expressed	agree	Y expressed	agree
+CVCL_0026	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0027	X,Y	False		not compared		not compared		not compared	Y expressed	agree		not compared
+CVCL_0028	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0029	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0030	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0031	X only	False		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0032	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0033	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_0035	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_0036	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0037	mixed across sources	False		not compared		not compared		not compared		not compared	Y below cut-off	not compared
+CVCL_0039	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0040	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0041	mixed across sources	False		not compared		not compared		not compared		not compared	Y below cut-off	not compared
+CVCL_0042	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0060	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0062	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0064	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0065	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0067	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0068	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0069	X,Y	True	Y expressed	agree	Y expressed	agree		not compared		not compared	Y expressed	agree
+CVCL_0076	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0077	X,Y	False		not compared		not compared		not compared	Y below cut-off	type A	Y below cut-off	type A
+CVCL_0078	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0079	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0080	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0092	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0093	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0098	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_0099	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0101	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0103	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0105	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0126	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0131	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0132	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0134	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0139	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0152	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0153	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0167	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0178	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0179	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0181	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0186	X only	False		not compared	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0201	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0202	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0207	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0209	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_0218	X only	True	Y below cut-off	agree	Y expressed	type B		not compared		not compared	Y expressed	type B
+CVCL_0220	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0234	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0236	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0237	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0243	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0244	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_0248	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_0250	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0253	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0258	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y below cut-off	type A
+CVCL_0270	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0290	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0291	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y below cut-off	not compared
+CVCL_0292	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0293	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0294	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0297	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0312	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0313	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0317	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0318	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y below cut-off	type A
+CVCL_0320	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0324	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0326	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0331	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0332	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0333	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0334	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0336	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0359	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0360	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_0363	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_0364	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0366	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0371	X only	True	Y below cut-off	agree		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0374	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0375	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0378	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0379	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0388	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0392	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0393	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0397	X only	True	Y below cut-off	agree		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0399	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0400	mixed across sources	False		not compared		not compared		not compared		not compared	Y expressed	not compared
+CVCL_0418	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0419	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0425	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0426	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0428	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0434	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0445	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0454	mixed across sources	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_0455	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0459	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0465	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0471	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0475	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0479	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0480	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0485	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0504	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0505	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0511	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0525	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0526	X,Y	False		not compared		not compared		not compared	Y below cut-off	type A	Y below cut-off	type A
+CVCL_0527	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0528	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_0531	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0532	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0533	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0538	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0539	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0542	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0543	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0544	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0546	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0547	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0548	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0550	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0553	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0554	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0555	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0556	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0559	X,Y	False		not compared		not compared		not compared	Y expressed	agree		not compared
+CVCL_0566	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0580	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0582	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0588	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0589	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0599	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0600	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0609	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0618	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0619	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0620	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0621	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0622	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0623	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0626	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_0627	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0628	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0629	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_0630	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y below cut-off	type A
+CVCL_0632	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_0633	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0761	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0832	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_0844	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0871	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_0950	X,Y	False		not compared	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1036	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1038	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1040	no STR Amelogenin	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1045	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1046	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1048	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1049	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1050	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1051	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1052	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1053	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1054	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1055	X,Y	True	Y expressed	agree	Y below cut-off	type A		not compared	Y below cut-off	type A	Y expressed	agree
+CVCL_1056	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1057	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1058	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1059	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1060	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1062	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1063	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1064	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1065	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1066	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1067	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1069	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1070	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1072	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1073	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1074	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1075	mixed across sources	False		not compared		not compared		not compared		not compared	Y expressed	not compared
+CVCL_1076	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1077	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1078	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1079	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1080	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1081	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1082	mixed across sources	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_1083	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1084	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1085	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1086	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1087	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1090	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1091	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1092	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1093	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1094	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared		not compared	Y below cut-off	agree
+CVCL_1096	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1097	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1098	X,Y	True	Y expressed	agree	Y expressed	agree		not compared		not compared	Y expressed	agree
+CVCL_1100	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1101	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1102	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1103	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1104	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1105	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1106	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1107	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1108	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1109	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1110	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1111	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1112	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1113	X,Y	False		not compared		not compared		not compared		not compared	Y below cut-off	type A
+CVCL_1114	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1115	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1116	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1117	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1118	X only	False		not compared	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1119	X,Y	True	Y below cut-off	type A	Y below cut-off	type A		not compared	Y below cut-off	type A	Y below cut-off	type A
+CVCL_1120	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1121	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1122	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1123	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1124	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1125	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1126	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1128	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1129	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1130	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1131	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1132	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1133	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1134	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1135	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1136	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1137	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1138	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1139	mixed across sources	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_1140	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1141	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1143	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1144	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1146	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1147	X only	False		not compared		not compared		not compared		not compared	Y expressed	type B
+CVCL_1149	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1150	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1151	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1153	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1154	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1155	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1156	X,Y	False		not compared		not compared		not compared		not compared	Y below cut-off	type A
+CVCL_1158	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1160	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1162	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1164	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1166	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1167	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1168	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1169	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1170	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1171	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1172	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1173	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1174	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y expressed	type B
+CVCL_1176	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1177	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1178	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1179	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1180	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1181	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1182	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1183	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1184	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_1185	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1186	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1187	X,Y	False		not compared		not compared		not compared	Y below cut-off	type A	Y below cut-off	type A
+CVCL_1188	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1189	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1192	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1195	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1196	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1197	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1198	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1200	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1201	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1202	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1203	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1204	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1205	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1206	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1207	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1208	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1209	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1210	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1211	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1212	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1213	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1214	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1215	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1216	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1217	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1218	other	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_1219	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1220	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1221	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1222	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1225	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1226	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1227	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1228	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1229	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1230	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1231	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1232	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1233	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1234	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1235	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1236	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1238	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1239	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1240	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1241	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1242	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1243	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1245	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1247	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1249	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1251	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1252	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1254	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1255	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1256	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1258	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1259	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1261	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1263	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1266	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1267	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1269	mixed across sources	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_1270	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1271	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1274	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1279	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1280	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1281	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1282	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1284	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1285	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1286	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1287	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1288	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1289	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1290	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1291	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1292	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1293	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1294	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1295	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1297	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1298	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1299	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1300	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1301	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1302	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1303	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1304	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1305	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1306	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1307	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1308	mixed across sources	False		not compared		not compared		not compared		not compared	Y expressed	not compared
+CVCL_1311	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1312	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1313	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1314	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1317	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1319	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1320	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1322	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1323	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1324	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1325	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1326	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1327	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1328	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1329	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1330	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1331	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1332	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1334	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1335	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1336	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1337	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1338	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1339	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1341	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1342	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1343	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1344	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1345	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1346	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1347	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1348	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1349	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1350	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1351	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1352	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1353	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1354	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1355	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1356	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1357	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1359	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1360	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1361	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1362	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1363	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1364	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1365	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1366	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1367	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1368	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1369	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1370	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1371	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1373	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1374	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1375	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1376	X only	False		not compared		not compared		not compared	Y expressed	type B	Y below cut-off	agree
+CVCL_1377	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1378	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1379	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1380	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1381	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1382	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1383	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1384	X only	False		not compared	Y below cut-off	agree		not compared		not compared		not compared
+CVCL_1385	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1386	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1387	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1389	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1390	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1391	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1392	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1394	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1395	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1398	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1399	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1400	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1401	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1402	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1403	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1404	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1405	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1406	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1407	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1408	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1409	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1410	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1411	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1412	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1413	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1415	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1416	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1417	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1418	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1419	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1420	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1421	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1422	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_1424	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1426	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1427	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1428	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1429	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1430	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1434	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1435	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1436	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1438	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1439	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1440	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1441	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1442	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1443	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1444	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1445	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1448	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1451	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1453	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1454	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1455	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1456	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1463	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1464	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1465	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1470	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1471	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1472	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1473	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1475	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1476	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1478	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1479	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1481	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1482	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1483	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1484	X only	False		not compared		not compared		not compared	Y expressed	type B	Y expressed	type B
+CVCL_1485	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1487	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1488	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1489	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1490	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1491	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1492	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1493	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1494	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1495	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1496	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1498	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1499	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1500	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1503	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1505	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1508	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1509	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1510	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1511	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1512	mixed across sources	False		not compared		not compared		not compared		not compared	Y below cut-off	not compared
+CVCL_1514	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1515	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1516	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1517	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y expressed	type B	Y below cut-off	agree
+CVCL_1518	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1520	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_1521	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_1522	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1523	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1524	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1525	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1529	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1530	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1531	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1532	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1533	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1534	mixed across sources	False		not compared		not compared		not compared		not compared	Y expressed	not compared
+CVCL_1535	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1536	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1537	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1539	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1542	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1543	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1544	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1546	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1547	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1549	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1550	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1551	X,Y	False		not compared		not compared		not compared	Y below cut-off	type A	Y below cut-off	type A
+CVCL_1552	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1553	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1554	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1555	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1557	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1558	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1559	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1561	X,Y	False		not compared		not compared		not compared	Y below cut-off	type A	Y expressed	agree
+CVCL_1562	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1564	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1565	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1566	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1567	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1568	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1569	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1571	X only	True	Y expressed	type B	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1573	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1574	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1575	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1576	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1577	X,Y	True	Y expressed	agree	Y below cut-off	type A		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1579	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1581	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1583	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1584	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1586	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1587	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1588	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1590	other	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1591	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1593	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1594	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1595	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1596	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1600	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1603	X,Y	False		not compared	Y below cut-off	type A		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1604	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1605	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1607	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1608	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1609	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1610	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1612	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1613	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1614	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1615	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1616	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1618	no STR Amelogenin	False		not compared		not compared		not compared		not compared	Y below cut-off	not compared
+CVCL_1619	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1620	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1621	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1622	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1623	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1624	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1625	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1626	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1627	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1628	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1629	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1630	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1631	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1632	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1633	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1635	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1636	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1638	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1639	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1640	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1641	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1642	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1644	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1645	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1646	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1647	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1648	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1649	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1650	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1651	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1652	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1654	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1655	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1656	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1657	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1658	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1659	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1660	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1661	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1662	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1665	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1666	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1667	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1668	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1670	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1672	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1673	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1674	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1675	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1676	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1678	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1679	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1681	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1682	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1683	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1684	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1685	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1687	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1688	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1689	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1690	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1691	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1692	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1693	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1694	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1695	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1697	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1698	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1699	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1700	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1701	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1702	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1703	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1704	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1705	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1706	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1707	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1708	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1709	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1710	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1711	mixed across sources	False		not compared		not compared		not compared		not compared	Y expressed	not compared
+CVCL_1712	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1713	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1714	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1715	X,Y	True	Y expressed	agree	Y expressed	agree		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1716	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1717	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1718	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1719	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1720	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1721	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1722	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1723	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1724	X only	True	Y below cut-off	agree	Y below cut-off	agree		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1725	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1726	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1727	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1728	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1729	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1730	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1731	X only	True	Y below cut-off	agree		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1732	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1733	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1734	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1735	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1736	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1737	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1738	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1754	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1759	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1760	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1761	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1762	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1763	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1764	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1765	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1766	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1767	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1768	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1769	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1770	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1771	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1773	mixed across sources	False		not compared		not compared		not compared		not compared	Y expressed	not compared
+CVCL_1774	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1775	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1776	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1779	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1780	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1781	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1782	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1783	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1784	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1785	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1786	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1787	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1789	mixed across sources	False		not compared		not compared		not compared		not compared	Y below cut-off	not compared
+CVCL_1790	other	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_1791	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1793	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1794	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1795	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1796	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1797	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1798	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1805	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1806	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1808	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1809	X only	False		not compared		not compared		not compared	Y expressed	type B	Y expressed	type B
+CVCL_1812	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1818	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1819	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1821	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1822	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1823	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1825	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1842	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1843	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_1844	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1845	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1846	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1847	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1851	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1865	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1866	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1872	X,Y	False		not compared		not compared		not compared	Y expressed	agree		not compared
+CVCL_1877	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1878	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1881	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1882	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1883	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1887	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1889	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1890	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1899	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_1902	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1911	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1958	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1978	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_1980	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_1997	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2010	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2022	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2030	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2034	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2035	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_2036	mixed across sources	False		not compared		not compared		not compared		not compared	Y below cut-off	not compared
+CVCL_2045	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2047	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2050	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2057	X,Y	False		not compared		not compared		not compared	Y below cut-off	type A	Y below cut-off	type A
+CVCL_2058	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2059	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2060	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2061	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2062	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2063	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2067	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2075	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2077	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2078	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2081	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2086	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2091	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2092	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2096	X,Y	False		not compared		not compared		not compared	Y below cut-off	type A	Y below cut-off	type A
+CVCL_2104	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2110	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2112	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2119	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2120	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2124	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2149	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2161	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2176	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2193	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2194	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2195	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2206	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2207	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2208	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2209	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2213	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_2218	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2235	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2253	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2307	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2308	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2310	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2312	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2313	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2314	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2315	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2319	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2411	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2412	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2413	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2414	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2418	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2420	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2425	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_2447	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2450	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2520	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2582	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2588	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2613	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2614	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_2661	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_2672	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2673	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2675	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2678	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2680	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2681	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2686	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2738	no STR Amelogenin	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_2743	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2761	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_2765	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2784	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_2785	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2786	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2787	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2788	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2791	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2798	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2799	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2805	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2856	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_2873	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2891	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2908	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2909	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2914	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2923	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2925	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2927	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2928	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2930	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2931	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2947	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2949	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2955	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2956	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2960	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_2961	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2977	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2983	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2985	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_2986	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2989	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_2996	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_3001	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3002	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3004	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3005	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3007	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3008	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3015	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3020	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3035	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3041	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3075	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_3076	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3082	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3084	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3086	X,Y	False		not compared		not compared		not compared		not compared	Y below cut-off	type A
+CVCL_3087	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3088	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3110	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3112	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3116	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3117	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3119	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_3143	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3152	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3156	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3158	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3160	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3167	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3168	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3169	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3172	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3174	X,Y	False		not compared		not compared		not compared	Y below cut-off	type A	Y below cut-off	type A
+CVCL_3178	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3216	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3302	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_3336	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3337	X only	False		not compared		not compared		not compared	Y expressed	type B	Y below cut-off	agree
+CVCL_3407	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_3509	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3517	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3532	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_3540	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_3599	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_3603	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3612	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3613	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3728	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_3768	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3770	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3775	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_3840	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3881	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_3935	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_4381	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_4384	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_4402	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_4640	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_4644	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_4647	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_4648	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_4649	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_4656	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_4717	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_4849	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_4897	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_4900	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_4989	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_4996	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_5003	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5005	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5006	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5007	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5008	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5010	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5015	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5017	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5031	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5034	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5038	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5044	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5048	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5058	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5059	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5063	X only	False		not compared		not compared		not compared	Y expressed	type B	Y below cut-off	agree
+CVCL_5064	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5078	mixed across sources	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_5081	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5083	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5086	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5089	X,Y	False		not compared		not compared		not compared	Y below cut-off	type A	Y below cut-off	type A
+CVCL_5098	mixed across sources	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_5100	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5101	no STR Amelogenin	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_5103	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5111	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5112	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5113	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5127	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_5128	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5136	X only	False		not compared		not compared		not compared	Y below cut-off	agree		not compared
+CVCL_5137	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5160	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5167	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5480	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_5868	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_5870	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_5873	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_5879	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_5880	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_5884	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_5957	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_5986	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_5991	X,Y	False		not compared		not compared		not compared		not compared	Y below cut-off	type A
+CVCL_5993	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_6357	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_6472	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_6473	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_6543	no STR Amelogenin	False		not compared		not compared		not compared		not compared	Y below cut-off	not compared
+CVCL_6735	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_6748	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_6774	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_6805	X only	False		not compared		not compared		not compared	Y expressed	type B	Y expressed	type B
+CVCL_6809	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_6831	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_6895	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_7935	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_7937	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_8001	no STR Amelogenin	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_8067	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_8147	no STR Amelogenin	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_8784	no STR Amelogenin	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_8787	mixed across sources	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_8792	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_8800	X,Y	False		not compared		not compared		not compared	Y expressed	agree		not compared
+CVCL_8822	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_8823	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_8824	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_8878	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_8929	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_8930	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_A341	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_A351	X only	False		not compared		not compared		not compared	Y expressed	type B		not compared
+CVCL_A385	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_A472	X only	False		not compared		not compared		not compared	Y expressed	type B	Y expressed	type B
+CVCL_AT85	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_B079	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_C171	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_C173	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_C184	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_C466	X,Y	True	Y expressed	agree	Y expressed	agree		not compared		not compared		not compared
+CVCL_C757	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_E063	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_H525	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_L079	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_L083	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_L085	X only	False		not compared		not compared		not compared	Y below cut-off	agree	Y below cut-off	agree
+CVCL_L088	X,Y	False		not compared		not compared		not compared	Y expressed	agree	Y expressed	agree
+CVCL_M846	no STR Amelogenin	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_S641	X,Y	False		not compared		not compared		not compared		not compared	Y below cut-off	type A
+CVCL_S740	no STR Amelogenin	False		not compared		not compared		not compared	Y below cut-off	not compared	Y below cut-off	not compared
+CVCL_S976	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_T023	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_U797	no STR Amelogenin	False		not compared		not compared		not compared	Y expressed	not compared	Y expressed	not compared
+CVCL_VU89	no STR Amelogenin	False		not compared		not compared		not compared		not compared	Y expressed	not compared
+CVCL_W798	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_WS59	no STR Amelogenin	False		not compared		not compared		not compared	Y below cut-off	not compared		not compared
+CVCL_WS60	no STR Amelogenin	False		not compared		not compared		not compared	Y expressed	not compared		not compared
+CVCL_X483	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_X484	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_X485	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_X486	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_X487	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_X505	X,Y	False		not compared		not compared		not compared		not compared	Y expressed	agree
+CVCL_X506	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_X508	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
+CVCL_Y019	X only	False		not compared		not compared		not compared		not compared	Y below cut-off	agree
