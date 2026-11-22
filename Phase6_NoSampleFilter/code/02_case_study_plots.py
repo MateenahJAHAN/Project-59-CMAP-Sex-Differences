@@ -1,15 +1,24 @@
-"""Colab cells for the Phase 6 case-study plots.
+"""
+Phase 6 - step 2: the per-case functions used for the single-pair figures.
 
-The batch uses one combined set per tissue. These cells test separate
-female- and male-biased sets with the example-specific ranking.
+IMPORTANT - this uses a DIFFERENT gene-set definition from 01_batch_abcd.py:
 
-Run the cells in the Phase 6 notebook. The retained shell commands and Drive
-mount require Colab and cannot be run with the Python interpreter directly.
+  01_batch_abcd.py   run_gsea   ->  44 sets, one per tissue,
+                                    all sex-biased genes of that tissue together
+  this file          _gsea      ->  88 sets, each tissue split into a
+                                    FEMALE half and a MALE half by effsize sign
+
+So NES and FDR from the batch table and from these plots are NOT comparable.
+They are two different tests on the same data.
+
+Verbatim from Phase6_NoSampleFilter/notebook/phase6_no_sample_filter.ipynb
+(cells 34 and 36).
 """
 
 # ------- CELL A: gctx + reference + core functions -------
 # ============================================================
-# Load the matrix and references, then define the enrichment functions.
+#  CELL A  —  restore: gctx + reference + core functions
+#  download me 15-20 min lagenge
 # ============================================================
 !pip install cmapPy gseapy -q
 
@@ -28,7 +37,7 @@ gctx_file = '/content/cmap/level5_beta_trt_cp_n720216x12328.gctx'
 if os.path.exists(gctx_file):
     print(f"gctx already here: {os.path.getsize(gctx_file)/1e9:.1f} GB")
 else:
-    print("Downloading the CMap level-5 matrix\n")
+    print("downloading 33 GB — tab band mat karna\n")
     !cd /content/cmap && curl -O https://cmapreg.s3.amazonaws.com/galenAI/level5_beta_trt_cp_n720216x12328.gctx
 
 gctx_sigs = set(parse(gctx_file, col_meta_only=True).index)
@@ -51,7 +60,7 @@ for c in cands:
         sbg = pd.read_csv(c, sep='\t' if c.endswith(('.txt','.tsv')) else ',')
         print(f"sbg loaded from : {c}  ({len(sbg):,} rows)"); break
 if sbg is None:
-    raise FileNotFoundError("GTEx input is missing from the analysis data folder")
+    raise FileNotFoundError("sbg nahi mila — data/gtex folder ki listing bhejo")
 
 # ---------- ENS2SYM ----------
 gi = genes_info[['gene_id','gene_symbol']].astype({'gene_id':str}).copy()
@@ -75,7 +84,7 @@ def build_V1(drug, lineage, mode='full', sig_id=None, cell_line=None, quiet=Fals
     elif cell_line is not None: s = s[s['cell_iname'] == cell_line]
     ids = s['sig_id'].tolist()
     if not ids:
-        print("   No matching signatures"); return None, None
+        print("   koi signature nahi mila"); return None, None
     mz = parse(gctx_file, cid=ids).data_df
     mz = mz.iloc[:, 0] if len(ids) == 1 else mz.mean(axis=1)
     n0 = len(mz)
@@ -83,7 +92,7 @@ def build_V1(drug, lineage, mode='full', sig_id=None, cell_line=None, quiet=Fals
         mz = mz[mz.abs() > 2]
         if not quiet: print(f"   |z| > 2 : {n0:,} -> {len(mz):,} genes")
         if len(mz) == 0:
-            print("   No ranked genes passed the cutoff"); return None, None
+            print("   filter ke baad kuch nahi bacha"); return None, None
     cl = sorted(s['cell_iname'].dropna().unique())
     sx = sorted(s['donor_sex'].dropna().unique())
     src = (f"{len(ids)} signature{'s' if len(ids)>1 else ''}  ·  "
@@ -173,7 +182,7 @@ print("\nCELL A ready")
 
 # ------- CELL B: sex_panel + sex_enrichment -------
 # ============================================================
-# Define the plotting functions.
+#  CELL B  —  sex_panel + sex_enrichment
 # ============================================================
 import numpy as np, pandas as pd, gseapy
 import matplotlib.pyplot as plt
@@ -204,7 +213,7 @@ def sex_panel(drug, lineage, tissue, mode='filtered', sig_id=None,
     D['LE']   = D['ens'].isin(le)
 
     S = D[D['sex'] != ''].copy()
-    if len(S) == 0: print("No matching sex-biased reference genes"); return None
+    if len(S) == 0: print("koi sex-biased gene match nahi hua"); return None
     if len(S) > 400: print(f"WARNING: {len(S)} genes — figure bahut lamba hoga")
 
     blocks = [('UP by drug  \u2640  female-biased',
