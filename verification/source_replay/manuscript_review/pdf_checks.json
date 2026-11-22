@@ -1,0 +1,58 @@
+{
+  "manuscript": {
+    "released_pages": 18,
+    "updated_pages": 18,
+    "source_baseline_changes": {
+      "text": [],
+      "raster": [],
+      "size": [],
+      "links": []
+    },
+    "revised_pages_against_baseline": {
+      "text": [
+        5,
+        6
+      ],
+      "raster": [
+        5,
+        6
+      ],
+      "size": [],
+      "links": []
+    },
+    "links_preserved": 77,
+    "out_of_page_words": []
+  },
+  "supplement": {
+    "released_pages": 32,
+    "updated_pages": 32,
+    "source_baseline_changes": {
+      "text": [],
+      "raster": [],
+      "size": [],
+      "links": []
+    },
+    "revised_pages_against_baseline": {
+      "text": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        32
+      ],
+      "raster": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        32
+      ],
+      "size": [],
+      "links": []
+    },
+    "links_preserved": 4,
+    "out_of_page_words": []
+  }
+}

@@ -1043,20 +1043,22 @@ not test whether any model's predictions depend on this field.
 
 The same pattern appears in the other data, as descriptive counts. In
 EmeraldBay, 28 of 50 labelled lines lacked their label's usual pattern
-(24 of 44 among lines called with high or medium confidence). Among
-LINCS2020 lines with external RNA-seq (the LINCS2020 external RNA-seq
-analysis), 61 of 128 labelled lines lacked it: 20 of 58 male-labelled
-lines were Y-lost, 38 of 70 female-labelled lines were XIST-lost, and 3
-were discordant. CMap and Cellosaurus donor labels agreed for all 141
-labelled lines in the broader LINCS2020 annotation set. The expression
-comparison uses the 128 labelled lines with external RNA-seq. the
-LINCS2020 external RNA-seq analysis's rule table calls a male-labelled
+(24 of 44 among lines called with high or medium confidence). CMap and
+Cellosaurus donor labels agreed for all 141 labelled LINCS2020 lines.
+Of these, 129 had external RNA-seq. CCLE and Sanger disagreed for
+HCT116. Among the 128 lines with a resolved state, 61 lacked the usual
+pattern: 20 of 58 male-labelled lines were Y-lost, 38 of 70
+female-labelled lines were XIST-lost, and three lines were discordant.
+The LINCS2020 rule table calls a male-labelled
 line with both markers high XY whatever its XIST; 1 LINCS2020 line,
 \path{U266B1} (male label), had both above the CCLE cut-offs, but not in
-Cell Model Passports. Among the 898 lines that the GDSC2/PRISM external
-RNA-seq analysis could use in its main analysis, 256 of 596
-male-labelled lines were Y-lost and 122 of 302 female-labelled lines
-were XIST-lost.
+Cell Model Passports. Of the 596 male-labelled and 302 female-labelled lines eligible in
+GDSC2/PRISM, 17 and 2, respectively, lacked RNA measurements.
+Both markers were low in 256 male-labelled and 122 female-labelled
+lines. Another 16 male-labelled lines expressed XIST alone, and three
+female-labelled lines expressed Y markers alone. This gives 272 of 579
+measured male-labelled lines with low Y and 125 of 300 measured
+female-labelled lines with low XIST.
 
 EmeraldBay (A2). EmeraldBay (52 lines, 100,253 vehicle cells) gave 17
 XY, 16 Y-lost, 12 XIST-lost, 6 XX-like and 1 ambiguous call (LS 174T,
@@ -1281,7 +1283,7 @@ results}\label{note-s13.-depth-matched-comparison-results}
 Without depth matching, the two-component Poisson estimates for A549
 were 0.39 in EmeraldBay and 0.36, 0.45 and 0.50 in sciPlex2, sciPlex3
 and sciPlex4. SW48's EmeraldBay estimate was 0.42. The same model
-returned an estimate withwithin 0.15 to 0.85 for 18 of 21 Y-low
+returned an estimate between 0.15 and 0.85 for 18 of 21 Y-low
 EmeraldBay lines used as a check, often where the pooled background
 exceeded the line's Y rate. A middle-range estimate alone has limited
 specificity.
@@ -2300,10 +2302,11 @@ P2 & X1b & 9 (21.2); 0; p = 0.4639 & 9 (21.05); 0; p = 0.4091 \\
 \subsection{Note S19. Earlier analyses of overlapping
 data}\label{note-s19.-earlier-analyses-of-overlapping-data}
 
-From May to October, the exploratory fellowship analyses compared CMap
-L1000 consensus signatures by annotated donor sex and lineage. A later
-audit showed that repeated profiling inflated the representation of some
-lines, and the present study supersedes the earlier interpretation. The
+Phase 3 compared profiles by donor sex within lineage. Phases 4 and 5
+pooled drug responses across donor groups, giving repeatedly profiled
+lines more weight. Phase 4 split GTEx gene sets by sex bias. Phase 5
+used mixed sets, so its score describes enrichment in the pooled
+ranking. The
 \href{https://github.com/MateenahJAHAN/Project-59-CMAP-Sex-Differences\#how-the-analysis-developed}{fellowship
 archive} preserves these phases.
 

@@ -1,0 +1,44 @@
+{
+  "input_sha256": {
+    "bulk_RNA/results/C/C_cellline_sex_labels.tsv": "11df4598dcda28597a96e408995365f0f23679f2efb9bbac0e64ae6579414a95",
+    "bulk_RNA/results/C/C_expression_cutoffs.tsv": "c63fc816140cf7142962d29fc910366088f9f6452495f7bfd1ead3b778e0d145",
+    "bulk_RNA/src/C/build_labels.py": "ea5f83ee6eee3ef23f09099fff003a33712b3172d611f529e9a3aa519dc2f3a1"
+  },
+  "input_rows": 1103,
+  "cohort_sha256": "87877514a0f802a3b83e1a691f515aacf0446d2d7fd4043152ffb61a8754f733",
+  "filter": "annotated_sex Male/Female, nonempty lineage, sex_specific_lineage False. Union of GDSC2 and PRISM models in source.",
+  "key": "model_id (one distinct model per eligible row)",
+  "threshold": "Use expressed_state_source to select CMP or CCLE yscore and xist from the same line; high iff >= source-specific cutoff_log2.",
+  "counters": [
+    {
+      "annotated_sex": "Male",
+      "all_eligible": 596,
+      "rna_measured": 579,
+      "no_rna": 17,
+      "y_only": 299,
+      "xist_only": 16,
+      "both_high": 8,
+      "neither_high": 256,
+      "y_low": 272,
+      "xist_low": 555
+    },
+    {
+      "annotated_sex": "Female",
+      "all_eligible": 302,
+      "rna_measured": 300,
+      "no_rna": 2,
+      "y_only": 3,
+      "xist_only": 175,
+      "both_high": 0,
+      "neither_high": 122,
+      "y_low": 297,
+      "xist_low": 125
+    }
+  ],
+  "source_cutoffs": {
+    "CMP.xist": 1.5818101813791798,
+    "CMP.yscore": 1.0058597899929866,
+    "CCLE.xist": 1.979861289542241,
+    "CCLE.yscore": 1.3079849441956883
+  }
+}
