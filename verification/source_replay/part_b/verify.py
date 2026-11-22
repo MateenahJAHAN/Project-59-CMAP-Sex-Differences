@@ -83,3 +83,17 @@ if model_report.is_file():
     assert fig['pdf']['bytes_identical'] and fig['png']['bytes_identical'] and fig['png']['pixels_identical']
     assert hashlib.sha256((root/'fig4_partB_plotted.tsv').read_bytes()).hexdigest()==fig['plotted_table']['frozen']
     print('The registered model, all 110 captures, four published tables and Figure 4 match.')
+
+paper=root/'manuscript_values_check.json'
+if paper.is_file():
+    result=json.loads(paper.read_text())
+    assert (result['entries'],result['used_keys'],result['checks_passed'])==(336,241,156)
+    assert not result['changed_values'] and not result['changed_display']
+    with (root/'manuscript_values.tsv').open() as f:
+        values=list(csv.DictReader(f,delimiter='\t'))
+    assert len({r['key'] for r in values})==336
+    assert all(r['archive_value']==r['rerun_value'] and r['archive_display']==r['rerun_display'] for r in values)
+    with (root/'exploratory_files.tsv').open() as f:
+        comparison=list(csv.DictReader(f,delimiter='\t'))
+    assert len(comparison)==18 and all(r['comparison']=='exact bytes' for r in comparison)
+    print('All 18 exploratory files and all 336 Part B manuscript numerical entries match.')

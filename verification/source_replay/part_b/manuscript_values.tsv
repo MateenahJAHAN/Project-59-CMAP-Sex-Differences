@@ -1,0 +1,337 @@
+key	archive_value	rerun_value	archive_display	rerun_display	value_equal	display_equal
+b2_L4_groups	8	8	8 that express Y genes, 11 that express XIST and 14 that express neither, in 10 lineages, with 20 residual df	8 that express Y genes, 11 that express XIST and 14 that express neither, in 10 lineages, with 20 residual df	True	True
+b2_L4_holm5	0.01999800019998	0.01999800019998	0.0200	0.0200	True	True
+b2_amg_fact	0.00039996000399960006	0.00039996000399960006	rank 1 of 114 by T~c~, p = 0.0004	rank 1 of 114 by T~c~, p = 0.0004	True	True
+b2_arm_N	18	18	18	18	True	True
+b2_arm_X	12	12	12 of 13	12 of 13	True	True
+b2_arm_Y	10	10	10	10	True	True
+b2_atlas_lines	4	4	A549, BT474, HT29 and NCIH1573	A549, BT474, HT29 and NCIH1573	True	True
+b2_cal_B	2000	2000	2,000	2,000	True	True
+b2_cal_P1_A_025	1	1	1	1	True	True
+b2_cal_P1_A_05	1	1	1	1	True	True
+b2_cal_P1_X_025	1	1	1	1	True	True
+b2_cal_P1_X_05	2	2	2	2	True	True
+b2_cal_P1_Y_025	0	0	0	0	True	True
+b2_cal_P1_Y_05	0	0	0	0	True	True
+b2_cal_P1_npseudo	200	200	200	200	True	True
+b2_cal_P1b_A_025	1	1	1	1	True	True
+b2_cal_P1b_A_05	2	2	2	2	True	True
+b2_cal_P1b_X_025	1	1	1	1	True	True
+b2_cal_P1b_X_05	3	3	3	3	True	True
+b2_cal_P1b_Y_025	1	1	1	1	True	True
+b2_cal_P1b_Y_05	2	2	2	2	True	True
+b2_cal_P1b_npseudo	100	100	100	100	True	True
+b2_cal_P2_A_025	3	3	3	3	True	True
+b2_cal_P2_A_05	4	4	4	4	True	True
+b2_cal_P2_X_025	1	1	1	1	True	True
+b2_cal_P2_X_05	3	3	3	3	True	True
+b2_cal_P2_Y_025	3	3	3	3	True	True
+b2_cal_P2_Y_05	5	5	5	5	True	True
+b2_cal_P2_npseudo	100	100	100	100	True	True
+b2_cal_share_A	0.0396329526803735	0.0396329526803735	0.0396	0.0396	True	True
+b2_cal_share_X	0.03995614035087719	0.03995614035087719	0.0400	0.0400	True	True
+b2_cal_share_Y	0.040782487191429906	0.040782487191429906	0.0408	0.0408	True	True
+b2_commit_cap_plan	09b2b7676d074598678bd755f9d71df1b25b7411	09b2b7676d074598678bd755f9d71df1b25b7411	09b2b76	09b2b76	True	True
+b2_commit_cap_run	565c512d834ce732232570f0743dcba1cd20fc78	565c512d834ce732232570f0743dcba1cd20fc78	565c512	565c512	True	True
+b2_commit_report	6de9d1a61c2dcd273a26f5a837634425f572d277	6de9d1a61c2dcd273a26f5a837634425f572d277	6de9d1a	6de9d1a	True	True
+b2_commit_report2	4f0260cbccd067f84639ce2956393c0287406b15	4f0260cbccd067f84639ce2956393c0287406b15	4f0260c	4f0260c	True	True
+b2_cov_l3_X	0.955	0.955	0.955	0.955	True	True
+b2_cov_l3_Y	0.955	0.955	0.955	0.955	True	True
+b2_cov_l3_n_X	200	200	200	200	True	True
+b2_cov_l3_n_Y	200	200	200	200	True	True
+b2_cov_l5	2.5	2.5	2.5% to 4.5%	2.5% to 4.5%	True	True
+b2_cov_nominal	10	10	10%	10%	True	True
+b2_dau_X_ci90	28.412419345176612	28.412419345176612	28.4 to 163.7	28.4 to 163.7	True	True
+b2_dau_X_e2	96.06066637781468	96.06066637781468	96.1	96.1	True	True
+b2_dau_X_p	0.036696330366963306	0.036696330366963306	0.0367	0.0367	True	True
+b2_dau_X_q	0.4183381661833817	0.4183381661833817	0.418	0.418	True	True
+b2_dau_X_rank	8	8	8	8	True	True
+b2_dau_Y_ci90	-2.2472949131151396	-2.2472949131151396	−2.2 to 174.5	−2.2 to 174.5	True	True
+b2_dau_Y_e2	86.1433628874002	86.1433628874002	86.1	86.1	True	True
+b2_dau_Y_p	0.1166883311668833	0.1166883311668833	0.1167	0.1167	True	True
+b2_dau_Y_q	0.9769859377698594	0.9769859377698594	0.977	0.977	True	True
+b2_dau_Y_rank	13	13	13	13	True	True
+b2_df_P1	27	27	27	27	True	True
+b2_dmso_X_nsmaller	8	8	8	8	True	True
+b2_e1hw1_X	19	19	19 of 114	19 of 114	True	True
+b2_e1hw1_Y	30	30	30 of 114	30 of 114	True	True
+b2_e2hw50_X	69	69	69 of 114	69 of 114	True	True
+b2_e2hw50_Y	64	64	64 of 114	64 of 114	True	True
+b2_e2hw_X	54.27354799764608	54.27354799764608	40.1, 54.3 and 77.1	40.1, 54.3 and 77.1	True	True
+b2_e2hw_Y	56.42973359080865	56.42973359080865	41.3, 56.4 and 76.2	41.3, 56.4 and 76.2	True	True
+b2_e3_P1_A_l3	-6.040207069162804	-6.040207069162804	−6.0	−6.0	True	True
+b2_e3_P1_A_l5	11.605497725135995	11.605497725135995	11.6	11.6	True	True
+b2_e3_P1_X_l3	1.6048780911554037	1.6048780911554037	1.6	1.6	True	True
+b2_e3_P1_X_l5	6.267200188909974	6.267200188909974	6.3	6.3	True	True
+b2_e3_P1_Y_l3	-10.977287319962509	-10.977287319962509	−11.0	−11.0	True	True
+b2_e3_P1_Y_l5	7.950506899668623	7.950506899668623	8.0	8.0	True	True
+b2_e3_P1b_A_l3	-16.35707342127331	-16.35707342127331	−16.4	−16.4	True	True
+b2_e3_P1b_A_l5	7.6905785829778885	7.6905785829778885	7.7	7.7	True	True
+b2_e3_P1b_X_l3	1.2539778162401338	1.2539778162401338	1.3	1.3	True	True
+b2_e3_P1b_X_l5	0.44755960696887376	0.44755960696887376	0.4	0.4	True	True
+b2_e3_P1b_Y_l3	-22.407892090034373	-22.407892090034373	−22.4	−22.4	True	True
+b2_e3_P1b_Y_l5	5.152870883390486	5.152870883390486	5.2	5.2	True	True
+b2_e3_P2_A_l3	0.9351300538022861	0.9351300538022861	0.9	0.9	True	True
+b2_e3_P2_A_l5	-11.125282423795252	-11.125282423795252	−11.1	−11.1	True	True
+b2_e3_P2_X_l3	-9.771463369100902	-9.771463369100902	−9.8	−9.8	True	True
+b2_e3_P2_X_l5	4.144524624421783	4.144524624421783	4.1	4.1	True	True
+b2_e3_P2_Y_l3	-23.187495931297388	-23.187495931297388	−23.2	−23.2	True	True
+b2_e3_P2_Y_l5	-1.418362418541484	-1.418362418541484	−1.4	−1.4	True	True
+b2_e3_X_hi95	22.93158221570593	22.93158221570593	22.9	22.9	True	True
+b2_e5_A	-0.00595375667296294	-0.00595375667296294	−0.006	−0.006	True	True
+b2_e5_X	0.039528574161818764	0.039528574161818764	0.040	0.040	True	True
+b2_e5_Y	-0.022191526093330638	-0.022191526093330638	−0.022	−0.022	True	True
+b2_epi_X_ci90	3.346714030717512	3.346714030717512	3.3 to 98.2	3.3 to 98.2	True	True
+b2_epi_X_e2	50.77952987587548	50.77952987587548	50.8	50.8	True	True
+b2_epi_X_p	0.047795220477952205	0.047795220477952205	0.0478	0.0478	True	True
+b2_epi_X_q	0.49471052894710527	0.49471052894710527	0.495	0.495	True	True
+b2_epi_X_rank	2	2	2	2	True	True
+b2_epi_Y_ci90	-3.856548281008555	-3.856548281008555	−3.9 to 78.8	−3.9 to 78.8	True	True
+b2_epi_Y_e2	37.45398231253213	37.45398231253213	37.5	37.5	True	True
+b2_epi_Y_p	0.024997500249975	0.024997500249975	0.0250	0.0250	True	True
+b2_epi_Y_q	0.6839316068393161	0.6839316068393161	0.684	0.684	True	True
+b2_epi_Y_rank	2	2	2	2	True	True
+b2_flag_lowconf	2	2	ES2 and GP2D	ES2 and GP2D	True	True
+b2_foc_X	0.32686731326867313	0.32686731326867313	p = 0.3269 (competitive p = 0.7091)	p = 0.3269 (competitive p = 0.7091)	True	True
+b2_foc_Y	0.30786921307869214	0.30786921307869214	p = 0.3079 (competitive p = 0.3234)	p = 0.3079 (competitive p = 0.3234)	True	True
+b2_h1n_X	41	41	41 (13 vs 28)	41 (13 vs 28)	True	True
+b2_h1n_Y	41	41	41 (10 vs 31)	41 (10 vs 31)	True	True
+b2_h2_elig	48	48	48	48	True	True
+b2_h2_noprism	28	28	28	28	True	True
+b2_h2_old_ranked	44	44	44	44	True	True
+b2_h_freeze_to_run	4.3825	4.3825	4.4	4.4	True	True
+b2_icc	0.389	0.389	0.389	0.389	True	True
+b2_ida_X_ci90	10.432633384921653	10.432633384921653	10.4 to 45.8	10.4 to 45.8	True	True
+b2_ida_X_e2	28.09871126861403	28.09871126861403	28.1	28.1	True	True
+b2_ida_X_p	0.0065993400659934	0.0065993400659934	0.0066	0.0066	True	True
+b2_ida_X_q	0.3761623837616238	0.3761623837616238	0.376	0.376	True	True
+b2_ida_X_rank	3	3	3	3	True	True
+b2_ida_Y_ci90	14.889154427176539	14.889154427176539	14.9 to 55.0	14.9 to 55.0	True	True
+b2_ida_Y_e2	34.928571743294256	34.928571743294256	34.9	34.9	True	True
+b2_ida_Y_p	0.04459554044595541	0.04459554044595541	0.0446	0.0446	True	True
+b2_ida_Y_q	0.8473152684731527	0.8473152684731527	0.847	0.847	True	True
+b2_ida_Y_rank	3	3	3	3	True	True
+b2_ima_X_ci90	-241.4751584143671	-241.4751584143671	−241.5 to 33.1	−241.5 to 33.1	True	True
+b2_ima_X_e2	-104.17034644635888	-104.17034644635888	−104.2	−104.2	True	True
+b2_ima_X_p	0.5274472552744726	0.5274472552744726	0.5274	0.5274	True	True
+b2_ima_X_q	0.7735744944024117	0.7735744944024117	0.774	0.774	True	True
+b2_ima_X_rank	82	82	82	82	True	True
+b2_ima_Y_ci90	-37.54466518143765	-37.54466518143765	−37.5 to 244.5	−37.5 to 244.5	True	True
+b2_ima_Y_e2	103.46068468546649	103.46068468546649	103.5	103.5	True	True
+b2_ima_Y_p	0.22377762223777622	0.22377762223777622	0.2238	0.2238	True	True
+b2_ima_Y_q	0.9769859377698594	0.9769859377698594	0.977	0.977	True	True
+b2_ima_Y_rank	20	20	20	20	True	True
+b2_lab_N	6	6	6 male, 12 female	6 male, 12 female	True	True
+b2_lab_X	13	13	13 female	13 female	True	True
+b2_lab_Y	9	9	9 male, 1 with no label	9 male, 1 with no label	True	True
+b2_lf_n_X	200	200	200	200	True	True
+b2_lf_n_Y	200	200	200	200	True	True
+b2_lf_sd_X	7.727766984118632	7.727766984118632	7.7	7.7	True	True
+b2_lf_sd_Y	8.417421076573198	8.417421076573198	8.4	8.4	True	True
+b2_lf_se_X	9.986201935909362	9.986201935909362	10.0	10.0	True	True
+b2_lf_se_Y	10.854174786739078	10.854174786739078	10.9	10.9	True	True
+b2_lin_direct_X	5	5	5	5	True	True
+b2_lin_direct_Y	5	5	5	5	True	True
+b2_lin_noref	2	2	2	2	True	True
+b2_mcse	0.0015612494995995996	0.0015612494995995996	0.0016	0.0016	True	True
+b2_mde_e1_X	1.5926624095637494	1.5926624095637494	1.6	1.6	True	True
+b2_mde_e1_Y	1.6192984077838073	1.6192984077838073	1.6	1.6	True	True
+b2_mde_e2_X	92.63596610507928	92.63596610507928	93	93	True	True
+b2_mde_e2_Y	96.3161726300626	96.3161726300626	96	96	True	True
+b2_mde_e3_X	30.21499122157099	30.21499122157099	30	30	True	True
+b2_mde_e3_Y	30.900884377360004	30.900884377360004	31	31	True	True
+b2_n_code_choices	27	27	27	27	True	True
+b2_n_leadtests	5	5	5	5	True	True
+b2_n_lin2	4	4	4	4	True	True
+b2_n_sec_h1	6	6	6	6	True	True
+b2_n_sec_read	15	15	15	15	True	True
+b2_n_secondary	26	26	26	26	True	True
+b2_neither_xistlost	12	12	12	12	True	True
+b2_neither_ylost	6	6	6	6	True	True
+b2_pilot_p	0.11	0.11	0.11	0.11	True	True
+b2_plan_d	1.5	1.5	1.5	1.5	True	True
+b2_plan_d2	1.0	1.0	1	1	True	True
+b2_plan_f	5	5	5%	5%	True	True
+b2_plan_f2	20	20	20%	20%	True	True
+b2_plan_n	44	44	44	44	True	True
+b2_plan_pow2_q_Y	0.545	0.545	0.545	0.545	True	True
+b2_plan_pow_mag_X	0.42	0.42	0.42	0.42	True	True
+b2_plan_pow_mag_Y	0.41	0.41	0.41	0.41	True	True
+b2_plan_pow_p_Y	0.875	0.875	0.875	0.875	True	True
+b2_plan_pow_q_X	0.11	0.11	0.11	0.11	True	True
+b2_plan_pow_q_Y	0.11	0.11	0.11	0.11	True	True
+b2_plates_med	1	1	1	1	True	True
+b2_ploidy_N	2.918112136626425	2.918112136626425	2.92 (16 lines)	2.92 (16 lines)	True	True
+b2_ploidy_X	2.8725427074856897	2.8725427074856897	2.87 (10 lines)	2.87 (10 lines)	True	True
+b2_ploidy_Y	2.2763687660195497	2.2763687660195497	2.28 (9 lines)	2.28 (9 lines)	True	True
+b2_ploidy_e5	-0.0004240599597348238	-0.0004240599597348238	−0.0004	−0.0004	True	True
+b2_ploidy_p	0.5044495550444955	0.5044495550444955	0.5044	0.5044	True	True
+b2_power	0.8	0.8	80%	80%	True	True
+b2_r_scales	0.231	0.231	0.231	0.231	True	True
+b2_rand95_X	0.7482765284242683	0.7482765284242683	0.748	0.748	True	True
+b2_relab_X	75600	75600	75,600	75,600	True	True
+b2_relab_Y	22680	22680	22,680	22,680	True	True
+b2_rep_cells	4519	4519	4,519	4,519	True	True
+b2_rep_ge2	344	344	344	344	True	True
+b2_rep_max	3	3	3	3	True	True
+b2_rep_share	0.07612303606992697	0.07612303606992697	7.6%	7.6%	True	True
+b2_rule2_X	5	5	5	5	True	True
+b2_rule2_Y	5	5	5	5	True	True
+b2_rule4_X	86	86	86	86	True	True
+b2_rule4_Y	85	85	85	85	True	True
+b2_se_e3_X	10.393989149325275	10.393989149325275	10.4	10.4	True	True
+b2_se_e3_Y	10.629937125169063	10.629937125169063	10.6	10.6	True	True
+b2_sig_all	9724	9724	9,724	9,724	True	True
+b2_sig_ge2	3739	3739	3,739	3,739	True	True
+b2_t12_P1_A_S	0.7715664999824605	0.7715664999824605	0.772; 0.805	0.772; 0.805	True	True
+b2_t12_P1_A_l3	-6.040207069162804	-6.040207069162804	−6.0 (−27.3 to 15.3; −31.9 to 19.8)	−6.0 (−27.3 to 15.3; −31.9 to 19.8)	True	True
+b2_t12_P1_A_l5	11.605497725135995	11.605497725135995	11.6 (0.6 to 22.6; −1.8 to 25.0)	11.6 (0.6 to 22.6; −1.8 to 25.0)	True	True
+b2_t12_P1_A_n	25	25	25 (17)	25 (17)	True	True
+b2_t12_P1_X_S	0.7644064932582181	0.7644064932582181	0.764; 0.788	0.764; 0.788	True	True
+b2_t12_P1_X_l3	1.6048780911554037	1.6048780911554037	1.6 (−16.1 to 19.3; −19.7 to 22.9)	1.6 (−16.1 to 19.3; −19.7 to 22.9)	True	True
+b2_t12_P1_X_l5	6.267200188909974	6.267200188909974	6.3 (−7.7 to 20.2; −10.5 to 23.1)	6.3 (−7.7 to 20.2; −10.5 to 23.1)	True	True
+b2_t12_P1_X_n	41	41	41 (27)	41 (27)	True	True
+b2_t12_P1_Y_S	0.7644064932582181	0.7644064932582181	0.764; 0.788	0.764; 0.788	True	True
+b2_t12_P1_Y_l3	-10.977287319962509	-10.977287319962509	−11.0 (−29.1 to 7.1; −32.8 to 10.8)	−11.0 (−29.1 to 7.1; −32.8 to 10.8)	True	True
+b2_t12_P1_Y_l5	7.950506899668623	7.950506899668623	8.0 (−3.0 to 18.9; −5.3 to 21.2)	8.0 (−3.0 to 18.9; −5.3 to 21.2)	True	True
+b2_t12_P1_Y_n	41	41	41 (27)	41 (27)	True	True
+b2_t12_P1b_A_S	0.7538216377565347	0.7538216377565347	0.754; 0.804	0.754; 0.804	True	True
+b2_t12_P1b_A_l3	-16.35707342127331	-16.35707342127331	−16.4 (−43.9 to 11.2; −49.8 to 17.1)	−16.4 (−43.9 to 11.2; −49.8 to 17.1)	True	True
+b2_t12_P1b_A_l5	7.6905785829778885	7.6905785829778885	7.7 (−3.0 to 18.4; −5.3 to 20.6)	7.7 (−3.0 to 18.4; −5.3 to 20.6)	True	True
+b2_t12_P1b_A_n	25	25	25 (17)	25 (17)	True	True
+b2_t12_P1b_X_S	0.6969669131860204	0.6969669131860204	0.697; 0.768	0.697; 0.768	True	True
+b2_t12_P1b_X_l3	1.2539778162401338	1.2539778162401338	1.3 (−21.4 to 23.9; −26.0 to 28.5)	1.3 (−21.4 to 23.9; −26.0 to 28.5)	True	True
+b2_t12_P1b_X_l5	0.44755960696887376	0.44755960696887376	0.4 (−14.0 to 14.9; −17.0 to 17.9)	0.4 (−14.0 to 14.9; −17.0 to 17.9)	True	True
+b2_t12_P1b_X_n	41	41	41 (27)	41 (27)	True	True
+b2_t12_P1b_Y_S	0.6969669131860204	0.6969669131860204	0.697; 0.768	0.697; 0.768	True	True
+b2_t12_P1b_Y_l3	-22.407892090034373	-22.407892090034373	−22.4 (−47.8 to 3.0; −53.0 to 8.2)	−22.4 (−47.8 to 3.0; −53.0 to 8.2)	True	True
+b2_t12_P1b_Y_l5	5.152870883390486	5.152870883390486	5.2 (−5.8 to 16.1; −8.1 to 18.4)	5.2 (−5.8 to 16.1; −8.1 to 18.4)	True	True
+b2_t12_P1b_Y_n	41	41	41 (27)	41 (27)	True	True
+b2_t12_P2_A_S	0.7242135120556157	0.7242135120556157	0.724; 0.848	0.724; 0.848	True	True
+b2_t12_P2_A_l3	0.9351300538022861	0.9351300538022861	0.9 (−33.1 to 34.9; −40.0 to 41.9)	0.9 (−33.1 to 34.9; −40.0 to 41.9)	True	True
+b2_t12_P2_A_l5	-11.125282423795252	-11.125282423795252	−11.1 (−23.0 to 0.8; −25.5 to 3.2)	−11.1 (−23.0 to 0.8; −25.5 to 3.2)	True	True
+b2_t12_P2_A_n	31	31	31 (25)	31 (25)	True	True
+b2_t12_P2_X_S	0.7251406792641737	0.7251406792641737	0.725; 0.838	0.725; 0.838	True	True
+b2_t12_P2_X_l3	-9.771463369100902	-9.771463369100902	−9.8 (−38.5 to 19.0; −44.4 to 24.8)	−9.8 (−38.5 to 19.0; −44.4 to 24.8)	True	True
+b2_t12_P2_X_l5	4.144524624421783	4.144524624421783	4.1 (−7.2 to 15.5; −9.5 to 17.8)	4.1 (−7.2 to 15.5; −9.5 to 17.8)	True	True
+b2_t12_P2_X_n	39	39	39 (30)	39 (30)	True	True
+b2_t12_P2_Y_S	0.7251406792641737	0.7251406792641737	0.725; 0.838	0.725; 0.838	True	True
+b2_t12_P2_Y_l3	-23.187495931297388	-23.187495931297388	−23.2 (−50.5 to 4.1; −56.1 to 9.7)	−23.2 (−50.5 to 4.1; −56.1 to 9.7)	True	True
+b2_t12_P2_Y_l5	-1.418362418541484	-1.418362418541484	−1.4 (−13.9 to 11.1; −16.5 to 13.6)	−1.4 (−13.9 to 11.1; −16.5 to 13.6)	True	True
+b2_t12_P2_Y_n	39	39	39 (30)	39 (30)	True	True
+b2_t12_via_A	-4.807783956431483	-4.807783956431483	−4.8 (−30.4 to 20.8; −35.9 to 26.3)	−4.8 (−30.4 to 20.8; −35.9 to 26.3)	True	True
+b2_t12_via_A_n	23	23	23 (14)	23 (14)	True	True
+b2_t12_via_X	2.2218726139417924	2.2218726139417924	2.2 (−19.0 to 23.4; −23.3 to 27.8)	2.2 (−19.0 to 23.4; −23.3 to 27.8)	True	True
+b2_t12_via_X_n	40	40	40 (25)	40 (25)	True	True
+b2_t12_via_Y	-11.463813627822963	-11.463813627822963	−11.5 (−31.3 to 8.3; −35.3 to 12.4)	−11.5 (−31.3 to 8.3; −35.3 to 12.4)	True	True
+b2_t12_via_Y_n	40	40	40 (25)	40 (25)	True	True
+b2_t13_7h_X	0.1840815918408159	0.1840815918408159	66 compounds; p = 0.1841	66 compounds; p = 0.1841	True	True
+b2_t13_7h_Y	0.9015098490150985	0.9015098490150985	66 compounds; p = 0.9015	66 compounds; p = 0.9015	True	True
+b2_t13_S10_X	0.0928907109289071	0.0928907109289071	41 (13 vs 28); p = 0.0929	41 (13 vs 28); p = 0.0929	True	True
+b2_t13_S10_Y	0.773022697730227	0.773022697730227	41 (10 vs 31); p = 0.7730	41 (10 vs 31); p = 0.7730	True	True
+b2_t13_S1C_X	0.20557944205579443	0.20557944205579443	43 (15 vs 28); p = 0.2056	43 (15 vs 28); p = 0.2056	True	True
+b2_t13_S1C_Y	0.6868313168683132	0.6868313168683132	43 (10 vs 33); p = 0.6868	43 (10 vs 33); p = 0.6868	True	True
+b2_t13_S1D44_X	0.1902809719028097	0.1902809719028097	44 (14 vs 30); p = 0.1903	44 (14 vs 30); p = 0.1903	True	True
+b2_t13_S1D44_Y	0.6481351864813518	0.6481351864813518	44 (11 vs 33); p = 0.6481	44 (11 vs 33); p = 0.6481	True	True
+b2_t13_S3_Y	0.8455154484551545	0.8455154484551545	25 (10 vs 15); p = 0.8455	25 (10 vs 15); p = 0.8455	True	True
+b2_t13_S4_X	0.13108689131086892	0.13108689131086892	41 (13 vs 28), 107 compounds; p = 0.1311	41 (13 vs 28), 107 compounds; p = 0.1311	True	True
+b2_t13_S4_Y	0.7659234076592341	0.7659234076592341	41 (10 vs 31), 107 compounds; p = 0.7659	41 (10 vs 31), 107 compounds; p = 0.7659	True	True
+b2_t13_S5_X	0.21637836216378362	0.21637836216378362	35 (12 vs 23); p = 0.2164	35 (12 vs 23); p = 0.2164	True	True
+b2_t13_S5_Y	0.8489151084891511	0.8489151084891511	35 (7 vs 28); p = 0.8489	35 (7 vs 28); p = 0.8489	True	True
+b2_t13_S6_X	0.23417658234176583	0.23417658234176583	35 (10 vs 25); p = 0.2342	35 (10 vs 25); p = 0.2342	True	True
+b2_t13_S6_Y	0.7333266673332667	0.7333266673332667	35 (9 vs 26), 113 compounds; p = 0.7333	35 (9 vs 26), 113 compounds; p = 0.7333	True	True
+b2_t13_S7_X	0.11748825117488251	0.11748825117488251	41 (13 vs 28); p = 0.1175	41 (13 vs 28); p = 0.1175	True	True
+b2_t13_S7_Y	0.6754324567543246	0.6754324567543246	41 (10 vs 31); p = 0.6754	41 (10 vs 31); p = 0.6754	True	True
+b2_t13_S8_X	0.12658734126587343	0.12658734126587343	41 (13 vs 28); p = 0.1266	41 (13 vs 28); p = 0.1266	True	True
+b2_t13_S8_Y	0.2960703929607039	0.2960703929607039	41 (10 vs 31); p = 0.2961	41 (10 vs 31); p = 0.2961	True	True
+b2_t13_S9_X	0.2501749825017498	0.2501749825017498	34 (12 vs 22); p = 0.2502	34 (12 vs 22); p = 0.2502	True	True
+b2_t13_S9_Y	0.96000399960004	0.96000399960004	34 (6 vs 28), 113 compounds; p = 0.9600	34 (6 vs 28), 113 compounds; p = 0.9600	True	True
+b2_t13_act_X	0.12858714128587143	0.12858714128587143	56 compounds; p = 0.1286	56 compounds; p = 0.1286	True	True
+b2_t13_act_Y	0.5205479452054794	0.5205479452054794	56 compounds; p = 0.5205	56 compounds; p = 0.5205	True	True
+b2_t14_P1_X1a_X	0.37616238376162386	0.37616238376162386	6 (9); 0; p = 0.3762	6 (9); 0; p = 0.3762	True	True
+b2_t14_P1_X1a_Y	0.6986301369863014	0.6986301369863014	3 (9.05); 0; p = 0.6986	3 (9.05); 0; p = 0.6986	True	True
+b2_t14_P1_X1b_X	0.008999100089991	0.008999100089991	20 (11); 0; p = 0.0090	20 (11); 0; p = 0.0090	True	True
+b2_t14_P1_X1b_Y	0.7852214778522147	0.7852214778522147	6 (9); 0; p = 0.7852	6 (9); 0; p = 0.7852	True	True
+b2_t14_P1b_X1a_X	0.26677332266773324	0.26677332266773324	8 (10); 2; p = 0.2668	8 (10); 2; p = 0.2668	True	True
+b2_t14_P1b_X1a_Y	0.5775422457754225	0.5775422457754225	4 (9); 0; p = 0.5775	4 (9); 0; p = 0.5775	True	True
+b2_t14_P1b_X1b_X	0.017298270172982702	0.017298270172982702	16 (12.3); 0; p = 0.0173	16 (12.3); 0; p = 0.0173	True	True
+b2_t14_P1b_X1b_Y	0.8268173182681732	0.8268173182681732	7 (11); 0; p = 0.8268	7 (11); 0; p = 0.8268	True	True
+b2_t14_P2_X1a_X	0.7243275672432756	0.7243275672432756	4 (23); 0; p = 0.7243	4 (23); 0; p = 0.7243	True	True
+b2_t14_P2_X1a_Y	0.46555344465553444	0.46555344465553444	12 (24.05); 0; p = 0.4656	12 (24.05); 0; p = 0.4656	True	True
+b2_t14_P2_X1b_X	0.46385361463853614	0.46385361463853614	9 (21.2); 0; p = 0.4639	9 (21.2); 0; p = 0.4639	True	True
+b2_t14_P2_X1b_Y	0.40905909409059094	0.40905909409059094	9 (21.05); 0; p = 0.4091	9 (21.05); 0; p = 0.4091	True	True
+b2_t9_bone_N	1	1	1: U2OS (XIST-lost)	1: U2OS (XIST-lost)	True	True
+b2_t9_bone_X	0	0	none	none	True	True
+b2_t9_bone_Y	1	1	1: SKES1	1: SKES1	True	True
+b2_t9_bone_n	2	2	2	2	True	True
+b2_t9_breast_N	3	3	3: BT474, MDAMB468, T47D (XIST-lost)	3: BT474, MDAMB468, T47D (XIST-lost)	True	True
+b2_t9_breast_X	1	1	1: ZR751	1: ZR751	True	True
+b2_t9_breast_Y	0	0	none	none	True	True
+b2_t9_breast_n	4	4	4	4	True	True
+b2_t9_centralnervoussystem_N	1	1	1: YH13 (Y-lost)	1: YH13 (Y-lost)	True	True
+b2_t9_centralnervoussystem_X	0	0	none	none	True	True
+b2_t9_centralnervoussystem_Y	2	2	2: GI1, U251MG	2: GI1, U251MG	True	True
+b2_t9_centralnervoussystem_n	3	3	3	3	True	True
+b2_t9_largeintestine_N	0	0	none	none	True	True
+b2_t9_largeintestine_X	2	2	2: GP2D, HT29	2: GP2D, HT29	True	True
+b2_t9_largeintestine_Y	1	1	1: SNU407	1: SNU407	True	True
+b2_t9_largeintestine_n	3	3	3	3	True	True
+b2_t9_lung_N	5	5	5: HCC95, NCIH1437, NCIH838 (Y-lost); NCIH1573, NCIH2172 (XIST-lost)	5: HCC95, NCIH1437, NCIH838 (Y-lost); NCIH1573, NCIH2172 (XIST-lost)	True	True
+b2_t9_lung_X	0	0	none	none	True	True
+b2_t9_lung_Y	2	2	2: A549, NCIH841	2: A549, NCIH841	True	True
+b2_t9_lung_n	7	7	7	7	True	True
+b2_t9_ovary_N	3	3	3: OAW28, OVTOKO, TOV112D (XIST-lost)	3: OAW28, OVTOKO, TOV112D (XIST-lost)	True	True
+b2_t9_ovary_X	4	4	4: COV434, ES2, OC316, OVK18	4: COV434, ES2, OC316, OVK18	True	True
+b2_t9_ovary_Y	0	0	none	none	True	True
+b2_t9_ovary_n	7	7	7	7	True	True
+b2_t9_prostate_N	1	1	1: PC3 (Y-lost)	1: PC3 (Y-lost)	True	True
+b2_t9_prostate_X	0	0	none	none	True	True
+b2_t9_prostate_Y	1	1	1: 22RV1	1: 22RV1	True	True
+b2_t9_prostate_n	2	2	2	2	True	True
+b2_t9_skin_N	2	2	2: SH4, SKMEL3 (XIST-lost)	2: SH4, SKMEL3 (XIST-lost)	True	True
+b2_t9_skin_X	2	2	2: A375, MELHO	2: A375, MELHO	True	True
+b2_t9_skin_Y	2	2	2: CJM, IGR37	2: CJM, IGR37	True	True
+b2_t9_skin_n	6	6	6	6	True	True
+b2_t9_softtissue_N	0	0	none	none	True	True
+b2_t9_softtissue_X	1	1	1: A204	1: A204	True	True
+b2_t9_softtissue_Y	1	1	1: G401	1: G401	True	True
+b2_t9_softtissue_n	2	2	2	2	True	True
+b2_t9_stomach_N	1	1	1: IM95 (Y-lost)	1: IM95 (Y-lost)	True	True
+b2_t9_stomach_X	2	2	2: AGS, MKN45	2: AGS, MKN45	True	True
+b2_t9_stomach_Y	0	0	none	none	True	True
+b2_t9_stomach_n	3	3	3	3	True	True
+b2_t9_urinarytract_N	1	1	1: BC3C (XIST-lost)	1: BC3C (XIST-lost)	True	True
+b2_t9_urinarytract_X	1	1	1: CAL29	1: CAL29	True	True
+b2_t9_urinarytract_Y	0	0	none	none	True	True
+b2_t9_urinarytract_n	2	2	2	2	True	True
+b2_t_cap_plan	2026-11-15T20:08:01-05:00	2026-11-15T20:08:01-05:00	20:08 EST	20:08 EST	True	True
+b2_t_cap_run	2026-11-15T20:21:08-05:00	2026-11-15T20:21:08-05:00	20:21 EST	20:21 EST	True	True
+b2_t_join	2026-11-16T00:47:48+00:00	2026-11-16T00:47:48+00:00	19:47 EST	19:47 EST	True	True
+b2_t_report	2026-11-15T20:05:12-05:00	2026-11-15T20:05:12-05:00	20:05 EST	20:05 EST	True	True
+b2_t_report2	2026-11-15T20:30:57-05:00	2026-11-15T20:30:57-05:00	20:30 EST	20:30 EST	True	True
+b2_t_run_start	2026-11-16T00:41:05+00:00	2026-11-16T00:41:05+00:00	19:41 EST	19:41 EST	True	True
+b2_tf_X	0.24187581241875813	0.24187581241875813	p = 0.2419, with 0 compounds at q < 0.1	p = 0.2419, with 0 compounds at q < 0.1	True	True
+b2_tf_Y	0.7046295370462954	0.7046295370462954	p = 0.7046, with 0 compounds at q < 0.1	p = 0.7046, with 0 compounds at q < 0.1	True	True
+b2_tp53_N	14	14	14 mutant, 4 wild type	14 mutant, 4 wild type	True	True
+b2_tp53_X	6	6	6 mutant, 7 wild type	6 mutant, 7 wild type	True	True
+b2_tp53_Y	8	8	8 mutant, 2 wild type	8 mutant, 2 wild type	True	True
+b2_tp53_ccle	6	6	6	6	True	True
+b2_tp53_e5	0.03162976970320919	0.03162976970320919	0.032	0.032	True	True
+b2_tp53_n	32	32	32 lines (21 mutant, 11 wild type) in 7 lineages	32 lines (21 mutant, 11 wild type) in 7 lineages	True	True
+b2_tp53_n05	11	11	11	11	True	True
+b2_tp53_nl	32	32	32	32	True	True
+b2_tp53_nq	6	6	6	6	True	True
+b2_tp53_p	0.14238576142385762	0.14238576142385762	0.1424	0.1424	True	True
+b2_tp53_stat	0.8112693853968452	0.8112693853968452	0.811	0.811	True	True
+b2_via_X	-0.2914005377612151	-0.2914005377612151	Spearman −0.291 over 86 compounds (relabelling 95% range −0.409 to 0.042; p = 0.191)	Spearman −0.291 over 86 compounds (relabelling 95% range −0.409 to 0.042; p = 0.191)	True	True
+b2_via_Y	-0.04999292419453748	-0.04999292419453748	Spearman −0.050 over 86 compounds (relabelling 95% range −0.306 to 0.092; p = 0.831)	Spearman −0.050 over 86 compounds (relabelling 95% range −0.306 to 0.092; p = 0.831)	True	True
+b2_via_mean_X	-0.18892717581017973	-0.18892717581017973	−0.19	−0.19	True	True
+b2_via_mean_Y	-0.1254494457285721	-0.1254494457285721	−0.13	−0.13	True	True
+b2_x1_11list	11	11	axitinib, 0.0035 and 0.0033; idarubicin, 0.0285 and 0.0058; marbofloxacin, 0.0903 and 0.0059; lapatinib, 0.0936 and 0.0071; CV-1808, 0.2603 and 0.0073; CGS-15943, 0.1775 and 0.0118; AZ-628, 0.0374 and 0.0199; barasertib-HQPA, 0.0245 and 0.0042; raloxifene, 0.2145 and 0.0073; daunorubicin, 0.0440 and 0.0368; epirubicin, 0.0657 and 0.0476	axitinib, 0.0035 and 0.0033; idarubicin, 0.0285 and 0.0058; marbofloxacin, 0.0903 and 0.0059; lapatinib, 0.0936 and 0.0071; CV-1808, 0.2603 and 0.0073; CGS-15943, 0.1775 and 0.0118; AZ-628, 0.0374 and 0.0199; barasertib-HQPA, 0.0245 and 0.0042; raloxifene, 0.2145 and 0.0073; daunorubicin, 0.0440 and 0.0368; epirubicin, 0.0657 and 0.0476	True	True
+b2_x1a_remain	5	5	5	5	True	True
+b2_x1a_remain_list	5	5	axitinib (p = 0.0035), barasertib-HQPA (p = 0.0245), idarubicin (p = 0.0285), AZ-628 (p = 0.0374), daunorubicin (p = 0.0440)	axitinib (p = 0.0035), barasertib-HQPA (p = 0.0245), idarubicin (p = 0.0285), AZ-628 (p = 0.0374), daunorubicin (p = 0.0440)	True	True
+b2_x1b_remain	11	11	11	11	True	True
+b2_x1q_count	8	8	8	8	True	True
+b2_x1q_pona	0.07489251074892511	0.07489251074892511	p = 0.0014, q = 0.075, rank 3, E2 152.5% with 90% CI 26.9 to 278.1	p = 0.0014, q = 0.075, rank 3, E2 152.5% with 90% CI 26.9 to 278.1	True	True
+b2_x1q_tram	0.07489251074892511	0.07489251074892511	p = 0.0014, q = 0.075, rank 1, E2 63.3% with 90% CI 15.4 to 111.1	p = 0.0014, q = 0.075, rank 1, E2 63.3% with 90% CI 15.4 to 111.1	True	True
+b2_ymn	22	22	22 lines, 4 of which express Y genes, with 11 residual df	22 lines, 4 of which express Y genes, with 11 residual df	True	True
