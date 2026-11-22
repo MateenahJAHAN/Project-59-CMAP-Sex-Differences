@@ -1,6 +1,6 @@
 # Replaying the 50-compound CMap–GTEx screens
 
-Phase 2: 50/50 · Phase 3: 32/50 · Phase 4: 37/50 · Phase 5: 50/50. [Completion status](handoff_status.json) lists which full-cohort comparisons have finished. Each compressed CSV in [outputs](outputs/) contains the complete set of results for one compound. A partial collection can be resumed with the commands below.
+Phase 2: 50/50 · Phase 3: 36/50 · Phase 4: 39/50 · Phase 5: 50/50. [Completion status](handoff_status.json) lists which full-cohort comparisons have finished. Each compressed CSV in [outputs](outputs/) contains the complete set of results for one compound. A partial collection can be resumed with the commands below.
 
 Phase 2 reproduced all 50 published compound labels and counts. AS-605240 liver was significant with adjustment across the 20 tissues with overlap (q = 0.02471) and fell above threshold after adjustment over all 44 eligible tissues (q = 0.05437). Zero of 50 compounds had a hit under the latter rule. [All tissue tests](comparison/phase2_all_tissue_tests.csv)
 
