@@ -1,0 +1,253 @@
+{
+  "all_scientific_fields_identical": true,
+  "arrays": {
+    "E2": {
+      "changed": 0,
+      "elements": 5750000,
+      "maximum_finite_delta": 0.0,
+      "shape": [
+        1000,
+        2,
+        5,
+        115,
+        5
+      ]
+    },
+    "compounds": {
+      "changed": 0,
+      "elements": 115,
+      "maximum_finite_delta": null,
+      "shape": [
+        115
+      ]
+    },
+    "norm3": {
+      "changed": 0,
+      "elements": 115,
+      "maximum_finite_delta": 0.0,
+      "shape": [
+        115
+      ]
+    },
+    "norm5": {
+      "changed": 0,
+      "elements": 115,
+      "maximum_finite_delta": 0.0,
+      "shape": [
+        115
+      ]
+    },
+    "scenarios": {
+      "changed": 0,
+      "elements": 5,
+      "maximum_finite_delta": null,
+      "shape": [
+        5
+      ]
+    },
+    "strong3": {
+      "changed": 0,
+      "elements": 29,
+      "maximum_finite_delta": 0.0,
+      "shape": [
+        29
+      ]
+    },
+    "strong5": {
+      "changed": 0,
+      "elements": 29,
+      "maximum_finite_delta": 0.0,
+      "shape": [
+        29
+      ]
+    },
+    "terms": {
+      "changed": 0,
+      "elements": 2,
+      "maximum_finite_delta": null,
+      "shape": [
+        2
+      ]
+    },
+    "values": {
+      "changed": 0,
+      "elements": 5,
+      "maximum_finite_delta": null,
+      "shape": [
+        5
+      ]
+    },
+    "weak3": {
+      "changed": 0,
+      "elements": 29,
+      "maximum_finite_delta": 0.0,
+      "shape": [
+        29
+      ]
+    },
+    "weak5": {
+      "changed": 0,
+      "elements": 29,
+      "maximum_finite_delta": 0.0,
+      "shape": [
+        29
+      ]
+    }
+  },
+  "tables": {
+    "attenuation_e3.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 11,
+      "rows": 12,
+      "scientific_columns": 14
+    },
+    "coverage_e2.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 16,
+      "rows": 30,
+      "scientific_columns": 21
+    },
+    "coverage_e3.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 20,
+      "rows": 60,
+      "scientific_columns": 26
+    },
+    "detectable_effects.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 7,
+      "rows": 12,
+      "scientific_columns": 14
+    },
+    "e3_all_panels_scales.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 11,
+      "rows": 21,
+      "scientific_columns": 23
+    },
+    "e3_power_interpolated.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 6,
+      "rows": 4,
+      "scientific_columns": 10
+    },
+    "e3_weak_templates.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 10,
+      "rows": 18,
+      "scientific_columns": 16
+    },
+    "figS3_power_values.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 8,
+      "rows": 66,
+      "scientific_columns": 14
+    },
+    "harness_check5_power.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 1,
+      "rows": 1,
+      "scientific_columns": 5
+    },
+    "harness_checks.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 1,
+      "rows": 48,
+      "scientific_columns": 5
+    },
+    "harness_inputs_sha256.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 0,
+      "rows": 14,
+      "scientific_columns": 6
+    },
+    "misclass_e3.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 18,
+      "rows": 38,
+      "scientific_columns": 24
+    },
+    "misclass_flags.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 1,
+      "rows": 3,
+      "scientific_columns": 6
+    },
+    "power_planted.tsv.gz": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 14,
+      "rows": 120000,
+      "scientific_columns": 18
+    },
+    "power_runs.tsv.gz": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 73,
+      "rows": 26000,
+      "scientific_columns": 77
+    },
+    "power_summary.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 15,
+      "rows": 206,
+      "scientific_columns": 18
+    },
+    "size_diagnostic.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 16,
+      "rows": 6,
+      "scientific_columns": 21
+    },
+    "size_diagnostic_rows.tsv.gz": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 8,
+      "rows": 800,
+      "scientific_columns": 10
+    },
+    "size_null_scenario.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 21,
+      "rows": 2,
+      "scientific_columns": 24
+    },
+    "size_panel_test.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 18,
+      "rows": 9,
+      "scientific_columns": 24
+    },
+    "tp53_compounds_q_lt_01.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 5,
+      "rows": 6,
+      "scientific_columns": 6
+    },
+    "tp53_yardstick.tsv": {
+      "changed_fields": {},
+      "changed_rows": 0,
+      "numeric_columns": 18,
+      "rows": 11,
+      "scientific_columns": 24
+    }
+  }
+}

@@ -1,0 +1,67 @@
+term	panel	scenario	series	planned_assignments	usable_assignments	interval	eligible_drugs_min	eligible_drugs_max	analysis
+factY	A	N0	E3 on level 3: 95% CI excludes 0	1000	1000	Wilson	112	114	null diagnostic
+factY	A	N0	E3 on level 5: 95% CI excludes 0	1000	1000	Wilson	112	114	null diagnostic
+factY	A	N0	panel-level test: p < 0.025	1000	1000	Wilson	112	114	null diagnostic
+factY	A	M10	E3 on level 3: 95% CI excludes 0	1000	1000	Wilson	112	114	conditional detection
+factY	A	M10	E3 on level 5: 95% CI excludes 0	1000	1000	Wilson	112	114	conditional detection
+factY	A	M10	panel-level test: p < 0.025	1000	1000	Wilson	112	114	conditional detection
+factY	A	M20	E3 on level 3: 95% CI excludes 0	1000	1000	Wilson	112	114	conditional detection
+factY	A	M20	E3 on level 5: 95% CI excludes 0	1000	1000	Wilson	112	114	conditional detection
+factY	A	M20	panel-level test: p < 0.025	1000	1000	Wilson	112	114	conditional detection
+factY	A	M30	E3 on level 3: 95% CI excludes 0	1000	1000	Wilson	112	114	conditional detection
+factY	A	M30	E3 on level 5: 95% CI excludes 0	1000	1000	Wilson	112	114	conditional detection
+factY	A	M30	panel-level test: p < 0.025	1000	1000	Wilson	112	114	conditional detection
+factY	A	M50	E3 on level 3: 95% CI excludes 0	1000	1000	Wilson	112	114	conditional detection
+factY	A	M50	E3 on level 5: 95% CI excludes 0	1000	1000	Wilson	112	114	conditional detection
+factY	A	M50	panel-level test: p < 0.025	1000	1000	Wilson	112	114	conditional detection
+factY	B	C1	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	112	114	conditional detection
+factY	B	C1	panel-level test: p < 0.025	1000	1000	Wilson	112	114	conditional detection
+factY	B	C1	at least one planted compound at q < 0.1	1000	1000	Wilson	112	114	conditional detection
+factY	B	C6	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	112	114	conditional detection
+factY	B	C6	panel-level test: p < 0.025	1000	1000	Wilson	112	114	conditional detection
+factY	B	C6	at least one planted compound at q < 0.1	1000	1000	Wilson	112	114	conditional detection
+factY	B	C23	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	112	114	conditional detection
+factY	B	C23	panel-level test: p < 0.025	1000	1000	Wilson	112	114	conditional detection
+factY	B	C23	at least one planted compound at q < 0.1	1000	1000	Wilson	112	114	conditional detection
+factY	C	G1	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	112	114	conditional detection
+factY	C	G1	panel-level test: p < 0.025	1000	1000	Wilson	112	114	conditional detection
+factY	C	G1	at least one planted compound at q < 0.1	1000	1000	Wilson	112	114	conditional detection
+factY	C	G6	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	112	114	conditional detection
+factY	C	G6	panel-level test: p < 0.025	1000	1000	Wilson	112	114	conditional detection
+factY	C	G6	at least one planted compound at q < 0.1	1000	1000	Wilson	112	114	conditional detection
+factY	C	G23	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	112	114	conditional detection
+factY	C	G23	panel-level test: p < 0.025	1000	1000	Wilson	112	114	conditional detection
+factY	C	G23	at least one planted compound at q < 0.1	1000	1000	Wilson	112	114	conditional detection
+factX	A	N0	E3 on level 3: 95% CI excludes 0	1000	1000	Wilson	114	114	null diagnostic
+factX	A	N0	E3 on level 5: 95% CI excludes 0	1000	1000	Wilson	114	114	null diagnostic
+factX	A	N0	panel-level test: p < 0.025	1000	1000	Wilson	114	114	null diagnostic
+factX	A	M10	E3 on level 3: 95% CI excludes 0	1000	1000	Wilson	114	114	conditional detection
+factX	A	M10	E3 on level 5: 95% CI excludes 0	1000	1000	Wilson	114	114	conditional detection
+factX	A	M10	panel-level test: p < 0.025	1000	1000	Wilson	114	114	conditional detection
+factX	A	M20	E3 on level 3: 95% CI excludes 0	1000	1000	Wilson	114	114	conditional detection
+factX	A	M20	E3 on level 5: 95% CI excludes 0	1000	1000	Wilson	114	114	conditional detection
+factX	A	M20	panel-level test: p < 0.025	1000	1000	Wilson	114	114	conditional detection
+factX	A	M30	E3 on level 3: 95% CI excludes 0	1000	1000	Wilson	114	114	conditional detection
+factX	A	M30	E3 on level 5: 95% CI excludes 0	1000	1000	Wilson	114	114	conditional detection
+factX	A	M30	panel-level test: p < 0.025	1000	1000	Wilson	114	114	conditional detection
+factX	A	M50	E3 on level 3: 95% CI excludes 0	1000	1000	Wilson	114	114	conditional detection
+factX	A	M50	E3 on level 5: 95% CI excludes 0	1000	1000	Wilson	114	114	conditional detection
+factX	A	M50	panel-level test: p < 0.025	1000	1000	Wilson	114	114	conditional detection
+factX	B	C1	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	114	114	conditional detection
+factX	B	C1	panel-level test: p < 0.025	1000	1000	Wilson	114	114	conditional detection
+factX	B	C1	at least one planted compound at q < 0.1	1000	1000	Wilson	114	114	conditional detection
+factX	B	C6	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	114	114	conditional detection
+factX	B	C6	panel-level test: p < 0.025	1000	1000	Wilson	114	114	conditional detection
+factX	B	C6	at least one planted compound at q < 0.1	1000	1000	Wilson	114	114	conditional detection
+factX	B	C23	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	114	114	conditional detection
+factX	B	C23	panel-level test: p < 0.025	1000	1000	Wilson	114	114	conditional detection
+factX	B	C23	at least one planted compound at q < 0.1	1000	1000	Wilson	114	114	conditional detection
+factX	C	G1	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	114	114	conditional detection
+factX	C	G1	panel-level test: p < 0.025	1000	1000	Wilson	114	114	conditional detection
+factX	C	G1	at least one planted compound at q < 0.1	1000	1000	Wilson	114	114	conditional detection
+factX	C	G6	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	114	114	conditional detection
+factX	C	G6	panel-level test: p < 0.025	1000	1000	Wilson	114	114	conditional detection
+factX	C	G6	at least one planted compound at q < 0.1	1000	1000	Wilson	114	114	conditional detection
+factX	C	G23	planted compounds at q < 0.1 (share of planted)	1000	1000	replicate-share normal	114	114	conditional detection
+factX	C	G23	panel-level test: p < 0.025	1000	1000	Wilson	114	114	conditional detection
+factX	C	G23	at least one planted compound at q < 0.1	1000	1000	Wilson	114	114	conditional detection

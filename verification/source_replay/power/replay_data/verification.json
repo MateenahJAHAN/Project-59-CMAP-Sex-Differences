@@ -1,0 +1,100 @@
+{
+  "figure_points": 66,
+  "planned_curves": 18,
+  "points_with_all_assignments": 66,
+  "null_panel_diagnostics": [
+    {
+      "term": "factY",
+      "usable_assignments": 1000,
+      "rejections": 3
+    },
+    {
+      "term": "factX",
+      "usable_assignments": 1000,
+      "rejections": 5
+    }
+  ],
+  "maximum_absolute_coordinate_difference": 7.105427357601002e-15,
+  "scenario_assignment_rows": 22000,
+  "single_plant_rows": 4000,
+  "single_plant_counts": [
+    {
+      "term": "factX",
+      "scenario": "C1",
+      "cases": 1000,
+      "hits": 14,
+      "hits_zero_exceedances": 14,
+      "hits_positive_exceedances": 0
+    },
+    {
+      "term": "factX",
+      "scenario": "G1",
+      "cases": 1000,
+      "hits": 2,
+      "hits_zero_exceedances": 1,
+      "hits_positive_exceedances": 1
+    },
+    {
+      "term": "factY",
+      "scenario": "C1",
+      "cases": 1000,
+      "hits": 16,
+      "hits_zero_exceedances": 13,
+      "hits_positive_exceedances": 3
+    },
+    {
+      "term": "factY",
+      "scenario": "G1",
+      "cases": 1000,
+      "hits": 2,
+      "hits_zero_exceedances": 2,
+      "hits_positive_exceedances": 0
+    }
+  ],
+  "positive_exceedance_q_hits": [
+    {
+      "term": "factX",
+      "scenario": "G1",
+      "rep": 444,
+      "compound": "daunorubicin",
+      "permutation_exceedances": 2,
+      "p": 0.0014992503748125937,
+      "q": 0.08545727136431784,
+      "tested_drugs": 114,
+      "other_compounds_q_below_0p1": 1
+    },
+    {
+      "term": "factY",
+      "scenario": "C1",
+      "rep": 78,
+      "compound": "nutlin-3",
+      "permutation_exceedances": 4,
+      "p": 0.0024987506246876563,
+      "q": 0.09495252373813094,
+      "tested_drugs": 114,
+      "other_compounds_q_below_0p1": 2
+    },
+    {
+      "term": "factY",
+      "scenario": "C1",
+      "rep": 211,
+      "compound": "BRD-K63750851",
+      "permutation_exceedances": 3,
+      "p": 0.001999000499750125,
+      "q": 0.07596201899050474,
+      "tested_drugs": 114,
+      "other_compounds_q_below_0p1": 2
+    },
+    {
+      "term": "factY",
+      "scenario": "C1",
+      "rep": 723,
+      "compound": "NVP-AUY922",
+      "permutation_exceedances": 4,
+      "p": 0.0024987506246876563,
+      "q": 0.09411960686323506,
+      "tested_drugs": 113,
+      "other_compounds_q_below_0p1": 2
+    }
+  ]
+}

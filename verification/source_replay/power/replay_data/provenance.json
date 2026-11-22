@@ -1,0 +1,8 @@
+{
+  "mode": "fresh complete simulation",
+  "complete_fresh_assignment_receipt": true,
+  "matched_checkpoints": 1000,
+  "fresh_receipt_sha256": "8bce65f0766ed65bfd0fd6c0f858e205041b4f3b97749685c2cf6861b9c11494",
+  "checkpoint_manifest_sha256": "2bd95e4284a4140b2fc5ca98423d8ce7ccafffefa33283391fd65a4c46f6daa8",
+  "reference_coordinate_sha256": "43d078502ab3dbf18ab916f8adfd42d3adf4512521f25e60ff319a15ece1097f"
+}

@@ -20,10 +20,10 @@ The reference is the [released manuscript and supplement](../../manuscript/). Re
 
 Both Tahoe callers reproduced all 50 state and confidence calls. The registered Part B model reproduced all four published numerical tables and all 110 captured files. All 18 exploratory vehicle and dose analysis files reproduced byte for byte. All 241 values tracked in the Part B manuscript and supplement reproduced at the printed precision. [Dose and vehicle results](part_b/) · [Manuscript values](part_b/manuscript_values_check.json)
 
-The 1,000-assignment power simulation reproduced all 66 Figure S3 points and interval endpoints. Four single-compound detections contradict the supplement’s previous claim that none of the permutations could reach the observed statistic. The revised Note S17 reports this correction. [Simulation and individual cases](power/)
+The 1,000-assignment power simulation reproduced all 66 Figure S3 points and interval endpoints. All 800 results from a separate 200-assignment calibration check also matched. Four single-compound detections contradict the supplement’s previous claim that none of the permutations could reach the observed statistic. The revised Note S17 reports this correction. [Simulation and individual cases](power/)
 
 The revised [manuscript](../../manuscript/manuscript.pdf) and [supplement](../../manuscript/supplement.pdf) distinguish single-marker counts from joint-marker states. Among measured GDSC2/PRISM lines, 272 of 579 male-labelled lines showed low Y and 125 of 300 female-labelled lines showed low XIST. The earlier numerators, 256 and 122, counted lines with both markers low. Note S10 gives the missing-data counts and explains the exclusion of HCT116 from the separate LINCS comparison. [Counts and denominators](bulk_RNA/marker_counts.tsv) · [Input checks](bulk_RNA/marker_count_sources.json) · [PDF verification](manuscript_review/pdf_checks.json)
 
 [Per-compound rerun files and restart instructions](phases2_5/) · [Part B rebuild and completed controls](part_b/)
 
-[Post hoc power study, recount and restart commands](power/)
+[Post hoc power study](power/) · [Recalculate Figure S3 from the released assignment records](power/replay_data/)
