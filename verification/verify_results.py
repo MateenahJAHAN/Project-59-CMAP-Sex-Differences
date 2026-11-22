@@ -9,6 +9,8 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 import sys
 
+from verify_phases import verify_fellowship_phases
+
 
 HERE = Path(__file__).resolve().parent
 RESULTS = HERE / "results"
@@ -212,6 +214,7 @@ def main():
         verify_part_a()
         verify_part_b()
         verify_phase6()
+        verify_fellowship_phases()
     except (OSError, ValueError, KeyError, InvalidOperation, StopIteration) as error:
         print(f"Verification failed: {error}", file=sys.stderr)
         return 1

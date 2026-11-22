@@ -17,6 +17,8 @@ The Part B analysis plan was fixed internally before the expression calls were j
 
 The Phase 6 replay used GSEApy 1.3.2. It returned 718 B and 5,375 C comparisons, compared with 717 B and 5,376 C in the recorded archive. The A and D counts match. These labels describe pooled comparisons with tissue gene sets. They do not estimate drug-response differences between donor-sex groups. [Recorded Phase 6 analysis](../Phase6_NoSampleFilter/README.md)
 
+To typeset the [manuscript](../manuscript/manuscript.tex) and [supplement](../manuscript/supplement.tex), run `tectonic manuscript.tex` and `tectonic supplement.tex` from the `manuscript/` directory.
+
 ## Run the checks
 
 From the repository root, run this with Python 3.
@@ -25,6 +27,6 @@ From the repository root, run this with Python 3.
 python3 verification/verify_results.py
 ```
 
-The verifier checks file hashes, Part A counts, Part B range and denominator checks, the reported Benjamini–Hochberg correction, and Phase 6 totals from the compressed label table. It runs offline using the standard library.
+The verifier runs offline using the Python standard library. It checks file hashes, Part A counts, Part B ranges and denominators, the reported Benjamini–Hochberg correction and all 39,996 Phase 6 replay labels. For the historical phases it recalculates the adjusted values for 12,328 pilot genes, checks the Phase 2–5 classifications, reconciles the Phase 6–7 signature counts and reproduces the FAERS rank tests from the 18 [per-drug records](../Phase8_SideEffects_FAERS/per_drug_events.csv). These checks start from the exported tables.
 
 A full analysis replay needs the study inputs and workflow. For Part A, start from the Tahoe-100M and EmeraldBay vehicle cells and the external RNA-seq comparison described in the manuscript. For Part B, use the LINCS2020 response panel and join the measured-state assignments before reproducing the within-lineage permutation test and response-size analysis. The archived [Phase 6 notebook](../Phase6_NoSampleFilter/notebook/phase6_no_sample_filter.ipynb) and [input notes](../Phase6_NoSampleFilter/sources/README.md) document the earlier replay’s matrix, metadata, gene sets and GSEA settings. These files support checks of the released tables. Full analysis requires the source input data and pipeline.

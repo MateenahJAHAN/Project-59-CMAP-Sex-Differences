@@ -15,4 +15,4 @@ Eleven drug–lineage pairs contributed Category A signatures. Bortezomib in blo
 
 The [archived Colab notebook](notebook/phase7_sex_balance_audit.ipynb) reads the original Phase 6 signature and pair outputs. The result tables above are available directly. A line-weighted reanalysis would require rebuilding the rankings with each cell line as the unit.
 
-[Phase 6 screen](../Phase6_NoSampleFilter/README.md) · [Project and manuscript](../README.md#current-status)
+[Phase 6 screen](../Phase6_NoSampleFilter/README.md) · [Next: FAERS adverse-event reporting](../Phase8_SideEffects_FAERS/README.md) · [Project and manuscript](../README.md#current-status)

@@ -1,0 +1,9 @@
+# Phase 8 · Adverse-event reporting
+
+Did drugs with a Phase 6 enrichment have more adverse-event terms reported disproportionately in women or men? The fellowship queried the FDA Adverse Event Reporting System (FAERS) for the 50 compounds in the CMap screen. Twenty-three had at least 100 reports with recorded female or male sex. The primary comparison required at least 500 reports per sex, omitted three drugs used in sex-specific cancers, and excluded sex-related and non-reaction terms. Eighteen drugs remained.
+
+For each drug, the notebook counted the reaction terms it could test and the fraction whose reporting odds differed by sex at a Benjamini–Hochberg adjusted *p* below 0.05. Each tested drug–term pair occurred in at least ten reports. Across 11,049 drug–term tests, the median fraction flagged was 11.3% in the seven drugs with a Phase 6 enrichment and 14.9% in the eleven without one (two-sided Mann–Whitney *U* = 27, *p* = 0.3283). Report volume correlated with that fraction (Spearman *ρ* = 0.853). Some compounds in the comparison group had no testable Phase 6 signatures. Neither a reporting rate nor a Phase 6 category establishes how often an adverse reaction occurs among patients taking a drug.
+
+The [per-drug counts](per_drug_events.csv) reproduce the printed primary comparison in the archived October 19, 2026 notebook, cell headed “per drug,” execution 20. Each row is a drug. The reports column counts the female and male reports used to measure volume. The other two count distinct reaction terms tested and flagged for that drug. Category A means a Phase 6 enrichment in the tissue mapped to the lineage, B means enrichment elsewhere and “none” means no recorded A or B. The archived counts preserve what the live API returned at the time. [FDA source](https://open.fda.gov/apis/drug/event/) · [Phase 6 categories](../Phase6_NoSampleFilter/results/signature_ABCD_per_drug.csv)
+
+[Fellowship phases](../README.md#how-the-analysis-developed)
