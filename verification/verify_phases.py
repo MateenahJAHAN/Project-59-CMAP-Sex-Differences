@@ -3,7 +3,7 @@
 import csv
 from collections import Counter, defaultdict
 from itertools import combinations
-from math import isclose
+from math import comb, isclose
 from pathlib import Path
 from statistics import median
 
@@ -39,6 +39,16 @@ def early_screens():
           top == {r["gene_id"] for r in rows(f"{pilot}/vorinostat_top20_sex_genes.csv")}, "Phase 1 thresholds")
 
     phase2 = rows("Phase2_Fishers_50Drugs/top50_drug_classification.csv")
+    sensitivity = rows("Phase2_Fishers_50Drugs/as605240_tissue_tests.csv")
+    check(len(sensitivity) == 44 and sum(bool(r["bh_nonzero_20"]) for r in sensitivity) == 20,
+          "Phase 2 tissue correction families")
+    for r in sensitivity:
+        size, universe, overlap = (int(r[k]) for k in ("tissue_genes_in_universe", "universe_genes", "overlap_with_two_genes"))
+        tail = sum(comb(size, n) * comb(universe - size, 2 - n) for n in range(overlap, 3)) / comb(universe, 2)
+        check(isclose(tail, float(r["fisher_p"]), rel_tol=1e-10), f"Phase 2 Fisher test for {r['tissue']}")
+    liver = next(r for r in sensitivity if r["tissue"] == "Liver")
+    check(round(float(liver["bh_nonzero_20"]), 4) == 0.0247 and round(float(liver["bh_all_44"]), 4) == 0.0544,
+          "Phase 2 liver sensitivity")
     phase3 = rows("Phase3_PerLineage_GSEA/phase3_classification_final.csv")
     drugs = {r["drug"] for r in phase2}
     check(len(drugs) == 50 and {r["drug"] for r in phase3} == drugs, "Phases 2 and 3 drug panel")

@@ -15,9 +15,19 @@ Part A expression calls represent how the cells expressed the markers in the cul
 
 The Part B analysis plan was fixed internally before the expression calls were joined to drug response. The panel test has limited power for modest or compound-specific effects. The XIST vehicle result limits interpretation of that contrast, and the pooled interval checks do not establish equivalence. The counts of lines with and without each model indicator are not counts of mutually exclusive expression groups. [Design and sensitivity checks](../manuscript/supplement.pdf)
 
-The Phase 6 replay used GSEApy 1.3.2. It returned 718 B and 5,375 C comparisons, compared with 717 B and 5,376 C in the recorded archive. The A and D counts match. These labels describe pooled comparisons with tissue gene sets. They do not estimate drug-response differences between donor-sex groups. [Recorded Phase 6 analysis](../Phase6_NoSampleFilter/README.md)
+The Phase 6 replay used GSEApy 1.3.2. Five comparisons moved from C to B and four from B to C. The other 39,987 labels agreed, including every A and D assignment. [Nine changed comparisons](../Phase6_NoSampleFilter/results/replay_category_changes.csv) These labels describe pooled comparisons with tissue gene sets. They do not estimate drug-response differences between donor-sex groups. [Recorded Phase 6 analysis](../Phase6_NoSampleFilter/README.md)
 
 To typeset the [manuscript](../manuscript/manuscript.tex) and [supplement](../manuscript/supplement.tex), run `tectonic manuscript.tex` and `tectonic supplement.tex` from the `manuscript/` directory.
+
+## What was rerun
+
+| Analysis | Starting material and comparison |
+| --- | --- |
+| Phases 1–2 | All 2,641 vorinostat signatures were reread from the CMap level-5 matrix. The 12,328 two-sided Mann–Whitney tests recovered the same 6,877 adjusted hits and the same 20 genes above the effect threshold. All 572 signatures for AS-605240 were replayed in Phase 2. The other 49 drug classifications were checked against the archived table. [AS-605240 sensitivity to the number of tissues tested](../Phase2_Fishers_50Drugs/as605240_tissue_tests.csv) |
+| Phases 3–5 | The 50 Phase 3 classifications, both 9,260-row Phase 4 exports and the 39,996 Phase 5 comparisons were checked as saved. XIST’s positive sign was checked in all 44 tissues in the GTEx v8 source. Fresh enrichment runs for these phases remain outside this verification. |
+| Phases 6–7 | Replaying CMap level-5 scores for 36,523 signatures across 50 drugs matched all 39,996 released replay categories and skip reasons. Separately, the original October comparison table reproduced all 36,523 archived signature assignments. The underlying signatures reproduced the Phase 7 counts by sex and the per-line concentration and effective sample size for all eleven own-tissue drug–lineage pairs. |
+| Phase 8 | The 18-row FAERS summary comes from the executed October notebook. The rank tests were recalculated from the printed per-drug counts. The unversioned live API may return different counts today. [FAERS counts and interpretation](../Phase8_SideEffects_FAERS/) |
+| Manuscript and drug-treated follow-up | The Part A/B checks below read the released tables. Separate follow-up reruns covered the complete 14-plate Tahoe index, the two-plate expression matrix, archived external RNA and DNA measurements and raw intensity arrays. [Follow-up methods and source checks](../analysis/marker_stability/) |
 
 ## Run the checks
 

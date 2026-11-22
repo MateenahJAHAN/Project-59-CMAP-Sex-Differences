@@ -205,7 +205,18 @@ def verify_phase6():
     require(sum(bool(categories & {"A", "B"}) for categories in outcomes_by_drug.values()) == 17 and
             sum("A" in categories for categories in outcomes_by_drug.values()) == 6,
             "Phase 6 compound counts do not match")
-    print("Earlier Phase 6 replay: 39,996 labels, category totals, and compound counts verified.")
+    transitions = Counter()
+    changed_keys = set()
+    path = HERE.parent / "Phase6_NoSampleFilter/results/replay_category_changes.csv"
+    with path.open(encoding="utf-8", newline="") as stream:
+        for row in csv.DictReader(stream):
+            key = row["drug"], row["lineage"], row["tissue"]
+            before, after = row["archived_category"], row["replay_category"]
+            require(key not in changed_keys and labels.get(key) == after, f"Invalid Phase 6 change: {key}")
+            changed_keys.add(key)
+            transitions[before, after] += 1
+    require(transitions == {("C", "B"): 5, ("B", "C"): 4}, "Phase 6 archive-to-replay transitions")
+    print("Earlier Phase 6 replay: 39,996 labels, nine archive differences, and compound counts verified.")
 
 
 def main():
