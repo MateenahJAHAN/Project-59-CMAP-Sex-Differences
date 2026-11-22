@@ -1,0 +1,127 @@
+{
+  "archive": {
+    "completed_assignments": 1000,
+    "all_1000_assignments": true,
+    "single_plant_records": 4000,
+    "significant_single_plants": 34,
+    "significant_by_term_scenario": {
+      "factX/C1": 14,
+      "factX/G1": 2,
+      "factY/C1": 16,
+      "factY/G1": 2
+    },
+    "significant_despite_nonzero_exceedances": [
+      {
+        "assignment": 78,
+        "term": "factY",
+        "scenario": "C1",
+        "compound": "nutlin-3",
+        "p": 0.0024987506246876563,
+        "q": 0.09495252373813094,
+        "exceedances": 4,
+        "T_statistic_rank": 1,
+        "compounds_tested": 114,
+        "total_q_lt_01": 3
+      },
+      {
+        "assignment": 211,
+        "term": "factY",
+        "scenario": "C1",
+        "compound": "BRD-K63750851",
+        "p": 0.001999000499750125,
+        "q": 0.07596201899050474,
+        "exceedances": 3,
+        "T_statistic_rank": 3,
+        "compounds_tested": 114,
+        "total_q_lt_01": 3
+      },
+      {
+        "assignment": 444,
+        "term": "factX",
+        "scenario": "G1",
+        "compound": "daunorubicin",
+        "p": 0.0014992503748125937,
+        "q": 0.08545727136431784,
+        "exceedances": 2,
+        "T_statistic_rank": 2,
+        "compounds_tested": 114,
+        "total_q_lt_01": 2
+      },
+      {
+        "assignment": 723,
+        "term": "factY",
+        "scenario": "C1",
+        "compound": "NVP-AUY922",
+        "p": 0.0024987506246876563,
+        "q": 0.09411960686323506,
+        "exceedances": 4,
+        "T_statistic_rank": 2,
+        "compounds_tested": 113,
+        "total_q_lt_01": 3
+      }
+    ]
+  },
+  "rerun": {
+    "completed_assignments": 1000,
+    "all_1000_assignments": true,
+    "single_plant_records": 4000,
+    "significant_single_plants": 34,
+    "significant_by_term_scenario": {
+      "factX/C1": 14,
+      "factX/G1": 2,
+      "factY/C1": 16,
+      "factY/G1": 2
+    },
+    "significant_despite_nonzero_exceedances": [
+      {
+        "assignment": 78,
+        "term": "factY",
+        "scenario": "C1",
+        "compound": "nutlin-3",
+        "p": 0.0024987506246876563,
+        "q": 0.09495252373813094,
+        "exceedances": 4,
+        "T_statistic_rank": 1,
+        "compounds_tested": 114,
+        "total_q_lt_01": 3
+      },
+      {
+        "assignment": 211,
+        "term": "factY",
+        "scenario": "C1",
+        "compound": "BRD-K63750851",
+        "p": 0.001999000499750125,
+        "q": 0.07596201899050474,
+        "exceedances": 3,
+        "T_statistic_rank": 3,
+        "compounds_tested": 114,
+        "total_q_lt_01": 3
+      },
+      {
+        "assignment": 444,
+        "term": "factX",
+        "scenario": "G1",
+        "compound": "daunorubicin",
+        "p": 0.0014992503748125937,
+        "q": 0.08545727136431784,
+        "exceedances": 2,
+        "T_statistic_rank": 2,
+        "compounds_tested": 114,
+        "total_q_lt_01": 2
+      },
+      {
+        "assignment": 723,
+        "term": "factY",
+        "scenario": "C1",
+        "compound": "NVP-AUY922",
+        "p": 0.0024987506246876563,
+        "q": 0.09411960686323506,
+        "exceedances": 4,
+        "T_statistic_rank": 2,
+        "compounds_tested": 113,
+        "total_q_lt_01": 3
+      }
+    ]
+  },
+  "records_differing_on_matched_assignments": []
+}

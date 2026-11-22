@@ -1,0 +1,67 @@
+term	panel	series	x_file	x_drawn	y	y_lo95	y_hi95	source_line	source
+factY	A: pooled magnitude	E3 on level 3: 95% CI excludes 0	0.0	0.0	0.023	0.015374276932992918	0.03427645066222667	2	figS3_power_values.tsv
+factY	A: pooled magnitude	E3 on level 3: 95% CI excludes 0	0.1	10.0	0.075	0.06025180497346736	0.0930009397392545	5	figS3_power_values.tsv
+factY	A: pooled magnitude	E3 on level 3: 95% CI excludes 0	0.2	20.0	0.301	0.2733762104461901	0.3301468394310608	8	figS3_power_values.tsv
+factY	A: pooled magnitude	E3 on level 3: 95% CI excludes 0	0.3	30.0	0.628	0.5976064637900358	0.6574138860376622	11	figS3_power_values.tsv
+factY	A: pooled magnitude	E3 on level 3: 95% CI excludes 0	0.5	50.0	0.992	0.9842936654690199	0.995940804181194	14	figS3_power_values.tsv
+factY	A: pooled magnitude	E3 on level 5: 95% CI excludes 0	0.0	0.0	0.018	0.011415740009567788	0.028273255170507345	3	figS3_power_values.tsv
+factY	A: pooled magnitude	E3 on level 5: 95% CI excludes 0	0.1	10.0	0.167	0.14516656150470994	0.1913820596466698	6	figS3_power_values.tsv
+factY	A: pooled magnitude	E3 on level 5: 95% CI excludes 0	0.2	20.0	0.568	0.5370956553028252	0.5983839055431392	9	figS3_power_values.tsv
+factY	A: pooled magnitude	E3 on level 5: 95% CI excludes 0	0.3	30.0	0.965	0.9517133776255466	0.9747277369828871	12	figS3_power_values.tsv
+factY	A: pooled magnitude	E3 on level 5: 95% CI excludes 0	0.5	50.0	1.0	0.996173241514445	1.0	15	figS3_power_values.tsv
+factY	A: pooled magnitude	panel-level test: p < 0.025	0.0	0.0	0.003	0.0010207838811386186	0.008783014053503173	4	figS3_power_values.tsv
+factY	A: pooled magnitude	panel-level test: p < 0.025	0.1	10.0	0.015	0.009110978804081668	0.024600976926906798	7	figS3_power_values.tsv
+factY	A: pooled magnitude	panel-level test: p < 0.025	0.2	20.0	0.059	0.04601429821280047	0.07536090277145915	10	figS3_power_values.tsv
+factY	A: pooled magnitude	panel-level test: p < 0.025	0.3	30.0	0.205	0.18113008647590156	0.23112770103057595	13	figS3_power_values.tsv
+factY	A: pooled magnitude	panel-level test: p < 0.025	0.5	50.0	0.751	0.7232715438085464	0.7768074234317048	16	figS3_power_values.tsv
+factY	B: 50% larger response in k compounds	planted compounds at q < 0.1 (share of planted)	1.0	0.0	0.016	0.00821922438980403	0.02378077561019597	17	figS3_power_values.tsv
+factY	B: 50% larger response in k compounds	planted compounds at q < 0.1 (share of planted)	6.0	1.0	0.023833333333333335	0.019441821584032612	0.028224845082634058	20	figS3_power_values.tsv
+factY	B: 50% larger response in k compounds	planted compounds at q < 0.1 (share of planted)	23.0	2.0	0.02917391304347826	0.02613703688349226	0.032210789203464256	23	figS3_power_values.tsv
+factY	B: 50% larger response in k compounds	panel-level test: p < 0.025	1.0	0.0	0.003	0.0010207838811386186	0.008783014053503173	18	figS3_power_values.tsv
+factY	B: 50% larger response in k compounds	panel-level test: p < 0.025	6.0	1.0	0.006	0.0027526691418763745	0.01302816824185209	21	figS3_power_values.tsv
+factY	B: 50% larger response in k compounds	panel-level test: p < 0.025	23.0	2.0	0.037	0.026961180875554734	0.05058239748206931	24	figS3_power_values.tsv
+factY	B: 50% larger response in k compounds	at least one planted compound at q < 0.1	1.0	0.0	0.016	0.009872242002277388	0.02583206021173997	19	figS3_power_values.tsv
+factY	B: 50% larger response in k compounds	at least one planted compound at q < 0.1	6.0	1.0	0.118	0.09945155840122327	0.13947208508174083	22	figS3_power_values.tsv
+factY	B: 50% larger response in k compounds	at least one planted compound at q < 0.1	23.0	2.0	0.357	0.3279037500492223	0.3871907028776464	25	figS3_power_values.tsv
+factY	C: +1 SD in a 49-gene module in k compounds	planted compounds at q < 0.1 (share of planted)	1.0	0.0	0.002	0.0	0.004770420032092794	26	figS3_power_values.tsv
+factY	C: +1 SD in a 49-gene module in k compounds	planted compounds at q < 0.1 (share of planted)	6.0	1.0	0.0055	0.0035414807279419147	0.007458519272058085	29	figS3_power_values.tsv
+factY	C: +1 SD in a 49-gene module in k compounds	planted compounds at q < 0.1 (share of planted)	23.0	2.0	0.006782608695652174	0.0050071351736315555	0.008558082217672791	32	figS3_power_values.tsv
+factY	C: +1 SD in a 49-gene module in k compounds	panel-level test: p < 0.025	1.0	0.0	0.003	0.0010207838811386186	0.008783014053503173	27	figS3_power_values.tsv
+factY	C: +1 SD in a 49-gene module in k compounds	panel-level test: p < 0.025	6.0	1.0	0.007	0.0033948684009907646	0.014378315465766588	30	figS3_power_values.tsv
+factY	C: +1 SD in a 49-gene module in k compounds	panel-level test: p < 0.025	23.0	2.0	0.065	0.051323770569062045	0.0820055093133709	33	figS3_power_values.tsv
+factY	C: +1 SD in a 49-gene module in k compounds	at least one planted compound at q < 0.1	1.0	0.0	0.002	0.000548643588120728	0.007262807863492177	28	figS3_power_values.tsv
+factY	C: +1 SD in a 49-gene module in k compounds	at least one planted compound at q < 0.1	6.0	1.0	0.031	0.02192400344715857	0.04366549601229214	31	figS3_power_values.tsv
+factY	C: +1 SD in a 49-gene module in k compounds	at least one planted compound at q < 0.1	23.0	2.0	0.091	0.07470470437164412	0.11042558406953998	34	figS3_power_values.tsv
+factX	A: pooled magnitude	E3 on level 3: 95% CI excludes 0	0.0	0.0	0.026	0.017803938201616326	0.03782382884268993	35	figS3_power_values.tsv
+factX	A: pooled magnitude	E3 on level 3: 95% CI excludes 0	0.1	10.0	0.106	0.08840506686305154	0.12661041882356588	38	figS3_power_values.tsv
+factX	A: pooled magnitude	E3 on level 3: 95% CI excludes 0	0.2	20.0	0.396	0.36614144983616576	0.4266545159288297	41	figS3_power_values.tsv
+factX	A: pooled magnitude	E3 on level 3: 95% CI excludes 0	0.3	30.0	0.766	0.7387721670475355	0.7911919974381493	44	figS3_power_values.tsv
+factX	A: pooled magnitude	E3 on level 3: 95% CI excludes 0	0.5	50.0	0.995	0.9883490446266249	0.9978624644726756	47	figS3_power_values.tsv
+factX	A: pooled magnitude	E3 on level 5: 95% CI excludes 0	0.0	0.0	0.024	0.016180168466636995	0.03546290561161149	36	figS3_power_values.tsv
+factX	A: pooled magnitude	E3 on level 5: 95% CI excludes 0	0.1	10.0	0.176	0.15364942465804565	0.2008303148405941	39	figS3_power_values.tsv
+factX	A: pooled magnitude	E3 on level 5: 95% CI excludes 0	0.2	20.0	0.595	0.5642673076613368	0.6250056082264076	42	figS3_power_values.tsv
+factX	A: pooled magnitude	E3 on level 5: 95% CI excludes 0	0.3	30.0	0.81	0.7845166798033586	0.8331107299355974	45	figS3_power_values.tsv
+factX	A: pooled magnitude	E3 on level 5: 95% CI excludes 0	0.5	50.0	0.998	0.9927371921365079	0.9994513564118793	48	figS3_power_values.tsv
+factX	A: pooled magnitude	panel-level test: p < 0.025	0.0	0.0	0.005	0.0021375355273244596	0.011650955373375113	37	figS3_power_values.tsv
+factX	A: pooled magnitude	panel-level test: p < 0.025	0.1	10.0	0.008	0.004059195818806103	0.015706334530980144	40	figS3_power_values.tsv
+factX	A: pooled magnitude	panel-level test: p < 0.025	0.2	20.0	0.028	0.019442276812770925	0.04017018319759311	43	figS3_power_values.tsv
+factX	A: pooled magnitude	panel-level test: p < 0.025	0.3	30.0	0.134	0.11428107599412643	0.15652011121729995	46	figS3_power_values.tsv
+factX	A: pooled magnitude	panel-level test: p < 0.025	0.5	50.0	0.632	0.6016575198074788	0.6613322159523346	49	figS3_power_values.tsv
+factX	B: 50% larger response in k compounds	planted compounds at q < 0.1 (share of planted)	1.0	0.0	0.014	0.006714358025788917	0.021285641974211084	50	figS3_power_values.tsv
+factX	B: 50% larger response in k compounds	planted compounds at q < 0.1 (share of planted)	6.0	1.0	0.021333333333333333	0.017389499136228694	0.02527716753043797	53	figS3_power_values.tsv
+factX	B: 50% larger response in k compounds	planted compounds at q < 0.1 (share of planted)	23.0	2.0	0.027826086956521737	0.024775310774926312	0.03087686313811716	56	figS3_power_values.tsv
+factX	B: 50% larger response in k compounds	panel-level test: p < 0.025	1.0	0.0	0.005	0.0021375355273244596	0.011650955373375113	51	figS3_power_values.tsv
+factX	B: 50% larger response in k compounds	panel-level test: p < 0.025	6.0	1.0	0.005	0.0021375355273244596	0.011650955373375113	54	figS3_power_values.tsv
+factX	B: 50% larger response in k compounds	panel-level test: p < 0.025	23.0	2.0	0.023	0.015374276932992918	0.03427645066222667	57	figS3_power_values.tsv
+factX	B: 50% larger response in k compounds	at least one planted compound at q < 0.1	1.0	0.0	0.014	0.00835757513042392	0.02336203411753566	52	figS3_power_values.tsv
+factX	B: 50% larger response in k compounds	at least one planted compound at q < 0.1	6.0	1.0	0.112	0.09391954090888108	0.1330500236759097	55	figS3_power_values.tsv
+factX	B: 50% larger response in k compounds	at least one planted compound at q < 0.1	23.0	2.0	0.352	0.32301658754166684	0.3821161329700574	58	figS3_power_values.tsv
+factX	C: +1 SD in a 49-gene module in k compounds	planted compounds at q < 0.1 (share of planted)	1.0	0.0	0.002	0.0	0.004770420032092794	59	figS3_power_values.tsv
+factX	C: +1 SD in a 49-gene module in k compounds	planted compounds at q < 0.1 (share of planted)	6.0	1.0	0.004	0.00228848976710752	0.00571151023289248	62	figS3_power_values.tsv
+factX	C: +1 SD in a 49-gene module in k compounds	planted compounds at q < 0.1 (share of planted)	23.0	2.0	0.005304347826086957	0.004030836323375443	0.00657785932879847	65	figS3_power_values.tsv
+factX	C: +1 SD in a 49-gene module in k compounds	panel-level test: p < 0.025	1.0	0.0	0.005	0.0021375355273244596	0.011650955373375113	60	figS3_power_values.tsv
+factX	C: +1 SD in a 49-gene module in k compounds	panel-level test: p < 0.025	6.0	1.0	0.006	0.0027526691418763745	0.01302816824185209	63	figS3_power_values.tsv
+factX	C: +1 SD in a 49-gene module in k compounds	panel-level test: p < 0.025	23.0	2.0	0.044	0.0329382145884185	0.058551789150407776	66	figS3_power_values.tsv
+factX	C: +1 SD in a 49-gene module in k compounds	at least one planted compound at q < 0.1	1.0	0.0	0.002	0.000548643588120728	0.007262807863492177	61	figS3_power_values.tsv
+factX	C: +1 SD in a 49-gene module in k compounds	at least one planted compound at q < 0.1	6.0	1.0	0.022	0.014572707764791058	0.03308567334739963	64	figS3_power_values.tsv
+factX	C: +1 SD in a 49-gene module in k compounds	at least one planted compound at q < 0.1	23.0	2.0	0.082	0.06655195342021952	0.10064721667370458	67	figS3_power_values.tsv

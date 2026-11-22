@@ -1,12 +1,14 @@
 # Sensitivity to planted effects
 
-The checked-in recount uses the archived 26,000 scenario rows, 120,000 planted-compound records and saved interval estimates. It reproduces the source values of Figure S3. The independent simulation restarted from assignment zero after the initial process stopped. The restarted driver uses the original analysis and saves the full records for each completed assignment. A separate process restored the first saved assignment and reproduced all 26 scenario records, all 120 planted-compound records and all 5,750 entries of its interval array. [Restart verification](checks/checkpoint_restore.json)
+In the 41-line LINCS panel, increasing every response vector in the labelled group by 20% led the panel test to reject in 59 of 1,000 random assignments for Y and 28 for XIST. The 95% interval for the pooled, vehicle-referenced response excluded zero in 301 and 396 assignments, respectively. These rates describe sensitivity to that particular simulated change. [Figure S3](../../../manuscript/figures/figS3_power.pdf) · [Plotted values](recount/figS3_power_values.tsv)
 
-A separate comparison of 205 completed assignments found exact agreement across 5,330 scenario records, 24,600 planted-compound records and 1,178,750 entries in the interval arrays. The full simulation contains 1,000 assignments. [Assignment-level comparison](checks/checkpoint_comparison.json)
+The fresh simulation used 2,000 within-lineage permutations per test and reproduced all 26,000 scenario records, 120,000 planted-compound records and 5,750,000 interval entries. [Assignment-level comparison](checks/checkpoint_comparison.json)
+
+Across the 4,000 simulated cases with one planted compound, 34 planted compounds reached BH q < 0.1. Four passed despite two to four permutation exceedances because the adjustment used all tested compounds. Detection rates at 10,000 permutations were not measured. [Four cases and matched records](checks/single_plant_comparison.json) · [Supplement, Note S17](../../../manuscript/supplement.pdf)
 
 The source rebuild reproduced all 9,288,066 measured expression values at each scale, the 1,000 within-lineage assignments, and the 2,000 marker-specific model designs. [Input comparison](../power_input_check/)
 
-[Recount comparisons](recount_comparison.json) · [Figure S3 values](recount/figS3_power_values.tsv) · [48 harness checks](checks/harness_checks.tsv)
+[Independent recount of the archived assignments](recount_comparison.json) · [48 implementation checks](checks/harness_checks.tsv) · [Restart check](checks/checkpoint_restore.json)
 
 To repeat the simulation, set `P59_G_REPO` to the task-G analysis checkout and `P59_G_RUN` to the production input directory containing `inputs/data/G` and `capture`. The scripts use the production model, design and original random seeds. From this directory run the following in the study Python environment.
 

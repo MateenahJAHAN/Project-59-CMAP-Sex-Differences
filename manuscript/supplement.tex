@@ -1814,27 +1814,25 @@ for XIST, relative to mean response size.
   0.11 (Y) and 0.11 (X). Doubling one compound's response size gave 0.41
   (Y) and 0.42 (X).
 \item
-  Planted-effect power on the final design (Figure S3). Lines of the
-  41-line set were given random labels with the real group sizes in each
-  lineage, an effect was planted in the real responses of the labelled
-  group, which keeps the missing values and the dependence among genes,
-  compounds and lines, and the primary tests were run 1,000 times per
-  scenario with 2,000 permutations. A pooled difference planted at 10\%,
-  20\%, 30\% and 50\% was declared on level 3 in 0.075, 0.301, 0.628 and
-  0.992 of runs for Y and 0.106, 0.396, 0.766 and 0.995 for X; at a
-  planted E3 of exactly 20\%, interpolated, the level-3 rate is 0.340
-  (Y) and 0.409 (X). At 20\% the panel-level test rejected in 0.059 (Y)
-  and 0.028 (X) of runs, and at 50\% in 0.751 and 0.632. With no planted
-  effect, a level-3 difference was declared in 0.023 (Y) and 0.026 (X)
-  of runs. A response larger by 50\% in 1, 6 or 23 compounds put at
-  least one planted compound at q \textless{} 0.1 in 0.016, 0.118 and
-  0.357 of runs for Y and 0.014, 0.112 and 0.352 for X; one residual SD
-  added to 49 landmark genes in 23 compounds did so in 0.091 (Y) and
-  0.082 (X). H2 rule 4 was not applied, so the per-compound rates are
-  upper bounds on finding rates; with 2,000 permutations a single
-  compound reaches q \textless{} 0.1 only if no permutation statistic
-  reaches it, so the single-compound rates are lower bounds for the
-  run's 10,000 permutations.
+  Planted-effect power (Figure S3). We reassigned labels within lineage
+  in the 41-line panel and perturbed only the labelled lines' measured
+  responses, preserving missingness. We used 1,000 assignments per
+  scenario and 2,000 permutations per test. Increasing all response vectors
+  by 10\%, 20\%, 30\% or 50\% gave level-3 pooled intervals excluding zero
+  in 0.075, 0.301, 0.628 and 0.992 of assignments for Y and 0.106, 0.396,
+  0.766 and 0.995 for XIST. A 20\% input increase shifted the pooled
+  estimates by 18.94\% and 19.67\% on average. At an interpolated 20\%
+  pooled difference, detection rates were 0.340 and 0.409. Panel rejection
+  rates at 20\% amplification were 0.059 and 0.028, rising to 0.751 and
+  0.632 at 50\%. Without amplification, the level-3 pooled interval excluded
+  zero in 0.023 and 0.026 of assignments. Amplifying 1, 6 or 23 compounds
+  by 50\% yielded at least one planted compound at BH $q<0.1$ in 0.016,
+  0.118 and 0.357 of assignments for Y and 0.014, 0.112 and 0.352 for XIST.
+  Shifting 49 genes by one residual SD in 23 compounds did so in 0.091
+  and 0.082. Confirmatory calls required further criteria. The smallest
+  possible $p$ was 1/2,001. With nutlin-3 as the sole planted compound,
+  four permutations exceeded its statistic ($p=5/2{,}001$, $q=0.095$).
+  Single-compound detection at 10,000 permutations was not measured.
 \item
   Coverage of the intervals. With random labels and no planted effect,
   the level-3 E3 intervals contained the true value in 0.958 (Y) and
@@ -1886,24 +1884,19 @@ for XIST, relative to mean response size.
 
 \begin{figure}
 \centering
-\includegraphics[width=1\linewidth,height=\textheight,keepaspectratio,alt={Figure S3. Power of the Part B tests for effects planted in real responses. Lines of the primary panel were given random labels with the real group sizes in each lineage, an effect was planted in the responses of the labelled group, and the tests were run with the same analysis code, 1,000 times per point with 2,000 permutations. Rows: the Y and X terms. (A) Every response of the group larger by the percentage shown. (B) A response larger by 50\% to k compounds. (C) One residual standard deviation added to 49 landmark genes in k compounds. Each point is the share of runs that detected the effect, with its 95\% interval: grey, the panel-level test at p \textless{} 0.025; blue, the pooled response-size difference with a 95\% interval that excludes zero (filled, level 3; open, level 5); orange, the share of planted compounds at q \textless{} 0.1, where q is the p value adjusted for the false-discovery rate; green, at least one planted compound at q \textless{} 0.1. With no planted effect, the points show how often each test fires by chance. Effects of other shapes could be easier or harder to detect.}]{figures/figS3_power.pdf}
-\caption{\textbf{Figure S3. Power of the Part B tests for effects
-planted in real responses.} Lines of the primary panel were given random
-labels with the real group sizes in each lineage, an effect was planted
-in the responses of the labelled group, and the tests were run with the
-same analysis code, 1,000 times per point with 2,000 permutations. Rows:
-the Y and X terms. (\textbf{A}) Every response of the group larger by
-the percentage shown. (\textbf{B}) A response larger by 50\% to k
-compounds. (\textbf{C}) One residual standard deviation added to 49
-landmark genes in k compounds. Each point is the share of runs that
-detected the effect, with its 95\% interval: grey, the panel-level test
-at p \textless{} 0.025; blue, the pooled response-size difference with a
-95\% interval that excludes zero (filled, level 3; open, level 5);
-orange, the share of planted compounds at q \textless{} 0.1, where q is
-the p value adjusted for the false-discovery rate; green, at least one
-planted compound at q \textless{} 0.1. With no planted effect, the
-points show how often each test fires by chance. Effects of other shapes
-could be easier or harder to detect.}
+\includegraphics[width=1\linewidth,height=\textheight,keepaspectratio,alt={Figure S3. Three simulations test sensitivity to drug-response changes in cells with randomly assigned Y or XIST labels. Panel A increases all responses. Panels B and C alter a subset of compounds. Grey shows how often the panel test rejects. Blue shows how often the pooled interval excludes zero. In B and C, green counts runs with any planted compound detected. Orange averages the fraction of the planted compounds detected in each run. For 23 compounds with 50\% larger responses in the Y group, 35.7\% of runs detect at least one and 2.92\% of the planted compounds are detected on average.}]{figures/figS3_power.pdf}
+\caption{\textbf{Figure S3. Sensitivity to effects planted in measured drug responses.}
+Marker labels were reassigned to 41 lines within lineages (1,000 assignments,
+2,000 permutations per test). Rows show Y and XIST.
+(\textbf{A}) All responses of labelled lines increase by the indicated percentage.
+(\textbf{B}) For $k$ random compounds, responses increase by 50\%.
+(\textbf{C}) For $k$ compounds, 49 random landmark genes each gain one residual
+standard deviation on level 5. Grey counts assignments with panel $p<0.025$.
+Blue counts assignments whose pooled 95\% interval excludes zero on level 3
+(filled) or 5 (open). Green counts assignments with any planted compound at BH
+$q<0.1$. These fractions have 95\% Wilson intervals. Orange shows the mean
+fraction of the $k$ planted compounds detected per assignment, with bars at
+$\pm1.96$ Monte Carlo standard errors.}
 \end{figure}
 
 H1 beside other exposures (E5, the excess panel statistic). The excess
