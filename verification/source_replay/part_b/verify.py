@@ -63,3 +63,23 @@ if gate_receipt.is_file():
         if (root/row['table']).is_file():
             assert hashlib.sha256((root/row['table']).read_bytes()).hexdigest()==row['replayed_sha256']
     print('All 1,200 calibration rows, 46 comparison rows, and precision estimates match.')
+
+model_report=root/'model_files.tsv'
+if model_report.is_file():
+    with model_report.open() as f:
+        model=list(csv.DictReader(f,delimiter='\t'))
+    with (root/'capture_files.tsv').open() as f:
+        captures=list(csv.DictReader(f,delimiter='\t'))
+    assert len(model)==35 and len(captures)==110
+    assert all(r['comparison']=='exact bytes' and r['sha256_rerun']==r['sha256_archive'] for r in captures)
+    altered={r['file']:r for r in model if r['comparison']!='exact bytes'}
+    assert set(altered)=={'G_hash_check.tsv','G_run_manifest.tsv','G_H2_gene_level.tsv.gz'}
+    assert altered['G_hash_check.tsv']['different_cells_by_column'].startswith('path (')
+    assert altered['G_run_manifest.tsv']['different_cells_by_column']=='value (1)'
+    assert altered['G_H2_gene_level.tsv.gz']['comparison']=='exact uncompressed bytes'
+    for t in json.loads((root/'published_table_checks.json').read_text()):
+        assert t['bytes_equal'] and hashlib.sha256((root/t['file']).read_bytes()).hexdigest()==t['published_sha256']
+    fig=json.loads((root/'figure4_check.json').read_text())
+    assert fig['pdf']['bytes_identical'] and fig['png']['bytes_identical'] and fig['png']['pixels_identical']
+    assert hashlib.sha256((root/'fig4_partB_plotted.tsv').read_bytes()).hexdigest()==fig['plotted_table']['frozen']
+    print('The registered model, all 110 captures, four published tables and Figure 4 match.')

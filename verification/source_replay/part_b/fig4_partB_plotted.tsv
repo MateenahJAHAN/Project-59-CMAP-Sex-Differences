@@ -1,0 +1,275 @@
+panel	term	element	series	name	role	x_lo	x_hi	count	at_or_above	value	estimate	lo90	hi90	lo95	hi95	n_lines	colour	text	source
+A	factY	bin				0.46322298714791826	0.46822298714791827	0	False										
+A	factY	bin				0.46822298714791827	0.4732229871479183	2	False										
+A	factY	bin				0.4732229871479183	0.4782229871479183	0	False										
+A	factY	bin				0.4782229871479183	0.4832229871479183	1	False										
+A	factY	bin				0.4832229871479183	0.48822298714791823	0	False										
+A	factY	bin				0.48822298714791823	0.49322298714791823	0	False										
+A	factY	bin				0.49322298714791823	0.49822298714791824	0	False										
+A	factY	bin				0.49822298714791824	0.5032229871479182	2	False										
+A	factY	bin				0.5032229871479182	0.5082229871479182	0	False										
+A	factY	bin				0.5082229871479182	0.5132229871479183	0	False										
+A	factY	bin				0.5132229871479183	0.5182229871479183	2	False										
+A	factY	bin				0.5182229871479183	0.5232229871479183	2	False										
+A	factY	bin				0.5232229871479183	0.5282229871479183	4	False										
+A	factY	bin				0.5282229871479183	0.5332229871479183	3	False										
+A	factY	bin				0.5332229871479183	0.5382229871479183	3	False										
+A	factY	bin				0.5382229871479183	0.5432229871479183	4	False										
+A	factY	bin				0.5432229871479183	0.5482229871479183	2	False										
+A	factY	bin				0.5482229871479183	0.5532229871479183	6	False										
+A	factY	bin				0.5532229871479183	0.5582229871479183	9	False										
+A	factY	bin				0.5582229871479183	0.5632229871479183	14	False										
+A	factY	bin				0.5632229871479183	0.5682229871479183	13	False										
+A	factY	bin				0.5682229871479183	0.5732229871479183	8	False										
+A	factY	bin				0.5732229871479183	0.5782229871479183	13	False										
+A	factY	bin				0.5782229871479183	0.5832229871479183	16	False										
+A	factY	bin				0.5832229871479183	0.5882229871479183	34	False										
+A	factY	bin				0.5882229871479183	0.5932229871479182	48	False										
+A	factY	bin				0.5932229871479182	0.5982229871479183	40	False										
+A	factY	bin				0.5982229871479183	0.6032229871479182	63	False										
+A	factY	bin				0.6032229871479182	0.6082229871479182	74	False										
+A	factY	bin				0.6082229871479182	0.6132229871479182	73	False										
+A	factY	bin				0.6132229871479182	0.6182229871479182	108	False										
+A	factY	bin				0.6182229871479182	0.6232229871479182	112	False										
+A	factY	bin				0.6232229871479182	0.6282229871479182	169	False										
+A	factY	bin				0.6282229871479182	0.6332229871479182	151	False										
+A	factY	bin				0.6332229871479182	0.6382229871479183	206	False										
+A	factY	bin				0.6382229871479183	0.6432229871479183	243	False										
+A	factY	bin				0.6432229871479183	0.6482229871479183	290	False										
+A	factY	bin				0.6482229871479183	0.6532229871479183	278	False										
+A	factY	bin				0.6532229871479183	0.6582229871479183	373	False										
+A	factY	bin				0.6582229871479183	0.6632229871479183	403	False										
+A	factY	bin				0.6632229871479183	0.6682229871479183	409	True										
+A	factY	bin				0.6682229871479183	0.6732229871479183	458	True										
+A	factY	bin				0.6732229871479183	0.6782229871479183	549	True										
+A	factY	bin				0.6782229871479183	0.6832229871479183	595	True										
+A	factY	bin				0.6832229871479183	0.6882229871479183	559	True										
+A	factY	bin				0.6882229871479183	0.6932229871479183	562	True										
+A	factY	bin				0.6932229871479183	0.6982229871479183	542	True										
+A	factY	bin				0.6982229871479183	0.7032229871479183	546	True										
+A	factY	bin				0.7032229871479183	0.7082229871479183	479	True										
+A	factY	bin				0.7082229871479183	0.7132229871479183	435	True										
+A	factY	bin				0.7132229871479183	0.7182229871479183	372	True										
+A	factY	bin				0.7182229871479183	0.7232229871479183	352	True										
+A	factY	bin				0.7232229871479183	0.7282229871479182	304	True										
+A	factY	bin				0.7282229871479182	0.7332229871479183	221	True										
+A	factY	bin				0.7332229871479183	0.7382229871479182	212	True										
+A	factY	bin				0.7382229871479182	0.7432229871479182	136	True										
+A	factY	bin				0.7432229871479182	0.7482229871479182	112	True										
+A	factY	bin				0.7482229871479182	0.7532229871479182	110	True										
+A	factY	bin				0.7532229871479182	0.7582229871479182	74	True										
+A	factY	bin				0.7582229871479182	0.7632229871479183	49	True										
+A	factY	bin				0.7632229871479183	0.7682229871479183	48	True										
+A	factY	bin				0.7682229871479183	0.7732229871479183	30	True										
+A	factY	bin				0.7732229871479183	0.7782229871479183	20	True										
+A	factY	bin				0.7782229871479183	0.7832229871479183	20	True										
+A	factY	bin				0.7832229871479183	0.7882229871479183	10	True										
+A	factY	bin				0.7882229871479183	0.7932229871479183	14	True										
+A	factY	bin				0.7932229871479183	0.7982229871479183	2	True										
+A	factY	bin				0.7982229871479183	0.8032229871479183	7	True										
+A	factY	bin				0.8032229871479183	0.8082229871479183	1	True										
+A	factY	bin				0.8082229871479183	0.8132229871479183	1	True										
+A	factY	bin				0.8132229871479183	0.8182229871479183	2	True										
+A	factY	bin				0.8182229871479183	0.8232229871479183	0	True										
+A	factY	observed								0.6632296194441127									results/G/G_H1.tsv:2
+A	factY	p								0.7231276872312768									results/G/G_H1.tsv:2
+A	factY	B								10000									results/G/G_H1.tsv:2
+A	factY	n_at_or_above								7231									results/G/G_H1.tsv:2
+A	factY	n_g1								10									results/G/G_H1.tsv:2
+A	factY	n_g0								18									results/G/G_H1.tsv:2
+A	factY	n_q_lt_01								0									results/G/G_H1.tsv:2
+A	factY	n_tested								114									results/G/G_H1.tsv:2
+A	factY	array								0002_main__primary__P1__factY_panel_null.npz									main|primary|P1|factY
+A	factY	text																observed 0.663 / p = 0.7231	
+A	factY	text																A  Y term	
+A	factY	text																10 lines with Y genes, 18 with neither	
+A	factY	text																no compound at q < 0.1 of 114 tested	
+B	factX	bin				0.40689877102067934	0.41189877102067934	0	False										
+B	factX	bin				0.41189877102067934	0.41689877102067935	1	False										
+B	factX	bin				0.41689877102067935	0.42189877102067935	1	False										
+B	factX	bin				0.42189877102067935	0.42689877102067936	0	False										
+B	factX	bin				0.42689877102067936	0.43189877102067936	1	False										
+B	factX	bin				0.43189877102067936	0.43689877102067937	0	False										
+B	factX	bin				0.43689877102067937	0.44189877102067937	0	False										
+B	factX	bin				0.44189877102067937	0.4468987710206794	2	False										
+B	factX	bin				0.4468987710206794	0.4518987710206794	0	False										
+B	factX	bin				0.4518987710206794	0.4568987710206794	1	False										
+B	factX	bin				0.4568987710206794	0.46189877102067933	1	False										
+B	factX	bin				0.46189877102067933	0.46689877102067934	1	False										
+B	factX	bin				0.46689877102067934	0.47189877102067934	1	False										
+B	factX	bin				0.47189877102067934	0.47689877102067935	1	False										
+B	factX	bin				0.47689877102067935	0.48189877102067935	5	False										
+B	factX	bin				0.48189877102067935	0.48689877102067936	2	False										
+B	factX	bin				0.48689877102067936	0.49189877102067936	3	False										
+B	factX	bin				0.49189877102067936	0.49689877102067936	1	False										
+B	factX	bin				0.49689877102067936	0.5018987710206794	1	False										
+B	factX	bin				0.5018987710206794	0.5068987710206794	3	False										
+B	factX	bin				0.5068987710206794	0.5118987710206794	4	False										
+B	factX	bin				0.5118987710206794	0.5168987710206794	1	False										
+B	factX	bin				0.5168987710206794	0.5218987710206794	4	False										
+B	factX	bin				0.5218987710206794	0.5268987710206794	2	False										
+B	factX	bin				0.5268987710206794	0.5318987710206794	9	False										
+B	factX	bin				0.5318987710206794	0.5368987710206794	10	False										
+B	factX	bin				0.5368987710206794	0.5418987710206793	11	False										
+B	factX	bin				0.5418987710206793	0.5468987710206794	6	False										
+B	factX	bin				0.5468987710206794	0.5518987710206793	16	False										
+B	factX	bin				0.5518987710206793	0.5568987710206794	17	False										
+B	factX	bin				0.5568987710206794	0.5618987710206793	19	False										
+B	factX	bin				0.5618987710206793	0.5668987710206794	15	False										
+B	factX	bin				0.5668987710206794	0.5718987710206793	23	False										
+B	factX	bin				0.5718987710206793	0.5768987710206793	31	False										
+B	factX	bin				0.5768987710206793	0.5818987710206793	23	False										
+B	factX	bin				0.5818987710206793	0.5868987710206793	31	False										
+B	factX	bin				0.5868987710206793	0.5918987710206793	29	False										
+B	factX	bin				0.5918987710206793	0.5968987710206793	43	False										
+B	factX	bin				0.5968987710206793	0.6018987710206793	47	False										
+B	factX	bin				0.6018987710206793	0.6068987710206794	50	False										
+B	factX	bin				0.6068987710206794	0.6118987710206794	36	False										
+B	factX	bin				0.6118987710206794	0.6168987710206794	52	False										
+B	factX	bin				0.6168987710206794	0.6218987710206794	70	False										
+B	factX	bin				0.6218987710206794	0.6268987710206794	84	False										
+B	factX	bin				0.6268987710206794	0.6318987710206794	83	False										
+B	factX	bin				0.6318987710206794	0.6368987710206794	110	False										
+B	factX	bin				0.6368987710206794	0.6418987710206794	113	False										
+B	factX	bin				0.6418987710206794	0.6468987710206794	140	False										
+B	factX	bin				0.6468987710206794	0.6518987710206794	158	False										
+B	factX	bin				0.6518987710206794	0.6568987710206794	188	False										
+B	factX	bin				0.6568987710206794	0.6618987710206794	194	False										
+B	factX	bin				0.6618987710206794	0.6668987710206794	219	False										
+B	factX	bin				0.6668987710206794	0.6718987710206794	256	False										
+B	factX	bin				0.6718987710206794	0.6768987710206793	240	False										
+B	factX	bin				0.6768987710206793	0.6818987710206794	302	False										
+B	factX	bin				0.6818987710206794	0.6868987710206793	361	False										
+B	factX	bin				0.6868987710206793	0.6918987710206793	416	False										
+B	factX	bin				0.6918987710206793	0.6968987710206793	433	False										
+B	factX	bin				0.6968987710206793	0.7018987710206793	511	False										
+B	factX	bin				0.7018987710206793	0.7068987710206793	559	False										
+B	factX	bin				0.7068987710206793	0.7118987710206793	583	False										
+B	factX	bin				0.7118987710206793	0.7168987710206793	604	False										
+B	factX	bin				0.7168987710206793	0.7218987710206793	599	False										
+B	factX	bin				0.7218987710206793	0.7268987710206793	474	False										
+B	factX	bin				0.7268987710206793	0.7318987710206794	515	False										
+B	factX	bin				0.7318987710206794	0.7368987710206794	471	False										
+B	factX	bin				0.7368987710206794	0.7418987710206794	353	False										
+B	factX	bin				0.7418987710206794	0.7468987710206794	334	False										
+B	factX	bin				0.7468987710206794	0.7518987710206794	235	True										
+B	factX	bin				0.7518987710206794	0.7568987710206794	222	True										
+B	factX	bin				0.7568987710206794	0.7618987710206794	181	True										
+B	factX	bin				0.7618987710206794	0.7668987710206794	116	True										
+B	factX	bin				0.7668987710206794	0.7718987710206794	100	True										
+B	factX	bin				0.7718987710206794	0.7768987710206794	62	True										
+B	factX	bin				0.7768987710206794	0.7818987710206794	59	True										
+B	factX	bin				0.7818987710206794	0.7868987710206794	31	True										
+B	factX	bin				0.7868987710206794	0.7918987710206794	43	True										
+B	factX	bin				0.7918987710206794	0.7968987710206794	29	True										
+B	factX	bin				0.7968987710206794	0.8018987710206794	13	True										
+B	factX	bin				0.8018987710206794	0.8068987710206794	12	True										
+B	factX	bin				0.8068987710206794	0.8118987710206793	8	True										
+B	factX	bin				0.8118987710206793	0.8168987710206794	6	True										
+B	factX	bin				0.8168987710206794	0.8218987710206793	3	True										
+B	factX	bin				0.8218987710206793	0.8268987710206793	2	True										
+B	factX	bin				0.8268987710206793	0.8318987710206793	0	True										
+B	factX	bin				0.8318987710206793	0.8368987710206793	1	True										
+B	factX	bin				0.8368987710206793	0.8418987710206793	1	True										
+B	factX	bin				0.8418987710206793	0.8468987710206793	0	True										
+B	factX	bin				0.8468987710206793	0.8518987710206793	1	True										
+B	factX	bin				0.8518987710206793	0.8568987710206794	0	True										
+B	factX	bin				0.8568987710206794	0.8618987710206794	1	True										
+B	factX	bin				0.8618987710206794	0.8668987710206794	0	True										
+B	factX	observed								0.7469062400830802									results/G/G_H1.tsv:3
+B	factX	p								0.1126887311268873									results/G/G_H1.tsv:3
+B	factX	B								10000									results/G/G_H1.tsv:3
+B	factX	n_at_or_above								1126									results/G/G_H1.tsv:3
+B	factX	n_g1								13									results/G/G_H1.tsv:3
+B	factX	n_g0								18									results/G/G_H1.tsv:3
+B	factX	n_q_lt_01								0									results/G/G_H1.tsv:3
+B	factX	n_tested								114									results/G/G_H1.tsv:3
+B	factX	array								0004_main__primary__P1__factX_panel_null.npz									main|primary|P1|factX
+B	factX	text																observed 0.747 / p = 0.1127	
+B	factX	text																B  XIST term	
+B	factX	text																13 lines with XIST, 18 with neither	
+B	factX	text																no compound at q < 0.1 of 114 tested	
+C	TP53	bin				0.6862612727029913	0.6912612727029913	0	False										
+C	TP53	bin				0.6912612727029913	0.6962612727029913	2	False										
+C	TP53	bin				0.6962612727029913	0.7012612727029913	5	False										
+C	TP53	bin				0.7012612727029913	0.7062612727029913	6	False										
+C	TP53	bin				0.7062612727029913	0.7112612727029913	19	False										
+C	TP53	bin				0.7112612727029913	0.7162612727029913	20	False										
+C	TP53	bin				0.7162612727029913	0.7212612727029913	38	False										
+C	TP53	bin				0.7212612727029913	0.7262612727029913	63	False										
+C	TP53	bin				0.7262612727029913	0.7312612727029913	120	False										
+C	TP53	bin				0.7312612727029913	0.7362612727029914	179	False										
+C	TP53	bin				0.7362612727029914	0.7412612727029912	234	False										
+C	TP53	bin				0.7412612727029912	0.7462612727029914	304	False										
+C	TP53	bin				0.7462612727029914	0.7512612727029913	390	False										
+C	TP53	bin				0.7512612727029913	0.7562612727029913	490	False										
+C	TP53	bin				0.7562612727029913	0.7612612727029913	550	False										
+C	TP53	bin				0.7612612727029913	0.7662612727029913	641	False										
+C	TP53	bin				0.7662612727029913	0.7712612727029913	698	False										
+C	TP53	bin				0.7712612727029913	0.7762612727029913	748	False										
+C	TP53	bin				0.7762612727029913	0.7812612727029913	729	False										
+C	TP53	bin				0.7812612727029913	0.7862612727029913	668	False										
+C	TP53	bin				0.7862612727029913	0.7912612727029913	641	False										
+C	TP53	bin				0.7912612727029913	0.7962612727029913	623	False										
+C	TP53	bin				0.7962612727029913	0.8012612727029913	548	False										
+C	TP53	bin				0.8012612727029913	0.8062612727029913	475	False										
+C	TP53	bin				0.8062612727029913	0.8112612727029913	386	False										
+C	TP53	bin				0.8112612727029913	0.8162612727029913	316	True										
+C	TP53	bin				0.8162612727029913	0.8212612727029913	258	True										
+C	TP53	bin				0.8212612727029913	0.8262612727029913	207	True										
+C	TP53	bin				0.8262612727029913	0.8312612727029913	162	True										
+C	TP53	bin				0.8312612727029913	0.8362612727029913	137	True										
+C	TP53	bin				0.8362612727029913	0.8412612727029913	100	True										
+C	TP53	bin				0.8412612727029913	0.8462612727029913	65	True										
+C	TP53	bin				0.8462612727029913	0.8512612727029913	52	True										
+C	TP53	bin				0.8512612727029913	0.8562612727029913	38	True										
+C	TP53	bin				0.8562612727029913	0.8612612727029914	34	True										
+C	TP53	bin				0.8612612727029914	0.8662612727029914	22	True										
+C	TP53	bin				0.8662612727029914	0.8712612727029914	12	True										
+C	TP53	bin				0.8712612727029914	0.8762612727029913	8	True										
+C	TP53	bin				0.8762612727029913	0.8812612727029914	6	True										
+C	TP53	bin				0.8812612727029914	0.8862612727029913	1	True										
+C	TP53	bin				0.8862612727029913	0.8912612727029913	2	True										
+C	TP53	bin				0.8912612727029913	0.8962612727029913	1	True										
+C	TP53	bin				0.8962612727029913	0.9012612727029913	0	True										
+C	TP53	bin				0.9012612727029913	0.9062612727029913	1	True										
+C	TP53	bin				0.9062612727029913	0.9112612727029913	0	True										
+C	TP53	bin				0.9112612727029913	0.9162612727029913	0	True										
+C	TP53	bin				0.9162612727029913	0.9212612727029913	0	True										
+C	TP53	bin				0.9212612727029913	0.9262612727029913	1	True										
+C	TP53	bin				0.9262612727029913	0.9312612727029913	0	True										
+C	TP53	observed								0.8112693853968452									results/G/G_controls.tsv:2
+C	TP53	p								0.14238576142385762									results/G/G_controls.tsv:2
+C	TP53	B								10000									results/G/G_controls.tsv:2
+C	TP53	n_at_or_above								1423									results/G/G_controls.tsv:2
+C	TP53	n_g1								21									results/G/G_controls.tsv:2
+C	TP53	n_g0								11									results/G/G_controls.tsv:2
+C	TP53	n_q_lt_01								6									results/G/G_controls.tsv:2
+C	TP53	n_tested								114									results/G/G_controls.tsv:2
+C	TP53	array								0020_exposure__TP53_status_comparison_exposure__P1_panel_null.npz									exposure|TP53 status (comparison exposure)|P1
+C	TP53	text																observed 0.811 / p = 0.1424	
+C	TP53	text																C  TP53 status (post hoc)	
+C	TP53	text																21 mutant, 11 wild-type lines	
+C	TP53	text																6 compounds at q < 0.1 of 114 tested	
+D	factY	interval	P1	level3	primary						-10.977287319962509	-29.083136404015633	7.128561764090613	-32.78811670165107	10.833542061726051	41	term		results/G/G_H3.tsv:2
+D	factY	interval	P1	level5	S12						7.950506899668623	-3.046930017317511	18.947943816654757	-5.297323628396984	21.19833742773423	41	GRAY		results/G/G_H3.tsv:3
+D	factY	interval	P1b	level3	primary						-22.407892090034373	-47.796166261809894	2.9803820817411544	-52.99134132157784	8.175557141509096	41	GRAY		results/G/G_H3.tsv:8
+D	factY	interval	P1b	level5	S12						5.152870883390486	-5.837110730784495	16.142852497565467	-8.085978771320438	18.39172053810141	41	GRAY		results/G/G_H3.tsv:9
+D	factY	interval	P2	level3	primary						-23.187495931297388	-50.50522352942219	4.130231666827404	-56.058248496832334	9.683256634237555	39	GRAY		results/G/G_H3.tsv:14
+D	factY	interval	P2	level5	S12						-1.418362418541484	-13.916140858667838	11.07941602158487	-16.45663312567272	13.619908288589754	39	GRAY		results/G/G_H3.tsv:15
+D	factX	interval	P1	level3	primary						1.6048780911554037	-16.099083531851473	19.308839714162282	-19.721826033395125	22.93158221570593	41	term		results/G/G_H3.tsv:4
+D	factX	interval	P1	level5	S12						6.267200188909974	-7.666520784519925	20.20092116233987	-10.517763023403706	23.052163401223652	41	GRAY		results/G/G_H3.tsv:5
+D	factX	interval	P1b	level3	primary						1.2539778162401338	-21.39611847679469	23.90407410927496	-26.030983161442435	28.538938793922703	41	GRAY		results/G/G_H3.tsv:10
+D	factX	interval	P1b	level5	S12						0.44755960696887376	-14.014243909511535	14.90936312344928	-16.973547107505517	17.868666321443264	41	GRAY		results/G/G_H3.tsv:11
+D	factX	interval	P2	level3	primary						-9.771463369100902	-38.536050934522635	18.99312419632083	-44.38318709745176	24.84026035924996	39	GRAY		results/G/G_H3.tsv:16
+D	factX	interval	P2	level5	S12						4.144524624421783	-7.169810016215767	15.458859265059335	-9.469737143148782	17.75878639199235	39	GRAY		results/G/G_H3.tsv:17
+D		margin								20.0									results/G/G_H3.tsv:equivalence
+D		row_label	P1	head														1.0 µM, 24 h (primary panel)	analysis_plan/G_plan.md:98
+D		row_label	P1	level3														normalised expression (level 3)	
+D		row_label	P1	level5														z-score signature (level 5)	
+D		row_label	P1b	head														0.1 µM, 24 h	analysis_plan/G_plan.md:98
+D		row_label	P1b	level3														normalised expression (level 3)	
+D		row_label	P1b	level5														z-score signature (level 5)	
+D		row_label	P2	head														10 µM, 6 h	analysis_plan/G_plan.md:98
+D		row_label	P2	level3														normalised expression (level 3)	
+D		row_label	P2	level5														z-score signature (level 5)	

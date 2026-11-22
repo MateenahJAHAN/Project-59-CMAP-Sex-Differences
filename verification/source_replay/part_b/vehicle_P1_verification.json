@@ -1,0 +1,58 @@
+[
+  {
+    "file": "X1_H1.tsv",
+    "rows": 4,
+    "replayed_sha256": "cd2ed274752b7afcb2a6ddac3e815afca32695f96a8ef689dfdea95fa5708224",
+    "archived_sha256": "cd2ed274752b7afcb2a6ddac3e815afca32695f96a8ef689dfdea95fa5708224",
+    "exact": true
+  },
+  {
+    "file": "X1_calibration_rows.tsv",
+    "rows": 1200,
+    "replayed_sha256": "1cd3914618283a80ac29cdc8a37a779d1d8ae8253c74262cf97ec2c67d965b63",
+    "archived_sha256": "1cd3914618283a80ac29cdc8a37a779d1d8ae8253c74262cf97ec2c67d965b63",
+    "exact": true
+  },
+  {
+    "file": "X1_calibration_summary.tsv",
+    "rows": 6,
+    "replayed_sha256": "b97b53b164a3258c8a00c8a6aab26acebadcc8126206b1c1aa03a45362adf245",
+    "archived_sha256": "b97b53b164a3258c8a00c8a6aab26acebadcc8126206b1c1aa03a45362adf245",
+    "exact": true
+  },
+  {
+    "file": "X1_common_vector_by_compound.tsv",
+    "rows": 342,
+    "replayed_sha256": "1d72a00ce43b7bc12e23cb83f6504bab4f2cc9a28b0c857a9d68c80b85a6cf70",
+    "archived_sha256": "1d72a00ce43b7bc12e23cb83f6504bab4f2cc9a28b0c857a9d68c80b85a6cf70",
+    "exact": true
+  },
+  {
+    "file": "X1_common_vector_summary.tsv",
+    "rows": 3,
+    "replayed_sha256": "bb66bf4c8e22137dd19dfa5f77722e9bd2fe6fc076839a2ddcf287fccd4b9137",
+    "archived_sha256": "bb66bf4c8e22137dd19dfa5f77722e9bd2fe6fc076839a2ddcf287fccd4b9137",
+    "exact": true
+  },
+  {
+    "file": "X1_confirmatory_X_compounds.tsv",
+    "rows": 11,
+    "replayed_sha256": "6c19750bdfef8197e740e50bc1fd38f35f0e6159b03345b7ef71ec62c546d203",
+    "archived_sha256": "6c19750bdfef8197e740e50bc1fd38f35f0e6159b03345b7ef71ec62c546d203",
+    "exact": true
+  },
+  {
+    "file": "X1_per_compound.tsv",
+    "rows": 460,
+    "replayed_sha256": "e251632f43c895500041b47f0c36aa226ccf396f0561274e23b118853f24d74e",
+    "archived_sha256": "e251632f43c895500041b47f0c36aa226ccf396f0561274e23b118853f24d74e",
+    "exact": true
+  },
+  {
+    "file": "X1_tensors.tsv",
+    "rows": 3,
+    "replayed_sha256": "3ab074f1f5cd8790b22661285a5e7b113d8dc46aafe5ebef5223b6be8e19cfc3",
+    "archived_sha256": "3ab074f1f5cd8790b22661285a5e7b113d8dc46aafe5ebef5223b6be8e19cfc3",
+    "exact": true
+  }
+]

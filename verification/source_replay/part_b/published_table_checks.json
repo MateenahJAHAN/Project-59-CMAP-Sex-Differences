@@ -1,0 +1,30 @@
+[
+  {
+    "file": "part_b_compounds.tsv",
+    "rows": 232,
+    "candidate_sha256": "af35124be44b0011ad7e52f609db637f654c55faed4a40ad67853fe7800b391c",
+    "published_sha256": "af35124be44b0011ad7e52f609db637f654c55faed4a40ad67853fe7800b391c",
+    "bytes_equal": true
+  },
+  {
+    "file": "part_b_controls.tsv",
+    "rows": 2,
+    "candidate_sha256": "6854872cce397002a68c7bde3f654cfee5f11adb31d811c4c70736478b37a1e4",
+    "published_sha256": "6854872cce397002a68c7bde3f654cfee5f11adb31d811c4c70736478b37a1e4",
+    "bytes_equal": true
+  },
+  {
+    "file": "part_b_h1.tsv",
+    "rows": 2,
+    "candidate_sha256": "1ab0a1b6b13428a70c95e7aef3ab6167f29c14c5d4a5fe98c0acf58410defaee",
+    "published_sha256": "1ab0a1b6b13428a70c95e7aef3ab6167f29c14c5d4a5fe98c0acf58410defaee",
+    "bytes_equal": true
+  },
+  {
+    "file": "part_b_h3.tsv",
+    "rows": 2,
+    "candidate_sha256": "3334406a4b0c702613b8d5babd1dc408686984ba237ed555c078dac4ff84816d",
+    "published_sha256": "3334406a4b0c702613b8d5babd1dc408686984ba237ed555c078dac4ff84816d",
+    "bytes_equal": true
+  }
+]

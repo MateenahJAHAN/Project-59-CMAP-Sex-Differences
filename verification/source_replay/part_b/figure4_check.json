@@ -1,0 +1,42 @@
+{
+  "pdf": {
+    "candidate": "e0b4a4508d4284acb82e29b8cd5b9a949f9ba3c2b79bb0fed7b356a2f2265fb3",
+    "published": "e0b4a4508d4284acb82e29b8cd5b9a949f9ba3c2b79bb0fed7b356a2f2265fb3",
+    "bytes_identical": true
+  },
+  "png": {
+    "candidate": "09129d2055f6db9db03d5d057504e8affd6e49a07e9a90e707e90a6f7b748dcc",
+    "published": "09129d2055f6db9db03d5d057504e8affd6e49a07e9a90e707e90a6f7b748dcc",
+    "bytes_identical": true,
+    "pixels_identical": true
+  },
+  "plotted_table": {
+    "candidate": "be22f88447194da791f6bd4b5955e139792b8469acae4ab6727b8e4bbcf6f700",
+    "frozen": "be22f88447194da791f6bd4b5955e139792b8469acae4ab6727b8e4bbcf6f700",
+    "bytes_identical": true,
+    "data_rows": 274
+  },
+  "permutation_nulls": [
+    {
+      "file": "0002_main__primary__P1__factY_panel_null.npz",
+      "draws": 10000,
+      "observed": 0.6632296194441127,
+      "p": 0.7231276872312768,
+      "member_arrays_exact": true
+    },
+    {
+      "file": "0004_main__primary__P1__factX_panel_null.npz",
+      "draws": 10000,
+      "observed": 0.7469062400830802,
+      "p": 0.1126887311268873,
+      "member_arrays_exact": true
+    },
+    {
+      "file": "0020_exposure__TP53_status_comparison_exposure__P1_panel_null.npz",
+      "draws": 10000,
+      "observed": 0.8112693853968452,
+      "p": 0.14238576142385762,
+      "member_arrays_exact": true
+    }
+  ]
+}

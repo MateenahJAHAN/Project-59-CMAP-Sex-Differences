@@ -15,14 +15,14 @@ The control results, membership checks and SHA-256 comparisons are provided as t
 
 ## Reproduction and restart
 
-Run `python3 verify.py` to check the integrity of this package. The [LINCS analysis code and configuration](../../../analysis/lincs/) are included in this repository. To rerun the fits, provide the original Part B analysis engine at commit `87640df15a73ac1f2ad65191baee1943cc938d7e`, the source data specified in its configuration, and the fresh response and label directories. The scripts accept paths on the command line.
+Run `python3 verify.py` to check the integrity of this package. The 15 [LINCS analysis modules](../../../analysis/lincs/src/G/) match the frozen code. The [public configuration](../../../analysis/lincs/config/) uses the same numerical settings. The complete analysis checkout at commit `87640df15a73ac1f2ad65191baee1943cc938d7e` supplies the input manifest and preregistration tag. Provide that checkout, its specified data, and the rebuilt response and label directories to rerun the fits. The scripts accept paths on the command line.
 
 ```sh
 python join_impact.py --engine ENGINE --rebuild REBUILD --output CHECKS
 python direct_primary.py --engine ENGINE --rebuild REBUILD --output PRIMARY
 ```
 
-For the full frozen-plan run, the engine uses `src/G/run_g.py` in real-data mode, the `partB-prereg-v1` tag and `analysis_plan/G_plan.md`, with the matching SHA-256 supplied in `P59_UNBLIND_PLAN_SHA256`. Retain the scratch results if interrupted and restart that stage into an empty output directory. The permutation count for the main contrasts is 10,000. The complete sensitivity and exploratory analyses were still running at this checkpoint.
+For the full frozen-plan run, the engine uses `src/G/run_g.py` in real-data mode, the `partB-prereg-v1` tag and `analysis_plan/G_plan.md`, with the matching SHA-256 supplied in `P59_UNBLIND_PLAN_SHA256`. Retain the scratch results if interrupted and restart that stage into an empty output directory. The permutation count for the main contrasts is 10,000.
 
 ## Primary estimates from the fresh join
 
@@ -39,3 +39,11 @@ The rebuilt line table and expression tensors reproduced [all 30,000 permutation
 ## Calibration and precision
 
 The [nine calibration analyses](G_calibration_summary.tsv) reproduced all [1,200 pseudo-label rows](G_calibration.tsv) and all [46 historical-control rows](G_calibration_replay.tsv) exactly. The [two positive controls](G_gates.tsv) and the [precision estimates](G_E3_precision_labelfree.tsv) also matched.
+
+## Vehicle referencing
+
+In the primary panel, the exploratory XIST test gave p = 0.376 when each treated well was compared with vehicle wells on the same plate. Subtracting a single vehicle signature per line yielded p = 0.0090, with 20 nominally significant compounds and none at q < 0.1. The normalization changes the panel result. All [four contrasts](X1_H1.tsv), 460 compound rows, and 1,200 calibration rows matched the original files.
+
+## Registered model and Figure 4 files
+
+All [110 captured outputs](capture_files.tsv) matched byte for byte. Of the [35 model files](model_files.tsv), 32 were byte-identical, the gene table differed only in its gzip header, and two metadata tables recorded the new file paths and run time. The [four published tables](published_table_checks.json), [274 plotted values and annotations](fig4_partB_plotted.tsv), and [Figure 4 PDF](../../../manuscript/figures/fig4_partB.pdf) were byte-identical.

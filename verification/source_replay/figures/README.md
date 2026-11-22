@@ -7,6 +7,7 @@ The [source comparison](source_figure_comparison.json) checks every plotted fiel
 | 1. Study design | The schematic has six labelled steps. The rebuilt PDF matches the release. |
 | 2. Donor labels and expression | All 124 plotted rows and the PDF match. The rerun references its own source tables and its newly generated marker list. |
 | 3. Agreement across sources | All 232 plotted rows reproduced, including every line and every contingency-table count. The six sci-Plex line–experiment rows are listed in a different order. The figure PDF is byte-identical. |
+| 4. Drug response | The rebuilt figure, all 274 plotted rows, 30,000 permutation draws, and all 12 estimates and intervals matched. [Null distributions](../part_b/figure4_nulls_check.json) · [Estimates](../part_b/figure4_intervals.tsv) |
 | S1. Background RNA | All 180 plotted rows and the PDF reproduced from the plate and cell counts. |
 | S2. A549 | All 36 plotted rows and the PDF reproduced from the depth curve and cross-culture comparisons. |
 
