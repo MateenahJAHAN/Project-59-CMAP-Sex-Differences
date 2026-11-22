@@ -1,0 +1,10 @@
+{
+  "replicate": 0,
+  "restored_in_new_process": true,
+  "scenarios": 26,
+  "planted_rows": 120,
+  "changed_scenario_fields": [],
+  "changed_planted_fields": [],
+  "interval_array_value_count": 5750,
+  "intervals_exact": true
+}

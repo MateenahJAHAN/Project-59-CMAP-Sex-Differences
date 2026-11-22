@@ -1,0 +1,35 @@
+{
+  "compounds": 50,
+  "pairs": 86,
+  "compounds_with_no_eligible_lineage": 5,
+  "tested_compounds_without_a_hit": 18,
+  "tissue_results": 3784,
+  "archived": {
+    "C": 24,
+    "B": 23,
+    "A": 3
+  },
+  "replay": {
+    "B": 23,
+    "C": 23,
+    "A": 4
+  },
+  "original_total_evidence": 208,
+  "replay_total_evidence": 209,
+  "archived_individually_scored_tissue_results": 65,
+  "category_changes": 2,
+  "tested_lineage_changes": 0,
+  "compounds_with_different_evidence_counts": 13,
+  "archived_leading_NES": {
+    "compared": 65,
+    "missingness_changed": 0,
+    "above_1e-8": 64,
+    "max_abs": 0.07904717999641675
+  },
+  "archived_leading_FDR": {
+    "compared": 65,
+    "missingness_changed": 0,
+    "above_1e-8": 59,
+    "max_abs": 0.03990231353322794
+  }
+}

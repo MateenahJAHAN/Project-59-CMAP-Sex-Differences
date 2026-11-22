@@ -1,0 +1,11 @@
+{
+  "phase2_rows": 2200,
+  "phase3_rows": 3784,
+  "phase4_rows": 53064,
+  "phase4_pairs": 603,
+  "phase5_rows": 39996,
+  "phase5_D": 39376,
+  "phase5_C": 540,
+  "phase5_B": 79,
+  "phase5_A": 1
+}

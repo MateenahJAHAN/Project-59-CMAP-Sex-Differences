@@ -12,7 +12,8 @@ names=json.loads((BASE/'prepared/drugs.json').read_text())
 def outputs(n):
     files=sorted((Path(os.environ.get('P59_OUTPUT',BASE/'outputs'))/f'phase{n}').glob('*.csv.gz'))
     if len(files)!=50: raise RuntimeError(f'Phase {n}: {len(files)} / 50 files')
-    return pd.concat([pd.read_csv(f) for f in files],ignore_index=True)
+    rows = [pd.read_csv(f) for f in files]
+    return pd.concat([table for table in rows if not table.empty], ignore_index=True)
 def save(x,name):
     x.to_csv(OUT/(name+'.csv'),index=False)
 def counts(x):
@@ -53,7 +54,7 @@ def compare3():
     sig=t[t.FDR<.05].sort_values(['drug','lineage','FDR','tissue']).copy()
     sig['classification']=np.where(sig.is_home_tissue,'A','B')
     save(sig,'phase3_replayed_significant_tissues')
-    return {'compounds':len(x),'pairs':int(x.tested_lineages.sum()),'tissue_results':len(t),'archived':counts(x.original),'replay':counts(x.replay),'original_total_evidence':int((x.original_A+x.original_B).sum()),'replay_total_evidence':int((x.replay_A+x.replay_B).sum()),'archived_individually_scored_tissue_results':len(h),'category_changes':int((x.original!=x.replay).sum()),'tested_lineage_changes':int((x.original_lineages!=x.tested_lineages).sum()),'compounds_with_different_evidence_counts':int(((x.original_A!=x.replay_A)|(x.original_B!=x.replay_B)).sum()),'archived_leading_NES':dif(h.original_NES,h.replay_NES),'archived_leading_FDR':dif(h.original_FDR,h.replay_FDR)}
+    return {'compounds':len(x),'pairs':int(x.tested_lineages.sum()),'compounds_with_no_eligible_lineage':int((x.tested_lineages==0).sum()),'tested_compounds_without_a_hit':int(((x.tested_lineages>0)&(x.replay=='C')).sum()),'tissue_results':len(t),'archived':counts(x.original),'replay':counts(x.replay),'original_total_evidence':int((x.original_A+x.original_B).sum()),'replay_total_evidence':int((x.replay_A+x.replay_B).sum()),'archived_individually_scored_tissue_results':len(h),'category_changes':int((x.original!=x.replay).sum()),'tested_lineage_changes':int((x.original_lineages!=x.tested_lineages).sum()),'compounds_with_different_evidence_counts':int(((x.original_A!=x.replay_A)|(x.original_B!=x.replay_B)).sum()),'archived_leading_NES':dif(h.original_NES,h.replay_NES),'archived_leading_FDR':dif(h.original_FDR,h.replay_FDR)}
 def compare4():
     t=outputs(4);arc=pd.read_csv(next(REPO.glob('Phase4*/phase4_classifications_final.csv'))); a=arc[arc.category!='C'].copy()
     s=t[t.FDR<.05].copy(); s['category']=np.where(s.is_home_tissue,'A','B')
@@ -70,7 +71,7 @@ def compare4():
     for c in ['A','B']: rem=rem.rename(columns={c:'replay_'+c})
     x=x.merge(rem,how='left',on=['drug','lineage']).fillna(0);x['replay_C']=((x.replay_A+x.replay_B)==0).astype(int);save(x,'phase4_pair_counts')
     oldboth=every[every.original_significant]
-    return {'pairs':len(pai),'all_tested_sets':len(t),'original_categories':counts(arc.category),'archived_pair_signature_count_changes':int((arc.groupby(['drug','lineage']).n_sigs.first().sort_index()!=t.groupby(['drug','lineage']).n_sigs.first().sort_index()).sum()),'replay_categories':{**counts(s.category),'C':nc},'archive_only':int((every.original_significant&~every.replay_significant).sum()),'replay_only':int((~every.original_significant&every.replay_significant).sum()),'pairs_with_changed_counts':int(((x.A!=x.replay_A)|(x.B!=x.replay_B)|(x.C!=x.replay_C)).sum()),'original_signal_NES':dif(oldboth.original_NES,oldboth.NES),'original_signal_FDR':dif(oldboth.original_FDR,oldboth.FDR),'archive_lib_sex':counts(a.sex_direction),'replay_lib_sex':counts(s.sex_direction),'archived_lapatinib_lung':counts(a[(a.drug=='lapatinib')&(a.lineage=='lung')].sex_direction),'replayed_lapatinib_lung':counts(s[(s.drug=='lapatinib')&(s.lineage=='lung')].sex_direction)}
+    return {'pairs':len(pai),'all_tested_sets':len(t),'original_categories':counts(arc.category),'archived_pair_signature_count_changes':int((arc.groupby(['drug','lineage']).n_sigs.first().sort_index()!=t.groupby(['drug','lineage']).n_sigs.first().sort_index()).sum()),'replay_categories':{**counts(s.category),'C':nc},'archive_only':int((every.original_significant&~every.replay_significant).sum()),'replay_only':int((~every.original_significant&every.replay_significant).sum()),'no_hit_both':int(((x.C==1)&(x.replay_C==1)).sum()),'no_hit_archive_only':x.loc[(x.C==1)&(x.replay_C==0),['drug','lineage']].to_dict('records'),'no_hit_replay_only':x.loc[(x.C==0)&(x.replay_C==1),['drug','lineage']].to_dict('records'),'pairs_with_changed_counts':int(((x.A!=x.replay_A)|(x.B!=x.replay_B)|(x.C!=x.replay_C)).sum()),'original_signal_NES':dif(oldboth.original_NES,oldboth.NES),'original_signal_FDR':dif(oldboth.original_FDR,oldboth.FDR),'archive_lib_sex':counts(a.sex_direction),'replay_lib_sex':counts(s.sex_direction),'archived_lapatinib_lung':counts(a[(a.drug=='lapatinib')&(a.lineage=='lung')].sex_direction),'replayed_lapatinib_lung':counts(s[(s.drug=='lapatinib')&(s.lineage=='lung')].sex_direction)}
 def compare5():
     t=outputs(5);arc=pd.read_csv(next(REPO.glob('Phase5*/results/per_signature_categories.csv')))
     ks=['drug','lineage','tissue'];v=t.merge(arc,on=ks,suffixes=('_replay','_old'),validate='one_to_one',how='outer',indicator=True)

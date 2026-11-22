@@ -1,6 +1,6 @@
-"""Re-execute the original three Phase 3 functions for fostamatinib, including its original GCTX parser."""
+"""Re-execute the original three Phase 3 functions for the two compounds whose categories changed, including the original GCTX parser."""
 from pathlib import Path
-import ast, json, re, tempfile
+import argparse, ast, json, re, tempfile
 import numpy as np
 import pandas as pd
 import scipy, gseapy, h5py
@@ -9,8 +9,12 @@ from statsmodels.stats.multitest import multipletests
 from cmapPy.pandasGEXpress.parse import parse
 import replay as p
 
-p.init(); out=p.BASE/'phase3_literal';out.mkdir(exist_ok=True)
-drug='fostamatinib'
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--drug', choices=['fostamatinib','DL-PDMP'], default='fostamatinib')
+drug = parser.parse_args().drug
+p.init()
+out = p.BASE / ('phase3_literal' if drug == 'fostamatinib' else 'phase3_dl_pdmp')
+out.mkdir(exist_ok=True)
 sub=p.known[p.known.cmap_name==drug]
 ix=sorted(p.positions[s] for s in sub.sig_id)
 with tempfile.TemporaryDirectory() as tmp:
@@ -48,6 +52,8 @@ with tempfile.TemporaryDirectory() as tmp:
     # If literal did not give the replayed home hit, still test its affected lineage.
     full=pd.read_csv(p.BASE/'outputs/phase3'/f'{p.names.index(drug):02}.csv.gz')
     target_lines.update(full.loc[full.is_home_tissue & (full.FDR<.05),'lineage'])
+    if drug == 'DL-PDMP':
+        target_lines.update(full.loc[full.FDR < .05, 'lineage'])
     for lin,r in res['lineage_results'].items():
         frame=r['gsea'][['Term','NES','FDR q-val']].copy()
         frame['lineage']=lin;frame['scheme']='original_notebook';tables.append(frame)
@@ -78,7 +84,7 @@ with tempfile.TemporaryDirectory() as tmp:
     for col in ['cat_a_top','cat_b_top']:
         for lin,t,nes,fdr in ast.literal_eval(re.sub(r'np.float64\(([^)]+)\)',r'\1',row[col])):
             old.append(dict(lineage=lin,tissue=t,archived_NES=nes,archived_FDR=fdr))
-    match=match.merge(pd.DataFrame(old),on=['lineage','tissue'],how='left',validate='one_to_one')
+    match=match.merge(pd.DataFrame(old, columns=['lineage','tissue','archived_NES','archived_FDR']),on=['lineage','tissue'],how='left',validate='one_to_one')
     match.drop(columns='_merge').to_csv(out/'archived_and_literal_scores.csv',index=False)
     asc=[]
     for h in allgs.itertuples(index=False,name=None):
@@ -87,4 +93,7 @@ with tempfile.TemporaryDirectory() as tmp:
             asc.append({'scheme':scheme,'lineage':lin,'home_tissue':t,'NES':nes,'FDR':fdr,'FDR_below_.05':bool(fdr<.05)})
     pd.DataFrame(asc).to_csv(out/'home_tissue_scores.csv',index=False)
     summary={'drug':drug,'raw_signatures':len(sub),'passing_lineages':res['n_lineages_tested'],'literal_category':res['category'],'archived_category':row.category,'archive_recorded_A_B_counts':[int(row.cat_a_evidence_count),int(row.cat_b_evidence_count)],'archived_individual_numeric_pairs':len(old),'n_literal_tissue_results':len(original),'max_abs_NES_literal_vs_fast':float((match.NES-match.NES_literal).abs().max()),'max_abs_FDR_literal_vs_fast':float((match.FDR-match.FDR_literal).abs().max()),'tie_diagnostics':ctx,'home_calls_by_scheme':pd.DataFrame(asc).groupby('scheme')['FDR_below_.05'].sum().astype(int).to_dict(),'permutation_num':1000,'gsea_seed':42}
+    if drug == 'DL-PDMP':
+        target = allgs[(allgs.lineage == 'large_intestine') & (allgs.Term == 'Cells_EBV.transformed_lymphocytes')]
+        target.to_csv(out/'target_tissue_scores.csv', index=False)
     (out/'summary.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary),flush=True)

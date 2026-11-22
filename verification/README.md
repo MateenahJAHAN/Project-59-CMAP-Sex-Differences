@@ -2,6 +2,8 @@
 
 The tables report the November 2026 reruns behind the Project 59 revisions and a replay of the earlier CMap/GTEx screen. They contain study-level counts and test statistics, plus comparison labels for the earlier screen. [Manuscript](../manuscript/manuscript.pdf) · [Supplement](../manuscript/supplement.pdf)
 
+The [source-data replay](source_replay/) includes the complete Phase 2–5 analyses, three revised historical figures and tests of the manuscript drug responses from rebuilt inputs.
+
 ## Read the results
 
 | Analysis | What the tables show |

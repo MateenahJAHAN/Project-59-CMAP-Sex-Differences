@@ -1,0 +1,59 @@
+{
+  "pairs": 603,
+  "all_tested_sets": 53064,
+  "original_categories": {
+    "B": 8942,
+    "A": 237,
+    "C": 81
+  },
+  "archived_pair_signature_count_changes": 0,
+  "replay_categories": {
+    "B": 8924,
+    "A": 236,
+    "C": 81
+  },
+  "archive_only": 54,
+  "replay_only": 35,
+  "no_hit_both": 80,
+  "no_hit_archive_only": [
+    {
+      "drug": "fostamatinib",
+      "lineage": "placenta"
+    }
+  ],
+  "no_hit_replay_only": [
+    {
+      "drug": "thalidomide",
+      "lineage": "pancreas"
+    }
+  ],
+  "pairs_with_changed_counts": 56,
+  "original_signal_NES": {
+    "compared": 9179,
+    "missingness_changed": 0,
+    "above_1e-8": 2477,
+    "max_abs": 0.746735155469541
+  },
+  "original_signal_FDR": {
+    "compared": 9179,
+    "missingness_changed": 0,
+    "above_1e-8": 2643,
+    "max_abs": 0.669071187469185
+  },
+  "archive_lib_sex": {
+    "Female": 5104,
+    "Male": 4075
+  },
+  "replay_lib_sex": {
+    "Female": 5091,
+    "Male": 4069
+  },
+  "archived_lapatinib_lung": {
+    "Female": 7,
+    "Male": 1
+  },
+  "replayed_lapatinib_lung": {
+    "Female": 7,
+    "Male": 1
+  }
+}

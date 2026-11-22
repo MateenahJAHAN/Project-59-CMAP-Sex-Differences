@@ -1,12 +1,6 @@
 # Replaying the 50-compound CMap–GTEx screens
 
-Phase 2: 50/50 · Phase 3: 36/50 · Phase 4: 39/50 · Phase 5: 50/50. [Completion status](handoff_status.json) lists which full-cohort comparisons have finished. Each compressed CSV in [outputs](outputs/) contains the complete set of results for one compound. A partial collection can be resumed with the commands below.
-
-Phase 2 reproduced all 50 published compound labels and counts. AS-605240 liver was significant with adjustment across the 20 tissues with overlap (q = 0.02471) and fell above threshold after adjustment over all 44 eligible tissues (q = 0.05437). Zero of 50 compounds had a hit under the latter rule. [All tissue tests](comparison/phase2_all_tissue_tests.csv)
-
-Phase 5 reproduced all 39,996 compound–lineage–tissue categories, including the 620 tested comparisons. All 620 NES and FDR values matched using GSEApy 1.3.1. Version 1.2.1 changed 14 FDR values by at most 0.001 and left the calls intact. The alternate within-lineage panel in cell 60 reproduced the 1 A, 4 B and 45 C calls for all 50 archived names. Its selection tie at rank 50 admits either ZM-336372 or erastin. [Versions](comparison/phase5_software_versions.csv) · [Workbook checks](comparison/auxiliary_exports.json) · [Alternative panel](phase5_secondary/comparison.json) · [Phase 5 figure](figures/phase5_testable_tissues.png)
-
-Fostamatinib's Phase 3 home-tissue result was sensitive to the ordering of exactly tied ranks. Applying the original notebook functions and cmapPy reader yielded FDR 0.0410 for the blood/lymphoid lineage against EBV-transformed lymphocytes. Reordering only exact ties gave 0.0336, 0.0757 and 0.0745. The two stored individual scores for this compound apply to different tissues. [All home-set scores](phase3_literal/home_tissue_scores.csv)
+All four phases are complete. The categories reproduced for every compound in Phase 2 and for every tissue comparison in Phase 5. Two compounds changed Phase 3 category. Phase 4 retained most archived hits, with additional gains and losses at the enrichment threshold. [Full results and corrected figures](RESULTS.md) · [Per-compound outputs](outputs/)
 
 ## Reproduce
 
@@ -22,3 +16,5 @@ python figures.py
 ```
 
 The GSEA permutation seed was 42 throughout. Phase 3 used 1,000 permutations, Phase 4 used 200 and Phase 5 used 1,000. The input Level 5 signatures are the study's starting data. The assay bead files are upstream of these analyses.
+
+For the changing calls, run `python literal_phase3.py`, `python literal_phase3.py --drug DL-PDMP` and `python literal_phase4.py`. `python verify_outputs.py` audits all 200 per-compound files and the three figure tables.

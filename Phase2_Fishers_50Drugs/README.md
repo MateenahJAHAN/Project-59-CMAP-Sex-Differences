@@ -8,6 +8,8 @@ The 50-compound table records one own-tissue category assignment and 49 no-enric
 
 In [Phase 3](../Phase3_PerLineage_GSEA/phase3_classification_final.csv), AS-605240 had no significant enrichment in either of the two lineages tested.
 
+Replaying all 616,400 gene tests and 2,200 tissue comparisons reproduced the original classification for every compound. With all 44 eligible tissues in the correction, no compound had an adjusted value below 0.05. [Results for all 50 compounds](../verification/source_replay/phases2_5/comparison/phase2_compounds.csv)
+
 [Notebook](Project59_GTEx_DrugClassification.ipynb) · [Fifty-compound classifications](top50_drug_classification.csv) · [Vorinostat tissue results](vorinostat_tissue_enrichment.csv)
 
 [Next: within-lineage enrichment](../Phase3_PerLineage_GSEA/README.md) · [Fellowship overview](../README.md#how-the-analysis-developed)

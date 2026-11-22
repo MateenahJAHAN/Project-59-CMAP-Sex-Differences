@@ -1,0 +1,32 @@
+{
+  "drug": "DL-PDMP",
+  "raw_signatures": 277,
+  "passing_lineages": 2,
+  "literal_category": "B",
+  "archived_category": "C",
+  "archive_recorded_A_B_counts": [
+    0,
+    0
+  ],
+  "archived_individual_numeric_pairs": 0,
+  "n_literal_tissue_results": 88,
+  "max_abs_NES_literal_vs_fast": 2.220446049250313e-16,
+  "max_abs_FDR_literal_vs_fast": 1.1102230246251565e-16,
+  "tie_diagnostics": [
+    {
+      "lineage": "large_intestine",
+      "gene_count": 12276,
+      "count_in_tied_scores": 12187,
+      "distinct_scores": 213,
+      "n_eligible_sets": 44
+    }
+  ],
+  "home_calls_by_scheme": {
+    "original_notebook": 0,
+    "tied_order_11": 0,
+    "tied_order_29": 0,
+    "tied_order_47": 0
+  },
+  "permutation_num": 1000,
+  "gsea_seed": 42
+}

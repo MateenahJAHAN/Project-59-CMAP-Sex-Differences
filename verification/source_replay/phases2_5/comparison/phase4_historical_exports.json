@@ -1,0 +1,54 @@
+{
+  "both_csvs": {
+    "phase4_classifications_final (1).csv": "36822d221b751f9b930d939b1aca4b30699586bccf58c5fd1737f5cb4bec401c",
+    "phase4_classifications_final.csv": "169cc9f8c20058cf332b162118a47d86e0dd004e547f978692be8cb6736832bf"
+  },
+  "rows_each": 9260,
+  "columns": [
+    "drug",
+    "lineage",
+    "tissue",
+    "sex_direction",
+    "category",
+    "NES",
+    "FDR",
+    "n_sigs"
+  ],
+  "all_keyed_rows_and_all_fields_equal": true,
+  "captured_notebook_runs": [
+    {
+      "notebook": "=====.ipynb",
+      "source_cells": [
+        49,
+        51
+      ],
+      "function_cell_sha256": "47e0e6177be7b2209294729649a4f2eb902048d7bac1e79eb1b5ddba887f52d2",
+      "batch_cell_sha256": "fb283c365ff472725f68801a3995ceed01a014388a4efbb90bf500473f00e25e",
+      "logged_pairs": 603,
+      "pair_counts_different_from_either_csv": 0
+    },
+    {
+      "notebook": "Phase3_PerLineage_GSEA (3).ipynb",
+      "source_cells": [
+        49,
+        51
+      ],
+      "function_cell_sha256": "47e0e6177be7b2209294729649a4f2eb902048d7bac1e79eb1b5ddba887f52d2",
+      "batch_cell_sha256": "fb283c365ff472725f68801a3995ceed01a014388a4efbb90bf500473f00e25e",
+      "logged_pairs": 603,
+      "pair_counts_different_from_either_csv": 0
+    },
+    {
+      "notebook": "Phase3_PerLineage_GSEA new.ipynb",
+      "source_cells": [
+        49,
+        51
+      ],
+      "function_cell_sha256": "47e0e6177be7b2209294729649a4f2eb902048d7bac1e79eb1b5ddba887f52d2",
+      "batch_cell_sha256": "fb283c365ff472725f68801a3995ceed01a014388a4efbb90bf500473f00e25e",
+      "logged_pairs": 603,
+      "pair_counts_different_from_either_csv": 0
+    }
+  ],
+  "batch_logic": "Cell 51 initializes an empty classification list and calls the analysis and classification functions from cell 49 once per pair. Classification takes NES, FDR, set name and category together from a single significant GSEA row. Cell 52 reads the completed CSV for plotting and copies it; it does not merge numeric columns."
+}

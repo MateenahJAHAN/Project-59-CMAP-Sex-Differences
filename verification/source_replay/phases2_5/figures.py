@@ -26,13 +26,14 @@ def phase3():
     for y,r in t.iterrows():
         ax.plot([r.oldhits,r.newhits],[y,y],c='#899393',linewidth=1,zorder=1)
         ax.scatter(r.oldhits,y,marker='|',s=95,color='#111111',linewidth=1,zorder=2)
-        ax.scatter(r.newhits,y,s=23,color=colors[r.replay],zorder=3)
+        ax.scatter(r.newhits,y,s=23,facecolor=colors[r.replay] if r.tested_lineages else 'white',edgecolor=colors[r.replay],zorder=3)
     ax.set_yticks(np.arange(len(t)),t.drug);ax.set_xlim(-.8,max(t.newhits.max(),t.oldhits.max())*1.08+.5)
     ax.set_xlabel('Significant drug–lineage–tissue comparisons per compound (FDR < 0.05)')
     fig.text(.03,.97,'Phase 3   Enrichment within cell lineages',fontsize=17,fontweight='bold')
-    fig.text(.03,.942,'Each dot is one compound. A zero is plotted at zero. The archived count is marked by a tick.',fontsize=9)
-    handles=[Line2D([],[],marker='o',linestyle='',color=v,label=k) for k,v in [('Own tissue',colors['A']),('Other tissue only',colors['B']),('No enrichment',colors['C'])]]
-    fig.legend(handles=handles,loc='upper left',bbox_to_anchor=(.03,.932),frameon=False,ncol=3)
+    fig.text(.03,.942,'Dots show replay counts. Ticks show the archived counts.',fontsize=9)
+    handles=[Line2D([],[],marker='o',linestyle='',color=v,label=k) for k,v in [('Own tissue',colors['A']),('Other tissue only',colors['B']),('Tested, no enrichment',colors['C'])]]
+    handles.append(Line2D([], [], marker='o', linestyle='', markerfacecolor='white', markeredgecolor=colors['C'], label='No eligible lineage'))
+    fig.legend(handles=handles,loc='upper left',bbox_to_anchor=(.03,.932),frameon=False,ncol=4)
     save(fig,'phase3_within_lineage_counts')
 def phase4():
     all_t=pd.concat([pd.read_csv(f) for f in sorted((ROOT/'outputs/phase4').glob('*.csv.gz'))],ignore_index=True)

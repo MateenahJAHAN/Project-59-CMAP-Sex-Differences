@@ -9,6 +9,10 @@ In GTEx v8, positive `effsize` denotes higher expression in females. XIST (ENSG0
 - [Working notebook showing the initial split and correction](%3D%3D%3D%3D%3D.ipynb)
 - [Classification output](phase4_classifications_final.csv) · [Other saved export](phase4_classifications_final%20%281%29.csv) · [Per-compound category figure](phase4_stacked_per_drug.png)
 
-Both classification exports contain the same 9,260 drug–lineage–reference-set rows in different order (237 A, 8,942 B and 81 C). The Phase 3 table counts compounds, so its counts use a different denominator. The lapatinib lung example enriched seven female-biased sets among eight significant sets in that comparison.
+Both exports list the same 9,179 significant sets (237 own-tissue and 8,942 other-tissue). Each of the 81 pairs without a significant set contributes one additional placeholder row. The Phase 3 table counts compounds, so its counts use a different denominator. The lapatinib lung example enriched seven female-biased sets among eight significant sets in that comparison.
+
+The replay tested 53,064 split gene sets across 603 compound–lineage groups. Of the 9,179 archived hits, 54 fell above or at FDR 0.05 on replay. Another 35 crossed below it. In placenta lines treated with NVP-BEZ235, the female-biased minor salivary gland set had an archived FDR of 0.005 and a replay FDR of 0.503. With the same gene ranking, changing the permutation seed or increasing the permutation count moved it back below 0.05. [Changed calls](../verification/source_replay/phases2_5/comparison/phase4_changed_threshold_calls.csv) · [Permutation results](../verification/source_replay/phases2_5/phase4_literal/target_seed_tests.csv)
+
+![Fraction of tested GTEx reference sets enriched per compound](../verification/source_replay/phases2_5/figures/phase4_tested_reference_sets.png)
 
 [Next: signature categories](../Phase5_PerSignature_Categories/README.md) · [Fellowship overview](../README.md#how-the-analysis-developed)

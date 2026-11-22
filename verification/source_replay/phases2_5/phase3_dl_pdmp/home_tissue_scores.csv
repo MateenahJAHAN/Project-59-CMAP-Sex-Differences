@@ -1,0 +1,10 @@
+scheme,lineage,home_tissue,NES,FDR,FDR_below_.05
+original_notebook,lung,Lung,-0.9511147537140779,1.0,False
+original_notebook,large_intestine,Colon_Transverse,1.017963611477208,0.6993406889128094,False
+original_notebook,large_intestine,Colon_Sigmoid,0.9629744673141304,0.8122712594187298,False
+tied_order_11,large_intestine,Colon_Transverse,1.0089783484226456,0.71821432975706,False
+tied_order_11,large_intestine,Colon_Sigmoid,1.0,0.6655407035660861,False
+tied_order_29,large_intestine,Colon_Transverse,1.0328329805418475,0.6352970337932745,False
+tied_order_29,large_intestine,Colon_Sigmoid,0.9796464678127577,0.7291698634340954,False
+tied_order_47,large_intestine,Colon_Transverse,1.0616856008124531,0.4594936708860759,False
+tied_order_47,large_intestine,Colon_Sigmoid,1.0,0.7199367088607596,False
