@@ -18,7 +18,14 @@ The LINCS2020 analysis tested 114 compounds across 41 lines. The panel-level p-v
 
 [![LINCS2020 drug-response results and the TP53 comparison](manuscript/figures/fig4_partB.png)](manuscript/figures/fig4_partB.pdf)
 
-The notebooks below document the earlier CMap and GTEx screen.
+## Marker persistence in drug-treated cultures
+
+Across 58,259 eligible Tahoe line–wells, the two RNA markers retained their vehicle classification in 98.71% of treated wells when each cell line received equal weight. COLO 205 accounted for 773 of the 792 disagreements. External RNA and DNA assays showed stronger signal on the measured long arm of chromosome Y in that line. The arrays cannot locate the retained material. On two repeat plates, the autosomal expression responses of 24 lines showed little additional similarity between lines sharing a marker group (948 genes, difference in correlation 0.011, exact p = 0.204).
+
+This computational follow-up was prepared with Codex for review. [Follow-up manuscript and supplement (PDF)](manuscript/followups/marker_stability/marker_stability.pdf) · [Analyses and data](analysis/marker_stability/) · [COLO 205 source assays](analysis/marker_stability/independent_colo205/)
+
+[![COLO 205 RNA and DNA measurements across the two arms of chromosome Y](analysis/marker_stability/independent_colo205/colo205_rna_dna.png)](analysis/marker_stability/independent_colo205/README.md)
+
 
 ## How the analysis developed
 
