@@ -32,4 +32,25 @@ for name,expected in [('CCLE',(773,734,714)),('CMP',(1082,1031,1007))]:
     rr=[r for r in read('tables/str_fresh_bulk.tsv') if r['source']==name]
     assert (len(rr),sum(r['comparable']=='True' for r in rr),sum(r['agree']=='True' for r in rr))==expected
     assert all(r['call_changed']=='False' for r in rr)
+primary=receipt('primary_caller_comparison.json')
+assert len(primary)==33 and all(v['new_sha256']==v['old_sha256'] for v in primary.values())
+agg=receipt('tahoe_aggregate_comparison.json')
+assert agg['partial_tables']==7640 and not agg['different_partial_tables'] and not agg['per_shard_differences']
+assert len(agg['aggregate_outputs'])==21 and all(z['byte_identical'] for z in agg['aggregate_outputs'].values())
+raw=receipt('tahoe_aggregate_checks.json')['checks']
+assert raw['cells']==2205786 and raw['line_plate_pairs_equal_obs']==raw['line_plate_pairs']==700
+labels=read('tables/partA_local_label_audit_summary.tsv')
+assert any(r['n_labelled']=='49' and r['n_without_usual_pattern']=='27' for r in labels)
+bulk=read('tables/patterns_tahoe_bulk.tsv')
+assert len(bulk)==49 and sum(r['agree']=='True' for r in bulk)==47
+cross=read('tables/patterns_cross_atlas.tsv')
+assert len(cross)==47 and sum(r['match']=='True' for r in cross)==42
+assert sum(r['eligible']=='True' for r in cross)==41 and sum(r['eligible']==r['match']=='True' for r in cross)==40
+d=receipt('str_figure_inputs.json')
+assert sum(v['fields_compared'] for v in d['tables'].values())==14351
+assert not any(v['changed_fields'] for v in d['tables'].values())
+for r in read('tables/figure3_agreement_by_source.tsv'):
+    dataset=r['source'];rows=read('tables/figure3_supp_table_amelogenin_by_line.tsv')
+    counts={k:sum(x[dataset+'_vs_STR']==k for x in rows) for k in ['agree','type A','type B']}
+    assert int(r['n_compared'])==sum(counts.values()) and int(r['n_agree'])==counts['agree']
 print('All file checks and cohort, call, and STR counts passed.')

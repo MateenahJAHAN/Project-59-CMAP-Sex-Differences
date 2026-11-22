@@ -22,7 +22,7 @@ python join_impact.py --engine ENGINE --rebuild REBUILD --output CHECKS
 python direct_primary.py --engine ENGINE --rebuild REBUILD --output PRIMARY
 ```
 
-For the full frozen-plan run, the engine uses `src/G/run_g.py` in real-data mode, the `partB-prereg-v1` tag and `analysis_plan/G_plan.md`, with the matching SHA-256 supplied in `P59_UNBLIND_PLAN_SHA256`. Retain the scratch results if interrupted and restart that stage into an empty output directory. The permutation count for the main contrasts is 10,000. The two positive-control gates and both P1 marker calibration gates passed by this checkpoint. The remaining panel calibrations, complete sensitivity and exploratory tables, and the figure from the new null distributions were still running.
+For the full frozen-plan run, the engine uses `src/G/run_g.py` in real-data mode, the `partB-prereg-v1` tag and `analysis_plan/G_plan.md`, with the matching SHA-256 supplied in `P59_UNBLIND_PLAN_SHA256`. Retain the scratch results if interrupted and restart that stage into an empty output directory. The permutation count for the main contrasts is 10,000. The complete sensitivity and exploratory analyses were still running at this checkpoint.
 
 ## Primary estimates from the fresh join
 
@@ -35,3 +35,7 @@ The [three dosing conditions](X2all_idarubicin_conditions.tsv) reproduced cell f
 ## Figure 4
 
 The rebuilt line table and expression tensors reproduced [all 30,000 permutation draws](figure4_nulls.tsv.gz) in panels A–C and [all 12 effect estimates and confidence intervals](figure4_intervals.tsv) in panel D. The figure compares Y and XIST with TP53 mutation status on the same primary drug panel.
+
+## Calibration and precision
+
+The [nine calibration analyses](G_calibration_summary.tsv) reproduced all [1,200 pseudo-label rows](G_calibration.tsv) and all [46 historical-control rows](G_calibration_replay.tsv) exactly. The [two positive controls](G_gates.tsv) and the [precision estimates](G_E3_precision_labelfree.tsv) also matched.

@@ -1,0 +1,3 @@
+dataset	line	marker	n_cells	samples	pi_neg	lam_per_1k	background_per_1k	note
+EmeraldBay DMSO_T0 (exploratory)	CVCL_0023	Y	330	smp_803	0.35186281363900757	0.8046514899872419	0.058413450090560794	background = mean of DMSO_TF sample backgrounds
+EmeraldBay DMSO_T0 (exploratory)	CVCL_1724	XIST	257	smp_803	0.28948955589069447	0.3050962757974281	0.005682879611079567	background = mean of DMSO_TF sample backgrounds

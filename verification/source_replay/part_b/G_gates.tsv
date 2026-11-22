@@ -1,0 +1,12 @@
+gate	scale	tensor	panel	compound	n_lines	n_g1	n_g0	n_lineages	T_obs	p	rank	n_ranked	top_cut	beta_gene	panel_stat	panel_p	B	passes	dmso_T	dmso_p	dmso_rank_if_inserted	reproduces_frozen	frozen_source	beta_gene_level5	rank_level5	p_level5	term	mean_share_p_lt_005	n_pseudo
+PC1	level5	P1_resp.npy	P1	AMG-232	32.0	21.0	11.0	7.0	2.5597926362572916	0.0007999200079992001	1.0	114.0	5.0	-3.993739536578697	0.8742223577797187	0.0038996100389961006	10000.0	True	1.2127537349407953	0.0438956104389561	13.0	True	task D results/D/D_pc1_summary.tsv, P1 / TP53 (CMP)						
+K4	level3	R3_P1_d111	P1	AMG-232	32.0	21.0	11.0	7.0	2.8054551888344226	9.999000099990002e-05	1.0	114.0		-1.965314229834403			10000.0	True				True	task D2 results/D2/R3/D2_K4_summary.tsv	-3.993739595271449	1.0	0.00039996000399960006			
+calibration			P1															True				True	taskD2/R1/D2_calib_R1_F41_factY.tsv				factY	0.040782487191429906	200.0
+calibration			P1															True				True	taskD2/R1/D2_calib_R1_F41_factX.tsv				factX	0.03995614035087719	200.0
+calibration			P1															True				True	taskD/calib/D_calib_P1_annotated.tsv				annotated	0.0396329526803735	200.0
+calibration			P1b															True									factY	0.042880444366072995	100.0
+calibration			P1b															True									factX	0.04441632868982541	100.0
+calibration			P1b															True				True	taskD2/R2/D2_calib_R2_P1b_annotated.tsv				annotated	0.04315658614001059	100.0
+calibration			P2															True				True	taskD/calib/D_calib_P2_factY.tsv				factY	0.04322580645161292	100.0
+calibration			P2															True				True	taskD/calib/D_calib_P2_factX.tsv				factX	0.04317204301075269	100.0
+calibration			P2															True				True	taskD2/R2/D2_calib_R2_P2_annotated.tsv				annotated	0.04456989247311829	100.0

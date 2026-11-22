@@ -1,0 +1,591 @@
+{
+  "F1_agreement.tsv": {
+    "new_sha256": "f25ab404395b698bf0d1e020720d77980c96296be6982be5339bbce2f279f383",
+    "old_sha256": "fc943ac838f14192a0e1f75969d571e2f8cf340157c74a5c7137341af4c385a2",
+    "rows": 22,
+    "reference_rows": 22,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "subset",
+      "rule"
+    ],
+    "common_columns": 11,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "value": {
+        "rows": 1,
+        "max_absolute": 1.1102230246251565e-16
+      },
+      "abs_diff": {
+        "rows": 1,
+        "max_absolute": 1.1102230246251565e-16
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 1.1102230246251565e-16
+  },
+  "F1_ambient.tsv": {
+    "new_sha256": "ba9e5d6f6c9e02e841afb10a42c3852d808ada4c07bfc3887a368b3abfd0356f",
+    "old_sha256": "ba9e5d6f6c9e02e841afb10a42c3852d808ada4c07bfc3887a368b3abfd0356f",
+    "rows": 344,
+    "reference_rows": 344,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "marker"
+    ],
+    "common_columns": 10,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "F1_ambient_sensitivity_background.tsv": {
+    "new_sha256": "f5cff2499cae7f771a552558e0da034a9348e097603d591f96385c92e2fbbf18",
+    "old_sha256": "f5cff2499cae7f771a552558e0da034a9348e097603d591f96385c92e2fbbf18",
+    "rows": 139,
+    "reference_rows": 139,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "marker"
+    ],
+    "common_columns": 11,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "F1_consort.tsv": {
+    "new_sha256": "c3561760eaf370668f5f419177462244bc7d966aa9d6f56981c7bcc11caeebaf",
+    "old_sha256": "c3561760eaf370668f5f419177462244bc7d966aa9d6f56981c7bcc11caeebaf",
+    "rows": 18,
+    "reference_rows": 18,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset"
+    ],
+    "common_columns": 5,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "F1_cutoffs.tsv": {
+    "new_sha256": "d47e0fe3ca06d17a1043121b638cd0074f3af08e514b276936300f96f9820f7f",
+    "old_sha256": "b7a14afb27d07c5c83fe49c540a02c52c6ce714c69495bbff8dc5420d2bf8630",
+    "rows": 8,
+    "reference_rows": 8,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "source",
+      "score"
+    ],
+    "common_columns": 14,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "bandwidth": {
+        "rows": 4,
+        "max_absolute": 1.1102230246251565e-16
+      },
+      "mode1_density": {
+        "rows": 2,
+        "max_absolute": 5.551115123125783e-17
+      },
+      "mode2_density": {
+        "rows": 1,
+        "max_absolute": 2.7755575615628914e-17
+      },
+      "cut_density": {
+        "rows": 3,
+        "max_absolute": 3.469446951953614e-17
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 1.1102230246251565e-16
+  },
+  "F1_emerald_mosaic.tsv": {
+    "new_sha256": "2bba9651ce1a0e79ac23b40a01a07f5c47acb7c5309851758a60bc753b5325c9",
+    "old_sha256": "f40c0ee537b5dc883301e881991e8bf3c6872824995ae1cda5cbc4c6f1a4aa1b",
+    "rows": 63,
+    "reference_rows": 63,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "cell_name",
+      "marker"
+    ],
+    "common_columns": 49,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "pi_neg": {
+        "rows": 27,
+        "max_absolute": 3.219646771412954e-15
+      },
+      "lam_per_1k": {
+        "rows": 33,
+        "max_absolute": 1.27675647831893e-15
+      },
+      "loglik_gain": {
+        "rows": 22,
+        "max_absolute": 6.821210263296962e-13
+      },
+      "pi_odd": {
+        "rows": 25,
+        "max_absolute": 4.3298697960381105e-15
+      },
+      "pi_even": {
+        "rows": 25,
+        "max_absolute": 6.661338147750939e-16
+      },
+      "stability_diff": {
+        "rows": 36,
+        "max_absolute": 4.3298697960381105e-15
+      },
+      "r_neg_s2": {
+        "rows": 54,
+        "max_absolute": 9.883649454422994e-12
+      },
+      "r_split_s1_s2": {
+        "rows": 58,
+        "max_absolute": 2.1094237467877974e-15
+      },
+      "r_neg_ownpos": {
+        "rows": 58,
+        "max_absolute": 1.0263678795752185e-11
+      },
+      "r_neg_best_other": {
+        "rows": 61,
+        "max_absolute": 1.0255574167672421e-11
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 1.0263678795752185e-11
+  },
+  "F1_emerald_mosaic_sensitivity_background.tsv": {
+    "new_sha256": "fc97ed240699ae266a4a4d5cabaf00e9a771b2b96825da58f8637655912c1972",
+    "old_sha256": "f7e33d22e179c6db2a8fbdad1a9bd34a4c78083e6dcdfc5e663485aedbc9d8dc",
+    "rows": 31,
+    "reference_rows": 31,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "cell_name",
+      "marker"
+    ],
+    "common_columns": 49,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "pi_neg": {
+        "rows": 6,
+        "max_absolute": 2.220446049250313e-16
+      },
+      "lam_per_1k": {
+        "rows": 16,
+        "max_absolute": 1.2212453270876722e-15
+      },
+      "loglik_gain": {
+        "rows": 5,
+        "max_absolute": 4.547473508864641e-13
+      },
+      "pi_odd": {
+        "rows": 5,
+        "max_absolute": 4.440892098500626e-16
+      },
+      "pi_even": {
+        "rows": 8,
+        "max_absolute": 4.440892098500626e-16
+      },
+      "stability_diff": {
+        "rows": 12,
+        "max_absolute": 4.440892098500626e-16
+      },
+      "r_neg_s2": {
+        "rows": 26,
+        "max_absolute": 4.915734486132806e-12
+      },
+      "r_split_s1_s2": {
+        "rows": 29,
+        "max_absolute": 2.1094237467877974e-15
+      },
+      "r_neg_ownpos": {
+        "rows": 29,
+        "max_absolute": 4.955147403506999e-12
+      },
+      "r_neg_best_other": {
+        "rows": 30,
+        "max_absolute": 3.4769964685210653e-12
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 4.955147403506999e-12
+  },
+  "F1_emerald_states.tsv": {
+    "new_sha256": "7c6f3ace32a62ef53b7de3aedf5da3b589d75fb291612f3ab6800ef8dbde6779",
+    "old_sha256": "3ec07b72e6a11b18b6579d65bf33c913a7d819bd7c5b76e7975e6af09cf27bc1",
+    "rows": 52,
+    "reference_rows": 52,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 43,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "foreign_share_y_expected_ambient": {
+        "rows": 7,
+        "max_absolute": 3.469446951953614e-18
+      },
+      "foreign_share_xist_expected_ambient": {
+        "rows": 14,
+        "max_absolute": 6.776263578034403e-21
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 3.469446951953614e-18
+  },
+  "F1_emerald_units.tsv": {
+    "new_sha256": "2bd6b2e440ad9cf41f459bbb20e749bc19e2e3c16351cd0e4db5dbb72dc30469",
+    "old_sha256": "2bd6b2e440ad9cf41f459bbb20e749bc19e2e3c16351cd0e4db5dbb72dc30469",
+    "rows": 207,
+    "reference_rows": 207,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "batch"
+    ],
+    "common_columns": 28,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "F1_emerald_vehicle_cells.tsv.gz": {
+    "new_sha256": "dd93061ed535c25c6d0efe0b280fe1f5477eb2f977ddb1cc2dff5f898c7726ed",
+    "old_sha256": "187cee6e24db836f172ced2bcd3e20b14ca2311f3b6e22d4d965f20ecec9f44d",
+    "rows": 130498,
+    "changed_columns_and_rowcounts": {},
+    "last_row_computed": true
+  },
+  "F1_exploratory_T0.tsv": {
+    "new_sha256": "49ca3aebcb95fb019a246606583d086ea0063196816670616399e479bf67dcc1",
+    "old_sha256": "49ca3aebcb95fb019a246606583d086ea0063196816670616399e479bf67dcc1",
+    "rows": 2,
+    "reference_rows": 2,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "marker"
+    ],
+    "common_columns": 9,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "F1_exploratory_line_similarity.tsv": {
+    "new_sha256": "e1ffeba8a0087978a78811b5f1cf117edabcc3cdfc17e9996163528f746cdc36",
+    "old_sha256": "9e9011d89672d8552bfbdab280af0facc2820ea72e1ecc66614d08dd83c5c034",
+    "rows": 48,
+    "reference_rows": 48,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 7,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "r_nearest": {
+        "rows": 48,
+        "max_absolute": 2.291278278221398e-12
+      },
+      "r_second": {
+        "rows": 48,
+        "max_absolute": 4.089839578114152e-12
+      },
+      "gap_nearest_second": {
+        "rows": 47,
+        "max_absolute": 4.090061622719077e-12
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 4.090061622719077e-12
+  },
+  "F1_exploratory_line_similarity_summary.tsv": {
+    "new_sha256": "5bc9d7e187e7e336d6da3ef63693cb8fec6e1b31670f4e2020a135b7ff0db70f",
+    "old_sha256": "2aaa32bdbc46977705d09a593ab7cea180d4809c302f6ad8a63319ac5d085f68",
+    "rows": 1,
+    "reference_rows": 1,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 5,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "r_median": {
+        "rows": 1,
+        "max_absolute": 5.036304706607098e-12
+      },
+      "r_p95": {
+        "rows": 1,
+        "max_absolute": 2.1094237467877974e-15
+      },
+      "r_max": {
+        "rows": 1,
+        "max_absolute": 4.218847493575595e-15
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 5.036304706607098e-12
+  },
+  "F1_report_numbers.tsv": {
+    "new_sha256": "c721fdb5c9d1ab26b38bb40fdf0e7e4e884fba9e0ae2e70320e317656bff026b",
+    "old_sha256": "07428d88f75040db9ecbd06593480a50a33478213f4ca7edc42c5d3591c1b8f9",
+    "rows": 73,
+    "reference_rows": 73,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "source"
+    ],
+    "common_columns": 4,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {
+      "value": 10
+    },
+    "max_absolute_difference": 0.0
+  },
+  "F1_rerun_comparison.tsv": {
+    "new_sha256": "fe354a6e41b198daf0e36e631171d438db0cd7ebd237de758c0c00d7bad39045",
+    "old_sha256": "3d1e5d45b67fb8b560e92e2076ae7764f45105ca351ee41947ed2d12be6cd49a",
+    "rows": 21,
+    "reference_rows": 21,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 4,
+    "changed_numeric": {
+      "max_abs_numeric_diff": {
+        "rows": 1,
+        "max_absolute": 12550.0
+      }
+    },
+    "exact_numeric_differences": {
+      "max_abs_numeric_diff": {
+        "rows": 11,
+        "max_absolute": 12550.0
+      }
+    },
+    "changed_categorical": {
+      "result": 13
+    },
+    "max_absolute_difference": 12550.0
+  },
+  "F1_sciplex_mosaic.tsv": {
+    "new_sha256": "0c3e387cc0b076e0f55fa36addb16e0449fc696a7b7926b6ba04101cdabbf79b",
+    "old_sha256": "5fdd47b551617d199526b384148985182f637a6ce5d07149ac4a038c15ea6efc",
+    "rows": 12,
+    "reference_rows": 12,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "marker"
+    ],
+    "common_columns": 49,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "pi_neg": {
+        "rows": 3,
+        "max_absolute": 5.329070518200751e-15
+      },
+      "lam_per_1k": {
+        "rows": 6,
+        "max_absolute": 1.021405182655144e-14
+      },
+      "loglik_gain": {
+        "rows": 5,
+        "max_absolute": 9.094947017729282e-13
+      },
+      "pi_odd": {
+        "rows": 2,
+        "max_absolute": 9.992007221626409e-16
+      },
+      "pi_even": {
+        "rows": 4,
+        "max_absolute": 1.2878587085651816e-14
+      },
+      "stability_diff": {
+        "rows": 5,
+        "max_absolute": 1.1879386363489175e-14
+      },
+      "r_neg_s2": {
+        "rows": 9,
+        "max_absolute": 1.4432899320127035e-15
+      },
+      "r_split_s1_s2": {
+        "rows": 9,
+        "max_absolute": 1.1102230246251565e-15
+      },
+      "r_neg_ownpos": {
+        "rows": 8,
+        "max_absolute": 8.881784197001252e-16
+      },
+      "r_neg_best_other": {
+        "rows": 9,
+        "max_absolute": 5.551115123125783e-16
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 9.094947017729282e-13
+  },
+  "F1_sciplex_mosaic_sensitivity_background.tsv": {
+    "new_sha256": "f8a08822cb42a9e451116d5e987fc34fa39e14e9dabdcdf7daad41d74153bed3",
+    "old_sha256": "df3ee06a2241b0c2806f62c570059069fc38953f24ec32bc382149576c31bc4c",
+    "rows": 6,
+    "reference_rows": 6,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "marker"
+    ],
+    "common_columns": 49,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "pi_neg": {
+        "rows": 2,
+        "max_absolute": 5.329070518200751e-15
+      },
+      "lam_per_1k": {
+        "rows": 3,
+        "max_absolute": 5.551115123125783e-17
+      },
+      "loglik_gain": {
+        "rows": 2,
+        "max_absolute": 9.094947017729282e-13
+      },
+      "pi_odd": {
+        "rows": 2,
+        "max_absolute": 9.992007221626409e-16
+      },
+      "pi_even": {
+        "rows": 2,
+        "max_absolute": 1.2878587085651816e-14
+      },
+      "stability_diff": {
+        "rows": 3,
+        "max_absolute": 1.1879386363489175e-14
+      },
+      "r_neg_s2": {
+        "rows": 6,
+        "max_absolute": 1.4432899320127035e-15
+      },
+      "r_split_s1_s2": {
+        "rows": 6,
+        "max_absolute": 1.1102230246251565e-15
+      },
+      "r_neg_ownpos": {
+        "rows": 5,
+        "max_absolute": 8.881784197001252e-16
+      },
+      "r_neg_best_other": {
+        "rows": 6,
+        "max_absolute": 5.551115123125783e-16
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 9.094947017729282e-13
+  },
+  "F1_sciplex_states.tsv": {
+    "new_sha256": "5cb9f48d614211fa17a65c49b95c90a4b9097fc336820d22a06ca4848f1f6448",
+    "old_sha256": "71856a215d4e19d33ba20c6909790efba3547b68c35127023808b9550c687c33",
+    "rows": 6,
+    "reference_rows": 6,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "sample",
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 46,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "foreign_share_y_expected_ambient": {
+        "rows": 2,
+        "max_absolute": 4.235164736271502e-22
+      },
+      "EIF1AX_l2cpm": {
+        "rows": 1,
+        "max_absolute": 8.881784197001252e-16
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 8.881784197001252e-16
+  },
+  "F1_sciplex_units.tsv": {
+    "new_sha256": "79d9222087c2f9fa923f30eafe79271267f0f31b6f1a2127304a93d0caabe3b7",
+    "old_sha256": "3befbe01302446f9329cd3a49d351425d48279cfdc89cb4f369a23e5f96859aa",
+    "rows": 80,
+    "reference_rows": 80,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "batch"
+    ],
+    "common_columns": 28,
+    "changed_numeric": {},
+    "exact_numeric_differences": {
+      "ZFY_l2cpm": {
+        "rows": 1,
+        "max_absolute": 4.440892098500626e-16
+      },
+      "KDM5D_l2cpm": {
+        "rows": 1,
+        "max_absolute": 4.440892098500626e-16
+      },
+      "EIF1AY_l2cpm": {
+        "rows": 1,
+        "max_absolute": 4.440892098500626e-16
+      },
+      "y_score": {
+        "rows": 1,
+        "max_absolute": 8.881784197001252e-16
+      },
+      "yp_score": {
+        "rows": 1,
+        "max_absolute": 4.440892098500626e-16
+      },
+      "yq_score": {
+        "rows": 1,
+        "max_absolute": 8.881784197001252e-16
+      }
+    },
+    "changed_categorical": {},
+    "max_absolute_difference": 8.881784197001252e-16
+  }
+}

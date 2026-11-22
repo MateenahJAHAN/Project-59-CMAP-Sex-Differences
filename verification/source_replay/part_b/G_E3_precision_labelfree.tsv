@@ -1,0 +1,4 @@
+panel	family	scale	tensor	interval_used	term	n_draws	n_draws_estimable	n_lines_in_model	n_lineages	mean_S_lines_in_model	median_halfwidth_pct	median_halfwidth_hc3_pct	sd_estimate_pct	P_ci_inside_pm15pct	P_ci_inside_pm15pct_hc3	P_ci_inside_pm20pct	P_ci_inside_pm20pct_hc3	P_ci_inside_pm25pct	P_ci_inside_pm25pct_hc3	reproduces_D2
+P1	factorial	level3	R3_P1_d111	P_ci_inside_pm20pct_hc3	Y_plus	200	200	41	11	0.7644064932582181	13.847866343951992	18.487790502101078	8.417421076573198	0.075	0.0	0.52	0.09	0.8	0.535	True
+P1	factorial	level3	R3_P1_d111	P_ci_inside_pm20pct_hc3	X_plus	200	200	41	11	0.7644064932582181	13.246997914430022	17.00938237408233	7.727766984118632	0.165	0.015	0.61	0.255	0.875	0.685	True
+P1	annotated	level3	R3_P1_d111	P_ci_inside_pm20pct_hc3	g1_vs_g2	200	200	25	6	0.7715664999824605	13.90195438497252	19.647346605155512	7.842524504904411	0.095	0.0	0.51	0.03	0.86	0.42	True

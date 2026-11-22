@@ -1,0 +1,133 @@
+{
+  "n_science_tables": 17,
+  "max_absolute_difference": 1.0263678795752185e-11,
+  "report_fields": 73,
+  "report_differences": [
+    {
+      "key": "emerald_foreign_share_y_median_lines_ge100",
+      "delta": 5.0306980803327406e-17
+    },
+    {
+      "key": "emerald_foreign_share_y_max_excl_NCI-H2030",
+      "delta": 2.7755575615628914e-17
+    },
+    {
+      "key": "emerald_foreign_share_y_expected_median",
+      "delta": 3.2959746043559335e-17
+    },
+    {
+      "key": "emerald_foreign_share_xist_median_lines_ge100",
+      "delta": 3.0791341698588326e-17
+    },
+    {
+      "key": "emerald_foreign_share_xist_max_lines_ge100",
+      "delta": 1.5612511283791264e-17
+    },
+    {
+      "key": "emerald_y_control_pi_min",
+      "delta": 1.3877787807814457e-17
+    },
+    {
+      "key": "emerald_y_control_pi_median",
+      "delta": 1.6653345369377348e-16
+    },
+    {
+      "key": "emerald_y_control_rate_per_1k_min",
+      "delta": 1.734723475976807e-17
+    },
+    {
+      "key": "emerald_sens_y_control_pi_min",
+      "delta": 1.6653345369377348e-16
+    },
+    {
+      "key": "emerald_y_control_rate_max_excl_NCI-H2030",
+      "delta": 6.938893903907228e-18
+    }
+  ],
+  "report_max_absolute": 1.6653345369377348e-16,
+  "json_differences": {
+    "F1_sciplex_labels_summary.json": [
+      {
+        "field": "sciPlex2/seconds",
+        "fresh": 27.8,
+        "original": 19.7
+      },
+      {
+        "field": "sciPlex3/depth_vs_n_umi_corr",
+        "fresh": 0.9998581959842744,
+        "original": 0.999858195984276
+      },
+      {
+        "field": "sciPlex3/seconds",
+        "fresh": 1284.0,
+        "original": 298.0
+      },
+      {
+        "field": "sciPlex4/seconds",
+        "fresh": 75.0,
+        "original": 39.4
+      }
+    ],
+    "F1_run_summary.json": [
+      {
+        "field": "seconds",
+        "fresh": 70.8,
+        "original": 38.9
+      }
+    ],
+    "F1_fig3_comparator.json": []
+  },
+  "affected_sort_positions": [
+    {
+      "rank": 8,
+      "fresh": "HS-578T",
+      "original": "RPMI-7951",
+      "fresh_correlation": "0.9054699102914706",
+      "original_correlation": "0.9054699102914685"
+    },
+    {
+      "rank": 9,
+      "fresh": "RPMI-7951",
+      "original": "HS-578T",
+      "fresh_correlation": "0.9054699102914706",
+      "original_correlation": "0.9054699102914684"
+    },
+    {
+      "rank": 11,
+      "fresh": "BxPC-3",
+      "original": "Panc 03.27",
+      "fresh_correlation": "0.899835105539982",
+      "original_correlation": "0.8998351055399827"
+    },
+    {
+      "rank": 12,
+      "fresh": "Panc 03.27",
+      "original": "BxPC-3",
+      "fresh_correlation": "0.8998351055399819",
+      "original_correlation": "0.8998351055399826"
+    },
+    {
+      "rank": 28,
+      "fresh": "A549",
+      "original": "NCI-H2030",
+      "fresh_correlation": "0.8731885835211489",
+      "original_correlation": "0.8731885835211496"
+    },
+    {
+      "rank": 29,
+      "fresh": "NCI-H2030",
+      "original": "A549",
+      "fresh_correlation": "0.8731885835211488",
+      "original_correlation": "0.8731885835211495"
+    }
+  ],
+  "per_identifier_counts_changed": 0,
+  "per_identifier_nearest_lines_changed": 0,
+  "original_positional_check": {
+    "file": "F1_exploratory_line_similarity.tsv",
+    "result": "text differs",
+    "max_abs_numeric_diff": "12550.0",
+    "n_rows": "48.0"
+  },
+  "maximum_profile_table_numeric_difference_by_accession": 4.090061622719077e-12
+}

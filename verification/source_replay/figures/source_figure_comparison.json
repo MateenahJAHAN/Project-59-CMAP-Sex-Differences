@@ -17,6 +17,22 @@
       "scientific_records_added": []
     },
     {
+      "figure": "fig2_label_vs_pattern",
+      "released_pdf_sha256": "331f2ffb46b324000e361f4ee3ffcfbe711c10f9dbfd919a772d7038be91f7fa",
+      "rebuilt_pdf_sha256": "331f2ffb46b324000e361f4ee3ffcfbe711c10f9dbfd919a772d7038be91f7fa",
+      "identical_pdf": true,
+      "identical_page_size": true,
+      "identical_pdf_text": true,
+      "identical_pixels_144dpi": true,
+      "archived_plotted_rows": 124,
+      "rebuilt_plotted_rows": 124,
+      "rows_with_changed_source_fields": 116,
+      "positional_field_differences": 0,
+      "positional_row_differences": 0,
+      "scientific_records_removed": [],
+      "scientific_records_added": []
+    },
+    {
       "figure": "fig3_agreement",
       "released_pdf_sha256": "ef714f1ba17d628f1782262f5f8d9acb4e4ca8ebfdd1769890e17d90087b7e6a",
       "rebuilt_pdf_sha256": "ef714f1ba17d628f1782262f5f8d9acb4e4ca8ebfdd1769890e17d90087b7e6a",

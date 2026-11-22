@@ -1,0 +1,125 @@
+panel	element	series	name	x	y	value	text	x_column	y_column	label_value	source_file	source_line
+A	point	female	AN3 CA	2.1061	2.0223			y_score	XIST	Female	partA_local_states.tsv	6
+A	point	female	AsPC-1	1.4909	1.6837			y_score	XIST	Female	partA_local_states.tsv	7
+A	point	female	BT-474	1.4199	1.3743			y_score	XIST	Female	partA_local_states.tsv	8
+A	point	female	C-33 A	1.5742	1.6124			y_score	XIST	Female	partA_local_states.tsv	9
+A	point	female	HEC-1-A	1.4833	1.6295			y_score	XIST	Female	partA_local_states.tsv	16
+A	point	female	HOP62	1.5049	1.6941			y_score	XIST	Female	partA_local_states.tsv	18
+A	point	female	HS-578T	1.4656	1.4109			y_score	XIST	Female	partA_local_states.tsv	20
+A	point	female	HT-29	1.6636	8.5319			y_score	XIST	Female	partA_local_states.tsv	21
+A	point	female	LS 180	1.4155	1.6156			y_score	XIST	Female	partA_local_states.tsv	27
+A	point	female	NCI-H1573	1.462	1.5586			y_score	XIST	Female	partA_local_states.tsv	29
+A	point	female	NCI-H2122	3.7433	8.0298			y_score	XIST	Female	partA_local_states.tsv	32
+A	point	female	NCI-H2347	1.3272	7.9769			y_score	XIST	Female	partA_local_states.tsv	34
+A	point	female	Panc 03.27	1.3218	1.4278			y_score	XIST	Female	partA_local_states.tsv	38
+A	point	female	RPMI-7951	1.4028	2.6936			y_score	XIST	Female	partA_local_states.tsv	41
+A	point	female	SW1417	1.3747	1.4615			y_score	XIST	Female	partA_local_states.tsv	49
+A	point	female	SW48	1.7105	7.5166			y_score	XIST	Female	partA_local_states.tsv	50
+A	point	male	A-172	6.386	1.5375			y_score	XIST	Male	partA_local_states.tsv	2
+A	point	male	A-427	5.1206	1.2263			y_score	XIST	Male	partA_local_states.tsv	3
+A	point	male	A498	1.3153	8.3438			y_score	XIST	Male	partA_local_states.tsv	4
+A	point	male	A549	5.6071	1.2813			y_score	XIST	Male	partA_local_states.tsv	5
+A	point	male	C32	5.4753	1.6114			y_score	XIST	Male	partA_local_states.tsv	10
+A	point	male	CFPAC-1	2.9333	1.5339			y_score	XIST	Male	partA_local_states.tsv	11
+A	point	male	CHP-212	6.548	1.6319			y_score	XIST	Male	partA_local_states.tsv	12
+A	point	male	COLO 205	3.6662	1.6681			y_score	XIST	Male	partA_local_states.tsv	13
+A	point	male	H4	6.4124	1.5376			y_score	XIST	Male	partA_local_states.tsv	14
+A	point	male	HCT15	5.1195	1.7305			y_score	XIST	Male	partA_local_states.tsv	15
+A	point	male	HepG2/C3A	5.2796	1.6214			y_score	XIST	Male	partA_local_states.tsv	17
+A	point	male	Hs 766T	1.3812	1.3989			y_score	XIST	Male	partA_local_states.tsv	19
+A	point	male	hTERT-HPNE	6.0004	1.8251			y_score	XIST	Male	partA_local_states.tsv	22
+A	point	male	J82	5.8862	1.4331			y_score	XIST	Male	partA_local_states.tsv	23
+A	point	male	KATO III	1.4444	1.5208			y_score	XIST	Male	partA_local_states.tsv	24
+A	point	male	LoVo	5.2315	1.5482			y_score	XIST	Male	partA_local_states.tsv	25
+A	point	male	LOX-IMVI	1.7021	1.8365			y_score	XIST	Male	partA_local_states.tsv	26
+A	point	male	MIA PaCa-2	1.348	1.3357			y_score	XIST	Male	partA_local_states.tsv	28
+A	point	male	NCI-H1792	1.3212	1.2641			y_score	XIST	Male	partA_local_states.tsv	30
+A	point	male	NCI-H2030	2.5993	1.4738			y_score	XIST	Male	partA_local_states.tsv	31
+A	point	male	NCI-H23	1.3962	1.5136			y_score	XIST	Male	partA_local_states.tsv	33
+A	point	male	NCI-H460	6.6366	1.4368			y_score	XIST	Male	partA_local_states.tsv	35
+A	point	male	NCI-H596	4.4938	4.0147			y_score	XIST	Male	partA_local_states.tsv	36
+A	point	male	NCI-H661	5.8569	1.2111			y_score	XIST	Male	partA_local_states.tsv	37
+A	point	male	PANC-1	1.3009	1.2776			y_score	XIST	Male	partA_local_states.tsv	39
+A	point	male	SHP-77	1.3705	1.3896			y_score	XIST	Male	partA_local_states.tsv	42
+A	point	male	SK-MEL-2	5.0822	1.7693			y_score	XIST	Male	partA_local_states.tsv	43
+A	point	male	SNU-1	6.7405	1.6283			y_score	XIST	Male	partA_local_states.tsv	44
+A	point	male	SNU-423	5.3553	1.6964			y_score	XIST	Male	partA_local_states.tsv	45
+A	point	male	SW 1088	6.3194	2.1603			y_score	XIST	Male	partA_local_states.tsv	46
+A	point	male	SW 1271	1.6883	1.6625			y_score	XIST	Male	partA_local_states.tsv	47
+A	point	male	SW 900	1.739	1.6092			y_score	XIST	Male	partA_local_states.tsv	48
+A	point	male	SW480	1.3794	1.5128			y_score	XIST	Male	partA_local_states.tsv	51
+A	point	no label	RKO	1.556	9.3412			y_score	XIST	Unknown	partA_local_states.tsv	40
+A	cutoff_line	vertical	Y cut-off			4.021677875446696	Y cut-off 4.02	cutoff			partA_local_cutoffs.tsv	3
+A	cutoff_line	horizontal	XIST cut-off			4.684976810079098	XIST cut-off 4.68	cutoff			partA_local_cutoffs.tsv	2
+A	quadrant_name	tl					XIST only					
+A	quadrant_name	tr					both					
+A	quadrant_name	bl					neither					
+A	quadrant_name	br					Y only					
+A	subtitle						27 of 49 labelled lines lack their label's usual pattern				partA_local_label_audit_summary.tsv	2
+A	point_label	no label	RKO	1.556	9.3412		RKO				partA_local_states.tsv	40
+A	point_label	male	A498	1.3153	8.3438		A498				partA_local_states.tsv	4
+B	point	female	AN3 CA	2.1232	2.1004			yp_score	yq_score	Female	partA_local_states.tsv	6
+B	point	female	AsPC-1	1.5257	1.4793			yp_score	yq_score	Female	partA_local_states.tsv	7
+B	point	female	BT-474	1.5531	1.3755			yp_score	yq_score	Female	partA_local_states.tsv	8
+B	point	female	C-33 A	1.5636	1.5777			yp_score	yq_score	Female	partA_local_states.tsv	9
+B	point	female	HEC-1-A	1.5925	1.4469			yp_score	yq_score	Female	partA_local_states.tsv	16
+B	point	female	HOP62	1.5652	1.4848			yp_score	yq_score	Female	partA_local_states.tsv	18
+B	point	female	HS-578T	1.5622	1.4334			yp_score	yq_score	Female	partA_local_states.tsv	20
+B	point	female	HT-29	1.7116	1.6476			yp_score	yq_score	Female	partA_local_states.tsv	21
+B	point	female	LS 180	1.4746	1.3958			yp_score	yq_score	Female	partA_local_states.tsv	27
+B	point	female	NCI-H1573	1.612	1.4121			yp_score	yq_score	Female	partA_local_states.tsv	29
+B	point	female	NCI-H2122	3.6039	3.7898			yp_score	yq_score	Female	partA_local_states.tsv	32
+B	point	female	NCI-H2347	1.4457	1.2877			yp_score	yq_score	Female	partA_local_states.tsv	34
+B	point	female	Panc 03.27	1.4354	1.2839			yp_score	yq_score	Female	partA_local_states.tsv	38
+B	point	female	RPMI-7951	1.5219	1.363			yp_score	yq_score	Female	partA_local_states.tsv	41
+B	point	female	SW1417	1.4573	1.3472			yp_score	yq_score	Female	partA_local_states.tsv	49
+B	point	female	SW48	1.7747	1.689			yp_score	yq_score	Female	partA_local_states.tsv	50
+B	point	male	A-172	5.8732	6.557			yp_score	yq_score	Male	partA_local_states.tsv	2
+B	point	male	A-427	5.082	5.1335			yp_score	yq_score	Male	partA_local_states.tsv	3
+B	point	male	A498	1.3934	1.2892			yp_score	yq_score	Male	partA_local_states.tsv	4
+B	point	male	A549	5.3066	5.7072			yp_score	yq_score	Male	partA_local_states.tsv	5
+B	point	male	C32	5.6356	5.4219			yp_score	yq_score	Male	partA_local_states.tsv	10
+B	point	male	CFPAC-1	5.3658	2.1224			yp_score	yq_score	Male	partA_local_states.tsv	11
+B	point	male	CHP-212	6.0456	6.7155			yp_score	yq_score	Male	partA_local_states.tsv	12
+B	point	male	COLO 205	1.4573	4.4025			yp_score	yq_score	Male	partA_local_states.tsv	13
+B	point	male	H4	5.9768	6.5577			yp_score	yq_score	Male	partA_local_states.tsv	14
+B	point	male	HCT15	3.5703	5.6359			yp_score	yq_score	Male	partA_local_states.tsv	15
+B	point	male	HepG2/C3A	6.007	5.0371			yp_score	yq_score	Male	partA_local_states.tsv	17
+B	point	male	Hs 766T	1.4627	1.354			yp_score	yq_score	Male	partA_local_states.tsv	19
+B	point	male	hTERT-HPNE	5.5485	6.151			yp_score	yq_score	Male	partA_local_states.tsv	22
+B	point	male	J82	6.0068	5.846			yp_score	yq_score	Male	partA_local_states.tsv	23
+B	point	male	KATO III	1.4662	1.4371			yp_score	yq_score	Male	partA_local_states.tsv	24
+B	point	male	LoVo	5.8576	5.0228			yp_score	yq_score	Male	partA_local_states.tsv	25
+B	point	male	LOX-IMVI	1.6944	1.7047			yp_score	yq_score	Male	partA_local_states.tsv	26
+B	point	male	MIA PaCa-2	1.3391	1.351			yp_score	yq_score	Male	partA_local_states.tsv	28
+B	point	male	NCI-H1792	1.3986	1.2954			yp_score	yq_score	Male	partA_local_states.tsv	30
+B	point	male	NCI-H2030	7.2848	1.0374			yp_score	yq_score	Male	partA_local_states.tsv	31
+B	point	male	NCI-H23	1.5274	1.3525			yp_score	yq_score	Male	partA_local_states.tsv	33
+B	point	male	NCI-H460	6.5185	6.676			yp_score	yq_score	Male	partA_local_states.tsv	35
+B	point	male	NCI-H596	4.1799	4.5984			yp_score	yq_score	Male	partA_local_states.tsv	36
+B	point	male	NCI-H661	6.1943	5.7445			yp_score	yq_score	Male	partA_local_states.tsv	37
+B	point	male	PANC-1	1.396	1.2692			yp_score	yq_score	Male	partA_local_states.tsv	39
+B	point	male	SHP-77	1.404	1.3593			yp_score	yq_score	Male	partA_local_states.tsv	42
+B	point	male	SK-MEL-2	5.8917	4.8124			yp_score	yq_score	Male	partA_local_states.tsv	43
+B	point	male	SNU-1	6.8937	6.6894			yp_score	yq_score	Male	partA_local_states.tsv	44
+B	point	male	SNU-423	5.5862	5.2783			yp_score	yq_score	Male	partA_local_states.tsv	45
+B	point	male	SW 1088	6.0743	6.4011			yp_score	yq_score	Male	partA_local_states.tsv	46
+B	point	male	SW 1271	1.7538	1.6665			yp_score	yq_score	Male	partA_local_states.tsv	47
+B	point	male	SW 900	1.7468	1.7364			yp_score	yq_score	Male	partA_local_states.tsv	48
+B	point	male	SW480	1.4558	1.3539			yp_score	yq_score	Male	partA_local_states.tsv	51
+B	point	no label	RKO	1.6482	1.5253			yp_score	yq_score	Unknown	partA_local_states.tsv	40
+B	cutoff_line	vertical	Yp cut-off			3.9626132967059426	Yp cut-off 3.96	cutoff			partA_local_cutoffs.tsv	4
+B	cutoff_line	horizontal	Yq cut-off			3.578548680450906	Yq cut-off 3.58	cutoff			partA_local_cutoffs.tsv	5
+B	quadrant_name	tl					Yq high, Yp low					
+B	quadrant_name	tr					both high					
+B	quadrant_name	bl					both low					
+B	quadrant_name	br					Yp high, Yq low					
+B	subtitle						4 of 33 male-labelled lines have one arm score high				partA_local_states.tsv	
+B	point_label	female	NCI-H2122	3.6039	3.7898		NCI-H2122 (labelled female)				partA_local_states.tsv	32
+B	point_label	male	HCT15	3.5703	5.6359		HCT15				partA_local_states.tsv	15
+B	point_label	male	COLO 205	1.4573	4.4025		COLO 205				partA_local_states.tsv	13
+B	point_label	male	CFPAC-1	5.3658	2.1224		CFPAC-1				partA_local_states.tsv	11
+B	point_label	male	NCI-H2030	7.2848	1.0374		NCI-H2030				partA_local_states.tsv	31
+A	gene_list		y			8.0	RPS4Y1, DDX3Y, KDM5D, UTY, EIF1AY, ZFY, USP9Y, NLGN4Y				PARTA_LOCAL_REPORT.md	34
+B	gene_list		yp			2.0	RPS4Y1, ZFY				PARTA_LOCAL_REPORT.md	34
+B	gene_list		yq			6.0	DDX3Y, USP9Y, UTY, NLGN4Y, KDM5D, EIF1AY				PARTA_LOCAL_REPORT.md	34

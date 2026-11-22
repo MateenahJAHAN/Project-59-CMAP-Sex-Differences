@@ -51,7 +51,8 @@ class Audit:
         return load(path)
 
     def check(self, name, published, actual, source):
-        added = (name in {'LINCS donor-labelled lines with both consensus flags and atypical pattern',
+        added = (name in {'S10 Tahoe-EmeraldBay kappa for marker patterns',
+                          'LINCS donor-labelled lines with both consensus flags and atypical pattern',
                           'All resolved state names lacking one or both consensus flags'} or
                  (name.startswith('GDSC2/PRISM ') and 'single-marker low / measured' in name))
         basis = 'independent fresh cohort check' if added else 'original manuscript claim'
@@ -107,6 +108,16 @@ def compare(a, which, lines, other, state_key):
 
 def check_comparison(a, group, expected, records, field):
     a.check(group, expected, frac(sum(r[field] for r in records),len(records)), field)
+
+
+def check_kappa(a,name,rows,measure,expected):
+    n=len(rows)
+    first,second=('first_'+measure,'second_'+measure)
+    left,right=Counter(r[first] for r in rows),Counter(r[second] for r in rows)
+    agreement=sum(r[first]==r[second] for r in rows)/n
+    chance=sum(left[k]*right[k] for k in left)/(n*n)
+    kappa=(agreement-chance)/(1-chance)
+    a.check(name,expected,f'{kappa:.2f}',measure+' confusion table')
 
 
 def dna(a, rows, refs, label, expected):
@@ -232,6 +243,11 @@ def do_tahoe(a,root,e,b,d):
     te=compare(a,'tahoe_emerald',t,unique(e,'cellosaurus_id'),'state')
     check_comparison(a,'Figure 3 Tahoe vs EmeraldBay patterns, all','42/47',te,'pattern_agrees')
     check_comparison(a,'Figure 3 Tahoe vs EmeraldBay patterns, medium/high in both','40/41',[r for r in te if r['both_at_least_medium']],'pattern_agrees')
+    check_kappa(a,'S9 Tahoe-bulk kappa for marker patterns',tb,'pattern','0.93')
+    check_kappa(a,'S9 Tahoe-bulk kappa for state names',tb,'state','0.92')
+    confident=[r for r in te if r['both_at_least_medium']]
+    check_kappa(a,'S10 Tahoe-EmeraldBay kappa for state names',confident,'state','0.97')
+    check_kappa(a,'S10 Tahoe-EmeraldBay kappa for marker patterns',confident,'pattern','0.96')
     ds=dna(a,t,d,'tahoe','48/50')
     male_neither=[r for r in ds if ti[r['accession']]['annotation']=='Male' and r['rna_pattern']=='neither']
     a.check('Male-labelled Tahoe lines with neither marker lacking AMELY','13/14',frac(sum(r['dna_amelogenin']=='X only' for r in male_neither),len(male_neither)),'DNA profiles vs rethresholded scores')
@@ -257,6 +273,35 @@ def do_mosaic(a,root):
     for name,expected in [('A549',60135),('NCI-H460',126343)]:
         r=next(r for r in abc if r['cell_name']==name and r['marker']=='Y')
         a.check('Figure S2 Y cells, '+name,expected,int(r['n_cells']),'local mosaic model counts')
+
+
+def check_s1_roster(a,tahoe,emerald,reference=None):
+    fresh=[(r['cellosaurus_id'],'Tahoe-100M') for r in tahoe]
+    fresh.extend((r['cellosaurus_id'],'EmeraldBay') for r in emerald)
+    fresh.extend((r['cellosaurus_id'],r['sample']) for r in a.source(PA/'vehicle_tables/F1_sciplex_states.tsv'))
+    line_names=a.source(RUN/'part_b/run/A/results/A/A_cellline_sex_states.tsv')
+    fresh.extend({(r['cellosaurus_ac'],'LINCS2020') for r in line_names if r['state']!='no_data'})
+    missing_rna=0
+    for row in a.source(RUN/'bulk_RNA/results/C/C_cellline_sex_labels.tsv'):
+        for screen,flag in [('GDSC2','in_gdsc2'),('PRISM','in_prism')]:
+            if row[flag]=='True':
+                fresh.append((row['RRID'],screen))
+                missing_rna+=row['expressed_state']=='not_measured'
+    assert len(fresh)==len(set(fresh)) and all(k for k,_ in fresh)
+    def fingerprint(keys):
+        return hashlib.sha256(''.join(k+'\t'+s+'\n' for k,s in sorted(keys)).encode()).hexdigest()
+    roster=dict(rows=len(fresh),distinct_lines=len({k for k,_ in fresh}),
+                rows_without_rna=missing_rna,by_source=dict(sorted(Counter(s for _,s in fresh).items())),
+                sorted_accession_source_sha256=fingerprint(fresh))
+    if reference is not None:
+        original={(r['cellosaurus_id'],r['source']) for r in load(reference)}
+        roster.update(archive_source_sha256=hashlib.sha256(reference.read_bytes()).hexdigest(),
+                      archive_roster_sha256=fingerprint(original),changed_roster_keys=len(set(fresh)^original))
+    a.check('Table S1 source roster rows from source-specific eligibility',1694,len(fresh),'independent source roster')
+    a.check('Table S1 distinct accessions from source-specific eligibility',1123,roster['distinct_lines'],'independent source roster')
+    a.check('Table S1 source-specific rows without RNA',21,missing_rna,'independent source roster')
+    (a.out/'s1_roster.json').write_text(json.dumps(roster,indent=2)+'\n')
+    return set(fresh)
 
 
 def do_s1(a,path):
@@ -297,6 +342,7 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--run-root',required=True,type=Path,help='Raw reproduction directory with part_a, part_b, bulk_RNA and manuscript_review')
     parser.add_argument('--supplement',type=Path,help='Manuscript supplement TeX containing Table S8')
+    parser.add_argument('--reference-s1',type=Path,help='Published Table S1, to compare the source-specific row keys')
     parser.add_argument('--output',type=Path,default=HERE/'results')
     args=parser.parse_args()
     RUN=args.run_root.resolve()
@@ -336,9 +382,12 @@ def main():
         dossier['Figure S2A']='complete'
     else:
         dossier['Figure S2A']='awaiting fitted local model'
+    roster=check_s1_roster(audit,t,e,args.reference_s1)
+    dossier['Table S1 row roster from independently joined source tables']='complete'
     s1=RUN/'manuscript_review/supplementary_table_S1.tsv'
     if s1.is_file() and (s1.parent/'table_s1_comparison.json').is_file():
         do_s1(audit,s1)
+        assert roster=={(r['cellosaurus_id'],r['source']) for r in load(s1)}
         dossier['Reassembled Table S1']='complete'
     else:
         dossier['Reassembled Table S1']='awaiting assembly'

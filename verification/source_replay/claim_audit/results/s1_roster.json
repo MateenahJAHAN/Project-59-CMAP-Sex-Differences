@@ -1,0 +1,19 @@
+{
+  "rows": 1694,
+  "distinct_lines": 1123,
+  "rows_without_rna": 21,
+  "by_source": {
+    "EmeraldBay": 52,
+    "GDSC2": 969,
+    "LINCS2020": 139,
+    "PRISM": 478,
+    "Tahoe-100M": 50,
+    "sciPlex2": 1,
+    "sciPlex3": 3,
+    "sciPlex4": 2
+  },
+  "sorted_accession_source_sha256": "d56bb278b6ba9d2e0d8b050dd7ba3c7dc6e38d59ea1e64e8993a91beaed4e7c3",
+  "archive_source_sha256": "be6dad0e35cf940446885a686ca451cbedbcfadbff5148a7ee2c64f54400105c",
+  "archive_roster_sha256": "d56bb278b6ba9d2e0d8b050dd7ba3c7dc6e38d59ea1e64e8993a91beaed4e7c3",
+  "changed_roster_keys": 0
+}

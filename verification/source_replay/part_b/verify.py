@@ -54,3 +54,12 @@ if distributions.is_file():
     intervals=json.loads((root/'figure4_intervals_check.json').read_text())
     assert intervals['rows']==12 and not intervals['different_cells']
     print('Figure 4 reproduces 30,000 draws and 12 estimates with both confidence intervals.')
+
+gate_receipt=root/'model_gate_verification.json'
+if gate_receipt.is_file():
+    checks=json.loads(gate_receipt.read_text())
+    for row in checks:
+        assert row['exact'] and row['replayed_sha256']==row['archived_sha256']
+        if (root/row['table']).is_file():
+            assert hashlib.sha256((root/row['table']).read_bytes()).hexdigest()==row['replayed_sha256']
+    print('All 1,200 calibration rows, 46 comparison rows, and precision estimates match.')

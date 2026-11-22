@@ -1,0 +1,27 @@
+{
+  "fig1_xist_vs_y_score.png": {
+    "fresh": "53e76ac4893554e406192409bf389e564c0191612f4358c51a42fb9e0d34dc58",
+    "original": "53e76ac4893554e406192409bf389e564c0191612f4358c51a42fb9e0d34dc58",
+    "byte_identical": true
+  },
+  "fig2_arm_scores.png": {
+    "fresh": "a381a2a6c290ba1093f515b5b860844b27e5620a8c12704e5612aec0016c257d",
+    "original": "a381a2a6c290ba1093f515b5b860844b27e5620a8c12704e5612aec0016c257d",
+    "byte_identical": true
+  },
+  "fig3_y_umis_vs_depth_A549_H460_LoVo.png": {
+    "fresh": "1637e8e6a60cf4910b854471f94dc6a1b893a1fde3da641296591ceca927725a",
+    "original": "1637e8e6a60cf4910b854471f94dc6a1b893a1fde3da641296591ceca927725a",
+    "byte_identical": true
+  },
+  "fig4_agreement.png": {
+    "fresh": "30ab1fc1170080ffbed624dc4ef2bd0028fcac19a7014aff53875230e5c0cc05",
+    "original": "30ab1fc1170080ffbed624dc4ef2bd0028fcac19a7014aff53875230e5c0cc05",
+    "byte_identical": true
+  },
+  "fig5_mosaic_shares_by_estimator.png": {
+    "fresh": "76e984a63c036e49999c566d742f2fd4f394c971b266c868930890e5572fa94f",
+    "original": "76e984a63c036e49999c566d742f2fd4f394c971b266c868930890e5572fa94f",
+    "byte_identical": true
+  }
+}

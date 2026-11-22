@@ -1,0 +1,26 @@
+cell_name	cellosaurus_id	state	n_vehicle_cells	reason
+AN3 CA	CVCL_0028	XIST-lost	13735	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+AsPC-1	CVCL_0152	XIST-lost	51337	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+BT-474	CVCL_0179	XIST-lost	30956	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+C-33 A	CVCL_1094	XIST-lost	34635	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+CFPAC-1	CVCL_1119	Y-lost	48809	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+HEC-1-A	CVCL_0293	XIST-lost	54187	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+HOP62	CVCL_1285	XIST-lost	75285	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+Hs 766T	CVCL_0334	Y-lost	55172	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+HS-578T	CVCL_0332	XIST-lost	39779	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+KATO III	CVCL_0371	Y-lost	51889	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+LOX-IMVI	CVCL_1381	Y-lost	52251	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+LS 180	CVCL_0397	XIST-lost	41515	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+MIA PaCa-2	CVCL_0428	Y-lost	56332	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+NCI-H1573	CVCL_1478	XIST-lost	46779	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+NCI-H1792	CVCL_1495	Y-lost	42814	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+NCI-H2030	CVCL_1517	Y-lost	24286	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+NCI-H23	CVCL_1547	Y-lost	43502	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+Panc 03.27	CVCL_1635	XIST-lost	37440	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+PANC-1	CVCL_0480	Y-lost	95104	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+RPMI-7951	CVCL_1666	XIST-lost	36583	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+SHP-77	CVCL_1693	Y-lost	50317	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+SW 1271	CVCL_1716	Y-lost	4934	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+SW 900	CVCL_1731	Y-lost	38035	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+SW1417	CVCL_1717	XIST-lost	43434	no marker above its cut-off (Y and XIST both low): no marker-positive population to test
+SW480	CVCL_0546	Y-lost	139102	no marker above its cut-off (Y and XIST both low): no marker-positive population to test

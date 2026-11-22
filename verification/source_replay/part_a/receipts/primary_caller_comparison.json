@@ -1,0 +1,531 @@
+{
+  "gene_chrom.tsv": {
+    "new_sha256": "322dde60ff200a92be9bb83393e834a2ffe43c329e56dc66aa92783506c63fad",
+    "old_sha256": "322dde60ff200a92be9bb83393e834a2ffe43c329e56dc66aa92783506c63fad",
+    "rows": 62710,
+    "reference_rows": 62710,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 5,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_agreement.tsv": {
+    "new_sha256": "16ea24ecb814f9349608d95112df925f1774706c2aa12810bdb88803c2f78b1d",
+    "old_sha256": "16ea24ecb814f9349608d95112df925f1774706c2aa12810bdb88803c2f78b1d",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 36,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_agreement_summary.tsv": {
+    "new_sha256": "0054a000c806e9d2ed28228e72eb8ceb275ad8627e17a5b19166d7a58b1c87e6",
+    "old_sha256": "0054a000c806e9d2ed28228e72eb8ceb275ad8627e17a5b19166d7a58b1c87e6",
+    "rows": 11,
+    "reference_rows": 11,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 5,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_ambient.tsv": {
+    "new_sha256": "6762c6653bef4485b3abe2df331e31db0f65f52d0a30603eb9916c240891d16e",
+    "old_sha256": "6762c6653bef4485b3abe2df331e31db0f65f52d0a30603eb9916c240891d16e",
+    "rows": 252,
+    "reference_rows": 252,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "unit",
+      "marker"
+    ],
+    "common_columns": 10,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_ambient_summary.tsv": {
+    "new_sha256": "bc165c82dd257bd30ed3ed12cf3cd4ab50be83cec7824b12b6f21e18e022c0da",
+    "old_sha256": "bc165c82dd257bd30ed3ed12cf3cd4ab50be83cec7824b12b6f21e18e022c0da",
+    "rows": 6,
+    "reference_rows": 6,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "marker"
+    ],
+    "common_columns": 6,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_annotation.tsv": {
+    "new_sha256": "1b94e2d663bfd7f41b5a829164f37e536d05046aae9b1418de3db92ff02028e6",
+    "old_sha256": "1b94e2d663bfd7f41b5a829164f37e536d05046aae9b1418de3db92ff02028e6",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cell_line_id"
+    ],
+    "common_columns": 5,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_consort.tsv": {
+    "new_sha256": "ecf5006e40f258d4a8f9f7ba6b5f002719377e2d413bf2cf0967ba369b7f0b03",
+    "old_sha256": "ecf5006e40f258d4a8f9f7ba6b5f002719377e2d413bf2cf0967ba369b7f0b03",
+    "rows": 5,
+    "reference_rows": 5,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 3,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_cutoffs.tsv": {
+    "new_sha256": "1abc92440ec79543ac1d7d942981be0f7700943f471aa71b6bb74465d0bb6e10",
+    "old_sha256": "1abc92440ec79543ac1d7d942981be0f7700943f471aa71b6bb74465d0bb6e10",
+    "rows": 4,
+    "reference_rows": 4,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "score"
+    ],
+    "common_columns": 15,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_cutoffs_linelevel.tsv": {
+    "new_sha256": "3ed408be0628ec900273ac4e543f1d04dbf1929b05c7989ef86ed98b800975bd",
+    "old_sha256": "3ed408be0628ec900273ac4e543f1d04dbf1929b05c7989ef86ed98b800975bd",
+    "rows": 4,
+    "reference_rows": 4,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "score"
+    ],
+    "common_columns": 15,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_depth_curve.tsv": {
+    "new_sha256": "859e4e16e0aeadc2997ba958f52f74541d79d500d95d819ebab24df2c1f1d15c",
+    "old_sha256": "859e4e16e0aeadc2997ba958f52f74541d79d500d95d819ebab24df2c1f1d15c",
+    "rows": 227,
+    "reference_rows": 227,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id",
+      "marker"
+    ],
+    "common_columns": 13,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_filter_iterations.tsv": {
+    "new_sha256": "56178a13fe09b13e0bd6083dc47713931970dd5f996be9c8440cca3deded7e33",
+    "old_sha256": "56178a13fe09b13e0bd6083dc47713931970dd5f996be9c8440cca3deded7e33",
+    "rows": 2,
+    "reference_rows": 2,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 11,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_filter_iterations_linelevel.tsv": {
+    "new_sha256": "76c422961b9f1f289d6fa38d5cdde1db1d4cd9b0fc4edd2b38e2b760502fb692",
+    "old_sha256": "76c422961b9f1f289d6fa38d5cdde1db1d4cd9b0fc4edd2b38e2b760502fb692",
+    "rows": 2,
+    "reference_rows": 2,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 11,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_foreign_cells.tsv": {
+    "new_sha256": "b924f1ff94a51e7f1021bb370602a5ac6b58c05e8601dc837cd6b2aa85c4092e",
+    "old_sha256": "b924f1ff94a51e7f1021bb370602a5ac6b58c05e8601dc837cd6b2aa85c4092e",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 20,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_foreign_correlation.tsv": {
+    "new_sha256": "421d069a4daa6724955c643a4370c688e1acd9203e9a511a26bfdbf929740051",
+    "old_sha256": "421d069a4daa6724955c643a4370c688e1acd9203e9a511a26bfdbf929740051",
+    "rows": 6,
+    "reference_rows": 6,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 6,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_gene_level_scores.tsv": {
+    "new_sha256": "405fdcc532a894b7b836561e0fa43c8bb02177ae817b5a6f005f869d9d9eed59",
+    "old_sha256": "405fdcc532a894b7b836561e0fa43c8bb02177ae817b5a6f005f869d9d9eed59",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 16,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_identity.tsv": {
+    "new_sha256": "10d68a93d05ffeddfc1bcf03d9d3ccc6a680a5963b85415710a2168164c67688",
+    "old_sha256": "10d68a93d05ffeddfc1bcf03d9d3ccc6a680a5963b85415710a2168164c67688",
+    "rows": 6,
+    "reference_rows": 6,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id",
+      "marker"
+    ],
+    "common_columns": 32,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_identity_replicates.tsv": {
+    "new_sha256": "93a05155beb9867e9da500a3b0610cc643b707d17e91a6faec66dd14de70b0de",
+    "old_sha256": "93a05155beb9867e9da500a3b0610cc643b707d17e91a6faec66dd14de70b0de",
+    "rows": 60,
+    "reference_rows": 60,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id",
+      "marker",
+      "replicate"
+    ],
+    "common_columns": 19,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_input_checks.tsv": {
+    "new_sha256": "789799c7fd25d1d0cfb4f3f5b05029572c914758e47660f71474805dd3bc3ecd",
+    "old_sha256": "789799c7fd25d1d0cfb4f3f5b05029572c914758e47660f71474805dd3bc3ecd",
+    "rows": 35,
+    "reference_rows": 35,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 3,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_kde_grid_check.tsv": {
+    "new_sha256": "01033cfa17c0e29037cc62edf488f9ef662c6e4ad01a43902f37603ace459801",
+    "old_sha256": "01033cfa17c0e29037cc62edf488f9ef662c6e4ad01a43902f37603ace459801",
+    "rows": 8,
+    "reference_rows": 8,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "score"
+    ],
+    "common_columns": 6,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_label_audit.tsv": {
+    "new_sha256": "3317697e173626f08196a60499d126880b21798a75673aec414b45ed74aa2644",
+    "old_sha256": "3317697e173626f08196a60499d126880b21798a75673aec414b45ed74aa2644",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 22,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_label_audit_summary.tsv": {
+    "new_sha256": "883a0887dfe2a7713b57b28bf61ec517ed37388e77bac6846d0050b8ac1ec61d",
+    "old_sha256": "883a0887dfe2a7713b57b28bf61ec517ed37388e77bac6846d0050b8ac1ec61d",
+    "rows": 3,
+    "reference_rows": 3,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 6,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_lineplate_scores.tsv": {
+    "new_sha256": "455204fd67264bfa91849d8dd77020424c8d75156a8b4ed4459763d2a214344f",
+    "old_sha256": "455204fd67264bfa91849d8dd77020424c8d75156a8b4ed4459763d2a214344f",
+    "rows": 700,
+    "reference_rows": 700,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cell_line_id",
+      "plate"
+    ],
+    "common_columns": 25,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_mosaic.tsv": {
+    "new_sha256": "78d1b7477ce548f5a6b9683004a68ad72eb356fc7cc91e473e01a0f58ee15d2d",
+    "old_sha256": "78d1b7477ce548f5a6b9683004a68ad72eb356fc7cc91e473e01a0f58ee15d2d",
+    "rows": 23,
+    "reference_rows": 23,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id",
+      "marker"
+    ],
+    "common_columns": 56,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_mosaic_abcde.tsv": {
+    "new_sha256": "2188f47df2c371217a9da67eb2dc688486d94cb1d859c9cee91a3947eb81bc1e",
+    "old_sha256": "2188f47df2c371217a9da67eb2dc688486d94cb1d859c9cee91a3947eb81bc1e",
+    "rows": 23,
+    "reference_rows": 23,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id",
+      "marker"
+    ],
+    "common_columns": 80,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_mosaic_not_tested.tsv": {
+    "new_sha256": "bc63ffd653e67c586b60df722765b761d211ff87adae8823be31e245b16899ea",
+    "old_sha256": "bc63ffd653e67c586b60df722765b761d211ff87adae8823be31e245b16899ea",
+    "rows": 25,
+    "reference_rows": 25,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 5,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_nearest_centroid.tsv": {
+    "new_sha256": "9f14c9a311af561b1d539616650c0e53a11967bba9974b114728ffe4e5918c4e",
+    "old_sha256": "9f14c9a311af561b1d539616650c0e53a11967bba9974b114728ffe4e5918c4e",
+    "rows": 162,
+    "reference_rows": 162,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "marker"
+    ],
+    "common_columns": 6,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_pending.tsv": {
+    "new_sha256": "0261245f6ba6e4d68f8c80c99cf851dcc1716d39147a3c7c60aad0bd47a8b285",
+    "old_sha256": "0261245f6ba6e4d68f8c80c99cf851dcc1716d39147a3c7c60aad0bd47a8b285",
+    "rows": 0,
+    "reference_rows": 0,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id",
+      "marker"
+    ],
+    "common_columns": 4,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_pie_mapping.tsv": {
+    "new_sha256": "bc488b62f73cc831d00e38c4c2431b10db1382216cef9d4c0b1f98ec5e0a8621",
+    "old_sha256": "bc488b62f73cc831d00e38c4c2431b10db1382216cef9d4c0b1f98ec5e0a8621",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 8,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_plate_background.tsv": {
+    "new_sha256": "80239bdc53ed903014bd2a95a61a55da5790b00db88815d46fab75865dac6da8",
+    "old_sha256": "80239bdc53ed903014bd2a95a61a55da5790b00db88815d46fab75865dac6da8",
+    "rows": 42,
+    "reference_rows": 42,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "unit",
+      "marker"
+    ],
+    "common_columns": 11,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_sensitivity_compare.tsv": {
+    "new_sha256": "be6a61bba37ef48fa8abbf5f2f16c850d2324d8d6757f19452e46f1d0858d0f7",
+    "old_sha256": "be6a61bba37ef48fa8abbf5f2f16c850d2324d8d6757f19452e46f1d0858d0f7",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 25,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_six_lines_parse_qc.tsv": {
+    "new_sha256": "e11d96aaf4a8c445307e0bd0f4e90d23d5e8210b23398e38266050f72226e2f6",
+    "old_sha256": "e11d96aaf4a8c445307e0bd0f4e90d23d5e8210b23398e38266050f72226e2f6",
+    "rows": 14,
+    "reference_rows": 14,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 6,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_states.tsv": {
+    "new_sha256": "dc98d7895f698271cbe27d4371a81e8d8ab48fa81d87b450b87651d07c04bc22",
+    "old_sha256": "dc98d7895f698271cbe27d4371a81e8d8ab48fa81d87b450b87651d07c04bc22",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 29,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partA_local_states_linelevel.tsv": {
+    "new_sha256": "aa472246ba1beaeadf9a5dfd7fb0ab3d2aa93eb84c01211f402ea7c656c0c1bd",
+    "old_sha256": "aa472246ba1beaeadf9a5dfd7fb0ab3d2aa93eb84c01211f402ea7c656c0c1bd",
+    "rows": 50,
+    "reference_rows": 50,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 16,
+    "changed_numeric": {},
+    "exact_numeric_differences": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  }
+}

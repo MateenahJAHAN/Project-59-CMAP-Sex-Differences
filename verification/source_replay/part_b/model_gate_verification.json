@@ -1,0 +1,58 @@
+[
+  {
+    "table": "G_gates.tsv",
+    "rows": 11,
+    "replayed_sha256": "f352fd49ffdfb8478728cb4846869d7fa8740e9118435ec8dd467412236b4ee9",
+    "archived_sha256": "f352fd49ffdfb8478728cb4846869d7fa8740e9118435ec8dd467412236b4ee9",
+    "exact": true
+  },
+  {
+    "table": "G_calibration.tsv",
+    "rows": 1200,
+    "replayed_sha256": "84b515199f66fb953379fd1a3232cc3c01a30bf5b4fd9120b195465fbfd2d172",
+    "archived_sha256": "84b515199f66fb953379fd1a3232cc3c01a30bf5b4fd9120b195465fbfd2d172",
+    "exact": true
+  },
+  {
+    "table": "G_calibration_replay.tsv",
+    "rows": 46,
+    "replayed_sha256": "fc50d78ce1827c0ada74bef8662493d19867d26a1b14c9b11dce6d6a72946832",
+    "archived_sha256": "fc50d78ce1827c0ada74bef8662493d19867d26a1b14c9b11dce6d6a72946832",
+    "exact": true
+  },
+  {
+    "table": "G_calibration_summary.tsv",
+    "rows": 9,
+    "replayed_sha256": "b3e2ec11d5aae5ccae64c6fa59fb240a17c120f0b4a681087a02b33c210c90c9",
+    "archived_sha256": "b3e2ec11d5aae5ccae64c6fa59fb240a17c120f0b4a681087a02b33c210c90c9",
+    "exact": true
+  },
+  {
+    "table": "G_E3_precision_labelfree.tsv",
+    "rows": 3,
+    "replayed_sha256": "5c5c034e2a5de5f530d820ae7737f05833f0368d5ffa1a7179df492bc7c039e4",
+    "archived_sha256": "5c5c034e2a5de5f530d820ae7737f05833f0368d5ffa1a7179df492bc7c039e4",
+    "exact": true
+  },
+  {
+    "table": "G_sets_counts.tsv",
+    "rows": 44,
+    "replayed_sha256": "cbb68fa0b3f52e5a163546c8cd185c6c34708bc254f64b07e63ebd38c2d55c63",
+    "archived_sha256": "cbb68fa0b3f52e5a163546c8cd185c6c34708bc254f64b07e63ebd38c2d55c63",
+    "exact": true
+  },
+  {
+    "table": "G_sets_check.tsv",
+    "rows": 4,
+    "replayed_sha256": "86dfcc8a7d01fa7d9ac0f5369d88eba1aee7f0d958a9b30a6774021a88e19dba",
+    "archived_sha256": "86dfcc8a7d01fa7d9ac0f5369d88eba1aee7f0d958a9b30a6774021a88e19dba",
+    "exact": true
+  },
+  {
+    "table": "G_sets_lines.tsv",
+    "rows": 202,
+    "replayed_sha256": "60193ea238e474d180064bb7ff6dbbfa988ac9b0abacfd7d7a2667b5b1804cf8",
+    "archived_sha256": "60193ea238e474d180064bb7ff6dbbfa988ac9b0abacfd7d7a2667b5b1804cf8",
+    "exact": true
+  }
+]

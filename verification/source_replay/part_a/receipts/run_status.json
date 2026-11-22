@@ -9,12 +9,14 @@
     "Tahoe_primary_expression_aggregation",
     "Tahoe_primary_state_caller",
     "all_five_RNA_to_STR_source_comparisons",
-    "Tahoe_bulk_and_external_cross_atlas_pattern_checks"
+    "Tahoe_bulk_and_external_cross_atlas_pattern_checks",
+    "all_primary_Tahoe_diagnostics_and_all_genes",
+    "all_EmeraldBay_expression_shards_and_identity_controls"
   ],
   "tahoe_expression_shards_total": 1910,
   "tahoe_expression_shards_extracted": 1910,
   "tahoe_second_caller_shards_reduced": 850,
-  "emerald_all_condition_shards_processed": 84,
+  "emerald_all_condition_shards_processed": 116,
   "emerald_all_condition_shards_total": 116,
   "tahoe_vehicle_primary_cells": 2205786,
   "str_comparison_basis": {
