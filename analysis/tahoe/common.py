@@ -8,11 +8,11 @@ import numpy as np
 import pandas as pd
 from scipy.stats import gaussian_kde
 
-DMSO = '$P59_DATA/tahoe/dmso'
-META = '$P59_DATA/tahoe/index/meta'
+DMSO = os.path.expandvars('$P59_DATA/tahoe/dmso')
+META = os.path.expandvars('$P59_DATA/tahoe/index/meta')
 # output folder; P59_PARTA_OUT allows a rerun into a fresh folder (added after the 09:21 UTC run, no change in computation)
-OUT = os.environ.get('P59_PARTA_OUT', '$P59_DATA/tahoe/partA_local')
-INPUTS = '$P59_ANALYSIS/inputs'
+OUT = os.environ.get('P59_PARTA_OUT', os.path.expandvars('$P59_DATA/tahoe/partA_local'))
+INPUTS = os.path.expandvars('$P59_ANALYSIS/inputs')
 VEHICLE = 'DMSO_TF'
 SEED = 20261115
 

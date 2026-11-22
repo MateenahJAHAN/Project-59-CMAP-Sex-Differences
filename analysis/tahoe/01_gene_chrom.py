@@ -6,7 +6,7 @@ chrom_class: autosome, X, Y, MT, other (scaffold), unannotated (ID not in the GT
 import gzip, sys, time
 import pandas as pd
 
-OUT = __import__('os').environ.get('P59_PARTA_OUT', '$P59_DATA/tahoe/partA_local')
+OUT = __import__('os').environ.get('P59_PARTA_OUT', __import__('os').path.expandvars('$P59_DATA/tahoe/partA_local'))
 GTF = OUT + '/downloads/ensembl/Homo_sapiens.GRCh38.110.gtf.gz'
 t0 = time.time()
 rows = {}
@@ -23,7 +23,7 @@ with gzip.open(GTF, 'rt') as fh:
         assert gid not in rows, gid
         rows[gid] = f[0]
 gtf = pd.Series(rows, name='chrom')
-genes = pd.read_csv('$P59_DATA/tahoe/dmso/genes.tsv', sep='\t')
+genes = pd.read_csv(__import__('os').path.expandvars('$P59_DATA/tahoe/dmso/genes.tsv'), sep='\t')
 assert genes.token_id.is_unique and genes.ensembl_id.is_unique
 genes['chrom'] = genes.ensembl_id.map(gtf)
 auto = {str(i) for i in range(1, 23)}
