@@ -1,0 +1,1 @@
+Before extracting any treatment outcome, the chromosome eligibility check identified TSC22D3 on chromosome X. The triamcinolone positive control will use the four prespecified autosomal transcripts FKBP5, DDIT4, SGK1 and PER1. There is no replacement marker. The measured landmark panel and the entire primary calculation retain their original eligibility rules.

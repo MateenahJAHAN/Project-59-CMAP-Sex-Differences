@@ -1,0 +1,10 @@
+{
+  "raw_annotation_rows": 100648790,
+  "captured_rows": 95624334,
+  "well_line_entries": 67200,
+  "mismatched_count_entries": 0,
+  "estimate": -0.005139199104607121,
+  "exact_two_sided_p": 0.8524078801856579,
+  "unique_labelings": 972972,
+  "main_monte_carlo_p": 0.85077
+}

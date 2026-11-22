@@ -1,0 +1,440 @@
+{
+  "primary": {
+    "estimate": 0.010912542162957395,
+    "organs": {
+      "Bowel": 0.0005868683773551098,
+      "Lung": -0.0012193424575885903,
+      "Skin": 0.033370100569105665
+    },
+    "n_lines": 24,
+    "coverage": {
+      "Bowel": {
+        "lines": [
+          "COLO 205",
+          "HCT15",
+          "HT-29",
+          "LS 180",
+          "LoVo",
+          "RKO",
+          "SW480",
+          "SW1417",
+          "SW48"
+        ],
+        "same_conditions_all_lines": 92,
+        "range_pair_conditions": [
+          92,
+          93
+        ]
+      },
+      "Lung": {
+        "lines": [
+          "A549",
+          "NCI-H460",
+          "A-427",
+          "HOP62",
+          "NCI-H1573",
+          "NCI-H1792",
+          "NCI-H2030",
+          "NCI-H23",
+          "NCI-H2347",
+          "SHP-77",
+          "SW 900"
+        ],
+        "same_conditions_all_lines": 89,
+        "range_pair_conditions": [
+          89,
+          93
+        ]
+      },
+      "Skin": {
+        "lines": [
+          "SK-MEL-2",
+          "C32",
+          "LOX-IMVI",
+          "RPMI-7951"
+        ],
+        "same_conditions_all_lines": 90,
+        "range_pair_conditions": [
+          90,
+          92
+        ]
+      }
+    },
+    "n_pairs": 97,
+    "vehicle": -0.006669110349686268,
+    "exact_p": 0.20409652076318743,
+    "labelings": 249480,
+    "reference_95": [
+      -0.01132799353156568,
+      0.014865868000979573
+    ],
+    "organ_omissions": {
+      "Bowel": 0.016075379055758537,
+      "Lung": 0.016978484473230387,
+      "Skin": -0.00031623704011674025
+    }
+  },
+  "sensitivity": {
+    "alternate_baseline": {
+      "estimate": 0.013203069622354771,
+      "organs": {
+        "Bowel": 0.007458450755547241,
+        "Lung": -0.0012193424575885903,
+        "Skin": 0.033370100569105665
+      },
+      "n_lines": 24,
+      "coverage": {
+        "Bowel": {
+          "lines": [
+            "COLO 205",
+            "HCT15",
+            "HT-29",
+            "LS 180",
+            "LoVo",
+            "RKO",
+            "SW480",
+            "SW1417",
+            "SW48"
+          ],
+          "same_conditions_all_lines": 92,
+          "range_pair_conditions": [
+            92,
+            93
+          ]
+        },
+        "Lung": {
+          "lines": [
+            "A549",
+            "NCI-H460",
+            "A-427",
+            "HOP62",
+            "NCI-H1573",
+            "NCI-H1792",
+            "NCI-H2030",
+            "NCI-H23",
+            "NCI-H2347",
+            "SHP-77",
+            "SW 900"
+          ],
+          "same_conditions_all_lines": 89,
+          "range_pair_conditions": [
+            89,
+            93
+          ]
+        },
+        "Skin": {
+          "lines": [
+            "SK-MEL-2",
+            "C32",
+            "LOX-IMVI",
+            "RPMI-7951"
+          ],
+          "same_conditions_all_lines": 90,
+          "range_pair_conditions": [
+            90,
+            92
+          ]
+        }
+      },
+      "n_pairs": 97,
+      "vehicle": -0.0012780101906895575
+    },
+    "exclude_COLO205": {
+      "estimate": 0.01267934345561835,
+      "organs": {
+        "Bowel": 0.005887272255337972,
+        "Lung": -0.0012193424575885903,
+        "Skin": 0.033370100569105665
+      },
+      "n_lines": 23,
+      "coverage": {
+        "Bowel": {
+          "lines": [
+            "HCT15",
+            "HT-29",
+            "LS 180",
+            "LoVo",
+            "RKO",
+            "SW480",
+            "SW1417",
+            "SW48"
+          ],
+          "same_conditions_all_lines": 92,
+          "range_pair_conditions": [
+            92,
+            93
+          ]
+        },
+        "Lung": {
+          "lines": [
+            "A549",
+            "NCI-H460",
+            "A-427",
+            "HOP62",
+            "NCI-H1573",
+            "NCI-H1792",
+            "NCI-H2030",
+            "NCI-H23",
+            "NCI-H2347",
+            "SHP-77",
+            "SW 900"
+          ],
+          "same_conditions_all_lines": 89,
+          "range_pair_conditions": [
+            89,
+            93
+          ]
+        },
+        "Skin": {
+          "lines": [
+            "SK-MEL-2",
+            "C32",
+            "LOX-IMVI",
+            "RPMI-7951"
+          ],
+          "same_conditions_all_lines": 90,
+          "range_pair_conditions": [
+            90,
+            92
+          ]
+        }
+      },
+      "n_pairs": 89,
+      "vehicle": -0.002863169341668017
+    },
+    "min50": {
+      "estimate": 0.010901822350542082,
+      "organs": {
+        "Bowel": 0.000654770219714218,
+        "Lung": -0.001062513502169793,
+        "Skin": 0.03311321033408182
+      },
+      "n_lines": 24,
+      "coverage": {
+        "Bowel": {
+          "lines": [
+            "COLO 205",
+            "HCT15",
+            "HT-29",
+            "LS 180",
+            "LoVo",
+            "RKO",
+            "SW480",
+            "SW1417",
+            "SW48"
+          ],
+          "same_conditions_all_lines": 93,
+          "range_pair_conditions": [
+            93,
+            93
+          ]
+        },
+        "Lung": {
+          "lines": [
+            "A549",
+            "NCI-H460",
+            "A-427",
+            "HOP62",
+            "NCI-H1573",
+            "NCI-H1792",
+            "NCI-H2030",
+            "NCI-H23",
+            "NCI-H2347",
+            "SHP-77",
+            "SW 900"
+          ],
+          "same_conditions_all_lines": 91,
+          "range_pair_conditions": [
+            91,
+            93
+          ]
+        },
+        "Skin": {
+          "lines": [
+            "SK-MEL-2",
+            "C32",
+            "LOX-IMVI",
+            "RPMI-7951"
+          ],
+          "same_conditions_all_lines": 93,
+          "range_pair_conditions": [
+            93,
+            93
+          ]
+        }
+      },
+      "n_pairs": 97,
+      "vehicle": -0.006669110349686268
+    },
+    "min500": {
+      "estimate": 0.010597937917173256,
+      "organs": {
+        "Bowel": 0.000686757248061054,
+        "Lung": -0.0010350682569230107,
+        "Skin": 0.032142124760381724
+      },
+      "n_lines": 24,
+      "coverage": {
+        "Bowel": {
+          "lines": [
+            "COLO 205",
+            "HCT15",
+            "HT-29",
+            "LS 180",
+            "LoVo",
+            "RKO",
+            "SW480",
+            "SW1417",
+            "SW48"
+          ],
+          "same_conditions_all_lines": 73,
+          "range_pair_conditions": [
+            74,
+            93
+          ]
+        },
+        "Lung": {
+          "lines": [
+            "A549",
+            "NCI-H460",
+            "A-427",
+            "HOP62",
+            "NCI-H1573",
+            "NCI-H1792",
+            "NCI-H2030",
+            "NCI-H23",
+            "NCI-H2347",
+            "SHP-77",
+            "SW 900"
+          ],
+          "same_conditions_all_lines": 82,
+          "range_pair_conditions": [
+            83,
+            92
+          ]
+        },
+        "Skin": {
+          "lines": [
+            "SK-MEL-2",
+            "C32",
+            "LOX-IMVI",
+            "RPMI-7951"
+          ],
+          "same_conditions_all_lines": 85,
+          "range_pair_conditions": [
+            85,
+            90
+          ]
+        }
+      },
+      "n_pairs": 97,
+      "vehicle": -0.006669110349686268
+    },
+    "common_conditions_within_organ": {
+      "estimate": 0.011033363048516839,
+      "organs": {
+        "Bowel": 0.0005256750026501056,
+        "Lung": -0.0010519196774917972,
+        "Skin": 0.03362633382039221
+      },
+      "n_lines": 24,
+      "coverage": {
+        "Bowel": {
+          "lines": [
+            "COLO 205",
+            "HCT15",
+            "HT-29",
+            "LS 180",
+            "LoVo",
+            "RKO",
+            "SW480",
+            "SW1417",
+            "SW48"
+          ],
+          "same_conditions_all_lines": 92,
+          "range_pair_conditions": [
+            92,
+            92
+          ]
+        },
+        "Lung": {
+          "lines": [
+            "A549",
+            "NCI-H460",
+            "A-427",
+            "HOP62",
+            "NCI-H1573",
+            "NCI-H1792",
+            "NCI-H2030",
+            "NCI-H23",
+            "NCI-H2347",
+            "SHP-77",
+            "SW 900"
+          ],
+          "same_conditions_all_lines": 89,
+          "range_pair_conditions": [
+            89,
+            89
+          ]
+        },
+        "Skin": {
+          "lines": [
+            "SK-MEL-2",
+            "C32",
+            "LOX-IMVI",
+            "RPMI-7951"
+          ],
+          "same_conditions_all_lines": 90,
+          "range_pair_conditions": [
+            90,
+            90
+          ]
+        }
+      },
+      "n_pairs": 97,
+      "vehicle": -0.006669110349686268
+    }
+  },
+  "replication": {
+    "matched": 0.3853570788676263,
+    "other": 0.20097739363380415,
+    "delta": 0.1843796852338221,
+    "lines": 24,
+    "positive_delta_lines": 24
+  },
+  "triamcinolone": {
+    "lines": 43,
+    "genes": [
+      "FKBP5",
+      "DDIT4",
+      "SGK1",
+      "PER1"
+    ],
+    "median_by_gene": [
+      [
+        2.988810340196891,
+        0.8735879343359683,
+        0.1436319312132328,
+        1.4647963929892596
+      ],
+      [
+        1.6351493238455994,
+        0.3052975988654909,
+        0.13580490918938715,
+        0.8244416885559716
+      ]
+    ],
+    "median_line_module_per_plate": [
+      1.5485858227642,
+      0.7255594771159193
+    ],
+    "paired_median": 1.128776585382615
+  },
+  "n_landmark": 948,
+  "n_lines_raw": 50,
+  "shared_conditions": 94,
+  "primary_compared_conditions": 93,
+  "cells_two_plates": 13486933,
+  "eligible_line_conditions_all_lines": 3965,
+  "eligible_line_conditions_primary": 2218
+}

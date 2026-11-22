@@ -1,0 +1,72 @@
+[
+  {
+    "table": "plates/plate1/cells_markers.parquet",
+    "sha256": "47a9d6d8e893d06206a5c63ce607feab360514d1f18d140f7072df4bad8bedc1",
+    "rows": 5299930
+  },
+  {
+    "table": "plates/plate2/cells_markers.parquet",
+    "sha256": "f26749dcc5b648b114dc51f052ba880d824153d6a0680d5c5897bbc3693d0329",
+    "rows": 7687184
+  },
+  {
+    "table": "plates/plate3/cells_markers.parquet",
+    "sha256": "e5105e72acaff6c2a36a595a22503a17ac2546fa3e2a5ca8f617f8cad881a8ec",
+    "rows": 4158278
+  },
+  {
+    "table": "plates/plate4/cells_markers.parquet",
+    "sha256": "665e44eedf0d7a1289110566f0924b4107de69c78c8f12e4ac8328f10679347e",
+    "rows": 6679884
+  },
+  {
+    "table": "plates/plate5/cells_markers.parquet",
+    "sha256": "826b34db894c7e23fa2e569028705a6729ed60ce5e9a21d3cf53cd6f11bbba60",
+    "rows": 5908471
+  },
+  {
+    "table": "plates/plate6/cells_markers.parquet",
+    "sha256": "8dc9a53d8527d4e4bbd37a13a12598d7363190e78ea59514de6a98af57a771e8",
+    "rows": 7285856
+  },
+  {
+    "table": "plates/plate7/cells_markers.parquet",
+    "sha256": "3669bf0b493c9ec51353fbdaa6fce992c46f609e4b4b80fc98af517ce6f62866",
+    "rows": 5227768
+  },
+  {
+    "table": "plates/plate8/cells_markers.parquet",
+    "sha256": "1f4e922f5fff6a1afe3c1e63d49e1471c7ed26f8c461ac7e016099bffafbc890",
+    "rows": 8516367
+  },
+  {
+    "table": "plates/plate9/cells_markers.parquet",
+    "sha256": "cf7d8373a78079ae7ca84893895710012777c72a9bfc7b2e7be0d763a6ed8987",
+    "rows": 5569622
+  },
+  {
+    "table": "plates/plate10/cells_markers.parquet",
+    "sha256": "ea4a2b43c287ff071d16052bc95d31369962e99662896893def28acbc1b85d53",
+    "rows": 7731986
+  },
+  {
+    "table": "plates/plate11/cells_markers.parquet",
+    "sha256": "01c5c8b0d7c4957ec00da49ef34ebb7045b888716d03e26bd4ca23ba9d23fd59",
+    "rows": 7062820
+  },
+  {
+    "table": "plates/plate12/cells_markers.parquet",
+    "sha256": "9e263af7f48df742ff34277c0924e1ae4c9c7b73b5f82c5b6597ae60d921581e",
+    "rows": 10188591
+  },
+  {
+    "table": "plates/plate13/cells_markers.parquet",
+    "sha256": "c41180bfe82a84bd430d0ab166ac89001416a4b21154624f42442a02276cfde3",
+    "rows": 8106500
+  },
+  {
+    "table": "plates/plate14/cells_markers.parquet",
+    "sha256": "9e38617bac206423d428e55c32151de249fa2455c3cf2c1c2fb64db635df60ff",
+    "rows": 6201077
+  }
+]

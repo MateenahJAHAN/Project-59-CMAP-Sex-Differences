@@ -1,0 +1,1438 @@
+<SkyCase>
+      <SkyCase_caseId>2801</SkyCase_caseId>
+      <SkyCase_userCaseName>none</SkyCase_userCaseName>
+      <SkyCase_header>
+        <CaseHeader>
+          <CaseHeader_name>Colo205 (submitter:Tonon)</CaseHeader_name>
+          <CaseHeader_organism>
+            <Organism value="human" />
+          </CaseHeader_organism>
+          <CaseHeader_numberOfAutosomes>0</CaseHeader_numberOfAutosomes>
+          <CaseHeader_age>0</CaseHeader_age>
+          <CaseHeader_sex>
+            <Sex value="male" />
+          </CaseHeader_sex>
+          <CaseHeader_imunoType>
+            <ImunoType value="unknown" />
+          </CaseHeader_imunoType>
+          <CaseHeader_cellSource>
+            <CellSource value="cellLine" />
+          </CaseHeader_cellSource>
+          <CaseHeader_disorderTumor>
+            <DisorderTumor value="solidTumor" />
+          </CaseHeader_disorderTumor>
+          <CaseHeader_diseaseStage>
+            <DiseaseStage value="unknown" />
+          </CaseHeader_diseaseStage>
+          <CaseHeader_diseaseStatus>
+            <DiseaseStatus value="unknown" />
+          </CaseHeader_diseaseStatus>
+          <CaseHeader_tissue>
+            <Tissue value="organDerived" />
+          </CaseHeader_tissue>
+          <CaseHeader_treatment>
+            <Treatment value="unknown" />
+          </CaseHeader_treatment>
+          <CaseHeader_herdsSyndrome>
+            <HerdsSyndromeOrg>
+              <HerdsSyndromeOrg_herdsSyndromeHuman>
+                <HumanHerdsSyndrome value="none" />
+              </HerdsSyndromeOrg_herdsSyndromeHuman>
+            </HerdsSyndromeOrg>
+          </CaseHeader_herdsSyndrome>
+          <CaseHeader_priv>
+            <Priv value="public" />
+          </CaseHeader_priv>
+          <CaseHeader_caseDetails>
+            <CaseDetailSET>
+              <CaseDetail>
+                <CaseDetail_descriptor>casename</CaseDetail_descriptor>
+                <CaseDetail_value>
+                  <DetailLineSET>
+                    <DetailLine>
+                      <DetailLine_line />
+                    </DetailLine>
+                  </DetailLineSET>
+                </CaseDetail_value>
+              </CaseDetail>
+              <CaseDetail>
+                <CaseDetail_descriptor />
+                <CaseDetail_value>
+                  <DetailLineSET>
+                    <DetailLine>
+                      <DetailLine_line />
+                    </DetailLine>
+                    <DetailLine>
+                      <DetailLine_line />
+                    </DetailLine>
+                    <DetailLine>
+                      <DetailLine_line />
+                    </DetailLine>
+                    <DetailLine>
+                      <DetailLine_line />
+                    </DetailLine>
+                    <DetailLine>
+                      <DetailLine_line />
+                    </DetailLine>
+                    <DetailLine>
+                      <DetailLine_line />
+                    </DetailLine>
+                    <DetailLine>
+                      <DetailLine_line />
+                    </DetailLine>
+                  </DetailLineSET>
+                </CaseDetail_value>
+              </CaseDetail>
+            </CaseDetailSET>
+          </CaseHeader_caseDetails>
+        </CaseHeader>
+      </SkyCase_header>
+      <SkyCase_citation>
+        <SkyCitation>
+          <SkyCitation_authors>Roschke AV, Tonon G, Gehlhaus KS, McTyre N, Bussey KJ, Lababidi S, Scudiero DA, Weinstein JN, Kirsch IR.</SkyCitation_authors>
+          <SkyCitation_title>Karyotypic complexity of the NCI-60 drug-screening panel.</SkyCitation_title>
+          <SkyCitation_journal>Cancer REs.</SkyCitation_journal>
+          <SkyCitation_volume>63</SkyCitation_volume>
+          <SkyCitation_year>2003</SkyCitation_year>
+          <SkyCitation_issue>24</SkyCitation_issue>
+          <SkyCitation_pages>8634-8647</SkyCitation_pages>
+          <SkyCitation_pubMedId>14695175</SkyCitation_pubMedId>
+        </SkyCitation>
+      </SkyCase_citation>
+      <SkyCase_cells>
+        <SkyCellSET>
+          <SkyCell>
+            <SkyCell_cellId>3263</SkyCell_cellId>
+            <SkyCell_skyCellHeader>
+              <SkyCellHeader>
+                <SkyCellHeader_chromoCt>72</SkyCellHeader_chromoCt>
+                <SkyCellHeader_ploidy>
+                  <PloidyStruct>
+                    <PloidyStruct_expectedAutosomeCount>3</PloidyStruct_expectedAutosomeCount>
+                    <PloidyStruct_ploidyNameAsInt>
+                      <Ploidy value="triploid" />
+                    </PloidyStruct_ploidyNameAsInt>
+                  </PloidyStruct>
+                </SkyCellHeader_ploidy>
+                <SkyCellHeader_cellct>9</SkyCellHeader_cellct>
+                <SkyCellHeader_isIncomplete value="false" />
+                <SkyCellHeader_imagefile>none</SkyCellHeader_imagefile>
+                <SkyCellHeader_isClone>
+                  <IsClone value="composite" />
+                </SkyCellHeader_isClone>
+                <SkyCellHeader_karyotype>69~75,XX,-Y[9],der(1)t(1;1)(q11;?p32)[9],i(1)(q10)[9],-3[5],+del(3)(p21)[2],i(5)(p10)[9],+i(5)(q10)[7],+6[3],der(6)t(6;13)(p11;q11)dup(6)(q21q22)t(6;13)(q22;q11)[7],+der(6)t(6;13)(p11;q11)dup(6)(q21q22)t(6;13)(q22;q11)x2[9],+8[4],der(8)t(8;21)(p22;q11)[9],del(10)(p11)[4],-12[9],-12[3],i(12)(p10)[6],-13[6],+15[6],+der(16)t(1;16)(q25;q12)[9],+17[4],+del(17)(p11)[7],-18[7],der(19)t(6;19)(p21.?;q13.1)[9],+20[6],+der(20)t(3;20)(q11;?)t(12;20)(q11;?)[9],+der(20)t(12;20)(q21;?)t(12;20)(q21;?)t(3;12)(q21;q24.3)[7],+der(20)t(9;20)(q31;q12)[8],-21[9],-22[4]</SkyCellHeader_karyotype>
+                <SkyCellHeader_sex>
+                  <Sex value="unknown" />
+                </SkyCellHeader_sex>
+                <SkyCellHeader_maxseg>4</SkyCellHeader_maxseg>
+              </SkyCellHeader>
+            </SkyCell_skyCellHeader>
+            <SkyCell_processedOK value="true" />
+            <SkyCell_complete value="true" />
+            <SkyCell_karyotypeTermCount>0</SkyCell_karyotypeTermCount>
+            <SkyCell_containsSyntaxError value="false" />
+            <SkyCell_dataDisagreement value="false" />
+            <SkyCell_normalChromosomes>
+              <NormalChromosomeSET>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>1</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>1</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>2</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>3</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>3</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>2</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>4</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>3</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>5</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>2</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>6</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>2</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>7</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>3</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>8</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>2</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>9</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>3</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>10</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>2</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>11</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>3</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>12</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>1</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>13</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>2</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>14</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>3</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>15</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>4</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>16</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>3</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>17</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>3</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>18</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>2</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>19</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>2</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>20</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>4</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>21</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>2</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>22</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>3</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>3</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>X</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>2</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>2</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+                <NormalChromosome>
+                  <NormalChromosome_place>
+                    <ChromosomeId>Y</ChromosomeId>
+                  </NormalChromosome_place>
+                  <NormalChromosome_normalChromId>-1</NormalChromosome_normalChromId>
+                  <NormalChromosome_normalCount>1</NormalChromosome_normalCount>
+                  <NormalChromosome_recurCnt>0</NormalChromosome_recurCnt>
+                  <NormalChromosome_actualCount>0</NormalChromosome_actualCount>
+                  <NormalChromosome_sourceKaryotypeTermPosition>-1</NormalChromosome_sourceKaryotypeTermPosition>
+                  <NormalChromosome_sourceKaryotypeTermId>-1</NormalChromosome_sourceKaryotypeTermId>
+                </NormalChromosome>
+              </NormalChromosomeSET>
+            </SkyCell_normalChromosomes>
+            <SkyCell_skyChromosomes>
+              <SkyChromosomeSET>
+                <SkyChromosome>
+                  <SkyChromosome_place>1</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>9</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9930</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20152</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>1</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>qter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q10</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>20153</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>1</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>q10</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>1</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>9</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9931</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20154</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>1</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>pter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q11</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>20155</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>1</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>p32</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>pter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>3</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>2</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9932</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20156</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>3</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>p21</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>5</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>7</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9933</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20157</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>5</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>qter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q10</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>20158</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>5</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>q10</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>5</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>9</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9934</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20159</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>5</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>pter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>p10</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>20160</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>5</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>p10</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>pter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>6</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>3</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>9</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9935</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20161</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>13</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>qter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q11</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>20162</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>6</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>p11</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q22</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>3</SkyFrag_position>
+                        <SkyFrag_skyFragId>20163</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>6</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>q21</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q22</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>4</SkyFrag_position>
+                        <SkyFrag_skyFragId>20164</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>13</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>q11</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>8</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>9</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9936</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20165</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>21</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>qter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q11</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>20166</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>8</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>p22</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>10</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>4</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9937</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20167</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>10</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>p11</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>12</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>6</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9938</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20168</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>12</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>pter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>p10</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>20169</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>12</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>p10</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>pter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>16</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>9</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9939</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20170</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>16</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>pter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q12</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>20171</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>1</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>q25</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>17</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>7</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9940</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20172</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>17</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>p11</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>19</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>9</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>9941</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>20173</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>19</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>pter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q13.1</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>20174</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>6</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>p21</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>pter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="unknown" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>20</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>8</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>11033</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>22434</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>20</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>pter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q12</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>22435</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>9</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>q31</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>20</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>9</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>11034</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>22436</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>3</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>qter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q11</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>22437</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>20</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>?</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>?</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>25</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>3</SkyFrag_position>
+                        <SkyFrag_skyFragId>22438</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>12</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>q11</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+                <SkyChromosome>
+                  <SkyChromosome_place>20</SkyChromosome_place>
+                  <SkyChromosome_aberCpyCnt>1</SkyChromosome_aberCpyCnt>
+                  <SkyChromosome_recurCnt>7</SkyChromosome_recurCnt>
+                  <SkyChromosome_skyChromId>11035</SkyChromosome_skyChromId>
+                  <SkyChromosome_karyotypeTermId>-1</SkyChromosome_karyotypeTermId>
+                  <SkyChromosome_sourceKaryotypeTermPosition>-1</SkyChromosome_sourceKaryotypeTermPosition>
+                  <SkyChromosome_sourceKaryotypeTermId>3263</SkyChromosome_sourceKaryotypeTermId>
+                  <SkyChromosome_markerType>0</SkyChromosome_markerType>
+                  <SkyChromosome_isRing value="false" />
+                  <SkyChromosome_skyFrags>
+                    <SkyFragSET>
+                      <SkyFrag>
+                        <SkyFrag_position>1</SkyFrag_position>
+                        <SkyFrag_skyFragId>22439</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>12</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>qter</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q21</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>2</SkyFrag_position>
+                        <SkyFrag_skyFragId>22440</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>20</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>?</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>?</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>25</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="true" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>3</SkyFrag_position>
+                        <SkyFrag_skyFragId>22441</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>12</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>q21</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>q24.3</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                      <SkyFrag>
+                        <SkyFrag_position>4</SkyFrag_position>
+                        <SkyFrag_skyFragId>22442</SkyFrag_skyFragId>
+                        <SkyFrag_parentChrom>
+                          <ChromosomeId>3</ChromosomeId>
+                        </SkyFrag_parentChrom>
+                        <SkyFrag_fstart>q21</SkyFrag_fstart>
+                        <SkyFrag_fstartUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstartUncertaintyLevel>
+                        <SkyFrag_fstartBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstartBandDrw>
+                        <SkyFrag_fstop>qter</SkyFrag_fstop>
+                        <SkyFrag_fstopUncertaintyLevel>
+                          <BreakpointUncertaintyIn value="none" />
+                        </SkyFrag_fstopUncertaintyLevel>
+                        <SkyFrag_fstopBandDrw>
+                          <BandSplitCode value="half" />
+                        </SkyFrag_fstopBandDrw>
+                        <SkyFrag_isHsr value="false" />
+                        <SkyFrag_sizeEstimate>0</SkyFrag_sizeEstimate>
+                        <SkyFrag_gene> </SkyFrag_gene>
+                        <SkyFrag_containsCentromere value="false" />
+                      </SkyFrag>
+                    </SkyFragSET>
+                  </SkyChromosome_skyFrags>
+                </SkyChromosome>
+              </SkyChromosomeSET>
+            </SkyCell_skyChromosomes>
+          </SkyCell>
+        </SkyCellSET>
+      </SkyCase_cells>
+      <SkyCase_complete value="true" />
+      <SkyCase_processedOK value="true" />
+    </SkyCase>
+  

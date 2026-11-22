@@ -1,0 +1,51 @@
+cellosaurus_id	cell_name	organ	annotation	marker	alternate	primary
+CVCL_0023	A549	Lung	Male	True	True	True
+CVCL_0028	AN3 CA	Uterus	Female	False	False	False
+CVCL_0069	SK-MEL-2	Skin	Male	True	True	True
+CVCL_0099	SNU-1	Esophagus/Stomach	Male	True	True	False
+CVCL_0131	A-172	CNS/Brain	Male	True	True	False
+CVCL_0152	AsPC-1	Pancreas	Female	False	False	False
+CVCL_0179	BT-474	Breast	Female	False	False	False
+CVCL_0218	COLO 205	Bowel	Male	False	True	True
+CVCL_0292	HCT15	Bowel	Male	True	True	True
+CVCL_0293	HEC-1-A	Uterus	Female	False	False	False
+CVCL_0320	HT-29	Bowel	Female	True	True	True
+CVCL_0332	HS-578T	Breast	Female	False	False	False
+CVCL_0334	Hs 766T	Pancreas	Male	False	False	False
+CVCL_0359	J82	Bladder/Urinary Tract	Male	True	True	False
+CVCL_0366	SNU-423	Liver	Male	True	True	False
+CVCL_0371	KATO III	Esophagus/Stomach	Male	False	False	False
+CVCL_0397	LS 180	Bowel	Female	False	False	True
+CVCL_0399	LoVo	Bowel	Male	True	True	True
+CVCL_0428	MIA PaCa-2	Pancreas	Male	False	False	False
+CVCL_0459	NCI-H460	Lung	Male	True	True	True
+CVCL_0480	PANC-1	Pancreas	Male	False	False	False
+CVCL_0504	RKO	Bowel	Unknown	True	True	True
+CVCL_0546	SW480	Bowel	Male	False	False	True
+CVCL_1055	A-427	Lung	Male	True	True	True
+CVCL_1056	A498	Kidney	Male	True	True	False
+CVCL_1094	C-33 A	Cervix	Female	False	False	False
+CVCL_1097	C32	Skin	Male	True	True	True
+CVCL_1098	HepG2/C3A	Liver	Male	True	True	False
+CVCL_1119	CFPAC-1	Pancreas	Male	False	False	False
+CVCL_1125	CHP-212	Peripheral Nervous System	Male	True	True	False
+CVCL_1239	H4	CNS/Brain	Male	True	True	False
+CVCL_1285	HOP62	Lung	Female	False	False	True
+CVCL_1381	LOX-IMVI	Skin	Male	False	False	True
+CVCL_1478	NCI-H1573	Lung	Female	False	False	True
+CVCL_1495	NCI-H1792	Lung	Male	False	False	True
+CVCL_1517	NCI-H2030	Lung	Male	False	False	True
+CVCL_1531	NCI-H2122	Lung	Female	True	True	False
+CVCL_1547	NCI-H23	Lung	Male	False	False	True
+CVCL_1550	NCI-H2347	Lung	Female	True	True	True
+CVCL_1571	NCI-H596	Lung	Male	True	True	False
+CVCL_1577	NCI-H661	Lung	Male	True	True	True
+CVCL_1635	Panc 03.27	Pancreas	Female	False	False	False
+CVCL_1666	RPMI-7951	Skin	Female	False	False	True
+CVCL_1693	SHP-77	Lung	Male	False	False	True
+CVCL_1715	SW 1088	CNS/Brain	Male	True	True	False
+CVCL_1716	SW 1271	Lung	Male	False	False	True
+CVCL_1717	SW1417	Bowel	Female	False	False	True
+CVCL_1724	SW48	Bowel	Female	True	True	True
+CVCL_1731	SW 900	Lung	Male	False	False	True
+CVCL_C466	hTERT-HPNE	Pancreas	Male	True	True	False

@@ -1,0 +1,19 @@
+{
+  "sha256": {
+    "geneinfo_beta.txt": "e739d06bad42ff9285c00b778e65d8999425062a3375cc7e7cdab0e7154490b5",
+    "gene_chrom.tsv": "322dde60ff200a92be9bb83393e834a2ffe43c329e56dc66aa92783506c63fad",
+    "sample_metadata.parquet": "33167f0ce28cff8357c503cda67d1c7fea200bff6918ee1de3c4f3549175b9d3",
+    "partA_local_states.tsv": "dc98d7895f698271cbe27d4371a81e8d8ab48fa81d87b450b87651d07c04bc22",
+    "partA_local_states_linelevel.tsv": "aa472246ba1beaeadf9a5dfd7fb0ab3d2aa93eb84c01211f402ea7c656c0c1bd",
+    "partA_local_cutoffs_linelevel.tsv": "3ed408be0628ec900273ac4e543f1d04dbf1929b05c7989ef86ed98b800975bd",
+    "lines.tsv": "27d0af5478b10f09abec055963fafe6c4408b571512151331e4a69a8322f2574",
+    "stream/plates/plate6/pseudobulk_counts.parquet": "054179598f903b1b595acb7ffd6f45eeb4d92a60874798933741c1d1c6faf8eb",
+    "stream/plates/plate6/pseudobulk_groups.tsv": "27981d3ad647d3f025e948f0c95eb2d3fcbe08203fa7c5af00653db909ac0d37",
+    "stream/plates/plate14/pseudobulk_counts.parquet": "a8df421ba2b840f830bc756778487454a42ceb4dacef65ba487b86a09de79f2e",
+    "stream/plates/plate14/pseudobulk_groups.tsv": "bf10124fd4e1dcec174cd45178a1800b6abe3098ea38fb9a9d5376ec0cb790a8"
+  },
+  "n_broad": 978,
+  "n_landmarks": 948,
+  "features_sha256": "f9d63259309dc37b16761f7664564f9cea55a2cfe94eac7c4620eb489dff19cc",
+  "counts_sha256": "01068031d205be52f3f19b84c41c51d2c6441a2e160d4ad6f22e85a288359193"
+}

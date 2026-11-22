@@ -1,0 +1,8 @@
+{
+  "input_genes": 948,
+  "pair_correlations_independently_recomputed": 97,
+  "exact_labelings": 249480,
+  "estimate": 0.010912542162957386,
+  "exact_p": 0.20409652076318743,
+  "all_counts_estimates_match": true
+}

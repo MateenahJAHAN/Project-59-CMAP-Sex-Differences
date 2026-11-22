@@ -1,0 +1,51 @@
+cellosaurus_id	cell_name	annotation	organ	xist_high	y_high	confidence
+CVCL_0131	A-172	Male	CNS/Brain	False	True	high
+CVCL_1055	A-427	Male	Lung	False	True	high
+CVCL_1056	A498	Male	Kidney	True	False	high
+CVCL_0023	A549	Male	Lung	False	True	high
+CVCL_0028	AN3 CA	Female	Uterus	False	False	high
+CVCL_0152	AsPC-1	Female	Pancreas	False	False	high
+CVCL_0179	BT-474	Female	Breast	False	False	high
+CVCL_1094	C-33 A	Female	Cervix	False	False	high
+CVCL_1097	C32	Male	Skin	False	True	high
+CVCL_1119	CFPAC-1	Male	Pancreas	False	False	high
+CVCL_1125	CHP-212	Male	Peripheral Nervous System	False	True	high
+CVCL_0218	COLO 205	Male	Bowel	False	False	medium
+CVCL_1239	H4	Male	CNS/Brain	False	True	high
+CVCL_0292	HCT15	Male	Bowel	False	True	high
+CVCL_0293	HEC-1-A	Female	Uterus	False	False	high
+CVCL_1098	HepG2/C3A	Male	Liver	False	True	high
+CVCL_1285	HOP62	Female	Lung	False	False	high
+CVCL_0334	Hs 766T	Male	Pancreas	False	False	high
+CVCL_0332	HS-578T	Female	Breast	False	False	high
+CVCL_0320	HT-29	Female	Bowel	True	False	high
+CVCL_C466	hTERT-HPNE	Male	Pancreas	False	True	high
+CVCL_0359	J82	Male	Bladder/Urinary Tract	False	True	high
+CVCL_0371	KATO III	Male	Esophagus/Stomach	False	False	high
+CVCL_0399	LoVo	Male	Bowel	False	True	high
+CVCL_1381	LOX-IMVI	Male	Skin	False	False	high
+CVCL_0397	LS 180	Female	Bowel	False	False	high
+CVCL_0428	MIA PaCa-2	Male	Pancreas	False	False	high
+CVCL_1478	NCI-H1573	Female	Lung	False	False	high
+CVCL_1495	NCI-H1792	Male	Lung	False	False	high
+CVCL_1517	NCI-H2030	Male	Lung	False	False	high
+CVCL_1531	NCI-H2122	Female	Lung	True	False	medium
+CVCL_1547	NCI-H23	Male	Lung	False	False	high
+CVCL_1550	NCI-H2347	Female	Lung	True	False	high
+CVCL_0459	NCI-H460	Male	Lung	False	True	high
+CVCL_1571	NCI-H596	Male	Lung	False	True	low
+CVCL_1577	NCI-H661	Male	Lung	False	True	high
+CVCL_1635	Panc 03.27	Female	Pancreas	False	False	high
+CVCL_0480	PANC-1	Male	Pancreas	False	False	high
+CVCL_0504	RKO	Unknown	Bowel	True	False	high
+CVCL_1666	RPMI-7951	Female	Skin	False	False	high
+CVCL_1693	SHP-77	Male	Lung	False	False	high
+CVCL_0069	SK-MEL-2	Male	Skin	False	True	high
+CVCL_0099	SNU-1	Male	Esophagus/Stomach	False	True	high
+CVCL_0366	SNU-423	Male	Liver	False	True	high
+CVCL_1715	SW 1088	Male	CNS/Brain	False	True	high
+CVCL_1716	SW 1271	Male	Lung	False	False	high
+CVCL_1731	SW 900	Male	Lung	False	False	high
+CVCL_1717	SW1417	Female	Bowel	False	False	high
+CVCL_1724	SW48	Female	Bowel	True	False	high
+CVCL_0546	SW480	Male	Bowel	False	False	high
