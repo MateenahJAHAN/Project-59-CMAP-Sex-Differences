@@ -7,6 +7,7 @@ The checked-in recount uses the archived 26,000 scenario rows, 120,000 planted-c
 To repeat the simulation, set `P59_G_REPO` to the task-G analysis checkout and `P59_G_RUN` to the production input directory containing `inputs/data/G` and `capture`. The scripts use the production model, design and original random seeds. From this directory run the following in the study Python environment.
 
 ```sh
+export PYTHONHASHSEED=0
 mkdir -p raw results logs
 python -I scripts/check_harness.py
 python -I scripts/power_checkpoint.py --B 2000 --R 1000 --workers 6 --tag power

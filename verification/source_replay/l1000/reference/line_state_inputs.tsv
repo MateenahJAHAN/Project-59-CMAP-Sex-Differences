@@ -1,0 +1,241 @@
+cell_iname	state	Yhi	y_score_ccle
+1HAE	no_data		
+AALE	no_data		
+AG06263_2	no_data		
+AG06840_A	no_data		
+AG078N1_1	no_data		
+C42	no_data		
+CD34	no_data		
+HAP1	ambiguous	False	
+HEK293T	no_data		
+HIMG001	no_data		
+HIMG002	no_data		
+HME	no_data		
+HMELZ	no_data		
+HPTEC	no_data		
+HS27A	no_data		
+HUES3	no_data		
+HUH751	no_data		
+HUVEC	no_data		
+IPS-15-2	no_data		
+IPS-3	no_data		
+IPS-ND34732	no_data		
+LHSAR	no_data		
+MCH58	no_data		
+MCLF0067SZ	no_data		
+MCLF015CN	no_data		
+MCLF022CN	no_data		
+MCLF027CN	no_data		
+MCLF033SZ	no_data		
+MCLF035SZ	no_data		
+MCLF037SZ	no_data		
+MCLF040SZ	no_data		
+MCLF051CN	no_data		
+MCLF054CN	no_data		
+MCLF056CN	no_data		
+MCLF076SZ	no_data		
+MCLF100SZ	no_data		
+MCLF117SZ	no_data		
+MCLF123SZ	no_data		
+MCLF126CN	no_data		
+MCLF130CN	no_data		
+MCLF135CN	no_data		
+MCLF137CN	no_data		
+MCLF141SZ	no_data		
+MCLF162SZ	no_data		
+MICROGLIA-PSEN1	no_data		
+MNEU	no_data		
+NAMEC8	no_data		
+ND34732_7	no_data		
+NKDBA	no_data		
+P1A82	no_data		
+P2X2B2	no_data		
+SKB	no_data		
+WA09	no_data		
+XC.500	no_data		
+XC.L10	no_data		
+XC.L100	no_data		
+XC.P026	no_data		
+XC.P031	no_data		
+XC.P033	no_data		
+XC.P091	no_data		
+XC.P092	no_data		
+XC.P901	no_data		
+XC.P904	no_data		
+XC.P905	no_data		
+XC.P906	no_data		
+XC.P907	no_data		
+XC.P908	no_data		
+XC.P909	no_data		
+XC.P910	no_data		
+XC.P911	no_data		
+XC.P912	no_data		
+XC.P914	no_data		
+XC.P915	no_data		
+XC.P922	no_data		
+XC.P930	no_data		
+XC.P931	no_data		
+XC.P932	no_data		
+XC.P933	no_data		
+XC.P934	no_data		
+XC.P935	no_data		
+XC.P936	no_data		
+XC.R10	no_data		
+HME1	no_data		
+BJAB	no_data		
+HBL1	no_data		
+OCILY10	no_data		
+TMD8	no_data		
+TC32	no_data		
+H1299	ambiguous	False	0.0177
+H1975	ambiguous	False	0.0201
+HCC515	XX-like	False	0.0252
+SALE	XY	True	3.3062
+SHSY5Y	XX-like	False	
+22RV1	XY	True	3.3341
+HEC1A	XIST-lost	False	0.1304
+NL20	no_data		
+PHH	no_data		
+HA1E	XY	True	
+HEK293	no_data		
+HEKTE	XX-like	False	0.0280
+NEU	no_data		
+NPC	no_data		
+ASC	no_data		
+U266B1	XY	True	3.4392
+HL60	XIST-lost	False	0.1312
+K562	XX-like	False	0.0274
+TF1	XY	True	4.1802
+THP1	XY	True	3.3428
+MINO	XY	True	2.7155
+U937	Y-lost	False	0.0261
+A673	XX-like	False	0.0372
+SKES1	XY	True	3.0284
+U2OS	XIST-lost	False	0.0290
+A549	XY	True	2.8916
+HCC827	XX-like	False	0.0487
+NCIH1437	Y-lost	False	0.0307
+NCIH1563	XY	True	3.7759
+NCIH1573	XIST-lost	False	0.0303
+NCIH1694	Y-lost	False	0.0245
+NCIH1781	XIST-lost	False	0.0326
+NCIH1836	Y-lost	False	0.9544
+NCIH1975	XIST-lost	False	0.0201
+NCIH2073	XX-like	False	0.0368
+NCIH2110	ambiguous	False	0.0335
+NCIH2172	XIST-lost	False	0.0371
+NCIH596	Y-lost	False	0.0370
+NCIH838	Y-lost	False	0.0208
+NCIH841	XY	True	2.9844
+SKLU1	XX-like	False	0.0704
+A375	XX-like	False	0.0339
+SH4	XIST-lost	False	0.0413
+SKMEL1	XY	True	3.1919
+SKMEL28	Y-lost	False	1.2961
+SKMEL3	XIST-lost	False	0.0277
+SKMEL5	XIST-lost	False	0.0178
+LN229	XX-like	False	0.0243
+DLD1	XY	True	
+HCT116	ambiguous		1.8156
+HT29	XX-like	False	0.0317
+LOVO	XY	True	2.8373
+NCIH508	Y-lost	False	0.0377
+NCIH716	Y-lost	False	0.0292
+RKO	XX-like	False	0.0259
+SW480	Y-lost	False	0.0237
+SW620	Y-lost	False	0.0192
+SW948	XX-like	False	0.0344
+HEPG2	XY	True	2.8492
+BT20	XIST-lost	False	0.0224
+BT474	XIST-lost	False	0.0163
+HS578T	XIST-lost	False	0.0262
+MCF10A	no_data		
+MCF7	XIST-lost	False	0.0333
+MDAMB231	XIST-lost	False	0.0237
+MDAMB468	XIST-lost	False	0.1058
+SKBR3	XX-like	False	0.0504
+T47D	XIST-lost	False	0.0155
+ZR751	XX-like	False	0.2166
+G401	XY	True	3.6144
+SKNSH	XX-like	False	0.0678
+5637	XY	True	1.9183
+J82	XY	True	2.6683
+AGS	XX-like	False	0.0260
+ES2	XX-like	False	0.0382
+HELA	XIST-lost	False	0.0352
+DU145	XY	True	3.0961
+PC3	Y-lost	False	0.0441
+RWPE1	no_data		
+VCAP	XY	True	3.5340
+A204	XX-like	False	0.0801
+AN3CA	XIST-lost	False	0.0444
+TOV112D	XIST-lost	False	0.0373
+WI38	no_data		
+JURKAT	XY	True	2.3323
+NALM6	XY	True	3.1339
+PL21	XY	True	2.9633
+OCILY19	XX-like	False	0.0212
+SUDHL4	XY	True	3.0790
+WSUDLCL2	XY	True	3.2952
+BEN	discordant	False	0.8321
+DV90	Y-lost	False	0.0787
+HCC15	Y-lost	False	1.1383
+HCC44	XIST-lost	False	0.0275
+IGR37	XY	True	3.1012
+MELHO	XX-like	False	0.0266
+CL34	XX-like	False	0.0586
+BC3C	XIST-lost	False	0.0623
+CAL29	XX-like	False	0.1039
+VMCUB1	Y-lost	False	0.2230
+EFO27	XX-like	False	0.0275
+LNCAP	no_data		
+YAPC	XY	True	3.2607
+MFE319	XIST-lost	False	0.0254
+OC314	XX-like	False	0.0253
+OC316	XX-like	False	
+HFL1	no_data		
+IMR90	no_data		
+HCC1588	discordant	True	2.5127
+HCC95	Y-lost	False	0.0354
+SNU1040	XY	True	2.8616
+SNU407	XY	True	3.0972
+SNUC4	XY	True	2.9353
+SNUC5	XIST-lost	False	0.1618
+CORL23	Y-lost	False	0.0818
+GP2D	XX-like	False	0.0292
+HT115	ambiguous	False	0.0233
+MDST8	ambiguous	False	0.0798
+COV434	XX-like	False	0.0296
+COV644	XIST-lost	False	0.1812
+OAW28	XIST-lost	False	0.0333
+OV7	XX-like	False	0.0535
+BICR6	XY	True	1.8431
+KMS34	XIST-lost	False	0.0295
+NOMO1	XX-like	False	0.0193
+SKM1	XY	True	1.6303
+U251MG	XY	True	2.7328
+YH13	Y-lost	False	0.2308
+HUH7	discordant	False	0.0353
+JHH5	XY	True	2.9848
+JHH7	XY	True	2.5505
+IM95	Y-lost	False	0.0196
+MKN45	XX-like	False	0.0307
+OVTOKO	XIST-lost	False	0.0356
+RMGI	XIST-lost	False	0.0360
+RMUGS	XX-like	False	0.0392
+TYKNU	XIST-lost	False	0.0274
+HEC108	XIST-lost	False	0.0646
+HEC151	XIST-lost	False	0.0400
+HEC251	XIST-lost	False	0.0422
+HEC265	XIST-lost	False	0.0374
+SNGM	XIST-lost	False	0.0431
+SKL	no_data		
+T3M10	XY	True	2.8118
+CJM	XY	True	2.6531
+GI1	XY	True	3.2534
+CW2	XIST-lost	False	0.0842
+RCC10RGB	Y-lost	False	0.0344
+OVK18	XX-like	False	0.0759
+JHUEM2	XIST-lost	False	0.0307
+OVCAR8	XIST-lost	False	0.0385
+OCILY3	XY	True	3.8040

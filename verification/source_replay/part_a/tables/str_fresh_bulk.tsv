@@ -1,0 +1,1856 @@
+source	accession	rna_call	original_call	call_changed	amelogenin	comparable	agree
+CCLE	CVCL_0001	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_0002	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0004	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0005	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0006	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0007	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0008	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0009	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0012	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0014	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_0021	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_0022	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CCLE	CVCL_0023	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0026	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0027	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0028	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0029	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0030	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0031	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0032	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0033	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0035	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0036	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0039	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0040	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0042	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0060	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0062	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0064	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0065	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0067	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0068	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0076	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0077	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_0078	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0079	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0080	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0092	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0093	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0098	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_0099	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0101	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0103	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0105	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0126	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0131	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0132	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0134	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0139	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0152	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0153	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0178	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0179	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0181	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0186	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0201	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0202	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0234	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0236	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0237	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0243	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0250	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0253	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0258	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0270	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0290	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0291	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_0292	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0293	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0294	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0312	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0313	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0317	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0318	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0320	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0324	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0326	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0331	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0332	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0333	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0334	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0336	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0359	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0364	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0366	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0371	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0374	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0378	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0379	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0388	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0392	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0393	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0397	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0399	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0418	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0419	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0425	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0426	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0428	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0434	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0445	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0454	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CCLE	CVCL_0455	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0459	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0465	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0471	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0480	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0485	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0504	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0505	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0511	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0525	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0526	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_0527	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0528	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_0531	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0532	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0533	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0538	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0539	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0543	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0544	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0546	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0547	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0548	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0550	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0553	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0554	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0555	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0556	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0559	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0566	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0588	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0589	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0599	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0600	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0609	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0618	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0620	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0621	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0622	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0623	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0626	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_0627	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0628	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0629	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0630	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0632	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_0633	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0844	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0871	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_0950	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1036	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1038	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1040	Y expressed	Y expressed	False	no STR Amelogenin	False	
+CCLE	CVCL_1045	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1046	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1048	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1049	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1050	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1051	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1052	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1053	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1054	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1055	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_1056	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1057	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1058	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1059	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1060	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1062	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1064	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1065	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1066	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1067	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1070	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1074	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1082	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CCLE	CVCL_1083	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1084	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1085	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1086	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1087	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1092	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1096	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1097	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1101	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1103	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1104	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1105	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1106	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1107	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1108	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1110	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1111	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1112	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1114	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1115	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1117	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1118	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1119	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_1121	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1123	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1125	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1126	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1128	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1129	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1130	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1131	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1132	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1133	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1134	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1135	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1137	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1138	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1139	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CCLE	CVCL_1140	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1141	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1151	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1155	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1167	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1168	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1169	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1170	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1171	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1173	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1174	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1176	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1177	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1178	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1179	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1183	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1184	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1187	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_1188	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1189	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1192	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1195	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1196	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1197	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1205	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1218	Y below cut-off	Y below cut-off	False	other	False	
+CCLE	CVCL_1219	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1220	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1221	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1222	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1226	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1227	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1228	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1229	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1230	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1231	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1233	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1239	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1245	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1247	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1249	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1251	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1252	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1254	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1255	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1256	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1258	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1259	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1261	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1263	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1267	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1269	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CCLE	CVCL_1270	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1279	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1280	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1285	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1286	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1287	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_1288	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1289	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1290	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1291	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1292	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1294	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1299	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1300	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1301	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1302	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1303	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1304	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1307	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1311	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1312	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1319	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1320	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1323	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1324	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1325	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1327	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1329	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1330	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1331	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1334	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1335	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1338	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1339	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1341	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1343	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1344	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1345	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1347	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1348	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1349	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1350	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1351	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1352	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1353	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1354	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1355	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1356	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1357	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1361	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1362	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1375	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_1376	Y expressed	Y expressed	False	X only	True	False
+CCLE	CVCL_1377	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1379	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1380	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1381	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1382	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1383	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1385	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1386	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1392	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1394	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1399	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1400	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1402	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1403	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1404	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1405	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1406	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1409	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1410	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1411	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1412	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1415	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1417	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1422	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1424	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1426	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1427	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1430	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1438	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1440	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1453	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1454	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1455	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1456	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1463	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1464	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1465	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1470	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1471	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1472	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1473	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1475	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1476	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1478	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1479	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_1481	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1482	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1483	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1484	Y expressed	Y expressed	False	X only	True	False
+CCLE	CVCL_1485	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1488	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1489	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1490	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1491	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1492	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1494	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1495	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1496	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1498	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1499	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1500	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1503	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1505	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1508	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1509	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1510	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_1511	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1514	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1515	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1516	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1517	Y expressed	Y expressed	False	X only	True	False
+CCLE	CVCL_1518	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1520	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1521	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1522	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1523	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1524	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1525	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_1529	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1530	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1531	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1532	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1535	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1536	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1537	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1539	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1542	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1543	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1544	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1546	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1547	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1549	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1550	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1551	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_1552	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1553	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1555	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1557	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1559	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1561	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_1562	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1564	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1565	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1566	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1567	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1568	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1569	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1571	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1574	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1575	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1576	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1577	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1579	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_1581	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1584	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1587	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1590	Y expressed	Y expressed	False	other	False	
+CCLE	CVCL_1591	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1594	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1595	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1600	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1603	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1608	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1609	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1612	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1614	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1615	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1616	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1619	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1620	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1622	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1624	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1625	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1626	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1627	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1629	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1630	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1632	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1633	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1635	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1636	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1638	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1639	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1640	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1641	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1644	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1647	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1648	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1649	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1650	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1651	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1652	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1654	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1655	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1656	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1659	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1660	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1661	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1662	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1666	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1667	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1670	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1672	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1679	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1681	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1682	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1684	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1685	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1688	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1689	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1690	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1691	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1692	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1693	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1694	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1695	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1697	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1699	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1700	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1701	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1702	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1703	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1706	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1707	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1708	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1709	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1712	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1714	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_1715	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1716	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1717	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1718	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1720	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1721	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1722	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1723	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1724	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1728	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1729	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1731	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1735	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1736	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_1738	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1754	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1759	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1760	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1761	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1763	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1764	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1765	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1766	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1767	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1768	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1774	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1776	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1779	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1780	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1781	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1782	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1783	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1786	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1790	Y expressed	Y expressed	False	other	False	
+CCLE	CVCL_1791	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1794	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1795	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1796	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1798	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1805	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1806	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1808	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1809	Y expressed	Y expressed	False	X only	True	False
+CCLE	CVCL_1812	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1818	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1823	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1844	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1845	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1846	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1847	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1851	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1865	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1866	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1872	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1877	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1878	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1882	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1889	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1902	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1911	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1958	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1978	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_1980	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_1997	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2010	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2022	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2030	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2034	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2047	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2050	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2057	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_2058	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2059	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2060	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2061	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2062	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2063	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2067	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2075	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2077	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2078	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2081	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2086	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2091	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2092	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2096	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_2104	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2110	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2112	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2119	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2120	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2124	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2149	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2161	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2176	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2206	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2207	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2209	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2213	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_2218	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2235	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2308	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2310	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2312	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2313	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2314	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2319	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2412	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2418	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2420	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2425	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2447	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2450	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2520	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2582	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2588	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2661	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_2673	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2675	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2678	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2680	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2681	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2738	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CCLE	CVCL_2743	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2765	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2785	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2786	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2787	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2788	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2791	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2798	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2799	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2805	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2873	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2891	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2908	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2909	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2914	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2923	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2925	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2927	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2928	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2930	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2931	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2947	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2949	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2955	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2956	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2961	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2977	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2983	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2985	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_2986	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2989	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_2996	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3004	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3005	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3007	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3015	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3020	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3082	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3084	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3088	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3110	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3116	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3117	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3143	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3152	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3156	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3158	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3172	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3174	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_3178	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3336	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3337	Y expressed	Y expressed	False	X only	True	False
+CCLE	CVCL_3509	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3517	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3532	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_3599	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_3603	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3612	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3613	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3768	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3770	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3840	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_3881	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_4381	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_4402	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_4640	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_4644	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_4647	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_4649	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_4656	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_4717	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_4849	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_4897	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_4900	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5003	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5005	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5006	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5007	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5008	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5010	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5015	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5017	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5031	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5034	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5038	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5044	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5048	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5058	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5059	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5063	Y expressed	Y expressed	False	X only	True	False
+CCLE	CVCL_5064	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5078	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CCLE	CVCL_5081	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5083	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5086	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5089	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CCLE	CVCL_5098	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CCLE	CVCL_5100	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5101	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CCLE	CVCL_5103	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5111	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5112	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5113	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5127	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_5128	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5136	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5137	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5160	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5167	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_5957	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_6735	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_6748	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_6805	Y expressed	Y expressed	False	X only	True	False
+CCLE	CVCL_6809	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_6831	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_7935	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_7937	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_8001	Y expressed	Y expressed	False	no STR Amelogenin	False	
+CCLE	CVCL_8067	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_8147	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CCLE	CVCL_8784	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CCLE	CVCL_8787	Y expressed	Y expressed	False	mixed across sources	False	
+CCLE	CVCL_8792	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_8800	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_8878	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_8929	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_8930	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_A341	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_A351	Y expressed	Y expressed	False	X only	True	False
+CCLE	CVCL_A472	Y expressed	Y expressed	False	X only	True	False
+CCLE	CVCL_E063	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_H525	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_L079	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_L083	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_L085	Y below cut-off	Y below cut-off	False	X only	True	True
+CCLE	CVCL_L088	Y expressed	Y expressed	False	X,Y	True	True
+CCLE	CVCL_M846	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CCLE	CVCL_S740	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CCLE	CVCL_U797	Y expressed	Y expressed	False	no STR Amelogenin	False	
+CCLE	CVCL_WS59	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CCLE	CVCL_WS60	Y expressed	Y expressed	False	no STR Amelogenin	False	
+CMP	CVCL_0001	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_0002	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0004	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0005	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0006	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0008	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0009	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0012	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0013	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0014	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_0017	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0019	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0021	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_0022	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_0023	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0026	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0028	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0029	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0030	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0031	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0032	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0036	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0037	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_0039	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0040	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0041	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_0042	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0060	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0062	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0064	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0065	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0067	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0068	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0069	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0076	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0077	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_0078	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0079	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0080	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0092	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0093	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0098	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_0099	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0101	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0103	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0105	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0126	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0131	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0132	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0134	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0139	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0152	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0153	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0167	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0178	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0179	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0181	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0186	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0201	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0202	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0207	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0209	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0218	Y expressed	Y expressed	False	X only	True	False
+CMP	CVCL_0220	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0234	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0236	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0237	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0243	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0244	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0248	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0250	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0253	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0258	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_0270	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0290	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0291	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_0292	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0293	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0294	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0297	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0312	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0313	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0317	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0318	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_0320	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0324	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0326	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0331	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0332	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0333	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0334	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0336	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0359	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0360	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0363	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0364	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0366	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0371	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0374	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0375	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0378	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0379	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0388	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0392	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0393	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0397	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0399	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0400	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_0418	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0419	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0425	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0426	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0428	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0434	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0445	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0454	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_0455	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0459	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0465	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0471	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0475	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0479	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0480	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0485	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0504	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0505	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0511	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0525	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0526	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_0527	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0528	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_0531	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0532	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0533	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0538	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0539	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0542	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0543	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0544	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0546	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0547	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0548	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0550	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0553	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0554	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0555	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0556	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0566	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0580	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0582	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0588	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0589	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0599	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0600	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0609	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0618	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0619	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0620	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0621	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0622	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0623	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0626	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_0627	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0628	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0630	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_0632	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0633	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0761	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0832	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_0844	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0871	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_0950	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1036	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1038	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1040	Y expressed	Y expressed	False	no STR Amelogenin	False	
+CMP	CVCL_1045	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1046	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1048	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1049	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1050	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1051	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1052	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1053	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1054	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1055	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1056	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1057	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1058	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1059	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1060	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1062	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1063	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1064	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1065	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1066	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1067	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1069	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1070	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1072	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1073	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1074	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1075	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1076	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1077	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1078	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1079	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1080	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1081	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1082	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_1083	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1084	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1085	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1086	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1087	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1090	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1091	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1092	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1093	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1094	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1096	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1097	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1098	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1100	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1101	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1102	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1103	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1104	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1105	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1106	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1107	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1108	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1109	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1110	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1111	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1112	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1113	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_1114	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1115	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1116	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1117	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1118	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1119	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_1120	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1121	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1122	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1123	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1124	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1125	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1126	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1128	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1129	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1130	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1131	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1132	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1133	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1134	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1135	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1136	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1137	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1138	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1139	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_1140	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1141	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1143	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1144	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1146	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1147	Y expressed	Y expressed	False	X only	True	False
+CMP	CVCL_1149	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1150	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1151	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1153	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1154	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1155	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1156	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_1158	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1160	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1162	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1164	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1166	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1167	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1168	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1169	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1170	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1171	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1172	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1173	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1174	Y expressed	Y expressed	False	X only	True	False
+CMP	CVCL_1176	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1177	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1178	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1179	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1180	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1181	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1182	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1183	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1185	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1186	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1187	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_1188	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1189	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1192	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1195	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1196	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1197	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1198	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1200	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1201	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1202	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1203	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1204	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1205	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1206	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1207	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1208	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1209	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1210	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1211	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1212	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1213	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1214	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1215	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1216	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1217	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1218	Y below cut-off	Y below cut-off	False	other	False	
+CMP	CVCL_1219	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1220	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1221	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1222	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1225	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1226	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1227	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1228	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1229	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1230	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1231	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1232	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1233	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1234	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1235	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1236	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1238	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1239	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1240	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1241	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1242	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1243	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1245	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1247	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1249	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1251	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1252	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1254	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1255	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1256	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1258	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1259	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1261	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1263	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1266	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1267	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1269	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_1270	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1271	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1274	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1279	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1280	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1281	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1282	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1284	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1285	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1286	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1287	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1288	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1289	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1290	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1291	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1292	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1293	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1294	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1295	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1297	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1298	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1299	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1300	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1301	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1302	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1303	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1304	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1305	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1306	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1307	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1308	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1311	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1312	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1313	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1314	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1317	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1319	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1320	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1322	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1323	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1324	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1325	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1326	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1327	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1328	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1329	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1330	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1331	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1332	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1334	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1335	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1336	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1337	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1338	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1339	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1341	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1342	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1343	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1344	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1345	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1346	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1347	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1348	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1349	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1350	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1351	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1352	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1353	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1354	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1355	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1356	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1357	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1359	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1360	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1361	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1362	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1363	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1364	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1365	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1366	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1367	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1368	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1369	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1370	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1371	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1373	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1374	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1375	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1376	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1377	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1378	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1379	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1380	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1381	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1382	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1383	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1385	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1386	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1387	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1389	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1390	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1391	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1392	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1394	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1395	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1398	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1399	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1400	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1401	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1402	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1403	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1404	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1405	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1406	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1407	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1408	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1409	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1410	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1411	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1412	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1413	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1415	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1416	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1417	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1418	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1419	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1420	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1421	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1424	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1426	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1427	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1428	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1429	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1430	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1434	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1435	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1436	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1438	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1439	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1440	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1441	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1442	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1443	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1444	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1445	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1448	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1451	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1453	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1454	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1455	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1456	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1463	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1464	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1465	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1470	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1471	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1472	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1473	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1475	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1476	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1478	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1479	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1481	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1482	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1483	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1484	Y expressed	Y expressed	False	X only	True	False
+CMP	CVCL_1485	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1487	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1488	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1489	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1490	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1491	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1492	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1493	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1494	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1495	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1496	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1498	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1499	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1500	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1503	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1505	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1508	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1509	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1510	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1511	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1512	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_1514	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1515	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1516	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1517	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1518	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1522	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1523	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1524	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1525	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1529	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1530	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1531	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1532	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1533	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1534	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1535	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1536	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1537	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1539	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1542	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1543	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1544	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1546	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1547	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1549	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1550	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1551	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_1552	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1553	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1554	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1555	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1557	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1558	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1559	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1561	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1562	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1564	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1565	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1566	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1567	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1568	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1569	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1571	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1573	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1574	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1575	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1576	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1577	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1579	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1581	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1583	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1584	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1586	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1587	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1588	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1590	Y expressed	Y expressed	False	other	False	
+CMP	CVCL_1591	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1593	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1594	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1595	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1596	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1600	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1603	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1604	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1605	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1607	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1608	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1609	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1610	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1612	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1613	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1614	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1615	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1616	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1618	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CMP	CVCL_1619	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1620	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1621	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1622	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1623	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1624	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1625	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1626	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1627	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1628	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1629	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1630	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1631	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1632	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1633	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1635	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1636	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1638	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1639	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1640	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1641	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1642	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1644	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1645	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1646	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1647	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1648	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1649	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1650	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1651	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1652	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1654	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1655	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1656	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1657	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1658	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1659	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1660	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1661	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1662	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1665	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1666	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1667	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1668	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1670	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1672	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1673	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1674	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1675	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1676	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1678	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1679	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1681	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1682	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1683	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1684	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1685	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1687	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1688	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1689	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1690	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1691	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1692	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1693	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1694	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1695	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1697	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1698	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1699	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1700	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1701	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1702	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1703	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1704	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1705	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1706	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1707	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1708	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1709	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1710	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1711	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1712	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1713	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1714	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1715	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1716	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1717	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1718	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1719	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1720	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1721	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1722	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1723	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1724	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1725	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1726	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1727	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1728	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1729	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1730	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1731	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1732	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1733	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1734	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1735	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1736	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1737	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1738	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1754	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1759	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1760	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1761	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1762	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1763	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1764	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1765	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1766	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1767	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1768	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1769	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1770	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1771	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1773	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_1774	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1775	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1776	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1779	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1780	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1781	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1782	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1783	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1784	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1785	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1786	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1787	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1789	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_1790	Y expressed	Y expressed	False	other	False	
+CMP	CVCL_1791	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1793	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1794	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1795	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1796	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1797	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1798	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1805	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1806	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1808	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1809	Y expressed	Y expressed	False	X only	True	False
+CMP	CVCL_1812	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1818	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1819	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1821	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1822	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1823	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1825	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1842	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1843	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1844	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1845	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1846	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1847	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1851	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1865	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1866	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1877	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1878	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1881	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1882	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1883	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1887	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1889	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1890	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1899	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1902	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1911	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1958	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1978	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_1980	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_1997	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2010	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2022	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2030	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2034	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2035	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2036	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_2045	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2047	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2050	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2057	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_2058	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2059	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2060	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2061	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2062	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2063	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2067	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2075	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2077	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2078	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2081	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2086	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2091	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2092	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2096	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_2104	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2110	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2112	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2119	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2120	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2124	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2149	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2161	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2176	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2193	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2194	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2195	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2206	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2207	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2208	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2209	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2213	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_2218	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2235	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2253	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2307	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2308	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2310	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2312	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2313	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2314	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2315	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2319	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2411	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2412	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2413	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2414	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2418	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2420	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2447	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2450	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2520	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2582	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2588	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2613	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2614	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2661	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_2672	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2673	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2675	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2678	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2680	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2681	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2686	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2738	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CMP	CVCL_2743	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2761	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2765	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2784	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2785	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2786	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2787	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2788	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2791	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2798	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2799	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2805	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2856	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2873	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2891	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2908	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2909	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2914	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2923	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2925	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2927	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2928	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2930	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2931	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2947	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2949	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2955	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2956	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2960	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2961	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2977	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2983	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2985	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_2986	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_2989	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3001	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3002	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3004	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3005	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3007	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3008	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3015	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3020	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3035	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3041	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3075	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_3076	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3082	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3084	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3086	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_3087	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3088	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3110	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3112	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3116	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3117	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3119	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_3143	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3152	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3156	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3158	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3160	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3167	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3168	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3169	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3172	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3174	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_3178	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3216	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3302	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3336	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3337	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3407	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_3509	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3517	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3532	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_3540	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_3599	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_3603	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3612	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3613	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3728	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_3768	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3770	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3775	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_3840	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3881	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_3935	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4381	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_4384	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4402	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4640	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4644	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4647	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4648	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4649	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4656	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4717	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_4849	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4897	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4900	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_4989	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_4996	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5003	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5005	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5006	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5007	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5008	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5010	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5015	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5017	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5031	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5034	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5038	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5044	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5048	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5058	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5059	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5063	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5064	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5078	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_5081	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5083	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5086	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5089	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_5098	Y below cut-off	Y below cut-off	False	mixed across sources	False	
+CMP	CVCL_5100	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5101	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CMP	CVCL_5103	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5111	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5112	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5113	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5127	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5128	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5137	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5160	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5167	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5480	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5868	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5870	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5873	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5879	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5880	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5884	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_5957	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5986	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_5991	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_5993	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_6357	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_6472	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_6473	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_6543	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CMP	CVCL_6735	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_6748	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_6774	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_6805	Y expressed	Y expressed	False	X only	True	False
+CMP	CVCL_6809	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_6831	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_6895	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_7935	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_7937	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_8001	Y expressed	Y expressed	False	no STR Amelogenin	False	
+CMP	CVCL_8067	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_8147	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CMP	CVCL_8784	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CMP	CVCL_8787	Y expressed	Y expressed	False	mixed across sources	False	
+CMP	CVCL_8792	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_8822	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_8823	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_8824	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_8878	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_8929	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_8930	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_A341	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_A385	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_A472	Y expressed	Y expressed	False	X only	True	False
+CMP	CVCL_AT85	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_B079	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_C171	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_C173	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_C184	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_C757	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_E063	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_H525	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_L079	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_L083	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_L085	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_L088	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_M846	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CMP	CVCL_S641	Y below cut-off	Y below cut-off	False	X,Y	True	False
+CMP	CVCL_S740	Y below cut-off	Y below cut-off	False	no STR Amelogenin	False	
+CMP	CVCL_S976	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_T023	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_U797	Y expressed	Y expressed	False	no STR Amelogenin	False	
+CMP	CVCL_VU89	Y expressed	Y expressed	False	no STR Amelogenin	False	
+CMP	CVCL_W798	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_X483	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_X484	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_X485	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_X486	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_X487	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_X505	Y expressed	Y expressed	False	X,Y	True	True
+CMP	CVCL_X506	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_X508	Y below cut-off	Y below cut-off	False	X only	True	True
+CMP	CVCL_Y019	Y below cut-off	Y below cut-off	False	X only	True	True

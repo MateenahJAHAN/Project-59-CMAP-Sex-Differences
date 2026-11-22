@@ -25,6 +25,11 @@ for fn, pos, tot in [('str_fresh_EmeraldBay.tsv',47,52),('str_fresh_sci-Plex.tsv
     assert sum(r['match']=='True' for r in rr)==pos and sum(r['comparable']=='True' for r in rr)==tot
 assert len(read('receipts/cellosaurus_record_checks.tsv'))==1102
 z=read('tables/sciplex_vs_fresh_bulk.tsv')
+assert 'bulk_y' not in z[0] and 'bulk_xist' not in z[0]
 assert len(z)==6 and [r['experiment']+'/'+r['line'] for r in z if r['agree']=='False']==['sciPlex3/A549']
 assert all(v['new_sha256']==v['old_sha256'] for v in receipt('compare_amelogenin.json').values())
+for name,expected in [('CCLE',(773,734,714)),('CMP',(1082,1031,1007))]:
+    rr=[r for r in read('tables/str_fresh_bulk.tsv') if r['source']==name]
+    assert (len(rr),sum(r['comparable']=='True' for r in rr),sum(r['agree']=='True' for r in rr))==expected
+    assert all(r['call_changed']=='False' for r in rr)
 print('All file checks and cohort, call, and STR counts passed.')

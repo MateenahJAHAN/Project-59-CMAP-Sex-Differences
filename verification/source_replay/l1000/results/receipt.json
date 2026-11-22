@@ -1,0 +1,113 @@
+{
+  "source": {
+    "url": "https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/level3/level3_beta_ctl_n188708x12328.gctx",
+    "etag": "\"f0e3acd36fa6a60df00200bb7b757226-1184\"",
+    "content_length": 18611750206,
+    "shape": [
+      188708,
+      12328
+    ],
+    "data_offset": 6003,
+    "dtype": "<f8",
+    "gene_order_sha256": "ec1b890e671a01d5183470e3ab5b874cd8e47edda07545af23119c39793a5c8c",
+    "well_order_sha256": "18f763a9df8a67e972b2e4993cc26b1c35897ef71a7f461a3195b8be073379db"
+  },
+  "markers": {
+    "XIST": {
+      "gene_id": "7503",
+      "matrix_index": 9675,
+      "feature_space": "inferred"
+    },
+    "RPS4Y1": {
+      "gene_id": "6192",
+      "matrix_index": 8342,
+      "feature_space": "best inferred"
+    },
+    "DDX3Y": {
+      "gene_id": "8653",
+      "matrix_index": 11130,
+      "feature_space": "best inferred"
+    },
+    "KDM5D": {
+      "gene_id": "8284",
+      "matrix_index": 10720,
+      "feature_space": "inferred"
+    },
+    "UTY": {
+      "gene_id": "7404",
+      "matrix_index": 9609,
+      "feature_space": "inferred"
+    },
+    "EIF1AY": {
+      "gene_id": "9086",
+      "matrix_index": 11480,
+      "feature_space": "inferred"
+    },
+    "ZFY": {
+      "gene_id": "7544",
+      "matrix_index": 9703,
+      "feature_space": "inferred"
+    },
+    "USP9Y": {
+      "gene_id": "8287",
+      "matrix_index": 10721,
+      "feature_space": "inferred"
+    },
+    "NLGN4Y": {
+      "gene_id": "22829",
+      "matrix_index": 2250,
+      "feature_space": "best inferred"
+    }
+  },
+  "sampling": {
+    "instance_metadata_rows": 3026460,
+    "qc_pass_DMSO": 75705,
+    "qc_pass_DMSO_in_matrix": 75705,
+    "cohort_rows": 2800,
+    "cohort_lines": 127,
+    "archived_cohort_matches_every_field": true
+  },
+  "verification": {
+    "hdf5_first_last_checks": {
+      "0": "11cb26e74e0167f529e3d3b118c8a6324e470faff4404d890359c93d82ca6cc2",
+      "188707": "a5e661601ec5b6ac518073e27009ab71bfec07f0e5c0da1c5c6b359195cd37dd"
+    },
+    "selected_raw_bytes": 276147200,
+    "selected_whole_row_hashes_file": "sampled_well_hashes.tsv.gz",
+    "maximum_median_delta_vs_archived_4dp": 4.999980926512215e-05,
+    "filename_level": "level3_beta_ctl_n188708x12328.gctx",
+    "sampling_seed": 20261114,
+    "maximum_wells_per_line": 30,
+    "aggregation": "Per gene, compute the median across selected wells in each line; then average the eight Y-gene medians within line.",
+    "input_sha256": {
+      "line_state_inputs.tsv": "6e864be7120285841cdba1e35cf78a8680f1a417acd413e2b1fac5c830d7e6f0",
+      "geneinfo_beta.txt": "e739d06bad42ff9285c00b778e65d8999425062a3375cc7e7cdab0e7154490b5",
+      "instinfo_beta.txt": "2676189e8ea4a4cfdafc6c7e1b9f1776f4459ebfe4f79f6a736c3f3a732d3249",
+      "A_l1000_samples_used.tsv.gz": "070d8064d8de5b479626200b755c01cb6bb057d4e95591194d731ad288e8ca0e",
+      "A_l1000_line_medians.tsv": "4279b53b55c42e2db26ae6f51bacc551c5f4ad3a0451a010ed1791fa1bc76930"
+    },
+    "output_sha256": {
+      "sampled_well_hashes.tsv.gz": "97d4860caa5cbe6b9a98a5349e41c1cedc4c734a985f026291e0eb39da183991",
+      "inferred_scores.tsv": "7b5e75e0920193dabd51e8ad0672f72ecdfdd3ac800204dede3fad769177f352"
+    },
+    "metadata_sources": {
+      "geneinfo_beta.txt": "https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/geneinfo_beta.txt",
+      "instinfo_beta.txt": "https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/instinfo_beta.txt"
+    }
+  },
+  "results": {
+    "spearman_rho": 0.21317656242837743,
+    "spearman_p": 0.017445331397828993,
+    "spearman_n": 124,
+    "original_AUC_XY_vs_Y_lost": {
+      "positive_lines": 36,
+      "negative_lines": 19,
+      "auroc": 0.533625730994152
+    },
+    "alternate_AUC_all_Y_high_vs_all_Y_low": {
+      "positive_lines": 37,
+      "negative_lines": 90,
+      "auroc": 0.6510510510510511
+    }
+  }
+}

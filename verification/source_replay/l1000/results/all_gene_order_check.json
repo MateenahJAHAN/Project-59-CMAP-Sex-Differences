@@ -1,0 +1,28 @@
+{
+  "source_table": "A_l1000_all_gene_auc_exploratory.tsv.gz",
+  "archive_sha256": "25f141df3bbb38e2be66c024d1758dd1fe35f1ce1571b3cd2ec223c8f12a4e6a",
+  "rerun_sha256": "dc72262c9ce32ceee806ac216ee904a737fe5f73706687de1b4854152a14eb93",
+  "unique_genes": 12328,
+  "changed_cells_by_field_after_join_on_gene_id": {
+    "gene_id": 0,
+    "auc": 0,
+    "gene_symbol": 0,
+    "feature_space": 0,
+    "discrimination": 0,
+    "rank_by_discrimination": 0
+  },
+  "row_positions_with_different_gene_ids": 11897,
+  "all_reordered_positions_have_same_rank_and_discrimination": true,
+  "distinct_discrimination_values": 335,
+  "original_XY_vs_Y_lost_bootstrap": {
+    "contrast": "XY (positive) vs Y-lost",
+    "auc": 0.5336,
+    "ci_low": 0.348,
+    "ci_high": 0.7091,
+    "positive": 36,
+    "negative": 19,
+    "source": "A_l1000_exploratory.tsv",
+    "source_sha256": "384f2e73ae1b1ae9ce65690b540c96282c8435b5b818fed6fce5cac40bf1b5a0",
+    "archived_sha256": "384f2e73ae1b1ae9ce65690b540c96282c8435b5b818fed6fce5cac40bf1b5a0"
+  }
+}

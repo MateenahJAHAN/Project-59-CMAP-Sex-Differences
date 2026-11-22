@@ -1,0 +1,16 @@
+[
+  {
+    "source": "CCLE",
+    "lines": 773,
+    "comparable": 734,
+    "agreement": 714,
+    "changed_calls": 0
+  },
+  {
+    "source": "CMP",
+    "lines": 1082,
+    "comparable": 1031,
+    "agreement": 1007,
+    "changed_calls": 0
+  }
+]

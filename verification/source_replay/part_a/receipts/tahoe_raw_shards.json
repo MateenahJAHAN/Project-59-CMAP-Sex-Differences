@@ -1,0 +1,15 @@
+{
+  "source_shards": 1910,
+  "scientific_partial_files": 7640,
+  "byte_identical_after_full_comparison": 7640,
+  "included_row_groups": 4212,
+  "upstream_bytes_read": 14292769873,
+  "source_rows_read": 4148403,
+  "eligible_cells": 2205786,
+  "scientific_manifest_differences": [],
+  "diagnostic_fields_changed": {
+    "reduce_s": 1905,
+    "cells_with_zero_entries": 1882,
+    "zero_entries": 1882
+  }
+}
