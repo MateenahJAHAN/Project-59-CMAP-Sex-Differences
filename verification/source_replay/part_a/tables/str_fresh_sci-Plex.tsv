@@ -1,0 +1,4 @@
+cellosaurus_id	cell_name	n_observed	n_y_positive	n_distinct	accession	amelogenin_class	record_sha256	rna_call	comparable	match	reference_call	rna_call_reproduced
+CVCL_0004	K562	1	0	1	CVCL_0004	X only	ba2c333fa7a2158a75366b0c7be96bda9379017527dd1d5de972909b533287a7	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0023	A549	3	3	1	CVCL_0023	X,Y	6fb804cae3114bb88150776446ee872909229a10b1feeac7930fa9202c5ca485	Y expressed	True	True	Y expressed	True
+CVCL_0031	MCF7	2	0	1	CVCL_0031	X only	c41c4f768fbfc0057292de94d036fd3cf45d8a3b671c22be2751bc0567660e27	Y below cut-off	True	True	Y below cut-off	True

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "attenuation_e3.tsv",
+    "data_rows": 12,
+    "byte_identical_to_release": true,
+    "sha256": "6f5af23261fe8d00ff4ab4b082292171cae1ec58e527a47087014031629fa41f"
+  },
+  {
+    "file": "coverage_e2.tsv",
+    "data_rows": 30,
+    "byte_identical_to_release": true,
+    "sha256": "e2e9340fc9af9c74cdd3c858ad508531a9f74350375b8385e0822b67a97b7440"
+  },
+  {
+    "file": "coverage_e3.tsv",
+    "data_rows": 60,
+    "byte_identical_to_release": true,
+    "sha256": "af3283a420482f1acd5d2acb65ddaf9703d87ba2e38f610ccc3a3f7599d328dc"
+  },
+  {
+    "file": "e3_power_interpolated.tsv",
+    "data_rows": 4,
+    "byte_identical_to_release": true,
+    "sha256": "91eabd4cad514a6eaa02768e45c00befd3e981707f6f73dd1587043960be0ecd"
+  },
+  {
+    "file": "figS3_power_values.tsv",
+    "data_rows": 66,
+    "byte_identical_to_release": true,
+    "sha256": "43d078502ab3dbf18ab916f8adfd42d3adf4512521f25e60ff319a15ece1097f"
+  },
+  {
+    "file": "power_summary.tsv",
+    "data_rows": 206,
+    "byte_identical_to_release": true,
+    "sha256": "a82b25c97e1679f951961105a011e2ce0f76bb2570f48a713464953e47e2066a"
+  },
+  {
+    "file": "size_null_scenario.tsv",
+    "data_rows": 2,
+    "byte_identical_to_release": true,
+    "sha256": "532aed9de661cc087489b5dc872098ffb95b067f5937af49377c44fb2c38537e"
+  }
+]

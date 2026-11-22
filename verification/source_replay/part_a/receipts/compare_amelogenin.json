@@ -1,0 +1,248 @@
+{
+  "agreement_by_source.tsv": {
+    "new_sha256": "69ec3e721ebe2b2ee9b206ed6d9ff8df50e590f4ea2ad789ed5f793603aa46ae",
+    "old_sha256": "69ec3e721ebe2b2ee9b206ed6d9ff8df50e590f4ea2ad789ed5f793603aa46ae",
+    "rows": 5,
+    "reference_rows": 5,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "source"
+    ],
+    "common_columns": 20,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "amelogenin_by_record.tsv": {
+    "new_sha256": "bf081a6f4997fd3eaa369b19ec1b6f3fac66e379b3b34439d377de7c507b3b2c",
+    "old_sha256": "bf081a6f4997fd3eaa369b19ec1b6f3fac66e379b3b34439d377de7c507b3b2c",
+    "rows": 1102,
+    "reference_rows": 1102,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 15,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "amelogenin_class_counts.tsv": {
+    "new_sha256": "e4030a36b2a44a37e9d0c7b4f53a68c8e3927e1661701a6b1f00353d731e0997",
+    "old_sha256": "e4030a36b2a44a37e9d0c7b4f53a68c8e3927e1661701a6b1f00353d731e0997",
+    "rows": 18,
+    "reference_rows": 18,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "subset"
+    ],
+    "common_columns": 5,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "check_taskA_vs_taskC_y_calls.tsv": {
+    "new_sha256": "51dae67b6915c67f9c19c19ee509648d7ef3a9b82d498ea2f430db1493fb16d2",
+    "old_sha256": "51dae67b6915c67f9c19c19ee509648d7ef3a9b82d498ea2f430db1493fb16d2",
+    "rows": 3,
+    "reference_rows": 3,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "source"
+    ],
+    "common_columns": 5,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "checks_analysis1.tsv": {
+    "new_sha256": "468925f480711421f4e5c10c046add15dd6e101d6cc3d42f6853a7294db7a02d",
+    "old_sha256": "468925f480711421f4e5c10c046add15dd6e101d6cc3d42f6853a7294db7a02d",
+    "rows": 15,
+    "reference_rows": 15,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 4,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "checks_analysis2.tsv": {
+    "new_sha256": "47e4cb25f658015a34de281300a5c7ea19b5fec6266080f3c9b69a2d00ab17c7",
+    "old_sha256": "47e4cb25f658015a34de281300a5c7ea19b5fec6266080f3c9b69a2d00ab17c7",
+    "rows": 7,
+    "reference_rows": 7,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 4,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "checks_y_calls.tsv": {
+    "new_sha256": "9771a6b500479f95af66b43ff4f31431391592e15e5b4ce35d327b442e5294e2",
+    "old_sha256": "9771a6b500479f95af66b43ff4f31431391592e15e5b4ce35d327b442e5294e2",
+    "rows": 12,
+    "reference_rows": 12,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 4,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "crosstab_label_amelogenin.tsv": {
+    "new_sha256": "62892539280afe99c0b4141fec17439a93ea42d70b40068424b908d0dc1bce03",
+    "old_sha256": "62892539280afe99c0b4141fec17439a93ea42d70b40068424b908d0dc1bce03",
+    "rows": 18,
+    "reference_rows": 18,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 4,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "crosstab_ycall_amelogenin.tsv": {
+    "new_sha256": "3abeed798889ee9f6e4468e93d068554494115094d1f28c94bc728b0b0dbdff2",
+    "old_sha256": "3abeed798889ee9f6e4468e93d068554494115094d1f28c94bc728b0b0dbdff2",
+    "rows": 60,
+    "reference_rows": 60,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "source"
+    ],
+    "common_columns": 5,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "discordant_lines.tsv": {
+    "new_sha256": "76f65c41e862a1f4e0c3521a61032eaa46f8dedbcb65cdf882f9009ea62e99d3",
+    "old_sha256": "76f65c41e862a1f4e0c3521a61032eaa46f8dedbcb65cdf882f9009ea62e99d3",
+    "rows": 75,
+    "reference_rows": 75,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 33,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "named_lines.tsv": {
+    "new_sha256": "5f327f1f0927b826e486ac4a2716ed0499b7ee259a68a91a2e5f4e51e283b621",
+    "old_sha256": "5f327f1f0927b826e486ac4a2716ed0499b7ee259a68a91a2e5f4e51e283b621",
+    "rows": 10,
+    "reference_rows": 10,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 26,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partB_agreement.tsv": {
+    "new_sha256": "142d57e25039e6af6696ee9f7fd366b9d00d60bdca3881f5723ecda47b09e82a",
+    "old_sha256": "142d57e25039e6af6696ee9f7fd366b9d00d60bdca3881f5723ecda47b09e82a",
+    "rows": 10,
+    "reference_rows": 10,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 8,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partB_counts.tsv": {
+    "new_sha256": "8b8187f6f80c33060ad3a9a495ade5b055c9179c1b7f218316bf58139d5239f2",
+    "old_sha256": "8b8187f6f80c33060ad3a9a495ade5b055c9179c1b7f218316bf58139d5239f2",
+    "rows": 70,
+    "reference_rows": 70,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 4,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partB_group_sizes.tsv": {
+    "new_sha256": "4e534b4b60ff3597229b3f18c93266bad5bda608cc74626897b64f521ce786c4",
+    "old_sha256": "4e534b4b60ff3597229b3f18c93266bad5bda608cc74626897b64f521ce786c4",
+    "rows": 12,
+    "reference_rows": 12,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 7,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "partB_lines_transfer.tsv": {
+    "new_sha256": "22f2108292b966619161d09816b2ec278ef8955d4d2aae7acd87e9c587a0ab65",
+    "old_sha256": "22f2108292b966619161d09816b2ec278ef8955d4d2aae7acd87e9c587a0ab65",
+    "rows": 41,
+    "reference_rows": 41,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "line"
+    ],
+    "common_columns": 38,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "supp_table_amelogenin_by_line.tsv": {
+    "new_sha256": "aaad3bd9593de727eff6ca1b4fa3c3cca7c1ea846d7bbfe87bfd39e6d2d0581c",
+    "old_sha256": "aaad3bd9593de727eff6ca1b4fa3c3cca7c1ea846d7bbfe87bfd39e6d2d0581c",
+    "rows": 1102,
+    "reference_rows": 1102,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 27,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "supp_table_partB_transfer.tsv": {
+    "new_sha256": "64f286b60d532313fec8090fb3dac53c44336347e11736e069ee6e9c772c60a6",
+    "old_sha256": "64f286b60d532313fec8090fb3dac53c44336347e11736e069ee6e9c772c60a6",
+    "rows": 41,
+    "reference_rows": 41,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "line"
+    ],
+    "common_columns": 19,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "tahoe_state_by_amelogenin.tsv": {
+    "new_sha256": "2384f43fd55edf57bd3e3d96eafe1371542e83086a6e5c3df05642f211148a9c",
+    "old_sha256": "2384f43fd55edf57bd3e3d96eafe1371542e83086a6e5c3df05642f211148a9c",
+    "rows": 54,
+    "reference_rows": 54,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 7,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "y_calls_by_line.tsv": {
+    "new_sha256": "5632aafa83170623fa1cc88a78cdd0f7f2ffccc14a6c0465d6d5d873e6721f17",
+    "old_sha256": "5632aafa83170623fa1cc88a78cdd0f7f2ffccc14a6c0465d6d5d873e6721f17",
+    "rows": 1102,
+    "reference_rows": 1102,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "common_columns": 54,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  }
+}

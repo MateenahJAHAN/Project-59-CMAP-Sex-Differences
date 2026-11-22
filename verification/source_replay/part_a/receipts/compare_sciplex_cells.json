@@ -1,0 +1,9 @@
+{
+  "sciplex_vehicle_cells.tsv.gz": {
+    "new_sha256": "20c01aad70ae52e9431598915d9c8bbda63c875411f3a0f04341d081d6f25760",
+    "old_sha256": "20c01aad70ae52e9431598915d9c8bbda63c875411f3a0f04341d081d6f25760",
+    "rows": 23570,
+    "changed_columns_and_rowcounts": {},
+    "last_row_computed": true
+  }
+}

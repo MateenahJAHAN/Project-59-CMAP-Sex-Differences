@@ -1,0 +1,21 @@
+{
+  "completed": [
+    "full_Tahoe_metadata_projection",
+    "all_sciPlex_matrices",
+    "all_EmeraldBay_vehicle_source_shards",
+    "Cellosaurus_STR_records",
+    "external_bulk_reference_comparison"
+  ],
+  "tahoe_expression_shards_total": 1910,
+  "tahoe_expression_shards_extracted": 1503,
+  "tahoe_second_caller_shards_reduced": 408,
+  "emerald_all_condition_shards_processed": 47,
+  "emerald_all_condition_shards_total": 116,
+  "tahoe_vehicle_primary_cells": 2205786,
+  "str_comparison_basis": {
+    "Tahoe-100M": "Historical RNA calls against re-parsed STR at this checkpoint.",
+    "EmeraldBay": "Fresh expression calls against re-parsed STR.",
+    "sci-Plex": "Fresh expression calls collapsed within line across experiments against re-parsed STR.",
+    "CCLE and CMP": "Historical RNA calls against re-parsed STR in the original workflow."
+  }
+}

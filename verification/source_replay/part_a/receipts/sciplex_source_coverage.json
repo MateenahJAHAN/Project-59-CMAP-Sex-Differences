@@ -1,0 +1,71 @@
+{
+  "sciPlex2": {
+    "n_genes_file": 58347,
+    "n_genes_human": 58347,
+    "n_cells_file": 24262,
+    "min_n_umi_pdata": 1000,
+    "hash_pass": 14669,
+    "n_assigned": 14669,
+    "n_vehicle": 2631,
+    "vehicle_by_line": {
+      "A549": 2631
+    },
+    "matrix_rows": 60135001,
+    "assigned_by_line": {
+      "A549": 14669
+    },
+    "deep_assigned_by_line": {
+      "A549": 11996
+    },
+    "depth_vs_n_umi_corr": 1.0
+  },
+  "sciPlex3": {
+    "n_genes_file": 110983,
+    "n_genes_human": 58347,
+    "n_cells_file": 799317,
+    "min_n_umi_pdata": 500,
+    "n_assigned": 762795,
+    "n_vehicle": 17578,
+    "vehicle_by_line": {
+      "MCF7": 7786,
+      "A549": 5857,
+      "K562": 3935
+    },
+    "matrix_rows": 1007419688,
+    "assigned_by_line": {
+      "MCF7": 344862,
+      "A549": 244281,
+      "K562": 173652
+    },
+    "deep_assigned_by_line": {
+      "MCF7": 158653,
+      "A549": 41976,
+      "K562": 18467
+    },
+    "depth_vs_n_umi_corr": 0.9998581959842744
+  },
+  "sciPlex4": {
+    "n_genes_file": 58347,
+    "n_genes_human": 58347,
+    "n_cells_file": 98437,
+    "min_n_umi_pdata": 500,
+    "hash_cells_in_table": 648550,
+    "hash_pass": 67247,
+    "n_assigned": 55759,
+    "n_vehicle": 3361,
+    "vehicle_by_line": {
+      "MCF7": 1953,
+      "A549": 1408
+    },
+    "matrix_rows": 103736860,
+    "assigned_by_line": {
+      "MCF7": 29745,
+      "A549": 26014
+    },
+    "deep_assigned_by_line": {
+      "MCF7": 8451,
+      "A549": 3326
+    },
+    "depth_vs_n_umi_corr": 1.0
+  }
+}

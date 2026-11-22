@@ -1,0 +1,22 @@
+{
+  "url": "https://huggingface.co/datasets/tahoebio/Tahoe-100M/resolve/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8/metadata/obs_metadata.parquet",
+  "sha256": "e51b24f3666f5f433c59ff01dd6fa33934627091455e89d929f2c1ddc87401fe",
+  "file_bytes": 2293981573,
+  "rows": 100648790,
+  "full_filter_rows": 95624334,
+  "full_vehicle_rows": 2205786,
+  "columns_checked": [
+    "BARCODE_SUB_LIB_ID",
+    "plate",
+    "sample",
+    "sublibrary",
+    "cell_line",
+    "drug",
+    "pass_filter",
+    "phase",
+    "tscp_count",
+    "gene_count",
+    "pcnt_mito"
+  ],
+  "missing_or_different": 0
+}

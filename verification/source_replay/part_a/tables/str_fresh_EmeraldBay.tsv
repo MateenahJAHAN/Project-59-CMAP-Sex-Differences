@@ -1,0 +1,53 @@
+cellosaurus_id	cell_name	n_observed	n_y_positive	n_distinct	accession	amelogenin_class	record_sha256	rna_call	comparable	match	reference_call	rna_call_reproduced
+CVCL_0023	A549	1	1	1	CVCL_0023	X,Y	6fb804cae3114bb88150776446ee872909229a10b1feeac7930fa9202c5ca485	Y expressed	True	True	Y expressed	True
+CVCL_0028	AN3 CA	1	0	1	CVCL_0028	X only	ac77b2371463369bd0228de55a2cf9e2d1f0e2f002bdd45b09524a628a3e1c0b	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0069	SK-MEL-2	1	1	1	CVCL_0069	X,Y	1d8e200f08796da133fb048673d18797cf817f27cd09f7255ef708f9f8716e01	Y expressed	True	True	Y expressed	True
+CVCL_0099	SNU-1	1	1	1	CVCL_0099	X,Y	5535d5af128938c502f886b611b7fe0ec008fdb6da17491fb09c2ef17049fde4	Y expressed	True	True	Y expressed	True
+CVCL_0131	A-172	1	1	1	CVCL_0131	X,Y	39d25dcde2d677e27335a1457951b21d53371bb1c8f66100e0a08e922e51173a	Y expressed	True	True	Y expressed	True
+CVCL_0152	AsPC-1	1	0	1	CVCL_0152	X only	eae97376a6378470515eaefa47e36a74094ee5a768d58667f5effaaa3ee478ba	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0179	BT-474	1	0	1	CVCL_0179	X only	8c38cbf0e2dc77d7b99eb48129f92753f9ebd3dfdb132582cae51646cfab2733	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0186	BxPC-3	1	0	1	CVCL_0186	X only	954935add263fc3cc3f568c64a2b15782c77198e9be4db32ddc5776638fdccd4	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0218	COLO 205	1	1	1	CVCL_0218	X only	d8ce8f9d58d2cbbb875a078a32380e77802a406f6dc60db1b324af2281956540	Y expressed	True	False	Y expressed	True
+CVCL_0292	HCT15	1	1	1	CVCL_0292	X,Y	2f0d993383b822a6177b62e3054a2419dd5e6951a28930157aea9097f8904a19	Y expressed	True	True	Y expressed	True
+CVCL_0293	HEC-1-A	1	0	1	CVCL_0293	X only	75e9f648e6513572bef739c34a2eafe0ecb18c89f192478804b47fd972141209	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0320	HT-29	1	0	1	CVCL_0320	X only	00d4eae172ac34b3d2c6ad8765c778b84023bb72c93e730046d71a2d787124c0	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0332	HS-578T	1	0	1	CVCL_0332	X only	beddebe39e3ca50afbab7a1a19c407333b6f22432aa0bf58bf05e963c155f4dc	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0334	Hs 766T	1	0	1	CVCL_0334	X only	325f5fa2c3ee8f65b840f453642a5b3ce0fdd96cbc5f4f1774fec34353b57f50	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0359	J82	1	1	1	CVCL_0359	X,Y	5fbc002629e08832bbb871726f3447cbca41b43d692de5797a6603e576961253	Y expressed	True	True	Y expressed	True
+CVCL_0366	SNU-423	1	1	1	CVCL_0366	X,Y	cb6ed712391e19b901595a6db92e71460ea9940f47dfa24adf793289757c0db5	Y expressed	True	True	Y expressed	True
+CVCL_0399	LoVo	1	1	1	CVCL_0399	X,Y	3fa18e7c44385e1113265fe0aa6dc4b7068429029b0054afe6ca7fe380295b48	Y expressed	True	True	Y expressed	True
+CVCL_0428	MIA PaCa-2	1	0	1	CVCL_0428	X only	8a2007519a632c2edd1b460d6e869ad000bfc69d69f263d710625d064c3ce879	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0459	NCI-H460	1	1	1	CVCL_0459	X,Y	a83ab284830a0be686461a8137bc21f514e03294d1048e0179e9d5fc11cc37d4	Y expressed	True	True	Y expressed	True
+CVCL_0480	PANC-1	1	0	1	CVCL_0480	X only	28d7d0b9e2cce9d71f58d1a3cc1240c9f8869cdf8155be7949bfec5eb1aaf259	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0504	RKO	1	0	1	CVCL_0504	X only	25939dc7dd520b31c949d11303de98aaac102fca7961b6607aa408171216abf8	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0546	SW480	1	0	1	CVCL_0546	X only	6afdb7fd6b0cb8e0b9055338d13aecb3ffe58021faafbd2fa7d8bb313c662a82	Y below cut-off	True	True	Y below cut-off	True
+CVCL_0950	Hs 852.T	1	1	1	CVCL_0950	X,Y	0f80f30a99149ef3750c7f535d2edb61f802f083310f97a086ab4364da05f886	Y expressed	True	True	Y expressed	True
+CVCL_1055	A-427	1	0	1	CVCL_1055	X,Y	5a441333c6d4911408546d38164924c2048e73b5aa0c890e493c2681b5f072d5	Y below cut-off	True	False	Y below cut-off	True
+CVCL_1056	A498	1	0	1	CVCL_1056	X only	471b919bb56b125d6778e5d9e2430dc260b2e348be9a1412cb70e5c9724939fc	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1094	C-33 A	1	0	1	CVCL_1094	X only	3fad09074912c7624d9fd600312f7d1998d1afe2eef19a1b28feb27ee48a9522	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1097	C32	1	1	1	CVCL_1097	X,Y	fe7152a472c9e3762a28f91104553e23f0bddc9a2fa9386cbcd8644c01175478	Y expressed	True	True	Y expressed	True
+CVCL_1098	HepG2/C3A	1	1	1	CVCL_1098	X,Y	2e356ebe998977c6d01eca136f38c8ae936abf0a0cd52a3f940c188e8af0c935	Y expressed	True	True	Y expressed	True
+CVCL_1118	CCF-STTG1	1	0	1	CVCL_1118	X only	db737628603861e5b1db9d2ea5b6f7090177585e38be4efe821e4d9cd12f15e8	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1119	CFPAC-1	1	0	1	CVCL_1119	X,Y	e97fd6c77d91492c7572e6e092a1b582c590ef679cb9f0577c4320c7eff4d617	Y below cut-off	True	False	Y below cut-off	True
+CVCL_1125	CHP-212	1	1	1	CVCL_1125	X,Y	23e2731a393be9fd2aa04bea108328b4ef168fa9b7b5bc2677b5260fac287110	Y expressed	True	True	Y expressed	True
+CVCL_1239	H4	1	1	1	CVCL_1239	X,Y	bf9f15b762c6d5df811be955987962541cf233d3267a0a3c8639e77845edc779	Y expressed	True	True	Y expressed	True
+CVCL_1285	HOP62	1	0	1	CVCL_1285	X only	9fe7dadfa761858ba606c42d7870249d15eb5e76b4e9d452cb1a086d61e0d391	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1381	LOX-IMVI	1	0	1	CVCL_1381	X only	8a962a8a45c490a3f47674b0ba519e1f18d760cc39e44db50bdeb80506d9b8c5	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1384	LS 174T	1	0	1	CVCL_1384	X only	f4acb107bfc9c94722f83be45083b3367558032d6133dc64501362f769ba6c70	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1478	NCI-H1573	1	0	1	CVCL_1478	X only	9a0f548303a2595110e656d30c2af5f7ee4ef21f295e243554e4cc93796a55c7	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1495	NCI-H1792	1	0	1	CVCL_1495	X only	dd9338aa80bc4dbfca7962697e050906164c63dce19316fde20b2195f0013840	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1517	NCI-H2030	1	0	1	CVCL_1517	X only	5b2ecbda2e9b0ae65e584343adfd0e1787e0537885b855b733bf56ea8df41e0d	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1531	NCI-H2122	1	0	1	CVCL_1531	X only	5e0b72b694fc06063843f3451278f5003f9c634c8743231e7d2a20b8884b562a	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1547	NCI-H23	1	0	1	CVCL_1547	X only	ee236dad68e7e57aac3f706cd85b3efdbc141c7bba25e0296bd82074531a6e6b	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1550	NCI-H2347	1	0	1	CVCL_1550	X only	faeda578607c722498d77555ddce35ef6dacc7aedea214a491043dacf99a2705	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1571	NCI-H596	1	0	1	CVCL_1571	X only	5c8b6e501ba1a28a08c62618287cb0f1fa094d7402e8aaa4142f99b5369b253c	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1577	NCI-H661	1	0	1	CVCL_1577	X,Y	6dda1cb771fd99673b72e2cbfaa469acd33cf930de69405409f147d1b92e6697	Y below cut-off	True	False	Y below cut-off	True
+CVCL_1603	NCI-N87	1	0	1	CVCL_1603	X,Y	122dbb63fb1c5315c800f52a3397954a6df22028afd922814035c2d21ec8ea5e	Y below cut-off	True	False	Y below cut-off	True
+CVCL_1635	Panc 03.27	1	0	1	CVCL_1635	X only	f52787792d90e7fb27424649303adee49f8daf7c94eaf6ac444401f4d1d47bd5	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1666	RPMI-7951	1	0	1	CVCL_1666	X only	f11a77beb259663bed3bd6b0ffd19046c6a532355f356761926a6933e23b0115	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1693	SHP-77	1	0	1	CVCL_1693	X only	f6d29d2d258957f15e49a698cb9ce893d86d5f50b1f91ec512d0ba74114b3d5d	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1715	SW 1088	1	1	1	CVCL_1715	X,Y	92dae197e028db0d1f629de3b75d7506dbbdc8dfbd76e434079abad407edbc33	Y expressed	True	True	Y expressed	True
+CVCL_1716	SW 1271	1	0	1	CVCL_1716	X only	09113d12766963e8461a9013addbd31cb314d46c86762539168778f9e7ba0be7	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1717	SW1417	1	0	1	CVCL_1717	X only	d90f51e0e68bc801e1c4da1ea11d1d8394c4a14a1e46d8cb2517e50a8853b204	Y below cut-off	True	True	Y below cut-off	True
+CVCL_1724	SW48	1	0	1	CVCL_1724	X only	aaf7211d9e04a8e1fd6bfe591a4ce38eb439cf2a8e9580d41c8301600de7fef0	Y below cut-off	True	True	Y below cut-off	True
+CVCL_C466	hTERT-HPNE	1	1	1	CVCL_C466	X,Y	c5d2373b1877ba487abbc3c9a596bcc0e2e5301b23cc779bce5de22aaa61310f	Y expressed	True	True	Y expressed	True

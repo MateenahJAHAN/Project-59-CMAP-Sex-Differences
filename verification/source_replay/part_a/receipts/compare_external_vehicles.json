@@ -1,0 +1,85 @@
+{
+  "F1_cutoffs.tsv": {
+    "new_sha256": "d47e0fe3ca06d17a1043121b638cd0074f3af08e514b276936300f96f9820f7f",
+    "old_sha256": "b7a14afb27d07c5c83fe49c540a02c52c6ce714c69495bbff8dc5420d2bf8630",
+    "rows": 8,
+    "reference_rows": 8,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "source",
+      "score"
+    ],
+    "common_columns": 14,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 1.1102230246251565e-16
+  },
+  "F1_emerald_states.tsv": {
+    "new_sha256": "7c6f3ace32a62ef53b7de3aedf5da3b589d75fb291612f3ab6800ef8dbde6779",
+    "old_sha256": "3ec07b72e6a11b18b6579d65bf33c913a7d819bd7c5b76e7975e6af09cf27bc1",
+    "rows": 52,
+    "reference_rows": 52,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 43,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 3.469446951953614e-18
+  },
+  "F1_emerald_units.tsv": {
+    "new_sha256": "2bd6b2e440ad9cf41f459bbb20e749bc19e2e3c16351cd0e4db5dbb72dc30469",
+    "old_sha256": "2bd6b2e440ad9cf41f459bbb20e749bc19e2e3c16351cd0e4db5dbb72dc30469",
+    "rows": 207,
+    "reference_rows": 207,
+    "only_fresh_columns": [],
+    "only_reference_columns": [],
+    "sorted_by": [
+      "dataset",
+      "line",
+      "batch"
+    ],
+    "common_columns": 28,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 0.0
+  },
+  "F1_emerald_vehicle_cells.tsv.gz": {
+    "new_sha256": "da66d4094bfe7a786764091348db3f3b2e9c9b6cc655ebcbdb00916d2264052d",
+    "old_sha256": "187cee6e24db836f172ced2bcd3e20b14ca2311f3b6e22d4d965f20ecec9f44d",
+    "rows": 130498,
+    "changed_columns_and_rowcounts": {},
+    "last_row_computed": true
+  },
+  "F1_sciplex_states.tsv": {
+    "new_sha256": "a2e7c15df5d061fd0ecd4ff483a071965aff5349783fe356fce67e12e27c1197",
+    "old_sha256": "71856a215d4e19d33ba20c6909790efba3547b68c35127023808b9550c687c33",
+    "rows": 6,
+    "reference_rows": 6,
+    "only_fresh_columns": [],
+    "only_reference_columns": [
+      "arm_state_emerald_cutoffs",
+      "foreign_cell_share",
+      "foreign_share_xist",
+      "foreign_share_xist_expected_ambient",
+      "foreign_share_y",
+      "foreign_share_y_expected_ambient",
+      "organ",
+      "state_emerald_cutoffs"
+    ],
+    "sorted_by": [
+      "sample",
+      "cell_name",
+      "cellosaurus_id"
+    ],
+    "common_columns": 38,
+    "changed_numeric": {},
+    "changed_categorical": {},
+    "max_absolute_difference": 8.881784197001252e-16
+  }
+}
