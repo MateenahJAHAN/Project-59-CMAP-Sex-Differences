@@ -23,3 +23,7 @@ python direct_primary.py --engine ENGINE --rebuild REBUILD --output PRIMARY
 ```
 
 For the full frozen-plan run, the engine uses `src/G/run_g.py` in real-data mode, the `partB-prereg-v1` tag and `analysis_plan/G_plan.md`, with the matching SHA-256 supplied in `P59_UNBLIND_PLAN_SHA256`. Retain the scratch results if interrupted and restart that stage into an empty output directory. The permutation count for the main contrasts is 10,000. The two positive-control gates and both P1 marker calibration gates passed by this checkpoint. The remaining panel calibrations, complete sensitivity and exploratory tables, and the figure from the new null distributions were still running.
+
+## Primary estimates from the fresh join
+
+The 10,000-permutation P1 analysis against the fresh expression, marker and covariate tables is complete. Compare the measured panel and vehicle p values in `direct_H1.tsv` and pooled effects in `direct_H3.tsv`. The independent comparisons found zero differences in the H1, H3 and 232 per-compound rows.

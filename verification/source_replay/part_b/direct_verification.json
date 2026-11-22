@@ -1,0 +1,17 @@
+{
+  "H1": {
+    "rows": 2,
+    "fields": 30,
+    "diffs": {}
+  },
+  "H3": {
+    "rows": 2,
+    "fields": 12,
+    "diffs": {}
+  },
+  "per_compound": {
+    "rows": 232,
+    "fields": 42,
+    "diffs": {}
+  }
+}

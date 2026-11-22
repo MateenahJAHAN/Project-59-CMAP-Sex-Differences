@@ -18,3 +18,12 @@ for r in checks:
 with (root/'X2_result.tsv').open() as f: row=next(csv.DictReader(f,delimiter='\t'))
 assert (row['n_Y1'],row['n_Y0'],row['testable'])==('2','18','False')
 print('Verified all package hashes, 45 tensor objects, 30 design comparisons, 3 full ploidy controls and the high-dose eligibility count.')
+
+primary = root/'direct_verification.json'
+if primary.is_file():
+    primary_results=json.loads(primary.read_text())
+    assert {k:v['rows'] for k,v in primary_results.items()} == {'H1':2, 'H3':2, 'per_compound':232}
+    assert all(not entry['diffs'] for entry in primary_results.values())
+    with (root/'direct_H1.tsv').open() as f: h1=list(csv.DictReader(f, delimiter='\t'))
+    assert {(r['term'], int(r['B']), int(r['n_lines']), int(r['n_tested'])) for r in h1} == {('factY',10000,41,114),('factX',10000,41,114)}
+    print('Primary panel statistics, the pooled estimates and all 232 compound/control rows match.')
