@@ -1,0 +1,75 @@
+{
+  "genes": 948,
+  "organs": {
+    "Bowel": {
+      "eligible_drug_doses": 93,
+      "female": 4,
+      "male": 4,
+      "observed": 0.0049347367802889935,
+      "permutations": 70,
+      "reference_mean": 0.005017055637840749,
+      "observed_excess": -8.23188575517558e-05,
+      "one_sided_p": 0.5714285714285714,
+      "central_95_reference": [
+        0.0037047993874575053,
+        0.006435771172334543
+      ],
+      "within_marker": {
+        "permutations": 36,
+        "reference_mean": 0.005069810187152484,
+        "observed_excess": -0.00013507340686349026,
+        "one_sided_p": 0.5555555555555556,
+        "central_95_reference": [
+          0.0039055516584632875,
+          0.006779351007537861
+        ]
+      }
+    },
+    "Lung": {
+      "eligible_drug_doses": 89,
+      "female": 3,
+      "male": 8,
+      "observed": 0.0018017575659651105,
+      "permutations": 165,
+      "reference_mean": 0.0018614183857289944,
+      "observed_excess": -5.966081976388395e-05,
+      "one_sided_p": 0.5575757575757576,
+      "central_95_reference": [
+        0.0013085550460016195,
+        0.002597132605803436
+      ],
+      "within_marker": {
+        "permutations": 84,
+        "reference_mean": 0.001879884467018587,
+        "observed_excess": -7.81269010534766e-05,
+        "one_sided_p": 0.5595238095238095,
+        "central_95_reference": [
+          0.0014433513399080005,
+          0.0026332861852040534
+        ]
+      }
+    }
+  },
+  "observed": 0.003368247173127052,
+  "unrestricted": {
+    "permutations": 11550,
+    "reference_mean": 0.003439237011784871,
+    "observed_excess": -7.098983865781901e-05,
+    "one_sided_p": 0.5705627705627706,
+    "central_95_reference": [
+      0.002675225383846196,
+      0.004263483306661575
+    ]
+  },
+  "within_marker": {
+    "permutations": 3024,
+    "reference_mean": 0.0034748473270855354,
+    "observed_excess": -0.00010660015395848321,
+    "one_sided_p": 0.5601851851851852,
+    "central_95_reference": [
+      0.0027813598852669975,
+      0.004348435313338314
+    ]
+  },
+  "direct_and_matrix_implementations_agreed_for_every_organ_assignment": true
+}

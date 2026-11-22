@@ -1,0 +1,5 @@
+# Additional data sources and controls
+
+A metadata check contradicted the initial assumption about HCT 116. The NCI-60 STR release lists HCT 116 and HT-29 as X-only at amelogenin and HCT-15 as X/Y. HCT 116 remains a measured comparison. Add every HCT-15 dye-swap and the HCT-15 NCI RNA value. These STR labels apply to the identified NCI stock. They are single-locus observations.
+
+The NCI RNA and Agilent arm values, the Montréal RNA, and missing sex-chromosome coverage in the Melbourne SNP intensity release were known when extending the search to the GDSC 450K study. Before reading GDSC target values, take both IDAT color files from GSE68379 for the target and all three predefined controls. Use the same general probe mask, excluded PAR and centromere, background, and raw-intensity definitions as in the NCI/Candiolo 450K reanalysis. Track GDSC's potential overlap with earlier GDSC bulk RNA, shared biobank provenance, and any undisclosed relationship to NCI stocks. Query the NCBI SKY deposit by cell line and extract its exact named karyotype if retrievable. Each is an external observational check.

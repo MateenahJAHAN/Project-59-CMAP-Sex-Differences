@@ -1,0 +1,211 @@
+{
+  "compared_present_line_wells": 67018,
+  "all_possible_line_wells": 67200,
+  "verified_cells": 95624334,
+  "mismatches": {
+    "cells": 0,
+    "total_umi": 0,
+    "XIST": 0,
+    "RPS4Y1": 0,
+    "DDX3Y": 0,
+    "KDM5D": 0,
+    "UTY": 0,
+    "EIF1AY": 0,
+    "ZFY": 0,
+    "USP9Y": 0,
+    "NLGN4Y": 0
+  },
+  "checks_identical": "per-well calls, leave-plate-out references, coverage and repeat pair keys",
+  "full_filter_uncensored": [
+    {
+      "min_cells": 50,
+      "treated": false,
+      "n_lines": 48,
+      "n_line_wells": 1337,
+      "discordant": 8,
+      "equal_line": 0.9940476190476191
+    },
+    {
+      "min_cells": 50,
+      "treated": true,
+      "n_lines": 49,
+      "n_line_wells": 61928,
+      "discordant": 900,
+      "equal_line": 0.9755223206433917
+    },
+    {
+      "min_cells": 200,
+      "treated": false,
+      "n_lines": 47,
+      "n_line_wells": 1263,
+      "discordant": 7,
+      "equal_line": 0.9946808510638298
+    },
+    {
+      "min_cells": 200,
+      "treated": true,
+      "n_lines": 48,
+      "n_line_wells": 58259,
+      "discordant": 792,
+      "equal_line": 0.9871083661908449
+    },
+    {
+      "min_cells": 500,
+      "treated": false,
+      "n_lines": 45,
+      "n_line_wells": 1178,
+      "discordant": 7,
+      "equal_line": 0.9937777777777778
+    },
+    {
+      "min_cells": 500,
+      "treated": true,
+      "n_lines": 47,
+      "n_line_wells": 52951,
+      "discordant": 706,
+      "equal_line": 0.9871885998334586
+    }
+  ],
+  "thresholds": {
+    "XIST": 4.684976810079098,
+    "y_score": 4.021677875446696
+  },
+  "minimum_200_line_groups": {
+    "eligible_both": 47,
+    "treated_only": [
+      "NCI-H661"
+    ],
+    "vehicle_only": [],
+    "no_eligible_treated": [
+      "NCI-H2122",
+      "NCI-H596"
+    ]
+  },
+  "primary_disc_by_line": {
+    "COLO 205": 773,
+    "AN3 CA": 6,
+    "NCI-H2030": 5,
+    "CFPAC-1": 4,
+    "HCT15": 2,
+    "SNU-1": 1,
+    "RPMI-7951": 1
+  },
+  "marker_failures": {
+    "y": 788,
+    "xist": 5,
+    "both": 1
+  },
+  "heldout_reference_differs_from_frozen_by_line": {},
+  "colo": {
+    "eligible_treated": 1281,
+    "eligible_vehicle": 28,
+    "raw_score_median": 4.080979340440972,
+    "raw_score_quartiles": [
+      3.9416862406379924,
+      4.20324342851831
+    ],
+    "reference_y_across_plates": {
+      "plate1": 3.9791069335472753,
+      "plate10": 3.987887045301187,
+      "plate11": 3.9636611543971414,
+      "plate12": 3.9798229661445057,
+      "plate13": 3.963026915076514,
+      "plate14": 3.980774478590616,
+      "plate2": 4.00129117585222,
+      "plate3": 3.9757705003217443,
+      "plate4": 3.9618267122401165,
+      "plate5": 3.9737438688836884,
+      "plate6": 3.9938023317850173,
+      "plate7": 3.969026171448168,
+      "plate8": 3.977572595990945,
+      "plate9": 3.9687426647153954
+    },
+    "group_minus_COLO_205_equal_line_treated_minus_vehicle": -0.00033399144108418817
+  },
+  "repeat": {
+    "source_pairs": 94,
+    "missing_from_eligible": [
+      [
+        "L-Thyroxine (sodium salt pentahydrate)",
+        5.0
+      ]
+    ],
+    "eligible": 4142,
+    "dual_matching": 4104,
+    "both_same_new": 20,
+    "names": {
+      "COLO 205": 20
+    },
+    "ref_to_new": [
+      {
+        "from": 0,
+        "to": 1,
+        "n": 20
+      }
+    ],
+    "new_y_score_p6_range": [
+      4.0218436821932535,
+      4.4582935155806025
+    ],
+    "new_y_score_p14_range": [
+      4.040491538429522,
+      4.423359102123945
+    ]
+  },
+  "retrospective_conditional_filter": [
+    {
+      "min_cells": 50,
+      "treated": false,
+      "n_lines": 48,
+      "n_line_wells": 1337,
+      "discordant": 2,
+      "equal_line": 0.9985119047619048
+    },
+    {
+      "min_cells": 50,
+      "treated": true,
+      "n_lines": 49,
+      "n_line_wells": 61925,
+      "discordant": 247,
+      "equal_line": 0.9959859996900383
+    },
+    {
+      "min_cells": 200,
+      "treated": false,
+      "n_lines": 47,
+      "n_line_wells": 1263,
+      "discordant": 2,
+      "equal_line": 0.9984802431610943
+    },
+    {
+      "min_cells": 200,
+      "treated": true,
+      "n_lines": 48,
+      "n_line_wells": 58201,
+      "discordant": 167,
+      "equal_line": 0.9972772046868016
+    },
+    {
+      "min_cells": 500,
+      "treated": false,
+      "n_lines": 45,
+      "n_line_wells": 1171,
+      "discordant": 2,
+      "equal_line": 0.9982222222222222
+    },
+    {
+      "min_cells": 500,
+      "treated": true,
+      "n_lines": 47,
+      "n_line_wells": 52521,
+      "discordant": 114,
+      "equal_line": 0.9978979275461091
+    }
+  ],
+  "identical_wells_filter_sensitivity": {
+    "eligible_treated_under_both": 58201,
+    "uncensored_misses": 790,
+    "conditional_filtered_misses": 167
+  },
+  "cells_removed_by_retrospective_filter": 1384481
+}

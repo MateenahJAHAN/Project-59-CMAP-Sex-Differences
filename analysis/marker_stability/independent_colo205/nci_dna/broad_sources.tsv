@@ -1,0 +1,8 @@
+file	url	sha256
+snp6.tar.gz	https://bioconductor.org/packages/3.23/data/annotation/src/contrib/pd.genomewidesnp.6_3.14.1.tar.gz	843bb8b35114f8721e234e1a29e547ad05cf783ef1a4ac7361b4ab8312b765b8
+GSM888007.CEL.gz	https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM888nnn/GSM888007/suppl/GSM888007.CEL.gz	822339ad2465948e9877a31f5e50c65b0d0ba7f6f1be45359ecb98cd93916372
+GSM888007.brief.txt	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM888007&targ=self&form=text&view=brief	2f877e856493616f980fc337ccc8d70700446489afe3da5c813b83d3408c4e30
+GSM888133.CEL.gz	https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM888nnn/GSM888133/suppl/GSM888133.CEL.gz	fb39a710a5e571e001295926a7793df6dd1b03996b154dd93d489100d40def08
+GSM888133.brief.txt	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM888133&targ=self&form=text&view=brief	68ccf9d99b4a0e2ef41c2a9627ff294b89c34cc00d077041a02f5d60f037929c
+GSM888212.CEL.gz	https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM888nnn/GSM888212/suppl/GSM888212.CEL.gz	4166259d722af374708d42ac2d2a35e8bc17b016105a56ab85769c0f2cd4df8c
+GSM888212.brief.txt	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM888212&targ=self&form=text&view=brief	96597e41b45d9a761c7a51b9948118f5f833d96f82229274813165b0607b5a47

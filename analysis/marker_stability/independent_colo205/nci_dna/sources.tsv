@@ -1,0 +1,6 @@
+file	url	size	sha256
+GSE79185.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE79nnn/GSE79185/suppl/GSE79185_NCI60_raw_int.txt.gz	140140060	f4855b35f037cc5fabfef3b783d04b7e14e9a3c77ba86febcdbeb89ae9bc8463
+GSE86078.gz	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE86nnn/GSE86078/suppl/GSE86078_non_normalized.txt.gz	325750066	7024889d0cc515f9eae1e75683165307c12c484a08eef846638640e8b123463d
+manifest.gz	https://zhouserver.research.chop.edu/InfiniumAnnotation/HM450/HM450.hg38.manifest.tsv.gz	28881309	668a11ea624b3e645aab963dca048bdd4628ae5d297732867c91525c831cf191
+bands.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz	12118	e514e48b0a12a516fd5231b44241a20a282f290bdd6131cadcddc6276ee26082
+cellminer.html	https://discover.nci.nih.gov/cellminer/celllineMetadata.do	820217	763d24fa13e76971bad35ffcb85726c025e31acc13aa0c573351397b7f15bded

@@ -18,7 +18,7 @@ The panel covered 36,523 signatures from 135 cell lines across 20 lineages. Comp
 
 The first count uses drug–lineage–tissue comparisons. Each signature inherits the best category of its drug–lineage pair across tissues, in order A, B, C, D. Seventeen compounds reached A or B, including six that reached A. Category D includes lineages with no mapped GTEx tissue, pairs with too few signatures or ranked genes, and gene sets that did not yield GSEA results. [Category totals](results/category_totals.csv) · [Per-compound counts](results/signature_ABCD_per_drug.csv) · [Untested comparison reasons](results/category_D_skip_reasons.csv)
 
-The table above gives the recorded run. A replay using GSEApy 1.3.2 returned 718 B and 5,375 C comparisons, with the A and D totals unchanged. The counts of compounds reaching A or B and reaching A were the same.
+The table above gives the recorded run. A replay using GSEApy 1.3.2 returned 718 B and 5,375 C comparisons, with the A and D totals unchanged. Nine comparisons changed category, five from C to B and four from B to C. All A and D labels and the counts of compounds reaching any enrichment or own-tissue enrichment agreed. [Nine changed comparisons](results/replay_category_changes.csv)
 
 [![Phase 6 signature counts by compound on linear and logarithmic axes.](figures/01_signatures_per_drug_linear_log.png)](figures/01_signatures_per_drug_linear_log.png)
 

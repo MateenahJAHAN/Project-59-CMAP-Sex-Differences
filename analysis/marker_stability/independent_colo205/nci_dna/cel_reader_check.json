@@ -1,0 +1,8 @@
+{
+  "reader": "Bio.Affy.CelFile, Biopython 1.88",
+  "exactly_equal_intensities": {
+    "GSM888007": 6892960,
+    "GSM888133": 6892960,
+    "GSM888212": 6892960
+  }
+}

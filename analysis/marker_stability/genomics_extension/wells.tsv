@@ -1,0 +1,193 @@
+sample	plate	mean_gene_count	mean_tscp_count	mean_mread_count	mean_pcnt_mito	drug	drugname_drugconc	micromolar	condition
+smp_2743	plate14	1462.6128568895194	2289.615463734705	2667.451409824437	0.025998242	8-Hydroxyquinoline	[('8-Hydroxyquinoline', 5.0, 'uM')]	5.0	8-Hydroxyquinoline | 5.0
+smp_2744	plate14	1414.5008661623401	2226.2627400640586	2596.529605304154	0.03677453	Chlorhexidine (diacetate)	[('Chlorhexidine (diacetate)', 5.0, 'uM')]	5.0	Chlorhexidine (diacetate) | 5.0
+smp_2745	plate14	1399.1836627418	2228.9977046537706	2596.0779366414354	0.0555446	Trifluridine	[('Trifluridine', 5.0, 'uM')]	5.0	Trifluridine | 5.0
+smp_2746	plate14	1367.728454140994	2170.775620346446	2528.7251976088187	0.057751775	Berbamine	[('Berbamine', 5.0, 'uM')]	5.0	Berbamine | 5.0
+smp_2747	plate14	1651.464407702589	2813.463640413841	3281.9018365427455	0.060238566	Retinoic acid	[('Retinoic acid', 5.0, 'uM')]	5.0	Retinoic acid | 5.0
+smp_2748	plate14	1549.5885821231566	2581.0648992457504	3010.8483338962064	0.06799538	Cysteamine (hydrochloride)	[('Cysteamine (hydrochloride)', 5.0, 'uM')]	5.0	Cysteamine (hydrochloride) | 5.0
+smp_2749	plate14	1394.5764657319005	2225.8878280669514	2596.025646147086	0.04842282	Vinblastine (sulfate)	[('Vinblastine (sulfate)', 5.0, 'uM')]	5.0	Vinblastine (sulfate) | 5.0
+smp_2750	plate14	1461.2778436103536	2354.1289065288465	2746.083548677241	0.06637507	Pasireotide (acetate)	[('Pasireotide (acetate)', 5.0, 'uM')]	5.0	Pasireotide (acetate) | 5.0
+smp_2751	plate14	1429.8120506091445	2301.0870618105782	2682.424128955173	0.0690646	Riluzole hydrochloride	[('Riluzole hydrochloride', 5.0, 'uM')]	5.0	Riluzole hydrochloride | 5.0
+smp_2752	plate14	1288.1382121291679	1984.6039380414807	2312.400341296928	0.056526203	Palmatine (chloride)	[('Palmatine (chloride)', 5.0, 'uM')]	5.0	Palmatine (chloride) | 5.0
+smp_2753	plate14	1609.619028496409	2753.1029423121477	3209.665070661827	0.0776465	Isocorydine	[('Isocorydine', 5.0, 'uM')]	5.0	Isocorydine | 5.0
+smp_2754	plate14	1579.9255793917464	2597.932902558801	3029.976272938744	0.066798136	Raltitrexed	[('Raltitrexed', 5.0, 'uM')]	5.0	Raltitrexed | 5.0
+smp_2755	plate14	1612.3433709492488	2751.943781304689	3200.4300645706353	0.070707574	Furosemide	[('Furosemide', 5.0, 'uM')]	5.0	Furosemide | 5.0
+smp_2756	plate14	1643.4835914124617	2772.2889532596646	3227.877445195437	0.05447041	Clotrimazole	[('Clotrimazole', 5.0, 'uM')]	5.0	Clotrimazole | 5.0
+smp_2757	plate14	1481.8253300489885	2343.9211019161753	2728.742409565193	0.04429026	Sodium Salicylate	[('Sodium Salicylate', 5.0, 'uM')]	5.0	Sodium Salicylate | 5.0
+smp_2758	plate14	1390.6627219706952	2193.698876609736	2557.814816747779	0.034097698	Gallic acid (hydrate)	[('Gallic acid (hydrate)', 5.0, 'uM')]	5.0	Gallic acid (hydrate) | 5.0
+smp_2759	plate14	1565.1434176524976	2679.2867286218916	3123.4089163367394	0.0805551	(R)-Verapamil (hydrochloride)	[('(R)-Verapamil (hydrochloride)', 5.0, 'uM')]	5.0	(R)-Verapamil (hydrochloride) | 5.0
+smp_2760	plate14	1434.8766772219838	2317.8152506440533	2699.9762371189354	0.036890864	Pyridoxine	[('Pyridoxine', 5.0, 'uM')]	5.0	Pyridoxine | 5.0
+smp_2761	plate14	1621.0589426199438	2704.231205076294	3156.3165618163785	0.048873812	Acetohexamide	[('Acetohexamide', 5.0, 'uM')]	5.0	Acetohexamide | 5.0
+smp_2762	plate14	1391.1851856179671	2276.747753537667	2651.2058332067445	0.075937495	Temsirolimus	[('Temsirolimus', 5.0, 'uM')]	5.0	Temsirolimus | 5.0
+smp_2763	plate14	1590.8240256878423	2650.6449348359884	3089.632101408214	0.054181457	Megestrol	[('Megestrol', 5.0, 'uM')]	5.0	Megestrol | 5.0
+smp_2764	plate14	1305.772614654718	2026.8892857142857	2358.5040985767	0.034055017	Diammonium Glycyrrhizinate	[('Diammonium Glycyrrhizinate', 5.0, 'uM')]	5.0	Diammonium Glycyrrhizinate | 5.0
+smp_2765	plate14	1419.304157549234	2371.1969365426694	2769.080962800875	0.06372697	L-Thyroxine (sodium salt pentahydrate)	[('L-Thyroxine (sodium salt pentahydrate)', 5.0, 'uM')]	5.0	L-Thyroxine (sodium salt pentahydrate) | 5.0
+smp_2766	plate14	1388.5852223751267	2182.6972341101214	2545.3487077895566	0.050989643	Ropivacaine (hydrochloride monohydrate)	[('Ropivacaine (hydrochloride monohydrate)', 5.0, 'uM')]	5.0	Ropivacaine (hydrochloride monohydrate) | 5.0
+smp_2767	plate14	1723.6419789158738	2977.3716252542017	3471.9079381033634	0.062148243	Salicylic acid	[('Salicylic acid', 5.0, 'uM')]	5.0	Salicylic acid | 5.0
+smp_2768	plate14	1574.926525598176	2642.4182806171007	3075.9088846588015	0.06750927	Quinestrol	[('Quinestrol', 5.0, 'uM')]	5.0	Quinestrol | 5.0
+smp_2769	plate14	1413.5626144688645	2253.4192503924646	2626.2255200156987	0.047990296	Tofacitinib	[('Tofacitinib', 5.0, 'uM')]	5.0	Tofacitinib | 5.0
+smp_2770	plate14	1312.4026818847115	2098.634914768107	2444.6252901432604	0.06749436	Trimetrexate	[('Trimetrexate', 5.0, 'uM')]	5.0	Trimetrexate | 5.0
+smp_2771	plate14	1197.5551762741104	1792.566123437758	2073.081897263668	0.054882698	Gemfibrozil	[('Gemfibrozil', 5.0, 'uM')]	5.0	Gemfibrozil | 5.0
+smp_2772	plate14	1340.801759106243	2112.501195045002	2459.5317745393954	0.051657222	18β-Glycyrrhetinic acid	[('18β-Glycyrrhetinic acid', 5.0, 'uM')]	5.0	18β-Glycyrrhetinic acid | 5.0
+smp_2773	plate14	1496.1899582648286	2448.4431797422817	2856.6367634866433	0.058837146	Tolcapone	[('Tolcapone', 5.0, 'uM')]	5.0	Tolcapone | 5.0
+smp_2774	plate14	1368.7155323114264	2212.474897785226	2576.823887195342	0.073244475	Terfenadine	[('Terfenadine', 5.0, 'uM')]	5.0	Terfenadine | 5.0
+smp_2775	plate14	1602.6234854996526	2710.2295564530373	3157.114436764827	0.06484188	Aliskiren	[('Aliskiren', 5.0, 'uM')]	5.0	Aliskiren | 5.0
+smp_2776	plate14	1532.9665310937937	2596.7793318637646	3031.5213760129154	0.08187653	Fluvoxamine (maleate)	[('Fluvoxamine (maleate)', 5.0, 'uM')]	5.0	Fluvoxamine (maleate) | 5.0
+smp_2777	plate14	1436.5328510358436	2377.5382308451167	2772.7146596514303	0.09220153	S-Adenosyl-L-methionine (disulfate tosylate)	[('S-Adenosyl-L-methionine (disulfate tosylate)', 5.0, 'uM')]	5.0	S-Adenosyl-L-methionine (disulfate tosylate) | 5.0
+smp_2778	plate14	1363.164266414837	2084.0944099053017	2428.2858791742083	0.10371683	Idarubicin (hydrochloride)	[('Idarubicin (hydrochloride)', 5.0, 'uM')]	5.0	Idarubicin (hydrochloride) | 5.0
+smp_2779	plate14	1361.865076449791	2165.6958078883326	2521.508241884384	0.06051335	Elagolix sodium	[('Elagolix sodium', 5.0, 'uM')]	5.0	Elagolix sodium | 5.0
+smp_2780	plate14	1160.8881828667295	1730.2260039844814	2012.3655866624724	0.047249626	Resveratrol	[('Resveratrol', 5.0, 'uM')]	5.0	Resveratrol | 5.0
+smp_2781	plate14	1653.3146750872527	2766.319378427788	3229.2143759348514	0.04525984	Rapamycin	[('Rapamycin', 5.0, 'uM')]	5.0	Rapamycin | 5.0
+smp_2782	plate14	1175.426746549695	1758.5222210334866	2048.1958703327273	0.04965976	Saquinavir	[('Saquinavir', 5.0, 'uM')]	5.0	Saquinavir | 5.0
+smp_2783	plate14	1580.9916094868736	2652.612383154336	3090.1853495425617	0.062135678	Tofacitinib (citrate)	[('Tofacitinib (citrate)', 5.0, 'uM')]	5.0	Tofacitinib (citrate) | 5.0
+smp_2784	plate14	1286.267087291527	1989.0376853289276	2317.24588039252	0.052735843	Thymol	[('Thymol', 5.0, 'uM')]	5.0	Thymol | 5.0
+smp_2785	plate14	1412.0612932992617	2230.9634085746734	2599.9793973594547	0.035857614	Almonertinib (hydrochloride)	[('Almonertinib (hydrochloride)', 5.0, 'uM')]	5.0	Almonertinib (hydrochloride) | 5.0
+smp_2786	plate14	1474.5009184170738	2439.3453498106937	2845.7206137775056	0.07767348	Darinaparsin	[('Darinaparsin', 5.0, 'uM')]	5.0	Darinaparsin | 5.0
+smp_2787	plate14	1276.834357792291	2037.9775643488283	2373.6517992060444	0.088186644	Vilanterol	[('Vilanterol', 5.0, 'uM')]	5.0	Vilanterol | 5.0
+smp_2788	plate14	1255.7026272801525	1966.700500272257	2290.324377212088	0.07558332	Lenalidomide (hemihydrate)	[('Lenalidomide (hemihydrate)', 5.0, 'uM')]	5.0	Lenalidomide (hemihydrate) | 5.0
+smp_2789	plate14	1340.3039393858407	2137.204439158671	2490.5330732020207	0.07639501	Azithromycin (hydrate)	[('Azithromycin (hydrate)', 5.0, 'uM')]	5.0	Azithromycin (hydrate) | 5.0
+smp_2790	plate14	1380.4353432592527	2205.2705904612203	2570.212010071461	0.06370811	Ritonavir	[('Ritonavir', 5.0, 'uM')]	5.0	Ritonavir | 5.0
+smp_2791	plate14	1594.85091930723	2655.473606221179	3097.02547506431	0.041536946	Pentamidine (isethionate)	[('Pentamidine (isethionate)', 5.0, 'uM')]	5.0	Pentamidine (isethionate) | 5.0
+smp_2792	plate14	1758.2134948096887	3159.3075289344947	3687.8133158334326	0.087179534	Adenosine	[('Adenosine', 5.0, 'uM')]	5.0	Adenosine | 5.0
+smp_2793	plate14	1469.9224836097185	2433.783972232935	2839.027659082144	0.08105322	Sulfisoxazole	[('Sulfisoxazole', 5.0, 'uM')]	5.0	Sulfisoxazole | 5.0
+smp_2794	plate14	1421.2024301441904	2278.673953246453	2659.0065738145463	0.05928431	Norepinephrine (hydrochloride)	[('Norepinephrine (hydrochloride)', 5.0, 'uM')]	5.0	Norepinephrine (hydrochloride) | 5.0
+smp_2795	plate14	1252.2483702283423	1904.6984486665506	2219.703869618267	0.043844666	Ciclopirox	[('Ciclopirox', 5.0, 'uM')]	5.0	Ciclopirox | 5.0
+smp_2796	plate14	1257.0553940098866	1916.707545798197	2237.8995347484733	0.06427286	Lidocaine (hydrochloride)	[('Lidocaine (hydrochloride)', 5.0, 'uM')]	5.0	Lidocaine (hydrochloride) | 5.0
+smp_2797	plate14	1641.9690368073752	2795.359815071406	3255.5127652861042	0.060069848	Demeclocycline	[('Demeclocycline', 5.0, 'uM')]	5.0	Demeclocycline | 5.0
+smp_2798	plate14	1718.2274585036282	2974.167820502127	3467.062765868713	0.061040252	Mitoxantrone (dihydrochloride)	[('Mitoxantrone (dihydrochloride)', 5.0, 'uM')]	5.0	Mitoxantrone (dihydrochloride) | 5.0
+smp_2799	plate14	1669.630839247146	2852.196605985807	3329.9329219376737	0.07060897	Larotrectinib	[('Larotrectinib', 5.0, 'uM')]	5.0	Larotrectinib | 5.0
+smp_2800	plate14	1241.7581083529624	1915.7068309476354	2227.2878156451266	0.044252988	Busulfan	[('Busulfan', 5.0, 'uM')]	5.0	Busulfan | 5.0
+smp_2801	plate14	1491.8146160534754	2501.6546926797455	2915.2350415738274	0.0833111	Cepharanthine	[('Cepharanthine', 5.0, 'uM')]	5.0	Cepharanthine | 5.0
+smp_2802	plate14	1390.4443052526087	2162.706331427224	2519.517980310087	0.065510586	Radotinib	[('Radotinib', 5.0, 'uM')]	5.0	Radotinib | 5.0
+smp_2803	plate14	1842.0822895724255	3247.1845118424308	3780.9300742906908	0.06169965	Docetaxel	[('Docetaxel', 5.0, 'uM')]	5.0	Docetaxel | 5.0
+smp_2804	plate14	1436.5023271886912	2315.9092774376086	2700.2958715348645	0.0542954	Triclosan	[('Triclosan', 5.0, 'uM')]	5.0	Triclosan | 5.0
+smp_2805	plate14	1598.5699177868312	2703.7052401746723	3151.963613964041	0.06889851	Tucidinostat	[('Tucidinostat', 5.0, 'uM')]	5.0	Tucidinostat | 5.0
+smp_2806	plate14	1453.288413115566	2450.950465759456	2856.9229329774207	0.091285296	Bergenin	[('Bergenin', 5.0, 'uM')]	5.0	Bergenin | 5.0
+smp_2807	plate14	1259.5846823522718	2011.041366752966	2344.822953711343	0.09941436	Allantoin	[('Allantoin', 5.0, 'uM')]	5.0	Allantoin | 5.0
+smp_2808	plate14	1708.1273676815608	2925.7426799040336	3412.830971726999	0.06740984	Bimatoprost	[('Bimatoprost', 5.0, 'uM')]	5.0	Bimatoprost | 5.0
+smp_2809	plate14	1512.058688871337	2456.4703008072397	2867.319053802594	0.067496076	Triamcinolone	[('Triamcinolone', 5.0, 'uM')]	5.0	Triamcinolone | 5.0
+smp_2810	plate14	1652.3269823479966	2797.827729522742	3261.608682793188	0.06657942	Olanzapine	[('Olanzapine', 5.0, 'uM')]	5.0	Olanzapine | 5.0
+smp_2811	plate14	1696.693008074214	2949.602661210976	3439.3856725648516	0.0734884	Rimonabant	[('Rimonabant', 5.0, 'uM')]	5.0	Rimonabant | 5.0
+smp_2812	plate14	1626.6262157513936	2730.0251601233545	3181.324057051358	0.06138014	Pentagastrin	[('Pentagastrin', 5.0, 'uM')]	5.0	Pentagastrin | 5.0
+smp_2813	plate14	1492.3856439445274	2488.0318621915044	2899.860459863577	0.07349795	Lumateperone (tosylate)	[('Lumateperone (tosylate)', 5.0, 'uM')]	5.0	Lumateperone (tosylate) | 5.0
+smp_2814	plate14	1548.045513102751	2580.8123379482413	3008.6883714104006	0.06233023	Relugolix	[('Relugolix', 5.0, 'uM')]	5.0	Relugolix | 5.0
+smp_2815	plate14	1379.03649721531	2421.265265011088	2821.47023174716	0.06297088	Homoharringtonine	[('Homoharringtonine', 5.0, 'uM')]	5.0	Homoharringtonine | 5.0
+smp_2816	plate14	1663.1600716070564	2884.0820746155473	3367.060617362225	0.10095553	Hexylresorcinol	[('Hexylresorcinol', 5.0, 'uM')]	5.0	Hexylresorcinol | 5.0
+smp_2817	plate14	1573.2091227745093	2588.525377928074	3020.1647596547305	0.0505648	Baicalin	[('Baicalin', 5.0, 'uM')]	5.0	Baicalin | 5.0
+smp_2818	plate14	1494.138353115727	2437.858237274595	2841.135000570646	0.04796627	Berberine (chloride hydrate)	[('Berberine (chloride hydrate)', 5.0, 'uM')]	5.0	Berberine (chloride hydrate) | 5.0
+smp_2819	plate14	1144.430744960561	1731.3550219106048	2020.4664855390008	0.070584744	Medroxyprogesterone acetate	[('Medroxyprogesterone acetate', 5.0, 'uM')]	5.0	Medroxyprogesterone acetate | 5.0
+smp_2820	plate14	1363.4530102386577	2123.6311702108173	2476.0526585709836	0.044368625	Neratinib (maleate)	[('Neratinib (maleate)', 5.0, 'uM')]	5.0	Neratinib (maleate) | 5.0
+smp_2821	plate14	1468.4546399081314	2380.4257487103773	2770.3071945462166	0.061727803	Sinomenine	[('Sinomenine', 5.0, 'uM')]	5.0	Sinomenine | 5.0
+smp_2822	plate14	1676.3046989847978	2915.510593037132	3402.3125680980957	0.08381047	Goserelin (acetate)	[('Goserelin (acetate)', 5.0, 'uM')]	5.0	Goserelin (acetate) | 5.0
+smp_2823	plate14	1520.0412023296187	2546.1632693061542	2968.3533768270145	0.07690768	Fusidic acid	[('Fusidic acid', 5.0, 'uM')]	5.0	Fusidic acid | 5.0
+smp_2824	plate14	1737.9672345241895	3021.678135066895	3526.5606843311953	0.06351964	Balsalazide (sodium hydrate)	[('Balsalazide (sodium hydrate)', 5.0, 'uM')]	5.0	Balsalazide (sodium hydrate) | 5.0
+smp_2825	plate14	1417.3745279351328	2269.897298122848	2646.73771242919	0.06120892	Cloxacillin (sodium)	[('Cloxacillin (sodium)', 5.0, 'uM')]	5.0	Cloxacillin (sodium) | 5.0
+smp_2826	plate14	1283.4101007173392	1998.6096079994204	2332.8076371277443	0.062067527	Artesunate	[('Artesunate', 5.0, 'uM')]	5.0	Artesunate | 5.0
+smp_2827	plate14	1559.5696179659267	2618.37090862158	3052.5296334537943	0.07500426	Pyridoxine (hydrochloride)	[('Pyridoxine (hydrochloride)', 5.0, 'uM')]	5.0	Pyridoxine (hydrochloride) | 5.0
+smp_2828	plate14	1594.4681472467296	2742.527623973228	3198.7232735016732	0.07910434	Folic acid	[('Folic acid', 5.0, 'uM')]	5.0	Folic acid | 5.0
+smp_2829	plate14	1460.718930994539	2430.605411219593	2832.41593579348	0.08330337	Selinexor	[('Selinexor ', 5.0, 'uM')]	5.0	Selinexor | 5.0
+smp_2830	plate14	1570.718474317972	2604.928459507609	3042.6586962587735	0.052709535	Adenine	[('Adenine', 5.0, 'uM')]	5.0	Adenine | 5.0
+smp_2831	plate14	1537.1405249847387	2581.608633469957	3010.328054417023	0.074696355	Gallic acid	[('Gallic acid', 5.0, 'uM')]	5.0	Gallic acid | 5.0
+smp_2832	plate14	1684.6892565041026	2898.3441195512864	3380.1461622821507	0.06394919	Lipoic acid	[('Lipoic acid', 5.0, 'uM')]	5.0	Lipoic acid | 5.0
+smp_2833	plate14	1698.7474809264074	2805.517748211585	3273.743572751525	0.048052147	Amsacrine	[('Amsacrine', 5.0, 'uM')]	5.0	Amsacrine | 5.0
+smp_2834	plate14	1713.4999827258594	3003.5191742960787	3507.489998272586	0.08608451	Anethole trithione	[('Anethole trithione', 5.0, 'uM')]	5.0	Anethole trithione | 5.0
+smp_2835	plate14	1711.1578352813592	2996.2696559826486	3488.079633088324	0.07911465	Clonidine (hydrochloride)	[('Clonidine (hydrochloride)', 5.0, 'uM')]	5.0	Clonidine (hydrochloride) | 5.0
+smp_2836	plate14	1376.9007317161086	2251.751955448221	2627.752928666691	0.09355974	Adagrasib	[('Adagrasib', 0.05, 'uM')]	0.05	Adagrasib | 0.05
+smp_2837	plate14	1452.4397312355036	2428.1453336840345	2827.406350876354	0.0860809	DMSO_TF	[('DMSO_TF', 0.0, 'uM')]	0.0	DMSO_TF | 0.0
+smp_2838	plate14	1480.101863053472	2438.533614461996	2843.8641595520376	0.0716389	DMSO_TF	[('DMSO_TF', 0.0, 'uM')]	0.0	DMSO_TF | 0.0
+smp_1975	plate6	1608.797607959942	2575.4579456488664	3024.637422424684	0.018950801	8-Hydroxyquinoline	[('8-Hydroxyquinoline', 5.0, 'uM')]	5.0	8-Hydroxyquinoline | 5.0
+smp_1976	plate6	1577.4410145967936	2589.64265773311	3044.2128001116694	0.033793014	Chlorhexidine (diacetate)	[('Chlorhexidine (diacetate)', 5.0, 'uM')]	5.0	Chlorhexidine (diacetate) | 5.0
+smp_1977	plate6	1379.953353480871	2155.536407865671	2530.6872975646775	0.04372717	Trifluridine	[('Trifluridine', 5.0, 'uM')]	5.0	Trifluridine | 5.0
+smp_1978	plate6	1407.1328950097857	2235.716920551602	2623.843908114397	0.056068122	Berbamine	[('Berbamine', 5.0, 'uM')]	5.0	Berbamine | 5.0
+smp_1979	plate6	1747.8376123580385	2953.3009957478876	3471.6720383228376	0.030104961	Retinoic acid	[('Retinoic acid', 5.0, 'uM')]	5.0	Retinoic acid | 5.0
+smp_1980	plate6	1663.4801269457457	2796.237900483603	3285.6332741423607	0.05796052	Cysteamine (hydrochloride)	[('Cysteamine (hydrochloride)', 5.0, 'uM')]	5.0	Cysteamine (hydrochloride) | 5.0
+smp_1981	plate6	1581.3281024200608	2674.465958356231	3142.887769432741	0.031318262	Vinblastine (sulfate)	[('Vinblastine (sulfate)', 5.0, 'uM')]	5.0	Vinblastine (sulfate) | 5.0
+smp_1982	plate6	1847.756136744071	3278.386325592891	3855.97983440621	0.055573367	Pasireotide (acetate)	[('Pasireotide (acetate)', 5.0, 'uM')]	5.0	Pasireotide (acetate) | 5.0
+smp_1983	plate6	1721.9651445882678	2995.119283943817	3519.139036078215	0.057475034	Riluzole hydrochloride	[('Riluzole hydrochloride', 5.0, 'uM')]	5.0	Riluzole hydrochloride | 5.0
+smp_1984	plate6	1472.5495328269042	2391.403110327723	2806.642483894617	0.03473159	Palmatine (chloride)	[('Palmatine (chloride)', 5.0, 'uM')]	5.0	Palmatine (chloride) | 5.0
+smp_1985	plate6	1964.5985235374426	3601.3390554684734	4229.155028568539	0.05683427	Isocorydine	[('Isocorydine', 5.0, 'uM')]	5.0	Isocorydine | 5.0
+smp_1986	plate6	1961.042107841803	3431.722257002096	4031.1713914368925	0.045303166	Raltitrexed	[('Raltitrexed', 5.0, 'uM')]	5.0	Raltitrexed | 5.0
+smp_1987	plate6	1554.3705092431112	2566.988350191838	3003.2190094175094	0.043013047	Furosemide	[('Furosemide', 5.0, 'uM')]	5.0	Furosemide | 5.0
+smp_1988	plate6	1681.211323961616	2886.927693778549	3387.6020856201976	0.046911106	Clotrimazole	[('Clotrimazole', 5.0, 'uM')]	5.0	Clotrimazole | 5.0
+smp_1989	plate6	1591.7121802411057	2650.8853645986474	3106.7450749779478	0.0311879	Sodium Salicylate	[('Sodium Salicylate', 5.0, 'uM')]	5.0	Sodium Salicylate | 5.0
+smp_1990	plate6	1536.0893532305015	2611.3001974102453	3071.5682905611134	0.058210965	Gallic acid (hydrate)	[('Gallic acid (hydrate)', 5.0, 'uM')]	5.0	Gallic acid (hydrate) | 5.0
+smp_1991	plate6	1569.725808600041	2670.201365931631	3135.0328162652427	0.06477908	(R)-Verapamil (hydrochloride)	[('(R)-Verapamil (hydrochloride)', 5.0, 'uM')]	5.0	(R)-Verapamil (hydrochloride) | 5.0
+smp_1992	plate6	1591.0230380730382	2709.5479603729605	3178.152758352758	0.039792713	Pyridoxine	[('Pyridoxine', 5.0, 'uM')]	5.0	Pyridoxine | 5.0
+smp_1993	plate6	1687.006565958033	2899.2455117314844	3410.659190045457	0.04504654	Acetohexamide	[('Acetohexamide', 5.0, 'uM')]	5.0	Acetohexamide | 5.0
+smp_1994	plate6	1472.4870187001104	2478.8119591125046	2907.3107353670434	0.057143826	Temsirolimus	[('Temsirolimus', 5.0, 'uM')]	5.0	Temsirolimus | 5.0
+smp_1995	plate6	1802.294961081524	3166.7456138788452	3717.5787364408743	0.047592293	Megestrol	[('Megestrol', 5.0, 'uM')]	5.0	Megestrol | 5.0
+smp_1996	plate6	1613.5145444881027	2748.0267751988076	3223.1567740523415	0.03533312	Diammonium Glycyrrhizinate	[('Diammonium Glycyrrhizinate', 5.0, 'uM')]	5.0	Diammonium Glycyrrhizinate | 5.0
+smp_1997	plate6	1644.8567621920563	2791.5547913524383	3281.845007541478	0.0383087	L-Thyroxine (sodium salt pentahydrate)	[('L-Thyroxine (sodium salt pentahydrate)', 5.0, 'uM')]	5.0	L-Thyroxine (sodium salt pentahydrate) | 5.0
+smp_1998	plate6	1469.9525438913013	2379.717303935597	2794.178862496734	0.02947054	Ropivacaine (hydrochloride monohydrate)	[('Ropivacaine (hydrochloride monohydrate)', 5.0, 'uM')]	5.0	Ropivacaine (hydrochloride monohydrate) | 5.0
+smp_1999	plate6	1613.6453365798616	2706.656056062001	3179.649464025893	0.040217828	Salicylic acid	[('Salicylic acid', 5.0, 'uM')]	5.0	Salicylic acid | 5.0
+smp_2000	plate6	1568.6238879276664	2604.784662610928	3052.671094491265	0.047195308	Quinestrol	[('Quinestrol', 5.0, 'uM')]	5.0	Quinestrol | 5.0
+smp_2001	plate6	1351.269620743034	2092.7348168214653	2455.7059339525285	0.033188425	Tofacitinib	[('Tofacitinib', 5.0, 'uM')]	5.0	Tofacitinib | 5.0
+smp_2002	plate6	1290.3047979909238	2033.6669897636987	2385.7477346492196	0.054033823	Trimetrexate	[('Trimetrexate', 5.0, 'uM')]	5.0	Trimetrexate | 5.0
+smp_2003	plate6	1269.5367544608746	1947.9752011326352	2261.453256326127	0.039905127	Gemfibrozil	[('Gemfibrozil', 5.0, 'uM')]	5.0	Gemfibrozil | 5.0
+smp_2004	plate6	1267.336905358037	1998.2301952929395	2342.532023034552	0.049388662	18β-Glycyrrhetinic acid	[('18β-Glycyrrhetinic acid', 5.0, 'uM')]	5.0	18β-Glycyrrhetinic acid | 5.0
+smp_2005	plate6	1521.1679729048872	2482.8912836589598	2919.125912034186	0.046123363	Tolcapone	[('Tolcapone', 5.0, 'uM')]	5.0	Tolcapone | 5.0
+smp_2006	plate6	1389.8729350319575	2235.0674351834487	2621.376635743244	0.061510976	Terfenadine	[('Terfenadine', 5.0, 'uM')]	5.0	Terfenadine | 5.0
+smp_2007	plate6	1759.6815098741772	3080.262611449046	3610.1886509457545	0.042675212	Aliskiren	[('Aliskiren', 5.0, 'uM')]	5.0	Aliskiren | 5.0
+smp_2008	plate6	1577.0115826397964	2687.033606162735	3161.3756792076483	0.057707004	Fluvoxamine (maleate)	[('Fluvoxamine (maleate)', 5.0, 'uM')]	5.0	Fluvoxamine (maleate) | 5.0
+smp_2009	plate6	1593.7522339657478	2763.7471209951354	3247.513025055923	0.080414616	S-Adenosyl-L-methionine (disulfate tosylate)	[('S-Adenosyl-L-methionine (disulfate tosylate)', 5.0, 'uM')]	5.0	S-Adenosyl-L-methionine (disulfate tosylate) | 5.0
+smp_2010	plate6	1413.182877967691	2189.203124334001	2568.444269212736	0.09443029	Idarubicin (hydrochloride)	[('Idarubicin (hydrochloride)', 5.0, 'uM')]	5.0	Idarubicin (hydrochloride) | 5.0
+smp_2011	plate6	1486.8255154762473	2413.6801655264794	2828.5758383964026	0.040799093	Elagolix sodium	[('Elagolix sodium', 5.0, 'uM')]	5.0	Elagolix sodium | 5.0
+smp_2012	plate6	1395.809102710426	2225.045757499194	2606.148868695493	0.041784495	Resveratrol	[('Resveratrol', 5.0, 'uM')]	5.0	Resveratrol | 5.0
+smp_2013	plate6	1532.278170015456	2502.1507017001545	2945.0753013910357	0.03867649	Rapamycin	[('Rapamycin', 5.0, 'uM')]	5.0	Rapamycin | 5.0
+smp_2014	plate6	1181.3143010853294	1780.2230538922156	2089.5523250374254	0.039152946	Saquinavir	[('Saquinavir', 5.0, 'uM')]	5.0	Saquinavir | 5.0
+smp_2015	plate6	1590.4560241831007	2678.652979703469	3143.3805419605587	0.039054405	Tofacitinib (citrate)	[('Tofacitinib (citrate)', 5.0, 'uM')]	5.0	Tofacitinib (citrate) | 5.0
+smp_2016	plate6	1558.7825743335611	2639.47883202324	3099.7549128503074	0.055863917	Thymol	[('Thymol', 5.0, 'uM')]	5.0	Thymol | 5.0
+smp_2017	plate6	1567.9084341242728	2656.995268211615	3121.9879050872496	0.031945694	Almonertinib (hydrochloride)	[('Almonertinib (hydrochloride)', 5.0, 'uM')]	5.0	Almonertinib (hydrochloride) | 5.0
+smp_2018	plate6	1710.1917430733004	2992.769126709755	3518.565534345408	0.054725163	Darinaparsin	[('Darinaparsin', 5.0, 'uM')]	5.0	Darinaparsin | 5.0
+smp_2019	plate6	1465.260977921303	2398.4475938081364	2811.253747060269	0.054135382	Vilanterol	[('Vilanterol', 5.0, 'uM')]	5.0	Vilanterol | 5.0
+smp_2020	plate6	1359.2129024503838	2195.2744099397546	2573.537131353195	0.060741495	Lenalidomide (hemihydrate)	[('Lenalidomide (hemihydrate)', 5.0, 'uM')]	5.0	Lenalidomide (hemihydrate) | 5.0
+smp_2021	plate6	1383.7056667549023	2266.883793854737	2661.410702286657	0.051903673	Azithromycin (hydrate)	[('Azithromycin (hydrate)', 5.0, 'uM')]	5.0	Azithromycin (hydrate) | 5.0
+smp_2022	plate6	1300.6510093228121	2018.7266034769887	2369.6918335901387	0.031097986	Ritonavir	[('Ritonavir', 5.0, 'uM')]	5.0	Ritonavir | 5.0
+smp_2023	plate6	1400.1464664343873	2246.3184401259527	2639.711166179128	0.025422756	Pentamidine (isethionate)	[('Pentamidine (isethionate)', 5.0, 'uM')]	5.0	Pentamidine (isethionate) | 5.0
+smp_2024	plate6	1513.129750099167	2540.515569218564	2987.9933756445853	0.060119607	Adenosine	[('Adenosine', 5.0, 'uM')]	5.0	Adenosine | 5.0
+smp_2025	plate6	1403.6970341818571	2308.4712385235152	2714.187852993924	0.079280004	Sulfisoxazole	[('Sulfisoxazole', 5.0, 'uM')]	5.0	Sulfisoxazole | 5.0
+smp_2026	plate6	1355.3199384141647	2143.0327431357455	2520.808433837995	0.042773616	Norepinephrine (hydrochloride)	[('Norepinephrine (hydrochloride)', 5.0, 'uM')]	5.0	Norepinephrine (hydrochloride) | 5.0
+smp_2027	plate6	1311.0677956534012	2060.3744284504655	2420.7592247624425	0.03728332	Ciclopirox	[('Ciclopirox', 5.0, 'uM')]	5.0	Ciclopirox | 5.0
+smp_2028	plate6	1205.8690605639144	1823.7861423694526	2147.229864711089	0.042976867	Lidocaine (hydrochloride)	[('Lidocaine (hydrochloride)', 5.0, 'uM')]	5.0	Lidocaine (hydrochloride) | 5.0
+smp_2029	plate6	1838.8935836513026	3357.3645684589997	3937.945715021419	0.041055884	Demeclocycline	[('Demeclocycline', 5.0, 'uM')]	5.0	Demeclocycline | 5.0
+smp_2030	plate6	1550.1132313176008	2581.984021632252	3032.4752642576204	0.046120152	Mitoxantrone (dihydrochloride)	[('Mitoxantrone (dihydrochloride)', 5.0, 'uM')]	5.0	Mitoxantrone (dihydrochloride) | 5.0
+smp_2031	plate6	1843.8660617844027	3451.050810110175	4062.2306329660832	0.060241833	Larotrectinib	[('Larotrectinib', 5.0, 'uM')]	5.0	Larotrectinib | 5.0
+smp_2032	plate6	1522.2157430160373	2590.3178026383857	3035.010653776513	0.02741139	Busulfan	[('Busulfan', 5.0, 'uM')]	5.0	Busulfan | 5.0
+smp_2033	plate6	1710.5319052419354	3126.8417842741937	3670.603629032258	0.052275185	Cepharanthine	[('Cepharanthine', 5.0, 'uM')]	5.0	Cepharanthine | 5.0
+smp_2034	plate6	1445.4184989843554	2325.0071986030434	2727.0983393321694	0.040503137	Radotinib	[('Radotinib', 5.0, 'uM')]	5.0	Radotinib | 5.0
+smp_2035	plate6	1654.4076692420495	2810.0478014401715	3294.4303661712884	0.035465304	Docetaxel	[('Docetaxel', 5.0, 'uM')]	5.0	Docetaxel | 5.0
+smp_2036	plate6	1409.3614984537533	2266.546766938431	2661.1594742760753	0.038918015	Triclosan	[('Triclosan', 5.0, 'uM')]	5.0	Triclosan | 5.0
+smp_2037	plate6	1367.563071325475	2174.788429155641	2552.901401250902	0.042256836	Tucidinostat	[('Tucidinostat', 5.0, 'uM')]	5.0	Tucidinostat | 5.0
+smp_2038	plate6	1407.1471614158263	2287.3319321154663	2686.048889832972	0.058700435	Bergenin	[('Bergenin', 5.0, 'uM')]	5.0	Bergenin | 5.0
+smp_2039	plate6	1348.229253706021	2167.232106122622	2543.036466396624	0.078739375	Allantoin	[('Allantoin', 5.0, 'uM')]	5.0	Allantoin | 5.0
+smp_2040	plate6	1747.6272853264481	3039.222258082889	3571.517361836235	0.03665964	Bimatoprost	[('Bimatoprost', 5.0, 'uM')]	5.0	Bimatoprost | 5.0
+smp_2041	plate6	1650.0445945682097	2826.966827420583	3325.2274635374974	0.04464314	Triamcinolone	[('Triamcinolone', 5.0, 'uM')]	5.0	Triamcinolone | 5.0
+smp_2042	plate6	1767.5398224364053	3126.918042595857	3671.6991768682183	0.048362106	Olanzapine	[('Olanzapine', 5.0, 'uM')]	5.0	Olanzapine | 5.0
+smp_2043	plate6	1915.9983247141088	3564.523373880108	4187.552451016098	0.056572724	Rimonabant	[('Rimonabant', 5.0, 'uM')]	5.0	Rimonabant | 5.0
+smp_2044	plate6	2155.888048305524	4058.182658765183	4765.78069180011	0.049133595	Pentagastrin	[('Pentagastrin', 5.0, 'uM')]	5.0	Pentagastrin | 5.0
+smp_2045	plate6	1888.1193356593951	3401.287377311116	3989.580439343051	0.054924324	Lumateperone (tosylate)	[('Lumateperone (tosylate)', 5.0, 'uM')]	5.0	Lumateperone (tosylate) | 5.0
+smp_2046	plate6	2072.7782656955123	3839.0202062757744	4508.214329117616	0.049868643	Relugolix	[('Relugolix', 5.0, 'uM')]	5.0	Relugolix | 5.0
+smp_2047	plate6	1299.3103123232577	2210.9841429439243	2594.2360753262533	0.031077633	Homoharringtonine	[('Homoharringtonine', 5.0, 'uM')]	5.0	Homoharringtonine | 5.0
+smp_2048	plate6	1759.1122139206989	3062.4118951646906	3602.4418734083283	0.084802315	Hexylresorcinol	[('Hexylresorcinol', 5.0, 'uM')]	5.0	Hexylresorcinol | 5.0
+smp_2049	plate6	1716.7807012134015	2842.8084305955995	3340.7511525000386	0.03587454	Baicalin	[('Baicalin', 5.0, 'uM')]	5.0	Baicalin | 5.0
+smp_2050	plate6	1814.474573253951	3107.418590238081	3646.2697153707695	0.03327977	Berberine (chloride hydrate)	[('Berberine (chloride hydrate)', 5.0, 'uM')]	5.0	Berberine (chloride hydrate) | 5.0
+smp_2051	plate6	1273.9291537267081	1986.3929484837413	2335.371483375959	0.07571798	Medroxyprogesterone acetate	[('Medroxyprogesterone acetate', 5.0, 'uM')]	5.0	Medroxyprogesterone acetate | 5.0
+smp_2052	plate6	1767.3089758944145	2987.581041869288	3510.1438216877928	0.048310235	Neratinib (maleate)	[('Neratinib (maleate)', 5.0, 'uM')]	5.0	Neratinib (maleate) | 5.0
+smp_2053	plate6	1700.1299524362096	2882.9533288277376	3378.3546116473904	0.0445934	Sinomenine	[('Sinomenine', 5.0, 'uM')]	5.0	Sinomenine | 5.0
+smp_2054	plate6	2035.670580687641	3802.478849936267	4472.296016477719	0.06456117	Goserelin (acetate)	[('Goserelin (acetate)', 5.0, 'uM')]	5.0	Goserelin (acetate) | 5.0
+smp_2055	plate6	1750.7615401835683	3043.5049697783747	3571.9310723080366	0.059185565	Fusidic acid	[('Fusidic acid', 5.0, 'uM')]	5.0	Fusidic acid | 5.0
+smp_2056	plate6	2058.9262859189985	3803.5795780224753	4471.823110717249	0.04745639	Balsalazide (sodium hydrate)	[('Balsalazide (sodium hydrate)', 5.0, 'uM')]	5.0	Balsalazide (sodium hydrate) | 5.0
+smp_2057	plate6	1723.0234979003965	2957.8356422432403	3470.701797417684	0.04552173	Cloxacillin (sodium)	[('Cloxacillin (sodium)', 5.0, 'uM')]	5.0	Cloxacillin (sodium) | 5.0
+smp_2058	plate6	1579.7747185511503	2609.644850010489	3068.2861950213273	0.041497726	Artesunate	[('Artesunate', 5.0, 'uM')]	5.0	Artesunate | 5.0
+smp_2059	plate6	1971.2568203743006	3525.81737410766	4142.799344009261	0.054120343	Pyridoxine (hydrochloride)	[('Pyridoxine (hydrochloride)', 5.0, 'uM')]	5.0	Pyridoxine (hydrochloride) | 5.0
+smp_2060	plate6	2094.526583788247	3913.2439928437084	4596.484490114225	0.059899934	Folic acid	[('Folic acid', 5.0, 'uM')]	5.0	Folic acid | 5.0
+smp_2061	plate6	1617.903908903987	2687.8604617378865	3152.263934829251	0.059065253	Selinexor	[('Selinexor ', 5.0, 'uM')]	5.0	Selinexor | 5.0
+smp_2062	plate6	1972.7511831924076	3510.2022904267837	4132.994215503785	0.039113514	Adenine	[('Adenine', 5.0, 'uM')]	5.0	Adenine | 5.0
+smp_2063	plate6	1880.3954181604279	3346.257581418272	3931.574709263042	0.061483245	Gallic acid	[('Gallic acid', 5.0, 'uM')]	5.0	Gallic acid | 5.0
+smp_2064	plate6	1674.929588616807	2844.371269547397	3340.6922369325	0.045449257	Lipoic acid	[('Lipoic acid', 5.0, 'uM')]	5.0	Lipoic acid | 5.0
+smp_2065	plate6	1793.5925618238023	2957.2387364760434	3476.73156877898	0.03721343	Amsacrine	[('Amsacrine', 5.0, 'uM')]	5.0	Amsacrine | 5.0
+smp_2066	plate6	2229.688468499412	4309.006684544962	5070.239969879916	0.070690945	Anethole trithione	[('Anethole trithione', 5.0, 'uM')]	5.0	Anethole trithione | 5.0
+smp_2067	plate6	2192.95801365873	4167.229186549497	4879.412736579864	0.06252228	Clonidine (hydrochloride)	[('Clonidine (hydrochloride)', 5.0, 'uM')]	5.0	Clonidine (hydrochloride) | 5.0
+smp_2068	plate6	1746.3855364344581	3056.808763975518	3593.5785593213263	0.0631584	Adagrasib	[('Adagrasib', 0.05, 'uM')]	0.05	Adagrasib | 0.05
+smp_2069	plate6	1430.102857656183	2317.330831345384	2714.9497439787597	0.057178773	DMSO_TF	[('DMSO_TF', 0.0, 'uM')]	0.0	DMSO_TF | 0.0
+smp_2070	plate6	1813.522004068199	3179.1881760325455	3734.290308781548	0.05911275	DMSO_TF	[('DMSO_TF', 0.0, 'uM')]	0.0	DMSO_TF | 0.0

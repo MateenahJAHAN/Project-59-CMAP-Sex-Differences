@@ -1,0 +1,96 @@
+{
+  "conditions": [
+    {
+      "minimum_cells": 50,
+      "treated": false,
+      "lines": 48,
+      "line_wells": 1337,
+      "possible_line_wells": 1400,
+      "pooled": 0.994016454749439,
+      "joint_agreement": 0.9940476190476191,
+      "xist_agreement": 0.9992559523809524,
+      "y_agreement": 0.9947916666666666
+    },
+    {
+      "minimum_cells": 50,
+      "treated": true,
+      "lines": 49,
+      "line_wells": 61928,
+      "possible_line_wells": 65800,
+      "pooled": 0.9854669939284331,
+      "joint_agreement": 0.9755223206433917,
+      "xist_agreement": 0.9984585892478128,
+      "y_agreement": 0.97699644274059
+    },
+    {
+      "minimum_cells": 200,
+      "treated": false,
+      "lines": 47,
+      "line_wells": 1263,
+      "possible_line_wells": 1400,
+      "pooled": 0.9944576405384006,
+      "joint_agreement": 0.9946808510638298,
+      "xist_agreement": 1.0,
+      "y_agreement": 0.9946808510638298
+    },
+    {
+      "minimum_cells": 200,
+      "treated": true,
+      "lines": 48,
+      "line_wells": 58259,
+      "possible_line_wells": 65800,
+      "pooled": 0.9864055339089239,
+      "joint_agreement": 0.9871083661908449,
+      "xist_agreement": 0.9999121215343855,
+      "y_agreement": 0.9871778892966944
+    },
+    {
+      "minimum_cells": 500,
+      "treated": false,
+      "lines": 45,
+      "line_wells": 1178,
+      "possible_line_wells": 1400,
+      "pooled": 0.9940577249575552,
+      "joint_agreement": 0.9937777777777778,
+      "xist_agreement": 1.0,
+      "y_agreement": 0.9937777777777778
+    },
+    {
+      "minimum_cells": 500,
+      "treated": true,
+      "lines": 47,
+      "line_wells": 52951,
+      "possible_line_wells": 65800,
+      "pooled": 0.9866669184717947,
+      "joint_agreement": 0.9871885998334586,
+      "xist_agreement": 1.0,
+      "y_agreement": 0.9871885998334586
+    }
+  ],
+  "archived_vehicle_pattern_agree": 50,
+  "total_lines": 50,
+  "equal_line_comparison": {
+    "lines": 47,
+    "vehicle": 0.9946808510638298,
+    "treated": 0.986834076109799,
+    "difference": -0.00784677495403071,
+    "interval": [
+      -0.023021376582662578,
+      -0.00011596733298233253
+    ]
+  },
+  "same_plate": {
+    "line_wells": 58188,
+    "joint_agreement": 0.9871083661908449,
+    "unmatched": 0.9900682933310999,
+    "matched": 0.9898406066280033
+  },
+  "replicate_plates": {
+    "pairs": 4142,
+    "drugdoses": 93,
+    "lines": 47,
+    "matching": 4104,
+    "same_new": 20,
+    "lines_same_new": 1
+  }
+}

@@ -1,0 +1,10 @@
+drug,lineage,tissue,archived_category,replay_category
+YM-155,soft_tissue,Artery_Coronary,C,B
+YM-155,soft_tissue,Stomach,C,B
+bortezomib,breast,Brain_Nucleus_accumbens_basal_ganglia,C,B
+bortezomib,breast,Heart_Atrial_Appendage,B,C
+bortezomib,central_nervous_system,Artery_Coronary,C,B
+bortezomib,stomach,Liver,B,C
+idarubicin,endometrium,Minor_Salivary_Gland,B,C
+idarubicin,soft_tissue,Whole_Blood,B,C
+idarubicin,stomach,Whole_Blood,C,B

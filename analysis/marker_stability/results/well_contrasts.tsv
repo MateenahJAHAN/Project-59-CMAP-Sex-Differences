@@ -1,0 +1,1345 @@
+sample	plate	drug	dose	control	captured_cells	state_contrast
+smp_1495	plate1	Infigratinib	0.05	False	66929	0.0383545924
+smp_1496	plate1	Erdafitinib 	0.05	False	64978	-0.00635272168
+smp_1497	plate1	Everolimus	0.05	False	47152	-0.0312985841
+smp_1498	plate1	Pemigatinib	0.05	False	49649	-0.0838179848
+smp_1499	plate1	Abemaciclib	0.05	False	55	0.141829697
+smp_1500	plate1	Capivasertib	0.05	False	63756	-0.0893334661
+smp_1501	plate1	Gemcitabine	0.05	False	74969	-0.107639421
+smp_1502	plate1	Irinotecan	0.05	False	75915	-0.040119739
+smp_1503	plate1	Oxaliplatin	0.05	False	70054	-0.0471135031
+smp_1504	plate1	Alpelisib	0.05	False	47995	-0.0656706552
+smp_1505	plate1	Lapatinib ditosylate	0.05	False	57594	-0.0587587894
+smp_1506	plate1	palbociclib	0.05	False	42483	-0.0761170937
+smp_1507	plate1	Lonafarnib	0.05	False	85625	0.0573842368
+smp_1508	plate1	Volasertib	0.05	False	64360	-0.020802133
+smp_1509	plate1	c-Kit-IN-1	0.05	False	85	-0.456571559
+smp_1510	plate1	venetoclax	0.05	False	70781	-0.0936531651
+smp_1511	plate1	Capmatinib	0.05	False	55817	-0.0893556388
+smp_1512	plate1	MK-8353	0.05	False	65033	-0.116223382
+smp_1513	plate1	Regorafenib	0.05	False	47212	-0.0753559732
+smp_1514	plate1	Tucatinib	0.05	False	70036	-0.146320277
+smp_1515	plate1	Vemurafenib	0.05	False	69997	-0.112317536
+smp_1516	plate1	BI-3406	0.05	False	67704	-0.135275787
+smp_1517	plate1	AZD-8055	0.05	False	81726	-0.132894634
+smp_1518	plate1	Binimetinib	0.05	False	53142	-0.111218107
+smp_1519	plate1	Temuterkib	0.05	False	59975	0.00746052185
+smp_1520	plate1	ML264	0.05	False	52843	-0.103944654
+smp_1521	plate1	BI-78D3	0.05	False	48857	-0.0937574565
+smp_1522	plate1	Tomivosertib	0.05	False	62772	-0.0617968456
+smp_1523	plate1	Brivudine	0.05	False	63912	-0.127213033
+smp_1524	plate1	Bentamapimod	0.05	False	46266	-0.160961994
+smp_1525	plate1	Dabrafenib	0.05	False	65497	-0.105981553
+smp_1526	plate1	Encorafenib	0.05	False	79671	-0.108098105
+smp_1527	plate1	Paclitaxel	0.05	False	72511	-0.0981457397
+smp_1528	plate1	RMC-6236	0.05	False	53766	-0.0388102062
+smp_1529	plate1	Trametinib	0.05	False	44975	-0.131876097
+smp_1530	plate1	Afatinib	0.05	False	41165	-0.0707452955
+smp_1531	plate1	NVP-BHG712	0.05	False	76925	0.0391980423
+smp_1532	plate1	Ralimetinib dimesylate	0.05	False	61	0.38031155
+smp_1533	plate1	ERK5-IN-2	0.05	False	61596	-0.109147565
+smp_1534	plate1	PH-797804	0.05	False	71298	-0.0501599125
+smp_1535	plate1	TAK-901	0.05	False	43241	-0.10794709
+smp_1536	plate1	Ipatasertib	0.05	False	50235	-0.0867617872
+smp_1537	plate1	Sapanisertib	0.05	False	82052	-0.0554673227
+smp_1538	plate1	BAY1125976	0.05	False	73627	-0.120173134
+smp_1539	plate1	9-ING-41	0.05	False	78325	-0.0895016266
+smp_1540	plate1	XRK3F2	0.05	False	61344	-0.0452739042
+smp_1541	plate1	Bimiralisib	0.05	False	69479	0.0202106018
+smp_1542	plate1	GSK1059615	0.05	False	67421	-0.0278893051
+smp_1543	plate1	AZD2858	0.05	False	70226	0.0071772902
+smp_1544	plate1	PF-06260933	0.05	False	114	0.0524176386
+smp_1545	plate1	SBI-0640756	0.05	False	71371	0.0119969601
+smp_1546	plate1	LJI308	0.05	False	56886	-0.0170721439
+smp_1547	plate1	LY-2584702 (tosylate salt)	0.05	False	44655	-0.0690038768
+smp_1548	plate1	Sonidegib	0.05	False	714	-0.0896786129
+smp_1549	plate1	EX229	0.05	False	48034	-0.10402832
+smp_1550	plate1	MK-3903	0.05	False	52239	-0.0793139089
+smp_1551	plate1	Everolimus	0.05	False	52860	-0.0653520946
+smp_1552	plate1	ULK-101	0.05	False	53794	0.00384489631
+smp_1553	plate1	IQ 1	0.05	False	71840	-0.143415208
+smp_1554	plate1	CP21R7	0.05	False	60539	-0.0286588029
+smp_1555	plate1	Bortezomib	0.05	False	39945	-0.144984671
+smp_1556	plate1	Hydroxyfasudil	0.05	False	979	0.0491451811
+smp_1557	plate1	Belumosudil (mesylate)	0.05	False	63111	-0.0663822236
+smp_1558	plate1	Belzutifan	0.05	False	1524	0.0363876416
+smp_1559	plate1	Futibatinib	0.05	False	62019	-0.00739396084
+smp_1560	plate1	Pralsetinib	0.05	False	59221	0.0888230614
+smp_1561	plate1	TAK-733	0.05	False	71195	0.00801401478
+smp_1562	plate1	Elimusertib hydrochloride	0.05	False	48844	-0.129312468
+smp_1563	plate1	AZD1390	0.05	False	66351	-0.135006058
+smp_1564	plate1	Tubulin inhibitor 6	0.05	False	57390	-0.0153830504
+smp_1565	plate1	Torkinib	0.05	False	54419	-0.0991609569
+smp_1566	plate1	4EGI-1	0.05	False	54831	-0.0301258487
+smp_1567	plate1	Pimitespib	0.05	False	51749	-0.0203694274
+smp_1568	plate1	olaparib	0.05	False	123	0.282331162
+smp_1569	plate1	Ixazomib	0.05	False	35792	-0.077838076
+smp_1570	plate1	DTP3	0.05	False	81	-0.191256225
+smp_1571	plate1	OTS514	0.05	False	53856	-0.0372954382
+smp_1572	plate1	NG25	0.05	False	49501	-0.070383518
+smp_1573	plate1	DT-061	0.05	False	44214	-0.146840867
+smp_1574	plate1	AZD-7648	0.05	False	73035	-0.112974584
+smp_1575	plate1	Gemcitabine	0.05	False	90855	-0.022805407
+smp_1576	plate1	Methylprednisolone succinate	0.05	False	51	0.202941001
+smp_1577	plate1	Celecoxib	0.05	False	42614	-0.0815430833
+smp_1578	plate1	vincristine	0.05	False	54177	-0.126974071
+smp_1579	plate1	HI-TOPK-032	0.05	False	26129	-0.0478464916
+smp_1580	plate1	APTO-253	0.05	False	61210	-0.0114459268
+smp_1581	plate1	LB-100	0.05	False	87764	-0.0194060088
+smp_1582	plate1	AT7519	0.05	False	77064	-0.0384736644
+smp_1583	plate1	ETC-206	0.05	False	60092	-0.018294021
+smp_1584	plate1	LY2090314	0.05	False	61094	-0.0612165423
+smp_1585	plate1	Oleic acid	0.05	False	60889	0.00587249507
+smp_1586	plate1	Minodronic acid	0.05	False	68205	-0.0679449501
+smp_1587	plate1	Anastrozole	0.05	False	87855	0.0247578092
+smp_1588	plate1	Adagrasib	0.05	False	58321	0.0409141736
+smp_1589	plate1	DMSO_TF	0	True	83959	-0.0144065121
+smp_1590	plate1	DMSO_TF	0	True	87338	0.0144065121
+smp_1591	plate2	Infigratinib	0.5	False	102870	-0.20940259
+smp_1592	plate2	Erdafitinib 	0.5	False	233	-0.072790738
+smp_1593	plate2	Everolimus	0.5	False	120731	-0.0772810325
+smp_1594	plate2	Pemigatinib	0.5	False	2195	-0.244243936
+smp_1595	plate2	Abemaciclib	0.5	False	91066	-0.0270894128
+smp_1596	plate2	Capivasertib	0.5	False	112418	-0.0495589333
+smp_1597	plate2	Gemcitabine	0.5	False	98894	-0.289559884
+smp_1598	plate2	Irinotecan	0.5	False	78112	-0.182174367
+smp_1599	plate2	Oxaliplatin	0.5	False	141987	-0.0743685987
+smp_1600	plate2	Alpelisib	0.5	False	91545	-0.112790259
+smp_1601	plate2	Lapatinib ditosylate	0.5	False	103632	-0.241753451
+smp_1602	plate2	palbociclib	0.5	False	89220	-0.184402656
+smp_1603	plate2	Lonafarnib	0.5	False	132954	-0.18140829
+smp_1604	plate2	Volasertib	0.5	False	81114	-0.172527108
+smp_1605	plate2	c-Kit-IN-1	0.5	False	96538	-0.244802768
+smp_1606	plate2	venetoclax	0.5	False	115635	-0.166345121
+smp_1607	plate2	Capmatinib	0.5	False	105910	-0.122258439
+smp_1608	plate2	MK-8353	0.5	False	88086	-0.0847597859
+smp_1609	plate2	Regorafenib	0.5	False	127009	-0.0921850594
+smp_1610	plate2	Tucatinib	0.5	False	95927	-0.206420393
+smp_1611	plate2	Vemurafenib	0.5	False	181889	-0.141285317
+smp_1612	plate2	BI-3406	0.5	False	124314	-0.259388506
+smp_1613	plate2	AZD-8055	0.5	False	101244	-0.13455469
+smp_1614	plate2	Binimetinib	0.5	False	70587	-0.238064411
+smp_1615	plate2	Temuterkib	0.5	False	57317	-0.134355454
+smp_1616	plate2	ML264	0.5	False	103225	-0.207710018
+smp_1617	plate2	BI-78D3	0.5	False	53825	-0.13282719
+smp_1618	plate2	Tomivosertib	0.5	False	93924	-0.146781023
+smp_1619	plate2	Brivudine	0.5	False	82084	-0.0717484256
+smp_1620	plate2	Bentamapimod	0.5	False	77982	-0.142904833
+smp_1621	plate2	Dabrafenib	0.5	False	71845	-0.167778907
+smp_1622	plate2	Encorafenib	0.5	False	191	-0.410202449
+smp_1623	plate2	Paclitaxel	0.5	False	146603	-0.172535294
+smp_1624	plate2	RMC-6236	0.5	False	129584	-0.206543899
+smp_1625	plate2	Trametinib	0.5	False	68500	-0.273085122
+smp_1626	plate2	Afatinib	0.5	False	120681	-0.0923028929
+smp_1627	plate2	NVP-BHG712	0.5	False	43705	-0.202118986
+smp_1628	plate2	Ralimetinib dimesylate	0.5	False	41530	-0.182338165
+smp_1629	plate2	ERK5-IN-2	0.5	False	32311	-0.15477896
+smp_1630	plate2	PH-797804	0.5	False	45555	-0.0848760031
+smp_1631	plate2	TAK-901	0.5	False	37008	-0.128640592
+smp_1632	plate2	Ipatasertib	0.5	False	36395	0.00128183287
+smp_1633	plate2	Sapanisertib	0.5	False	60150	-0.0362558573
+smp_1634	plate2	BAY1125976	0.5	False	41216	-0.109861241
+smp_1635	plate2	9-ING-41	0.5	False	38190	-0.187957923
+smp_1636	plate2	XRK3F2	0.5	False	17999	-0.190545392
+smp_1637	plate2	Bimiralisib	0.5	False	35539	-0.108342471
+smp_1638	plate2	GSK1059615	0.5	False	35823	-0.0817282876
+smp_1639	plate2	AZD2858	0.5	False	8629	-0.273215816
+smp_1640	plate2	PF-06260933	0.5	False	61351	-0.233774591
+smp_1641	plate2	SBI-0640756	0.5	False	666	-0.193643448
+smp_1642	plate2	LJI308	0.5	False	39170	-0.102395766
+smp_1643	plate2	LY-2584702 (tosylate salt)	0.5	False	31731	-0.147087032
+smp_1644	plate2	Sonidegib	0.5	False	36315	-0.184032987
+smp_1645	plate2	EX229	0.5	False	76403	-0.00793359511
+smp_1646	plate2	MK-3903	0.5	False	47171	-0.155393597
+smp_1647	plate2	Everolimus	0.5	False	31287	-0.0613416608
+smp_1648	plate2	ULK-101	0.5	False	45999	-0.12441896
+smp_1649	plate2	IQ 1	0.5	False	47298	-0.117356886
+smp_1650	plate2	CP21R7	0.5	False	50826	-0.00143028321
+smp_1651	plate2	Bortezomib	0.5	False	75017	-0.126288029
+smp_1652	plate2	Hydroxyfasudil	0.5	False	51487	-0.182186611
+smp_1653	plate2	Belumosudil (mesylate)	0.5	False	86031	-0.12513844
+smp_1654	plate2	Belzutifan	0.5	False	69348	-0.108390217
+smp_1655	plate2	Futibatinib	0.5	False	99763	0.0125276873
+smp_1656	plate2	Pralsetinib	0.5	False	60857	-0.168136019
+smp_1657	plate2	TAK-733	0.5	False	42046	-0.128879276
+smp_1658	plate2	Elimusertib hydrochloride	0.5	False	100700	-0.0312307623
+smp_1659	plate2	AZD1390	0.5	False	69939	-0.144602714
+smp_1660	plate2	Tubulin inhibitor 6	0.5	False	129775	-0.057380049
+smp_1661	plate2	Torkinib	0.5	False	118009	-0.0745075039
+smp_1662	plate2	4EGI-1	0.5	False	124576	0.00588947237
+smp_1663	plate2	Pimitespib	0.5	False	84789	-0.113782877
+smp_1664	plate2	olaparib	0.5	False	131895	-0.0811484284
+smp_1665	plate2	Ixazomib	0.5	False	114572	-0.120172019
+smp_1666	plate2	DTP3	0.5	False	124027	-0.0116218331
+smp_1667	plate2	OTS514	0.5	False	86275	0.000837638802
+smp_1668	plate2	NG25	0.5	False	62508	-0.0925766813
+smp_1669	plate2	DT-061	0.5	False	119674	-4.50208138e-05
+smp_1670	plate2	AZD-7648	0.5	False	35793	-0.0747944235
+smp_1671	plate2	Gemcitabine	0.5	False	43829	-0.0196120784
+smp_1672	plate2	Methylprednisolone succinate	0.5	False	34616	0.02880524
+smp_1673	plate2	Celecoxib	0.5	False	47218	-0.0128339225
+smp_1674	plate2	vincristine	0.5	False	31211	-0.0814325426
+smp_1675	plate2	HI-TOPK-032	0.5	False	85362	-0.0440510946
+smp_1676	plate2	APTO-253	0.5	False	114216	-0.102079596
+smp_1677	plate2	LB-100	0.5	False	94952	-0.0451282766
+smp_1678	plate2	AT7519	0.5	False	112644	-0.0320508472
+smp_1679	plate2	ETC-206	0.5	False	123297	-0.0505745297
+smp_1680	plate2	LY2090314	0.5	False	102369	0.00833086559
+smp_1681	plate2	Oleic acid	0.5	False	114017	-0.0398045691
+smp_1682	plate2	Minodronic acid	0.5	False	147555	-0.0264729064
+smp_1683	plate2	Anastrozole	0.5	False	159246	-0.0264551167
+smp_1684	plate2	Adagrasib	0.05	False	141896	0.00645404612
+smp_1685	plate2	DMSO_TF	0	True	133902	0.00828145857
+smp_1686	plate2	DMSO_TF	0	True	111635	-0.00828145857
+smp_1687	plate3	Infigratinib	5	False	45929	-0.194317893
+smp_1688	plate3	Erdafitinib 	5	False	46121	-0.116785842
+smp_1689	plate3	Everolimus	5	False	78448	-0.0189376877
+smp_1690	plate3	Pemigatinib	5	False	36018	-0.156951126
+smp_1691	plate3	Abemaciclib	5	False	42446	-0.275537471
+smp_1692	plate3	Capivasertib	5	False	25487	-0.13447275
+smp_1693	plate3	Gemcitabine	5	False	41653	-0.236966546
+smp_1694	plate3	Irinotecan	5	False	72177	-0.141937243
+smp_1695	plate3	Oxaliplatin	5	False	40759	-0.121832173
+smp_1696	plate3	Alpelisib	5	False	29263	-0.0763385139
+smp_1697	plate3	Lapatinib ditosylate	5	False	71031	-0.0689220648
+smp_1698	plate3	palbociclib	5	False	33875	-0.206010317
+smp_1699	plate3	Lonafarnib	5	False	8557	0.535255652
+smp_1700	plate3	Volasertib	5	False	22322	-0.147546305
+smp_1701	plate3	c-Kit-IN-1	5	False	28381	-0.135802456
+smp_1702	plate3	venetoclax	5	False	26952	-0.0641087707
+smp_1703	plate3	Capmatinib	5	False	24244	-0.205740532
+smp_1704	plate3	MK-8353	5	False	29445	-0.198211558
+smp_1705	plate3	Regorafenib	5	False	39058	-0.205325995
+smp_1706	plate3	Tucatinib	5	False	75767	-0.181365295
+smp_1707	plate3	Vemurafenib	5	False	67433	-0.0484655195
+smp_1708	plate3	BI-3406	5	False	60987	-0.205419118
+smp_1709	plate3	AZD-8055	5	False	54297	-0.0408049122
+smp_1710	plate3	Binimetinib	5	False	23373	-0.281932747
+smp_1711	plate3	Temuterkib	5	False	54251	-0.0135676362
+smp_1712	plate3	ML264	5	False	57009	-0.108863664
+smp_1713	plate3	BI-78D3	5	False	69415	-0.119001615
+smp_1714	plate3	Tomivosertib	5	False	48845	-0.0721953811
+smp_1715	plate3	Brivudine	5	False	73898	-0.144009822
+smp_1716	plate3	Bentamapimod	5	False	54466	-0.224611304
+smp_1717	plate3	Dabrafenib	5	False	119849	-0.13725255
+smp_1718	plate3	Encorafenib	5	False	111694	-0.273223172
+smp_1719	plate3	Paclitaxel	5	False	111034	-0.17650206
+smp_1720	plate3	RMC-6236	5	False	91133	-0.197986971
+smp_1721	plate3	Trametinib	5	False	75297	-0.245459734
+smp_1722	plate3	Afatinib	5	False	77341	-0.128824918
+smp_1723	plate3	NVP-BHG712	5	False	35563	-0.154320377
+smp_1724	plate3	Ralimetinib dimesylate	5	False	47917	-0.182503754
+smp_1725	plate3	ERK5-IN-2	5	False	91086	-0.179696539
+smp_1726	plate3	PH-797804	5	False	40079	-0.202508445
+smp_1727	plate3	TAK-901	5	False	63643	-0.445746896
+smp_1728	plate3	Ipatasertib	5	False	87667	-0.150758791
+smp_1729	plate3	Sapanisertib	5	False	98021	-0.0416559742
+smp_1730	plate3	BAY1125976	5	False	92892	-0.0615918735
+smp_1731	plate3	9-ING-41	5	False	93710	-0.0645846975
+smp_1732	plate3	XRK3F2	5	False	78435	-0.141870118
+smp_1733	plate3	Bimiralisib	5	False	93662	-0.081274546
+smp_1734	plate3	GSK1059615	5	False	78627	-0.355592579
+smp_1735	plate3	AZD2858	5	False	15301	-0.193641186
+smp_1736	plate3	PF-06260933	5	False	20924	-0.07030994
+smp_1737	plate3	SBI-0640756	5	False	20852	-0.0945079266
+smp_1738	plate3	LJI308	5	False	26953	-0.125357938
+smp_1739	plate3	LY-2584702 (tosylate salt)	5	False	10300	-0.00836851594
+smp_1740	plate3	Sonidegib	5	False	16887	-0.0736651051
+smp_1741	plate3	EX229	5	False	32915	-0.110399347
+smp_1742	plate3	MK-3903	5	False	28807	-0.0607135779
+smp_1743	plate3	Everolimus	5	False	21708	-0.0365156611
+smp_1744	plate3	ULK-101	5	False	22770	0.0606043767
+smp_1745	plate3	IQ 1	5	False	23554	-0.169488764
+smp_1746	plate3	CP21R7	5	False	25418	-0.082519739
+smp_1747	plate3	Bortezomib	5	False	12986	-0.146578809
+smp_1748	plate3	Hydroxyfasudil	5	False	19715	-0.0350141061
+smp_1749	plate3	Belumosudil (mesylate)	5	False	27999	-0.144675195
+smp_1750	plate3	Belzutifan	5	False	22275	0.0441610079
+smp_1751	plate3	Futibatinib	5	False	21099	-0.0739345888
+smp_1752	plate3	Pralsetinib	5	False	18338	-0.0645850306
+smp_1753	plate3	TAK-733	5	False	33545	-0.102518112
+smp_1754	plate3	Elimusertib hydrochloride	5	False	16475	-0.285343777
+smp_1755	plate3	AZD1390	5	False	32881	-0.0828032782
+smp_1756	plate3	Tubulin inhibitor 6	5	False	26707	-0.0262982454
+smp_1757	plate3	Torkinib	5	False	14902	-0.278894438
+smp_1758	plate3	4EGI-1	5	False	24665	-0.0268501281
+smp_1759	plate3	Pimitespib	5	False	18572	-0.00706024487
+smp_1760	plate3	olaparib	5	False	26905	-0.047944587
+smp_1761	plate3	Ixazomib	5	False	24637	-0.0763617443
+smp_1762	plate3	DTP3	5	False	27151	-0.0659553878
+smp_1763	plate3	OTS514	5	False	18579	-0.156274916
+smp_1764	plate3	NG25	5	False	33481	0.000364072071
+smp_1765	plate3	DT-061	5	False	23734	-0.202086955
+smp_1766	plate3	AZD-7648	5	False	24634	-0.331741615
+smp_1767	plate3	Gemcitabine	5	False	21058	-0.058324528
+smp_1768	plate3	Methylprednisolone succinate	5	False	28167	-0.0217776816
+smp_1769	plate3	Celecoxib	5	False	32706	-0.0751641315
+smp_1770	plate3	vincristine	5	False	21631	0.126479039
+smp_1771	plate3	HI-TOPK-032	5	False	25686	-0.0223191875
+smp_1772	plate3	APTO-253	5	False	42089	-0.0416352671
+smp_1773	plate3	LB-100	5	False	37166	-0.0191590386
+smp_1774	plate3	AT7519	5	False	47117	0.0535618595
+smp_1775	plate3	ETC-206	5	False	39421	-0.0478356296
+smp_1776	plate3	LY2090314	5	False	50863	-0.0900488514
+smp_1777	plate3	Oleic acid	5	False	29126	-0.0839426555
+smp_1778	plate3	Minodronic acid	5	False	38253	-0.157122993
+smp_1779	plate3	Anastrozole	5	False	42193	-0.122719212
+smp_1780	plate3	Adagrasib	0.05	False	23843	0.00278822962
+smp_1781	plate3	DMSO_TF	0	True	39806	0.0230147696
+smp_1782	plate3	DMSO_TF	0	True	33927	-0.0230147696
+smp_1783	plate4	8-Hydroxyquinoline	0.05	False	62137	-0.084191259
+smp_1784	plate4	Chlorhexidine (diacetate)	0.05	False	73128	-0.13252286
+smp_1785	plate4	Trifluridine	0.05	False	74628	-0.020808603
+smp_1786	plate4	Berbamine	0.05	False	85533	0.0215713524
+smp_1787	plate4	Retinoic acid	0.05	False	78552	-0.0281266284
+smp_1788	plate4	Cysteamine (hydrochloride)	0.05	False	66536	-0.135248649
+smp_1789	plate4	Vinblastine (sulfate)	0.05	False	83826	-0.0448804602
+smp_1790	plate4	Pasireotide (acetate)	0.05	False	77851	-0.0746988159
+smp_1791	plate4	Riluzole hydrochloride	0.05	False	79204	-0.0308394966
+smp_1792	plate4	Palmatine (chloride)	0.05	False	96406	-0.00351038451
+smp_1793	plate4	Isocorydine	0.05	False	80710	-0.0869463375
+smp_1794	plate4	Raltitrexed	0.05	False	66987	-0.15389648
+smp_1795	plate4	Furosemide	0.05	False	55347	-0.111811326
+smp_1796	plate4	Clotrimazole	0.05	False	64079	-0.122390251
+smp_1797	plate4	Sodium Salicylate	0.05	False	65930	-0.100537128
+smp_1798	plate4	Gallic acid (hydrate)	0.05	False	67398	0.0199295319
+smp_1799	plate4	(R)-Verapamil (hydrochloride)	0.05	False	84838	0.0327155535
+smp_1800	plate4	Pyridoxine	0.05	False	70237	-0.164793057
+smp_1801	plate4	Acetohexamide	0.05	False	61164	-0.00864758088
+smp_1802	plate4	Temsirolimus	0.05	False	80915	0.0204151991
+smp_1803	plate4	Megestrol	0.05	False	70009	-0.0282045239
+smp_1804	plate4	Diammonium Glycyrrhizinate	0.05	False	69231	-0.0115094104
+smp_1805	plate4	L-Thyroxine (sodium salt pentahydrate)	0.05	False	56833	0.0736591251
+smp_1806	plate4	Ropivacaine (hydrochloride monohydrate)	0.05	False	65450	-0.0169637118
+smp_1807	plate4	Salicylic acid	0.05	False	77115	-0.0822539045
+smp_1808	plate4	Quinestrol	0.05	False	105594	-0.0709397538
+smp_1809	plate4	Tofacitinib	0.05	False	55409	-0.170562979
+smp_1810	plate4	Trimetrexate	0.05	False	58015	-0.0815963101
+smp_1811	plate4	Gemfibrozil	0.05	False	60227	-0.124677783
+smp_1812	plate4	18β-Glycyrrhetinic acid	0.05	False	54105	0.0129588278
+smp_1813	plate4	Tolcapone	0.05	False	81564	-0.138413491
+smp_1814	plate4	Terfenadine	0.05	False	87982	-0.0451549864
+smp_1815	plate4	Aliskiren	0.05	False	94030	-0.165712067
+smp_1816	plate4	Fluvoxamine (maleate)	0.05	False	56103	-0.0501417425
+smp_1817	plate4	S-Adenosyl-L-methionine (disulfate tosylate)	0.05	False	66489	-0.158465858
+smp_1818	plate4	Idarubicin (hydrochloride)	0.05	False	69390	-0.177562113
+smp_1819	plate4	Elagolix sodium	0.05	False	64893	0.0705596964
+smp_1820	plate4	Resveratrol	0.05	False	45895	-0.0636527698
+smp_1821	plate4	Rapamycin	0.05	False	59853	-0.00992660178
+smp_1822	plate4	Saquinavir	0.05	False	41343	-0.0634654762
+smp_1823	plate4	Tofacitinib (citrate)	0.05	False	56339	0.105818557
+smp_1824	plate4	Thymol	0.05	False	39892	0.0824467459
+smp_1825	plate4	Almonertinib (hydrochloride)	0.05	False	52412	0.040338521
+smp_1826	plate4	Darinaparsin	0.05	False	54578	0.0544887666
+smp_1827	plate4	Vilanterol	0.05	False	36307	0.0798756814
+smp_1828	plate4	Lenalidomide (hemihydrate)	0.05	False	48796	0.0728059185
+smp_1829	plate4	Azithromycin (hydrate)	0.05	False	60858	0.0280857462
+smp_1830	plate4	Ritonavir	0.05	False	66677	0.0660656895
+smp_1831	plate4	Pentamidine (isethionate)	0.05	False	56337	0.0454036175
+smp_1832	plate4	Adenosine	0.05	False	59102	-0.0250798761
+smp_1833	plate4	Sulfisoxazole	0.05	False	63035	-0.0282410099
+smp_1834	plate4	Norepinephrine (hydrochloride)	0.05	False	62326	-0.0856022188
+smp_1835	plate4	Ciclopirox	0.05	False	60491	-0.0790840852
+smp_1836	plate4	Lidocaine (hydrochloride)	0.05	False	19068	0.100024288
+smp_1837	plate4	Demeclocycline	0.05	False	63535	-0.175835086
+smp_1838	plate4	Mitoxantrone (dihydrochloride)	0.05	False	42020	0.0110242459
+smp_1839	plate4	Larotrectinib	0.05	False	83091	0.0688498511
+smp_1840	plate4	Busulfan	0.05	False	67223	0.0260457374
+smp_1841	plate4	Cepharanthine	0.05	False	78986	-0.0424150841
+smp_1842	plate4	Radotinib	0.05	False	79740	-0.119186446
+smp_1843	plate4	Docetaxel	0.05	False	21018	0.389393595
+smp_1844	plate4	Triclosan	0.05	False	65040	-0.0577357066
+smp_1845	plate4	Tucidinostat	0.05	False	77894	-0.0237173957
+smp_1846	plate4	Bergenin	0.05	False	82189	-0.0717776535
+smp_1847	plate4	Allantoin	0.05	False	52242	-0.00831004465
+smp_1848	plate4	Bimatoprost	0.05	False	66774	0.00406693176
+smp_1849	plate4	Triamcinolone	0.05	False	66250	-0.0626832823
+smp_1850	plate4	Olanzapine	0.05	False	82617	-0.0241196622
+smp_1851	plate4	Rimonabant	0.05	False	89711	0.00385531982
+smp_1852	plate4	Pentagastrin	0.05	False	48152	0.0212051748
+smp_1853	plate4	Lumateperone (tosylate)	0.05	False	82869	-0.0802378205
+smp_1854	plate4	Relugolix	0.05	False	64247	0.0648701319
+smp_1855	plate4	Homoharringtonine	0.05	False	68475	-0.0625290222
+smp_1856	plate4	Hexylresorcinol	0.05	False	77476	0.0358202703
+smp_1857	plate4	Baicalin	0.05	False	76590	-0.0555465477
+smp_1858	plate4	Berberine (chloride hydrate)	0.05	False	63379	0.00337408628
+smp_1859	plate4	Medroxyprogesterone acetate	0.05	False	64692	-0.0123808103
+smp_1860	plate4	Neratinib (maleate)	0.05	False	85155	0.0205226869
+smp_1861	plate4	Sinomenine	0.05	False	50207	0.0297589946
+smp_1862	plate4	Goserelin (acetate)	0.05	False	98457	-0.0645698332
+smp_1863	plate4	Fusidic acid	0.05	False	101813	0.025316649
+smp_1864	plate4	Balsalazide (sodium hydrate)	0.05	False	63110	0.0419271546
+smp_1865	plate4	Cloxacillin (sodium)	0.05	False	82897	-0.0610711113
+smp_1866	plate4	Artesunate	0.05	False	87419	-0.0189055054
+smp_1867	plate4	Pyridoxine (hydrochloride)	0.05	False	74764	0.0110601628
+smp_1868	plate4	Folic acid	0.05	False	76264	0.0320051962
+smp_1869	plate4	Selinexor 	0.05	False	104901	-0.03944011
+smp_1870	plate4	Adenine	0.05	False	83343	0.0496934023
+smp_1871	plate4	Gallic acid	0.05	False	42675	0.0580476376
+smp_1872	plate4	Lipoic acid	0.05	False	83876	-0.0468142478
+smp_1873	plate4	Amsacrine	0.05	False	75563	0.0615564287
+smp_1874	plate4	Anethole trithione	0.05	False	89886	0.0670966748
+smp_1875	plate4	Clonidine (hydrochloride)	0.05	False	106687	-0.0386117748
+smp_1876	plate4	Adagrasib	0.05	False	101815	-0.0425443644
+smp_1877	plate4	DMSO_TF	0	True	73119	-0.0614009657
+smp_1878	plate4	DMSO_TF	0	True	82569	0.0614009657
+smp_1879	plate5	8-Hydroxyquinoline	0.5	False	68297	-0.0531042151
+smp_1880	plate5	Chlorhexidine (diacetate)	0.5	False	81466	-0.00728893297
+smp_1881	plate5	Trifluridine	0.5	False	57510	-0.0947052108
+smp_1882	plate5	Berbamine	0.5	False	72170	-0.079361189
+smp_1883	plate5	Retinoic acid	0.5	False	56102	-0.0882758823
+smp_1884	plate5	Cysteamine (hydrochloride)	0.5	False	35212	-0.0690179952
+smp_1885	plate5	Vinblastine (sulfate)	0.5	False	31322	0.0240536235
+smp_1886	plate5	Pasireotide (acetate)	0.5	False	58439	-0.0435834268
+smp_1887	plate5	Riluzole hydrochloride	0.5	False	47552	-0.161436584
+smp_1888	plate5	Palmatine (chloride)	0.5	False	32808	-0.0195533035
+smp_1889	plate5	Isocorydine	0.5	False	35490	-0.0490288906
+smp_1890	plate5	Raltitrexed	0.5	False	34861	-0.075821054
+smp_1891	plate5	Furosemide	0.5	False	49243	-0.0385733621
+smp_1892	plate5	Clotrimazole	0.5	False	42329	-0.0782686719
+smp_1893	plate5	Sodium Salicylate	0.5	False	52389	-0.104570589
+smp_1894	plate5	Gallic acid (hydrate)	0.5	False	46141	-0.08522454
+smp_1895	plate5	(R)-Verapamil (hydrochloride)	0.5	False	50208	-0.027206111
+smp_1896	plate5	Pyridoxine	0.5	False	27431	-0.0726075874
+smp_1897	plate5	Acetohexamide	0.5	False	48706	-0.0577809908
+smp_1898	plate5	Temsirolimus	0.5	False	29402	-0.0119484122
+smp_1899	plate5	Megestrol	0.5	False	46603	-0.0636947225
+smp_1900	plate5	Diammonium Glycyrrhizinate	0.5	False	57846	-0.103112081
+smp_1901	plate5	L-Thyroxine (sodium salt pentahydrate)	0.5	False	37316	-0.0786397263
+smp_1902	plate5	Ropivacaine (hydrochloride monohydrate)	0.5	False	30695	-0.0299402468
+smp_1903	plate5	Salicylic acid	0.5	False	85189	-0.016851246
+smp_1904	plate5	Quinestrol	0.5	False	93802	-0.0268169677
+smp_1905	plate5	Tofacitinib	0.5	False	59718	-0.0593301286
+smp_1906	plate5	Trimetrexate	0.5	False	63404	-0.0341950733
+smp_1907	plate5	Gemfibrozil	0.5	False	70447	-0.0124864499
+smp_1908	plate5	18β-Glycyrrhetinic acid	0.5	False	39678	-0.0602784637
+smp_1909	plate5	Tolcapone	0.5	False	90169	-0.0702899744
+smp_1910	plate5	Terfenadine	0.5	False	59658	-0.154646318
+smp_1911	plate5	Aliskiren	0.5	False	64100	-0.148513161
+smp_1912	plate5	Fluvoxamine (maleate)	0.5	False	41258	-0.0774039721
+smp_1913	plate5	S-Adenosyl-L-methionine (disulfate tosylate)	0.5	False	90753	-0.135580247
+smp_1914	plate5	Idarubicin (hydrochloride)	0.5	False	66986	-0.257785736
+smp_1915	plate5	Elagolix sodium	0.5	False	45253	-0.00830944698
+smp_1916	plate5	Resveratrol	0.5	False	55189	-0.0778877094
+smp_1917	plate5	Rapamycin	0.5	False	43519	-0.0129052451
+smp_1918	plate5	Saquinavir	0.5	False	39658	-0.0127973976
+smp_1919	plate5	Tofacitinib (citrate)	0.5	False	45863	-0.0604605411
+smp_1920	plate5	Thymol	0.5	False	32019	-0.106610709
+smp_1921	plate5	Almonertinib (hydrochloride)	0.5	False	52280	-0.0487745418
+smp_1922	plate5	Darinaparsin	0.5	False	64926	-0.0339568566
+smp_1923	plate5	Vilanterol	0.5	False	43156	-0.0634170042
+smp_1924	plate5	Lenalidomide (hemihydrate)	0.5	False	40495	-0.0826930631
+smp_1925	plate5	Azithromycin (hydrate)	0.5	False	44141	-0.00766266909
+smp_1926	plate5	Ritonavir	0.5	False	44021	-0.112821066
+smp_1927	plate5	Pentamidine (isethionate)	0.5	False	84972	-0.035028468
+smp_1928	plate5	Adenosine	0.5	False	89477	0.00169274257
+smp_1929	plate5	Sulfisoxazole	0.5	False	61039	0.0413971118
+smp_1930	plate5	Norepinephrine (hydrochloride)	0.5	False	95488	0.0135402023
+smp_1931	plate5	Ciclopirox	0.5	False	78751	-0.00374604833
+smp_1932	plate5	Lidocaine (hydrochloride)	0.5	False	40342	0.0106163025
+smp_1933	plate5	Demeclocycline	0.5	False	75842	-0.0533624028
+smp_1934	plate5	Mitoxantrone (dihydrochloride)	0.5	False	50811	-0.108271414
+smp_1935	plate5	Larotrectinib	0.5	False	52615	0.0226204918
+smp_1936	plate5	Busulfan	0.5	False	62486	0.0370312575
+smp_1937	plate5	Cepharanthine	0.5	False	41345	-0.0379517576
+smp_1938	plate5	Radotinib	0.5	False	31957	-0.106830578
+smp_1939	plate5	Docetaxel	0.5	False	70321	-0.0942722063
+smp_1940	plate5	Triclosan	0.5	False	63759	-0.0111952303
+smp_1941	plate5	Tucidinostat	0.5	False	56089	-0.0552817431
+smp_1942	plate5	Bergenin	0.5	False	46787	-0.0372930802
+smp_1943	plate5	Allantoin	0.5	False	55444	-0.0689641734
+smp_1944	plate5	Bimatoprost	0.5	False	42162	-0.028404662
+smp_1945	plate5	Triamcinolone	0.5	False	57795	-0.0476583147
+smp_1946	plate5	Olanzapine	0.5	False	75976	-0.0455538336
+smp_1947	plate5	Rimonabant	0.5	False	77934	-0.000258437397
+smp_1948	plate5	Pentagastrin	0.5	False	43137	-0.0488330345
+smp_1949	plate5	Lumateperone (tosylate)	0.5	False	70769	-0.0860638845
+smp_1950	plate5	Relugolix	0.5	False	91897	-0.0333670986
+smp_1951	plate5	Homoharringtonine	0.5	False	45276	-0.368878868
+smp_1952	plate5	Hexylresorcinol	0.5	False	68000	0.0337205761
+smp_1953	plate5	Baicalin	0.5	False	60542	-0.0817642275
+smp_1954	plate5	Berberine (chloride hydrate)	0.5	False	57889	0.00614135155
+smp_1955	plate5	Medroxyprogesterone acetate	0.5	False	39341	-0.055632548
+smp_1956	plate5	Neratinib (maleate)	0.5	False	46111	-0.0156021059
+smp_1957	plate5	Sinomenine	0.5	False	83249	-0.0321455242
+smp_1958	plate5	Goserelin (acetate)	0.5	False	83098	-0.0134112358
+smp_1959	plate5	Fusidic acid	0.5	False	63883	-0.00734759161
+smp_1960	plate5	Balsalazide (sodium hydrate)	0.5	False	79722	-0.0369662382
+smp_1961	plate5	Cloxacillin (sodium)	0.5	False	84329	-0.0173559129
+smp_1962	plate5	Artesunate	0.5	False	102059	-0.0301086745
+smp_1963	plate5	Pyridoxine (hydrochloride)	0.5	False	109707	-0.00112727159
+smp_1964	plate5	Folic acid	0.5	False	107494	-0.0294647041
+smp_1965	plate5	Selinexor 	0.5	False	53549	-0.161664854
+smp_1966	plate5	Adenine	0.5	False	62758	-0.0133439872
+smp_1967	plate5	Gallic acid	0.5	False	109234	-0.000640388517
+smp_1968	plate5	Lipoic acid	0.5	False	87314	0.0217520782
+smp_1969	plate5	Amsacrine	0.5	False	90454	-0.0207014533
+smp_1970	plate5	Anethole trithione	0.5	False	99378	-0.0602270728
+smp_1971	plate5	Clonidine (hydrochloride)	0.5	False	89291	-0.0410247893
+smp_1972	plate5	Adagrasib	0.05	False	81111	0.0299909703
+smp_1973	plate5	DMSO_TF	0	True	80088	-0.00301516106
+smp_1974	plate5	DMSO_TF	0	True	102179	0.00301516106
+smp_1975	plate6	8-Hydroxyquinoline	5	False	105834	-0.0788478694
+smp_1976	plate6	Chlorhexidine (diacetate)	5	False	97197	-0.0347514884
+smp_1977	plate6	Trifluridine	5	False	68787	-0.0998034658
+smp_1978	plate6	Berbamine	5	False	106317	-0.112263235
+smp_1979	plate6	Retinoic acid	5	False	90873	-0.10156986
+smp_1980	plate6	Cysteamine (hydrochloride)	5	False	103309	-0.0159622076
+smp_1981	plate6	Vinblastine (sulfate)	5	False	47200	0.00101312882
+smp_1982	plate6	Pasireotide (acetate)	5	False	87206	-0.0641314095
+smp_1983	plate6	Riluzole hydrochloride	5	False	88347	-0.0552386896
+smp_1984	plate6	Palmatine (chloride)	5	False	61040	-0.0682160559
+smp_1985	plate6	Isocorydine	5	False	77471	-0.136197007
+smp_1986	plate6	Raltitrexed	5	False	144418	-0.0587235868
+smp_1987	plate6	Furosemide	5	False	55485	-0.0995446622
+smp_1988	plate6	Clotrimazole	5	False	55132	-0.0855752225
+smp_1989	plate6	Sodium Salicylate	5	False	52597	-0.0935785124
+smp_1990	plate6	Gallic acid (hydrate)	5	False	57617	-0.104171278
+smp_1991	plate6	(R)-Verapamil (hydrochloride)	5	False	80188	-0.0807489882
+smp_1992	plate6	Pyridoxine	5	False	50292	-0.095462476
+smp_1993	plate6	Acetohexamide	5	False	42390	-0.071709502
+smp_1994	plate6	Temsirolimus	5	False	59770	-0.0447337123
+smp_1995	plate6	Megestrol	5	False	55030	-0.0842758084
+smp_1996	plate6	Diammonium Glycyrrhizinate	5	False	92714	-0.107877371
+smp_1997	plate6	L-Thyroxine (sodium salt pentahydrate)	5	False	95841	-0.0773673572
+smp_1998	plate6	Ropivacaine (hydrochloride monohydrate)	5	False	75175	-0.094983902
+smp_1999	plate6	Salicylic acid	5	False	32791	-0.0486171452
+smp_2000	plate6	Quinestrol	5	False	87281	-0.0832509324
+smp_2001	plate6	Tofacitinib	5	False	73101	-0.0156245742
+smp_2002	plate6	Trimetrexate	5	False	63904	-0.125417359
+smp_2003	plate6	Gemfibrozil	5	False	82195	-0.0825700568
+smp_2004	plate6	18β-Glycyrrhetinic acid	5	False	36855	-0.0335840572
+smp_2005	plate6	Tolcapone	5	False	104222	-0.161325935
+smp_2006	plate6	Terfenadine	5	False	66179	-0.221673109
+smp_2007	plate6	Aliskiren	5	False	58665	-0.0728276233
+smp_2008	plate6	Fluvoxamine (maleate)	5	False	70661	-0.139271457
+smp_2009	plate6	S-Adenosyl-L-methionine (disulfate tosylate)	5	False	81656	-0.211100232
+smp_2010	plate6	Idarubicin (hydrochloride)	5	False	42711	-0.661935333
+smp_2011	plate6	Elagolix sodium	5	False	79945	-0.0275054192
+smp_2012	plate6	Resveratrol	5	False	109926	-0.0301110611
+smp_2013	plate6	Rapamycin	5	False	78476	-0.0334359831
+smp_2014	plate6	Saquinavir	5	False	37548	-0.114937427
+smp_2015	plate6	Tofacitinib (citrate)	5	False	53246	-0.0155607773
+smp_2016	plate6	Thymol	5	False	44964	-0.0245099208
+smp_2017	plate6	Almonertinib (hydrochloride)	5	False	41532	-0.0182730739
+smp_2018	plate6	Darinaparsin	5	False	38451	-0.00985525087
+smp_2019	plate6	Vilanterol	5	False	54165	-0.101371731
+smp_2020	plate6	Lenalidomide (hemihydrate)	5	False	62126	-0.0258218587
+smp_2021	plate6	Azithromycin (hydrate)	5	False	46345	0.00621132397
+smp_2022	plate6	Ritonavir	5	False	58168	-0.0880336473
+smp_2023	plate6	Pentamidine (isethionate)	5	False	50612	-0.0548200754
+smp_2024	plate6	Adenosine	5	False	48649	-0.0921305841
+smp_2025	plate6	Sulfisoxazole	5	False	70712	-0.0247666811
+smp_2026	plate6	Norepinephrine (hydrochloride)	5	False	54210	-0.0533200732
+smp_2027	plate6	Ciclopirox	5	False	48377	-0.0549940566
+smp_2028	plate6	Lidocaine (hydrochloride)	5	False	34509	-0.0435539256
+smp_2029	plate6	Demeclocycline	5	False	41592	-0.0490069558
+smp_2030	plate6	Mitoxantrone (dihydrochloride)	5	False	31041	-0.2219861
+smp_2031	plate6	Larotrectinib	5	False	22420	0.003566674
+smp_2032	plate6	Busulfan	5	False	58719	-0.0534514573
+smp_2033	plate6	Cepharanthine	5	False	19026	-0.083786802
+smp_2034	plate6	Radotinib	5	False	52513	-0.0934176133
+smp_2035	plate6	Docetaxel	5	False	43690	-0.0822490417
+smp_2036	plate6	Triclosan	5	False	67477	-0.0304313912
+smp_2037	plate6	Tucidinostat	5	False	63029	-0.0590669443
+smp_2038	plate6	Bergenin	5	False	85839	-0.0319507431
+smp_2039	plate6	Allantoin	5	False	88400	-0.0705460502
+smp_2040	plate6	Bimatoprost	5	False	50583	-0.0356061168
+smp_2041	plate6	Triamcinolone	5	False	49427	-0.0304228109
+smp_2042	plate6	Olanzapine	5	False	60204	-0.0274736685
+smp_2043	plate6	Rimonabant	5	False	66917	-0.0289277067
+smp_2044	plate6	Pentagastrin	5	False	140358	-0.0183589327
+smp_2045	plate6	Lumateperone (tosylate)	5	False	90340	0.00237614522
+smp_2046	plate6	Relugolix	5	False	121355	-0.00946474719
+smp_2047	plate6	Homoharringtonine	5	False	45466	-0.487213814
+smp_2048	plate6	Hexylresorcinol	5	False	115369	0.0102581595
+smp_2049	plate6	Baicalin	5	False	127771	-0.0637005704
+smp_2050	plate6	Berberine (chloride hydrate)	5	False	149875	-0.00156426405
+smp_2051	plate6	Medroxyprogesterone acetate	5	False	82077	-0.0372717069
+smp_2052	plate6	Neratinib (maleate)	5	False	122439	-0.0134245753
+smp_2053	plate6	Sinomenine	5	False	76869	0.0362360815
+smp_2054	plate6	Goserelin (acetate)	5	False	116294	-0.00599280561
+smp_2055	plate6	Fusidic acid	5	False	87789	-0.0516658951
+smp_2056	plate6	Balsalazide (sodium hydrate)	5	False	104347	-0.021793409
+smp_2057	plate6	Cloxacillin (sodium)	5	False	100052	-0.0673109865
+smp_2058	plate6	Artesunate	5	False	111456	-0.0221192648
+smp_2059	plate6	Pyridoxine (hydrochloride)	5	False	102135	0.00430951635
+smp_2060	plate6	Folic acid	5	False	107435	-0.0136942399
+smp_2061	plate6	Selinexor 	5	False	86507	-0.270651795
+smp_2062	plate6	Adenine	5	False	118063	-0.0148321965
+smp_2063	plate6	Gallic acid	5	False	123921	-0.0352326944
+smp_2064	plate6	Lipoic acid	5	False	83932	-0.00467157738
+smp_2065	plate6	Amsacrine	5	False	50419	-0.0798766457
+smp_2066	plate6	Anethole trithione	5	False	73891	-0.024394561
+smp_2067	plate6	Clonidine (hydrochloride)	5	False	158706	-0.0341420691
+smp_2068	plate6	Adagrasib	0.05	False	117264	-0.0112588923
+smp_2069	plate6	DMSO_TF	0	True	95563	-0.00465735677
+smp_2070	plate6	DMSO_TF	0	True	112874	0.00465735677
+smp_2071	plate7	Sivelestat (sodium tetrahydrate)	0.05	False	75084	-0.108871382
+smp_2072	plate7	Posaconazole	0.05	False	54236	-0.0632433542
+smp_2073	plate7	Tetracycline (hydrochloride)	0.05	False	64234	-0.0399407219
+smp_2074	plate7	Entecavir (monohydrate)	0.05	False	48891	-0.0204643232
+smp_2075	plate7	Sildenafil	0.05	False	54627	0.0432042716
+smp_2076	plate7	Dimethyl fumarate	0.05	False	49549	-0.0343852131
+smp_2077	plate7	Berbamine (dihydrochloride)	0.05	False	52029	-0.00272475499
+smp_2078	plate7	Daidzin	0.05	False	56596	-0.000386246624
+smp_2079	plate7	Fumaric acid	0.05	False	53966	-0.0276980564
+smp_2080	plate7	Pravastatin (sodium)	0.05	False	46061	0.00044758919
+smp_2081	plate7	Almonertinib (mesylate)	0.05	False	44750	0.0264912565
+smp_2082	plate7	Irinotecan (hydrochloride)	0.05	False	39190	-0.0294622156
+smp_2083	plate7	Rucaparib (phosphate)	0.05	False	69160	0.0243928705
+smp_2084	plate7	crizotinib	0.05	False	45903	0.0702104769
+smp_2085	plate7	Dinaciclib	0.05	False	11889	-0.0365795706
+smp_2086	plate7	Bosentan (hydrate)	0.05	False	43946	0.0857311298
+smp_2087	plate7	Bestatin	0.05	False	43271	0.0626863675
+smp_2088	plate7	Tadalafil	0.05	False	45389	0.0655563404
+smp_2089	plate7	Belumosudil	0.05	False	62999	0.0673671242
+smp_2090	plate7	Flumatinib (mesylate)	0.05	False	55099	-0.00955144963
+smp_2091	plate7	Cytarabine	0.05	False	68901	0.0132692238
+smp_2092	plate7	Afatinib	0.05	False	52521	-0.043351416
+smp_2093	plate7	Topotecan (hydrochloride)	0.05	False	26934	0.0164884409
+smp_2094	plate7	Naproxen	0.05	False	31254	0.00781921094
+smp_2095	plate7	Lucanthone	0.05	False	121831	0.0311115923
+smp_2096	plate7	Trametinib (DMSO_TF solvate)	0.05	False	97771	0.00935290881
+smp_2097	plate7	Benproperine (phosphate)	0.05	False	66548	0.0531840494
+smp_2098	plate7	Erlotinib	0.05	False	82538	0.0622260477
+smp_2099	plate7	Fenofibrate	0.05	False	92055	0.0902521878
+smp_2100	plate7	(S)-Crizotinib	0.05	False	98917	0.0862906738
+smp_2101	plate7	Rutin (trihydrate)	0.05	False	102552	-0.00387657937
+smp_2102	plate7	Pexidartinib (hydrochloride)	0.05	False	67501	0.0216448368
+smp_2103	plate7	Tirabrutinib	0.05	False	80587	0.0542974226
+smp_2104	plate7	Diphenhydramine	0.05	False	75500	0.0476665016
+smp_2105	plate7	Harringtonine	0.05	False	25754	0.0581005727
+smp_2106	plate7	Epirubicin (hydrochloride)	0.05	False	21284	0.0399662237
+smp_2107	plate7	Phenytoin (sodium)	0.05	False	47854	0.0612731201
+smp_2108	plate7	Orlistat	0.05	False	29609	-0.0728560984
+smp_2109	plate7	Sacubitril/Valsartan	0.05	False	55169	0.00047342906
+smp_2110	plate7	Monocrotaline	0.05	False	36946	-0.0162533926
+smp_2111	plate7	Finasteride	0.05	False	41915	0.0597308418
+smp_2112	plate7	Hydroxyurea	0.05	False	29043	0.0497000252
+smp_2113	plate7	Doxycycline (monohydrate)	0.05	False	42682	-0.0221445726
+smp_2114	plate7	Pitavastatin (Calcium)	0.05	False	38584	-0.0421136392
+smp_2115	plate7	Cobimetinib	0.05	False	35390	-0.0653640132
+smp_2116	plate7	Simotinib	0.05	False	47610	0.0299076296
+smp_2117	plate7	Procainamide (hydrochloride)	0.05	False	42247	0.0153548534
+smp_2118	plate7	Silodosin	0.05	False	48688	0.0429096852
+smp_2119	plate7	Nevirapine	0.05	False	46437	-0.0195620071
+smp_2120	plate7	Cilostazol	0.05	False	53082	0.0176066263
+smp_2121	plate7	Dorzolamide (hydrochloride)	0.05	False	44030	-0.000643979959
+smp_2122	plate7	Roxadustat	0.05	False	37424	-0.0378491832
+smp_2123	plate7	Canagliflozin	0.05	False	34609	-0.0761784992
+smp_2124	plate7	Decitabine	0.05	False	43262	-0.108649006
+smp_2125	plate7	Ligustrazine	0.05	False	57628	-0.0151314225
+smp_2126	plate7	Thymopentin	0.05	False	55924	-0.000756874231
+smp_2127	plate7	Verteporfin	0.05	False	54889	0.0723200987
+smp_2128	plate7	Hesperidin	0.05	False	71978	-0.0363423898
+smp_2129	plate7	Mebendazole	0.05	False	58415	-0.0647783664
+smp_2130	plate7	Betamethasone dipropionate	0.05	False	35650	-0.027510856
+smp_2131	plate7	Levobupivacaine (hydrochloride)	0.05	False	69015	0.0394519831
+smp_2132	plate7	Rosiglitazone	0.05	False	71711	0.0351719166
+smp_2133	plate7	Quinidine (15% dihydroquinidine)	0.05	False	75332	-0.00737971218
+smp_2134	plate7	Verapamil	0.05	False	71113	-0.0395395388
+smp_2135	plate7	Bisoprolol (hemifumarate)	0.05	False	52312	-0.0283042503
+smp_2136	plate7	Penfluridol	0.05	False	50920	-0.0311984753
+smp_2137	plate7	Ferulic acid	0.05	False	57165	0.000715415083
+smp_2138	plate7	Pemetrexed	0.05	False	59177	-0.0212425056
+smp_2139	plate7	Fluvoxamine	0.05	False	68873	-0.0748935977
+smp_2140	plate7	Cytarabine (hydrochloride)	0.05	False	73849	-0.0226369353
+smp_2141	plate7	Bendamustine	0.05	False	49881	-0.0379642578
+smp_2142	plate7	Altretamine	0.05	False	47564	-0.0270795972
+smp_2143	plate7	Rifaximin	0.05	False	58768	-0.00832422693
+smp_2144	plate7	Dexmedetomidine	0.05	False	58446	0.104800511
+smp_2145	plate7	Doxorubicin (hydrochloride)	0.05	False	57843	0.0155538096
+smp_2146	plate7	Menadione	0.05	False	34863	0.0245419449
+smp_2147	plate7	Glycyrrhizic acid	0.05	False	33004	-0.0502490923
+smp_2148	plate7	Dapagliflozin ((2S)-1,2-propanediol, hydrate)	0.05	False	30899	-0.0388534897
+smp_2149	plate7	Imiquimod (maleate)	0.05	False	38214	-0.0360863909
+smp_2150	plate7	Clofarabine	0.05	False	45661	0.00944632978
+smp_2151	plate7	Mozavaptan	0.05	False	42713	-0.00169323928
+smp_2152	plate7	Adagrasib	0.05	False	57267	0.0045308162
+smp_2153	plate7	Sulfatinib	0.05	False	47179	-0.0288704461
+smp_2154	plate7	Arbutin	0.05	False	47430	-0.0221241268
+smp_2155	plate7	Docetaxel (Trihydrate)	0.05	False	42025	0.0821649265
+smp_2156	plate7	Tranilast	0.05	False	52264	-0.0445561035
+smp_2157	plate7	Macitentan	0.05	False	69020	-0.069106847
+smp_2158	plate7	Eplerenone	0.05	False	64647	0.0098383326
+smp_2159	plate7	Mifepristone	0.05	False	45420	-0.0637846357
+smp_2160	plate7	Apalutamide	0.05	False	48784	-0.0123385434
+smp_2161	plate7	Niclosamide (olamine)	0.05	False	82954	-0.0214644159
+smp_2162	plate7	Peretinoin	0.05	False	73710	0.0174605854
+smp_2163	plate7	Tolmetin	0.05	False	78998	0.00122726645
+smp_2164	plate7	Adagrasib	0.05	False	64332	0.0170276243
+smp_2165	plate7	DMSO_TF	0	True	37355	-0.0244687645
+smp_2166	plate7	DMSO_TF	0	True	50678	0.0244687645
+smp_2167	plate8	Sivelestat (sodium tetrahydrate)	0.5	False	67967	-0.0447913552
+smp_2168	plate8	Posaconazole	0.5	False	74854	-0.076588015
+smp_2169	plate8	Tetracycline (hydrochloride)	0.5	False	90624	-0.0796823805
+smp_2170	plate8	Entecavir (monohydrate)	0.5	False	160394	-0.0940161123
+smp_2171	plate8	Sildenafil	0.5	False	63218	-0.0277277087
+smp_2172	plate8	Dimethyl fumarate	0.5	False	139694	0.00417788832
+smp_2173	plate8	Berbamine (dihydrochloride)	0.5	False	161348	-0.0397128294
+smp_2174	plate8	Daidzin	0.5	False	157072	-0.0236428188
+smp_2175	plate8	Fumaric acid	0.5	False	129085	-0.0740657584
+smp_2176	plate8	Pravastatin (sodium)	0.5	False	132498	-0.0359270292
+smp_2177	plate8	Almonertinib (mesylate)	0.5	False	192473	-0.116211664
+smp_2178	plate8	Irinotecan (hydrochloride)	0.5	False	116454	-0.0919420507
+smp_2179	plate8	Rucaparib (phosphate)	0.5	False	98850	-0.0120701808
+smp_2180	plate8	crizotinib	0.5	False	93020	-0.0110702314
+smp_2181	plate8	Dinaciclib	0.5	False	24551	-0.347735323
+smp_2182	plate8	Bosentan (hydrate)	0.5	False	98655	-0.0189718243
+smp_2183	plate8	Bestatin	0.5	False	145161	-0.0114036149
+smp_2184	plate8	Tadalafil	0.5	False	128100	0.00740629861
+smp_2185	plate8	Belumosudil	0.5	False	140684	-0.0204723409
+smp_2186	plate8	Flumatinib (mesylate)	0.5	False	117960	-0.0843632492
+smp_2187	plate8	Cytarabine	0.5	False	141423	-0.0359952003
+smp_2188	plate8	Afatinib	0.5	False	117357	-0.030504037
+smp_2189	plate8	Topotecan (hydrochloride)	0.5	False	91719	0.073073755
+smp_2190	plate8	Naproxen	0.5	False	134823	-0.0468509907
+smp_2191	plate8	Lucanthone	0.5	False	77179	-0.0013389079
+smp_2192	plate8	Trametinib (DMSO_TF solvate)	0.5	False	113898	-0.125821464
+smp_2193	plate8	Benproperine (phosphate)	0.5	False	81850	0.04182145
+smp_2194	plate8	Erlotinib	0.5	False	122341	-0.021403485
+smp_2195	plate8	Fenofibrate	0.5	False	73377	0.0266303682
+smp_2196	plate8	(S)-Crizotinib	0.5	False	82927	0.00151444007
+smp_2197	plate8	Rutin (trihydrate)	0.5	False	95486	-0.0462318162
+smp_2198	plate8	Pexidartinib (hydrochloride)	0.5	False	108220	-0.017568491
+smp_2199	plate8	Tirabrutinib	0.5	False	111223	0.00297515888
+smp_2200	plate8	Diphenhydramine	0.5	False	127355	-0.0289681485
+smp_2201	plate8	Harringtonine	0.5	False	116597	0.0556769944
+smp_2202	plate8	Epirubicin (hydrochloride)	0.5	False	66494	0.049670065
+smp_2203	plate8	Phenytoin (sodium)	0.5	False	60972	-0.00152797797
+smp_2204	plate8	Orlistat	0.5	False	74295	0.0193464397
+smp_2205	plate8	Sacubitril/Valsartan	0.5	False	128904	-0.0271564038
+smp_2206	plate8	Monocrotaline	0.5	False	94929	-0.046786954
+smp_2207	plate8	Finasteride	0.5	False	69490	0.0106192205
+smp_2208	plate8	Hydroxyurea	0.5	False	50649	0.0495135665
+smp_2209	plate8	Doxycycline (monohydrate)	0.5	False	59714	0.0498174577
+smp_2210	plate8	Pitavastatin (Calcium)	0.5	False	34903	0.0722152422
+smp_2211	plate8	Cobimetinib	0.5	False	48278	-0.0193011596
+smp_2212	plate8	Simotinib	0.5	False	54763	-0.0511877063
+smp_2213	plate8	Procainamide (hydrochloride)	0.5	False	59479	0.0394974118
+smp_2214	plate8	Silodosin	0.5	False	67202	0.0310942235
+smp_2215	plate8	Nevirapine	0.5	False	86471	-0.0303899246
+smp_2216	plate8	Cilostazol	0.5	False	109384	-0.0251694215
+smp_2217	plate8	Dorzolamide (hydrochloride)	0.5	False	88148	0.0125073702
+smp_2218	plate8	Roxadustat	0.5	False	80235	-0.013744107
+smp_2219	plate8	Canagliflozin	0.5	False	89579	-0.0144674664
+smp_2220	plate8	Decitabine	0.5	False	54019	-0.0363300313
+smp_2221	plate8	Ligustrazine	0.5	False	96345	0.00838292177
+smp_2222	plate8	Thymopentin	0.5	False	79171	0.0252223149
+smp_2223	plate8	Verteporfin	0.5	False	69257	0.0470106679
+smp_2224	plate8	Hesperidin	0.5	False	67119	0.00594366477
+smp_2225	plate8	Mebendazole	0.5	False	72141	-0.0298850726
+smp_2226	plate8	Betamethasone dipropionate	0.5	False	50688	0.00215899952
+smp_2227	plate8	Levobupivacaine (hydrochloride)	0.5	False	84327	-0.0177399686
+smp_2228	plate8	Rosiglitazone	0.5	False	86526	0.0325735912
+smp_2229	plate8	Quinidine (15% dihydroquinidine)	0.5	False	97633	-0.0714409149
+smp_2230	plate8	Verapamil	0.5	False	78748	0.0271096291
+smp_2231	plate8	Bisoprolol (hemifumarate)	0.5	False	50280	0.0749721582
+smp_2232	plate8	Penfluridol	0.5	False	46087	0.0738128445
+smp_2233	plate8	Ferulic acid	0.5	False	36767	0.0128901461
+smp_2234	plate8	Pemetrexed	0.5	False	53070	0.0207663866
+smp_2235	plate8	Fluvoxamine	0.5	False	80506	0.0707787584
+smp_2236	plate8	Cytarabine (hydrochloride)	0.5	False	80524	0.0268575105
+smp_2237	plate8	Bendamustine	0.5	False	72870	0.0159160379
+smp_2238	plate8	Altretamine	0.5	False	79794	0.0399890932
+smp_2239	plate8	Rifaximin	0.5	False	88568	0.0220597192
+smp_2240	plate8	Dexmedetomidine	0.5	False	101094	0.011221848
+smp_2241	plate8	Doxorubicin (hydrochloride)	0.5	False	51075	-0.0137098016
+smp_2242	plate8	Menadione	0.5	False	46955	0.104181789
+smp_2243	plate8	Glycyrrhizic acid	0.5	False	39667	0.0521419026
+smp_2244	plate8	Dapagliflozin ((2S)-1,2-propanediol, hydrate)	0.5	False	44360	0.0602426485
+smp_2245	plate8	Imiquimod (maleate)	0.5	False	34670	0.0850487734
+smp_2246	plate8	Clofarabine	0.5	False	49655	0.082967415
+smp_2247	plate8	Mozavaptan	0.5	False	66092	0.0698986026
+smp_2248	plate8	Adagrasib	0.5	False	72636	0.0716650627
+smp_2249	plate8	Sulfatinib	0.5	False	90292	0.0342561843
+smp_2250	plate8	Arbutin	0.5	False	79239	0.00528958366
+smp_2251	plate8	Docetaxel (Trihydrate)	0.5	False	62672	0.051007483
+smp_2252	plate8	Tranilast	0.5	False	93855	-0.0170626831
+smp_2253	plate8	Macitentan	0.5	False	94124	0.0277193422
+smp_2254	plate8	Eplerenone	0.5	False	86043	-0.0214920217
+smp_2255	plate8	Mifepristone	0.5	False	96076	-0.0529716385
+smp_2256	plate8	Apalutamide	0.5	False	118879	-0.0152620592
+smp_2257	plate8	Niclosamide (olamine)	0.5	False	138338	-0.0626212712
+smp_2258	plate8	Peretinoin	0.5	False	65160	0.186562861
+smp_2259	plate8	Tolmetin	0.5	False	118804	0.0141707648
+smp_2260	plate8	Adagrasib	0.05	False	92443	0.0238927612
+smp_2261	plate8	DMSO_TF	0	True	79224	0.0116915989
+smp_2262	plate8	DMSO_TF	0	True	118248	-0.0116915989
+smp_2263	plate9	Sivelestat (sodium tetrahydrate)	5	False	118690	0.0768331601
+smp_2264	plate9	Posaconazole	5	False	114895	-0.000636061796
+smp_2265	plate9	Tetracycline (hydrochloride)	5	False	105538	0.0915182852
+smp_2266	plate9	Entecavir (monohydrate)	5	False	119857	0.0266014573
+smp_2267	plate9	Sildenafil	5	False	113560	0.0691036254
+smp_2268	plate9	Dimethyl fumarate	5	False	99349	0.0537996116
+smp_2269	plate9	Berbamine (dihydrochloride)	5	False	86903	0.0577833868
+smp_2270	plate9	Daidzin	5	False	98473	0.0672777846
+smp_2271	plate9	Fumaric acid	5	False	100533	0.0430824826
+smp_2272	plate9	Pravastatin (sodium)	5	False	117225	0.0603230494
+smp_2273	plate9	Almonertinib (mesylate)	5	False	129269	0.0063607298
+smp_2274	plate9	Irinotecan (hydrochloride)	5	False	83802	-0.000966913741
+smp_2275	plate9	Rucaparib (phosphate)	5	False	125347	-0.0285081966
+smp_2276	plate9	crizotinib	5	False	59849	0.0548458381
+smp_2277	plate9	Dinaciclib	5	False	9252	-0.123600055
+smp_2278	plate9	Bosentan (hydrate)	5	False	26653	0.106006188
+smp_2279	plate9	Bestatin	5	False	58220	0.070987074
+smp_2280	plate9	Tadalafil	5	False	37569	0.146880837
+smp_2281	plate9	Belumosudil	5	False	46475	-0.101236141
+smp_2282	plate9	Flumatinib (mesylate)	5	False	56625	0.035573753
+smp_2283	plate9	Cytarabine	5	False	35130	0.0755039065
+smp_2284	plate9	Afatinib	5	False	39408	0.0330795125
+smp_2285	plate9	Topotecan (hydrochloride)	5	False	21672	-0.0138321869
+smp_2286	plate9	Naproxen	5	False	42988	0.0294357082
+smp_2287	plate9	Lucanthone	5	False	73364	0.0990414164
+smp_2288	plate9	Trametinib (DMSO_TF solvate)	5	False	48369	0.00373355416
+smp_2289	plate9	Benproperine (phosphate)	5	False	48867	0.11935779
+smp_2290	plate9	Erlotinib	5	False	44686	0.161119673
+smp_2291	plate9	Fenofibrate	5	False	48742	0.0805664028
+smp_2292	plate9	(S)-Crizotinib	5	False	56463	0.15627851
+smp_2293	plate9	Rutin (trihydrate)	5	False	49113	0.0682190949
+smp_2294	plate9	Pexidartinib (hydrochloride)	5	False	69967	0.11901998
+smp_2295	plate9	Tirabrutinib	5	False	88722	0.09836993
+smp_2296	plate9	Diphenhydramine	5	False	58886	0.0983031032
+smp_2297	plate9	Harringtonine	5	False	97184	0.30771056
+smp_2298	plate9	Epirubicin (hydrochloride)	5	False	61072	-0.413053251
+smp_2299	plate9	Phenytoin (sodium)	5	False	58311	0.139230903
+smp_2300	plate9	Orlistat	5	False	70988	0.0860307228
+smp_2301	plate9	Sacubitril/Valsartan	5	False	63127	0.105000144
+smp_2302	plate9	Monocrotaline	5	False	47355	0.0882782507
+smp_2303	plate9	Finasteride	5	False	49414	0.102895589
+smp_2304	plate9	Hydroxyurea	5	False	57998	0.155752056
+smp_2305	plate9	Doxycycline (monohydrate)	5	False	40328	0.13634846
+smp_2306	plate9	Pitavastatin (Calcium)	5	False	29065	0.192055107
+smp_2307	plate9	Cobimetinib	5	False	34160	0.114529084
+smp_2308	plate9	Simotinib	5	False	23846	0.11770343
+smp_2309	plate9	Procainamide (hydrochloride)	5	False	45596	0.111120698
+smp_2310	plate9	Silodosin	5	False	33062	0.078729869
+smp_2311	plate9	Nevirapine	5	False	69593	0.113868545
+smp_2312	plate9	Cilostazol	5	False	66145	0.0868985143
+smp_2313	plate9	Dorzolamide (hydrochloride)	5	False	60280	0.0869628984
+smp_2314	plate9	Roxadustat	5	False	56809	0.132329768
+smp_2315	plate9	Canagliflozin	5	False	33673	0.0823358501
+smp_2316	plate9	Decitabine	5	False	58452	0.0583115734
+smp_2317	plate9	Ligustrazine	5	False	39005	0.0597924597
+smp_2318	plate9	Thymopentin	5	False	46070	0.160588613
+smp_2319	plate9	Verteporfin	5	False	34645	0.222299901
+smp_2320	plate9	Hesperidin	5	False	40242	0.0551121392
+smp_2321	plate9	Mebendazole	5	False	120632	-0.107378248
+smp_2322	plate9	Betamethasone dipropionate	5	False	69606	-0.0406704428
+smp_2323	plate9	Levobupivacaine (hydrochloride)	5	False	52452	0.110009364
+smp_2324	plate9	Rosiglitazone	5	False	38488	0.107322009
+smp_2325	plate9	Quinidine (15% dihydroquinidine)	5	False	52309	0.0993275416
+smp_2326	plate9	Verapamil	5	False	62995	0.090290839
+smp_2327	plate9	Bisoprolol (hemifumarate)	5	False	50907	0.121841048
+smp_2328	plate9	Penfluridol	5	False	32686	0.0491213853
+smp_2329	plate9	Ferulic acid	5	False	43476	0.113459456
+smp_2330	plate9	Pemetrexed	5	False	27636	0.110322162
+smp_2331	plate9	Fluvoxamine	5	False	41284	0.0894931873
+smp_2332	plate9	Cytarabine (hydrochloride)	5	False	50596	0.0871454896
+smp_2333	plate9	Bendamustine	5	False	34758	0.00924629602
+smp_2334	plate9	Altretamine	5	False	54614	0.0487230059
+smp_2335	plate9	Rifaximin	5	False	48115	0.105689226
+smp_2336	plate9	Dexmedetomidine	5	False	56654	0.118811441
+smp_2337	plate9	Doxorubicin (hydrochloride)	5	False	32841	-0.16776783
+smp_2338	plate9	Menadione	5	False	35638	0.125052036
+smp_2339	plate9	Glycyrrhizic acid	5	False	56139	0.0456263145
+smp_2340	plate9	Dapagliflozin ((2S)-1,2-propanediol, hydrate)	5	False	48626	0.0854231209
+smp_2341	plate9	Imiquimod (maleate)	5	False	29795	0.081487289
+smp_2342	plate9	Clofarabine	5	False	36062	0.0947499546
+smp_2343	plate9	Mozavaptan	5	False	39677	0.100762007
+smp_2344	plate9	Adagrasib	5	False	74207	0.031879653
+smp_2345	plate9	Sulfatinib	5	False	70023	-0.0246315065
+smp_2346	plate9	Arbutin	5	False	58126	-0.0609388565
+smp_2347	plate9	Docetaxel (Trihydrate)	5	False	52420	0.104519981
+smp_2348	plate9	Tranilast	5	False	67639	0.0858104341
+smp_2349	plate9	Macitentan	5	False	36717	0.102318224
+smp_2350	plate9	Eplerenone	5	False	65707	0.0821210737
+smp_2351	plate9	Mifepristone	5	False	54390	0.0394199706
+smp_2352	plate9	Apalutamide	5	False	45847	0.102352936
+smp_2353	plate9	Niclosamide (olamine)	5	False	22470	0.0951344392
+smp_2354	plate9	Peretinoin	5	False	40523	0.138057105
+smp_2355	plate9	Tolmetin	5	False	50821	0.0692403584
+smp_2356	plate9	Adagrasib	0.05	False	46021	0.03712858
+smp_2357	plate9	DMSO_TF	0	True	66763	0.0284894155
+smp_2358	plate9	DMSO_TF	0	True	51081	-0.0284894155
+smp_2359	plate10	Bestatin (hydrochloride)	0.05	False	56037	-0.0202220104
+smp_2360	plate10	Ataluren	0.05	False	102120	0.0267193863
+smp_2361	plate10	Canagliflozin (hemihydrate)	0.05	False	68981	-0.0011352109
+smp_2362	plate10	Brimonidine	0.05	False	103607	-0.0344089373
+smp_2363	plate10	Filgotinib	0.05	False	77323	-0.00425923968
+smp_2364	plate10	Esmolol (hydrochloride)	0.05	False	124717	-0.099035617
+smp_2365	plate10	Omeprazole	0.05	False	132367	-0.0990464135
+smp_2366	plate10	Bicalutamide	0.05	False	97581	-0.00892054238
+smp_2367	plate10	Drospirenone	0.05	False	69847	-0.047095038
+smp_2368	plate10	Belinostat	0.05	False	72440	-0.0361468263
+smp_2369	plate10	Ponatinib	0.05	False	125333	-0.158954613
+smp_2370	plate10	Cabozantinib (S-malate)	0.05	False	58712	0.00696265326
+smp_2371	plate10	Benztropine (mesylate)	0.05	False	75079	-0.0269791344
+smp_2372	plate10	Indacaterol (maleate)	0.05	False	76828	0.0171239905
+smp_2373	plate10	Tirabrutinib (hydrochloride)	0.05	False	117877	-0.101085864
+smp_2374	plate10	Loperamide (hydrochloride)	0.05	False	60082	0.0179283627
+smp_2375	plate10	Econazole	0.05	False	83526	0.0297568055
+smp_2376	plate10	Phenylephrine (hydrochloride)	0.05	False	76862	0.0164499614
+smp_2377	plate10	Entrectinib	0.05	False	78922	0.0551359353
+smp_2378	plate10	Vortioxetine	0.05	False	74021	0.0395967008
+smp_2379	plate10	Omeprazole (sodium)	0.05	False	89652	0.0703613334
+smp_2380	plate10	Imiquimod (hydrochloride)	0.05	False	72684	0.0919683463
+smp_2381	plate10	Fingolimod (hydrochloride)	0.05	False	82769	0.0425734254
+smp_2382	plate10	Digitoxin	0.05	False	45784	0.313633663
+smp_2383	plate10	Vitamin K4	0.05	False	79484	0.0212547726
+smp_2384	plate10	Aprepitant	0.05	False	78746	-0.00429452455
+smp_2385	plate10	Oxaprozin	0.05	False	54378	0.0595571936
+smp_2386	plate10	Estrone sulfate (potassium)	0.05	False	72934	0.0288079402
+smp_2387	plate10	L-Eflornithine (monohydrochloride)	0.05	False	94208	0.0208415732
+smp_2388	plate10	Auranofin	0.05	False	63610	0.0304584412
+smp_2389	plate10	Carbamazepine	0.05	False	66725	0.0342872016
+smp_2390	plate10	Flutamide	0.05	False	86336	0.0181565794
+smp_2391	plate10	Zileuton	0.05	False	66526	0.0585637861
+smp_2392	plate10	Osimertinib (mesylate)	0.05	False	63646	0.035807425
+smp_2393	plate10	Sunitinib	0.05	False	53043	0.00321616709
+smp_2394	plate10	Erythromycin	0.05	False	63667	0.0685916424
+smp_2395	plate10	Abiraterone acetate	0.05	False	98300	-0.0204628567
+smp_2396	plate10	Asciminib	0.05	False	62294	-0.00235409656
+smp_2397	plate10	Allopurinol	0.05	False	135438	-0.120256694
+smp_2398	plate10	Clopidogrel	0.05	False	121528	-0.159612409
+smp_2399	plate10	Methyl aminolevulinate (hydrochloride)	0.05	False	66746	0.0317124474
+smp_2400	plate10	Captopril	0.05	False	50051	0.0830337758
+smp_2401	plate10	Voriconazole	0.05	False	67836	0.115133255
+smp_2402	plate10	Lopinavir	0.05	False	64068	0.0312623865
+smp_2403	plate10	Dexamethasone	0.05	False	65500	0.0310786432
+smp_2404	plate10	Ranolazine	0.05	False	61737	-0.0116848377
+smp_2405	plate10	Proglumide	0.05	False	50330	0.0109400825
+smp_2406	plate10	Neratinib	0.05	False	42435	0.114783808
+smp_2407	plate10	Meloxicam	0.05	False	73240	-0.0185432897
+smp_2408	plate10	Piroxicam	0.05	False	106457	-0.0401737785
+smp_2409	plate10	Nafamostat (mesylate)	0.05	False	61286	0.00294420526
+smp_2410	plate10	Idoxuridine	0.05	False	70286	-0.0485564263
+smp_2411	plate10	Atazanavir (sulfate)	0.05	False	91655	-0.004318005
+smp_2412	plate10	Malotilate	0.05	False	73677	-0.0312783347
+smp_2413	plate10	Pioglitazone	0.05	False	73493	-0.017196893
+smp_2414	plate10	Bexarotene	0.05	False	74241	-0.0135507949
+smp_2415	plate10	Tazarotene	0.05	False	71890	0.0655777167
+smp_2416	plate10	Vandetanib	0.05	False	64619	-0.0139418581
+smp_2417	plate10	Delamanid	0.05	False	70256	0.0458880209
+smp_2418	plate10	Ivermectin	0.05	False	77487	0.0409612066
+smp_2419	plate10	Citalopram (hydrobromide)	0.05	False	135785	-0.072868269
+smp_2420	plate10	Acetazolamide	0.05	False	64447	-0.0160785181
+smp_2421	plate10	Fulvestrant	0.05	False	70508	0.0597734216
+smp_2422	plate10	Talc	0.05	False	46467	0.0362661735
+smp_2423	plate10	Pentoxifylline	0.05	False	78335	-0.0961804959
+smp_2424	plate10	Artemether	0.05	False	109917	-0.0589901573
+smp_2425	plate10	Cyclosporin A	0.05	False	119582	-0.112386308
+smp_2426	plate10	Crizotinib (hydrochloride)	0.05	False	72650	-0.0246581919
+smp_2427	plate10	Trametinib	0.05	False	58316	-0.0681372837
+smp_2428	plate10	Fedratinib (hydrochloride hydrate)	0.05	False	73602	-0.0881293438
+smp_2429	plate10	Darolutamide	0.05	False	110147	-0.118719379
+smp_2430	plate10	γ-Oryzanol	0.05	False	99670	-0.0792862974
+smp_2431	plate10	Clobetasol propionate	0.05	False	55953	-0.0345391028
+smp_2432	plate10	Budesonide	0.05	False	67044	-0.0255580533
+smp_2433	plate10	Cinacalcet	0.05	False	50772	0.00176521098
+smp_2434	plate10	Valdecoxib	0.05	False	36772	0.0358617317
+smp_2435	plate10	Pimozide	0.05	False	28177	0.0376854421
+smp_2436	plate10	Methotrexate	0.05	False	36365	0.0274125439
+smp_2437	plate10	5-Fluorouracil	0.05	False	66560	-0.000494051076
+smp_2438	plate10	Ixazomib citrate	0.05	False	68696	0.000375609381
+smp_2439	plate10	5-Azacytidine	0.05	False	74498	0.0320912108
+smp_2440	plate10	Aspirin	0.05	False	92983	-0.02276665
+smp_2441	plate10	Vismodegib	0.05	False	48524	0.000186280563
+smp_2442	plate10	Dihydroartemisinin	0.05	False	57239	0.0652881437
+smp_2443	plate10	Lactate (calcium)	0.05	False	87295	-0.0505059638
+smp_2444	plate10	Ouabain (Octahydrate)	0.05	False	119396	0.0607506535
+smp_2445	plate10	Gefitinib	0.05	False	104283	-0.100669039
+smp_2446	plate10	Methylthiouracil	0.05	False	161053	-0.0572970061
+smp_2447	plate10	Binimetinib	0.05	False	135899	-0.129344631
+smp_2448	plate10	Perindopril (erbumine)	0.05	False	140339	-0.0588258809
+smp_2449	plate10	Dapagliflozin	0.05	False	99349	0.00474412191
+smp_2450	plate10	Panobinostat	0.05	False	95507	0.106711391
+smp_2451	plate10	Uridine	0.05	False	97448	0.00183457874
+smp_2452	plate10	Adagrasib	0.05	False	106066	-0.0196937026
+smp_2453	plate10	DMSO_TF	0	True	141054	-0.0468160585
+smp_2454	plate10	DMSO_TF	0	True	59984	0.0468160585
+smp_2455	plate11	Bestatin (hydrochloride)	0.5	False	101258	0.0222446528
+smp_2456	plate11	Ataluren	0.5	False	63290	0.0847698392
+smp_2457	plate11	Canagliflozin (hemihydrate)	0.5	False	31426	-0.0883319052
+smp_2458	plate11	Brimonidine	0.5	False	50944	-0.141632776
+smp_2459	plate11	Filgotinib	0.5	False	57853	0.0157188338
+smp_2460	plate11	Esmolol (hydrochloride)	0.5	False	57693	-0.0886002041
+smp_2461	plate11	Omeprazole	0.5	False	39521	-0.0832298197
+smp_2462	plate11	Bicalutamide	0.5	False	55250	-0.062045557
+smp_2463	plate11	Drospirenone	0.5	False	49285	-0.134427095
+smp_2464	plate11	Belinostat	0.5	False	36913	0.0348073077
+smp_2465	plate11	Ponatinib	0.5	False	61980	-0.0526976981
+smp_2466	plate11	Cabozantinib (S-malate)	0.5	False	53719	-0.0390877084
+smp_2467	plate11	Benztropine (mesylate)	0.5	False	89091	0.0998577187
+smp_2468	plate11	Indacaterol (maleate)	0.5	False	89874	0.14643813
+smp_2469	plate11	Tirabrutinib (hydrochloride)	0.5	False	94754	0.0892921087
+smp_2470	plate11	Loperamide (hydrochloride)	0.5	False	107737	0.135818003
+smp_2471	plate11	Econazole	0.5	False	95283	0.0937691998
+smp_2472	plate11	Phenylephrine (hydrochloride)	0.5	False	107746	0.180491075
+smp_2473	plate11	Entrectinib	0.5	False	114416	0.149412188
+smp_2474	plate11	Vortioxetine	0.5	False	102288	0.113276125
+smp_2475	plate11	Omeprazole (sodium)	0.5	False	104934	0.0125939609
+smp_2476	plate11	Imiquimod (hydrochloride)	0.5	False	107904	0.0101687213
+smp_2477	plate11	Fingolimod (hydrochloride)	0.5	False	99753	0.0834824548
+smp_2478	plate11	Digitoxin	0.5	False	76107	0.33394826
+smp_2479	plate11	Vitamin K4	0.5	False	64100	-0.0458829277
+smp_2480	plate11	Aprepitant	0.5	False	72060	-0.0231766331
+smp_2481	plate11	Oxaprozin	0.5	False	38208	0.0432499741
+smp_2482	plate11	Estrone sulfate (potassium)	0.5	False	50923	0.0365599349
+smp_2483	plate11	L-Eflornithine (monohydrochloride)	0.5	False	57188	-0.107458597
+smp_2484	plate11	Auranofin	0.5	False	76256	-0.0201417736
+smp_2485	plate11	Carbamazepine	0.5	False	55617	0.066061609
+smp_2486	plate11	Flutamide	0.5	False	59047	-0.0635319337
+smp_2487	plate11	Zileuton	0.5	False	94180	-0.00270969009
+smp_2488	plate11	Osimertinib (mesylate)	0.5	False	88235	0.0635367804
+smp_2489	plate11	Sunitinib	0.5	False	71700	-0.0770899572
+smp_2490	plate11	Erythromycin	0.5	False	58984	0.103768875
+smp_2491	plate11	Abiraterone acetate	0.5	False	97739	0.13039271
+smp_2492	plate11	Asciminib	0.5	False	107023	0.0662254526
+smp_2493	plate11	Allopurinol	0.5	False	79004	0.103307365
+smp_2494	plate11	Clopidogrel	0.5	False	97935	-0.0444222973
+smp_2495	plate11	Methyl aminolevulinate (hydrochloride)	0.5	False	125208	-0.00689478768
+smp_2496	plate11	Captopril	0.5	False	91443	0.00196986442
+smp_2497	plate11	Voriconazole	0.5	False	94861	0.0036626774
+smp_2498	plate11	Lopinavir	0.5	False	107615	-0.0765875706
+smp_2499	plate11	Dexamethasone	0.5	False	83112	0.118684702
+smp_2500	plate11	Ranolazine	0.5	False	100801	-0.0314030793
+smp_2501	plate11	Proglumide	0.5	False	68756	0.0800421524
+smp_2502	plate11	Neratinib	0.5	False	104629	0.0665791961
+smp_2503	plate11	Meloxicam	0.5	False	62077	0.0731889776
+smp_2504	plate11	Piroxicam	0.5	False	83248	0.0237065471
+smp_2505	plate11	Nafamostat (mesylate)	0.5	False	62388	0.0668098612
+smp_2506	plate11	Idoxuridine	0.5	False	59515	0.111047719
+smp_2507	plate11	Atazanavir (sulfate)	0.5	False	57623	-0.0483813501
+smp_2508	plate11	Malotilate	0.5	False	71936	-0.0873291756
+smp_2509	plate11	Pioglitazone	0.5	False	45601	0.0801961623
+smp_2510	plate11	Bexarotene	0.5	False	81063	-0.015724266
+smp_2511	plate11	Tazarotene	0.5	False	60132	0.00126546983
+smp_2512	plate11	Vandetanib	0.5	False	52677	0.045692743
+smp_2513	plate11	Delamanid	0.5	False	70528	-0.0888939377
+smp_2514	plate11	Ivermectin	0.5	False	38339	0.167604035
+smp_2515	plate11	Citalopram (hydrobromide)	0.5	False	38047	0.149980068
+smp_2516	plate11	Acetazolamide	0.5	False	59476	-0.0432489259
+smp_2517	plate11	Fulvestrant	0.5	False	51401	0.106445725
+smp_2518	plate11	Talc	0.5	False	63167	-0.0409788367
+smp_2519	plate11	Pentoxifylline	0.5	False	62839	-0.0381955924
+smp_2520	plate11	Artemether	0.5	False	62959	0.0798322967
+smp_2521	plate11	Cyclosporin A	0.5	False	55880	-0.0994630574
+smp_2522	plate11	Crizotinib (hydrochloride)	0.5	False	43206	-0.0673691382
+smp_2523	plate11	Trametinib	0.5	False	71070	-0.0729498593
+smp_2524	plate11	Fedratinib (hydrochloride hydrate)	0.5	False	74064	-0.0261368934
+smp_2525	plate11	Darolutamide	0.5	False	74952	-0.0456705984
+smp_2526	plate11	γ-Oryzanol	0.5	False	62820	-0.0777600434
+smp_2527	plate11	Clobetasol propionate	0.5	False	52781	0.0862447308
+smp_2528	plate11	Budesonide	0.5	False	56076	0.0447926026
+smp_2529	plate11	Cinacalcet	0.5	False	56569	-0.00750849005
+smp_2530	plate11	Valdecoxib	0.5	False	45462	-0.0916313546
+smp_2531	plate11	Pimozide	0.5	False	42295	0.0546563318
+smp_2532	plate11	Methotrexate	0.5	False	82665	0.0113539015
+smp_2533	plate11	5-Fluorouracil	0.5	False	74841	-0.0544180129
+smp_2534	plate11	Ixazomib citrate	0.5	False	55962	-0.17765446
+smp_2535	plate11	5-Azacytidine	0.5	False	52478	0.0389837593
+smp_2536	plate11	Aspirin	0.5	False	65888	-0.0644822487
+smp_2537	plate11	Vismodegib	0.5	False	56438	-0.0712228494
+smp_2538	plate11	Dihydroartemisinin	0.5	False	71178	2.32276869e-05
+smp_2539	plate11	Lactate (calcium)	0.5	False	53811	0.121863753
+smp_2540	plate11	Ouabain (Octahydrate)	0.5	False	50916	0.449203308
+smp_2541	plate11	Gefitinib	0.5	False	92835	0.00480224569
+smp_2542	plate11	Methylthiouracil	0.5	False	91663	0.102128387
+smp_2543	plate11	Binimetinib	0.5	False	89614	-0.0100472916
+smp_2544	plate11	Perindopril (erbumine)	0.5	False	121218	0.00253822652
+smp_2545	plate11	Dapagliflozin	0.5	False	129375	0.00403955585
+smp_2546	plate11	Panobinostat	0.5	False	79133	0.32598855
+smp_2547	plate11	Uridine	0.5	False	116418	-0.0305295221
+smp_2548	plate11	Adagrasib	0.05	False	86481	-0.0353254376
+smp_2549	plate11	DMSO_TF	0	True	84649	-0.00776130061
+smp_2550	plate11	DMSO_TF	0	True	95423	0.00776130061
+smp_2551	plate12	Bestatin (hydrochloride)	5	False	107041	0.0168572005
+smp_2552	plate12	Ataluren	5	False	178892	-0.125486241
+smp_2553	plate12	Canagliflozin (hemihydrate)	5	False	209642	-0.0824793179
+smp_2554	plate12	Brimonidine	5	False	160081	-0.0689568559
+smp_2555	plate12	Filgotinib	5	False	180642	-0.0494698334
+smp_2556	plate12	Esmolol (hydrochloride)	5	False	158002	-0.0575874687
+smp_2557	plate12	Omeprazole	5	False	162537	-0.0394886335
+smp_2558	plate12	Bicalutamide	5	False	158879	-0.0262612539
+smp_2559	plate12	Drospirenone	5	False	157936	-0.0461401451
+smp_2560	plate12	Belinostat	5	False	91519	0.155249775
+smp_2561	plate12	Ponatinib	5	False	133861	-0.175591566
+smp_2562	plate12	Cabozantinib (S-malate)	5	False	114758	0.0237733079
+smp_2563	plate12	Benztropine (mesylate)	5	False	95571	-0.0426320069
+smp_2564	plate12	Indacaterol (maleate)	5	False	100263	-0.0433761904
+smp_2565	plate12	Tirabrutinib (hydrochloride)	5	False	108668	-0.0140711036
+smp_2566	plate12	Loperamide (hydrochloride)	5	False	91142	-0.0418389116
+smp_2567	plate12	Econazole	5	False	101691	0.000339147108
+smp_2568	plate12	Phenylephrine (hydrochloride)	5	False	84758	-0.0448415456
+smp_2569	plate12	Entrectinib	5	False	56863	-0.0203215253
+smp_2570	plate12	Vortioxetine	5	False	41138	-0.0259835689
+smp_2571	plate12	Omeprazole (sodium)	5	False	82520	-0.0349843314
+smp_2572	plate12	Imiquimod (hydrochloride)	5	False	31563	-0.00406845598
+smp_2573	plate12	Fingolimod (hydrochloride)	5	False	46013	-0.00737323156
+smp_2574	plate12	Digitoxin	5	False	35231	0.314367034
+smp_2575	plate12	Vitamin K4	5	False	97835	-0.00582563688
+smp_2576	plate12	Aprepitant	5	False	97535	-0.00235498982
+smp_2577	plate12	Oxaprozin	5	False	89088	0.0446111327
+smp_2578	plate12	Estrone sulfate (potassium)	5	False	102010	-0.0661844628
+smp_2579	plate12	L-Eflornithine (monohydrochloride)	5	False	84318	-0.0280000647
+smp_2580	plate12	Auranofin	5	False	52208	0.0667306671
+smp_2581	plate12	Carbamazepine	5	False	56411	-0.0130202801
+smp_2582	plate12	Flutamide	5	False	78601	-0.0508319128
+smp_2583	plate12	Zileuton	5	False	95882	-0.00560454158
+smp_2584	plate12	Osimertinib (mesylate)	5	False	65405	0.0156798063
+smp_2585	plate12	Sunitinib	5	False	41924	-0.00983762242
+smp_2586	plate12	Erythromycin	5	False	66893	0.050012186
+smp_2587	plate12	Abiraterone acetate	5	False	97184	0.00724732515
+smp_2588	plate12	Asciminib	5	False	74778	0.0103525227
+smp_2589	plate12	Allopurinol	5	False	131006	0.0266346423
+smp_2590	plate12	Clopidogrel	5	False	95291	0.00146939677
+smp_2591	plate12	Methyl aminolevulinate (hydrochloride)	5	False	116115	0.0273051907
+smp_2592	plate12	Captopril	5	False	104693	0.0102624451
+smp_2593	plate12	Voriconazole	5	False	94868	-0.00307901953
+smp_2594	plate12	Lopinavir	5	False	65815	0.0292819961
+smp_2595	plate12	Dexamethasone	5	False	82767	-0.00175743203
+smp_2596	plate12	Ranolazine	5	False	81946	0.0462067179
+smp_2597	plate12	Proglumide	5	False	89695	0.0573046838
+smp_2598	plate12	Neratinib	5	False	71616	0.0796311964
+smp_2599	plate12	Meloxicam	5	False	71502	0.0248182377
+smp_2600	plate12	Piroxicam	5	False	112312	-0.0153550218
+smp_2601	plate12	Nafamostat (mesylate)	5	False	118546	0.0156026273
+smp_2602	plate12	Idoxuridine	5	False	122037	-0.0296198108
+smp_2603	plate12	Atazanavir (sulfate)	5	False	93754	-0.0201948746
+smp_2604	plate12	Malotilate	5	False	108056	-0.0161764714
+smp_2605	plate12	Pioglitazone	5	False	135543	0.00899847381
+smp_2606	plate12	Bexarotene	5	False	109339	0.00734484393
+smp_2607	plate12	Tazarotene	5	False	103101	0.0212709708
+smp_2608	plate12	Vandetanib	5	False	104501	0.00396717149
+smp_2609	plate12	Delamanid	5	False	126302	-0.0274544042
+smp_2610	plate12	Ivermectin	5	False	113949	-0.0105878485
+smp_2611	plate12	Citalopram (hydrobromide)	5	False	106855	-0.0112303501
+smp_2612	plate12	Acetazolamide	5	False	88748	0.0110449424
+smp_2613	plate12	Fulvestrant	5	False	192318	-0.101509469
+smp_2614	plate12	Talc	5	False	107859	-0.00826309474
+smp_2615	plate12	Pentoxifylline	5	False	135185	0.0267185533
+smp_2616	plate12	Artemether	5	False	134499	0.00907486531
+smp_2617	plate12	Cyclosporin A	5	False	100281	-0.0111909413
+smp_2618	plate12	Crizotinib (hydrochloride)	5	False	141746	-0.0189318288
+smp_2619	plate12	Trametinib	5	False	167919	-0.111768641
+smp_2620	plate12	Fedratinib (hydrochloride hydrate)	5	False	106855	-0.000524218741
+smp_2621	plate12	Darolutamide	5	False	103208	-0.0157565321
+smp_2622	plate12	γ-Oryzanol	5	False	99472	0.0299692394
+smp_2623	plate12	Clobetasol propionate	5	False	90170	-0.0103128829
+smp_2624	plate12	Budesonide	5	False	89151	0.000616065501
+smp_2625	plate12	Cinacalcet	5	False	141765	-0.0197645534
+smp_2626	plate12	Valdecoxib	5	False	95538	0.00395232943
+smp_2627	plate12	Pimozide	5	False	100517	0.0102294749
+smp_2628	plate12	Methotrexate	5	False	134187	0.0114889845
+smp_2629	plate12	5-Fluorouracil	5	False	107647	-0.000913037202
+smp_2630	plate12	Ixazomib citrate	5	False	63168	0.142360972
+smp_2631	plate12	5-Azacytidine	5	False	69937	-0.0192328455
+smp_2632	plate12	Aspirin	5	False	85199	0.0202169181
+smp_2633	plate12	Vismodegib	5	False	74037	0.0761527425
+smp_2634	plate12	Dihydroartemisinin	5	False	62662	0.0735838267
+smp_2635	plate12	Lactate (calcium)	5	False	89082	-0.00545083359
+smp_2636	plate12	Ouabain (Octahydrate)	5	False	93100	0.400652547
+smp_2637	plate12	Gefitinib	5	False	178000	0.0334625519
+smp_2638	plate12	Methylthiouracil	5	False	188785	-0.0805235521
+smp_2639	plate12	Binimetinib	5	False	175760	-0.141393931
+smp_2640	plate12	Perindopril (erbumine)	5	False	125883	-0.00551155267
+smp_2641	plate12	Dapagliflozin	5	False	141292	-0.0442967059
+smp_2642	plate12	Panobinostat	5	False	77802	0.264279824
+smp_2643	plate12	Uridine	5	False	198625	-0.0632510287
+smp_2644	plate12	Adagrasib	0.05	False	102146	0.00339923136
+smp_2645	plate12	DMSO_TF	0	True	77980	0.00863470832
+smp_2646	plate12	DMSO_TF	0	True	99176	-0.00863470832
+smp_2647	plate13	Abemaciclib	0.05	False	96537	-0.0461788866
+smp_2648	plate13	c-Kit-IN-1	0.05	False	89568	0.0715714939
+smp_2649	plate13	Ralimetinib dimesylate	0.05	False	96426	-0.0296846044
+smp_2650	plate13	PF-06260933	0.05	False	120263	0.0100240605
+smp_2651	plate13	Sonidegib	0.05	False	112898	-0.0626201174
+smp_2652	plate13	Hydroxyfasudil	0.05	False	130572	0.00671029371
+smp_2653	plate13	Pralsetinib	0.05	False	99573	-0.0331991607
+smp_2654	plate13	olaparib	0.05	False	86517	-0.0426691871
+smp_2655	plate13	DTP3	0.05	False	116454	-0.0265120244
+smp_2656	plate13	Methylprednisolone succinate	0.05	False	100267	-0.0039970675
+smp_2657	plate13	Chlorhexidine (diacetate)	0.5	False	82789	-0.043139683
+smp_2658	plate13	Berbamine	0.5	False	100166	-0.0830084632
+smp_2659	plate13	Terfenadine	0.5	False	29620	-0.183223929
+smp_2660	plate13	Pentamidine (isethionate)	0.5	False	34448	-0.0484915985
+smp_2661	plate13	Sulfisoxazole	0.5	False	44050	0.0126838316
+smp_2662	plate13	Captopril	0.05	False	58750	-0.0974714665
+smp_2663	plate13	Malotilate	0.05	False	61944	-0.0383106932
+smp_2664	plate13	Nimesulide	5	False	38765	-0.0843435572
+smp_2665	plate13	Nimesulide	0.5	False	68385	0.0101975974
+smp_2666	plate13	Nimesulide	0.05	False	67806	-0.0504427411
+smp_2667	plate13	Adagrasib	0.05	False	80582	0.0139064354
+smp_2668	plate13	Adagrasib	0.05	False	74141	-0.00850914802
+smp_2669	plate13	DMSO_TF	0	True	66756	0.0261470179
+smp_2670	plate13	DMSO_TF	0	True	44884	-0.0261470179
+smp_2671	plate13	Berbamine (dihydrochloride)	5	False	23224	-0.142177448
+smp_2672	plate13	Daidzin	5	False	24389	-0.101482817
+smp_2673	plate13	Fumaric acid	5	False	71953	-0.0188245884
+smp_2674	plate13	Pravastatin (sodium)	5	False	46798	0.00119167042
+smp_2675	plate13	Almonertinib (mesylate)	5	False	28750	-0.00119089556
+smp_2676	plate13	Irinotecan (hydrochloride)	5	False	40140	-0.170119665
+smp_2677	plate13	Belumosudil	5	False	48913	-0.0524694422
+smp_2678	plate13	Flumatinib (mesylate)	5	False	74286	-0.079018752
+smp_2679	plate13	Cytarabine	5	False	99382	0.00830532241
+smp_2680	plate13	Afatinib	5	False	82217	0.0739360794
+smp_2681	plate13	Topotecan (hydrochloride)	5	False	90293	-0.00697726774
+smp_2682	plate13	Naproxen	5	False	65906	-0.0176838289
+smp_2683	plate13	Berbamine (dihydrochloride)	0.5	False	84725	-0.0513385952
+smp_2684	plate13	Daidzin	0.5	False	77496	-0.029190468
+smp_2685	plate13	Fumaric acid	0.5	False	95341	-0.00964024341
+smp_2686	plate13	Pravastatin (sodium)	0.5	False	99303	0.00468028159
+smp_2687	plate13	Almonertinib (mesylate)	0.5	False	108342	-0.00332679629
+smp_2688	plate13	Irinotecan (hydrochloride)	0.5	False	109899	-0.0410732703
+smp_2689	plate13	Belumosudil	0.5	False	119837	-0.0326850644
+smp_2690	plate13	Flumatinib (mesylate)	0.5	False	114768	-0.040297459
+smp_2691	plate13	Cytarabine	0.5	False	96183	-0.0102715522
+smp_2692	plate13	Afatinib	0.5	False	80858	-4.87322393e-05
+smp_2693	plate13	Topotecan (hydrochloride)	0.5	False	113982	0.00887729316
+smp_2694	plate13	Naproxen	0.5	False	117178	-0.0147146186
+smp_2695	plate13	Berbamine (dihydrochloride)	0.05	False	108937	0.00452165918
+smp_2696	plate13	Daidzin	0.05	False	79496	-0.0246432684
+smp_2697	plate13	Fumaric acid	0.05	False	98475	0.0542597985
+smp_2698	plate13	Pravastatin (sodium)	0.05	False	83827	-0.0137999246
+smp_2699	plate13	Almonertinib (mesylate)	0.05	False	88447	-0.0147321189
+smp_2700	plate13	Irinotecan (hydrochloride)	0.05	False	74946	-0.0737895009
+smp_2701	plate13	Belumosudil	0.05	False	108244	-0.0167917141
+smp_2702	plate13	Flumatinib (mesylate)	0.05	False	93863	-0.0188513501
+smp_2703	plate13	Cytarabine	0.05	False	110696	0.0392784571
+smp_2704	plate13	Afatinib	0.05	False	84775	0.0217999686
+smp_2705	plate13	Topotecan (hydrochloride)	0.05	False	109369	-0.00735718953
+smp_2706	plate13	Naproxen	0.05	False	92251	-0.0125304753
+smp_2707	plate13	Daptomycin	5	False	85532	0.164498948
+smp_2708	plate13	Glasdegib	5	False	85842	0.0172466014
+smp_2709	plate13	Regorafenib	5	False	98345	0.0445105798
+smp_2710	plate13	Fostamatinib (disodium hexahydrate)	5	False	78489	0.0112676032
+smp_2711	plate13	Ivabradine (hydrochloride)	5	False	87444	-0.00677230097
+smp_2712	plate13	Plicamycin	5	False	62214	-0.0232501924
+smp_2713	plate13	Ornidazole	5	False	104050	-0.0167068951
+smp_2714	plate13	Larotrectinib sulfate	5	False	100190	-0.00962561165
+smp_2715	plate13	Edoxaban (tosylate monohydrate)	5	False	108107	-0.0102313075
+smp_2716	plate13	Rimonabant (Hydrochloride)	5	False	100339	0.0140330958
+smp_2717	plate13	Carbidopa (monohydrate)	5	False	104087	0.0220160279
+smp_2718	plate13	Ribociclib	5	False	96124	0.00080665795
+smp_2719	plate13	Daptomycin	0.5	False	53591	0.173420959
+smp_2720	plate13	Glasdegib	0.5	False	101501	0.024792107
+smp_2721	plate13	Regorafenib	0.5	False	58016	0.00758661373
+smp_2722	plate13	Fostamatinib (disodium hexahydrate)	0.5	False	72525	0.0117375956
+smp_2723	plate13	Ivabradine (hydrochloride)	0.5	False	50482	-0.0192354825
+smp_2724	plate13	Plicamycin	0.5	False	90857	0.0462196314
+smp_2725	plate13	Ornidazole	0.5	False	73496	0.0772961416
+smp_2726	plate13	Larotrectinib sulfate	0.5	False	63183	0.0517539009
+smp_2727	plate13	Edoxaban (tosylate monohydrate)	0.5	False	56644	-0.0029036653
+smp_2728	plate13	Rimonabant (Hydrochloride)	0.5	False	53403	-0.00568121548
+smp_2729	plate13	Carbidopa (monohydrate)	0.5	False	75411	0.00119534816
+smp_2730	plate13	Ribociclib	0.5	False	82674	0.000403051258
+smp_2731	plate13	Daptomycin	0.05	False	80118	0.0721237404
+smp_2732	plate13	Glasdegib	0.05	False	92624	-0.0244036557
+smp_2733	plate13	Regorafenib	0.05	False	109985	0.0340478093
+smp_2734	plate13	Fostamatinib (disodium hexahydrate)	0.05	False	102161	-0.0618779299
+smp_2735	plate13	Ivabradine (hydrochloride)	0.05	False	75625	-0.0125400308
+smp_2736	plate13	Plicamycin	0.05	False	107341	-0.0207572418
+smp_2737	plate13	Ornidazole	0.05	False	116414	-0.0363534206
+smp_2738	plate13	Larotrectinib sulfate	0.05	False	76374	-0.00550475509
+smp_2739	plate13	Edoxaban (tosylate monohydrate)	0.05	False	126206	-0.0021438156
+smp_2740	plate13	Rimonabant (Hydrochloride)	0.05	False	94517	-0.0694734943
+smp_2741	plate13	Carbidopa (monohydrate)	0.05	False	137889	-0.00664325904
+smp_2742	plate13	Ribociclib	0.05	False	95050	-0.0265813534
+smp_2743	plate14	8-Hydroxyquinoline	5	False	53751	-0.0115364475
+smp_2744	plate14	Chlorhexidine (diacetate)	5	False	76471	-0.0456560756
+smp_2745	plate14	Trifluridine	5	False	54348	-0.0524956879
+smp_2746	plate14	Berbamine	5	False	62165	-0.0580307233
+smp_2747	plate14	Retinoic acid	5	False	77739	-0.0852472502
+smp_2748	plate14	Cysteamine (hydrochloride)	5	False	68361	-0.150112003
+smp_2749	plate14	Vinblastine (sulfate)	5	False	71298	-0.0114205305
+smp_2750	plate14	Pasireotide (acetate)	5	False	66739	-0.0896709598
+smp_2751	plate14	Riluzole hydrochloride	5	False	89702	-0.296862122
+smp_2752	plate14	Palmatine (chloride)	5	False	71901	-0.0626041633
+smp_2753	plate14	Isocorydine	5	False	62332	-0.138409324
+smp_2754	plate14	Raltitrexed	5	False	55704	-0.0699537197
+smp_2755	plate14	Furosemide	5	False	79515	-0.0151327405
+smp_2756	plate14	Clotrimazole	5	False	80420	-0.0925573768
+smp_2757	plate14	Sodium Salicylate	5	False	103318	-0.0721794663
+smp_2758	plate14	Gallic acid (hydrate)	5	False	72529	-0.0531502564
+smp_2759	plate14	(R)-Verapamil (hydrochloride)	5	False	81100	-0.0700158143
+smp_2760	plate14	Pyridoxine	5	False	70974	-0.0629460714
+smp_2761	plate14	Acetohexamide	5	False	70623	-0.0667328898
+smp_2762	plate14	Temsirolimus	5	False	81451	-0.0179238088
+smp_2763	plate14	Megestrol	5	False	91432	-0.0801487653
+smp_2764	plate14	Diammonium Glycyrrhizinate	5	False	70973	-0.099618542
+smp_2765	plate14	L-Thyroxine (sodium salt pentahydrate)	5	False	430	0.135738576
+smp_2766	plate14	Ropivacaine (hydrochloride monohydrate)	5	False	62224	0.0028734571
+smp_2767	plate14	Salicylic acid	5	False	82231	-0.0439136654
+smp_2768	plate14	Quinestrol	5	False	86796	-0.122954916
+smp_2769	plate14	Tofacitinib	5	False	58046	-0.0713470234
+smp_2770	plate14	Trimetrexate	5	False	63768	-0.0364846084
+smp_2771	plate14	Gemfibrozil	5	False	99945	-0.0725286446
+smp_2772	plate14	18β-Glycyrrhetinic acid	5	False	68912	-0.0583254705
+smp_2773	plate14	Tolcapone	5	False	68106	-0.0815299737
+smp_2774	plate14	Terfenadine	5	False	65736	-0.0266725644
+smp_2775	plate14	Aliskiren	5	False	81546	-0.0790705704
+smp_2776	plate14	Fluvoxamine (maleate)	5	False	61834	-0.0660503163
+smp_2777	plate14	S-Adenosyl-L-methionine (disulfate tosylate)	5	False	72458	-0.146361382
+smp_2778	plate14	Idarubicin (hydrochloride)	5	False	34772	-0.438566002
+smp_2779	plate14	Elagolix sodium	5	False	41114	-0.065927467
+smp_2780	plate14	Resveratrol	5	False	43392	-0.0156961021
+smp_2781	plate14	Rapamycin	5	False	57896	0.0036864403
+smp_2782	plate14	Saquinavir	5	False	42754	-0.0305635345
+smp_2783	plate14	Tofacitinib (citrate)	5	False	76835	0.043741437
+smp_2784	plate14	Thymol	5	False	65561	-0.0791699926
+smp_2785	plate14	Almonertinib (hydrochloride)	5	False	53417	0.0179257394
+smp_2786	plate14	Darinaparsin	5	False	76421	-0.099671239
+smp_2787	plate14	Vilanterol	5	False	73313	-0.025723529
+smp_2788	plate14	Lenalidomide (hemihydrate)	5	False	54866	-0.0431597139
+smp_2789	plate14	Azithromycin (hydrate)	5	False	70410	0.00606352805
+smp_2790	plate14	Ritonavir	5	False	65126	-0.0605788782
+smp_2791	plate14	Pentamidine (isethionate)	5	False	80890	-0.00390344321
+smp_2792	plate14	Adenosine	5	False	80087	-0.0730573466
+smp_2793	plate14	Sulfisoxazole	5	False	61991	-0.0182326811
+smp_2794	plate14	Norepinephrine (hydrochloride)	5	False	65841	-0.0471855896
+smp_2795	plate14	Ciclopirox	5	False	53098	0.00648315036
+smp_2796	plate14	Lidocaine (hydrochloride)	5	False	63720	-0.0594034765
+smp_2797	plate14	Demeclocycline	5	False	70017	-0.0427148337
+smp_2798	plate14	Mitoxantrone (dihydrochloride)	5	False	69156	-0.0865259511
+smp_2799	plate14	Larotrectinib	5	False	61576	-0.0128178097
+smp_2800	plate14	Busulfan	5	False	56504	-0.0934129065
+smp_2801	plate14	Cepharanthine	5	False	70520	-0.116703601
+smp_2802	plate14	Radotinib	5	False	64148	-0.0981670978
+smp_2803	plate14	Docetaxel	5	False	89028	-0.0509795594
+smp_2804	plate14	Triclosan	5	False	88069	-0.0793788268
+smp_2805	plate14	Tucidinostat	5	False	78714	-0.0859040998
+smp_2806	plate14	Bergenin	5	False	69330	-0.0229113687
+smp_2807	plate14	Allantoin	5	False	65501	-0.0830964105
+smp_2808	plate14	Bimatoprost	5	False	72756	-0.0980488636
+smp_2809	plate14	Triamcinolone	5	False	71419	-0.0865740175
+smp_2810	plate14	Olanzapine	5	False	61902	-0.0728611866
+smp_2811	plate14	Rimonabant	5	False	61359	-0.0402842047
+smp_2812	plate14	Pentagastrin	5	False	64985	-0.02264858
+smp_2813	plate14	Lumateperone (tosylate)	5	False	63676	-0.0199686409
+smp_2814	plate14	Relugolix	5	False	58509	-0.0203116953
+smp_2815	plate14	Homoharringtonine	5	False	56128	-0.280004466
+smp_2816	plate14	Hexylresorcinol	5	False	76587	0.0185462389
+smp_2817	plate14	Baicalin	5	False	62243	0.0102214939
+smp_2818	plate14	Berberine (chloride hydrate)	5	False	67130	-0.0256281249
+smp_2819	plate14	Medroxyprogesterone acetate	5	False	51623	-0.0382256388
+smp_2820	plate14	Neratinib (maleate)	5	False	51667	0.050613261
+smp_2821	plate14	Sinomenine	5	False	52331	-0.0152015667
+smp_2822	plate14	Goserelin (acetate)	5	False	55344	0.0358062886
+smp_2823	plate14	Fusidic acid	5	False	68627	-0.0226744129
+smp_2824	plate14	Balsalazide (sodium hydrate)	5	False	66288	0.0115215258
+smp_2825	plate14	Cloxacillin (sodium)	5	False	68476	-0.00904731382
+smp_2826	plate14	Artesunate	5	False	64817	-0.0825838129
+smp_2827	plate14	Pyridoxine (hydrochloride)	5	False	37214	0.0114181561
+smp_2828	plate14	Folic acid	5	False	31637	-0.0801990555
+smp_2829	plate14	Selinexor 	5	False	11527	-0.21318021
+smp_2830	plate14	Adenine	5	False	44522	-0.0458023359
+smp_2831	plate14	Gallic acid	5	False	54904	-0.0235561745
+smp_2832	plate14	Lipoic acid	5	False	72477	-0.0143327445
+smp_2833	plate14	Amsacrine	5	False	56183	-0.0493943627
+smp_2834	plate14	Anethole trithione	5	False	55572	-0.0563966597
+smp_2835	plate14	Clonidine (hydrochloride)	5	False	63945	-0.0148746001
+smp_2836	plate14	Adagrasib	0.05	False	52712	-0.101740726
+smp_2837	plate14	DMSO_TF	0	True	40140	0.00267143397
+smp_2838	plate14	DMSO_TF	0	True	55432	-0.00267143397

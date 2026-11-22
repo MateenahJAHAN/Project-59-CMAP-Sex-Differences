@@ -1,0 +1,51 @@
+cellosaurus_id	cell_name	organ	annotation	y_high	xist_high	confidence	positive	g12c	lowest_vehicle_count	in_primary	mean_high_minus_low_log2_share
+CVCL_0023	A549	Lung	Male	True	False	high	True	False	1037	True	0.0162123103
+CVCL_0028	AN3 CA	Uterus	Female	False	False	high	False	False	167	False	0.16182847
+CVCL_0069	SK-MEL-2	Skin	Male	True	False	high	True	False	469	True	-0.0493030169
+CVCL_0099	SNU-1	Esophagus/Stomach	Male	True	False	high	True	False	222	False	0.0505718677
+CVCL_0131	A-172	CNS/Brain	Male	True	False	high	True	False	653	False	-0.0828030941
+CVCL_0152	AsPC-1	Pancreas	Female	False	False	high	False	False	588	False	0.0533271603
+CVCL_0179	BT-474	Breast	Female	False	False	high	False	False	400	False	0.0177844783
+CVCL_0218	COLO 205	Bowel	Male	False	False	medium	False	False	290	True	0.129184827
+CVCL_0292	HCT15	Bowel	Male	True	False	high	True	False	286	True	0.0465234216
+CVCL_0293	HEC-1-A	Uterus	Female	False	False	high	False	False	687	False	0.0449708016
+CVCL_0320	HT-29	Bowel	Female	False	True	high	True	False	736	True	0.0193849389
+CVCL_0332	HS-578T	Breast	Female	False	False	high	False	False	686	False	-0.0803427706
+CVCL_0334	Hs 766T	Pancreas	Male	False	False	high	False	False	328	False	0.00402548513
+CVCL_0359	J82	Bladder/Urinary Tract	Male	True	False	high	True	False	992	False	0.00592930662
+CVCL_0366	SNU-423	Liver	Male	True	False	high	True	False	484	False	-0.0719015506
+CVCL_0371	KATO III	Esophagus/Stomach	Male	False	False	high	False	False	732	False	-0.0050064865
+CVCL_0397	LS 180	Bowel	Female	False	False	high	False	False	561	True	-0.0752962221
+CVCL_0399	LoVo	Bowel	Male	True	False	high	True	False	964	True	-0.0248901771
+CVCL_0428	MIA PaCa-2	Pancreas	Male	False	False	high	False	True	478	False	-0.109271447
+CVCL_0459	NCI-H460	Lung	Male	True	False	high	True	False	1027	True	0.181395861
+CVCL_0480	PANC-1	Pancreas	Male	False	False	high	False	False	1379	False	-0.0712152565
+CVCL_0504	RKO	Bowel	Unknown	False	True	high	True	False	707	True	0.0374782192
+CVCL_0546	SW480	Bowel	Male	False	False	high	False	False	1410	True	0.0916323181
+CVCL_1055	A-427	Lung	Male	True	False	high	True	False	544	True	-0.141904569
+CVCL_1056	A498	Kidney	Male	False	True	high	True	False	1176	False	-0.0711169826
+CVCL_1094	C-33 A	Cervix	Female	False	False	high	False	False	491	False	0.0914254329
+CVCL_1097	C32	Skin	Male	True	False	high	True	False	548	True	0.00990148456
+CVCL_1098	HepG2/C3A	Liver	Male	True	False	high	True	False	282	False	0.301707615
+CVCL_1119	CFPAC-1	Pancreas	Male	False	False	high	False	False	838	False	-0.0281227801
+CVCL_1125	CHP-212	Peripheral Nervous System	Male	True	False	high	True	False	61	False	-0.0615917343
+CVCL_1239	H4	CNS/Brain	Male	True	False	high	True	False	216	False	-0.0738528959
+CVCL_1285	HOP62	Lung	Female	False	False	high	False	True	1169	True	-0.0702074718
+CVCL_1381	LOX-IMVI	Skin	Male	False	False	high	False	False	739	True	-0.0572186869
+CVCL_1478	NCI-H1573	Lung	Female	False	False	high	False	False	619	True	-0.0357421711
+CVCL_1495	NCI-H1792	Lung	Male	False	False	high	False	True	644	True	-0.0308995725
+CVCL_1517	NCI-H2030	Lung	Male	False	False	high	False	True	495	True	-0.0812550705
+CVCL_1531	NCI-H2122	Lung	Female	False	True	medium	True	True	7	False	-0.101883748
+CVCL_1547	NCI-H23	Lung	Male	False	False	high	False	True	662	True	-0.046706929
+CVCL_1550	NCI-H2347	Lung	Female	False	True	high	True	False	825	True	-0.0442176064
+CVCL_1571	NCI-H596	Lung	Male	True	False	low	True	False	5	False	-0.220958637
+CVCL_1577	NCI-H661	Lung	Male	True	False	high	True	False	52	True	0.0107588791
+CVCL_1635	Panc 03.27	Pancreas	Female	False	False	high	False	False	628	False	-0.0308262238
+CVCL_1666	RPMI-7951	Skin	Female	False	False	high	False	False	366	True	-0.0478101948
+CVCL_1693	SHP-77	Lung	Male	False	False	high	False	False	253	True	0.199796574
+CVCL_1715	SW 1088	CNS/Brain	Male	True	False	high	True	False	24	False	0.125428793
+CVCL_1716	SW 1271	Lung	Male	False	False	high	False	False	44	True	0.177180585
+CVCL_1717	SW1417	Bowel	Female	False	False	high	False	False	609	True	0.0678279738
+CVCL_1724	SW48	Bowel	Female	False	True	high	True	False	199	True	0.0389734626
+CVCL_1731	SW 900	Lung	Male	False	False	high	False	False	495	True	0.0705300225
+CVCL_C466	hTERT-HPNE	Pancreas	Male	True	False	high	True	False	389	False	0.115814863

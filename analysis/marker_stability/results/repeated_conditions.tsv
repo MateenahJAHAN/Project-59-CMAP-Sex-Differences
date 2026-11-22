@@ -1,0 +1,157 @@
+compound	dose	first_plate	other_plates	only_6_14	first	others
+(R)-Verapamil (hydrochloride)	5	plate6	plate14	True	-0.0807489882	-0.0700158143
+18β-Glycyrrhetinic acid	5	plate6	plate14	True	-0.0335840572	-0.0583254705
+8-Hydroxyquinoline	5	plate6	plate14	True	-0.0788478694	-0.0115364475
+Abemaciclib	0.05	plate1	plate13	False	0.141829697	-0.0461788866
+Acetohexamide	5	plate6	plate14	True	-0.071709502	-0.0667328898
+Adagrasib	0.05	plate1	plate2,plate3,plate4,plate5,plate6,plate7,plate8,plate9,plate10,plate11,plate12,plate13,plate14	False	0.0409141736	-0.00718703385
+Adenine	5	plate6	plate14	True	-0.0148321965	-0.0458023359
+Adenosine	5	plate6	plate14	True	-0.0921305841	-0.0730573466
+Afatinib	0.05	plate1	plate7,plate13	False	-0.0707452955	-0.0107757237
+Afatinib	0.5	plate2	plate8,plate13	False	-0.0923028929	-0.0152763846
+Afatinib	5	plate3	plate9,plate13	False	-0.128824918	0.0535077959
+Aliskiren	5	plate6	plate14	True	-0.0728276233	-0.0790705704
+Allantoin	5	plate6	plate14	True	-0.0705460502	-0.0830964105
+Almonertinib (hydrochloride)	5	plate6	plate14	True	-0.0182730739	0.0179257394
+Almonertinib (mesylate)	0.05	plate7	plate13	False	0.0264912565	-0.0147321189
+Almonertinib (mesylate)	0.5	plate8	plate13	False	-0.116211664	-0.00332679629
+Almonertinib (mesylate)	5	plate9	plate13	False	0.0063607298	-0.00119089556
+Amsacrine	5	plate6	plate14	True	-0.0798766457	-0.0493943627
+Anethole trithione	5	plate6	plate14	True	-0.024394561	-0.0563966597
+Artesunate	5	plate6	plate14	True	-0.0221192648	-0.0825838129
+Azithromycin (hydrate)	5	plate6	plate14	True	0.00621132397	0.00606352805
+Baicalin	5	plate6	plate14	True	-0.0637005704	0.0102214939
+Balsalazide (sodium hydrate)	5	plate6	plate14	True	-0.021793409	0.0115215258
+Belumosudil	0.05	plate7	plate13	False	0.0673671242	-0.0167917141
+Belumosudil	0.5	plate8	plate13	False	-0.0204723409	-0.0326850644
+Belumosudil	5	plate9	plate13	False	-0.101236141	-0.0524694422
+Berbamine	0.5	plate5	plate13	False	-0.079361189	-0.0830084632
+Berbamine	5	plate6	plate14	True	-0.112263235	-0.0580307233
+Berbamine (dihydrochloride)	0.05	plate7	plate13	False	-0.00272475499	0.00452165918
+Berbamine (dihydrochloride)	0.5	plate8	plate13	False	-0.0397128294	-0.0513385952
+Berbamine (dihydrochloride)	5	plate9	plate13	False	0.0577833868	-0.142177448
+Berberine (chloride hydrate)	5	plate6	plate14	True	-0.00156426405	-0.0256281249
+Bergenin	5	plate6	plate14	True	-0.0319507431	-0.0229113687
+Bimatoprost	5	plate6	plate14	True	-0.0356061168	-0.0980488636
+Binimetinib	0.05	plate1	plate10	False	-0.111218107	-0.129344631
+Binimetinib	0.5	plate2	plate11	False	-0.238064411	-0.0100472916
+Binimetinib	5	plate3	plate12	False	-0.281932747	-0.141393931
+Busulfan	5	plate6	plate14	True	-0.0534514573	-0.0934129065
+Captopril	0.05	plate10	plate13	False	0.0830337758	-0.0974714665
+Cepharanthine	5	plate6	plate14	True	-0.083786802	-0.116703601
+Chlorhexidine (diacetate)	0.5	plate5	plate13	False	-0.00728893297	-0.043139683
+Chlorhexidine (diacetate)	5	plate6	plate14	True	-0.0347514884	-0.0456560756
+Ciclopirox	5	plate6	plate14	True	-0.0549940566	0.00648315036
+Clonidine (hydrochloride)	5	plate6	plate14	True	-0.0341420691	-0.0148746001
+Clotrimazole	5	plate6	plate14	True	-0.0855752225	-0.0925573768
+Cloxacillin (sodium)	5	plate6	plate14	True	-0.0673109865	-0.00904731382
+Cysteamine (hydrochloride)	5	plate6	plate14	True	-0.0159622076	-0.150112003
+Cytarabine	0.05	plate7	plate13	False	0.0132692238	0.0392784571
+Cytarabine	0.5	plate8	plate13	False	-0.0359952003	-0.0102715522
+Cytarabine	5	plate9	plate13	False	0.0755039065	0.00830532241
+DTP3	0.05	plate1	plate13	False	-0.191256225	-0.0265120244
+Daidzin	0.05	plate7	plate13	False	-0.000386246624	-0.0246432684
+Daidzin	0.5	plate8	plate13	False	-0.0236428188	-0.029190468
+Daidzin	5	plate9	plate13	False	0.0672777846	-0.101482817
+Darinaparsin	5	plate6	plate14	True	-0.00985525087	-0.099671239
+Demeclocycline	5	plate6	plate14	True	-0.0490069558	-0.0427148337
+Diammonium Glycyrrhizinate	5	plate6	plate14	True	-0.107877371	-0.099618542
+Docetaxel	5	plate6	plate14	True	-0.0822490417	-0.0509795594
+Elagolix sodium	5	plate6	plate14	True	-0.0275054192	-0.065927467
+Flumatinib (mesylate)	0.05	plate7	plate13	False	-0.00955144963	-0.0188513501
+Flumatinib (mesylate)	0.5	plate8	plate13	False	-0.0843632492	-0.040297459
+Flumatinib (mesylate)	5	plate9	plate13	False	0.035573753	-0.079018752
+Fluvoxamine (maleate)	5	plate6	plate14	True	-0.139271457	-0.0660503163
+Folic acid	5	plate6	plate14	True	-0.0136942399	-0.0801990555
+Fumaric acid	0.05	plate7	plate13	False	-0.0276980564	0.0542597985
+Fumaric acid	0.5	plate8	plate13	False	-0.0740657584	-0.00964024341
+Fumaric acid	5	plate9	plate13	False	0.0430824826	-0.0188245884
+Furosemide	5	plate6	plate14	True	-0.0995446622	-0.0151327405
+Fusidic acid	5	plate6	plate14	True	-0.0516658951	-0.0226744129
+Gallic acid	5	plate6	plate14	True	-0.0352326944	-0.0235561745
+Gallic acid (hydrate)	5	plate6	plate14	True	-0.104171278	-0.0531502564
+Gemfibrozil	5	plate6	plate14	True	-0.0825700568	-0.0725286446
+Goserelin (acetate)	5	plate6	plate14	True	-0.00599280561	0.0358062886
+Hexylresorcinol	5	plate6	plate14	True	0.0102581595	0.0185462389
+Homoharringtonine	5	plate6	plate14	True	-0.487213814	-0.280004466
+Hydroxyfasudil	0.05	plate1	plate13	False	0.0491451811	0.00671029371
+Idarubicin (hydrochloride)	5	plate6	plate14	True	-0.661935333	-0.438566002
+Irinotecan (hydrochloride)	0.05	plate7	plate13	False	-0.0294622156	-0.0737895009
+Irinotecan (hydrochloride)	0.5	plate8	plate13	False	-0.0919420507	-0.0410732703
+Irinotecan (hydrochloride)	5	plate9	plate13	False	-0.000966913741	-0.170119665
+Isocorydine	5	plate6	plate14	True	-0.136197007	-0.138409324
+L-Thyroxine (sodium salt pentahydrate)	5	plate6	plate14	True	-0.0773673572	0.135738576
+Larotrectinib	5	plate6	plate14	True	0.003566674	-0.0128178097
+Lenalidomide (hemihydrate)	5	plate6	plate14	True	-0.0258218587	-0.0431597139
+Lidocaine (hydrochloride)	5	plate6	plate14	True	-0.0435539256	-0.0594034765
+Lipoic acid	5	plate6	plate14	True	-0.00467157738	-0.0143327445
+Lumateperone (tosylate)	5	plate6	plate14	True	0.00237614522	-0.0199686409
+Malotilate	0.05	plate10	plate13	False	-0.0312783347	-0.0383106932
+Medroxyprogesterone acetate	5	plate6	plate14	True	-0.0372717069	-0.0382256388
+Megestrol	5	plate6	plate14	True	-0.0842758084	-0.0801487653
+Methylprednisolone succinate	0.05	plate1	plate13	False	0.202941001	-0.0039970675
+Mitoxantrone (dihydrochloride)	5	plate6	plate14	True	-0.2219861	-0.0865259511
+Naproxen	0.05	plate7	plate13	False	0.00781921094	-0.0125304753
+Naproxen	0.5	plate8	plate13	False	-0.0468509907	-0.0147146186
+Naproxen	5	plate9	plate13	False	0.0294357082	-0.0176838289
+Neratinib (maleate)	5	plate6	plate14	True	-0.0134245753	0.050613261
+Norepinephrine (hydrochloride)	5	plate6	plate14	True	-0.0533200732	-0.0471855896
+Olanzapine	5	plate6	plate14	True	-0.0274736685	-0.0728611866
+PF-06260933	0.05	plate1	plate13	False	0.0524176386	0.0100240605
+Palmatine (chloride)	5	plate6	plate14	True	-0.0682160559	-0.0626041633
+Pasireotide (acetate)	5	plate6	plate14	True	-0.0641314095	-0.0896709598
+Pentagastrin	5	plate6	plate14	True	-0.0183589327	-0.02264858
+Pentamidine (isethionate)	0.5	plate5	plate13	False	-0.035028468	-0.0484915985
+Pentamidine (isethionate)	5	plate6	plate14	True	-0.0548200754	-0.00390344321
+Pralsetinib	0.05	plate1	plate13	False	0.0888230614	-0.0331991607
+Pravastatin (sodium)	0.05	plate7	plate13	False	0.00044758919	-0.0137999246
+Pravastatin (sodium)	0.5	plate8	plate13	False	-0.0359270292	0.00468028159
+Pravastatin (sodium)	5	plate9	plate13	False	0.0603230494	0.00119167042
+Pyridoxine	5	plate6	plate14	True	-0.095462476	-0.0629460714
+Pyridoxine (hydrochloride)	5	plate6	plate14	True	0.00430951635	0.0114181561
+Quinestrol	5	plate6	plate14	True	-0.0832509324	-0.122954916
+Radotinib	5	plate6	plate14	True	-0.0934176133	-0.0981670978
+Ralimetinib dimesylate	0.05	plate1	plate13	False	0.38031155	-0.0296846044
+Raltitrexed	5	plate6	plate14	True	-0.0587235868	-0.0699537197
+Rapamycin	5	plate6	plate14	True	-0.0334359831	0.0036864403
+Regorafenib	0.05	plate1	plate13	False	-0.0753559732	0.0340478093
+Regorafenib	0.5	plate2	plate13	False	-0.0921850594	0.00758661373
+Regorafenib	5	plate3	plate13	False	-0.205325995	0.0445105798
+Relugolix	5	plate6	plate14	True	-0.00946474719	-0.0203116953
+Resveratrol	5	plate6	plate14	True	-0.0301110611	-0.0156961021
+Retinoic acid	5	plate6	plate14	True	-0.10156986	-0.0852472502
+Riluzole hydrochloride	5	plate6	plate14	True	-0.0552386896	-0.296862122
+Rimonabant	5	plate6	plate14	True	-0.0289277067	-0.0402842047
+Ritonavir	5	plate6	plate14	True	-0.0880336473	-0.0605788782
+Ropivacaine (hydrochloride monohydrate)	5	plate6	plate14	True	-0.094983902	0.0028734571
+S-Adenosyl-L-methionine (disulfate tosylate)	5	plate6	plate14	True	-0.211100232	-0.146361382
+Salicylic acid	5	plate6	plate14	True	-0.0486171452	-0.0439136654
+Saquinavir	5	plate6	plate14	True	-0.114937427	-0.0305635345
+Selinexor 	5	plate6	plate14	True	-0.270651795	-0.21318021
+Sinomenine	5	plate6	plate14	True	0.0362360815	-0.0152015667
+Sodium Salicylate	5	plate6	plate14	True	-0.0935785124	-0.0721794663
+Sonidegib	0.05	plate1	plate13	False	-0.0896786129	-0.0626201174
+Sulfisoxazole	0.5	plate5	plate13	False	0.0413971118	0.0126838316
+Sulfisoxazole	5	plate6	plate14	True	-0.0247666811	-0.0182326811
+Temsirolimus	5	plate6	plate14	True	-0.0447337123	-0.0179238088
+Terfenadine	0.5	plate5	plate13	False	-0.154646318	-0.183223929
+Terfenadine	5	plate6	plate14	True	-0.221673109	-0.0266725644
+Thymol	5	plate6	plate14	True	-0.0245099208	-0.0791699926
+Tofacitinib	5	plate6	plate14	True	-0.0156245742	-0.0713470234
+Tofacitinib (citrate)	5	plate6	plate14	True	-0.0155607773	0.043741437
+Tolcapone	5	plate6	plate14	True	-0.161325935	-0.0815299737
+Topotecan (hydrochloride)	0.05	plate7	plate13	False	0.0164884409	-0.00735718953
+Topotecan (hydrochloride)	0.5	plate8	plate13	False	0.073073755	0.00887729316
+Topotecan (hydrochloride)	5	plate9	plate13	False	-0.0138321869	-0.00697726774
+Trametinib	0.05	plate1	plate10	False	-0.131876097	-0.0681372837
+Trametinib	0.5	plate2	plate11	False	-0.273085122	-0.0729498593
+Trametinib	5	plate3	plate12	False	-0.245459734	-0.111768641
+Triamcinolone	5	plate6	plate14	True	-0.0304228109	-0.0865740175
+Triclosan	5	plate6	plate14	True	-0.0304313912	-0.0793788268
+Trifluridine	5	plate6	plate14	True	-0.0998034658	-0.0524956879
+Trimetrexate	5	plate6	plate14	True	-0.125417359	-0.0364846084
+Tucidinostat	5	plate6	plate14	True	-0.0590669443	-0.0859040998
+Vilanterol	5	plate6	plate14	True	-0.101371731	-0.025723529
+Vinblastine (sulfate)	5	plate6	plate14	True	0.00101312882	-0.0114205305
+c-Kit-IN-1	0.05	plate1	plate13	False	-0.456571559	0.0715714939
+olaparib	0.05	plate1	plate13	False	0.282331162	-0.0426691871

@@ -1,0 +1,4 @@
+# Retain byte-exact exported graphics, missing last-column values, and the archived XML record.
+*.svg binary
+independent_colo205/nci_dna/idat_probes.tsv whitespace=-blank-at-eol
+independent_colo205/results/sky_case_2801.xml whitespace=-blank-at-eol,-blank-at-eof

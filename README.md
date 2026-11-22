@@ -1,47 +1,56 @@
-# Project 59: Sex-chromosome expression and drug response
+# Sex-chromosome expression and drug response
 
-Mateenah Jahan and Marouen Ben Guebila · Fatima Fellowship, 2026
+**Fatima Fellowship · Project 59**
+
+Mateenah Jahan and Marouen Ben Guebila
 
 <a id="manuscript-and-figures"></a>
+<a id="current-status"></a>
 
-## Current status
+[Fellowship manuscript (PDF)](manuscript/manuscript.pdf) · [Supplement (PDF)](manuscript/supplement.pdf) · [Manuscript figures](manuscript/figures/)
 
-Revised working draft. [Manuscript PDF](manuscript/manuscript.pdf) · [Supplement PDF](manuscript/supplement.pdf) · [Figures](manuscript/figures/) · [Rerun results](verification/) · [Analysis source](analysis/)
+Can the recorded sex of a donor stand in for the sex-chromosome expression of a cultured cancer cell line? In Tahoe-100M, 27 of 49 lines with a donor annotation expressed a different combination of Y-linked genes and XIST than the annotation would predict. The RNA patterns agreed with independent RNA-seq in 47 of 49 lines. [Expression calls by cell line](analysis/data/tahoe-emeraldbay-expression-states.tsv)
 
-In Tahoe-100M, 27 of 49 cell lines with a recorded donor sex had a sex-chromosome expression pattern different from the one expected for that label. The measured patterns agreed with external RNA-seq for 47 of 49 lines.
+We then asked whether the measured markers predicted drug-induced gene expression in LINCS2020. Across 114 compounds and 41 lines, neither panel test resolved a difference (Y *p* = 0.7231, XIST *p* = 0.1127). The intervals were wide, and XIST also showed an association in the vehicle control (*p* = 0.0323). [Panel and control results](verification/README.md)
 
-The LINCS2020 analysis tested 114 compounds across 41 lines. The panel-level p-values were 0.7231 for Y and 0.1127 for XIST. Wide intervals and a failed XIST vehicle control leave the drug-response result inconclusive.
+[![Study design showing the vehicle-cell marker measurements and the LINCS2020 drug-response comparison.](manuscript/figures/fig1_design.png)](manuscript/figures/fig1_design.pdf)
 
-[Tahoe-100M and EmeraldBay expression states](analysis/data/tahoe-emeraldbay-expression-states.tsv)
+<a id="how-the-analysis-developed"></a>
+<a id="what-the-exploratory-screen-found"></a>
 
-[![Study design: expression patterns in vehicle cells and the LINCS2020 drug-response comparison](manuscript/figures/fig1_design.png)](manuscript/figures/fig1_design.pdf)
+## The eight fellowship phases
 
-[![LINCS2020 drug-response results and the TP53 comparison](manuscript/figures/fig4_partB.png)](manuscript/figures/fig4_partB.pdf)
+The project began with a single drug, vorinostat. As the screen grew to 50 compounds, the investigators found that thousands of signatures could come from a few heavily profiled lines. That observation motivated measuring sex-chromosome expression directly in the later manuscript. Phase 8 pursued a separate question about adverse-event reporting.
 
-The notebooks below document the earlier CMap and GTEx screen.
-
-## How the analysis developed
-
-The fellowship began with a vorinostat pilot. It then compared gene expression after drug treatment in CMap with tissue gene sets from GTEx. As the question shifted to enrichment within lineages, the later screen pooled responses across donor-sex groups. The Phase 7 audit counted the distinct cell lines behind the results.
-
-| Phase | What was done | Files |
+| Phase | What the analysis established | Evidence |
 | --- | --- | --- |
-| 1 · Vorinostat | Compared 2,641 signatures from 116 cell lines grouped by annotated donor sex. | [Phase 1](Phase1_Vorinostat/README.md) |
-| 2 · Fifty compounds | Used Fisher’s exact test to compare drug gene lists with GTEx tissue gene sets. | [Phase 2](Phase2_Fishers_50Drugs/README.md) |
-| 3 · Lineage comparisons | Ran gene-set enrichment within lineages and recorded drug-level categories. | [Phase 3](Phase3_PerLineage_GSEA/README.md) |
-| 4 · Split gene sets | Separated female- and male-biased libraries and checked GTEx’s effect-size sign against XIST. | [Phase 4](Phase4_SplitLibraries_DirectionFix/README.md) |
-| 5 · Signature categories | Assigned each signature a category based on its drug–lineage results. | [Phase 5](Phase5_PerSignature_Categories/README.md) |
-| 6 · Full screen | Removed the five-lines-per-sex minimum within each drug–lineage pair. It still applied when selecting compounds. | [Phase 6](Phase6_NoSampleFilter/README.md) |
-| 7 · Sampling audit | Counted distinct cell lines and measured the concentration of repeated profiles. | [Phase 7](Phase7_SexBalance_Audit/README.md) |
+| [1 · Vorinostat](Phase1_Vorinostat/) | Of 12,328 genes tested across 2,641 signatures from 116 lines, 20 passed both the adjusted *p* threshold and an absolute mean difference above 1. The test pooled repeated profiles. | [All gene tests](Phase1_Vorinostat/vorinostat_all_genes_results.csv) |
+| [2 · Fifty compounds](Phase2_Fishers_50Drugs/) | One of 50 compounds qualified for own-tissue enrichment. Two genes drove that result. | [Fifty classifications](Phase2_Fishers_50Drugs/top50_drug_classification.csv) |
+| [3 · Within-lineage enrichment](Phase3_PerLineage_GSEA/) | Three compounds reached their own tissue, 23 reached another tissue and 24 had no significant enrichment. The original direction labels used the GTEx sign in reverse. | [Compound results](Phase3_PerLineage_GSEA/phase3_classification_final.csv) |
+| [4 · GTEx direction check](Phase4_SplitLibraries_DirectionFix/) | XIST had a positive effect size in all 44 GTEx tissues. The corrected analysis split the female- and male-biased gene sets before testing enrichment. | [Split-set results](Phase4_SplitLibraries_DirectionFix/phase4_classifications_final.csv) |
+| [5 · Coverage under the cell-line minimum](Phase5_PerSignature_Categories/) | Only 620 of 39,996 drug–lineage–tissue comparisons yielded a test result. One showed significant enrichment in its own tissue. | [Comparison table](Phase5_PerSignature_Categories/results/per_signature_categories.csv) |
+| [6 · Full CMap–GTEx screen](Phase6_NoSampleFilter/) | Relaxing the within-pair minimum brought 6,122 comparisons into the test. Seventeen of 50 compounds reached at least one tissue, including six that reached their own. The ranks pooled donor groups. | [Screen totals](Phase6_NoSampleFilter/results/category_totals.csv) · [Compound results](Phase6_NoSampleFilter/results/signature_ABCD_per_drug.csv) |
+| [7 · Cell-line sampling](Phase7_SexBalance_Audit/) | Female-donor lines supplied 2,426 of the 2,656 own-tissue signatures, yet the category contained 17 female-donor and 18 male-donor lines. Bortezomib in breast lines alone contributed 1,875 female-donor signatures. | [Counts by line and donor group](Phase7_SexBalance_Audit/results/cell_lines_by_category_and_sex.csv) · [Counts by drug and lineage](Phase7_SexBalance_Audit/results/category_A_by_drug_lineage_sex.csv) |
+| [8 · Adverse-event reporting](Phase8_SideEffects_FAERS/) | Among 18 drugs in the FAERS comparison, report volume tracked the fraction of events flagged. The drug-level comparison did not establish a difference between the two Phase 6 groups. | [Per-drug event counts](Phase8_SideEffects_FAERS/per_drug_events.csv) |
 
-## What the exploratory screen found
+The **Tahoe-100M and LINCS2020 manuscript** follows this numbered series. Part A measures expression states in vehicle-treated cells. Part B tests their relationship to drug response within cell lineages. [Manuscript](manuscript/manuscript.pdf) · [Analysis code](analysis/) · [LINCS2020 result figure](manuscript/figures/fig4_partB.pdf)
 
-Phase 6 covered 50 compounds, 36,523 signatures, 135 cell lines, 20 lineages and 44 GTEx tissues. The screen assigned an outcome to 6,122 of 39,996 drug–lineage–tissue comparisons. Seventeen compounds had a significant enrichment in at least one tissue and six had one in a tissue mapped to the cell lineage. Untested comparisons include lineages without a mapped tissue as well as pairs or gene sets that fell short of the method’s requirements. [Category totals](Phase6_NoSampleFilter/results/category_totals.csv) · [Per-compound counts](Phase6_NoSampleFilter/results/signature_ABCD_per_drug.csv)
+<a id="marker-persistence-in-drug-treated-cultures"></a>
 
-The own-tissue category contained 2,656 signatures. About 91% came from female-donor lines, yet the signatures represented 17 female-donor and 18 male-donor lines. The female-donor lines were profiled about 11 times as often per line. The bortezomib breast-line pair alone contributed 1,875 signatures from lines with only female donor labels. The bortezomib blood-line pair passed both Phase 7 sampling checks. The earlier screen pooled the drug responses and did not test a sex-specific bortezomib effect. [Sampling audit](Phase7_SexBalance_Audit/README.md) · [Bortezomib case figure](Phase6_NoSampleFilter/figures/05_bortezomib_CellsEBV_enrichment_catA.png)
+## Follow-up in drug-treated Tahoe-100M cultures
 
-## Data and setup
+The vehicle calls persisted across **98.71%** of eligible treated line–wells when each cell line received equal weight. COLO 205 accounted for 773 of 792 disagreements across 58,259 line–wells. Independent RNA and DNA assays in COLO 205 gave stronger signal on the measured long arm of chromosome Y than on the short arm. The chromosomal location of that material remains unknown. [Marker results](analysis/marker_stability/marker_transfer/independent_check.md) · [COLO 205 assays and figure](analysis/marker_stability/independent_colo205/)
 
-The archived Colab notebooks use CMap LINCS2020 and GTEx v8. Each phase page links to its notebook and saved results. The complete expression matrix and GTEx archive are external inputs. [CMap data](cmap/README.txt) · [GTEx data](gtex/README.txt) · [Phase 6 inputs and parameters](Phase6_NoSampleFilter/sources/README.md) · [Dependencies](requirements.txt)
+Across two repeat plates, the same line’s response was more similar under matched drug–dose conditions than under mismatched conditions in all 24 eligible lines. Sharing a baseline marker group added little similarity between different lines (948 genes, difference in correlation 0.011, exact *p* = 0.204). [Gene-expression results](analysis/marker_stability/genomics_extension/) · [Donor-label comparison](analysis/marker_stability/donor_response/results.json)
 
-AI coding assistants helped develop and run analyses and prepare the draft. [Fellowship portfolio](https://mateenahjahan.github.io/#project-59) · [Code license](LICENSE)
+This separate computational study was designed and run with Codex. [Follow-up paper and supplement (14 pages)](manuscript/followups/marker_stability/marker_stability.pdf) · [Data and reproduction instructions](analysis/marker_stability/)
+
+<a id="data-and-setup"></a>
+
+## Reproducing the analyses
+
+- **Fellowship phases.** Phases 1–7 link to the Colab notebooks and saved outputs. [CMap inputs](cmap/README.txt) · [GTEx inputs](gtex/README.txt) · [Phase 6 parameters and matrix setup](Phase6_NoSampleFilter/sources/README.md). Phase 8 provides the recorded per-drug counts from the FAERS queries.
+- **Manuscript.** [Run the released-table checks](verification/README.md#run-the-checks). The [analysis guide](analysis/README.md) lists the public expression-state table, inputs, dependencies and external files needed for a full cell-level or permutation replay.
+- **Drug-treated follow-up.** The [reproduction guide](analysis/marker_stability/README.md#reproduce-the-experiment) starts from the 14 plates and links to the compound, marker and expression analyses.
+
+AI coding assistants contributed to the analyses and drafts. [Fellowship portfolio](https://mateenahjahan.github.io/#project-59) · [Code license](LICENSE)

@@ -1,5 +1,9 @@
 # Analysis code and derived data
 
+## Marker persistence under treatment
+
+The [marker stability follow-up](marker_stability/) tests the vehicle classifications in 58,259 treated line–wells. It includes an independent COLO 205 RNA and DNA case study, two-plate landmark-gene responses, the donor-label comparison and a relative-recovery analysis.
+
 ## Tahoe-100M expression calls
 
 [tahoe/](tahoe/) contains the local implementation used to call Y-gene and XIST expression and evaluate the marker-negative cell analyses. It includes the scoring, filtering, sensitivity and plotting code. The local analyses used Python 3.12.11 with NumPy 2.5.4, pandas 3.1.1 and SciPy 1.18.1. [Dependencies](tahoe/requirements.txt)

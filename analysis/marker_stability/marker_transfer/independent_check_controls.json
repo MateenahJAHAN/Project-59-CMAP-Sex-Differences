@@ -1,0 +1,16 @@
+{
+  "common_lines": 47,
+  "heldout_equal_line_delta": -0.00784677495403071,
+  "bootstrap_limits": [
+    -0.023021376582662578,
+    -0.00011596733298233253
+  ],
+  "same_plate_wells": 58188,
+  "same_plate_lines": 48,
+  "raw_same_plate_rate": 0.9900682933310999,
+  "thinned_same_plate_rates": {
+    "20261121": 0.9898406066280033,
+    "591122": 0.9903285067060673,
+    "591123": 0.9899219233076807
+  }
+}

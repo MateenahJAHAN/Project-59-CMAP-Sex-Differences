@@ -1,0 +1,130 @@
+{
+  "lineplate": {
+    "treated": {
+      "n": 58259,
+      "lines": 48,
+      "equal_line_agreement": 0.9871083661908449,
+      "pooled_agreement": 0.9864055339089239,
+      "discordant": 792,
+      "COLO_205": {
+        "n": 1281,
+        "matching": 508,
+        "discordant": 773,
+        "agreement": 0.39656518345042935,
+        "reference_codes": [
+          0
+        ]
+      }
+    },
+    "vehicle": {
+      "n": 1263,
+      "lines": 47,
+      "equal_line_agreement": 0.9946808510638298,
+      "pooled_agreement": 0.9944576405384006,
+      "discordant": 7,
+      "COLO_205": {
+        "n": 28,
+        "matching": 21,
+        "discordant": 7,
+        "agreement": 0.75,
+        "reference_codes": [
+          0
+        ]
+      }
+    },
+    "reference": {
+      "agreement_all_vehicle_with_frozen": 50,
+      "n_lines": 50,
+      "mismatch_all_vehicle": [],
+      "eligible_well_line_refs_differ_from_frozen": 0,
+      "COLO_archived_vehicle": 0
+    },
+    "repeat": {
+      "pairs": 4142,
+      "same": 4104,
+      "same_new": 20,
+      "same_new_by_line": {
+        "COLO 205": 20
+      },
+      "COLO_pairs": 93,
+      "COLO_same": 55,
+      "COLO_same_new": 20,
+      "COLO_both_same_other": {
+        "1": 20
+      }
+    },
+    "common_lines_treated_minus_vehicle": -0.00784677495403071,
+    "cutoffs": {
+      "XIST": 4.684976810079098,
+      "Y": 4.021677875446696
+    },
+    "input_hashes": {
+      "partA_local_cutoffs.tsv": "1abc92440ec79543ac1d7d942981be0f7700943f471aa71b6bb74465d0bb6e10",
+      "partA_local_states.tsv": "dc98d7895f698271cbe27d4371a81e8d8ab48fa81d87b450b87651d07c04bc22"
+    }
+  },
+  "line": {
+    "treated": {
+      "n": 58259,
+      "lines": 48,
+      "equal_line_agreement": 0.9978275619202558,
+      "pooled_agreement": 0.9977170909215743,
+      "discordant": 133,
+      "COLO_205": {
+        "n": 1281,
+        "matching": 1227,
+        "discordant": 54,
+        "agreement": 0.9578454332552693,
+        "reference_codes": [
+          1
+        ]
+      }
+    },
+    "vehicle": {
+      "n": 1263,
+      "lines": 47,
+      "equal_line_agreement": 0.9962006079027356,
+      "pooled_agreement": 0.9960411718131433,
+      "discordant": 5,
+      "COLO_205": {
+        "n": 28,
+        "matching": 23,
+        "discordant": 5,
+        "agreement": 0.8214285714285714,
+        "reference_codes": [
+          1
+        ]
+      }
+    },
+    "reference": {
+      "agreement_all_vehicle_with_frozen": 50,
+      "n_lines": 50,
+      "mismatch_all_vehicle": [],
+      "eligible_well_line_refs_differ_from_frozen": 0,
+      "COLO_archived_vehicle": 1
+    },
+    "repeat": {
+      "pairs": 4142,
+      "same": 4130,
+      "same_new": 2,
+      "same_new_by_line": {
+        "COLO 205": 2
+      },
+      "COLO_pairs": 93,
+      "COLO_same": 83,
+      "COLO_same_new": 2,
+      "COLO_both_same_other": {
+        "0": 2
+      }
+    },
+    "common_lines_treated_minus_vehicle": 0.0015807319307172545,
+    "cutoffs": {
+      "XIST": 5.526507214855435,
+      "Y": 3.741521867307877
+    },
+    "input_hashes": {
+      "partA_local_cutoffs_linelevel.tsv": "3ed408be0628ec900273ac4e543f1d04dbf1929b05c7989ef86ed98b800975bd",
+      "partA_local_states_linelevel.tsv": "aa472246ba1beaeadf9a5dfd7fb0ab3d2aa93eb84c01211f402ea7c656c0c1bd"
+    }
+  }
+}

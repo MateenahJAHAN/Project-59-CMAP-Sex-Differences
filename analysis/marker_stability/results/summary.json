@@ -1,0 +1,127 @@
+{
+  "primary": {
+    "estimate": -0.005139199104607264,
+    "ci_low": -0.06731863675698165,
+    "ci_high": 0.057040238547767116,
+    "df": 12.53041725259514,
+    "permutation_p": 0.85077,
+    "draws": 99999,
+    "total_labelings": 972972,
+    "n_lines": 26,
+    "n_strata": 3
+  },
+  "vehicle": {
+    "estimate": 0.00765653090940568,
+    "ci_low": -0.030784924959709175,
+    "ci_high": 0.04609798677852053,
+    "df": 14.802262612346828,
+    "permutation_p": 0.68815,
+    "draws": 99999,
+    "total_labelings": 972972,
+    "n_lines": 26,
+    "n_strata": 3
+  },
+  "positive_control": {
+    "estimate": -0.4382953081148131,
+    "groups": [
+      [
+        "Lung",
+        [
+          "HOP62",
+          "NCI-H1792",
+          "NCI-H2030",
+          "NCI-H23"
+        ],
+        [
+          "A549",
+          "NCI-H460",
+          "A-427",
+          "NCI-H1573",
+          "NCI-H2347",
+          "NCI-H661",
+          "SHP-77",
+          "SW 1271",
+          "SW 900"
+        ]
+      ],
+      [
+        "Pancreas",
+        [
+          "MIA PaCa-2"
+        ],
+        [
+          "AsPC-1",
+          "Hs 766T",
+          "PANC-1",
+          "CFPAC-1",
+          "Panc 03.27",
+          "hTERT-HPNE"
+        ]
+      ]
+    ]
+  },
+  "counts": {
+    "plates": 14,
+    "cell_lines": 50,
+    "positive_lines": 24,
+    "cells": 95624334,
+    "treated_cells": 93418548,
+    "control_cells": 2205786,
+    "wells": 1344,
+    "treated_wells": 1316,
+    "compounds": 379,
+    "treated_zero_entries": 182,
+    "primary_treated_zero_entries": 82,
+    "eligible_vehicle_lines": 48,
+    "same_plate_compounds": 26,
+    "same_plate_compounds_excluding_13": 1,
+    "compounds_excluding_13": 367,
+    "n_primary_group1": 12,
+    "n_primary_group0": 14
+  },
+  "repeated_conditions": {
+    "all": {
+      "n": 156,
+      "pearson": 0.4357074805853611,
+      "median_abs_difference": 0.04028437997235064
+    },
+    "only_6_14": {
+      "n": 93,
+      "pearson": 0.7014398926039991,
+      "median_abs_difference": 0.03126948234077883
+    }
+  },
+  "plate_cells": {
+    "1": 5299930,
+    "2": 7687184,
+    "3": 4158278,
+    "4": 6679884,
+    "5": 5908471,
+    "6": 7285856,
+    "7": 5227768,
+    "8": 8516367,
+    "9": 5569622,
+    "10": 7731986,
+    "11": 7062820,
+    "12": 10188591,
+    "13": 8106500,
+    "14": 6201077
+  },
+  "in_both_sex_and_organ": [
+    [
+      "Bowel | Female",
+      2,
+      2
+    ],
+    [
+      "Bowel | Male",
+      2,
+      2
+    ],
+    [
+      "Lung | Male",
+      4,
+      6
+    ]
+  ]
+}

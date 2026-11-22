@@ -1,0 +1,39 @@
+analysis	estimate	n_organs_or_strata	n_lines
+primary	-0.0051391991	3	26
+minimum 5 vehicle cells	-0.0209363579	3	28
+minimum 50 vehicle cells	0.00221049561	3	25
+one line per group sufficient	0.0372645594	5	35
+exclude low confidence	-0.0051391991	3	26
+within organ and recorded sex	-0.0327235356	3	18
+leave out organ Bowel	0.00721282696	2	17
+leave out organ Lung	0.00148521172	2	13
+leave out organ Skin	-0.024115636	2	22
+leave out HCT15	-0.00705831981	3	25
+leave out HT-29	-0.00479677959	3	25
+leave out LoVo	-0.00110718659	3	25
+leave out RKO	-0.00630455295	3	25
+leave out SW48	-0.00642915657	3	25
+leave out COLO 205	0.00328831234	3	25
+leave out LS 180	-0.0194318043	3	25
+leave out SW480	-0.000884188677	3	25
+leave out SW1417	-0.00352911582	3	25
+leave out A549	-0.00611947704	3	25
+leave out NCI-H460	-0.0198847729	3	25
+leave out A-427	0.00705692953	3	25
+leave out NCI-H2347	-0.00108365065	3	25
+leave out NCI-H661	-0.00566502444	3	25
+leave out HOP62	-0.00956988804	3	25
+leave out NCI-H1573	-0.00792868324	3	25
+leave out NCI-H1792	-0.00769808331	3	25
+leave out NCI-H2030	-0.0100959642	3	25
+leave out NCI-H23	-0.00845081457	3	25
+leave out SHP-77	0.00328744748	3	25
+leave out SW 1271	0.00221049561	3	25
+leave out SW 900	-0.0028681026	3	25
+leave out SK-MEL-2	0.00472821781	3	25
+leave out C32	-0.015006616	3	25
+leave out LOX-IMVI	-0.00670728111	3	25
+leave out RPMI-7951	-0.0035711171	3	25
+exclude plate 13	-0.00656855596	3	26
+extreme doses on same plate	-0.00442788863	3	26
+extreme doses on same plate excluding plate 13	-0.00524892702	3	26

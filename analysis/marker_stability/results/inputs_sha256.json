@@ -1,0 +1,19 @@
+{
+  "partA_local/partA_local_states.tsv": "dc98d7895f698271cbe27d4371a81e8d8ab48fa81d87b450b87651d07c04bc22",
+  "index/meta/sample_metadata.parquet": "33167f0ce28cff8357c503cda67d1c7fea200bff6918ee1de3c4f3549175b9d3",
+  "index/meta/cell_line_metadata.parquet": "67641f5bdd3fb077978ff1fec4d0d617490674bcd42850515ae3997194c29d4d",
+  "stream/plates/plate1/pseudobulk_groups.tsv": "626dcf884b2819c7b72f1e869abf4c26886eecfb3b5f40895460657308946c41",
+  "stream/plates/plate2/pseudobulk_groups.tsv": "3d7a7fbd18b8b3e38a1337df99916c2e874ceef6c097be262fe52ed5bef04984",
+  "stream/plates/plate3/pseudobulk_groups.tsv": "ca6d781283935cc24d57bcca3abf7a0343e41874d0555ffd78ec33fa237f5047",
+  "stream/plates/plate4/pseudobulk_groups.tsv": "8611e47974558e7226fcc9df65bf846cdb0576213372a126c9a17e508cc3f13a",
+  "stream/plates/plate5/pseudobulk_groups.tsv": "30bcbc8d5b3db660fb43d7d681bb5e92c348027fa884ae052d5932c1651336be",
+  "stream/plates/plate6/pseudobulk_groups.tsv": "27981d3ad647d3f025e948f0c95eb2d3fcbe08203fa7c5af00653db909ac0d37",
+  "stream/plates/plate7/pseudobulk_groups.tsv": "401336e14dc22b3eeb929cabf84941c4fc4dd5379e2b649fa7397eb9c52dc34c",
+  "stream/plates/plate8/pseudobulk_groups.tsv": "9f51c61264d0563214a6dca4a25b5110d4c82b08386bf2e33dbf9151a3e6e2be",
+  "stream/plates/plate9/pseudobulk_groups.tsv": "f572648f00adbeef0d4621f068da2f7501ae49792e9569b17889abb1a8d6e0a9",
+  "stream/plates/plate10/pseudobulk_groups.tsv": "5a35bd61c165895c0ad40f3d10147d9f0c84c39eeb595e7313998c6d4562ad74",
+  "stream/plates/plate11/pseudobulk_groups.tsv": "1d173de1104f5bb5156e95abf36ebd14d562bd321cc9963b5f12db5cc8d37604",
+  "stream/plates/plate12/pseudobulk_groups.tsv": "a738c4171ceb925948cf2b8a4917a29909ad132699b611f99215334c4fbcb56a",
+  "stream/plates/plate13/pseudobulk_groups.tsv": "c25431facd866b4d5f5d3f7d7068cc53717b630d52d774386d126286f1dc8e3d",
+  "stream/plates/plate14/pseudobulk_groups.tsv": "bf10124fd4e1dcec174cd45178a1800b6abe3098ea38fb9a9d5376ec0cb790a8"
+}
