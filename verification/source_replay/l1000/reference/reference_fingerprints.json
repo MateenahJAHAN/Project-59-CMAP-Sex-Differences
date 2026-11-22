@@ -1,0 +1,8 @@
+{
+  "cohort_sha256": "bce8003409273bd62efc29e3c8278918d8f497b418c5a73f49a3f1541ff7db55",
+  "rounded_marker_medians_sha256": "466377391f458109effd9637e11044fd22f9f79acdc786c3f4b3bbdd9ee93085",
+  "original_files_sha256": {
+    "A_l1000_samples_used.tsv.gz": "070d8064d8de5b479626200b755c01cb6bb057d4e95591194d731ad288e8ca0e",
+    "A_l1000_line_medians.tsv": "39aa94c4e53f57e79441246657fb9407d8a9f03aa096557a58312228a8256a06"
+  }
+}

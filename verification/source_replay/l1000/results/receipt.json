@@ -65,7 +65,8 @@
     "qc_pass_DMSO_in_matrix": 75705,
     "cohort_rows": 2800,
     "cohort_lines": 127,
-    "archived_cohort_matches_every_field": true
+    "archived_cohort_matches_every_field": true,
+    "cohort_sha256": "bce8003409273bd62efc29e3c8278918d8f497b418c5a73f49a3f1541ff7db55"
   },
   "verification": {
     "hdf5_first_last_checks": {
@@ -73,22 +74,18 @@
       "188707": "a5e661601ec5b6ac518073e27009ab71bfec07f0e5c0da1c5c6b359195cd37dd"
     },
     "selected_raw_bytes": 276147200,
-    "selected_whole_row_hashes_file": "sampled_well_hashes.tsv.gz",
-    "maximum_median_delta_vs_archived_4dp": 4.999980926512215e-05,
+    "selected_well_rows_sha256": "d1b6707b33223962c02264e6407d4b38f6fc72cf7d494ccd57e4aa99590392cc",
+    "rounded_marker_medians_sha256": "466377391f458109effd9637e11044fd22f9f79acdc786c3f4b3bbdd9ee93085",
+    "all_marker_medians_match_archive_to_four_decimals": true,
     "filename_level": "level3_beta_ctl_n188708x12328.gctx",
     "sampling_seed": 20261114,
     "maximum_wells_per_line": 30,
     "aggregation": "Per gene, compute the median across selected wells in each line; then average the eight Y-gene medians within line.",
     "input_sha256": {
-      "line_state_inputs.tsv": "6e864be7120285841cdba1e35cf78a8680f1a417acd413e2b1fac5c830d7e6f0",
+      "A_cellline_sex_states.tsv": "d07cbbd08aef6e4bd88c4f8b967da242434263ac698ef4b1c818c8ec0ad0ffb6",
       "geneinfo_beta.txt": "e739d06bad42ff9285c00b778e65d8999425062a3375cc7e7cdab0e7154490b5",
       "instinfo_beta.txt": "2676189e8ea4a4cfdafc6c7e1b9f1776f4459ebfe4f79f6a736c3f3a732d3249",
-      "A_l1000_samples_used.tsv.gz": "070d8064d8de5b479626200b755c01cb6bb057d4e95591194d731ad288e8ca0e",
-      "A_l1000_line_medians.tsv": "4279b53b55c42e2db26ae6f51bacc551c5f4ad3a0451a010ed1791fa1bc76930"
-    },
-    "output_sha256": {
-      "sampled_well_hashes.tsv.gz": "97d4860caa5cbe6b9a98a5349e41c1cedc4c734a985f026291e0eb39da183991",
-      "inferred_scores.tsv": "7b5e75e0920193dabd51e8ad0672f72ecdfdd3ac800204dede3fad769177f352"
+      "reference_fingerprints.json": "58367f4135b0fe46a66d7e58c64c83f8ae9a189b7e7c43a4aa2e9e5a634c7ea8"
     },
     "metadata_sources": {
       "geneinfo_beta.txt": "https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/geneinfo_beta.txt",

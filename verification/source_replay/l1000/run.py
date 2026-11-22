@@ -13,12 +13,12 @@ import numpy as np
 import pandas as pd
 import requests
 from scipy.stats import rankdata, spearmanr
+from fingerprints import cohort_digest, median_digest, digest_rows, MARKERS, Y_GENES
 
 BASE = Path(__file__).resolve().parent
 SEED = 20261114
 URL = 'https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/level3/level3_beta_ctl_n188708x12328.gctx'
-YS = ['RPS4Y1','DDX3Y','KDM5D','UTY','EIF1AY','ZFY','USP9Y','NLGN4Y']
-MARKERS = ['XIST']+YS
+YS = Y_GENES
 RESOLVED = {'XY','XX-like','Y-lost','XIST-lost','discordant'}
 LOCAL = threading.local()
 
@@ -49,7 +49,7 @@ def input_schema():
     return schema,samples,genes,checks
 
 
-def choices(samples,states,data_root,reference_root):
+def choices(samples,states,data_root,reference):
     eligible=[]
     cols=['sample_id','pert_type','cmap_name','cell_iname','qc_pass']
     total=0
@@ -72,11 +72,11 @@ def choices(samples,states,data_root,reference_root):
         records.extend(dict(cell_iname=r.cell_iname,state=r.state,sample_id=w,
                             row_index=row_ids[w],n_available=len(choices_line)) for w in selected)
     cohort=pd.DataFrame(records).sort_values('row_index').reset_index(drop=True)
-    archived=pd.read_csv(reference_root/'A_l1000_samples_used.tsv.gz',sep='\t')
-    pd.testing.assert_frame_equal(cohort[archived.columns],archived,check_dtype=False)
-    counts=dict(instance_metadata_rows=total,qc_pass_DMSO=len(all_dmso),
-                qc_pass_DMSO_in_matrix=len(wells),cohort_rows=len(cohort),
-                cohort_lines=cohort.cell_iname.nunique(),archived_cohort_matches_every_field=True)
+    original_match=cohort_digest(cohort)
+    assert original_match==reference['cohort_sha256'], 'Selected sample cohort differs from the original'
+    counts=dict(instance_metadata_rows=total,qc_pass_DMSO=len(all_dmso),qc_pass_DMSO_in_matrix=len(wells),
+                cohort_rows=len(cohort),cohort_lines=cohort.cell_iname.nunique(),
+                archived_cohort_matches_every_field=True,cohort_sha256=original_match)
     return cohort,counts
 
 
@@ -137,6 +137,8 @@ def main():
     args=parser.parse_args()
     data_root,states_path,reference_root,out=args.data,args.states,args.reference,args.output
     out.mkdir(parents=True,exist_ok=True)
+    ref_file=reference_root/'reference_fingerprints.json'
+    reference=json.loads(ref_file.read_text())
     src,samples,genes,edge_checks=input_schema()
     print('Read GCTX metadata',src['shape'],src['etag'],flush=True)
     info=pd.read_csv(data_root/'geneinfo_beta.txt',sep='\t',dtype={'gene_id':str})
@@ -148,7 +150,7 @@ def main():
     marker_manifest={sym:dict(gene_id=genes[i],matrix_index=i,feature_space=chosen.loc[sym,'feature_space'])
                      for sym,i in zip(MARKERS,marker_columns)}
     states=pd.read_csv(states_path,sep='\t',dtype={'Yhi':str})
-    cohort,counts=choices(samples,states,data_root,reference_root)
+    cohort,counts=choices(samples,states,data_root,reference)
     print('Rebuilt selected cohort',counts,flush=True)
     fetched,rowbytes=read_known_rows(list(cohort.row_index)+list(edge_checks),src,marker_columns)
     assert all(digest==fetched[i][0] for i,digest in edge_checks.items())
@@ -156,28 +158,26 @@ def main():
     scored['gctx_row_sha256']=[fetched[i][0] for i in scored.row_index]
     for j,marker in enumerate(MARKERS):
         scored[marker]=[fetched[i][1][j] for i in scored.row_index]
-    scored[[*cohort.columns,'gctx_row_sha256']].to_csv(out/'sampled_well_hashes.tsv.gz',sep='\t',index=False,compression={'method':'gzip','mtime':0})
     med=scored.groupby('cell_iname')[MARKERS].median()
     med['L1000_Y_score']=med[YS].mean(axis=1)
-    archive=pd.read_csv(reference_root/'A_l1000_line_medians.tsv',sep='\t').set_index('cell_iname')
-    error=(med-archive.loc[med.index,med.columns]).abs()
-    assert med.index.equals(archive.sort_index().index)
-    assert error.to_numpy().max()<0.000051
+    line_digest=median_digest(med)
+    assert line_digest==reference['rounded_marker_medians_sha256'], 'Archived four-decimal medians differ'
     joined=med.join(states.set_index('cell_iname')[['y_score_ccle','Yhi','state']],how='left',validate='1:1')
-    joined[['L1000_Y_score','state','Yhi']].to_csv(out/'inferred_scores.tsv',sep='\t')
     both=joined.dropna(subset=['y_score_ccle','L1000_Y_score'])
     rho,p=spearmanr(both.y_score_ccle,both.L1000_Y_score)
+    check_rho=np.corrcoef(rankdata(both.y_score_ccle),rankdata(both.L1000_Y_score))[0,1]
+    assert np.isclose(rho,check_rho)
     scores=joined.L1000_Y_score
     metrics=dict(spearman_rho=float(rho),spearman_p=float(p),spearman_n=len(both),
                  original_AUC_XY_vs_Y_lost=auc(scores,joined.state=='XY',joined.state=='Y-lost'),
                  alternate_AUC_all_Y_high_vs_all_Y_low=auc(scores,joined.Yhi=='True',joined.Yhi=='False'))
     checks=dict(hdf5_first_last_checks={str(i):v for i,v in edge_checks.items()},
-                selected_raw_bytes=len(cohort)*rowbytes,selected_whole_row_hashes_file='sampled_well_hashes.tsv.gz',
-                maximum_median_delta_vs_archived_4dp=float(error.to_numpy().max()),
+                selected_raw_bytes=len(cohort)*rowbytes,
+                selected_well_rows_sha256=digest_rows(scored[['row_index','gctx_row_sha256']].itertuples(index=False,name=None)),
+                rounded_marker_medians_sha256=line_digest,all_marker_medians_match_archive_to_four_decimals=True,
                 filename_level='level3_beta_ctl_n188708x12328.gctx',sampling_seed=SEED,maximum_wells_per_line=30,
                 aggregation='Per gene, compute the median across selected wells in each line; then average the eight Y-gene medians within line.',
-                input_sha256={p.name:sha(p) for p in [states_path,data_root/'geneinfo_beta.txt',data_root/'instinfo_beta.txt',reference_root/'A_l1000_samples_used.tsv.gz',reference_root/'A_l1000_line_medians.tsv']})
-    checks['output_sha256']={name:sha(out/name) for name in ['sampled_well_hashes.tsv.gz','inferred_scores.tsv']}
+                input_sha256={p.name:sha(p) for p in [states_path,data_root/'geneinfo_beta.txt',data_root/'instinfo_beta.txt',ref_file]})
     checks['metadata_sources']={name:'https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/'+name for name in ['geneinfo_beta.txt','instinfo_beta.txt']}
     receipt=dict(source=src,markers=marker_manifest,sampling=counts,verification=checks,results=metrics)
     (out/'receipt.json').write_text(json.dumps(receipt,indent=2)+'\n')
