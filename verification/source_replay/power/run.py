@@ -53,7 +53,10 @@ def main():
                 if calibration.resolve() != (work / "results/G/G_calibration.tsv").resolve():
                     raise ValueError("Calibration was read from an unexpected file")
             pd.testing.assert_frame_equal(actual, expected, check_exact=False, atol=1e-12, rtol=1e-12)
-        print("Checked the regenerated power, interval coverage, calibration and Figure S3 tables.")
+        sensitivity = pd.read_csv(out / "results/misclass_e3.tsv", sep="\t").drop(columns="flag_source")
+        released = pd.read_csv(HERE / "checks/cell_line_sensitivity.tsv", sep="\t")
+        pd.testing.assert_frame_equal(sensitivity, released, check_exact=False, atol=1e-12, rtol=1e-12)
+        print("Checked power, interval coverage, calibration, Figure S3 and the cell-line sensitivity estimates.")
 
 
 if __name__ == "__main__":
