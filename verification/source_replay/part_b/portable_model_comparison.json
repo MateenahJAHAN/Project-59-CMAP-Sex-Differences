@@ -1,0 +1,46 @@
+{
+  "registered_model": {
+    "release_manifest_sha256": "1fec94df6e1b3f565a3489b8089857752d0ae932c8ae81f109407da75b542b60",
+    "fit": "Complete real-label fit using the reconstructed LINCS inputs and registered settings.",
+    "checked_inputs": 56,
+    "calibration": "Reused content-keyed assignment checkpoints from the complete raw replay for the registered and exploratory calibrations.",
+    "unchanged_checkpoint_records": 2846,
+    "registered_calibration_rows": 1200,
+    "matched_scientific_result_files": 32,
+    "matched_capture_files": 110,
+    "matched_exploratory_files": 18,
+    "inventory_comparison": "Checked each tensor against its SHA-256 and verified that the two paths for each of three level-5 inputs resolve to the same file.",
+    "manuscript_tables_with_identical_bytes": {
+      "part_b_compounds.tsv": 232,
+      "part_b_controls.tsv": 2,
+      "part_b_h1.tsv": 2,
+      "part_b_h3.tsv": 2
+    },
+    "primary_panel_p": {
+      "Y": 0.7231276872312768,
+      "XIST": 0.1126887311268873
+    },
+    "tensor_and_panel_index_files_checked": 56
+  },
+  "figure_4": {
+    "refitted_permutation_draws": 30000,
+    "different_draws": 0,
+    "refitted_intervals": 12,
+    "identical_renderings_sha256": {
+      "fig4_partB.pdf": "e0b4a4508d4284acb82e29b8cd5b9a949f9ba3c2b79bb0fed7b356a2f2265fb3",
+      "fig4_partB.png": "09129d2055f6db9db03d5d057504e8affd6e49a07e9a90e707e90a6f7b748dcc"
+    }
+  },
+  "supplement_power": {
+    "method": "Verified the completed planted-effect assignments and recomputed power, coverage and the calibration diagnostic.",
+    "saved_assignments": 1000,
+    "permutations_per_assignment": 2000,
+    "scenario_rows_matched": 26000,
+    "planted_compound_rows_matched": 120000,
+    "interval_values_matched": 5750000,
+    "fresh_calibration_diagnostic_rows": 800,
+    "changed_diagnostic_rows": 0,
+    "figure_S3_coordinates_checked": 66,
+    "figure_S3_maximum_absolute_difference": 7.105427357601002e-15
+  }
+}

@@ -17,7 +17,7 @@ Across 379 named compounds, lines expressing Y genes or XIST showed almost the s
 
 ## Reproduce the experiment
 
-From the repository root, `python3 reproduce.py follow-up --work ../p59-run` regenerates the recovery, marker agreement, landmark-expression and donor-label results and their figures from the released counts in a separate directory. It compares the four result summaries and the independent 249,480-assignment check against the published numerical values.
+From the repository root, run `python3 reproduce.py follow-up --work ../p59-run`. The command regenerates the recovery, marker agreement, landmark-expression and donor-label results and their figures under `../p59-run/marker_stability/`. It also recounts the recovery experiment from individual cell annotations and reruns the independent 249,480-assignment check of landmark expression.
 
 The 8.6 MB `inputs/` directory contains the original fourteen well–line–marker-stratum count files, completion records, archived sample and driver metadata, the frozen expression-state table, and the relevant entries from the stream's SHA-256 manifest. Source data are pinned to [Tahoe-100M release 349e2a5](https://huggingface.co/datasets/tahoebio/Tahoe-100M/tree/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8). Project 59's baseline marker rules and paper are at the [fellowship repository](https://github.com/MateenahJAHAN/Project-59-CMAP-Sex-Differences/tree/d9a94ddedeb65ced19c16f6cb78497d837f161b0).
 
@@ -28,10 +28,12 @@ python analyse.py --root inputs
 python figure.py
 ```
 
-For the independent cell-level recomputation, use the existing complete Project 59 Tahoe stream. The verifier reads the compact unaggregated metadata for 100,648,790 profiles, reconstructs all per-line well counts and enumerates the exact permutation reference distribution.
+The recovery check obtains the [Tahoe-100M observation file](https://huggingface.co/datasets/tahoebio/Tahoe-100M/blob/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8/metadata/obs_metadata.parquet) (2,293,981,573 bytes) and verifies its [SHA-256](../../verification/source_replay/part_a/receipts/tahoe_observations.json). It reuses the file when Part A has already downloaded it under `../p59-run/tahoe/index/meta/`. It reads the filter, cell line and well for all 100,648,790 profiles. Summing the 95,624,334 full-filter profiles reconstructs a 1,344-well by 50-line matrix. Every entry, including zeros, is compared with the fourteen released plate tables. The recovery contrast uses the released vehicle classifications. When the work directory contains fresh Part A calls, the verifier also checks the line accessions, tissues and marker assignments against those calls.
+
+The full count matrix is written to `marker_stability/results/independent_well_line_counts.tsv.gz`. The adjacent `independent_verification.json` gives the number of discordant entries, the estimated contrast and the two-sided permutation probability across all 972,972 within-tissue assignments. To repeat the recovery check by itself, use the atlas environment created by the top-level runner.
 
 ```sh
-python verify.py --root ~/p59_data/tahoe
+../p59-run/envs/atlas/bin/python analysis/marker_stability/verify.py --work ../p59-run
 ```
 
 `results/lines.tsv` identifies all 50 lines and why each contributes or falls outside the primary contrast. Full per-well counts by group are in the input tables. The statistics for all 379 compounds, observed plate repeats, controls and individual-line exclusions are in [results](results/). This is an independent computational follow-up to the fellowship paper. Codex designed and ran the analyses and prepared the manuscript for review. The fellowship manuscript’s authorship applies to the preceding study.

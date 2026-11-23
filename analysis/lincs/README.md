@@ -38,4 +38,6 @@ The normal run rebuilds the chromosome and historical overlap tables. The model 
 
 The public entry point records a post-publication replay. The original registered plan used tag `partB-prereg-v1`, commit `572b97498d8d555e6f3616c99cb3289351223c77`, and plan SHA-256 `32bdc666e9c85a43368a8f6f70269155b24fb0fde0095326c5d2178588a8bd1f`. Numerical fits, calibration thresholds, seeds and permutation counts follow that analysis. The public runner checks the [released code and configuration](src/G/SHA256SUMS.txt) and every opened model input. Seven ploidy values can differ from their frozen text by less than a trillionth. The alternative byte fingerprints are fixed and the lineage-specific median splits were identical. [Ploidy comparison](../../verification/source_replay/part_b/ploidy_control_comparison.json)
 
+The full model replay gave panel-wide *p* values of 0.7231 for Y and 0.1127 for XIST. All four manuscript tables matched byte for byte, as did the 30,000 permutation draws behind Figure 4. The replay reused the earlier calibration assignments and reran the 800-row diagnostic. [Model, figure and calibration comparison](../../verification/source_replay/part_b/portable_model_comparison.json)
+
 [Manuscript](../../manuscript/) · [Part B reproduction evidence](../../verification/source_replay/part_b/)

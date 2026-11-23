@@ -48,7 +48,8 @@ def main():
             shutil.copy2(HERE / name / filename, dest / name / filename)
     env = dict(os.environ, PYTHONDONTWRITEBYTECODE="1", MPLBACKEND="Agg",
                OPENBLAS_NUM_THREADS="1", MKL_NUM_THREADS="1", VECLIB_MAXIMUM_THREADS="1")
-    jobs = [("analyse.py", "--root", HERE / "inputs"), ("figure.py",),
+    jobs = [("analyse.py", "--root", HERE / "inputs"),
+            (HERE / "verify.py", "--work", args.work.resolve(), "--out", dest / "results"), ("figure.py",),
             ("marker_transfer/analyze.py",), ("marker_transfer/figure.py",),
             ("genomics_extension/analyse.py",), ("genomics_extension/check.py",),
             ("genomics_extension/figure.py",), ("donor_response/analyze.py",)]
@@ -60,7 +61,8 @@ def main():
                 subprocess.run(cmd, cwd=dest, env=env, check=True, stdout=report)
         else:
             subprocess.run(cmd, cwd=dest, env=env, check=True)
-    for name in ("results/summary.json", "marker_transfer/results.json", "genomics_extension/results.json",
+    for name in ("results/summary.json", "results/independent_verification.json",
+                 "marker_transfer/results.json", "genomics_extension/results.json",
                  "genomics_extension/independent_check.json", "donor_response/results.json"):
         compare(json.loads((HERE / name).read_text()), json.loads((dest / name).read_text()), name)
         print(f"Verified {name}")

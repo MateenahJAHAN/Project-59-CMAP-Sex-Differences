@@ -1,7 +1,7 @@
 """Recreate the four released Part B tables from the fresh model outputs."""
 from pathlib import Path
 from csv import DictReader, writer
-from hashlib import sha256
+from hashlib import file_digest, sha256
 import gzip, io, json
 import argparse
 parser = argparse.ArgumentParser(description=__doc__)
@@ -72,6 +72,27 @@ for row in summary:
 if not all(row['bytes_equal'] for row in summary):
     raise SystemExit("Part B result differs from the released table. Inspect comparison.json.")
 
+def tensor_inventory_digest(inventory):
+    content = inventory.read_bytes()
+    for row in records(inventory):
+        relative = Path(row['path'])
+        if relative.is_absolute() or '..' in relative.parts:
+            raise ValueError(f'Unexpected tensor path in {inventory.name}: {relative}')
+        tensor = HERE / relative
+        with tensor.open('rb') as stream:
+            if file_digest(stream, 'sha256').hexdigest() != row['sha256']:
+                raise ValueError(f'Expression tensor differs from its inventory: {relative}')
+        if row['tensor'] == 'level5_original':
+            filename = row.get('panel', 'P1') + '_resp.npy'
+            public = Path('data/D/tensors') / filename
+            archived = Path('data/G/tensors/D') / filename
+            if relative not in (public, archived) or not tensor.samefile(HERE / archived):
+                raise ValueError(f'Unexpected level-5 tensor for {filename}: {relative}')
+            # The original inventory named the same file through the model input alias.
+            content = content.replace(f'\t{public}\t'.encode(), f'\t{archived}\t'.encode())
+    return sha256(content).hexdigest()
+
+
 # Compare the complete analysis outputs to the independent earlier raw replay.
 # Guard text, absolute paths and package provenance are checked separately.
 evidence = REPO / 'verification/source_replay/part_b'
@@ -87,6 +108,9 @@ for manifest, folder in [('model', HERE / 'results/G'), ('capture', HERE / 'capt
             # The compressor includes the creation time. Compare every decompressed byte.
             observed = sha256(gzip.decompress(artifact.read_bytes())).hexdigest()
             expected = 'e16df5e0d3bf3ebd58a642a543977099315767d7aec6373dcd14afbb80cc5c42'
+        elif name in ('X1_tensors.tsv', 'X1all_tensors.tsv'):
+            observed = tensor_inventory_digest(artifact)
+            expected = row['sha256_rerun']
         else:
             observed = sha256(artifact.read_bytes()).hexdigest()
             expected = row['sha256_rerun']

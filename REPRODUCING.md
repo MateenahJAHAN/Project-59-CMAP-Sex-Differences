@@ -30,9 +30,9 @@ Run each command from the repository root. The same `--work` path lets one stage
 | `l1000 --work ../p59-run` | Part B bulk RNA states and 2,800 control wells from the provider matrix | `results/l1000/` for the independent L1000 marker-score diagnostic |
 | `power --work ../p59-run --workers 4` | The completed Part B tensors, model design, calibration and permutation captures | `power/raw/` for 1,000 assignment checkpoints and `power/results/` for detection rates, coverage and diagnostics |
 | `paper-from-run --work ../p59-run` | Completed Parts A, B and planted-effect simulation | `plot-inputs/`, seven redrawn figures and both PDFs in `paper-from-run/` |
-| `follow-up --work ../p59-run` | Published treated-well and repeat-plate counts from the later Tahoe study | `marker_stability/`, including regenerated marker, recovery, landmark-expression and donor-label analyses |
+| `follow-up --work ../p59-run` | Tahoe's 2.29 GB cell-annotation file and the released treated-well and repeat-plate tables | `marker_stability/`, including a cell-by-cell recovery recount and regenerated marker, landmark-expression and donor-label analyses |
 
-The follow-up is a separate study. Its [source guide](analysis/marker_stability/README.md) gives the additional commands for the 100-million-profile check, COLO 205 RNA/DNA assays and raw array analyses.
+The follow-up is a separate study. Its [source guide](analysis/marker_stability/README.md) describes the full cell recount and gives the commands for the independent COLO 205 RNA and DNA assays.
 
 ## Downloads and runtime
 
