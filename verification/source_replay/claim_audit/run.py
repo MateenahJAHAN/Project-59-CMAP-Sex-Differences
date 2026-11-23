@@ -9,7 +9,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 RUN = None
-PA = None
+FILES = {}
 SUPP = None
 EXPECTED_PATTERNS = ['Y only', 'XIST only', 'neither', 'both']
 MAP = {(True, False): 'Y only', (False, True): 'XIST only', (False, False): 'neither', (True, True): 'both'}
@@ -72,7 +72,7 @@ def enrich(lines, cuts):
 
 
 def bulk_refs(a):
-    root = RUN/'bulk_RNA/results/C'
+    root = FILES['bulk']
     bounds = a.source(root/'C_expression_cutoffs.tsv')
     cuts = {(r['expr_source'], r['variable']): float(r['cutoff_log2']) for r in bounds}
     records = a.source(root/'C_cellline_sex_labels.tsv')
@@ -140,13 +140,13 @@ def dna(a, rows, refs, label, expected):
 
 
 def do_external(a):
-    src = PA/'vehicle_tables'
+    src = FILES['external']
     f1cuts=a.source(src/'F1_cutoffs.tsv')
     cuts={k:{r['score']:float(r['cutoff']) for r in f1cuts if r['dataset']==k} for k in ('EmeraldBay','sci-Plex (all samples)')}
     e=enrich(a.source(src/'F1_emerald_states.tsv'),cuts['EmeraldBay'])
     s=enrich(a.source(src/'F1_sciplex_states.tsv'),cuts['sci-Plex (all samples)'])
     b=bulk_refs(a)
-    strref=unique(a.source(PA/'str/amelogenin_by_record.tsv'),'accession')
+    strref=unique(a.source(FILES['str']/'amelogenin_by_record.tsv'),'accession')
     a.check('EmeraldBay endpoint vehicle cells',100253,sum(int(r['n_vehicle_cells']) for r in e),'F1')
     a.check('EmeraldBay line states XY, Y-lost, XIST-lost, XX-like, ambiguous','17,16,12,6,1',
             ','.join(str(sum(r['state']==k for r in e)) for k in ['XY','Y-lost','XIST-lost','XX-like','ambiguous']),'F1')
@@ -163,7 +163,13 @@ def do_external(a):
     dna(a,e,strref,'emerald','47/52')
     dna(a,s,strref,'sciplex','3/3')
 
-    bulk_str=a.source(PA/'str_fresh_bulk.tsv')
+    if 'bulk_str' in FILES:
+        bulk_str=a.source(FILES['bulk_str'])
+    else:
+        measured=a.source(FILES['str']/'figure3_supp_table_amelogenin_by_line.tsv')
+        bulk_str=[dict(source=source, comparable=str(r[source+'_vs_STR'] != 'not compared'),
+                       rna_call=r[source+'_Y'], amelogenin=r['amelogenin_class'])
+                  for source in ('CCLE','CMP') for r in measured]
     for name,expected in [('CCLE','714/734'),('CMP','1007/1031')]:
         tested=[r for r in bulk_str if r['source']==name and r['comparable']=='True']
         a.check('Figure 3 '+name+' marker vs DNA',expected,
@@ -173,7 +179,7 @@ def do_external(a):
     a.check('S1 GDSC2/PRISM state-name agreement across the two bulk sources','729/755',
             frac(sum(r['cmp_state']==r['ccle_state'] for r in both_bulk),len(both_bulk)),'C source states')
 
-    lin=a.source(RUN/'part_b/run/A/results/A/A_cellline_sex_states.tsv')
+    lin=a.source(FILES['states_a'])
     both_lin=[r for r in lin if r['state_sanger']!='no_data' and r['state_ccle']!='no_data']
     a.check('S1 LINCS state-name agreement across the two sources','17/18',
             frac(sum(r['state_sanger']==r['state_ccle'] for r in both_lin),len(both_lin)),'A source states')
@@ -278,11 +284,11 @@ def do_mosaic(a,root):
 def check_s1_roster(a,tahoe,emerald,reference=None):
     fresh=[(r['cellosaurus_id'],'Tahoe-100M') for r in tahoe]
     fresh.extend((r['cellosaurus_id'],'EmeraldBay') for r in emerald)
-    fresh.extend((r['cellosaurus_id'],r['sample']) for r in a.source(PA/'vehicle_tables/F1_sciplex_states.tsv'))
-    line_names=a.source(RUN/'part_b/run/A/results/A/A_cellline_sex_states.tsv')
+    fresh.extend((r['cellosaurus_id'],r['sample']) for r in a.source(FILES['external']/'F1_sciplex_states.tsv'))
+    line_names=a.source(FILES['states_a'])
     fresh.extend({(r['cellosaurus_ac'],'LINCS2020') for r in line_names if r['state']!='no_data'})
     missing_rna=0
-    for row in a.source(RUN/'bulk_RNA/results/C/C_cellline_sex_labels.tsv'):
+    for row in a.source(FILES['bulk']/'C_cellline_sex_labels.tsv'):
         for screen,flag in [('GDSC2','in_gdsc2'),('PRISM','in_prism')]:
             if row[flag]=='True':
                 fresh.append((row['RRID'],screen))
@@ -338,20 +344,34 @@ def do_a3(a,path):
 
 
 def main():
-    global RUN,PA,SUPP
+    global RUN,FILES,SUPP
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--run-root',required=True,type=Path,help='Raw reproduction directory with part_a, part_b, bulk_RNA and manuscript_review')
+    mode = parser.add_mutually_exclusive_group(required=True)
+    mode.add_argument('--work', type=Path, help='Working directory of the public Part A and Part B workflows')
+    mode.add_argument('--run-root',type=Path,help='Raw reproduction directory with part_a, part_b, bulk_RNA and manuscript_review')
     parser.add_argument('--supplement',type=Path,help='Manuscript supplement TeX containing Table S8')
     parser.add_argument('--reference-s1',type=Path,help='Published Table S1, to compare the source-specific row keys')
     parser.add_argument('--output',type=Path,default=HERE/'results')
     args=parser.parse_args()
-    RUN=args.run_root.resolve()
-    PA=RUN/'part_a'
-    SUPP=args.supplement or RUN/'manuscript_review/baseline/manuscript/supplement.tex'
+    if args.work:
+        RUN=args.work.resolve()
+        res=RUN/'results'
+        FILES=dict(bulk=res/'C', external=res/'F1', states_a=res/'A/A_cellline_sex_states.tsv',
+                   str=res/'str', tahoe=res/'tahoe/latest', s1=res/'supplement/supplementary_table_S1.tsv',
+                   depth=res/'depth_matching')
+        SUPP=args.supplement or HERE.parents[2]/'manuscript/supplement.tex'
+    else:
+        RUN=args.run_root.resolve()
+        pa=RUN/'part_a'
+        FILES=dict(bulk=RUN/'bulk_RNA/results/C', external=pa/'vehicle_tables',
+                   states_a=RUN/'part_b/run/A/results/A/A_cellline_sex_states.tsv', str=pa/'str',
+                   bulk_str=pa/'str_fresh_bulk.tsv', tahoe=pa/'results',
+                   s1=RUN/'manuscript_review/supplementary_table_S1.tsv', depth=pa/'external_checks')
+        SUPP=args.supplement or RUN/'manuscript_review/baseline/manuscript/supplement.tex'
     audit=Audit(args.output)
     e,b,d=do_external(audit)
     dossier={}
-    root=PA/'results'
+    root=FILES['tahoe']
     cuts={r['score']:float(r['cutoff']) for r in audit.source(root/'partA_local_cutoffs.tsv') if r['level']=='lineplate'}
     t=enrich(audit.source(root/'partA_local_states.tsv'),cuts)
     assert all((float(r['y_score'])>=cuts['y_score'])==(r['y_high']=='True')
@@ -360,8 +380,8 @@ def main():
     check_comparison(audit,'Table 2 Tahoe vs bulk marker patterns','47/49',tb,'pattern_agrees')
     check_comparison(audit,'Note S9 Tahoe vs bulk state names','46/49',tb,'state_agrees')
     dossier['Tahoe line states and four-way cutoffs']='complete'
-    crows=audit.source(RUN/'bulk_RNA/results/C/C_cellline_sex_labels.tsv')
-    ccuts={(r['expr_source'],r['variable']):float(r['cutoff_log2']) for r in audit.source(RUN/'bulk_RNA/results/C/C_expression_cutoffs.tsv')}
+    crows=audit.source(FILES['bulk']/'C_cellline_sex_labels.tsv')
+    ccuts={(r['expr_source'],r['variable']):float(r['cutoff_log2']) for r in audit.source(FILES['bulk']/'C_expression_cutoffs.tsv')}
     for sex,neligible,nmeasured,n_neither,nmarker,marker in [('Male',596,579,256,272,'yscore'),('Female',302,300,122,125,'xist')]:
         rows=[r for r in crows if r['annotated_sex']==sex and r['lineage'] and r['sex_specific_lineage']=='False']
         measured=[r for r in rows if r['expressed_state_source'] in {'CCLE','CMP'}]
@@ -384,8 +404,8 @@ def main():
         dossier['Figure S2A']='awaiting fitted local model'
     roster=check_s1_roster(audit,t,e,args.reference_s1)
     dossier['Table S1 row roster from independently joined source tables']='complete'
-    s1=RUN/'manuscript_review/supplementary_table_S1.tsv'
-    if s1.is_file() and (s1.parent/'table_s1_comparison.json').is_file():
+    s1=FILES['s1']
+    if s1.is_file():
         do_s1(audit,s1)
         new_rows={(r['cellosaurus_id'],r['source']):r for r in load(s1)}
         assert roster==set(new_rows)
@@ -411,7 +431,7 @@ def main():
         dossier['Reassembled Table S1']='complete'
     else:
         dossier['Reassembled Table S1']='awaiting assembly'
-    a3=PA/'external_checks/A3_pairs.tsv'
+    a3=FILES['depth']/'A3_pairs.tsv'
     if a3.is_file() and (a3.parent/'A3_summary.json').is_file():
         do_a3(audit,a3)
         dossier['Figure S2B and all Table S8 pairs']='complete'
@@ -421,6 +441,14 @@ def main():
     audit.write()
     (args.output/'coverage.json').write_text(json.dumps(dossier,indent=2)+'\n')
     print(dossier)
+    if args.work:
+        if set(dossier.values()) != {'complete'}:
+            raise SystemExit("The public working directory lacks one or more required analysis outputs.")
+        old=sorted(load(HERE/'results/claims.tsv'), key=lambda r:r['claim'])
+        new=sorted(audit.claims, key=lambda r:r['claim'])
+        if new != old:
+            raise SystemExit("Recomputed manuscript checks differ; inspect the claims.tsv file in the output directory.")
+        print(f"All {len(new)} claim comparisons reproduce, including recorded historical discrepancies.")
 
 
 if __name__=='__main__':

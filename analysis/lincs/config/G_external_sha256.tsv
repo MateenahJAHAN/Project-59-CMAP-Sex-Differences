@@ -1,0 +1,8 @@
+object	expected_sha256	bytes	source_of_expected
+siginfo_beta.txt	1a38d7ea2a804be79804af4a27aff9f2537af8f13d3c8af1fdc1fef780f40201	465242319	task D provenance/downloads.tsv (LINCS2020 siginfo_beta.txt)
+prism_secondary_dose_response_curve_parameters.csv	88d1013506e0cd6f191a51c5f3fdd3fb2be54f8afb4e19a5d1f8538e81fbfec8	264340589	task C report Data table and task D2 provenance notes (figshare file 20237739)
+l5_P1.npy (task E, both P1 dose labels)	SEE_E_HASHES	73905632	task E results/E/E_hashes.tsv object l5_P1
+l5_P1.npy (task D2, 1.11 uM only)	cd97205248273c1f07a45122a13abf1deb089830876c2fb7cedc746ec87a0d5c	38040416	task D2 provenance/D2_notes.md, deletions section
+inputs/D/regulon_pandaLCL_top30_landmark.tsv	d1ea31441ae8bff5ac7a2caa1a377eff637f555904a2af28b24dc8955f9e395c	302712	draft Appendix A; inputs/D README (commit 6996184)
+inputs/G/landmark_chromosomes.tsv	2de7c9d7cfb068f72624e36ac1ab0d5e84d5e69d441671bf52ef94f0eb0e82bd		src/inputs_build/G_build_inputs.py (this branch)
+inputs/G/old_list_overlap.tsv	6faf6b858238e707a749e0d0a205d26b1ba1943a29670e2c126f0981854fb2f6		src/inputs_build/G_build_inputs.py (this branch)

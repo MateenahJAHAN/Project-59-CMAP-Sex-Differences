@@ -10,4 +10,4 @@ All 39,996 categories reproduced. GSEApy 1.3.1 reproduced all 620 tested normali
 
 Start with the [notebook](project59_pipeline.ipynb) and [reference inputs](reference/). The output folder includes a [multi-sheet export with the pair-level table](results/FULL_50drugs_table.xlsx), [per-drug counts](results/all50_drug_counts.xlsx), and [working exports at different levels of aggregation](results/). The additional workbooks cover different rows or values and are kept with their original filenames. Use the Phase 6 tables for counts after the per-pair cell-line minimum was removed.
 
-[Next: full screen](../Phase6_NoSampleFilter/README.md) · [Fellowship overview](../README.md#how-the-analysis-developed)
+[Next: full screen](../Phase6_NoSampleFilter/README.md) · [Fellowship phases and reproduction](../fellowship/README.md)

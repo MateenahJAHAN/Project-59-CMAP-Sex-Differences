@@ -1,0 +1,253 @@
+marker	line_set	cells	unit_type	unit	n_lines	n_cells	umi	marker_umi	per_1000
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate1	32	115339	275606106	25275	0.091707
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate10	32	139256	324338820	21378	0.0659126
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate11	32	124339	264937784	20222	0.0763274
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate12	32	125335	327804620	17323	0.0528455
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate13	32	79450	193253273	12065	0.062431
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate14	32	62778	155252967	13456	0.0866715
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate2	32	161020	482614896	39488	0.0818209
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate3	32	51292	86084991	8677	0.100796
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate4	32	104897	222981249	17235	0.0772935
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate5	32	121642	287640623	22402	0.0778819
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate6	32	138343	388955497	27150	0.0698023
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate7	32	62032	107303382	7228	0.0673604
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate8	32	139773	317526133	17251	0.0543294
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	plate	plate9	32	82648	150012961	11587	0.07724
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate1	32	112408	264046849	11991	0.0454124
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate10	32	136757	314976557	9284	0.0294752
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate11	32	122042	257075978	9334	0.0363083
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate12	32	123485	320007930	8710	0.0272181
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate13	32	78201	188460138	6470	0.0343309
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate14	32	61122	148259643	5766	0.0388912
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate2	32	155965	457341978	14132	0.0309003
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate3	32	50506	83829216	5560	0.0663253
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate4	32	102957	215774579	8763	0.0406118
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate5	32	119015	276421304	10499	0.0379819
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate6	32	134966	371327141	11074	0.0298228
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate7	32	61434	105386687	4706	0.0446546
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate8	32	138024	310858522	9638	0.0310045
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	plate	plate9	32	81502	146516624	6780	0.0462746
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_1589	32	56601	136841808	12324	0.0900602
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_1590	32	58738	138764298	12951	0.0933309
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_1685	32	87717	263048352	21382	0.0812854
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_1686	32	73303	219566544	18106	0.0824625
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_1781	32	27917	46375950	4656	0.100397
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_1782	32	23375	39709041	4021	0.101262
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_1877	32	49539	97639476	8187	0.0838493
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_1878	32	55358	125341773	9048	0.0721866
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_1973	32	53505	126196406	9934	0.0787186
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_1974	32	68137	161444217	12468	0.0772279
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2069	32	64489	154393680	11043	0.0715249
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2070	32	73854	234561817	16107	0.0686685
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2165	32	26326	44706416	3084	0.0689834
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2166	32	35706	62596966	4144	0.0662013
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2261	32	55810	123739308	6562	0.0530308
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2262	32	83963	193786825	10689	0.0551585
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2357	32	46650	79861781	5939	0.074366
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2358	32	35998	70151180	5648	0.0805118
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2453	32	97143	213525174	14918	0.0698653
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2454	32	42113	110813646	6460	0.0582961
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2549	32	58489	118194169	9002	0.0761628
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2550	32	65850	146743615	11220	0.0764599
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2645	32	55178	139504360	7260	0.0520414
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2646	32	70157	188300260	10063	0.0534412
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2669	32	47426	126945119	7742	0.060987
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2670	32	32024	66308154	4323	0.0651956
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2837	32	26472	65371839	5801	0.0887385
+Y (8 genes)	Y-negative lines (y_score below cut-off)	all vehicle cells	sample	smp_2838	32	36306	89881128	7655	0.085168
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_1589	32	55149	130938554	5765	0.0440283
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_1590	32	57259	133108295	6226	0.0467739
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_1685	32	84954	249265918	7514	0.0301445
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_1686	32	71011	208076060	6618	0.0318057
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_1781	32	27498	45231138	3030	0.0669892
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_1782	32	23008	38598078	2530	0.0655473
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_1877	32	48609	94540542	4214	0.0445735
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_1878	32	54348	121234037	4549	0.0375225
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_1973	32	52328	121241402	4618	0.0380893
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_1974	32	66687	155179902	5881	0.0378979
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2069	32	63189	148621107	5207	0.0350354
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2070	32	71777	222706034	5867	0.0263441
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2165	32	26065	43867004	2055	0.0468461
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2166	32	35369	61519683	2651	0.0430919
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2261	32	55145	121290811	3758	0.0309834
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2262	32	82879	189567711	5880	0.0310179
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2357	32	46098	78355877	3665	0.0467738
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2358	32	35404	68160747	3115	0.0457008
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2453	32	95376	207226666	6473	0.0312363
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2454	32	41381	107749891	2811	0.0260882
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2549	32	57449	114817990	4272	0.0372067
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2550	32	64593	142257988	5062	0.0355832
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2645	32	54406	136390318	3782	0.0277292
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2646	32	69079	183617612	4928	0.0268384
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2669	32	46588	123583891	3975	0.0321644
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2670	32	31613	64876247	2495	0.0384578
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2837	32	25754	62404705	2378	0.0381061
+Y (8 genes)	Y-negative lines (y_score below cut-off)	marker < 3 (foreign cells removed)	sample	smp_2838	32	35368	85854938	3388	0.0394619
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate1	28	103022	242922169	5574	0.0229456
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate10	28	129225	299096438	4769	0.0159447
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate11	28	114367	242613205	5005	0.0206295
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate12	28	116180	302533597	4121	0.0136216
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate13	28	72882	177167838	3359	0.0189594
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate14	28	56529	137301552	2496	0.018179
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate2	28	145646	429162890	6684	0.0155745
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate3	28	45482	76259382	2805	0.0367824
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate4	28	95145	200143171	3815	0.0190614
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate5	28	110587	257870521	5070	0.019661
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate6	28	126317	349589829	5279	0.0151006
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate7	28	56923	98317322	2593	0.0263738
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate8	28	129521	293495983	4809	0.0163852
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	plate	plate9	28	75705	137286399	3805	0.0277158
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate1	28	102883	242274329	5075	0.0209473
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate10	28	129016	298236813	4017	0.0134692
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate11	28	114162	241788155	4276	0.0176849
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate12	28	116030	301744548	3554	0.0117782
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate13	28	72762	176578265	2932	0.0166045
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate14	28	56455	137020728	2238	0.0163333
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate2	28	145386	427662891	5716	0.0133657
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate3	28	45400	75941909	2527	0.0332754
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate4	28	95050	199747402	3480	0.017422
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate5	28	110399	256873908	4425	0.0172264
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate6	28	126118	348124867	4566	0.013116
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate7	28	56835	97970267	2278	0.023252
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate8	28	129340	292634753	4158	0.0142088
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	plate	plate9	28	75546	136695681	3241	0.0237096
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_1589	28	50467	120162197	2557	0.0212796
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_1590	28	52555	122759972	3017	0.0245764
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_1685	28	79219	233199364	3251	0.0139409
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_1686	28	66427	195963526	3433	0.0175186
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_1781	28	24747	41211979	1535	0.0372465
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_1782	28	20735	35047403	1270	0.0362366
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_1877	28	44681	87245111	1742	0.0199667
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_1878	28	50464	112898060	2073	0.0183617
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_1973	28	48610	113163226	2273	0.020086
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_1974	28	61977	144707295	2797	0.0193287
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2069	28	58848	139118431	2441	0.0175462
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2070	28	67469	210471398	2838	0.013484
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2165	28	24110	40848651	1166	0.0285444
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2166	28	32813	57468671	1427	0.0248309
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2261	28	51708	114397896	1887	0.0164951
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2262	28	77813	179098087	2922	0.0163151
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2357	28	42755	73113782	1927	0.0263562
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2358	28	32950	64172617	1878	0.0292648
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2453	28	90129	196795064	3353	0.017038
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2454	28	39096	102301374	1416	0.0138415
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2549	28	53741	108120626	2323	0.0214853
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2550	28	60626	134492579	2682	0.0199416
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2645	28	51097	128596987	1707	0.013274
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2646	28	65083	173936610	2414	0.0138786
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2669	28	43599	116634924	2142	0.018365
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2670	28	29283	60532914	1217	0.0201048
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2837	28	23819	57781169	1048	0.0181374
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	all vehicle cells	sample	smp_2838	28	32710	79520383	1448	0.0182092
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_1589	28	50404	119876470	2314	0.0193032
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_1590	28	52479	122397859	2761	0.0225576
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_1685	28	79109	232586336	2843	0.0122234
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_1686	28	66277	195076555	2873	0.0147276
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_1781	28	24694	41009185	1357	0.0330901
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_1782	28	20706	34932724	1170	0.033493
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_1877	28	44633	87056844	1573	0.0180687
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_1878	28	50417	112690558	1907	0.0169224
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_1973	28	48514	112679369	1945	0.0172614
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_1974	28	61885	144194539	2480	0.017199
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2069	28	58767	138625296	2158	0.0155671
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2070	28	67351	209499571	2408	0.0114941
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2165	28	24066	40679735	1000	0.0245823
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2166	28	32769	57290532	1278	0.0223074
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2261	28	51629	114032238	1596	0.013996
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2262	28	77711	178602515	2562	0.0143447
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2357	28	42692	72905986	1702	0.0233451
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2358	28	32854	63789695	1539	0.0241262
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2453	28	89987	196239548	2846	0.0145027
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2454	28	39029	101997265	1171	0.0114807
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2549	28	53634	107695458	1938	0.0179952
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2550	28	60528	134092697	2338	0.0174357
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2645	28	51036	128322293	1472	0.0114711
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2646	28	64994	173422255	2082	0.0120054
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2669	28	43515	116210232	1836	0.015799
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2670	28	29247	60368033	1096	0.0181553
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2837	28	23784	57645920	931	0.0161503
+Y (8 genes)	Y-negative lines with both arms low (partial-Y lines removed)	marker < 3 (foreign cells removed)	sample	smp_2838	28	32671	79374808	1307	0.0164662
+XIST	XIST-negative lines	all vehicle cells	plate	plate1	44	151843	343681899	966	0.00281074
+XIST	XIST-negative lines	all vehicle cells	plate	plate10	44	179920	400239890	552	0.00137917
+XIST	XIST-negative lines	all vehicle cells	plate	plate11	44	161114	324758488	646	0.00198917
+XIST	XIST-negative lines	all vehicle cells	plate	plate12	44	159435	401918470	577	0.00143561
+XIST	XIST-negative lines	all vehicle cells	plate	plate13	44	100270	236415914	438	0.00185267
+XIST	XIST-negative lines	all vehicle cells	plate	plate14	44	85077	200793153	426	0.00212159
+XIST	XIST-negative lines	all vehicle cells	plate	plate2	44	218882	621037186	1090	0.00175513
+XIST	XIST-negative lines	all vehicle cells	plate	plate3	44	63839	102184029	425	0.00415916
+XIST	XIST-negative lines	all vehicle cells	plate	plate4	44	137209	276645907	651	0.00235319
+XIST	XIST-negative lines	all vehicle cells	plate	plate5	44	161032	360764005	832	0.00230622
+XIST	XIST-negative lines	all vehicle cells	plate	plate6	44	184857	494213562	818	0.00165515
+XIST	XIST-negative lines	all vehicle cells	plate	plate7	44	78631	129242041	326	0.0025224
+XIST	XIST-negative lines	all vehicle cells	plate	plate8	44	177306	388905799	708	0.00182049
+XIST	XIST-negative lines	all vehicle cells	plate	plate9	44	105117	182441039	490	0.0026858
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate1	44	151836	343652151	942	0.00274114
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate10	44	179912	400204175	527	0.00131683
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate11	44	161107	324731208	622	0.00191543
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate12	44	159424	401847587	539	0.0013413
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate13	44	100268	236405450	432	0.00182737
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate14	44	85071	200776888	408	0.00203211
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate2	44	218868	620951138	1038	0.00167163
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate3	44	63834	102174824	409	0.00400294
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate4	44	137203	276627545	630	0.00227743
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate5	44	161017	360675191	780	0.00216261
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate6	44	184845	494114126	778	0.00157454
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate7	44	78628	129221193	315	0.00243768
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate8	44	177296	388860568	677	0.00174098
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	plate	plate9	44	105110	182406092	467	0.00256022
+XIST	XIST-negative lines	all vehicle cells	sample	smp_1589	44	74424	169623271	477	0.00281211
+XIST	XIST-negative lines	all vehicle cells	sample	smp_1590	44	77419	174058628	489	0.0028094
+XIST	XIST-negative lines	all vehicle cells	sample	smp_1685	44	119399	339090001	586	0.00172815
+XIST	XIST-negative lines	all vehicle cells	sample	smp_1686	44	99483	281947185	504	0.00178757
+XIST	XIST-negative lines	all vehicle cells	sample	smp_1781	44	34340	54232318	227	0.0041857
+XIST	XIST-negative lines	all vehicle cells	sample	smp_1782	44	29499	47951711	198	0.00412915
+XIST	XIST-negative lines	all vehicle cells	sample	smp_1877	44	64239	119563126	319	0.00266805
+XIST	XIST-negative lines	all vehicle cells	sample	smp_1878	44	72970	157082781	332	0.00211354
+XIST	XIST-negative lines	all vehicle cells	sample	smp_1973	44	70753	157595420	374	0.00237317
+XIST	XIST-negative lines	all vehicle cells	sample	smp_1974	44	90279	203168585	458	0.00225429
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2069	44	84405	192452765	382	0.0019849
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2070	44	100452	301760797	436	0.00144485
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2165	44	33331	53704490	140	0.00260686
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2166	44	45300	75537551	186	0.00246235
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2261	44	71230	153058295	304	0.00198617
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2262	44	106076	235847504	404	0.00171297
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2357	44	59573	97700859	224	0.00229271
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2358	44	45544	84740180	266	0.00313901
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2453	44	126099	264290175	403	0.00152484
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2454	44	53821	135949715	149	0.00109599
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2549	44	75680	144211015	305	0.00211496
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2550	44	85434	180547473	341	0.0018887
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2645	44	70020	170593068	269	0.00157685
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2646	44	89415	231325402	308	0.00133146
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2669	44	60003	155734171	261	0.00167593
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2670	44	40267	80681743	177	0.0021938
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2837	44	35685	84246352	173	0.0020535
+XIST	XIST-negative lines	all vehicle cells	sample	smp_2838	44	49392	116546801	253	0.0021708
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_1589	44	74422	169620831	471	0.00277678
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_1590	44	77414	174031320	471	0.00270641
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_1685	44	119395	339056341	567	0.00167229
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_1686	44	99473	281894797	471	0.00167084
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_1781	44	34335	54223113	211	0.00389133
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_1782	44	29499	47951711	198	0.00412915
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_1877	44	64234	119546048	301	0.00251786
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_1878	44	72969	157081497	329	0.00209445
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_1973	44	70748	157578162	359	0.00227823
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_1974	44	90269	203097029	421	0.0020729
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2069	44	84399	192405648	363	0.00188664
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2070	44	100446	301708478	415	0.0013755
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2165	44	33330	53700159	137	0.0025512
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2166	44	45298	75521034	178	0.00235696
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2261	44	71223	153030245	283	0.00184931
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2262	44	106073	235830323	394	0.00167069
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2357	44	59573	97700859	224	0.00229271
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2358	44	45537	84705233	243	0.00286877
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2453	44	126091	264254460	378	0.00143044
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2454	44	53821	135949715	149	0.00109599
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2549	44	75675	144190818	290	0.00201122
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2550	44	85432	180540390	332	0.00183892
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2645	44	70015	170575923	253	0.00148321
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2646	44	89409	231271664	286	0.00123664
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2669	44	60002	155733075	258	0.00165668
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2670	44	40266	80672375	174	0.00215687
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2837	44	35682	84240307	164	0.00194681
+XIST	XIST-negative lines	marker < 3 (foreign cells removed)	sample	smp_2838	44	49389	116536581	244	0.00209376

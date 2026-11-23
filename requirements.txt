@@ -1,4 +1,4 @@
-# Archived Project 59 notebooks and scripts. Use Python 3.12 or newer.
+# For opening the archived notebooks. For reproducible analysis environments, see REPRODUCING.md.
 pandas>=2.0
 numpy>=1.24
 cmapPy>=4.0.1

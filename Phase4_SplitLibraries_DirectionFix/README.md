@@ -15,4 +15,4 @@ The replay tested 53,064 split gene sets across 603 compound–lineage groups. O
 
 ![Fraction of tested GTEx reference sets enriched per compound](../verification/source_replay/phases2_5/figures/phase4_tested_reference_sets.png)
 
-[Next: signature categories](../Phase5_PerSignature_Categories/README.md) · [Fellowship overview](../README.md#how-the-analysis-developed)
+[Next: signature categories](../Phase5_PerSignature_Categories/README.md) · [Fellowship phases and reproduction](../fellowship/README.md)

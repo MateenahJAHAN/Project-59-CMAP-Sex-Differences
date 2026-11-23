@@ -1,0 +1,9 @@
+drug,lineage,tissue,scope,library,ranked_genes,NES,FDR,archived_NES,archived_FDR
+bortezomib,haematopoietic_and_lymphoid_tissue,Cells_EBV.transformed_lymphocytes,pooled lineage,female,12276,-1.6060769469751026,0.0,-1.606,0.0
+bortezomib,haematopoietic_and_lymphoid_tissue,Cells_EBV.transformed_lymphocytes,pooled lineage,male,12276,0.9988817356148795,0.48739495798319327,0.999,0.4874
+bortezomib,haematopoietic_and_lymphoid_tissue,Brain_Hypothalamus,pooled lineage,female,2047,-2.5555932479506187,0.0,-2.556,0.0
+bortezomib,haematopoietic_and_lymphoid_tissue,Brain_Hypothalamus,pooled lineage,male,2047,-1.6658257267330239,0.020053475935828877,-1.666,0.0201
+bortezomib,haematopoietic_and_lymphoid_tissue,Brain_Hypothalamus,single cell line BJAB,female,2502,-2.1207387033845326,0.0,-2.121,0.0
+bortezomib,haematopoietic_and_lymphoid_tissue,Brain_Hypothalamus,single cell line BJAB,male,2502,-2.0506146928269,0.0016863406408094434,-2.051,0.0017
+emetine,lung,Adipose_Visceral_Omentum,pooled lineage,female,470,-1.0519094169097467,0.3647342995169082,-1.052,0.3647
+emetine,lung,Adipose_Visceral_Omentum,pooled lineage,male,470,-1.5701942042108137,0.10628019323671498,-1.57,0.1063

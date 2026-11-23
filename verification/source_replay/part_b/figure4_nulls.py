@@ -8,12 +8,29 @@ import sys
 import numpy as np
 import pandas as pd
 
-parser=argparse.ArgumentParser(description=__doc__)
-for name in ('engine','rebuild','archive-capture','output'):
-    parser.add_argument('--'+name,required=True,type=Path)
-args=parser.parse_args()
-engine=args.engine.resolve()
-rebuild=args.rebuild.resolve()
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--work', type=Path, help='Public LINCS work directory containing model_inputs and results/G.')
+parser.add_argument('--engine', type=Path)
+parser.add_argument('--rebuild', type=Path)
+parser.add_argument('--archive-capture', type=Path)
+parser.add_argument('--output', required=True, type=Path)
+args = parser.parse_args()
+if args.work:
+    work = args.work.resolve()
+    engine = Path(__file__).resolve().parents[3] / 'analysis/lincs'
+    overrides = {'inputs': str(work / 'model_inputs'), 'tensors_D': str(work / 'data/D/tensors'),
+                 'tensors_E': str(work / 'data/E/tensors')}
+    join = work / 'model_inputs/taskD'
+    g_results = work / 'results/G'
+    args.archive_capture = work / 'capture'
+else:
+    if not args.engine or not args.rebuild:
+        parser.error('supply --work or --engine and --rebuild for a historical layout')
+    engine = args.engine.resolve()
+    rebuild = args.rebuild.resolve()
+    overrides = {'tensors_D': str(rebuild / 'run/D/data/D/tensors'), 'tensors_E': str(rebuild / 'run/E/data/E/tensors')}
+    join = rebuild / 'run/D_labels/results/D'
+    g_results = engine / 'results/G'
 args.output.mkdir(exist_ok=True,parents=True)
 sys.path.insert(0,str(engine/'src/G'))
 import gcore
@@ -23,8 +40,7 @@ import gsets
 import ganalyses
 
 cfg=gconfig.load(str(engine/'config/G_defaults.json'))
-inputs=ginputs.Inputs(str(engine),cfg,{'tensors_D':str(rebuild/'run/D/data/D/tensors')},strict=True)
-join=rebuild/'run/D_labels/results/D'
+inputs=ginputs.Inputs(str(engine),cfg,overrides,strict=True)
 p=inputs.panel('P1',gcore.read_covariates(str(join/'D_line_covariates.tsv')),cfg.run('B_full'))
 a=gsets.Aligned(p,pd.read_csv(join/'D_line_table.tsv',sep='\t'))
 primary=gsets.primary_settings(cfg)
@@ -67,3 +83,6 @@ with (args.output/'figure4_nulls.tsv.gz').open('wb') as raw:
         frame.index.name='draw'
         compressed.write(frame.to_csv(sep='\t',index=True).encode())
 (args.output/'figure4_nulls_check.json').write_text(json.dumps(outcomes,indent=2)+'\n')
+
+if any(v['unequal_draws'] or not v['observed_matches_archive'] or not v['p_matches_archive'] for v in outcomes.values()):
+    raise SystemExit('Figure 4 differs from the fit captures')

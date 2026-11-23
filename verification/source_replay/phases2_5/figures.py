@@ -1,12 +1,13 @@
 """Figures for the original Phases 3–4 screens using the complete replay."""
 from pathlib import Path
+import os
 import numpy as np
 import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(os.environ.get('P59_PHASE_RUN', Path(__file__).resolve().parent))
 FIG=ROOT/'figures';FIG.mkdir(exist_ok=True)
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'axes.spines.top':False,'axes.spines.right':False,'axes.spines.left':False,'pdf.fonttype':42})
 colors={'A':'#08775F','B':'#A44F13','C':'#586367'}

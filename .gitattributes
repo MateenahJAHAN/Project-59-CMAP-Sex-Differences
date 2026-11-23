@@ -1,0 +1,2 @@
+# Trailing tabs in data tables delimit empty final fields.
+*.tsv whitespace=-blank-at-eol

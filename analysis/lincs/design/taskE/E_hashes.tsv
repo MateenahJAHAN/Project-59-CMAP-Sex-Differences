@@ -1,0 +1,41 @@
+object	local_path	shape	dtype	bytes	sha256	written_utc	note
+l3_ctl_P1	data/E/tensors/l3_ctl_P1.npy	2033x978	float64	15906320	2ff76cf204d18741137cb73a449a588bffa44c779081fdf317199ccc71e10782	2026-11-15T09:23:56Z	level-3 wells x 978 landmarks, rows ordered as l3_ctl_P1_rows.tsv
+l3_ctl_P1_rows	data/E/tensors/l3_ctl_P1_rows.tsv	2033x2	tsv	69888	e2857ff9a3673204e1b0052bf33da5320e55a19f617f6e3601ac394716543e9b	2026-11-15T09:23:56Z	row order
+l3_trt_P1	data/E/tensors/l3_trt_P1.npy	33564x978	float32	131302496	c8f902139a786a7b19337ed01b42384febc10fc4daf8d45fb9b8048084a8cc75	2026-11-15T09:24:15Z	level-3 wells x 978 landmarks, rows ordered as l3_trt_P1_rows.tsv
+l3_trt_P1_rows	data/E/tensors/l3_trt_P1_rows.tsv	33564x2	tsv	1188872	53ebf72d9cd723e849b2c0c4d80de5c57e66481e6a359129a30bac0063b5943e	2026-11-15T09:24:15Z	row order
+l5_P1	data/E/tensors/l5_P1.npy	18892x978	float32	73905632	3ff9a3cdb798f1a9b16a4502dc0168203bc3c61fb0869827062d397bd4f8251b	2026-11-15T09:24:25Z	level-5 signatures x 978 landmarks, rows ordered as l5_P1_rows.tsv
+l5_P1_rows	data/E/tensors/l5_P1_rows.tsv	18892x2	tsv	523851	7789695d76ec6f211c90f1437080023f106b5a89e36a54c0bc02c80e1807a07c	2026-11-15T09:24:25Z	row order
+l3_ctl_P2	data/E/tensors/l3_ctl_P2.npy	7075x978	float64	55354928	bcc9a63b3600481f069c622df838c6cb9226e5a4848e2e2ef240601d68025d09	2026-11-15T09:24:31Z	level-3 wells x 978 landmarks, rows ordered as l3_ctl_P2_rows.tsv
+l3_ctl_P2_rows	data/E/tensors/l3_ctl_P2_rows.tsv	7075x2	tsv	311134	0ec5d816a1e41878f41872a562c02ab039ad05a1d3bffec8a26cfcdaa33456cd	2026-11-15T09:24:31Z	row order
+l3_trt_P2	data/E/tensors/l3_trt_P2.npy	28088x978	float32	109880384	987ffcdadc984f9cb2d6ecbc64556943cdc2794118321f53ac1729f2a64c5ede	2026-11-15T09:25:05Z	level-3 wells x 978 landmarks, rows ordered as l3_trt_P2_rows.tsv
+l3_trt_P2_rows	data/E/tensors/l3_trt_P2_rows.tsv	28088x2	tsv	1277653	38b1f1a390eabcd24505c644141260a62d2ca4b63dc9028bddfc2aafea34213e	2026-11-15T09:25:05Z	row order
+l5_P2	data/E/tensors/l5_P2.npy	11164x978	float32	43673696	99f9fc093c744a4144ea27321737faeaa3d77e4b20bb0ba9e1976bfbf03e7528	2026-11-15T09:25:17Z	level-5 signatures x 978 landmarks, rows ordered as l5_P2_rows.tsv
+l5_P2_rows	data/E/tensors/l5_P2_rows.tsv	11164x2	tsv	490686	e3f4bd4854394742be1327b46f7e458d251f52e213ed70d824fc7a4b91f63688	2026-11-15T09:25:17Z	row order
+R3_P1	data/E/tensors/R3_P1.npy	85x115x978	float64	76479728	230fafbbb8220b979ccb79d4f6a796eb3f28fef0bd0ec9c9696c5bef0671b739	2026-11-15T09:25:21Z	level-3 vehicle-referenced response, line x compound x landmark mean
+Z5_P1	data/E/tensors/Z5_P1.npy	85x115x978	float64	76479728	cfe347ae5d81765a6da7d04b4c8aefa673e88c3a038e416bf41841f1eb8bacda	2026-11-15T09:25:21Z	level-5 z, line x compound x landmark mean
+N3_P1	data/E/tensors/N3_P1.npy	85x115	int64	78328	0df1be0c221c727d1503e4748672dce8fe8f4b326d7cdd4b5777281114a7d889	2026-11-15T09:25:21Z	level-3 treated wells per cell
+N5_P1	data/E/tensors/N5_P1.npy	85x115	int64	78328	c0f8f05c0a307eefaba4b06b77cc290558af2c5ff66ad19acaac7ba1b4a4ea70	2026-11-15T09:25:21Z	level-5 signatures per cell
+P1_lines	data/E/tensors/P1_lines.txt	85	txt	566	0c2f329bcc99894e5d45bb29154e3c8d7922bf2a0f29f0db26b8277c3ed42e26	2026-11-15T09:25:21Z	axis labels
+P1_compounds	data/E/tensors/P1_compounds.txt	115	txt	1230	022bab7f8b70bab95fe1937f9c6b575b4708b49a878727b2e56a073f2647aac7	2026-11-15T09:25:21Z	axis labels
+R3_P1_d111	data/E/tensors/R3_P1_d111.npy	85x115x978	float64	76479728	a00bd4a276113013221bc86128c37f49a0207f40fd96d8781d4440577b971cf5	2026-11-15T09:25:21Z	level-3 vehicle-referenced response, line x compound x landmark mean
+Z5_P1_d111	data/E/tensors/Z5_P1_d111.npy	85x115x978	float64	76479728	a5754110a878c0c9ec6533a4e41d14bc2607f5d1a14f3a39b15c56c3fae8c743	2026-11-15T09:25:22Z	level-5 z, line x compound x landmark mean
+N3_P1_d111	data/E/tensors/N3_P1_d111.npy	85x115	int64	78328	73b7aa446cedfd84a50e6a51650adad74846a34fa1f0f5ff35e83edb70665327	2026-11-15T09:25:22Z	level-3 treated wells per cell
+N5_P1_d111	data/E/tensors/N5_P1_d111.npy	85x115	int64	78328	200f8f8b34d42bea14b6e7ce98cc5f9d4b064234a4fe9d825a9d859f9593e777	2026-11-15T09:25:22Z	level-5 signatures per cell
+P1_d111_lines	data/E/tensors/P1_d111_lines.txt	85	txt	566	0c2f329bcc99894e5d45bb29154e3c8d7922bf2a0f29f0db26b8277c3ed42e26	2026-11-15T09:25:22Z	axis labels
+P1_d111_compounds	data/E/tensors/P1_d111_compounds.txt	115	txt	1230	022bab7f8b70bab95fe1937f9c6b575b4708b49a878727b2e56a073f2647aac7	2026-11-15T09:25:22Z	axis labels
+R3_P1_d012	data/E/tensors/R3_P1_d012.npy	85x115x978	float64	76479728	2b6cee53fe8ae2aa4502d966f0e0c5efed8a624d44c454103e392b223672aeca	2026-11-15T09:25:22Z	level-3 vehicle-referenced response, line x compound x landmark mean
+Z5_P1_d012	data/E/tensors/Z5_P1_d012.npy	85x115x978	float64	76479728	34f82a5d40edfe751f9537eadbf37d60422a8d9c6afca639b38ba197401064ae	2026-11-15T09:25:23Z	level-5 z, line x compound x landmark mean
+N3_P1_d012	data/E/tensors/N3_P1_d012.npy	85x115	int64	78328	d69a256d5fa0776e30e79bd3527a69d63d060ffe56604ee7f77659392a4a2e1c	2026-11-15T09:25:23Z	level-3 treated wells per cell
+N5_P1_d012	data/E/tensors/N5_P1_d012.npy	85x115	int64	78328	92fe93e5da9dc6471c20672fbf3d4a4ba2e1d399caf52899d5291eddf2b88317	2026-11-15T09:25:23Z	level-5 signatures per cell
+P1_d012_lines	data/E/tensors/P1_d012_lines.txt	85	txt	566	0c2f329bcc99894e5d45bb29154e3c8d7922bf2a0f29f0db26b8277c3ed42e26	2026-11-15T09:25:23Z	axis labels
+P1_d012_compounds	data/E/tensors/P1_d012_compounds.txt	115	txt	1230	022bab7f8b70bab95fe1937f9c6b575b4708b49a878727b2e56a073f2647aac7	2026-11-15T09:25:23Z	axis labels
+r3_wells_P1	data/E/tensors/r3_wells_P1.npy	33564x978	float64	262604864	e2ac786919db7970318d60680c6e71767a250ba663a937b8a72adef604d2ae6e	2026-11-15T09:25:23Z	level-3 treated well responses (kept plates)
+r3_wells_P1_rows	data/E/tensors/r3_wells_P1_rows.tsv	33564x5	tsv	2694822	075bc4efc67db9d880e678f32346acf8606ea7120888965cc7e53dd3001826f9	2026-11-15T09:25:23Z	row labels
+R3_P2	data/E/tensors/R3_P2.npy	51x186x978	float64	74218592	307f3c96e3c69f3a0da7c9b1063dbca558ff46f787655fdd87486def2ce3dcc8	2026-11-15T09:25:26Z	level-3 vehicle-referenced response, line x compound x landmark mean
+Z5_P2	data/E/tensors/Z5_P2.npy	51x186x978	float64	74218592	98a6856c366bab892c3bde479876066a0cfa5bb0b67fdbb34aaaba1ab60fa722	2026-11-15T09:25:26Z	level-5 z, line x compound x landmark mean
+N3_P2	data/E/tensors/N3_P2.npy	51x186	int64	76016	3fb1730356d4d913efb22078888d22653595731ed15af28a3e396baf78535b00	2026-11-15T09:25:26Z	level-3 treated wells per cell
+N5_P2	data/E/tensors/N5_P2.npy	51x186	int64	76016	416410e4685ef79598f212925fa46efba2f58da27c287188362101696d4f709f	2026-11-15T09:25:26Z	level-5 signatures per cell
+P2_lines	data/E/tensors/P2_lines.txt	51	txt	309	ac1623d1a5ce799700d9408c7624f7465eaf480665cf6cade5c73a87b619fb16	2026-11-15T09:25:26Z	axis labels
+P2_compounds	data/E/tensors/P2_compounds.txt	186	txt	2122	c0949a5f903719c342b2f5ca1a80c31426f85d086c782c015c38287572d0dc59	2026-11-15T09:25:26Z	axis labels
+r3_wells_P2	data/E/tensors/r3_wells_P2.npy	28088x978	float64	219760640	5a8c96e2e7e358896de2303b3f589a97f819a676036e54ef5d65670a8f856e2d	2026-11-15T09:25:26Z	level-3 treated well responses (kept plates)
+r3_wells_P2_rows	data/E/tensors/r3_wells_P2_rows.tsv	28088x5	tsv	2702566	092e89ec668ee3487f428e3d7ebd51999b48b5157c85e1c26e2121be90c53469	2026-11-15T09:25:26Z	row labels

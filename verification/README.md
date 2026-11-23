@@ -19,7 +19,7 @@ The Part B analysis plan was fixed internally before the expression calls were j
 
 The Phase 6 replay used GSEApy 1.3.2. Five comparisons moved from C to B and four from B to C. The other 39,987 labels agreed, including every A and D assignment. [Nine changed comparisons](../Phase6_NoSampleFilter/results/replay_category_changes.csv) These labels describe pooled comparisons with tissue gene sets. They do not estimate drug-response differences between donor-sex groups. [Recorded Phase 6 analysis](../Phase6_NoSampleFilter/README.md)
 
-To typeset the [manuscript](../manuscript/manuscript.tex) and [supplement](../manuscript/supplement.tex), run `tectonic manuscript.tex` and `tectonic supplement.tex` from the `manuscript/` directory.
+To rebuild all seven figures and typeset both PDFs in a separate folder, use the [paper build](../manuscript/README.md).
 
 ## What was rerun
 

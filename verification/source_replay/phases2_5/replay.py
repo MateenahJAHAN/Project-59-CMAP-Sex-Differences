@@ -13,7 +13,8 @@ from scipy.stats import mannwhitneyu, fisher_exact
 from statsmodels.stats.multitest import multipletests
 
 BASE=Path(__file__).resolve().parent
-REPO=Path(os.environ['P59_PUBLIC'])
+REPO=Path(os.environ.get('P59_PUBLIC', BASE.parents[2]))
+PREPARED=Path(os.environ.get('P59_PREPARED', BASE/'prepared'))
 META=Path(os.environ['P59_META']); GTEX=Path(os.environ['P59_GTEX']); MATRIX=Path(os.environ['P59_MATRIX'])
 NB={2:next(REPO.glob('Phase2*/*.ipynb')),3:next(REPO.glob('Phase3*/*.ipynb')),4:next(REPO.glob('Phase4*/*new.ipynb')),5:next(REPO.glob('Phase5*/*.ipynb'))}
 warnings.filterwarnings('ignore',category=FutureWarning)
@@ -36,18 +37,18 @@ def prepare():
     sig=sig[sig.cmap_name.isin(names)]
     assert len(sig)==len(set(sig.sig_id))==36523
     assert set(sig.sig_id)==set((MATRIX/'sig50.sigs.txt').read_text().splitlines())
-    (BASE/'prepared').mkdir(exist_ok=True)
-    sig.to_parquet(BASE/'prepared/signatures.parquet',index=False)
-    (BASE/'prepared/drugs.json').write_text(json.dumps(names,indent=2)+'\n')
-    print('Selected 50 drugs and 36,523 signatures from full raw source metadata. Order matches saved design:',hist==names,flush=True)
+    PREPARED.mkdir(exist_ok=True, parents=True)
+    sig.to_parquet(PREPARED/'signatures.parquet',index=False)
+    (PREPARED/'drugs.json').write_text(json.dumps(names,indent=2)+'\n')
+    print('Selected the same 50 compounds and 36,523 signatures as the archive. Compound files follow prepared/drugs.json.', flush=True)
 
 def init():
     global Z, ids, positions, gene_ids, known, names, gene_info, gene_map, union, split, simplemap, map5, universe
     Z=np.load(MATRIX/'sig50.npy',mmap_mode='r'); ids=(MATRIX/'sig50.sigs.txt').read_text().splitlines()
     positions={s:i for i,s in enumerate(ids)};gene_ids=(MATRIX/'row_ids.txt').read_text().splitlines()
     assert Z.shape==(len(ids),len(gene_ids))==(36523,12328) and len(positions)==len(ids)
-    known=pd.read_parquet(BASE/'prepared/signatures.parquet')
-    names=json.loads((BASE/'prepared/drugs.json').read_text())
+    known=pd.read_parquet(PREPARED/'signatures.parquet')
+    names=json.loads((PREPARED/'drugs.json').read_text())
     gene_info=pd.read_csv(META/'geneinfo_beta.txt',sep='\t')
     gene_map=dict(zip(gene_info.gene_id.astype(str),gene_info.ensembl_id));universe=set(gene_info.ensembl_id.dropna())
     sbg=pd.read_csv(GTEX/'signif.sbgenes.txt',sep='\t')
@@ -91,9 +92,14 @@ def minimum_sets(rank):
     subsets={n:list(v & available) for n,v in union.items()}
     return {n:v for n,v in subsets.items() if len(v)>=15}
 
-def phase2(drug,sub):
+def phase2(drug,sub,gene_tests=None):
     de=mwu(expr(sub.sig_id),sub)
     de['ensembl_id']=de.gene_id.map(gene_map)
+    if gene_tests is not None:
+        gene_tests.parent.mkdir(parents=True, exist_ok=True)
+        tmp = gene_tests.with_name(f'{gene_tests.stem}.{os.getpid()}.part')
+        de.assign(drug=drug).to_csv(tmp,index=False,compression='gzip')
+        tmp.replace(gene_tests)
     strong=set(de.ensembl_id[(de.p_adj<.05)&(de.difference.abs()>.5)].dropna())
     home=set(itertools.chain.from_iterable(simplemap.get(l,[]) for l in sub.cell_lineage.dropna().unique()))
     rows=[]
@@ -165,8 +171,13 @@ def phase5(drug,sub):
 def work(job):
     phase,i=job;drug=names[i];d=Path(os.environ.get('P59_OUTPUT',BASE/'outputs'))/f'phase{phase}';d.mkdir(exist_ok=True,parents=True)
     path=d/f'{i:02}.csv.gz'
-    if path.exists(): return
-    res={2:phase2,3:phase3,4:phase4,5:phase5}[phase](drug,known[known.cmap_name==drug])
+    gene_tests = None
+    if phase == 2 and 'P59_GENE_TESTS' in os.environ:
+        gene_tests = Path(os.environ['P59_GENE_TESTS']) / path.name
+    if path.exists() and (gene_tests is None or gene_tests.exists()):
+        return
+    sub = known[known.cmap_name==drug]
+    res = phase2(drug,sub,gene_tests) if phase == 2 else {3:phase3,4:phase4,5:phase5}[phase](drug,sub)
     tmp=d/f'{i:02}.{os.getpid()}.part';res.to_csv(tmp,index=False,compression='gzip');tmp.replace(path)
     print(f'Phase {phase} {i+1}/50 {drug} {len(res)} rows',flush=True)
 

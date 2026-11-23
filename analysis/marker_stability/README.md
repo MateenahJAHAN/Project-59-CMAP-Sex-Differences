@@ -17,6 +17,8 @@ Across 379 named compounds, lines expressing Y genes or XIST showed almost the s
 
 ## Reproduce the experiment
 
+From the repository root, `python3 reproduce.py follow-up --work ../p59-run` regenerates the recovery, marker agreement, landmark-expression and donor-label results and their figures from the released counts in a separate directory. It compares the four result summaries and the independent 249,480-assignment check against the published numerical values.
+
 The 8.6 MB `inputs/` directory contains the original fourteen well–line–marker-stratum count files, completion records, archived sample and driver metadata, the frozen expression-state table, and the relevant entries from the stream's SHA-256 manifest. Source data are pinned to [Tahoe-100M release 349e2a5](https://huggingface.co/datasets/tahoebio/Tahoe-100M/tree/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8). Project 59's baseline marker rules and paper are at the [fellowship repository](https://github.com/MateenahJAHAN/Project-59-CMAP-Sex-Differences/tree/d9a94ddedeb65ced19c16f6cb78497d837f161b0).
 
 From this directory with Python 3.12, NumPy 2.5.4, pandas 3.1.1, PyArrow 26.0.1, SciPy 1.18.1 and Matplotlib 3.11.2, run

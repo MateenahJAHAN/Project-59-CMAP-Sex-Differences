@@ -10,4 +10,4 @@ The replay covered all 86 eligible compound–lineage groups. It classified four
 
 [Notebook](Phase3_PerLineage_GSEA.ipynb) · [Compound classifications](phase3_classification_final.csv) · [Category figure](phase3_classification_chart.png)
 
-[Next: split tissue gene sets](../Phase4_SplitLibraries_DirectionFix/README.md) · [Fellowship overview](../README.md#how-the-analysis-developed)
+[Next: split tissue gene sets](../Phase4_SplitLibraries_DirectionFix/README.md) · [Fellowship phases and reproduction](../fellowship/README.md)

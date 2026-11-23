@@ -24,6 +24,14 @@ TRANSFER = os.environ.get("P59_TRANSFER_TABLE", "")
 
 
 def flagged(lt, f41):
+    if "P59_LINCS_WORK" in os.environ:
+        measured = os.path.join(os.environ["P59_LINCS_WORK"], "results", "transfer", "sensitivity_lines.tsv")
+        source = "results/transfer/sensitivity_lines.tsv" if os.path.isfile(measured) else "sensitivity_lines.tsv"
+        table = measured if os.path.isfile(measured) else os.path.join(K.HERE.parent, source)
+        flagged_lines = pd.read_csv(table, sep="\t")
+        if len(f41) != 41 or not set(flagged_lines.cell_iname).issubset(f41):
+            raise ValueError("Sensitivity lines do not match the primary panel")
+        return flagged_lines.assign(flag_source=source, flag_source_sha256=K.sha256_file(table))
     if os.path.exists(TRANSFER):
         t = pd.read_csv(TRANSFER, sep="\t")
         assert set(t.line) == f41, "transfer table lines differ from the 41-line set"

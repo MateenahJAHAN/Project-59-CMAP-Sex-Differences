@@ -12,7 +12,7 @@ The level-5 compound treatment file contains 720,216 signatures and 12,328 L1000
 | [Gene metadata](../../cmap/geneinfo_beta%20%281%29.txt) | CMap feature IDs, Ensembl IDs and symbols. |
 | [Compound metadata](../../cmap/compoundinfo_beta%20%281%29.txt) | Compound identifiers and annotations. |
 
-Official file links are in the [CMap setup notes](../../cmap/README.txt). The case-study notebook also records a mirror used in Colab. Select columns by signature ID with [cmapPy](https://github.com/cmap/cmapPy).
+The [fellowship downloader](../../fellowship/sources.py) reads the study signatures from Broad by byte range and verifies each against its recorded hash. Earlier notebooks accessed the GCTX through [cmapPy](https://github.com/cmap/cmapPy).
 
 ## GTEx v8
 
@@ -25,4 +25,4 @@ Use `signif.sbgenes.txt` from the GTEx v8 sex-biased expression archive. It cont
 - [Compound list](../../Phase5_PerSignature_Categories/reference/top50_names.json) defines the Phase 6 panel.
 - The notebook builds `sig_known.csv` from LINCS signature metadata and cell-line metadata. It builds `gid_to_ensg.json` by dropping unmapped rows from the gene table and mapping CMap feature IDs to Ensembl IDs. The gene table has 12,277 mapped feature records and 12,276 distinct Ensembl IDs.
 
-The batch and case-study exports use 1,000 GSEA permutations, minimum set size 15 and seed 42. The batch and the individual case studies use different rankings and reference sets, as described in the [Phase 6 report](../README.md). The original notes record GSEApy 1.3.1. The subsequent replay used 1.3.2. [Dependencies](../../requirements.txt) · [GSEA method](https://doi.org/10.1073/pnas.0506580102)
+The batch and case-study exports use 1,000 GSEA permutations, minimum set size 15 and seed 42. The batch and the individual case studies use different rankings and reference sets, as described in the [Phase 6 report](../README.md). The original notes record GSEApy 1.3.1. The subsequent replay used 1.3.2. [Install and run the pinned versions](../../fellowship/README.md#run-the-fellowship-analyses) · [GSEA method](https://doi.org/10.1073/pnas.0506580102)

@@ -1,74 +1,21 @@
-"""
-Phase 6 - step 2: the per-case functions used for the single-pair figures.
+"""Render the four recorded Phase 6 split-library cases from the public expression matrix."""
+import argparse
+import os
+import sys
+from pathlib import Path
 
-IMPORTANT - this uses a DIFFERENT gene-set definition from 01_batch_abcd.py:
+import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
 
-  01_batch_abcd.py   run_gsea   ->  44 sets, one per tissue,
-                                    all sex-biased genes of that tissue together
-  this file          _gsea      ->  88 sets, each tissue split into a
-                                    FEMALE half and a MALE half by effsize sign
+REPO = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(REPO/'fellowship'))
+from sources import prepare
+from run import outside_checkout
 
-So NES and FDR from the batch table and from these plots are NOT comparable.
-They are two different tests on the same data.
-
-Verbatim from Phase6_NoSampleFilter/notebook/phase6_no_sample_filter.ipynb
-(cells 34 and 36).
-"""
-
-# ------- CELL A: gctx + reference + core functions -------
-# ============================================================
-#  CELL A  —  restore: gctx + reference + core functions
-#  download me 15-20 min lagenge
-# ============================================================
-!pip install cmapPy gseapy -q
-
-from google.colab import drive
-drive.mount('/content/drive', force_remount=True)
-
-import os, json, glob, numpy as np, pandas as pd, gseapy
-from cmapPy.pandasGEXpress.parse import parse
-
-BASE = '/content/drive/MyDrive/Project59'
-REF  = f'{BASE}/data/reference'
-
-# ---------- gctx ----------
-os.makedirs('/content/cmap', exist_ok=True)
-gctx_file = '/content/cmap/level5_beta_trt_cp_n720216x12328.gctx'
-if os.path.exists(gctx_file):
-    print(f"gctx already here: {os.path.getsize(gctx_file)/1e9:.1f} GB")
-else:
-    print("downloading 33 GB — tab band mat karna\n")
-    !cd /content/cmap && curl -O https://cmapreg.s3.amazonaws.com/galenAI/level5_beta_trt_cp_n720216x12328.gctx
-
-gctx_sigs = set(parse(gctx_file, col_meta_only=True).index)
-print(f"gctx signatures : {len(gctx_sigs):,}")
-
-# ---------- reference ----------
-cmap_to_gtex = {k: set(v) for k, v in json.load(open(f'{REF}/cmap_to_gtex.json')).items()}
-gid_to_ensg  = json.load(open(f'{REF}/gid_to_ensg.json'))
-top50_names  = json.load(open(f'{REF}/top50_names.json'))
-genes_info   = pd.read_csv(f'{BASE}/data/cmap/geneinfo.csv')
-sig_known    = pd.read_csv(f'{BASE}/results/sig_known/sig_known.csv', low_memory=False)
-
-# ---------- sbg (GTEx significant sex-biased genes) ----------
-cands = ([f'{BASE}/data/gtex/sbgenes_raw.csv'] +
-         glob.glob(f'{BASE}/data/gtex/*sbgene*') +
-         glob.glob(f'{BASE}/data/**/*signif*sbgene*', recursive=True))
-sbg = None
-for c in cands:
-    if os.path.exists(c):
-        sbg = pd.read_csv(c, sep='\t' if c.endswith(('.txt','.tsv')) else ',')
-        print(f"sbg loaded from : {c}  ({len(sbg):,} rows)"); break
-if sbg is None:
-    raise FileNotFoundError("sbg nahi mila — data/gtex folder ki listing bhejo")
-
-# ---------- ENS2SYM ----------
-gi = genes_info[['gene_id','gene_symbol']].astype({'gene_id':str}).copy()
-gi['ens'] = gi['gene_id'].map(gid_to_ensg)
-ENS2SYM = dict(gi.dropna(subset=['ens']).drop_duplicates('ens')[['ens','gene_symbol']].values)
-print(f"ENS2SYM         : {len(ENS2SYM):,} genes")
-
-# ---------- palette ----------
 F_COL, M_COL = '#C2185B', '#1565C0'
 INK, GRID, GREY, MUTED = '#1F2427', '#D8DEE1', '#BDC5C9', '#6E777C'
 MIN_SET = 15
@@ -84,20 +31,21 @@ def build_V1(drug, lineage, mode='full', sig_id=None, cell_line=None, quiet=Fals
     elif cell_line is not None: s = s[s['cell_iname'] == cell_line]
     ids = s['sig_id'].tolist()
     if not ids:
-        print("   koi signature nahi mila"); return None, None
-    mz = parse(gctx_file, cid=ids).data_df
+        return None, None
+    idx = [screen.positions[item] for item in ids]
+    arr = np.asarray(screen.Z[sorted(idx)])[np.argsort(np.argsort(idx))]
+    mz = pd.DataFrame(arr.T, index=screen.gene_ids)
     mz = mz.iloc[:, 0] if len(ids) == 1 else mz.mean(axis=1)
     n0 = len(mz)
     if mode != 'full':
         mz = mz[mz.abs() > 2]
         if not quiet: print(f"   |z| > 2 : {n0:,} -> {len(mz):,} genes")
         if len(mz) == 0:
-            print("   filter ke baad kuch nahi bacha"); return None, None
+            return None, None
     cl = sorted(s['cell_iname'].dropna().unique())
     sx = sorted(s['donor_sex'].dropna().unique())
-    src = (f"{len(ids)} signature{'s' if len(ids)>1 else ''}  ·  "
-           f"cell line {cl[0] if len(cl)==1 else f'{len(cl)} lines'}  ·  "
-           f"donor {sx[0] if len(sx)==1 else '/'.join(sx)}")
+    lines = f'cell line {cl[0]}' if len(cl)==1 else f'{len(cl)} cell lines'
+    src = f"{len(ids)} signature{'s' if len(ids)>1 else ''}  ·  {lines}  ·  donor labels {'/'.join(sx)}"
     d = pd.DataFrame({'gene_id': mz.index.astype(str), 'z': mz.values})
     d['ensembl_id'] = d['gene_id'].map(gid_to_ensg)
     V1 = (d.dropna(subset=['ensembl_id'])
@@ -141,10 +89,10 @@ def _gsea(V1, tissue, n_perm=1000, quiet=False):
             print(f"   {k.split('__')[1]:<7} matched {n}"
                   + ("" if k in use else f"   SKIP (< {MIN_SET})"))
     if not use:
-        print(f"   dono halves {MIN_SET} se chhote"); return None
+        return None
     res = gseapy.prerank(rnk=V1, gene_sets=use, permutation_num=n_perm,
                          min_size=MIN_SET, max_size=100000, seed=42,
-                         no_plot=True, verbose=False)
+                         no_plot=True, outdir=None, threads=1, verbose=False)
     r, stat = res.res2d.set_index('Term'), {}
     for key, lab in [(Fk, 'F'), (Mk, 'M')]:
         stat[lab] = ((float(r.loc[key, 'NES']), float(r.loc[key, 'NOM p-val']),
@@ -165,7 +113,7 @@ def check_sizes(drug, lineage, tissue, sig_id=None, cell_line=None):
     F, M = h[f'{tissue}__FEMALE'], h[f'{tissue}__MALE']
     home = set(cmap_to_gtex.get(lineage, []))
     print(f"\n{tissue}  library {len(F)+len(M):,}  (F {len(F):,} / M {len(M):,})")
-    print(f"category : {'A  HOME' if tissue in home else 'B  CROSS'}")
+    print(f"Reference tissue: {'lineage-matched' if tissue in home else 'other tissue'}")
     print(f"\n{drug} × {lineage} → {tissue}")
     print(f"{'mode':<12}{'ranked list':>14}{'F match':>10}{'M match':>10}   verdict")
     print("-"*62)
@@ -178,15 +126,6 @@ def check_sizes(drug, lineage, tissue, sig_id=None, cell_line=None):
         print(f"{m:<12}{len(V1):>14,}{nf:>10}{nm:>10}   {ok}")
     print(f"\n(ek half ko kam se kam {MIN_SET} genes chahiye)")
 
-print("\nCELL A ready")
-
-# ------- CELL B: sex_panel + sex_enrichment -------
-# ============================================================
-#  CELL B  —  sex_panel + sex_enrichment
-# ============================================================
-import numpy as np, pandas as pd, gseapy
-import matplotlib.pyplot as plt
-from matplotlib.patches import Patch
 
 
 def sex_panel(drug, lineage, tissue, mode='filtered', sig_id=None,
@@ -213,8 +152,7 @@ def sex_panel(drug, lineage, tissue, mode='filtered', sig_id=None,
     D['LE']   = D['ens'].isin(le)
 
     S = D[D['sex'] != ''].copy()
-    if len(S) == 0: print("koi sex-biased gene match nahi hua"); return None
-    if len(S) > 400: print(f"WARNING: {len(S)} genes — figure bahut lamba hoga")
+    if len(S) == 0: return None
 
     blocks = [('UP by drug  \u2640  female-biased',
                S[(S.sex=='F') & (S.z>0)].sort_values('z', ascending=False), F_COL),
@@ -243,7 +181,7 @@ def sex_panel(drug, lineage, tissue, mode='filtered', sig_id=None,
         if m: axS.text(pf+(100-pf)/2, i, f'{m}  ({100-pf:.0f}%)', ha='center',
                        va='center', color='white', fontsize=10.5, fontweight='bold')
     axS.axvline(base, ls='--', lw=1.6, color=INK)
-    axS.text(base+.8, 1.62, f'expected {base:.0f}% female\nif there were no pattern',
+    axS.text(base+.8, 1.62, f'{base:.0f}% female-biased\namong all matched genes',
              fontsize=8.6, color=INK, va='top')
     axS.set_yticks([0,1]); axS.set_yticklabels(['DOWN-regulated','UP-regulated'],
                                                fontsize=10.5, fontweight='bold')
@@ -281,8 +219,8 @@ def sex_panel(drug, lineage, tissue, mode='filtered', sig_id=None,
     sg = lambda q: 'SIGNIFICANT' if (q == q and q < 0.05) else 'not significant'
     home = set(cmap_to_gtex.get(lineage, []))
     fig.suptitle(
-        f'{drug}  ×  {lineage}   →   {tissue}\n'
-        f'Category {"A  HOME" if tissue in home else "B  CROSS"}  ·  {src}  ·  '
+        f'{drug}  ×  {lineage.replace("_"," ")}   →   {tissue.replace("_"," ").replace("EBV.transformed","EBV-transformed")}\n'
+        f'{"Lineage-matched GTEx tissue" if tissue in home else "Other GTEx tissue"}  ·  {src}  ·  '
         f'{"full" if mode=="full" else "|z| > 2"}, {len(V1):,} genes  ·  '
         f'ALL {len(S)} sex-biased genes shown  (\u2640 {nF} · \u2642 {nM})\n'
         f'FEMALE  NES {g("F",0):+.3f}  FDR {g("F",2):.4f}  {sg(g("F",2))}      |      '
@@ -293,7 +231,7 @@ def sex_panel(drug, lineage, tissue, mode='filtered', sig_id=None,
     if save:
         fn = f'{BASE}/figures/panel_{drug}_{tissue[:16]}_{tag}_{mode}.png'
         plt.savefig(fn, dpi=165, bbox_inches='tight'); print("saved:", fn)
-    plt.show()
+    plt.close(fig)
     print(f"\n{src}   [{mode}]   ranked list {len(V1):,}")
     print(f"sex-biased matched : {len(S)}   (\u2640 {nF} / \u2642 {nM})")
     print(f"   UP   \u2640 {upF:>4}   \u2642 {upM:>4}")
@@ -344,10 +282,10 @@ def sex_enrichment(drug, lineage, tissue, mode='filtered', sig_id=None,
     ax.spines[['top','right']].set_visible(False)
     ax.legend(loc='lower left', fontsize=9.5, framealpha=.95)
     ax.text(.012, .045,
-        f"SOURCE (V1) = the drug\n   {drug} x {lineage[:26]}\n   {src}\n"
+        f"LINCS2020 drug signature\n   {drug} x {lineage[:26]}\n   {src}\n"
         f"   ranked list  {len(V1):,} genes  "
         f"({'no filter' if mode=='full' else '|z| > 2'})\n{'-'*54}\n"
-        f"TARGET (V2) = GTEx sex-biased genes\n   {tissue}\n"
+        f"GTEx sex-biased gene sets\n   {tissue}\n"
         f"   library {libN:,}  (F {len(halves[Fk]):,} / M {len(halves[Mk]):,})\n"
         f"   matched {len(mF)+len(mM):,}  (F {len(mF)} / M {len(mM)})\n{'-'*54}\n"
         f"FEMALE  NES {stat['F'][0]:+.3f}  FDR {stat['F'][2]:.4f}  [{sg(stat['F'][2])}]\n"
@@ -390,15 +328,15 @@ def sex_enrichment(drug, lineage, tissue, mode='filtered', sig_id=None,
              fontsize=9.5, fontweight='bold', color=INK, ha='right')
     axz.set_xlim(0, len(V1))
     axz.set_ylabel('z-score', fontsize=10, fontweight='bold')
-    axz.set_xlabel('Rank in the drug signature  (SOURCE / V1)',
+    axz.set_xlabel('Rank in the LINCS2020 drug signature',
                    fontsize=11, fontweight='bold')
     axz.grid(axis='x', color=GRID, lw=.7, ls='--'); axz.set_axisbelow(True)
     axz.spines[['top','right']].set_visible(False)
 
     fig.suptitle(
-        f'Are the genes this drug modulates enriched for sex-biased genes of {tissue}?\n'
-        f'{drug}  ·  {lineage}  ·  '
-        f'Category {"A  HOME" if tissue in home else "B  CROSS"}  ·  {src}  ·  '
+        f'Enrichment of female- and male-biased GTEx gene sets in {tissue.replace("_"," ").replace("EBV.transformed","EBV-transformed")}\n'
+        f'{drug}  ·  {lineage.replace("_"," ")}  ·  '
+        f'{"Lineage-matched GTEx tissue" if tissue in home else "Other GTEx tissue"}  ·  {src}  ·  '
         f'{"no filter" if mode=="full" else "|z| > 2"}, {len(V1):,} genes  ·  '
         f'{len(mF)+len(mM)} GTEx sex-biased genes matched',
         fontsize=12.5, fontweight='bold', y=.985)
@@ -407,10 +345,58 @@ def sex_enrichment(drug, lineage, tissue, mode='filtered', sig_id=None,
     if save:
         fn = f'{BASE}/figures/enrich_{drug}_{tissue[:18]}_{tag}_{mode}.png'
         plt.savefig(fn, dpi=165, bbox_inches='tight'); print("saved:", fn)
-    plt.show()
+    plt.close(fig)
     print(f"\n{src}   [{mode}]")
     print(f"FEMALE  NES {stat['F'][0]:+.3f}  FDR {stat['F'][2]:.4f}  {sg(stat['F'][2])}")
     print(f"MALE    NES {stat['M'][0]:+.3f}  FDR {stat['M'][2]:.4f}  {sg(stat['M'][2])}")
     return stat
 
-print("CELL B ready")
+def main():
+    global BASE, screen, gseapy, sig_known, gctx_sigs, cmap_to_gtex, gid_to_ensg, sbg, ENS2SYM
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--data', required=True, type=outside_checkout)
+    parser.add_argument('--out', required=True, type=outside_checkout)
+    args = parser.parse_args()
+    data = args.data.expanduser().resolve()
+    BASE = args.out.expanduser().resolve()
+    prepare(data)
+    for folder in ('figures','results','prepared'):
+        (BASE/folder).mkdir(parents=True,exist_ok=True)
+    os.environ.update(P59_PUBLIC=str(REPO), P59_META=str(data), P59_MATRIX=str(data),
+                      P59_GTEX=str(data), P59_PREPARED=str(BASE/'prepared'))
+    alternate = Path(sys.prefix)/'phase6'
+    if alternate.exists():
+        sys.path.insert(0,str(alternate))
+    sys.path.insert(0,str(REPO/'verification/source_replay/phases2_5'))
+    import replay as screen
+    screen.prepare()
+    screen.init()
+    gseapy = screen.gseapy
+    if gseapy.__version__ != '1.3.2':
+        raise RuntimeError('Install the fellowship environment to replay the four cases with GSEApy 1.3.2.')
+    sig_known, gctx_sigs = screen.known, set(screen.positions)
+    cmap_to_gtex, gid_to_ensg = screen.map5, screen.gene_map
+    sbg = pd.read_csv(data/'signif.sbgenes.txt',sep='\t')
+    gi = screen.gene_info.dropna(subset=['ensembl_id']).drop_duplicates('ensembl_id')
+    ENS2SYM = dict(zip(gi.ensembl_id,gi.gene_symbol))
+    cases = pd.read_csv(REPO/'Phase6_NoSampleFilter/results/case_studies_split_library.csv')
+    results = []
+    for case in cases.itertuples(index=False):
+        cell = 'BJAB' if case.scope=='single cell line BJAB' else None
+        mode = 'full' if case.z_filter.startswith('none') else 'filtered'
+        opts = dict(mode=mode, cell_line=cell)
+        args = (case.drug,case.lineage,case.gtex_tissue)
+        rank, _ = build_V1(*args[:2], **opts, quiet=True)
+        fit = _gsea(rank, case.gtex_tissue, quiet=True)
+        for sex, label in [('F','female'),('M','male')]:
+            nes, _, q = fit['stat'][sex]
+            results.append(dict(drug=case.drug,lineage=case.lineage,tissue=case.gtex_tissue,scope=case.scope,
+                 library=label,ranked_genes=len(rank),NES=nes,FDR=q,archived_NES=getattr(case,label+'_NES'),
+                 archived_FDR=getattr(case,label+'_FDR')))
+        sex_panel(*args, **opts)
+        sex_enrichment(*args, **opts)
+    pd.DataFrame(results).to_csv(BASE/'results/split_library_comparisons.csv',index=False)
+
+
+if __name__ == '__main__':
+    main()

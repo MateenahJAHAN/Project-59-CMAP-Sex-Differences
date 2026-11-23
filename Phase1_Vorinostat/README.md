@@ -8,4 +8,4 @@ Phase 2 mapped the significant gene records to **6,854 distinct Ensembl IDs**. T
 
 [Notebook](Project59_CMAP_SexDifferences.ipynb) · [Signature list](vorinostat_signatures.csv) · [All gene results](vorinostat_all_genes_results.csv) · [Top 20 genes](vorinostat_top20_sex_genes.csv)
 
-[Next: fifty-compound screen](../Phase2_Fishers_50Drugs/README.md) · [Fellowship overview](../README.md#how-the-analysis-developed)
+[Next: fifty-compound screen](../Phase2_Fishers_50Drugs/README.md) · [Fellowship phases and reproduction](../fellowship/README.md)

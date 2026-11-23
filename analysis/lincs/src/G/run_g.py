@@ -68,8 +68,8 @@ def w(out, name, df):
     df.to_csv(os.path.join(out, name), sep="\t", index=False)
 
 
-def main():
-    a = parse()
+def main(*, args=None, replay_check=None):
+    a = parse() if args is None else args
     t0 = time.time()
     cfg = gconfig.load(gconfig.path(ROOT, a.config))
     os.makedirs(os.path.dirname(gconfig.path(ROOT, a.log)), exist_ok=True)
@@ -87,7 +87,10 @@ def main():
     given = pd.read_csv(a.line_table, sep="\t")
     info = guard.classify(given, real, cfg.run("test_min_share_label_rows_changed"))
     del real
-    gi = guard.check(info, a.mode, cfg, ROOT, a.plan, a.plan_tag, a.osf_id, list(reduced))
+    if replay_check is None:
+        gi = guard.check(info, a.mode, cfg, ROOT, a.plan, a.plan_tag, a.osf_id, list(reduced))
+    else:
+        gi = replay_check(info, a, cfg, reduced)
     C.log(TAG, f"guard: labels {info['status']} ({info['n_rows_changed']} of {info['n_label_rows']} label rows differ from the frozen table); run allowed as {a.mode}")
     os.makedirs(os.path.join(out, "figures"), exist_ok=True)
     manifest = [dict(item="mode", value=a.mode), dict(item="label_status", value=info["status"]),

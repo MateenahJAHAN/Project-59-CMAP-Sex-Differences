@@ -1,0 +1,84 @@
+{
+  "comparison": "Independent run from the Broad and GTEx source files against the released replay. Phase 8 starts from the archived drug counts.",
+  "phase1": {
+    "signatures": 2641,
+    "lines": 116,
+    "gene_tests": 12328,
+    "adjusted_hits": 6877,
+    "above_effect_threshold": 20,
+    "changed_strong_gene_ids": [],
+    "max_absolute_differences": {
+      "p_value": 3.885780586188048e-16,
+      "p_adj": 4.996003610813204e-16,
+      "male_mean": 1.2319946307570717e-07,
+      "female_mean": 1.6641235323078263e-07,
+      "difference": 4.942779541217135e-08
+    }
+  },
+  "phase2": {
+    "compounds": 50,
+    "matched_rows": 2200,
+    "missing_rows": 0,
+    "additional_rows": 0,
+    "changed_rows": 0,
+    "greatest_numeric_difference": 0.0
+  },
+  "phase3": {
+    "compounds": 50,
+    "matched_rows": 3784,
+    "missing_rows": 0,
+    "additional_rows": 0,
+    "changed_rows": 0,
+    "greatest_numeric_difference": 0.0
+  },
+  "phase4": {
+    "compounds": 50,
+    "matched_rows": 53064,
+    "missing_rows": 0,
+    "additional_rows": 0,
+    "changed_rows": 0,
+    "greatest_numeric_difference": 0.0
+  },
+  "phase5": {
+    "compounds": 50,
+    "matched_rows": 39996,
+    "missing_rows": 0,
+    "additional_rows": 0,
+    "changed_rows": 0,
+    "greatest_numeric_difference": 0.0
+  },
+  "phase6": {
+    "comparisons": 39996,
+    "categories": {
+      "D": 33874,
+      "C": 5375,
+      "B": 718,
+      "A": 29
+    },
+    "matched_scores": 6122,
+    "unmatched_scores": 0,
+    "score_max_absolute_difference": {
+      "NES": 4.440892098500626e-16,
+      "FDR": 1.1102230246251565e-16
+    },
+    "compared_with": "released GSEApy 1.3.2 replay",
+    "changed_category_or_skip_reason": 0
+  },
+  "phase7": {
+    "historical_assignments": 36523,
+    "historical_sha256": "f91ccd12653e0bdc7f86067397a70c5deac7f49322a3c1e3d4b289586cf9a839",
+    "changed_replay_assignments": 8
+  },
+  "phase8": {
+    "source": "archived October 2026 drug-level counts",
+    "drugs": 18,
+    "enriched_drugs": 7,
+    "comparison_drugs": 11,
+    "total_tested_terms": 11049,
+    "enriched_median_percent": 11.3,
+    "comparison_median_percent": 14.9,
+    "U": 27.0,
+    "p": 0.3283056812468577,
+    "spearman_rho": 0.8534571723426212
+  }
+}

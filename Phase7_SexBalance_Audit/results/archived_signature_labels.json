@@ -1,0 +1,13 @@
+{
+  "archive": "Project59_2026-10-05.zip",
+  "member": "results/signature_level_ABCD.csv",
+  "source_member_sha256": "c340d9998d0393a8ac3011c86c628c504f31b5b35e305c11293de5f25183cd81",
+  "fields": [
+    "sig_id",
+    "sig_cat"
+  ],
+  "rows": 36523,
+  "sort": "ascending sig_id",
+  "encoding": "UTF-8, tab-separated, LF endings, header included",
+  "sha256": "f91ccd12653e0bdc7f86067397a70c5deac7f49322a3c1e3d4b289586cf9a839"
+}

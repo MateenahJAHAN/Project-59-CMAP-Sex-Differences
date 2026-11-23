@@ -3,10 +3,11 @@ import csv
 import gzip
 import hashlib
 import json
+import os
 from collections import Counter, defaultdict
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+HERE = Path(os.environ.get('P59_PHASE_RUN', Path(__file__).resolve().parent))
 
 def rows(name):
     with (HERE / name).open() as f:

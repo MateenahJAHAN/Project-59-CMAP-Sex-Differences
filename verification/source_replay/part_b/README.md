@@ -30,15 +30,11 @@ All 110 capture files, 18 exploratory files and four public result tables matche
 
 ## Reproduction
 
-Run `python3 verify.py` in this directory to check the package. The 15 [public model modules](../../../analysis/lincs/src/G/) match the frozen code. The [public configuration](../../../analysis/lincs/config/) uses the same numerical settings. The complete checkout at commit `87640df15a73ac1f2ad65191baee1943cc938d7e` supplies the source manifest and the `partB-prereg-v1` tag.
-
-With that checkout and the rebuilt expression and line tables, the commands below run the independent primary analysis and Figure 4 checks. `CAPTURE` is the original directory of retained permutation arrays.
+The [LINCS workflow](../../../analysis/lincs/) downloads the source files, builds the label tables and expression arrays, applies the registered controls and fits the complete model. Its output includes the follow-up experiments, Figure 4 permutation draws and effect intervals. The public entry point verifies the released code and input fingerprints. The historical blinding check remains available for the original tagged checkout.
 
 ```sh
-python join_impact.py --engine ENGINE --rebuild REBUILD --output CHECKS
-python direct_primary.py --engine ENGINE --rebuild REBUILD --output PRIMARY
-python figure4_nulls.py --engine ENGINE --rebuild REBUILD --archive-capture CAPTURE --output NULLS
-python figure4_intervals.py --engine ENGINE --rebuild REBUILD --output INTERVALS
+python analysis/lincs/reproduce.py --work ../p59-lincs-run --stage all --workers 4
+python verification/source_replay/part_b/verify.py
 ```
 
-The full analysis runs `src/G/run_g.py` in real-data mode with `analysis_plan/G_plan.md` and its SHA-256 in `P59_UNBLIND_PLAN_SHA256`.
+The first command rebuilds the analysis from provider data. The second checks the deposited comparison files in this directory.

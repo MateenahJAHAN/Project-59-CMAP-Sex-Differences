@@ -8,12 +8,28 @@ import numpy as np
 import pandas as pd
 
 parser = argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--engine',required=True,type=Path)
-parser.add_argument('--rebuild',required=True,type=Path)
-parser.add_argument('--output',required=True,type=Path)
-args=parser.parse_args()
-engine=args.engine.resolve()
-rebuild=args.rebuild.resolve()
+parser.add_argument('--work', type=Path, help='Public LINCS work directory containing model_inputs and results/G.')
+parser.add_argument('--engine', type=Path)
+parser.add_argument('--rebuild', type=Path)
+parser.add_argument('--archive-capture', type=Path)
+parser.add_argument('--output', required=True, type=Path)
+args = parser.parse_args()
+if args.work:
+    work = args.work.resolve()
+    engine = Path(__file__).resolve().parents[3] / 'analysis/lincs'
+    overrides = {'inputs': str(work / 'model_inputs'), 'tensors_D': str(work / 'data/D/tensors'),
+                 'tensors_E': str(work / 'data/E/tensors')}
+    join = work / 'model_inputs/taskD'
+    g_results = work / 'results/G'
+    args.archive_capture = work / 'capture'
+else:
+    if not args.engine or not args.rebuild:
+        parser.error('supply --work or --engine and --rebuild for a historical layout')
+    engine = args.engine.resolve()
+    rebuild = args.rebuild.resolve()
+    overrides = {'tensors_D': str(rebuild / 'run/D/data/D/tensors'), 'tensors_E': str(rebuild / 'run/E/data/E/tensors')}
+    join = rebuild / 'run/D_labels/results/D'
+    g_results = engine / 'results/G'
 args.output.mkdir(exist_ok=True,parents=True)
 sys.path.insert(0,str(engine/'src/G'))
 import gconfig
@@ -23,9 +39,7 @@ import gsets
 import ganalyses
 
 cfg=gconfig.load(str(engine/'config/G_defaults.json'))
-data=ginputs.Inputs(str(engine),cfg,{'tensors_D':str(rebuild/'run/D/data/D/tensors'),
-                                    'tensors_E':str(rebuild/'run/E/data/E/tensors')},strict=True)
-join=rebuild/'run/D_labels/results/D'
+data=ginputs.Inputs(str(engine),cfg,overrides,strict=True)
 labels=pd.read_csv(join/'D_line_table.tsv',sep='\t')
 cov=gcore.read_covariates(str(join/'D_line_covariates.tsv'))
 rows=[]
@@ -47,10 +61,13 @@ key=['panel','term','scale','role']
 out=args.output/'figure4_intervals.tsv'
 pd.DataFrame(rows)[fields].to_csv(out,index=False,sep='\t')
 new=pd.read_csv(out,sep='\t',float_precision='round_trip').set_index(key)
-old=pd.read_csv(engine/'results/G/G_H3.tsv',sep='\t',float_precision='round_trip').set_index(key)
+old=pd.read_csv(g_results/'G_H3.tsv',sep='\t',float_precision='round_trip').set_index(key)
 assert len(new)==12 and new.index.is_unique and old.index.is_unique
 old=old.loc[new.index,new.columns]
 different=(new.ne(old) & ~(old.isna() & new.isna())).sum()
 result={'rows':len(new),'compared_nonkey_fields':len(new.columns),'different_cells':{k:int(v) for k,v in different.items() if v}}
 (args.output/'figure4_intervals_check.json').write_text(json.dumps(result,indent=2)+'\n')
 print(result)
+
+if result['different_cells']:
+    raise SystemExit('Figure 4 intervals differ from the full model')

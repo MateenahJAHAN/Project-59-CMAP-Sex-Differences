@@ -5,10 +5,11 @@ import numpy as np
 import pandas as pd
 
 BASE=Path(__file__).resolve().parent
-REPO=Path(os.environ['P59_PUBLIC'])
+REPO=Path(os.environ.get('P59_PUBLIC', BASE.parents[2]))
+PREPARED=Path(os.environ.get('P59_PREPARED', BASE/'prepared'))
 OUT=Path(os.environ.get('P59_COMPARISON',BASE/'comparison'))
 OUT.mkdir(exist_ok=True,parents=True)
-names=json.loads((BASE/'prepared/drugs.json').read_text())
+names=json.loads((PREPARED/'drugs.json').read_text())
 def outputs(n):
     files=sorted((Path(os.environ.get('P59_OUTPUT',BASE/'outputs'))/f'phase{n}').glob('*.csv.gz'))
     if len(files)!=50: raise RuntimeError(f'Phase {n}: {len(files)} / 50 files')

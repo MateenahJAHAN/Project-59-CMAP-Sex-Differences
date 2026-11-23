@@ -12,4 +12,4 @@ Replaying all 616,400 gene tests and 2,200 tissue comparisons reproduced the ori
 
 [Notebook](Project59_GTEx_DrugClassification.ipynb) · [Fifty-compound classifications](top50_drug_classification.csv) · [Vorinostat tissue results](vorinostat_tissue_enrichment.csv)
 
-[Next: within-lineage enrichment](../Phase3_PerLineage_GSEA/README.md) · [Fellowship overview](../README.md#how-the-analysis-developed)
+[Next: within-lineage enrichment](../Phase3_PerLineage_GSEA/README.md) · [Fellowship phases and reproduction](../fellowship/README.md)

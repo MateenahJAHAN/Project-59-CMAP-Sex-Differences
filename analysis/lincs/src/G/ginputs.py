@@ -12,6 +12,13 @@ import numpy as np, pandas as pd
 import gcore as C
 from gconfig import path as cpath
 
+# The source replay found roundoff in seven ploidy values (maximum 8.9e-16).
+# Both verified byte streams are pinned. See verification/source_replay/part_b/ploidy_control_comparison.json.
+REPLAY_HASHES = {
+    "taskD/D_line_table.tsv": "01922a9fc7d3fe85ea4cbc7ce6de1b07a11c323186d103c014ac55bb17d41b7a",
+    "taskD/D_line_covariates.tsv": "9ef519446b4b2115a47b93aafc5005bed89ff59b3b7049cb19f27a6db1c47310",
+}
+
 FORBIDDEN_FILES = ("response_size", "plate_S")
 
 
@@ -70,7 +77,7 @@ class Inputs:
     # ---------- pinned git inputs ----------
     def file(self, rel):
         p = os.path.join(self.dir, rel)
-        st = self._check(rel, p, self.pins.loc[rel, "sha256"], "config/G_inputs_pinned.tsv")
+        st = self._check(rel, p, self.pins.loc[rel, "sha256"], "config/G_inputs_pinned.tsv", (REPLAY_HASHES.get(rel),))
         if st == "missing":
             raise InputError(f"pinned input {rel} missing; run src/G/00_fetch_inputs.py")
         return p

@@ -59,7 +59,7 @@ def main():
     repo = Path(K.REPO)
     files = [Path(__file__), Path(power.__file__), Path(K.__file__), repo / 'src/G/SHA256SUMS.txt',
              repo / 'config/G_defaults.json', repo / 'config/G_inputs_pinned.tsv',
-             repo / 'results/G/G_sets_lines.tsv', repo / 'results/G/G_sets_counts.tsv']
+             Path(K.GRES) / 'G_sets_lines.tsv', Path(K.GRES) / 'G_sets_counts.tsv']
     manifest = {
         'files': {f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in files},
         'numpy':np.__version__, 'pandas':pd.__version__, 'scipy':scipy.__version__,

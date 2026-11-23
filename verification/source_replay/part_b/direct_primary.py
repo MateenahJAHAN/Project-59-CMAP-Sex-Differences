@@ -10,19 +10,32 @@ import pandas as pd
 
 import argparse
 parser=argparse.ArgumentParser(description=__doc__)
-parser.add_argument('--engine', type=Path, required=True, help='Checkout of the original analysis engine with its versioned data inputs.')
-parser.add_argument('--rebuild', type=Path, required=True, help='Rebuild directory containing run/D, run/E and run/D_labels.')
+parser.add_argument('--work', type=Path, help='Public work directory containing model_inputs and results/G.')
+parser.add_argument('--engine', type=Path, help='Checkout of the original analysis engine with its versioned data inputs.')
+parser.add_argument('--rebuild', type=Path, help='Rebuild directory containing run/D, run/E and run/D_labels.')
 parser.add_argument('--output', type=Path, required=True, help='Directory for regenerated result tables.')
 args=parser.parse_args()
-root=args.rebuild.resolve()
-archive=args.engine.resolve()
+if args.work:
+    root = args.work.resolve()
+    archive = Path(__file__).resolve().parents[3] / 'analysis/lincs'
+    D = root / 'model_inputs/taskD'
+    completed = root / 'results/G'
+    options = {'inputs':str(root / 'model_inputs'), 'tensors_D':str(root / 'data/D/tensors'),
+               'tensors_E':str(root / 'data/E/tensors'), 'prism':str(root / 'sources/prism_secondary_dose_response_curve_parameters.csv')}
+else:
+    if not args.rebuild or not args.engine:
+        parser.error('supply --work or --engine and --rebuild for a historical layout')
+    root = args.rebuild.resolve()
+    archive = args.engine.resolve()
+    options = {'tensors_D':str(root / 'run/D/data/D/tensors'), 'tensors_E':str(root / 'run/E/data/E/tensors')}
+    D = root / 'run/D_labels/results/D'
+    completed = archive / 'results/G'
 sys.path.insert(0,str(archive/'src/G'))
 import gconfig,ginputs,gcore,gsets,ganalyses
 out=args.output.resolve()
 out.mkdir(parents=True,exist_ok=True)
 cfg=gconfig.load(str(archive/'config/G_defaults.json'))
-inputs=ginputs.Inputs(str(archive),cfg,{'tensors_D':str(root/'run/D/data/D/tensors'),'tensors_E':str(root/'run/E/data/E/tensors')},strict=True)
-D=root/'run/D_labels/results/D'
+inputs=ginputs.Inputs(str(archive),cfg,options,strict=True)
 cov=gcore.read_covariates(str(D/'D_line_covariates.tsv'))
 lt=pd.read_csv(D/'D_line_table.tsv',sep='\t')
 B=cfg.run('B_full')
@@ -65,7 +78,7 @@ for name,a,template,ids in [('H1',pd.DataFrame(h1),'G_H1.tsv',['panel','term','a
     a.to_csv(out/(name+'.tsv'),sep='\t',index=False)
     # Compare stored serialized values, matching the published method for each field.
     a=pd.read_csv(out/(name+'.tsv'),sep='\t',float_precision='round_trip').set_index(ids).sort_index()
-    ref=pd.read_csv(archive/'results/G'/template,sep='\t',float_precision='round_trip').set_index(ids).loc[a.index,a.columns].sort_index()
+    ref=pd.read_csv(completed/template,sep='\t',float_precision='round_trip').set_index(ids).loc[a.index,a.columns].sort_index()
     differences={}
     for k in a:
         eq=(a[k]==ref[k])|(a[k].isna()&ref[k].isna())

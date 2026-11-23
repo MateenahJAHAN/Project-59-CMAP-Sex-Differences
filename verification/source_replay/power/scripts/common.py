@@ -11,17 +11,29 @@ for _v in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "VECLIB_MAXIMUM_THREADS", 
 import hashlib
 import time
 import types
+from pathlib import Path
 
-REPO = os.environ["P59_G_REPO"]
-RUN_DIR = os.environ["P59_G_RUN"]
-INPUT_ROOT = os.path.join(RUN_DIR, "inputs", "data", "G")
-OVERRIDES = {"inputs": os.path.join(INPUT_ROOT, "inputs"), "tensors_D": os.path.join(INPUT_ROOT, "tensors", "D"),
-             "tensors_E": os.path.join(INPUT_ROOT, "tensors", "E")}
-CAPTURE = os.path.join(RUN_DIR, "capture")
-HERE = os.path.dirname(os.path.abspath(__file__))
-ADIR = os.path.dirname(HERE)
+HERE = Path(__file__).resolve().parent
+if "P59_LINCS_WORK" in os.environ:
+    work = Path(os.environ["P59_LINCS_WORK"]).resolve()
+    REPO = str(HERE.parents[3] / "analysis/lincs")
+    OVERRIDES = {key: str(work / relative) for key, relative in {
+        "inputs": "model_inputs", "tensors_D": "data/D/tensors", "tensors_E": "data/E/tensors",
+        "persig_E": "data/E/tensors", "siginfo": "sources/siginfo_beta.txt",
+        "prism": "sources/prism_secondary_dose_response_curve_parameters.csv"}.items()}
+    CAPTURE = str(work / "capture")
+    GRES = str(work / "results/G")
+    ADIR = str(work / "power")
+else:
+    REPO = os.environ["P59_G_REPO"]
+    run = Path(os.environ["P59_G_RUN"])
+    inputs = run / "inputs/data/G"
+    OVERRIDES = {"inputs": str(inputs / "inputs"), "tensors_D": str(inputs / "tensors/D"),
+                 "tensors_E": str(inputs / "tensors/E")}
+    CAPTURE = str(run / "capture")
+    GRES = os.path.join(REPO, "results", "G")
+    ADIR = str(HERE.parent)
 RES, RAW, LOGS = (os.path.join(ADIR, x) for x in ("results", "raw", "logs"))
-GRES = os.path.join(REPO, "results", "G")
 sys.path.insert(0, os.path.join(REPO, "src", "G"))
 
 import numpy as np

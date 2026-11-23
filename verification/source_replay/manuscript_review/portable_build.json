@@ -1,0 +1,128 @@
+[
+  {
+    "file": "manuscript.pdf",
+    "released_pages": 18,
+    "rebuilt_pages": 18,
+    "link_annotations": 77,
+    "dpi": 144,
+    "changed_pages": {
+      "text": [],
+      "image": [],
+      "links": []
+    },
+    "identical_pdf_bytes": false,
+    "matches": true
+  },
+  {
+    "file": "supplement.pdf",
+    "released_pages": 32,
+    "rebuilt_pages": 32,
+    "link_annotations": 4,
+    "dpi": 144,
+    "changed_pages": {
+      "text": [],
+      "image": [],
+      "links": []
+    },
+    "identical_pdf_bytes": false,
+    "matches": true
+  },
+  {
+    "file": "figures/fig1_design.pdf",
+    "released_pages": 1,
+    "rebuilt_pages": 1,
+    "link_annotations": 0,
+    "dpi": 144,
+    "changed_pages": {
+      "text": [],
+      "image": [],
+      "links": []
+    },
+    "identical_pdf_bytes": true,
+    "matches": true
+  },
+  {
+    "file": "figures/fig2_label_vs_pattern.pdf",
+    "released_pages": 1,
+    "rebuilt_pages": 1,
+    "link_annotations": 0,
+    "dpi": 144,
+    "changed_pages": {
+      "text": [],
+      "image": [],
+      "links": []
+    },
+    "identical_pdf_bytes": true,
+    "matches": true
+  },
+  {
+    "file": "figures/fig3_agreement.pdf",
+    "released_pages": 1,
+    "rebuilt_pages": 1,
+    "link_annotations": 0,
+    "dpi": 144,
+    "changed_pages": {
+      "text": [],
+      "image": [],
+      "links": []
+    },
+    "identical_pdf_bytes": true,
+    "matches": true
+  },
+  {
+    "file": "figures/fig4_partB.pdf",
+    "released_pages": 1,
+    "rebuilt_pages": 1,
+    "link_annotations": 0,
+    "dpi": 144,
+    "changed_pages": {
+      "text": [],
+      "image": [],
+      "links": []
+    },
+    "identical_pdf_bytes": true,
+    "matches": true
+  },
+  {
+    "file": "figures/figS1_ambient.pdf",
+    "released_pages": 1,
+    "rebuilt_pages": 1,
+    "link_annotations": 0,
+    "dpi": 144,
+    "changed_pages": {
+      "text": [],
+      "image": [],
+      "links": []
+    },
+    "identical_pdf_bytes": true,
+    "matches": true
+  },
+  {
+    "file": "figures/figS2_a549.pdf",
+    "released_pages": 1,
+    "rebuilt_pages": 1,
+    "link_annotations": 0,
+    "dpi": 144,
+    "changed_pages": {
+      "text": [],
+      "image": [],
+      "links": []
+    },
+    "identical_pdf_bytes": true,
+    "matches": true
+  },
+  {
+    "file": "figures/figS3_power.pdf",
+    "released_pages": 1,
+    "rebuilt_pages": 1,
+    "link_annotations": 0,
+    "dpi": 144,
+    "changed_pages": {
+      "text": [],
+      "image": [],
+      "links": []
+    },
+    "identical_pdf_bytes": true,
+    "matches": true
+  }
+]

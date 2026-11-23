@@ -1,0 +1,81 @@
+{
+  "method": "Rebuilt Table S1 after the two Tahoe callers and the external and bulk RNA reductions. Rebuilt the cross-stock tables from those measurements, Cellosaurus STR, the Part B line table and the fitted factorial panel. Compared headers and every data field in replay output order.",
+  "checks_passed": {
+    "checks_y_calls.tsv": 11,
+    "checks_analysis2.tsv": 5
+  },
+  "comparisons": [
+    {
+      "output": "supplement/supplementary_table_S1.tsv",
+      "compared_with": "previous full Table S1 reconstruction",
+      "rows": 1694,
+      "columns": 24,
+      "differing_fields": 0,
+      "replay_sha256": "b1b3615b75ea5d47eee7b3a998869d60f2841d8e9253c39514a2c132c7b75a6b",
+      "byte_identical": true
+    },
+    {
+      "output": "transfer/y_calls_by_line.tsv",
+      "compared_with": "previous full cross-stock reconstruction",
+      "rows": 1102,
+      "columns": 54,
+      "differing_fields": 0,
+      "replay_sha256": "5632aafa83170623fa1cc88a78cdd0f7f2ffccc14a6c0465d6d5d873e6721f17",
+      "byte_identical": true
+    },
+    {
+      "output": "transfer/partB_lines_transfer.tsv",
+      "compared_with": "previous full cross-stock reconstruction",
+      "rows": 41,
+      "columns": 38,
+      "differing_fields": 0,
+      "replay_sha256": "22f2108292b966619161d09816b2ec278ef8955d4d2aae7acd87e9c587a0ab65",
+      "byte_identical": true
+    },
+    {
+      "output": "transfer/partB_group_sizes.tsv",
+      "compared_with": "previous full cross-stock reconstruction",
+      "rows": 12,
+      "columns": 7,
+      "differing_fields": 0,
+      "replay_sha256": "4e534b4b60ff3597229b3f18c93266bad5bda608cc74626897b64f521ce786c4",
+      "byte_identical": true
+    },
+    {
+      "output": "transfer/partB_agreement.tsv",
+      "compared_with": "previous full cross-stock reconstruction",
+      "rows": 10,
+      "columns": 8,
+      "differing_fields": 0,
+      "replay_sha256": "142d57e25039e6af6696ee9f7fd366b9d00d60bdca3881f5723ecda47b09e82a",
+      "byte_identical": true
+    },
+    {
+      "output": "transfer/partB_counts.tsv",
+      "compared_with": "previous full cross-stock reconstruction",
+      "rows": 70,
+      "columns": 4,
+      "differing_fields": 0,
+      "replay_sha256": "8b8187f6f80c33060ad3a9a495ade5b055c9179c1b7f218316bf58139d5239f2",
+      "byte_identical": true
+    },
+    {
+      "output": "transfer/supp_table_partB_transfer.tsv",
+      "compared_with": "previous full cross-stock reconstruction",
+      "rows": 41,
+      "columns": 19,
+      "differing_fields": 0,
+      "replay_sha256": "64f286b60d532313fec8090fb3dac53c44336347e11736e069ee6e9c772c60a6",
+      "byte_identical": true
+    },
+    {
+      "output": "transfer/sensitivity_lines.tsv",
+      "compared_with": "published Part B sensitivity input",
+      "rows": 3,
+      "columns": 4,
+      "differing_fields": 0,
+      "replay_sha256": "fa3956aebbb5e0fdbe3043996464356fce46de6b37f5a3989f3e3d4f08cb3653",
+      "byte_identical": true
+    }
+  ]
+}

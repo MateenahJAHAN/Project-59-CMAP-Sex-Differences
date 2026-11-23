@@ -16,7 +16,9 @@ All 1,694 accession–source pairs and 1,123 distinct lines were recovered. Of 4
 
 ## Reproduce
 
-From a full raw reproduction workspace, run:
+From the repository root after running Parts A and B, use `python3 reproduce.py claims --work ../p59-run`. This rebuilds the claim comparisons and checks them against the released audit. A single historical discrepancy is retained in both records.
+
+For a workspace with the older raw-data directory layout, run
 
 ```sh
 python run.py --run-root /path/to/raw-reproduction-workspace --reference-s1 /path/to/published/supplementary_table_S1.tsv --output rerun

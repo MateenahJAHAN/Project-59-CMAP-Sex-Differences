@@ -24,19 +24,13 @@ The source rebuild reproduced all 9,288,066 measured expression values at each s
 
 [Independent recount of the archived assignments](recount_comparison.json) · [48 implementation checks](checks/harness_checks.tsv) · [Restart check](checks/checkpoint_restore.json)
 
-To repeat the simulation, set `P59_G_REPO` to the task-G analysis checkout and `P59_G_RUN` to the production input directory containing `inputs/data/G` and `capture`. The scripts use the production model, design and original random seeds. From this directory run the following in the study Python environment.
+From the repository root, complete the LINCS model and then run the sensitivity analysis on the same reconstructed tensors and labels.
 
 ```sh
-export PYTHONHASHSEED=0
-mkdir -p raw results logs
-python -I scripts/check_harness.py
-python -I scripts/power_checkpoint.py --B 2000 --R 1000 --workers 6 --tag power
-python -I scripts/summarize_power.py --tag power
-python -I scripts/size_from_calibration.py
-python -I scripts/size_diagnostic.py --N 200 --B 2000 --workers 6
-python -I scripts/tp53_yardstick.py
-python -I scripts/misclass_e3.py
-python -I scripts/e3_table.py
-python -I scripts/e3_weak_templates.py
-python -I scripts/detectable_effects.py
+python3 reproduce.py part-b --work ../p59-run
+python3 reproduce.py power --work ../p59-run --workers 6
 ```
+
+The simulation writes atomic checkpoints for the 1,000 assignments in the work directory. Repeating the same command on the same inputs resumes completed assignments. After the simulation, the runner compares the new power, coverage, calibration and Figure S3 tables with the release. The separate leave-one-line-out analysis uses the three flags reconstructed by the `transfer` stage. When run with Part B alone, it uses the identical [released sensitivity list](sensitivity_lines.tsv) and records that source.
+
+If the assignment files are already complete and summarization was interrupted, run `verification/source_replay/power/run.py --work ../p59-run --summarize-saved` with the Part B interpreter. It reuses the scenario, planted-compound and interval files under `power/raw/`, reruns calibration diagnostics and compares all nine numerical output tables.

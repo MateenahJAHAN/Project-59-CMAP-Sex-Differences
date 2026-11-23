@@ -1,0 +1,58 @@
+{
+  "tahoe_metadata": [
+    {
+      "file": "gene_metadata.parquet",
+      "bytes": 1326799,
+      "url": "https://huggingface.co/datasets/tahoebio/Tahoe-100M/resolve/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8/metadata/gene_metadata.parquet",
+      "sha256": "d6104d1ca570d94832be0d27ffe8b7e4e54cfd366c9080239219f9c406eb751c"
+    },
+    {
+      "file": "cell_line_metadata.parquet",
+      "bytes": 19040,
+      "url": "https://huggingface.co/datasets/tahoebio/Tahoe-100M/resolve/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8/metadata/cell_line_metadata.parquet",
+      "sha256": "67641f5bdd3fb077978ff1fec4d0d617490674bcd42850515ae3997194c29d4d"
+    },
+    {
+      "file": "sample_metadata.parquet",
+      "bytes": 65636,
+      "url": "https://huggingface.co/datasets/tahoebio/Tahoe-100M/resolve/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8/metadata/sample_metadata.parquet",
+      "sha256": "33167f0ce28cff8357c503cda67d1c7fea200bff6918ee1de3c4f3549175b9d3"
+    },
+    {
+      "file": "drug_metadata.parquet",
+      "bytes": 40475,
+      "url": "https://huggingface.co/datasets/tahoebio/Tahoe-100M/resolve/349e2a55f5538a3e73b32a06c6bdd8e9e87011e8/metadata/drug_metadata.parquet",
+      "sha256": "7a04c7a6611e74c92253163b994ff0a47191928ee7511f1c2ca508cee0e79f28"
+    }
+  ],
+  "annotations": [
+    {
+      "item": "pie_descriptions",
+      "file": "pie/descriptions.json",
+      "sha256": "2b8875977f559faf4ec6c7e27123a5e9fc186332c567617660862e59c5e1b9da",
+      "bytes": "62725",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/ae4ce640b7edff7ac4acfd1abed74ca4138e5931/context_text/descriptions.json"
+    },
+    {
+      "item": "cellosaurus_CVCL_C466",
+      "file": "cellosaurus/CVCL_C466.txt",
+      "sha256": "c5d2373b1877ba487abbc3c9a596bcc0e2e5301b23cc779bce5de22aaa61310f",
+      "bytes": "1975",
+      "url": "https://api.cellosaurus.org/cell-line/CVCL_C466?format=txt"
+    },
+    {
+      "item": "ensembl_gtf_110",
+      "file": "ensembl/Homo_sapiens.GRCh38.110.gtf.gz",
+      "sha256": "5d3c363835bda4cf8ba025f728b190f69d454e894514bb3c81123efdb15ef1b9",
+      "bytes": "54325732",
+      "url": "https://ftp.ensembl.org/pub/release-110/gtf/homo_sapiens/Homo_sapiens.GRCh38.110.gtf.gz"
+    },
+    {
+      "item": "ensembl_gtf_110_checksums",
+      "file": "ensembl/CHECKSUMS",
+      "sha256": "a00200cd22902629f92229681f2664c827dd4f833e5a1b6bec584971d998cfd2",
+      "bytes": "225",
+      "url": "https://ftp.ensembl.org/pub/release-110/gtf/homo_sapiens/CHECKSUMS"
+    }
+  ]
+}

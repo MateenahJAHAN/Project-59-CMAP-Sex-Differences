@@ -13,6 +13,7 @@ Outputs (under data/F1/emerald_proc/, gitignored):
   shardlog_<shard>.json : per-shard checks (rows, special-token entries, negative values).
 The raw shard is deleted after processing, and the deletion is logged.
 """
+import glob
 import sys, os, json, time, datetime, fcntl, traceback
 import numpy as np, pandas as pd, pyarrow.parquet as pq, scipy.sparse as sp
 import multiprocessing as mp
@@ -108,6 +109,14 @@ def process_shard(path, shard_i, valid, midx, ntok, line_ix, acc, cnt):
     return v, chk
 
 
+def save_checkpoint(path, acc, cnt, done):
+    temp = path + ".tmp.npz"
+    np.savez(temp, acc=acc, cnt=cnt, done=np.array(done))
+    os.replace(temp, path)
+    for name in done:
+        open(os.path.join(DONE, name + ".done"), "a").close()
+
+
 def worker(wid, q, valid, midx, ntok, lines, tree):
     line_ix = {l: i for i, l in enumerate(lines)}
     accp = os.path.join(OUT, f"acc_w{wid}.npz")
@@ -141,14 +150,11 @@ def worker(wid, q, valid, midx, ntok, lines, tree):
         json.dump(chk, open(os.path.join(OUT, f"shardlog_{i:05d}.json"), "w"))
         done.append(name); since += 1
         if since >= 6:
-            np.savez(accp, acc=acc, cnt=cnt, done=np.array(done)); since = 0
-            for dn in done:
-                open(os.path.join(DONE, dn + ".done"), "w").close()
+            save_checkpoint(accp, acc, cnt, done)
+            since = 0
         os.remove(local); log_deletion(local, nb, "raw shard; per-cell vehicle table and deep-cell profile sums saved")
         print(f"w{wid} {name} rows={chk['rows']} veh={chk['n_vehicle']} dl={chk['t_download_s']}s proc={chk['t_process_s']}s", flush=True)
-    np.savez(accp, acc=acc, cnt=cnt, done=np.array(done))
-    for dn in done:
-        open(os.path.join(DONE, dn + ".done"), "w").close()
+    save_checkpoint(accp, acc, cnt, done)
 
 
 if __name__ == "__main__":
@@ -158,6 +164,20 @@ if __name__ == "__main__":
     assert len(tree) == 116
     # local (already verified) shards first, then the rest
     order = sorted(range(len(tree)), key=lambda i: (not os.path.exists(os.path.join(RAW, os.path.basename(tree[i]["path"]))), i))
+    # A crash can occur after committing the accumulator but before writing its completion markers.
+    # Rebuild the queue from the committed arrays, which are the source of truth.
+    committed = set()
+    for prior in sorted(glob.glob(os.path.join(OUT, "acc_w*.npz"))):
+        with np.load(prior, allow_pickle=False) as z:
+            names = set(z["done"].tolist())
+        if committed & names:
+            raise ValueError("Duplicate shards in existing checkpoints")
+        committed.update(names)
+    for marker in os.listdir(DONE):
+        if marker.removesuffix(".done") not in committed:
+            raise ValueError(f"Completion marker without accumulator: {marker}")
+    for name in committed:
+        open(os.path.join(DONE, name + ".done"), "a").close()
     q = mp.Queue()
     for i in order:
         q.put((i, tree[i]))

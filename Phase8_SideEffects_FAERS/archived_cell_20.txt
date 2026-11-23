@@ -1,0 +1,19 @@
+        drug            group cat  reports  tested  sig  rate_%  med_ciw  med_absln  frac_big_%
+  bortezomib    GROUP 1 (hit)   A    72376    1139  323    28.4     1.07      0.372        25.5
+  calcitriol    GROUP 1 (hit)   B    18611     909  242    26.6     1.49      0.513        39.5
+   dasatinib    GROUP 1 (hit)   B     7720     487   45     9.2     1.84      0.446          32
+fostamatinib    GROUP 1 (hit)   A     6972     205   11     5.4     1.85      0.371          22
+mitoxantrone    GROUP 1 (hit)   A     5119     406   48    11.8     1.85      0.549        39.4
+  vorinostat    GROUP 1 (hit)   B     1725     106   12    11.3     1.87      0.465        35.8
+ selumetinib    GROUP 1 (hit)   B     1282      61    0       0     1.92      0.409        32.8
+ simvastatin GROUP 2 (no hit)   -   248488    1076  651    60.5    0.435      0.328        19.3
+atorvastatin GROUP 2 (no hit)   -   232164    1083  631    58.3    0.471      0.334        17.6
+    imatinib GROUP 2 (no hit)   -    36512    1101  232    21.1     1.37      0.426          32
+ thalidomide GROUP 2 (no hit)   -    32785    1013  157    15.5     1.43      0.403        31.5
+    ixazomib GROUP 2 (no hit)   -    27146     690  155    22.5     1.58       0.46        33.9
+temozolomide GROUP 2 (no hit)   -    17698     671  100    14.9     1.63      0.423          31
+  crizotinib GROUP 2 (no hit)   -    11297     429   51    11.9      1.7      0.379        26.6
+ vemurafenib GROUP 2 (no hit)   -    10747     430   31     7.2      1.6      0.339        23.7
+   erlotinib GROUP 2 (no hit)   -    10631     508   54    10.6     1.68      0.391        30.9
+   gefitinib GROUP 2 (no hit)   -     8065     403   39     9.7     1.79      0.419        30.8
+    afatinib GROUP 2 (no hit)   -     5623     332   31     9.3      1.9      0.483        30.7

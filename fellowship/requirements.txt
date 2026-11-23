@@ -1,0 +1,3 @@
+-r ../verification/source_replay/phases2_5/requirements.txt
+fsspec[http]==2026.9.0
+requests==2.34.2

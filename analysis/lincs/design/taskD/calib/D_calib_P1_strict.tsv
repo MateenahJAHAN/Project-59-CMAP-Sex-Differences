@@ -1,0 +1,201 @@
+panel	term	pseudo	B	n_lines	n_g1	n_g0	n_lineages	n_tested	n_p_lt_005	share_p_lt_005	n_q_lt_01	min_p	panel_stat	panel_p	untested_reasons
+P1	strict	0	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	1	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	2	2000	9	4	5	3	104	6.0	0.057692307692307696	0.0	0.02798600699650175	0.730245213359599	0.5697151424287856	leverage 1 for some line (HC3 undefined): 6; too few lines: 3; singular design (cond=2.68e+16): 1; group with < 2 lines: 1
+P1	strict	3	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.9447274973943601	0.5807096451774113	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	4	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	5	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.02348825587206397	0.9661230421124345	0.5837081459270365	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	6	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	7	2000	9	4	5	3	106	1.0	0.009433962264150943	0.0	0.010994502748625687	0.9440138246541684	0.5062468765617192	leverage 1 for some line (HC3 undefined): 6; too few lines: 3
+P1	strict	8	2000	9	4	5	3	104	12.0	0.11538461538461539	0.0	0.02798600699650175	0.8087448660423533	0.45577211394302847	leverage 1 for some line (HC3 undefined): 6; too few lines: 3; singular design (cond=2.68e+16): 1; group with < 2 lines: 1
+P1	strict	9	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0069965017491254375	1.0015397447028478	0.5882058970514743	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	10	2000	9	4	5	3	103	2.0	0.019417475728155338	0.0	0.010994502748625687	1.6220610090926202	0.559720139930035	leverage 1 for some line (HC3 undefined): 8; too few lines: 3; group with < 2 lines: 1
+P1	strict	11	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.8838611117888533	0.7051474262868566	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	12	2000	9	4	5	3	110	0.0	0.0	0.0	0.07846076961519241	0.9533939381410217	0.5562218890554723	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	13	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02348825587206397	0.916118637411723	0.6106946526736632	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	14	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.8838611117888533	0.7051474262868566	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	15	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	16	2000	9	4	5	3	110	2.0	0.01818181818181818	1.0	0.0004997501249375312	0.960290312000636	0.4012993503248376	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	17	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0399800099950025	0.9292623390153627	0.5792103948025987	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	18	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.029985007496251874	1.0898302603146757	0.3218390804597701	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	19	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.006496751624187906	0.9843683963077031	0.5937031484257871	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	20	2000	9	4	5	3	110	0.0	0.0	0.0	0.06346826586706647	0.9588028344896831	0.6331834082958521	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	21	2000	9	4	5	3	110	0.0	0.0	0.0	0.06346826586706647	0.9588028344896831	0.6331834082958521	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	22	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.03248375812093953	1.070882697504134	0.5037481259370314	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	23	2000	9	4	5	3	110	0.0	0.0	0.0	0.111944027986007	0.9298607589798619	0.5877061469265368	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	24	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.031484257871064465	1.0959277316285156	0.4387806096951524	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	25	2000	9	4	5	3	105	2.0	0.01904761904761905	0.0	0.02348825587206397	0.9644589154814136	0.5047476261869065	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	26	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.02348825587206397	0.9661230421124345	0.5837081459270365	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	27	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.006496751624187906	0.9843683963077031	0.5937031484257871	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	28	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.8838611117888533	0.7051474262868566	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	29	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0069965017491254375	0.8646827037095379	0.7531234382808596	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	30	2000	9	4	5	3	110	0.0	0.0	0.0	0.0704647676161919	0.8808476393586679	0.7216391804097951	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	31	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.029985007496251874	1.0898302603146757	0.3218390804597701	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	32	2000	9	4	5	3	106	1.0	0.009433962264150943	0.0	0.047976011994003	0.8366723069987313	0.7006496751624188	leverage 1 for some line (HC3 undefined): 6; too few lines: 3
+P1	strict	33	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02348825587206397	0.916118637411723	0.6106946526736632	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	34	2000	9	4	5	3	110	0.0	0.0	0.0	0.0704647676161919	0.8808476393586679	0.7216391804097951	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	35	2000	9	4	5	3	106	1.0	0.009433962264150943	0.0	0.010994502748625687	0.9440138246541684	0.5062468765617192	leverage 1 for some line (HC3 undefined): 6; too few lines: 3
+P1	strict	36	2000	9	4	5	3	110	4.0	0.03636363636363636	1.0	0.0004997501249375312	0.9128228948216706	0.671664167916042	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	37	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.029985007496251874	1.0898302603146757	0.3218390804597701	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	38	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02048975512243878	0.9485244017473646	0.6451774112943528	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	39	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.03248375812093953	1.070882697504134	0.5037481259370314	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	40	2000	9	4	5	3	110	2.0	0.01818181818181818	1.0	0.0004997501249375312	0.960290312000636	0.4012993503248376	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	41	2000	9	4	5	3	110	0.0	0.0	0.0	0.06346826586706647	0.9588028344896831	0.6331834082958521	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	42	2000	9	4	5	3	104	2.0	0.019230769230769232	0.0	0.010994502748625687	1.6670885549797168	0.49075462268865566	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	43	2000	9	4	5	3	105	2.0	0.01904761904761905	0.0	0.02348825587206397	0.9644589154814136	0.5047476261869065	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	44	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0069965017491254375	1.0015397447028478	0.5882058970514743	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	45	2000	9	4	5	3	110	1.0	0.00909090909090909	1.0	0.0004997501249375312	1.0731610424389586	0.47226386806596704	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	46	2000	9	4	5	3	110	0.0	0.0	0.0	0.06346826586706647	0.9588028344896831	0.6331834082958521	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	47	2000	9	4	5	3	110	0.0	0.0	0.0	0.0704647676161919	0.8808476393586679	0.7216391804097951	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	48	2000	9	4	5	3	110	0.0	0.0	0.0	0.111944027986007	0.9298607589798619	0.5877061469265368	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	49	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	50	2000	9	4	5	3	110	0.0	0.0	0.0	0.0704647676161919	0.8808476393586679	0.7216391804097951	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	51	2000	9	4	5	3	104	2.0	0.019230769230769232	0.0	0.010994502748625687	1.6670885549797168	0.49075462268865566	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	52	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0069965017491254375	0.8646827037095379	0.7531234382808596	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	53	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.03248375812093953	1.070882697504134	0.5037481259370314	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	54	2000	9	4	5	3	104	2.0	0.019230769230769232	0.0	0.010994502748625687	1.6670885549797168	0.49075462268865566	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	55	2000	9	4	5	3	103	2.0	0.019417475728155338	0.0	0.010994502748625687	1.6220610090926202	0.559720139930035	leverage 1 for some line (HC3 undefined): 8; too few lines: 3; group with < 2 lines: 1
+P1	strict	56	2000	9	4	5	3	110	0.0	0.0	0.0	0.0704647676161919	0.8808476393586679	0.7216391804097951	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	57	2000	9	4	5	3	110	0.0	0.0	0.0	0.07846076961519241	0.9533939381410217	0.5562218890554723	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	58	2000	9	4	5	3	110	0.0	0.0	0.0	0.0704647676161919	0.8808476393586679	0.7216391804097951	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	59	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02048975512243878	0.9485244017473646	0.6451774112943528	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	60	2000	9	4	5	3	110	0.0	0.0	0.0	0.06346826586706647	0.9588028344896831	0.6331834082958521	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	61	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.010994502748625687	1.1505972472856718	0.2898550724637681	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	62	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.031484257871064465	1.0959277316285156	0.4387806096951524	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	63	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.006496751624187906	0.9843683963077031	0.5937031484257871	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	64	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.02348825587206397	0.9661230421124345	0.5837081459270365	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	65	2000	9	4	5	3	110	0.0	0.0	0.0	0.06346826586706647	0.9588028344896831	0.6331834082958521	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	66	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.029985007496251874	1.0898302603146757	0.3218390804597701	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	67	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	68	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02348825587206397	0.916118637411723	0.6106946526736632	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	69	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0069965017491254375	1.0015397447028478	0.5882058970514743	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	70	2000	9	4	5	3	103	2.0	0.019417475728155338	0.0	0.010994502748625687	1.6220610090926202	0.559720139930035	leverage 1 for some line (HC3 undefined): 8; too few lines: 3; group with < 2 lines: 1
+P1	strict	71	2000	9	4	5	3	103	3.0	0.02912621359223301	0.0	0.010994502748625687	1.601902640385131	0.6021989005497251	leverage 1 for some line (HC3 undefined): 8; too few lines: 3; group with < 2 lines: 1
+P1	strict	72	2000	9	4	5	3	103	3.0	0.02912621359223301	0.0	0.010994502748625687	1.601902640385131	0.6021989005497251	leverage 1 for some line (HC3 undefined): 8; too few lines: 3; group with < 2 lines: 1
+P1	strict	73	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.8838611117888533	0.7051474262868566	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	74	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0069965017491254375	0.8646827037095379	0.7531234382808596	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	75	2000	9	4	5	3	106	1.0	0.009433962264150943	0.0	0.010994502748625687	0.9440138246541684	0.5062468765617192	leverage 1 for some line (HC3 undefined): 6; too few lines: 3
+P1	strict	76	2000	9	4	5	3	104	6.0	0.057692307692307696	0.0	0.02798600699650175	0.730245213359599	0.5697151424287856	leverage 1 for some line (HC3 undefined): 6; too few lines: 3; singular design (cond=2.68e+16): 1; group with < 2 lines: 1
+P1	strict	77	2000	9	4	5	3	110	0.0	0.0	0.0	0.111944027986007	0.9298607589798619	0.5877061469265368	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	78	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.031484257871064465	1.0959277316285156	0.4387806096951524	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	79	2000	9	4	5	3	104	2.0	0.019230769230769232	0.0	0.010994502748625687	1.6670885549797168	0.49075462268865566	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	80	2000	9	4	5	3	104	6.0	0.057692307692307696	0.0	0.02798600699650175	0.730245213359599	0.5697151424287856	leverage 1 for some line (HC3 undefined): 6; too few lines: 3; singular design (cond=2.68e+16): 1; group with < 2 lines: 1
+P1	strict	81	2000	9	4	5	3	110	0.0	0.0	0.0	0.06346826586706647	0.9588028344896831	0.6331834082958521	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	82	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0069965017491254375	0.8646827037095379	0.7531234382808596	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	83	2000	9	4	5	3	104	6.0	0.057692307692307696	0.0	0.02798600699650175	0.730245213359599	0.5697151424287856	leverage 1 for some line (HC3 undefined): 6; too few lines: 3; singular design (cond=2.68e+16): 1; group with < 2 lines: 1
+P1	strict	84	2000	9	4	5	3	104	12.0	0.11538461538461539	0.0	0.02798600699650175	0.8087448660423533	0.45577211394302847	leverage 1 for some line (HC3 undefined): 6; too few lines: 3; singular design (cond=2.68e+16): 1; group with < 2 lines: 1
+P1	strict	85	2000	9	4	5	3	110	1.0	0.00909090909090909	1.0	0.0004997501249375312	1.0731610424389586	0.47226386806596704	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	86	2000	9	4	5	3	105	2.0	0.01904761904761905	0.0	0.02348825587206397	0.9644589154814136	0.5047476261869065	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	87	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.03248375812093953	1.070882697504134	0.5037481259370314	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	88	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.006496751624187906	0.9843683963077031	0.5937031484257871	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	89	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.010994502748625687	1.1505972472856718	0.2898550724637681	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	90	2000	9	4	5	3	104	5.0	0.04807692307692308	2.0	0.0004997501249375312	1.603610176596835	0.616191904047976	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	91	2000	9	4	5	3	110	0.0	0.0	0.0	0.07846076961519241	0.9533939381410217	0.5562218890554723	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	92	2000	9	4	5	3	106	1.0	0.009433962264150943	0.0	0.010994502748625687	0.9440138246541684	0.5062468765617192	leverage 1 for some line (HC3 undefined): 6; too few lines: 3
+P1	strict	93	2000	9	4	5	3	105	2.0	0.01904761904761905	0.0	0.02348825587206397	0.9644589154814136	0.5047476261869065	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	94	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.029985007496251874	1.0898302603146757	0.3218390804597701	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	95	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.029985007496251874	1.0898302603146757	0.3218390804597701	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	96	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.031484257871064465	1.0959277316285156	0.4387806096951524	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	97	2000	9	4	5	3	104	2.0	0.019230769230769232	0.0	0.010994502748625687	1.6670885549797168	0.49075462268865566	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	98	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.8838611117888533	0.7051474262868566	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	99	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02348825587206397	0.916118637411723	0.6106946526736632	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	100	2000	9	4	5	3	104	12.0	0.11538461538461539	0.0	0.02798600699650175	0.8087448660423533	0.45577211394302847	leverage 1 for some line (HC3 undefined): 6; too few lines: 3; singular design (cond=2.68e+16): 1; group with < 2 lines: 1
+P1	strict	101	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0399800099950025	0.9292623390153627	0.5792103948025987	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	102	2000	9	4	5	3	110	2.0	0.01818181818181818	1.0	0.0004997501249375312	0.960290312000636	0.4012993503248376	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	103	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.01999000499750125	0.8807672965916791	0.719640179910045	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	104	2000	9	4	5	3	105	4.0	0.0380952380952381	1.0	0.0004997501249375312	1.0808187692207676	0.3698150924537731	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	105	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02048975512243878	0.9485244017473646	0.6451774112943528	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	106	2000	9	4	5	3	105	4.0	0.0380952380952381	1.0	0.0004997501249375312	1.0808187692207676	0.3698150924537731	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	107	2000	9	4	5	3	110	2.0	0.01818181818181818	1.0	0.0004997501249375312	0.960290312000636	0.4012993503248376	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	108	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.010994502748625687	1.1505972472856718	0.2898550724637681	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	109	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.01999000499750125	0.8807672965916791	0.719640179910045	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	110	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0069965017491254375	0.8646827037095379	0.7531234382808596	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	111	2000	9	4	5	3	103	3.0	0.02912621359223301	0.0	0.010994502748625687	1.601902640385131	0.6021989005497251	leverage 1 for some line (HC3 undefined): 8; too few lines: 3; group with < 2 lines: 1
+P1	strict	112	2000	9	4	5	3	110	0.0	0.0	0.0	0.05147426286856572	0.9445607552871523	0.6411794102948526	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	113	2000	9	4	5	3	110	1.0	0.00909090909090909	1.0	0.0004997501249375312	1.0731610424389586	0.47226386806596704	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	114	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02048975512243878	0.9485244017473646	0.6451774112943528	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	115	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.006496751624187906	0.9843683963077031	0.5937031484257871	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	116	2000	9	4	5	3	110	0.0	0.0	0.0	0.111944027986007	0.9298607589798619	0.5877061469265368	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	117	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	118	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.8838611117888533	0.7051474262868566	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	119	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.02348825587206397	0.9661230421124345	0.5837081459270365	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	120	2000	9	4	5	3	105	2.0	0.01904761904761905	0.0	0.02348825587206397	0.9644589154814136	0.5047476261869065	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	121	2000	9	4	5	3	103	2.0	0.019417475728155338	0.0	0.010994502748625687	1.6220610090926202	0.559720139930035	leverage 1 for some line (HC3 undefined): 8; too few lines: 3; group with < 2 lines: 1
+P1	strict	122	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02048975512243878	0.9485244017473646	0.6451774112943528	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	123	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02348825587206397	0.916118637411723	0.6106946526736632	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	124	2000	9	4	5	3	110	1.0	0.00909090909090909	1.0	0.0004997501249375312	1.0731610424389586	0.47226386806596704	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	125	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.02348825587206397	0.9661230421124345	0.5837081459270365	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	126	2000	9	4	5	3	104	5.0	0.04807692307692308	2.0	0.0004997501249375312	1.603610176596835	0.616191904047976	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	127	2000	9	4	5	3	105	4.0	0.0380952380952381	1.0	0.0004997501249375312	1.0808187692207676	0.3698150924537731	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	128	2000	9	4	5	3	106	1.0	0.009433962264150943	0.0	0.047976011994003	0.8366723069987313	0.7006496751624188	leverage 1 for some line (HC3 undefined): 6; too few lines: 3
+P1	strict	129	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.010994502748625687	0.8867808289487408	0.45177411294352826	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	130	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	131	2000	9	4	5	3	110	0.0	0.0	0.0	0.07846076961519241	0.9533939381410217	0.5562218890554723	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	132	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	133	2000	9	4	5	3	110	0.0	0.0	0.0	0.06546726636681659	0.8568307416971164	0.7671164417791104	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	134	2000	9	4	5	3	110	2.0	0.01818181818181818	1.0	0.0004997501249375312	0.960290312000636	0.4012993503248376	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	135	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02348825587206397	0.916118637411723	0.6106946526736632	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	136	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.9447274973943601	0.5807096451774113	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	137	2000	9	4	5	3	110	2.0	0.01818181818181818	1.0	0.0004997501249375312	0.960290312000636	0.4012993503248376	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	138	2000	9	4	5	3	110	0.0	0.0	0.0	0.07846076961519241	0.9533939381410217	0.5562218890554723	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	139	2000	9	4	5	3	110	0.0	0.0	0.0	0.05147426286856572	0.9445607552871523	0.6411794102948526	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	140	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.03248375812093953	1.070882697504134	0.5037481259370314	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	141	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.01999000499750125	0.8807672965916791	0.719640179910045	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	142	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.9447274973943601	0.5807096451774113	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	143	2000	9	4	5	3	105	4.0	0.0380952380952381	1.0	0.0004997501249375312	1.0808187692207676	0.3698150924537731	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	144	2000	9	4	5	3	110	0.0	0.0	0.0	0.0704647676161919	0.8808476393586679	0.7216391804097951	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	145	2000	9	4	5	3	104	2.0	0.019230769230769232	0.0	0.010994502748625687	1.6670885549797168	0.49075462268865566	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	146	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	147	2000	9	4	5	3	104	12.0	0.11538461538461539	0.0	0.02798600699650175	0.8087448660423533	0.45577211394302847	leverage 1 for some line (HC3 undefined): 6; too few lines: 3; singular design (cond=2.68e+16): 1; group with < 2 lines: 1
+P1	strict	148	2000	9	4	5	3	110	0.0	0.0	0.0	0.111944027986007	0.9298607589798619	0.5877061469265368	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	149	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.029985007496251874	1.0898302603146757	0.3218390804597701	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	150	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.9447274973943601	0.5807096451774113	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	151	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.8838611117888533	0.7051474262868566	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	152	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.0399800099950025	0.9292623390153627	0.5792103948025987	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	153	2000	9	4	5	3	104	5.0	0.04807692307692308	2.0	0.0004997501249375312	1.603610176596835	0.616191904047976	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	154	2000	9	4	5	3	103	3.0	0.02912621359223301	0.0	0.010994502748625687	1.601902640385131	0.6021989005497251	leverage 1 for some line (HC3 undefined): 8; too few lines: 3; group with < 2 lines: 1
+P1	strict	155	2000	9	4	5	3	110	0.0	0.0	0.0	0.06346826586706647	0.9588028344896831	0.6331834082958521	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	156	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.006496751624187906	0.9843683963077031	0.5937031484257871	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	157	2000	9	4	5	3	103	2.0	0.019417475728155338	0.0	0.010994502748625687	1.6220610090926202	0.559720139930035	leverage 1 for some line (HC3 undefined): 8; too few lines: 3; group with < 2 lines: 1
+P1	strict	158	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.031484257871064465	1.0959277316285156	0.4387806096951524	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	159	2000	9	4	5	3	104	2.0	0.019230769230769232	0.0	0.010994502748625687	1.6670885549797168	0.49075462268865566	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	160	2000	9	4	5	3	109	1.0	0.009174311926605505	0.0	0.031484257871064465	1.0959277316285156	0.4387806096951524	too few lines: 3; leverage 1 for some line (HC3 undefined): 2; group with < 2 lines: 1
+P1	strict	161	2000	9	4	5	3	110	4.0	0.03636363636363636	1.0	0.0004997501249375312	0.9128228948216706	0.671664167916042	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	162	2000	9	4	5	3	106	1.0	0.009433962264150943	0.0	0.047976011994003	0.8366723069987313	0.7006496751624188	leverage 1 for some line (HC3 undefined): 6; too few lines: 3
+P1	strict	163	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	164	2000	9	4	5	3	110	0.0	0.0	0.0	0.07846076961519241	0.9533939381410217	0.5562218890554723	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	165	2000	9	4	5	3	110	0.0	0.0	0.0	0.07846076961519241	0.9533939381410217	0.5562218890554723	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	166	2000	9	4	5	3	106	1.0	0.009433962264150943	0.0	0.047976011994003	0.8366723069987313	0.7006496751624188	leverage 1 for some line (HC3 undefined): 6; too few lines: 3
+P1	strict	167	2000	9	4	5	3	110	0.0	0.0	0.0	0.06346826586706647	0.9588028344896831	0.6331834082958521	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	168	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.02348825587206397	0.9661230421124345	0.5837081459270365	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	169	2000	9	4	5	3	110	4.0	0.03636363636363636	1.0	0.0004997501249375312	0.9128228948216706	0.671664167916042	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	170	2000	9	4	5	3	106	1.0	0.009433962264150943	0.0	0.010994502748625687	0.9440138246541684	0.5062468765617192	leverage 1 for some line (HC3 undefined): 6; too few lines: 3
+P1	strict	171	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.029985007496251874	1.0898302603146757	0.3218390804597701	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	172	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.02048975512243878	0.9485244017473646	0.6451774112943528	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	173	2000	9	4	5	3	110	4.0	0.03636363636363636	1.0	0.0004997501249375312	0.9128228948216706	0.671664167916042	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	174	2000	9	4	5	3	110	0.0	0.0	0.0	0.111944027986007	0.9298607589798619	0.5877061469265368	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	175	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	176	2000	9	4	5	3	110	0.0	0.0	0.0	0.06546726636681659	0.8568307416971164	0.7671164417791104	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	177	2000	9	4	5	3	110	0.0	0.0	0.0	0.06346826586706647	0.9588028344896831	0.6331834082958521	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	178	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.01999000499750125	0.8807672965916791	0.719640179910045	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	179	2000	9	4	5	3	110	0.0	0.0	0.0	0.07846076961519241	0.9533939381410217	0.5562218890554723	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	180	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.01999000499750125	0.8807672965916791	0.719640179910045	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	181	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.006496751624187906	0.9843683963077031	0.5937031484257871	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	182	2000	9	4	5	3	104	5.0	0.04807692307692308	2.0	0.0004997501249375312	1.603610176596835	0.616191904047976	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	183	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	184	2000	9	4	5	3	110	0.0	0.0	0.0	0.05147426286856572	0.9445607552871523	0.6411794102948526	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	185	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.038980509745127435	0.8838611117888533	0.7051474262868566	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	186	2000	9	4	5	3	105	2.0	0.01904761904761905	0.0	0.02348825587206397	0.9644589154814136	0.5047476261869065	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	187	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.010994502748625687	1.1505972472856718	0.2898550724637681	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	188	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.02348825587206397	0.9661230421124345	0.5837081459270365	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	189	2000	9	4	5	3	104	5.0	0.04807692307692308	2.0	0.0004997501249375312	1.603610176596835	0.616191904047976	leverage 1 for some line (HC3 undefined): 7; too few lines: 3; group with < 2 lines: 1
+P1	strict	190	2000	9	4	5	3	110	0.0	0.0	0.0	0.111944027986007	0.9298607589798619	0.5877061469265368	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	191	2000	9	4	5	3	110	2.0	0.01818181818181818	0.0	0.02348825587206397	0.9661230421124345	0.5837081459270365	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	192	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	193	2000	9	4	5	3	110	0.0	0.0	0.0	0.07846076961519241	0.9533939381410217	0.5562218890554723	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	194	2000	9	4	5	3	105	2.0	0.01904761904761905	0.0	0.02348825587206397	0.9644589154814136	0.5047476261869065	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
+P1	strict	195	2000	9	4	5	3	110	1.0	0.00909090909090909	0.0	0.010994502748625687	0.8867808289487408	0.45177411294352826	too few lines: 3; leverage 1 for some line (HC3 undefined): 2
+P1	strict	196	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	197	2000	9	4	5	3	110	4.0	0.03636363636363636	0.0	0.006496751624187906	0.9843683963077031	0.5937031484257871	too few lines: 3; group with < 2 lines: 1; leverage 1 for some line (HC3 undefined): 1
+P1	strict	198	2000	9	4	5	3	0							leverage 1 for some line (HC3 undefined): 104; singular design (cond=2.11e+16): 4; too few lines: 3; group with < 2 lines: 1; singular design (cond=3.67e+16): 1; singular design (cond=1.75e+17): 1; singular design (cond=2.68e+16): 1
+P1	strict	199	2000	9	4	5	3	105	4.0	0.0380952380952381	1.0	0.0004997501249375312	1.0808187692207676	0.3698150924537731	leverage 1 for some line (HC3 undefined): 7; too few lines: 3
